@@ -1,0 +1,107 @@
+![Blenderizer](https://3dkrender.com/wp-content/uploads/2021/05/3DK_LOGO_400x120.png)
+
+# 3Dk Render WAX Guild - July Report
+
+## Technical Operations
+
+- Our Hyperion service suffered a disk failure and due to the speed of data growth we are expanding the cluster. At the moment the service is not fully operational due to a lack of synchronised blocks.
+- Our Atomic API service was damaged and it has been necessary to reindex its content. We are currently synchronising 2 servers to provide redundancy behind a load balancer.
+- Our Mainnet production nodes (main and auxiliary) showed some anomalies in the clustering of transactions in the first blocks of each round on 18 August. There were no block losses but the first blocks were delivered empty and transactions were accumulated in the blocks immediately after. After making some adjustments and upgrading the Nodeos version from 2.0.9 to 2.0.12 the problem was resolved.
+- Our services on Testnet are operating normally (History V1 and producer).
+
+## Product Developmet
+
+### Rada Quest (Trading Card Game)
+
+In September, just after the holidays, we will be releasing a new collection of limited edition Game Art NFTs to accompany the release of the first part of the game.
+
+The collection will be preminted and in the form of shards that must be combined to obtain a final NFT from the various models available. The shards will be sold as drops from AtomicHub.
+
+For this collection, we have included a series of illustrations created by the illustrator [Gris-Visa](https://www.instagram.com/gris.visa) (México), who has created her own version of the original characters in her personal artistic style.
+
+![New Collection](https://3dkrender.com/wp-content/uploads/2021/08/cutecollection.jpg)
+
+**The first phase of the game will include (September)**
+
+- a mini-game for resource generation
+- Inventory
+- Sale for special Game Art edition
+- Pack opening system
+- Shard fusion system
+
+**The second phase of the game will include (Q4 2021)**
+
+- Sale for game cards
+- Building production system
+- Card enhancement and evolution system.
+- Internal market-place
+
+**The third phase will include (Q1 2022)**
+
+- Quests and events system
+- PVP
+
+### React Template for WAX (OpenSource)
+
+For the didactic purpose of facilitating the adoption of WAX by the developer community, we have released the source code of a basic web template for the creation of a website.
+
+[https://github.com/3dkrender/wax_react_template](https://github.com/3dkrender/wax_react_template)
+
+The template includes the UAL login system and consists of a landing page and several sub-pages that are only activated once logged in.
+
+As an example, an RPC call has been included to perform a transaction from the website.
+
+The template is built with React + Redux
+
+- Dependencies for WAX
+-- @eosdacio/ual-wax
+-- ual-anchor
+-- ual-plainjs-renderer
+-- anchor-link
+- Dependencies for React routes
+-- react-router-dom
+- Global state dependencies
+-- redux
+-- react-redux
+-- @reduxjs/toolkit
+- Style and design dependencies
+-- bootstrap
+-- glamor
+- Help dependencies
+-- lodash
+
+![template](https://3dkrender.com/wp-content/uploads/2021/08/image.png)
+
+### Blenderizer
+
+We feel it is necessary to point out the immense impact our smart contract Blenderizer (open source) has on the WAX community.
+
+To date, we have counted more than 800 collections that have authorized our smart contract for blending.
+In the last 30 days more than 120,000 contract calls have been made and more than 650,000 NFTs have been burnt (about 10% from total minted in same time by atomicassets)
+This smart contract, focused on gamification and scarcity for the supply of NFTs, is a great **strategic contribution as NFT solution**.
+
+Our team is also constantly supporting the development of customized variants for other projects through our Telegram and [Discord](https://discord.gg/3dkrender) channels.
+
+## Community Engagement
+
+Through the podcast, we have taught our community to know and understand how the actions of smart contracts work and how APIs work.
+
+We plan to expand the voice of our podcast outside of discord for more participation and new discovery of the community on platforms such as twitch.tv (we are organizing the logistics to carry it out)
+
+Articles this month, explaining the evolution of NFTs and projects like Holdgod can be seen in our blog
+
+[https://3dkrender.com/en/hodlgod-the-first-battle-royale-on-the-blockchain](https://3dkrender.com/en/hodlgod-the-first-battle-royale-on-the-blockchain)
+
+CRISTALLA COLABORATIONS:
+Twitter
+@warriorNFT @TokenGirlsLV @SnkrsWax
+
+Youtube
+@SnkrsWax @warriorNFT
+
+SnkrsWax has made a Cristalla NFT base
+[https://wax.atomichub.io/explorer/template/waxsneakkers/228642](https://wax.atomichub.io/explorer/template/waxsneakkers/228642)
+
+Cristalla is now part of the influencers server in the uplift world with a plot on “Thoon”
+
+
