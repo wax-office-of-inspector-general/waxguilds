@@ -4,7 +4,7 @@ niftylifewax
 
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
-We have been running mainnet and testnet producer nodes and seperate mainnet and testnet RPC API's. Testnet producer was voted in and has been producing since August 24th, 2021. CPU/block uptime issues were on the first day of production as I was testing out different configurations, building bash scripts, registering and deregistering my producer.
+We have been running mainnet and testnet producer nodes and seperate mainnet and testnet RPC API's. Testnet producer has been producing since August 24th, 2021. CPU/block uptime issues were on the first day of production as I was testing out different configurations, building bash scripts, registering and deregistering my producer.
 
 - CPU latency average 0.245 (1 month testnet)
 - Round availability uptime 99.5+ (1 month testnet bp node)
@@ -20,7 +20,7 @@ Product #1 Waxstash Marketplace. Launched June 2020 Waxstash has grown to be a f
 -  Single or bundled quick p2p NFT transfers or the ability to view detailed information about the assets before transfer.
 -  A wallet UI panel where (1) supported currencies can be transferred to other accounts, (2) and users can view their RAM/CPU/NET usage. Plans to add the ability to buy RAM or stake/unstake CPU/NET from within this UI.
 -  Above features work for both Simpelassets and Atomicassets NFTs so users don't have to understand or worry about the difference.
--  Roadmap: We currently load fullsize NFT images/video from our own ipfs gateway. We have gotten away with this however as WAX has grown so have the images and bandwidth. Waxstash might be unusable for users with slower clients. Therefore, we are building a seperate server to grab and resize all images and videos for Waxstash. This is expected to ready within two weeks.
+-  Roadmap: We currently load fullsize NFT images/video from our own ipfs gateway. We have gotten away with this however as WAX has grown so have the images and bandwidth thus Waxstash might be unusable for users with slower clients. Therefore, we are building a seperate server to grab and resize all images and videos for Waxstash. This will greatly improve the speed of our marketplace and is expected to ready within two weeks. Smart contract updates to use boost.wax noop coming soon.
 -  https://waxstash.com/markets
 
 Product #2 NFT Pack Breaks. Launched September 2020 our exclusive Pack Breaks allow users to split pack ownership by either selling thier packs into slots, or by buying slots in a listed pack. Each slot represents (1) NFT that is pulled from the pack once it opens. I have continually worked to maintain and improve Pack Breaks to include the following:
@@ -41,12 +41,32 @@ Product #3 P2P Escrow Service. Launched March 2021 this is a smart contract to h
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
 
-Yes
+NFT Projects have requested a service whereby they could add thier NFT Packs to Pack Breaks either as a service we provide for a fee or software allowing them to add support for packs. There is nothing being worked on at this time but we will be brainstorming whether or not this could be done and if so how best to implement it.
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 
-Yes
+Twitter
+- Waxstash | 2731 Followers | 6.6k Organic Impressions last 28 days | https://twitter.com/waxstash
+- NiFTyLIFE | New account | 42 Followers | https://twitter.com/NIFTYLIFE_io
+
+
+Telegram
+- Waxstash Channel | 616 Members | Waxstash also serves as admin to serveral project channels and spends time onboarding users, answering questions and maintaining the channels | https://t.me/packbreaks
+- NiFTyLIFE Channel | New | https://t.me/niftylife_io
+
+Discord
+- NiFTyLIFE will establish a new paid discord this month. Will provide multiple servers covering support, markets, pack breaks and additional topics that are particular to our unique tools and services.
+- Roy | Waxstash spends time on discord servers for WAX (as verified project rep) and WAX Projects helping to onboard new users, to answer questions, and to participate as a buyer of new NFT Projects.
+
+Medium
+- New account. Initial blog post created. Next blog post within a couple days to write up our first Guild submission.
+- All Medium blog posts will also stream to the blog section of our website niftylife.io.
+- https://medium.com/@niftylife
+
+## WAX Strategic Contributions
+
+
 
 ## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
 
-Yes
+No feedback at this time.
