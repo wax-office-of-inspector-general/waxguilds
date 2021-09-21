@@ -7,9 +7,9 @@ BlokCrafters
 Our Atomic API service ran well this past month.  Our Hyperion service is now also doing well running on new servers.  It is fully up to date
 with all history and is staying close to head (within a few blocks).  Some work is continuing on our Hyperion servers to provide a
 service that is both easier for us to maintain and provide better reliability and performance.  Our peer nodes and ship nodes have all seen
-a reliability boost from a hardware refresh.  The block producers nodes have been running very well for quite some time now - we last missed a round
+a reliability boost from a hardware refresh.  The block producer nodes have been running very well for quite some time now - we last missed a round
 on Mainnet and Testnet back in March of 2021 (Source: EOSNation Validator).
-This coming month will see us finishing work on our Mainnet Hyperion service and then starting to provide Hyperion on testnet again.
+This coming month will see us finishing work on our Mainnet Hyperion service and then starting to provide Hyperion on Testnet again.
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
