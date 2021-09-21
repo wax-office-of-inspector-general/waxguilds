@@ -4,6 +4,12 @@ BlokCrafters
 
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
+Our Atomic API service ran well this past month.  Our Hyperion service is now also doing well running on new servers.  It is fully up to date
+with all history and is staying close to head (within a few blocks).  Some work is continuing on our Hyperion servers to provide a
+service that is both easier for us to maintain and provide better reliability and performance.  Our peer nodes and ship nodes have all seen
+a reliability boost from a hardware refresh.  The block producers nodes have been running very well for quite some time now - we last missed a round
+on Mainnet and Testnet back in March of 2021 (Source: EOSNation Validator).
+This coming month will see us finishing work on our Mainnet Hyperion service and then starting to provide Hyperion on testnet again.
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
@@ -72,4 +78,7 @@ https://www.youtube.com/watch?v=t_kNK-y5CYw
 
 ## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
 
-Nothing further at this time.
+We would like to ask the OIG to consider awarding points to guilds for providing critical services for Testnet.
+Especially in the area of the APIs necessary for a functioning blockchain - History (V1, Hyperion, Atomic).
+We understand that due to the nature of testnet being for testing that awarding points for reliable block production
+would be counter-intuitive.
