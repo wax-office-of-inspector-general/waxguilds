@@ -13,7 +13,7 @@ https://github.com/blokcrafters/public-projects/blob/master/waxmon.md
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
 
-We have launched a NFT Launch Studio to help creatives & brands navigate the NFT ecosystem, we have our first collection we are actively helping build atm also, check out our website. nftorigins.io 
+We have launched a NFT Launch Studio to help creatives & brands navigate the NFT ecosystem, we have our first collection we are actively helping build atm also, check out our website. nftorigins.io / collection site tangiblenfts.io 
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 
@@ -26,7 +26,7 @@ Distribution of our content is shared with Discord, Twitter, Telegram, and Youtu
 + https://twitter.com/Lhubb94
 
 Our team published our monthly review article and shared it on our social media in a digestible format for the community.  
-It is at: 
+It is at: https://twitter.com/blokcrafters/status/1440384180227960834
 
 1. $NEFTY Token Sale From NeftyBlocks
 https://www.youtube.com/watch?v=a3nO2j5yCwc
