@@ -13,7 +13,7 @@ https://github.com/blokcrafters/public-projects/blob/master/waxmon.md
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
 
-We have launched a NFT Launch Studio to help creatives & brands navigate the NFT ecosystem, we have our first collection we are actively helping build atm also, check out our website. nftorigins.io / collection site tangiblenfts.io 
+We have launched a NFT Launch Studio to help creatives & brands navigate the NFT ecosystem, we have our first collection we are actively helping build atm also, check out our website. https://nftorigins.io/ / collection site https://tangiblenfts.io/#/home
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 
