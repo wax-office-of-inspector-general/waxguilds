@@ -1,6 +1,6 @@
 ## What is the name of your Guild?
 
-NiFTyLIFE producer account = niftylifewax
+niftylifewax
 
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
