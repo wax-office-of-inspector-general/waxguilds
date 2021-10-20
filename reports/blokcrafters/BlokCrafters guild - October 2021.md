@@ -23,8 +23,9 @@ Distribution of our content is shared with Discord, Twitter, Telegram, and Youtu
 https://twitter.com/nftorigins_io
 + https://twitter.com/fintechquity
 + https://twitter.com/Lhubb94
+
 Our team published our monthly review article and shared it on our social media in a digestible format for the community.
-It is at:
+It is at: https://blokcrafters21.medium.com/wax-guild-blokcrafters-month-of-october-development-overview-cbedf1a00943
 1. Space Heroes: Play to Earn NFT Game
 https://www.youtube.com/watch?v=hz0As2kUf-c&t=5s
 1. WAX Arena Battle Game Update
