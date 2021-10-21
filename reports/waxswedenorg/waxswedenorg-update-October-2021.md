@@ -30,6 +30,10 @@ Progress on the big wax beginner course:
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 Lately there has been a lot of new NFT projects coming to WAX, many has reached out for tips, guidelines and to get help with marketing in the WAX community.
 
+We have posted a public guild update for the community as well.
+https://waxsweden.org/october-guild-update/
+It's a brief summary of our work as well as a bit of awareness of the WAX Defi system.
+
 Anyobservation Social numbers last 28 days
 ### YouTube:
 Subs: 3293 (+67)
