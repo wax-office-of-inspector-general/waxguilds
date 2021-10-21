@@ -59,3 +59,6 @@ https://www.youtube.com/watch?v=DLQyUUr1KXE
 1. 5 Ways to Buy WAXP 2021
 https://www.youtube.com/watch?v=riLs3wmyUKQ
 ## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+Just a one-time repeat from last month:
+
+We would like to ask the OIG to consider awarding points to guilds for providing critical services for Testnet. Especially in the area of the APIs necessary for a functioning blockchain - History (V1, Hyperion, Atomic). We understand that due to the nature of testnet being for testing that awarding points for reliable block production would be counter-intuitive.
