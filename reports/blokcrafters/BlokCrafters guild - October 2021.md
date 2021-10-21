@@ -1,7 +1,13 @@
 ## What is the name of your Guild?
 BlokCrafters
+
 ## Does your Guild have any new information to submit that impacts Technical Operations?
--
+
+This month we got our Hyperion service running on Testnet once again and it is now also up to date.
+Plans for the coming month include getting Atomic API running for Testnet, upgrading nodeos everywhere
+to nodeos v2.0.13 (this has already started), and continuing to work on the projects that we
+have in development.
+
 ## Does your Guild have any new information to submit that impacts Product Development?
 + Please Check ig@wax.io for the MyNifties update.
 + Not eligible for points until released ( Under Development ) "WAXMon"
@@ -13,6 +19,7 @@ https://twitter.com/tangiblenfts/status/1448355829036589061
 October 29th @3pm EST.
 Banner space schechuled on atomichub for the day of the 29th.
 Check IG email for further confidential information.
+
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 ###### Creation of original informational content or translation that benefits WAX. (0 to 3)
 Distribution of our content is shared with Discord, Twitter, Telegram, and Youtube on the channels listed below
@@ -58,6 +65,7 @@ https://www.youtube.com/watch?v=VW2oGZ85_Hg&t=2s
 https://www.youtube.com/watch?v=DLQyUUr1KXE
 1. 5 Ways to Buy WAXP 2021
 https://www.youtube.com/watch?v=riLs3wmyUKQ
+
 ## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
 Just a one-time repeat from last month:
 
