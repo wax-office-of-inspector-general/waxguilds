@@ -42,8 +42,14 @@ https://www.youtube.com/watch?v=LZFlvYcHUFU&t=1225s
 https://www.youtube.com/watch?v=NvrRLP8KjuY
 1. Blockchain Brawlers Play to earn game on WAX!
 https://www.youtube.com/watch?v=AnTKkJSS9xA
+
 ###### Running Marketing Campaigns or Hosting Events. (0 to 3)
 + We host a twitter space every week on sunday at 8:30pm est for anyone in the WAX community to join, our most recent twitter space was for gaming on WAX & we had 60 participants. 11 speakers & 49 listeners, many were project reps on WAX.
+
+![WAX Community Call #2: Gaming on WAX](Images/CC2-GamingOnWAX-Nov2021.jpg)
+![BlokCrafters Twitter Analytics](Images/earWAXAnalytics-Nov2021.jpg)
+![BlokCrafters YouTube Channel Analytics](Images/BC-CA-Nov2021.jpg)
+
 ###### Building and supporting community tools (i.e. telegram bots). (0 to 2)
 
 WAXwhaleAlert
