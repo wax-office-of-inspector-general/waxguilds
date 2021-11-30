@@ -3,7 +3,11 @@ BlokCrafters
 
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
-
+We added several new servers this month to help with infrastructure.
++ New Elastic Search server for the Hyperion cluster
++ New Ship Node
++ New dedicated snapshot server
++ New dedicated server for Testnet Hyperion service
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 + We are pleased to announce MyNifties official release, available to download on the IOS app store. https://apps.apple.com/us/app/mynifties/id1584284510 
