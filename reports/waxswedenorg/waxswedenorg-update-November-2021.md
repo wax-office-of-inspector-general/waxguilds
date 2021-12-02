@@ -11,9 +11,6 @@ waxswedenorg
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
-- EOSIO API healthcheck tool for haproxy https://github.com/eosswedenorg/eosio-api-healthcheck
-This program implements EOSIO healthcheck for HAProxy over TCP to get response status codes Up, Down, Failed, Maintainance, Ready and stopped.
-
 ### The Academy
 - The softlaunch of the first course on the academy is now public, It's a soft launch because there are still a few aspects to add before it's fully launched. That includes details on the WAX Defi model, wax governance and a few other higher level items. As well as video walkthrough of multiple of the lessons for people to understand it more easily.
 
@@ -23,7 +20,7 @@ This program implements EOSIO healthcheck for HAProxy over TCP to get response s
 We have also started to build out an educational course on how to avoid scams and hacks when buying NFTs.
 
 ### An updated eosio bootable USB
-- https://github.com/eosswedenorg/eosio-livecd/releases/tag/v0.5
+- https://github.com/eosswedenorg/eosio-livecd/releases/tag/20.04-focal-01
 Direct download:
 - https://files.eossweden.org/eosio-livecd/eosio-live-20.04.iso
 Welcome to eosio livecd.
