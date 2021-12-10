@@ -1,29 +1,2 @@
 ## What is the name of your Guild?
 
-EOS Rio (eosriobrazil)
-
-## Does your Guild have any new information to submit that impacts Technical Operations?
-
-On the technical side of thing we keep focused on serving robust API endpoints for WAX users/developers and working with those developers to rationalize API calls and make sure the infrastructure is not overwhelmed with frivulous calls. This led to the creation of specific endpoints focused on transaction lifecycle (check_transaction) and the development of a custom index module that will allow developers to create custom indexes for specific contracts (i.e. Atomic Assets endpoint)
-
-BP operation keeps evolving, especially focusing on fallbacks and alerts since EOS Rio experienced an outage of production that the monitoring failed to address at the time. Despite not driving our performance below minimum or secondary requirements it certainly impacted the network and was not taken lightly as we evolved our processes around it. 
-
-## Does your Guild have any new information to submit that impacts Product Development?
-
-Hyperion keeps evolving considering some specific WAX needs such as the custom indexing used to serve Atomic Assets API, as weel as improving performance to deal with the growing usage of WAX. We keep on supporting multiple teams using Hyperion
-
-SIMPLEOS Wallet have been stable for quite some time and continue to be used by the WAX community and supported by EOS Rio.
-
-## Does your Guild have any new information to submit that impacts Ecosystem Development?
-
-Block4 is currently the biggest NFT seller in Brazil. Developed by EOS Rio's team the company provides an white label NFT platform currently operating the NFT marketplace for car collector and content producer Alexandre Badolato (https://agbadolato.tibs.app/main). Badolato have launched 4 NFTs representing different cars in the collection and sold more than 500 units. Block4 have signed contracts with othe content creators, soccer clubs and artists. 
-
-Other than developing businesses we keep constant conversations with some of the biggest crypto exchanges in Brazil, but had no major developments to report.
-
-## Does your Guild have any new information to submit that impacts Community Engagement?
-
-Since June we have decided to shift strategy from a news session on our website for a youtube channel focusing on blockchain gaming, especially play to earn with content in portuguese. The channel achieves around 10.000 views per video and currently have around 2.000 subscribers. The channel is not WAX specific but we use it to advertise WAX for the brazilian blockchain gaming community. 
-
-## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
-
-Thank you for the great work!
