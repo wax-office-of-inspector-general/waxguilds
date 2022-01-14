@@ -1,0 +1,64 @@
+What is the name of your Guild?
+WAXUSA
+
+Does your Guild have any new information to submit that impacts Technical Operations?
+December was filled with working to get all the new hardware up and in place.  In order to help accommodate all the rapid data growth with the chain data, we completed the following upgrades:
+* Added additional API server to cluster to handle additional loads
+* Added backup StateHist server to help provide redundancy for services requiring it
+* Added 8TB RAID1 SSD arrays to all StateHist servers to handle the 4+TB of current data (which grows about 17GB daily)
+* Upgraded primary Hyperion server with 15TB RAID5 SSD array to begin storing all chain history (vs. trimmed recent history)
+* Added backup Hyperion server (also with 15TB SSD array) to provide completely independent redundancy of our Hyperion services (currently testing out EOSphere's hyperion DB sync with it)
+* Successfully (after 2 months of fighting) was able to get the full blocks and statehist files synced locally and working to get all nodes repopulated with the full logs (vs. trimmed logs)
+* The internal AtomicAssets API indexer built and running, but sadly even on a 10th gen i9, it cannot process blocks faster than 4b/s (due to Postgres single-threading), so it's going to be another battle to get that fully synced back up.
+
+Does your Guild have any new information to submit that impacts Product Development?
+WAX Stats - Still providing real-time testing of all API nodes detected around the ecosystem and in December handled 8,400 unique visitors with 33k pageviews.
+
+AW Stats - Was able to put some time getting some of the broken reports working again on aw.eosusa.io as well as working to shift it's data feed to use our internal AW data feed we have developed.  Also have reporting.eosusa.io that we are beginning to offer to allow players access to the detailed game data.  Database indexes/grows by 12mil records/day and currently has around 2bil records for reporting)
+
+AW Butler - Still providing automatic airdrop services for many projects around the ecosystem.  Projects are utilizing our Butler services to expand the gameplay of their projects to the AW communities and is (and has been) the only form of automated NFT distribution within Alien Worlds for the last 6+ months.
+
+Collection Scoring - Developed the service that automatically collects all NFTs related to a project, calculates a score (based off the card's mint counts) and then calculates a collector's score for every card holder.  That data is then used for dashboarding and other token/NFT airdrops.
+
+Alcor PoolTools - Created and running a service that automatically monitors a project's Alcor Liquidity Pools participation and provides dashboarding and automatic token rewards for qualifying LP participants.
+
+Account Butler - Offering services that monitor a project's WAX accounts and automatically handles daily management processes such as automatically staking any new WAX received and automatically renewing votes and claiming any rewards available.
+
+Player Support - We provide Tier 1 and 2 player support for projects by training/staffing a help desk that can provide 24/7/365 player support for projects.  Currently have 6 full-time personnel providing support for Alien Worlds and are working to expand the services out to other projects that  may require the services.
+
+Hosted Infrastructure - As opposed to only offering a paid API service (which we will probably also participate in), we are offering a slightly different model of providing dedicated, bare metal server hosting with direct local networking access to all WAX/Layer2 APIs (providing 0ms latency and no rate limiting).  Also offering private less limited access to our node/services as well as assisting with configuration of project's internal nodes.
+
+WAX/Minecraft Services - As mentioned in previous reports, development of this service has continued and initial MVP is scheduled for release this month to begin alpha stage public testing.
+
+MonsterStrike - Contracts and initial interface have been created on testnet.  Initial blending features working properly, now hardening process to protect against abuse and will then be ready for alpha stage public testing.
+
+Does your Guild have any new information to submit that impacts Ecosystem Development?
+Blockchain Consulting Services: We're finding there are many projects in the WAX ecosystem that have collections or projects they are working on, but cannot locate any solid resources for integrating/understanding the blockchain side of things.  So we offer blockchain consulting services to help projects have a resource for asking questions or needing assistance working with the blockchain.  The topics range wildly from teaching devs how to properly configure/use EOSIO permissions to understanding how Atomic collections should be structured to even developing/hosting services for those projects.  Just in December, we consulted with the following projects (due to privacy, details of each project interaction will be submitted via email):
+Alien Worlds
+Mercenary Arts
+Bitcoin Babes
+Byron Rempel
+Joe Chiapetta/ArtVndgMchn
+Trains of the Century
+GrafittiKings
+R2
+Shifty Bears
+Galaktika
+TheUplift
+Shipple
+VibraVid
+Jonezy Art
+C.A.I.T.
+Retilium
+CONFIDENTIAL CLIENT #1
+CONFIDENTIAL CLIENT #2
+
+Does your Guild have any new information to submit that impacts Community Engagement?
+Bloomberg:  Also was able to participate in an article Bloomberg was publishing regarding the NFT Gaming ecosystem (Game-Fi) vs. DeFi.  Provided some opinions on the current landscape and they spotlighted the Alien Worlds game and the marketing services (AWButler) that we provide in tandum:  https://www.bloomberg.com/news/articles/2021-12-07/play-to-earn-crypto-gaming-apps-surpass-defi-in-user-popularity.
+
+LiveStreams:  As always, attending different streams/podcasts around the ecosystem to discuss different topics with the chains.  Had a Tech Talk on a Tuesday with Corey/JimmyD: https://www.youtube.com/watch?v=D1AChmR4aiw
+
+Channel Support:  Also always try to provide support and recommendations to anyone in the WAX channels needing technical assistance with building/using nodes or chain services.
+ 
+Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+See email for additional details on partner projects
