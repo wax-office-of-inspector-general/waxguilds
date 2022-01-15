@@ -6,6 +6,8 @@ waxswedenorg
 
 - We have built a new internal monitoring system for all our infrastructure.
 - We have employed a new Minion, long-term he is going to be responsible for maintaining our API infrastructure.
+- We have once again upgraded the API proxy and caching system, with hopes of enough performance this time around. Small settings will continue to be tweaked.
+- We have found a bug and fixed it in the eoscanada eos-go repo, which is merged. - https://github.com/eoscanada/eos-go/commit/39fba816311fd41a31d188738e1d94b096410dbe
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
