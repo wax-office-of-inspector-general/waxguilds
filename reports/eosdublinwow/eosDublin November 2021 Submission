@@ -1,0 +1,54 @@
+What is the name of your Guild?
+EOS Dublin 
+
+Does your Guild have any new information to submit that impacts Technical Operations?
+We have continued working hard and making major improvements to our Wax testnet and mainnet infrastructure. All WAX infra is now in dedicated servers with high levels of redundancy across regions/data centers and providers.
+
+We are happy to report we are tracking green on all the legderwise checks (https://tools.ledgerwise.io/) and have beefed up our alerting & monitoring. We were rotated in a couple of times and performed well. 
+
+There was one instance where we rotated in but there was a testnet config on one of the new servers. This was noticed and rectified within 5 mins and we were producing accordingly in an active position. We have had a full month of operations with our new alerting and monitoring, we have brought on new supporting dev-ops resources to ensure we are in line with the technical requirements.
+This month we also launched the Atomic Assets API with a dedicated server  - https://wax-aa.eosdublin.i
+
+
+Does your Guild have any new information to submit that impacts Product Development?
+Yes, across our RedRope and voucher products we have made significant progress on both the tech and strategy. With dMerch we had another successful launch together with the WAX team and will be working to bring more additions and utility to the series for future drops. More info in confidential document. 
+
+RED ROPE: NFT Memories - We have made a lot of progress with our Red Rope project. Although there are more restrictions and lockdowns coming across Europe, we have continued to actively seek events and partnerships to distribute Red Rope NFTs to attendees. We have been working with Whelans Dublin and SOMA to create NFTs that will be given to people who attend the event. SOMA SOMA originated as a series of house parties in Dublin hosting bands and DJs until stupid o’clock. The SOMA clubnight aims to carry on the house party tradition, showcasing Dublins best up and coming bands followed by a sweaty party soundtracked by all your favourite indie and alternative bangers. - https://www.whelanslive.com/ https://www.instagram.com/soma_indie_club/?hl=en
+
+Gift Vouchers: We have a new and improved front end (Figma Attached in confidential document) which is being implemented by our front end team. Christmas is the busiest time of the year for the platform and the announcement of the rebrand + the NFT strategy will be coming in January 2022. This forms part of a larger strategy to make NFT vouchers available to any project or business. 
+
+WAX.School is aiming to be a go-to resource for learning about NFTs, dApps, and the WAX blockchain. We have developed a three-stage plan to reach as wide an audience as possible, and provide integrated, well-designed content which is accessible to all on all channels.
+To start with, we have been building the foundation of the learning resources on our blog.
+Next up, starting in the new year, we will translate the blog content into videos that can be shared on the site and across social media platforms and YouTube.
+Third and finally, we will integrate the blog content and videos to become multifaceted courses that bring together text, video, tests, and other learning materials to provide a clear and accessible entry point, through to advanced courses, in the expanding world of NFTs, Defi, new dApps, and creative uses of WAX’s technology.
+
+Does your Guild have any new information to submit that impacts Ecosystem Development?
+Yes, we are happy to report that we have been working with Defactor.com on bringing NFT financing to WAX - We have commissioned a POC to investigate the possibility of staking NFTs to to receive access to liquidity. We see this as an opportunity to: 
+Provide enhanced functionality to the wax community 
+Prove that WAX is a stable and robust environment to attract more defi and gamefi projects to the ecosystem
+Give buyers who missed out on lower primary market sales an opportunity to get NFTs at a discounted price
+
+Please see the specifications for the Defactor / WAX POC in the confidential document :
+
+Does your Guild have any new information to submit that impacts Community Engagement?
+
+Yes - With our new content team, we  have continued to provide original content in the form of written blogs and social media. We have had over 10k impressions on our WAX school social media with engagement up 200%
+
+Two new original pieces of content: 
+https://www.wax.school/investment/what-is-staking-on-wax/
+https://www.wax.school/investment/how-to-buy-and-sell-waxp/
+
+XMAS NFT EVENT (Subject to covid restrictions)
+End of year NFT Review discussing successful projects throughout the year and the outlook for the future of NFTs in 2021. This wil be hosted by eosDublin with guest speakers from Defina.finance who will be discussing NFTs and gaming and the future market opportunities. A representative from Defactor.com will also be there to discuss the role of NFTs in the Defi market and how they are already making waves by using NFTs as a way to represent a real world asset and recieve financing. 
+
+Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+No
+
+
+
+
+
+
+
+
+
