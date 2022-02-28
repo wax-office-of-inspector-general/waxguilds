@@ -9,7 +9,7 @@ waxswedenorg
 - Out of all these calls, with this, we have increased how many requests you can do, depending on which call you do, and how well our back-end handles that.
 - This has resulted in far less IP's being blocked and rate-limited than before. Now it is mainly spam, or those that do big bursts in a short time-frame.
 
-This is data between 24th of Feb and 28th of Feb
+###This is data between 24th of Feb and 28th of Feb
 ![By_Status_Code](https://media.waxsweden.org/2022/02/oig-feb-kibana-status-24_feb-28_feb.png)
 ![Successfull_Calls](https://media.waxsweden.org/2022/02/oig-feb-kibana-calls-24_feb-28_feb.png)
 ![Type_of_Call](https://media.waxsweden.org/2022/02/oig-feb-kibana-response_24_feb-28_feb.png)
@@ -21,6 +21,7 @@ if any IG require any other layout of this information, let us know, and we can 
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 - Added a WAX tools, marketplaces and resource overview on the frontpage of waxsweden.org - https://waxsweden.org/
+
 The purpose is to create a quick overview for any new person coming to find WAX information.
 The 4 areas added are: WAX NFT Marketplaces, WAX Block Explorers, WAX Developer Resources and WAX Content Creators.
 ![webupdate](https://media.waxsweden.org/2022/02/oig-feb-web.png)
@@ -34,17 +35,18 @@ The 4 areas added are: WAX NFT Marketplaces, WAX Block Explorers, WAX Developer 
 
 
 This article has been referenced and translated into many languages: https://academy.anyo.io/nft-based-games-worth-looking-into/
-can see a long list of ping-backs in the bottom of the comment section. But it's over 30 articles on diff crypto websites.
+
+You Can see a long list of ping-backs in the bottom of the comment section. But it's over 30 articles on diff crypto websites.
 
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
 - We add all the latest releases to our apt repo - https://eosswedenorg.github.io/apt/wax/bionic
--
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 We continue to push content and help on-board new users as well as further educating existing community.
 After a period of a bit fewer produced videos, we are now picking up that pace again. Multiple interviews published since the last review.
-Guild update on blog [Article](https://waxsweden.org/sweden-february-update/)
+Guild update on blog [Article](https://waxsweden.org/sweden-february-update/).
+
 We have two additional interviews about NFTs in Swedish news outlets, I can link them to you upon request.
 
 Anyobservation Social numbers last 28 days
@@ -55,7 +57,7 @@ Subs: 3656 (+180)
 - 39.9k Impressions
 - 5.2k unique viewers
 
-[Youtube Data](https://media.waxsweden.org/2022/02/oig-feb-yt.png)
+![Youtube Data](https://media.waxsweden.org/2022/02/oig-feb-yt.png)
 
 ### Medium:
 - 706 views
