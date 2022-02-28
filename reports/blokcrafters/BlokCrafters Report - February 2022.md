@@ -48,7 +48,7 @@ https://github.com/blokcrafters/wg-mesh
 + https://twitter.com/KryptoKumas/status/1489064562590732290
 + https://twitter.com/bretblackberg/status/1491600323957428225
 
-+ Distribution of our content is shared with Discord, Twitter, Telegram, and Youtube on the channels listed below
+   Distribution of our content is shared with Discord, Twitter, Telegram, and Youtube on the channels listed below
 + https://twitter.com/waxdappsio
 + https://www.youtube.com/c/BlokCrafters/videos
 + https://twitter.com/NKerkinni
