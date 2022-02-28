@@ -9,7 +9,7 @@ waxswedenorg
 - Out of all these calls, with this, we have increased how many requests you can do, depending on which call you do, and how well our back-end handles that.
 - This has resulted in far less IP's being blocked and rate-limited than before. Now it is mainly spam, or those that do big bursts in a short time-frame.
 
-###This is data between 24th of Feb and 28th of Feb
+### This is data between 24th of Feb and 28th of Feb
 ![By_Status_Code](https://media.waxsweden.org/2022/02/oig-feb-kibana-status-24_feb-28_feb.png)
 ![Successfull_Calls](https://media.waxsweden.org/2022/02/oig-feb-kibana-calls-24_feb-28_feb.png)
 ![Type_of_Call](https://media.waxsweden.org/2022/02/oig-feb-kibana-response_24_feb-28_feb.png)
