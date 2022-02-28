@@ -10,9 +10,9 @@ waxswedenorg
 - This has resulted in far less IP's being blocked and rate-limited than before. Now it is mainly spam, or those that do big bursts in a short time-frame.
 
 This is data between 24th of Feb and 28th of Feb
-[By_Status_Code](https://media.waxsweden.org/2022/02/oig-feb-kibana-status-24_feb-28_feb.png)
-[Successfull_Calls](https://media.waxsweden.org/2022/02/oig-feb-kibana-calls-24_feb-28_feb.png)
-[Type_of_Call](https://media.waxsweden.org/2022/02/oig-feb-kibana-response_24_feb-28_feb.png)
+![By_Status_Code](https://media.waxsweden.org/2022/02/oig-feb-kibana-status-24_feb-28_feb.png)
+![Successfull_Calls](https://media.waxsweden.org/2022/02/oig-feb-kibana-calls-24_feb-28_feb.png)
+![Type_of_Call](https://media.waxsweden.org/2022/02/oig-feb-kibana-response_24_feb-28_feb.png)
 
 if any IG require any other layout of this information, let us know, and we can share that in private.
 
@@ -23,7 +23,7 @@ if any IG require any other layout of this information, let us know, and we can 
 - Added a WAX tools, marketplaces and resource overview on the frontpage of waxsweden.org - https://waxsweden.org/
 The purpose is to create a quick overview for any new person coming to find WAX information.
 The 4 areas added are: WAX NFT Marketplaces, WAX Block Explorers, WAX Developer Resources and WAX Content Creators.
-[webupdate](https://media.waxsweden.org/2022/02/oig-feb-web.png)
+![webupdate](https://media.waxsweden.org/2022/02/oig-feb-web.png)
 
 
 ### The Academy
