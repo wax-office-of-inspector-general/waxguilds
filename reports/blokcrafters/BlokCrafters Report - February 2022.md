@@ -49,13 +49,13 @@ https://github.com/blokcrafters/wg-mesh
 + https://twitter.com/bretblackberg/status/1491600323957428225
 
 + Distribution of our content is shared with Discord, Twitter, Telegram, and Youtube on the channels listed below
++ https://twitter.com/waxdappsio
 + https://www.youtube.com/c/BlokCrafters/videos
 + https://twitter.com/NKerkinni
 + https://twitter.com/earwaxio
 + https://twitter.com/blokcrafters
 + https://twitter.com/nftorigins_io
 + https://twitter.com/fintechquity
-+ https://twitter.com/Lhubb94 
 
 1. WAX #1 marketplace The atomic hub Update 
 https://www.youtube.com/watch?v=SN61s3Eaqt8
