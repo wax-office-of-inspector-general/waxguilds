@@ -1,6 +1,6 @@
 ## Archive of Reports
 
--- before 07-2021
+-- The following have been added to notion. This archive contains the updates submitted before july 2021
 
 ## June 2021
 
