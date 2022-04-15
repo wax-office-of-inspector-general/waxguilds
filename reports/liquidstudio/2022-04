@@ -1,0 +1,55 @@
+
+
+## What is the name of your Guild?
+
+liquidstudio - LiquidStudios (rebranding to liquiid.io)
+
+## Does your Guild have any new information to submit that impacts Technical Operations?
+
+Nodes running finde, Clustered ES runs nearly without rate-limts.
+
+Our API was offline for ~one day, network-changes lead into massive amount of forks on a history-node. We are still not sure about the exact issue, removing external peers solved problem. We propose further investigation. 
+
+## Does your Guild have any new information to submit that impacts Product Development?
+
+### LiquiidUniverse
+- We continued with the rework of the UI (see Screenshots attached). The old UI never was "really pretty" and more functional, we are glad that we finally make more progress on this.
+- We are working on a new "Economy-Editor" as the old "Economy-Editor" is due to the masses of changes over the last 6 months neither usable nor maintainable. ( As Liquiid Universe is based on a fine-grained Economy, based on value-chains and thousands of adjustable pieces around them, configuration and adjustments of the economy through a visual tool are mandatory - the new Editor will for a while only be for internal usage but the goal is to provide it as a governance-tool allowing the community to adjust the economy, some day)
+- We did a massive rework on our smart-contracts and abi's + all related C#-classes for general maintainability and readability of the ABI's an contracts. 
+- We are continously adding new Buildings (for sure NFTs) to the Game, the Value-Chains and the econonmy (screenshots of latest buildings - factory-stage of the value-chain - are attached)
+
+### The Liquiid Bible
+Slow but steady progress due to missing manpower. We are in talks with pink.gg about a possible collaboration that would allow us to speed up plugin-/sdk-development as well as documentation and examples. 
+
+Automation of documentation
+
+## Does your Guild have any new information to submit that impacts Ecosystem Development?
+
+### Clients/Plugins/SDKs
+
+#### Anchor Wallet Unity3D-Integration (see public commits)
+
+#### AnchorLink-Sharp (https://github.com/liquiidio/anchorlink-sharp)
+Progress on AnchorLink-Sharp was quite good, we have been in contact with parts of the greymass-team and in the related TG-channels and fixed quite a few difficult bugs and added a UnitTesting project based on the Typescript-UnitTests from Greymass. The UnitTesting-Project currently has 17 UnitTests of which 13 are passing (See Screenshot attached). There are still a few quirky bugs we need to fix and altough the solution could already be used for specific use-cases we definitely cannot yet recomment the usage or call it a ready solution. A few adjustments to EosSharp were necessary, these are not yet committed as we need to polish them and don't want to confuse our users. 
+
+#### AnchorLinkTransport-Sharp (https://github.com/liquiidio/anchorlinktransport-sharp)
+While working on several BugFixes for the Core-Solution we had to apply some changes to this Solution as well. We added a ZlibProvider and the UnityTransport to the Project, to allow compression and usage of the Plugin within the Unity-Specfic Environment.
+
+#### EosioSigningRequest-Sharp (https://github.com/liquiidio/EosioSigningRequestSharp)
+We also had to apply a few bug fixes and modifications related to Bugfixes of the Core-Solution and cleaned up a bit. 
+
+### dfuse-light (internally named DeepReader for now) (https://github.com/liquiidio/deepreader) (see public commits)
+
+- We switched from the Reflection-based Deserializer to deserialize EOSIO-structs into their C#-Equivalent to a static serializer for performance-reasons. The new static Deserializer is much faster but we can still tweak it.
+- We added basic functionallity for REST-APIs and a few simple REST-Enpoints (mostly for testing-purposes atm.) 
+- We continued the implementation of MS Faster as Storage-Backend while starting to add options that allow the user to run the software as an LRU-Cache without the need of third-party solutions like Redis or Memcached.
+- We added diverse Configuration-Options from Nodeos-options over Storage-Backend, the injected Services (REST, Prometheus, GraphQl etc.).
+- We started to integrated Prometheus.Net to allow operators to collect diverse Prometheus-compatible Metrics.
+
+## Does your Guild have any new information to submit that impacts Community Engagement?
+
+We've been live with Anyobservation on the 09.03.2022, speaking about Liquiid and Liquiid Universe. 
+
+## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+
+mhh Nope. 
