@@ -16,7 +16,7 @@ Our API was offline for ~one day, network-changes lead into massive amount of fo
 - We continued with the rework of the UI (see Screenshots attached). The old UI never was "really pretty" and more functional, we are glad that we finally make more progress on this.
 - We are working on a new "Economy-Editor" as the old "Economy-Editor" is due to the masses of changes over the last 6 months neither usable nor maintainable. ( As Liquiid Universe is based on a fine-grained Economy, based on value-chains and thousands of adjustable pieces around them, configuration and adjustments of the economy through a visual tool are mandatory - the new Editor will for a while only be for internal usage but the goal is to provide it as a governance-tool allowing the community to adjust the economy, some day)
 - We did a massive rework on our smart-contracts and abi's + all related C#-classes for general maintainability and readability of the ABI's an contracts. 
-- We are continously adding new Buildings (for sure NFTs) to the Game, the Value-Chains and the econonmy (screenshots of latest buildings - factory-stage of the value-chain - are attached)
+- We are continously adding new Buildings (for sure NFTs) to the Game, the Value-Chains and the econonmy (screenshots of latest buildings - factory- and workshop-stage of the value-chain - are attached)
 
 ### The Liquiid Bible
 Slow but steady progress due to missing manpower. We are in talks with pink.gg about a possible collaboration that would allow us to speed up plugin-/sdk-development as well as documentation and examples. 
