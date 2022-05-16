@@ -1,12 +1,12 @@
 ---
 name: BP Application
 about: Use this template to file your BP Application.
-title: "[DATE]: BP APPLICATION"
+title: "BP APPLICATION"
 labels: application, bp
 assignees: kaefergeneral, blocksbarcelona, rakeden
 ---
 
-### BP Details
+## BP Details
 
 **Guild Name**
 Your guilds name
@@ -14,7 +14,7 @@ Your guilds name
 **Guild Name**
 https://example.com/
 
-**Contact**
+**Guild Contact**
 example@example.com
 
 **chain.json location**
@@ -27,7 +27,7 @@ Location
 Location
 
 
-### Application Requirements
+## Application Requirements
 
 * [ ]  Joined WAX Guilds Keybase team.
 * [ ]  Added emergency contact information to Guild roster (available in Keybase).
@@ -37,7 +37,7 @@ Location
 * [ ]  Public website available.
 * [ ]  Guild account registered as a producer on WAX Testnet for seven days before submission deadline. Previously registered guilds that unregister will have the seven day timer reset if they are unregistered for 24 hours or longer.
 
-### BP Questionaire
+## BP Questionaire
 
 **Please provide some information regarding when and how your Guild got involved with the EOSIO or WAX ecosystem. Links to resources are helpful.**
 
