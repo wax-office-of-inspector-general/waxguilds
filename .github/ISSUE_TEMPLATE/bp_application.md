@@ -23,19 +23,20 @@ https://wax.example.com/waxtest.json
 **Guild Jurisdiction**
 Location
 
-**Node Jurisdictio**
+**Node Jurisdiction**
 Location
 
 
 ## Application Requirements
 
-* [ ]  Joined WAX Guilds Keybase team.
-* [ ]  Added emergency contact information to Guild roster (available in Keybase).
-* [ ]  Make intro blog post.
-* [ ]  Interviewed by the inspector general committee.
 * [ ]  No guild member can be an active IG, unless a replacement for his||her seat has already been elected.
 * [ ]  Public website available.
-* [ ]  Guild account registered as a producer on WAX Testnet for seven days before submission deadline. Previously registered guilds that unregister will have the seven day timer reset if they are unregistered for 24 hours or longer.
+* [ ]  Make an intro blog post.
+* [ ]  Guild account registered as a producer and voted in on WAX Testnet for seven days before submission deadline. Previously registered guilds that unregister will have the seven day timer reset if they are unregistered for 24 hours or longer.
+* [ ]  Make a request to the IGs to be voted in on testnet.
+* [ ]  Interviewed by the inspector general committee.
+* [ ]  Joined WAX Guilds Keybase team.
+* [ ]  Added emergency contact information to Guild roster (available in Keybase).
 
 ## BP Questionaire
 
