@@ -6,14 +6,25 @@ labels: application, bp
 assignees: kaefergeneral, blocksbarcelona, rakeden
 ---
 
-### BP Application
+### BP Details
 
-| Guild Name            | Your guilds name                           |
-| Website               | https://example.com/                       |
-| Contact               | example@example.com                        |
-| chain.json location   | https://wax.example.com/waxtest.json       |
-| Guild Jurisdiction    | Location                                   |
-| Node Jurisdiction     | Location                                   |
+**Guild Name**
+Your guilds name
+
+**Guild Name**
+https://example.com/
+
+**Contact**
+example@example.com
+
+**chain.json location**
+https://wax.example.com/waxtest.json
+
+**Guild Jurisdiction**
+Location
+
+**Node Jurisdictio**
+Location
 
 
 ### Application Requirements
