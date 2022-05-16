@@ -1,3 +1,5 @@
+## WAX Office of Inspector General
+
 The WAX Protocol is a DPoS blockchain designed to scale in conjunction with a microservice layer that provides specialized infrastructure for building digital goods marketplaces. The knowledge required to construct interconnected and highly sophisticated marketplace services comes from the team’s 20+ years’ experience building digital goods businesses. The WAX Platform is the combination of both the WAX Protocol and a microservice layer.
 
 The Office of Inspector General (OIG) is a neutral third-party role designed to evaluate WAX Guild Candidates' contribution to the ecosystem and provide ongoing transparency for the community. The office is designed as a committee with 3 inspector generals who will standardize WAX Guild evaluations, and properly recognize those WAX Guilds making valuable contributions to the WAX ecosystem.
