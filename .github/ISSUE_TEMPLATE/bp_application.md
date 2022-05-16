@@ -1,3 +1,11 @@
+---
+name: BP Application
+about: Use this template to file your BP Application.
+title: "[DATE]: BP APPLICATION"
+labels: application, bp
+assignees: kaefergeneral, blocksbarcelona, rakeden
+---
+
 ### BP Application
 
 | Guild Name            | Your guilds name                           |
