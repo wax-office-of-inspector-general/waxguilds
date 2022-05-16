@@ -9,7 +9,7 @@ The Office of Inspector General (OIG) is a neutral third-party role designed to 
 
 The ratings are published and archived here
 
-[Guild Ratings](https://www.notion.so/Guild-Ratings-9439f28c57374a56988e6dc1369771d3)
+[Guild Ratings](https://www.notion.so/wax-oig/Guild-Ratings-0e51defdf10641748a253ccc7f5146b1)
 
 [Report Submission Guide](https://github.com/wax-office-of-inspector-general/waxguilds/wiki/Report-Submission)
 
@@ -17,10 +17,10 @@ The ratings are published and archived here
 
 The OIG framework and the guild rating guidelines are under constant development. Therefore the guidelines update regularly, which can be followed here
 
-[Versioned Guidelines](https://www.notion.so/Versioned-Guidelines-9430c90bc86f4123bd8e21bd8693b8ad)
+[Versioned Guidelines](https://www.notion.so/wax-oig/Versioned-Guidelines-a83f99e6acd0444ab7cec9419ca4eff0)
 
 ## Feedback
-[Community Feedback Log](https://www.notion.so/Community-Feedback-Log-fe450ffff7c643b29167fd01e8cb8de8)
+[Community Feedback Log](https://www.notion.so/wax-oig/Community-Feedback-Log-d36a68da0d114e40b94794e256a3f3a2)
 
 
 ## Resources
