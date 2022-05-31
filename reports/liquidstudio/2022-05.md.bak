@@ -87,17 +87,17 @@ We implemented a tremendous set of new features, following is a cutout with the 
 
 
 **Enpoints and Testing**
-- [www.noodles.lol/grafana](www.noodles.lol/grafana)
+- [www.noodles.lol/grafana](noodles.lol/grafana)
 		- monitoring of the service, progress and diverse statistics, nodeos monitoring to be added in the upcoming weeks and months. Service exposes prometheus-metrics via /metrics-endpoint which are read and visualized by Grafana
-- [www.noodles.lol/swagger](www.noodles.lol/swagger) 
+- [www.noodles.lol/swagger](noodles.lol/swagger) 
 		-  swagger-interface with OpenAPI-specification, take a look here to see the currently available endpoints. Curren endpoints are mostly intended for internal testing and not made with intent of being used by developers/clients. Adding new endpoints or modifying the existing ones is the smallest job. We plan to provide a fully v1 and v2 compatible API while extending it with additional endpoints to be specified. To tackle this task we rely on the secondary-indexing framework of MS Faster. See discussion here: [MS Faster Query Capabilities](https://github.com/microsoft/FASTER/discussions/489)
-- [www.noodles.lol/graphql](www.noodles.lol/graphql)
+- [www.noodles.lol/graphql](noodles.lol/graphql)
 		- graphql-API offering access through multiple queries and subscriptions (streaming). Current implementation is mostly intended for internal testing and not made with intent of being used by developers/clients. It's already compatible with models used in dfuse and should provide some form of backwards-compatibility.
-- [www.noodles.lol/metrics](www.noodles.lol/metrics)
+- [www.noodles.lol/metrics](noodles.lol/metrics)
 		- prometheus-metrics to be consumed by diverse observability and data visualization platforms
-- [www.noodles.lol/health](www.noodles.lol/health)
+- [www.noodles.lol/health](noodles.lol/health)
 		- health-endpoint, currently only contains some rough stats, will be extended in the future.
-- [www.noodles.lol/healthchecks-ui](www.noodles.lol/healthchecks-ui)
+- [www.noodles.lol/healthchecks-ui](noodles.lol/healthchecks-ui)
 		- health-checks visualization, allows to integrate webhooks and offers diverse other functionallity (there's a Bug, the number of processed Blocks is not correct) (we are discussing features that would be helpful and strengthen our ecosystem and are open for feedback and ideas - see [.NET HealthChecks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)  for potential Ideas and integrations)
 
 Due to the incomparable speed of MS Faster, the current Solution can easily catch up with nodeos replaying from a blocks.log, unlike in other solutions the database is no more the bottleneck but the replay-speed of nodeos is.
