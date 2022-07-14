@@ -18,7 +18,7 @@ https://example.com/
 example@example.com
 
 **chain.json location**
-https://wax.example.com/waxtest.json
+https://wax.example.com/wax.json
 
 **Guild Jurisdiction**
 Location
