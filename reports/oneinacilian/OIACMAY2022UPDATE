@@ -1,0 +1,46 @@
+## What is the name of your Guild?
+![oiac-logo](https://user-images.githubusercontent.com/89456085/136773956-b263025a-424d-4995-b55a-5d835e98632c.png)
+
+oneinacilian
+
+## Does your Guild have any new information to submit that impacts Technical Operations?
+
+We are excited to welcome a new member of the team Gideon Van Schalkwyk. Gideon joins as CTO and we have been busy reconfiguring our entire infrastructure ready for the next steps in developing the guild.
+
+* Atomic API running smoothly with no issues.
+* Hyperion will be reinstalled and synching will start again.
+* Failover solution configured.
+* Internal documentation complete.
+
+Next month:
+
+* Focus will be on continued migration of hosting including hyperion.
+* Proactive and reactive monitoring will be implemented to sustain a high level of availability at all times.
+
+## Does your Guild have any new information to submit that impacts Product Development?
+
+## OIAC NFT
+
+* Development of this product has been put on hold for now as we focus on other products taht can be developed adn delivered in a shorter timeframe and without the same associated costs.
+
+## Carbon Impact Calculator
+
+* Here at OIAC we are really excited about the launch of WAX Carbon Impact NFTs. Energy costs and usage are in the headlines worldwide at the moment and as NFT investments become more talked about in the mainstream so does the criticism of the amount of energy that is used to mint and in transactions.
+
+We are working on creating a calculator that can be connected to any wallet, using a metamask, to calculate the number of WAX Carbon Impact NFTs needed to be purchased to offset the energy used both in the minting of the asset and the transactions in its lifespan to date.
+
+We already know the the WAX blockchain transactions are significantly more efficient than Etherium for example and hope that this tool will really help to promote the chain to other chain users who are concerned about the environmental impact of their assets and want to take action to offset.
+
+## Does your Guild have any new information to submit that impacts Ecosystem Development?
+
+We believe that the configuration that we are implementing is going to show some significant performance improvements for example around latency times. We plan to share the scripts to make this possible with the community.
+
+## Does your Guild have any new information to submit that impacts Community Engagement?
+
+* We believe that the calculator that we will develop, with the correct marketing, creates an opportunity to generate some interchain traffic for people looking to have a carbon neutral wallet. The draw of the convenience of being able to do this on chain is fantastic.
+
+* Medium post published and tweeted, please see the following link https://twitter.com/OIACWAX/status/1515028596519321608?s=20&t=0bIYXH8YLUOTAkMPX7mXDw
+
+## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+
+No
