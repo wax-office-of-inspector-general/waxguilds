@@ -23,13 +23,11 @@ Hyperion Hub - After almost one year in development we have released the first i
 
 
 
-Snapshot Server - We have created a snapshot server to allow block producers and other infrastructure providers to regularly take and made snapshots available. We have been operating it at WAX Testnets for a few months and also for Main Net recently and are disclosing it formally https://snapshots.eosrio.io/
-
+Snapshot Server -The snapshot server to allow block producers and other infrastructure providers to regularly take and made snapshots available. We have been operating it at WAX Testnets for a few months and also for Main Net recently and are disclosing it formally https://snapshots.eosrio.io/
 Code is also being open sourced for other BPs at 
-https://github.com/eosrio/eosio-snapshot-api
-https://github.com/eosrio/eosrio-snapshots-frontend
-
-No relevant user data yet
+      https://github.com/eosrio/eosio-snapshot-api
+      https://github.com/eosrio/eosrio-snapshots-frontend
+      Usage:
 
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
