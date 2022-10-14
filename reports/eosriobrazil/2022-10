@@ -4,19 +4,19 @@ eosriobrazil
 
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
-We have assembled and are currently testing the new Threadripper PRO chipeset with 1Tb SSDs and 2x 40Tb Storage for serving WAX APIs. We expect this to improve capacity for our endpoints.
+No relevant news here
 
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
-Hyperion - Our focus continues to be to stabilize the current version, committing our developers to solving bug fixes as well as updating components. Hyperion is already working with the latest protocol update and we are constantly working on maintenance and development.
+Hyperion - WE are launching a new version of the streaming module and had updated the explorer plugin.
 https://github.com/eosrio/hyperion-history-api
 
-SIMPLEOS Wallet - After sometime the work on Simpleos was resumed with updating the vulnerabilities flagged by dependabot, we are also updating some of the frameworks, especially electron, and working through the issues. Simpleos will be used as the base for our NFT wallet in partnership with Block4. 
+SIMPLEOS Wallet - No news. 
       Downloads Simpleos 1.0.5: 27,391
       https://github.com/eosrio/simpleos
 
-Hyperion Hub - After almost one year in development we have released the first iteration of Hyperion Hub. It consists of (1) a healthcheck plugin for Hyperion that can establish a connection via websockt and share key information about the instance with the (2) Hyperion Hub that aims to consolidate information on all the plubicly available Hyperion instances to allow for users to chose the best service for their needs. While the recently launched applications are being estabilized the team is already working on a Hyperion client that will abastract from developers all the complexities of endpoint selection creating a much simpler and robust alternative for dapp developers. 
+Hyperion Hub - No news but it is on the pipeline as it is needed for other projects 
       hyperionhub.eosrio.io
       Teams currently sharing their Hyperion health information:
       Github:
@@ -32,32 +32,67 @@ Code is also being open sourced for other BPs at
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
 
-Block4 - Developed by the EOS Rio team, this digital collectible platform based on WAX allows sports organizations, artists, influencers, content creators and more create customizable digital collectible platforms. This opens the door for community engagement and monetization. In 2022 we have already partnered with three of the biggest soccer clubs in Brazil (Vasco, Santos and Bahia), with more than 15 million supporters. 
+Block4 - Block4 had 3 impactful launches recently
+Vasco Jersey - Generartin more than 1.000 sales
+Vasco Reward - Generating aroun 2.000 claims
+Rock in Rio - Generating more than 55.000 claims and onboarding more than 45.000 users, initially to a side chain due to cost reasons, but the templates are issue on WAX main net and the idea is to offboard users as they are interested in exploring other markets and applications for their NFTs.
 
-Block4 has onboarded significant brands in Brazil with considerable fanbase: 
+https://www.radiorock.com.br/2022/10/13/estreia-rock-rio-no-universo-das-nfts-quebra-recordes/
 
+Generating a total of 540.000 views and 194.000 users in the last 28 days
 
-
-NFT Holders: 1,560
-NFTs issued: 4,000
-Users: 5,130
+NFT Holders: 48,000
+NFTs issued: 60,000
+Users: 50,000
 
 Contract address: https://wax.bloks.io/account/tibs
 
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 
-Since september 10th our community team became moderators for the wax-brazil-BR tab on WAX Discord. @Sinister|RioBlocks and @Larissa|Rio Blocks have been constantly managing the community. Here are some numbers
+After our rebranding efforts, we created a new twitter account for Brazilian Portuguese content, as well as starting to be more active in our existing English language account. It has only been a month since, but we are working diligently to gain traction through informative content, translations and interactions.
 
-TWITTER
-- 2.067 followers +XXX
-- 10x growth on click through rates in may
-- 1.0K+ impressions
+@RioBlocks
+Impressions: 9.4K
+Engagements: 295
+Mentions: 46
+Followers: 2.1k
+
+@RioBlocks_br
+Impressions: 2.9K
+Profile visits: 4983
+Mentions: 5
+Followers: 16
+
+As with our Twitter efforts, LinkedIn is also a social network where we recently started a new strategy for content and engagement. We have seen a slight increase in metrics, but since we are only one month into this new strategy, we expect to have better growth numbers soon.
+
+LinkedIn:
+
+Rio Blocks
+Views: 27
+Followers: 27
+Reactions: 23
+Shares: 3
+
+On Discord we have recently opened the door for brazilian users, with their own text channel on the WAX official Discord server. Since then, we have seen users come with questions and to engage with the content we post there. Gaming na Block also serves as a hub for users looking for blockchain news and a gaming focused community.
+
+Discord:
+
+Gaming na Block
+Members: 4.616
+
+WAX
+wax-brazil-BR unique users in chat: 21
+
+We are constantly feeding content to Hash Digest and have plans that will increase site traffic and newsletter adoption that will come into effect soon. Expect more solid numbers in the next update.
+
 
 Hash Digest
 Daily news articles
 Weekly Newsletters with a quick summary of the highlights
-100+ readers on launch day
+
+We are constantly feeding content to Hash Digest and have plans that will increase site traffic and newsletter adoption that will come into effect soon. Expect more solid numbers in the next update.
+
 
 ## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
 
