@@ -31,14 +31,6 @@ Upcoming:
 * The short-term and long-term vision for WAXaccount is to surpass WAXBLOCK in functionality and to offer an ever-evolving alternative. The first unique feature over WAXBLOCK is support for multiple WAX-based tokens. This is a particularly valuable USP to gamers on WAX who have $SCRAP, $GUILD, and $BRWL that they want to track, among others.
 * User traction spiked upon public release as we forecasted.
 
-## Discord
-We have taken the initiative to create a new WAX Community Discord server. Disconnected Telegram channels are simply inferior for collaboration, learning, and development in a complex ecosystem like WAX. The server has 89 users from guilds and project owners only, we have not started promoting to the community yet. Despite our efforts here, 50% of guilds are not interested in participating, we find this incredibly frustrating. Guild complaints are primarily personal UX issues, which are insignificant compared to the benefit to WAX that a central communication & resource hub could provide.
-
-* We formally ask the OIG to start providing updates there, we feel this is critical to encouraging stubborn Guild members from using.
-* We have configured a telegram / discord bridge bot which replicates messages between the 2 platforms. This is live in the main Dev chat.
-* We have created a 'missed round' alert bot that will initially match the features of the current Telegram bot. We will enhance this to also include relevant guild notifications such as report submission dates, consistently low transactions per block, etc. This is currently in testing and will be live over the next few days.
-* Ledgerwise Guild have created a bot for promoting projects that have been added to WAXZILLA, this provides a curated, consistent project highlight system that gives exposure to all projects on WAX equally. They are adding Discord commands to find any project, including dev resources. We mention this in our report in case Ledgerwise do not, to ensure they get points for this effort.
-
 ## Twitch
 * Another month of growth for the TG Twitch channel with more WAX NFT giveaways.
 * 26 hours 44 minutes streamed this cycle.
