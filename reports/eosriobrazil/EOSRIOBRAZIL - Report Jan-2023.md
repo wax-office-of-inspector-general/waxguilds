@@ -43,42 +43,31 @@ Contract address: https://wax.bloks.io/account/tibs
 
 ## Does your Guild have any new information to submit that impacts Community Engagement?
 
-After our rebranding efforts, we created a new twitter account for Brazilian Portuguese content, as well as starting to be more active in our existing English language account. It has only been a month since, but we are working diligently to gain traction through informative content, translations and interactions.
+We continue to produce Portuguese content to engage the Brazilian community in the Blockchains we operate, such as still being active on our existing English-faced account. One of our main goals is to reach more public through our content, and new partnerships.
 
 @RioBlocks
-Impressions: 4.1K
-Engagements: 174
-Mentions: 7
+Impressions: 4.3K
+Engagements: 291
+Mentions: 10
 Followers: 2.1k
 
 @RioBlocks_br
-Impressions: 3K
-Engagement: 141
-Mentions: 14
-Followers: 21
+Impressions: 4K
+Engagement: 103
+Mentions: 13
+Followers: 27
 
 As with our Twitter efforts, LinkedIn is also a social network where we recently started a new strategy for content and engagement. We have seen a slight increase in metrics, but since we are only one month into this new strategy, we expect to have better growth numbers soon.
 
 LinkedIn:
 
 Rio Blocks
-Views: 27
-Followers: 93
-Reactions: 62
-Shares: 2
+Views: 23
+Followers: 96
+Reactions: 13
+Shares: 3
 
-On Discord we have recently opened the door for brazilian users, with their own text channel on the WAX official Discord server. Since then, we have seen users come with questions and to engage with the content we post there. Gaming na Block also serves as a hub for users looking for blockchain news and a gaming focused community.
-
-Discord:
-
-Gaming na Block
-Members: 4.616
-
-WAX
-wax-brazil-BR unique users in chat: 21
-
-We are constantly feeding content to Hash Digest and have plans that will increase site traffic and newsletter adoption that will come into effect soon. Expect more solid numbers in the next update.
-
+On Discord, we have recently opened the door for Brazilian users, with their text channel on the WAX official Discord server. Since then, we have seen users come up with questions and engage with the content we post there. Gaming na Block also serves as a hub for users looking for blockchain news and a gaming-focused community.
 
 Hash Digest
 Daily news articles
