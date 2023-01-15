@@ -27,7 +27,7 @@ Snapshot Server -The snapshot server to allow block producers and other infrastr
 Code is also being open sourced for other BPs at 
       https://github.com/eosrio/eosio-snapshot-api
       https://github.com/eosrio/eosrio-snapshots-frontend
-      Usage:
+      
 
 
 ## Does your Guild have any new information to submit that impacts Ecosystem Development?
