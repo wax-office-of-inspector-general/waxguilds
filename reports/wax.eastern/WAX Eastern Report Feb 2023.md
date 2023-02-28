@@ -5,7 +5,7 @@ WAX Eastern
 ## Does your Guild have any new information to submit that impacts Technical Operations?
 
 1. We have begun the indexing process of WAX Testnet into Hyperion, and we're now nearly 50% complete.
-3. Readiness Status: Our nodes are now fully upgraded to version 3.1.4 for both the main and testnet. 
+3. Readiness Status: Our nodes are now fully upgraded to version 3.X for both the main and testnet. 
 
 ## Does your Guild have any new information to submit that impacts Product Development?
 
