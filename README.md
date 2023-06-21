@@ -27,3 +27,6 @@ The OIG framework and the guild rating guidelines are under constant development
 
 - [IG Announcement Draft](https://docs.google.com/document/d/1_l91Gkca8h2kcAvgT3Gej3cNX_ELhhq2EemHlu47Cw0/edit?ts=5db1c559#)
 - [WAX Protocol Whitepaper](https://github.com/worldwide-asset-exchange/whitepaper)
+
+## WAX OIG wiki
+[WAX OIG wiki](https://github.com/wax-office-of-inspector-general/waxguilds/wiki/WAX-OIG-Wiki)
