@@ -1,13 +1,24 @@
-## WAX Office of Inspector General
+<h1 align="center">WAX Guilds</h1>
 
-The WAX Protocol is a DPoS blockchain designed to scale in conjunction with a microservice layer that provides specialized infrastructure for building digital goods marketplaces. The knowledge required to construct interconnected and highly sophisticated marketplace services comes from the team’s 20+ years’ experience building digital goods businesses. The WAX Platform is the combination of both the WAX Protocol and a microservice layer.
+<p>
+  <img src="https://img.shields.io/badge/node-%3E%3D16.19.0-blue.svg" />
+  <a href="https://github.com/wax-office-of-inspector-general/waxguilds/wiki" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/wax-office-of-inspector-general/wax-developer/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://twitter.com/WAXOIG" target="_blank">
+    <img alt="Twitter: WAXOIG" src="https://img.shields.io/twitter/follow/WAXOIG.svg?style=social" />
+  </a>
+</p>
 
 The Office of Inspector General (OIG) is a neutral third-party role designed to evaluate WAX Guild Candidates' contribution to the ecosystem and provide ongoing transparency for the community. The office is designed as a committee with 3 inspector generals who will standardize WAX Guild evaluations, and properly recognize those WAX Guilds making valuable contributions to the WAX ecosystem.
 
 
 ## Guild Ratings
 
-The ratings are published and archived here
+The ratings are published on Notion
 
 [Guild Ratings](https://www.notion.so/wax-oig/Guild-Ratings-0e51defdf10641748a253ccc7f5146b1)
 
