@@ -1,0 +1,31 @@
+## Technical Update 
+API Stats:
+Mainnet:
+- RPC: 9.1mil/day; 379k/day
+- HYP: 49k/day; 20k/hr (5 streaming clients)
+- Atomic: 4mil/day; 165k/day
+
+Testnet:
+- RPC: 64k/day; 2.7k/hr
+- HYP: 4.6k/day; 193/hr (2 streaming clients)
+- Atomic:1.6k/day; 68/hr
+
+Upgrade Status (on self-compiled binaries):
+API01, API02, P2P01, P2P02, SH01, SH02, BP02 upgraded to 4.0.4
+API03, P2P03, SH03, SNAP01, BP01 upgraded to 3.1.4-hotfix
+TEST-API01, TEST-SH01, TEST-SH02, TEST-BP01 upgraded to 3.1.4-hotfix
+
+Between preparing for the 4.x upgrades and being out on vacation a bit, didn't focus on much else technical other than keeping the hamster wheels turning.
+
+## Product Development Updates 
+- WaxStats - Still have to deploy the new JSON processor to assure system is properly picking up new/updated BP information.
+- AWStats - Report enhancements and bug fixes.  In discussions with other projects about providing similar gamedata reporting services for them.
+- Collection Scoring - In discussions with other projects about utilizing the services for their collection/drops
+- Player Support - Still providing player support services for projects
+- Antelope IBC Services - Offering public IBC endpoints for all enabled Antelope chains at https://ibc.eosusa.io
+- WAX/Minecraft - Continuing open beta testing and resolving issues.  Pushed big backend update to harden security and resolve initial bugs.  Testing and deploying next round of bug fixes and in discussions with communities to use the services to integrate WAX blockchain into their Minecraft communities.  Will provide player stats in secondary update (report is broken :)).
+
+## Ecosystem Developments 
+- Hosted Services - Still providing dedicated RPC/Hyperion/Atomic endpoints for MetaSource, InfoCore, Uplift, ShadySapy, MassCult and PixelTycoon.  Just started new services for NFT Draft as they were in a bind using public APIs for their pack drops (nodes kept throttling).
+- Blockchain Consulting Services - Still working with many projects around the space offering help however we can.  Working on new Voyager project with the Apex Brasil develoment crew to develop advanced Atomic Assets statistics.
+- Antelope Development Coordination - Still attending the weekly technical node discussions to help the Antelope developers understand the real-world use cases/struggles of the software and work to help optimize/secure the code in upcoming releases.
