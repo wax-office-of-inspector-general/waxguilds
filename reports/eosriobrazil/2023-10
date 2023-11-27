@@ -1,0 +1,54 @@
+## What is the name of your Guild?
+
+eosriobrazil
+
+## Does your Guild have any new information to submit that impacts Technical Operations?
+
+During October will be  moving most of the services inhouse and expect to improve service levels, response time and reduce costs to increase our long term reliability with WAX
+
+## Does your Guild have any new information to submit that impacts Product Development?
+
+Hyperion - In the period we have responded to a bug on large transactions signatures overflowing the buffer. We were able to create a patch in a matter of hours to prevent more significant outages. The technical community (other BPs and operators) were there to help debugging and immediately applying the fix. Regular maintenance were also performed and the code keeps evolving
+
+SIMPLEOS Wallet - Downloads Simpleos 1.0.5: 27,578
+ https://github.com/eosrio/simpleos
+
+
+
+
+## Does your Guild have any new information to submit that impacts Ecosystem Development?
+
+Block4 - Have an active contract with Stellantis the biggest car manufacturer in the world and is currently working with one of its brands to launch digitally collectibles to the distributed initially to owners rewarding brand loyalty/interaction. Block4 is currently expanding its B2B offerings.
+
+Block4 launched in late 2022 a partnership with Mercado Bitcoin, the biggest brazilian exchange to create an NFT platform.. 
+
+santos.tibs.app
+Vasco.tibs.app
+ecbahia.tibs.app
+agbadolato.tibs.app
+Pitty.tibs.app
+maneva.tibs.app
+Rockinrio.tibs.app
+mb.tibs.app
+
+NFT Holders: 1,600+
+NFTs issued: 5,000+
+Users: 6,000
+
+Contract address: https://wax.bloks.io/account/tibs
+
+Snapshot Server - We have created a snapshot server to allow block producers and other infrastructure providers to regularly take and make snapshots available. https://snapshots.eosrio.io/
+Code is also being open sourced for other BPs at 
+https://github.com/eosrio/eosio-snapshot-api
+https://github.com/eosrio/eosrio-snapshots-frontend
+
+Brazilian Outreach - We keep up helping people on the Brazilian tab on Discord by answering questions about the WAX ecosystem, giving more information, and producing dedicated content. We are focusing specially on the local gaming community.
+Account: @rioblocks on Twitter
+Account: @rioblocks_br on Twitter
+
+
+
+## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+
+Keep up the great work.
+
