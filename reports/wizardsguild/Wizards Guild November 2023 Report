@@ -1,4 +1,4 @@
-**Wizard's Guild Updates – October 2023**
+**Wizard's Guild Updates – November 2023**
 
 **Does your Guild have any new information to submit that impacts Technical Operations?**
 
@@ -23,7 +23,7 @@ smoothly.
 
 **Metrics:**
 
-- 14,052+ CPU rentals to date.
+- 14,795+ CPU rentals to date.
 
 ### **Product 2: ChainFLEX.io [https://chainflex.io](https://chainflex.io)**
 
@@ -33,12 +33,8 @@ Pursuant to agreement between NiFTyLIFE and Wizardsguild it is intended that NiF
 
 **Progress:**
 
-- Launched a brand new polished user interface
-- Launched tools, a custom market, tribe, and owner panels for Waxapes
-- Farmingtales team will be pausing their game play so they can implement all new contracts
-and IRL market implementations. During this time the Farmingtales tools on chainflex will be
-paused and likely an entirely new set will be developed as we follow the changes the team is
-making.
+- Added a Market and Trait tracker
+- Added a treasury claim page for Waxapes
 
 **Next milestones:**
 
@@ -69,21 +65,21 @@ users can discover and use the multiple tools we build.
 
 **New Information:**
 
-- DU$TDAO token mining went live on August 14th. Users can now stake their Nifty Wizards NFT's, DUST NFT's and DU$T Tokens to earn DUSTDAO governance tokens. Nifty Wizards NFT staking can be done [here](https://waxdao.io/farm/niftydaofarm). DU$T NFt staking can be done [here](https://waxdao.io/farm/dustnftfarm). 
+- DU$TDAO token mining went live on August 14th. Users can now stake their Nifty Wizards NFT's, DUST NFT's and DU$T Tokens to earn DUSTDAO governance tokens. Nifty Wizards NFT staking can be done [here](https://waxdao.io/farm/niftydaofarm). DU$T NFT staking can be done [here](https://waxdao.io/farm/dustnftfarm). 
 
 - DU$T Staking to earn DU$TDAO tokens went live on two platforms in August - one on [Alcor Exchange](https://alcor.exchange/swap?input=DUST-niftywizards&output=DUSTDAO-dao.dust) and one on [Taco Swap](https://swap.tacocrypto.io/swap?output=DUSTDAO-dao.dust&input=DUST-niftywizards)
 
 - DU$TDAO token staking is now live[here](https://waxdao.io/pool/dustdao).
 
-- The introduction of staking created a tremendous buzz in the community. There were approximately 100 DU$T/WAX swaps which totaled $4,188 and another $370 in market trades on [Alcor](https://alcor.exchange) in the past 30 days. Also, there was approximately 1M in DU$T volume on [Defibox](https://wax.defibox.io/market) in the same timeframe.
+- There were approximately 29 DU$T/WAX swaps which totaled $2,545 and another $110 in market trades on [Alcor](https://alcor.exchange) in the past 30 days. Also, there was approximately 336k in DU$T volume on [Defibox](https://wax.defibox.io/market) in the same timeframe.
   
-- DUST chat mining functionality was installed in one new Telegram rooms since the last report: BR Sketch.
+- DUST chat mining functionality was not installed in any new Telegram rooms since the last report.
   
-- One new drop is active on NeftyBlocks as of this writing: ["DU$T Strikes Back"](https://neftyblocks.com/collection/dust/drops/196785).
+- One new drop is active on NeftyBlocks as of this writing: ["DU$T Strikes Back"](https://neftyblocks.com/collection/dust/drops/196785). Since it was launched, 16 have been sold at 413.22 WAX each.
 
 **Curent Analytics:**
 
-DUST’s all-time NFT sales total $281,069 in sales from 1,671 transactions. DUST’s 30-day sales volume was 16,444 WAX from 32 transactions. Of that 329 WAX was contributed to DEFI. Source: [https:// https://wax.atomichub.io/]( https://wax.atomichub.io/).
+DUST’s all-time NFT sales total $281,462 in sales from 1,698 transactions. DUST’s 30-day sales volume was 6,545 WAX from 27 transactions. Of that 131 WAX was contributed to DEFI. Source: [https:// https://wax.atomichub.io/]( https://wax.atomichub.io/).
 
 Approximately 80,000 DUST tokens are distributed per day to 200 individual wallets making the 30-day total 2.4M tokens to 6,000 wallets.
 
@@ -95,27 +91,25 @@ Implemented Google Analytics on our [DU$T website](https://dustismagic.com). Ove
 
 [https://wax.bloks.io/account/miners.dust](https://wax.bloks.io/account/miners.dust)
 
-The DUST Telegram group has 1,803 members (down 77 from the last report), the Discord server has 1,730 members (down 3) and the Twitter following is 7,201 (down 46).  
+The DUST Telegram group has 1,751 members (down 52 from the last report), the Discord server has 1,721 members (down 9) and the Twitter following is 7,137 (down 64).  
   
 ### **Product 5: Nifty Wizards**
 
 **New Information:**
 
-A new item called ["Golden Phoenix"][(https://atomichub.io/explorer/template/wax-mainnet/niftywizards/golden-phoenix_743400) was added to the game via a [NeftyBlocks blend]https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/30816.
+A new item called ["Enchanted Flute"][(https://atomichub.io/explorer/template/wax-mainnet/niftywizards/enchanted-flute_764424) will go live on December 9th a [NeftyBlocks blend](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/32795).
 
-Our [Evil Castle](https://atomichub.io/explorer/template/wax-mainnet/niftywizards/evil-castle_20564) will soon begin farming blend tokens that players can use to take their chance in blending a new item. The details are in the Medium article linked below. 
+Our [Evil Castle](https://atomichub.io/explorer/template/wax-mainnet/niftywizards/evil-castle_20564) is now farming [blend tokens](https://atomichub.io/explorer/template/wax-mainnet/niftywizards/evil-blend-token_742306) that players can use to take their chance in blending a new item. The details are in the Medium article linked below. 
 
 **Curent Analytics:** 
 
-Nifty Wizards’ all-time NFT sales rank is 119 on the WAX blockchain with $181,539 in sales from 24,278 transactions. The 30-day sales volume was $979 from 361 transactions. Of that, 490 WAX was contributed to DEFI. Source: [https://cryptoslam.io/](https://cryptoslam.io/)
+Nifty Wizards’ all-time NFT sales rank is 119 on the WAX blockchain with $182,181 in sales from 24,470 transactions. The 30-day sales volume was $642 from 192 transactions. Of that, 214 WAX was contributed to DEFI. Source: [https://cryptoslam.io/](https://cryptoslam.io/)
 
-Our game lobby currently has 2,649 members (down 142 since the last report). Our Twitter account has 4,349 (down 15).
+Our game lobby currently has 2,480 members (down 169 since the last report). Our Twitter account has 4,316 (down 33).
 
 **Does your Guild have any new information to submit that impacts Ecosystem Development?**
 
-- We published an informational article during this reporting period
-
-["Spooky Season is Almost Upon Us"](https://medium.com/nifty-wizards/spooky-season-is-almost-upon-us-b20c0c4e2f87)
+Not at this time.
 
 **Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?**
 
