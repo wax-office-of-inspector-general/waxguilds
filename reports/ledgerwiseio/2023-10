@@ -1,0 +1,40 @@
+What is the name of your Guild? 
+Ledgerwise
+
+Does your Guild have any new information to submit that impacts Technical Operations? 
+All of our nodes are now upgraded and patched. We are continuing and maintaining all the APIs health, which include V1, V2, Atomic and Hyperion. 
+
+
+Does your Guild have any new information to submit that impacts Product Development? 
+#Nodestatus Maintaining nodestatus also have built a bot for Guilds to track and monitor their Delphi Oracle feeds easily. 
+Check https://t.me/delphimonitorbot
+
+##Waxzilla We have attracted upto 20+ communities. It has continuously being used by communities like Venap to build and reward their community members. 
+Hopefully by the end of this month we will have our new smart contract implemented. 
+
+We also worked on community management Discord tool for the communities - 
+Cerebeus This bot could help community owners provide gateway to exclusive private channels for their NFTs collection holders. Also, could allow to export Discord community - wax wallet accounts for the members who have linked. We will also add giving roles for NFTs holders.
+
+Check https://cerberus.ledgerwise.io/
+
+#IPFS Image Resizer
+
+Maintaining amd updated IPFS resizer. Check - https://github.com/ledgerwise/ipfs-resizer https://ipfs-resizer.ledgerwise.io/swagger-ui/index.html
+
+Also, we have put the snapshots under one directory - https://ledgerwise.io/snapshots/
+
+We also added chain Snapshots last month
+
+https://snapshots.ledgerwise.io
+
+Elastic Search Snapshots
+
+We are providing ES Snapshot Service for HYperion. Check - https://hyperion-snapshots.ledgerwise.io/
+
+Atomic API Snapshots
+
+Providing Snapshots for Atomic API. https://atomic-snapshots.ledgerwise.io/
+
+Does your Guild have any new information to submit that impacts Ecosystem Development? Not currently, hopefully soon. 
+
+Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form? None
