@@ -1,0 +1,81 @@
+## What is the name of your Guild?
+
+EOS Amsterdam
+
+## Does your Guild have any new information to submit that impacts Technical Operations?
+We have continued offering and maintaining our Atomic Assets API as well as providing history on the testnet for free!
+
+Additionally, our Hyperion health checker for haproxy which monitors the last indexed block and number of unindexed blocks, and stops sending requests to it if they exceed the thresholds is still running smoothly. More information can be found here. - https://github.com/cc32d9/eosio-haproxy
+
+Lastly, we are still supporting Hyperion servers which are being used internally by the WAX team. Additionally, we have continued supporting Hyperion for testnet.
+
+Up-to-date usage statistics are provided below!
+
+## Does your Guild have any new information to submit that impacts Product Development?
+Similar to the previous months, the Light API has been running smoothly and we have continued hosting and maintaining it, as it is still being used by a variety of applications.
+
+Lastly, bdata.one (https://bdata.one/), our public service providing access to various blockchain data archives has continued operating smoothly.
+
+Usage statistics are provided below!
+
+## Does your Guild have any new information to submit that impacts Ecosystem Development?
+
+### *UPDATED* Chronicle
+Chronicle release 3.3 is available now on Github. It fixes a floating point overflow bug that broke LightAPI on WAX. More information can be found here - https://github.com/EOSChronicleProject/eos-chronicle/releases
+
+Furthermore, we made a new snapshot of the Light API here: https://snapshots.eosamsterdam.net/public/lightapi/
+
+### Chronos
+Chronos is a history solution for Antelope blockchains. Chronos indexes the transaction traces of an Antelope blockchain in a ScyllaDB database.
+
+[ScyllaDB](https://www.scylladb.com/) is an open-source re-implementation of Apache Cassandra database. It's faster because it's implemented in C++, and it supports data sharding.
+
+The database architecture allows for an enormous data ingestion performance. A single server can handle about 100k inserts per second with secondary indexes and materialized views, or even 500k inserts per second without secondary indexes.
+
+The data model of ScyllaDB is that each table or materialized view is a hash of sorted trees: the partition key is an unsortable hash key, and each partition is a sorted tree. Also each tree cannot contain more than 2 billion rows. This implies the limitations and restrictions on the application data model.
+
+More information can be found here: https://github.com/EOSChronicleProject/chronos
+
+### *UPDATED* Memento
+A new method "get_pos" is added to the Memento API. Memento is a MariaDB or Postgresql/TimescaleDB database containing transaction traces from an EOSIO blockchain (such as EOS, Telos or WAX), and providing convenient indexes for quick searching. 
+
+Folowing the release of a new feature last month we have ensured it's correct implementation.
+
+A typical use case for Memento is tracking incoming and outgoing payments for a specific account, and checking their reversibility. The database may contain traces for all contracts on the blockchain, or it may be limited to a specific subset of accounts. dApps can set up their own instances, while public infrastructure providers may offer the service to a wider audience.
+
+It can also be accessed through a HTTP API, supporting both MySQL and Postgres backends. Additionally, it also has a GraphQL interface in addition to the RESTful interface.
+
+More information can be found here: https://github.com/cc32d9/eosio_memento
+
+### *UPDATED* Antelope/WAX-leap
+Following the latest Antelope release, we have finalised the latest WAX Leap release. More information can be found here - https://github.com/cc32d9/wax-leap/releases
+
+### Antelope Smart Contract Developer's Handbook
+The smart contract developer's handbook aims to address all the questions existing and prospective Antelope smart contract developers might have. This should make developer onboarding even easier. The handbook has received small updates and small mistakes have now been ironed out. The handbook can be found here: https://cc32d9.gitbook.io/antelope-smart-contract-developers-handbook/
+
+### Exposition Park Holdings (wax.io)
+We have continued helping Exposition Park Holdings, the team behind wax.io, with maintaining their infrastructure.
+
+### bInfra.one
+bInfra.one is an infrastucture service for dApps to offer them stronger and more reliable infrastructure. This service has helped various popular applications with their infrastructure so far. Some of the notable clients include milliononmars.com, desertfarm.io, and arenaofglory.io.
+
+### Educational content
+Our content has continued helping people over the past period with views on our content slightly declining as compared to the previous period. We have and will continue to keep our content up-to-date and useful, in order to give our readers a comprehensive understanding of everything in the WAX ecosystem. Lastly, cc32d9 and Yannick have also been helping people in various channels.
+
+### Commercial History Solutions
+The API service is still running and being offered to various partners. A notable point is that we are still supporting the API of the Wombat Wallet as well.
+
+### Usage statistics
+In addition to our regular updates we also want to provide usage statistics for our APIs, history solutions and p2p connections. They are still as follows:
+WAX RPC: 275k API requests per hour on average
+EOSIO Light API: 102k requests per hour on average, with 96% of the requests coming from WAX
+Atomic Assets API: 25k requests per hour on average
+WAX Hyperion: 34k history requests per hour on average
+
+
+### Other
+Some other points worth mentioning:
+* We have continued participating in a collaboration group between WAX, Telos, EOS, and other Antelope chains.
+
+## Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?
+None
