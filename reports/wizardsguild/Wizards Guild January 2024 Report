@@ -1,0 +1,118 @@
+**Wizard's Guild Updates – January 2024**
+
+**Does your Guild have any new information to submit that impacts Technical Operations?**
+
+-  We switched our Delphi Oracle over to another Market API and will be upgrading to Leap 5 soon.
+
+ 
+### **Product 1: WAX Blockchain CPU Rental Service - [cpu.rent](https://cpu.rent/)**
+
+**Current status:**
+
+Pursuant to agreement between NiFTyLIFE and Wizardsguild it is intended that NiFTyLIFE’s points be awarded to Wizardsguild in full.
+
+**Progress:**
+
+- Rentals for WAX, BRWL, TLM, TACO, SEST, CBIT, AUREUS, and DUST continue to run
+smoothly.
+
+**Next milestones:**
+
+- Add support for other tokens pursuant to market activity
+- Implement cpu rental contracts into our new chainFLEX tools
+
+**Metrics:**
+
+- 15,515+ CPU rentals to date.
+
+### **Product 2: ChainFLEX.io [https://chainflex.io](https://chainflex.io)**
+
+**Current Status:**
+
+Pursuant to agreement between NiFTyLIFE and Wizardsguild it is intended that NiFTyLIFE’s points be awarded to Wizardsguild in full.
+
+**Progress:**
+
+- Added a Market and Trait tracker
+- Added a treasury claim page for Waxapes
+
+**Next milestones:**
+
+- Digital display case
+- Research and review blockchain games to decide which one is suitable for a ChainFLEX
+suite of tools.
+
+**Metrics:**
+
+- 200+ monthly or daily subscription users
+- 118,875+ fee based game actions have been executed.
+
+ 
+### **Product 3: NFT Pack Breaks. [https://packbreaks.io](https://packbreaks.io)**
+
+**Current status:** 
+
+Pursuant to agreement between NiFTyLIFE and Wizardsguild it is intended that NiFTyLIFE’s points be awarded to Wizardsguild in full.
+
+**Progress:**
+
+- Due to the changing interests of collection makes and users, NFT culture has moved away
+from massive pack openings. There has not been a pack break in months. This down time
+will be used to move packbreaks to chainflex.io in order to provide a central place where
+users can discover and use the multiple tools we build.
+
+### **Product 4: DUST**
+
+**New Information:**
+
+- DU$TDAO token mining continues to evolve. The team changes the stakeable assets each month to give all users a fair opportunity at mining DUSTDAO tokens. Nifty Wizards NFT's, DUST NFT's and DU$T Tokens are all stakeable for mining DUSTDAO governance tokens. Nifty Wizards NFT staking can be done [here](https://waxdao.io/farm/niftydaofarm). DU$T NFT staking can be done [here](https://waxdao.io/farm/dustnftfarm). 
+
+- DU$T Staking to mine DU$TDAO tokens continues to gain attention on two platforms - [Alcor Exchange](https://alcor.exchange/swap?input=DUST-niftywizards&output=DUSTDAO-dao.dust) and [Taco Swap](https://swap.tacocrypto.io/swap?output=DUSTDAO-dao.dust&input=DUST-niftywizards)
+
+- DU$TDAO token staking is now live[here](https://waxdao.io/pool/dustdao). Staked DU$TDAO tokens mine additional DU$TDAO tokens.
+
+- There were approximately 98 DU$T/WAX market trades which totaled $89.47 and another $3,180 in pool swaps on [Alcor](https://alcor.exchange) in the past 30 days. Also, there was over 1M in DU$T volume on [Defibox](https://wax.defibox.io/market) in the same timeframe.
+  
+- DUST chat mining functionality was not installed in any new Telegram rooms since the last report.
+  
+- One new drop is active on NeftyBlocks as of this writing: ["Shoshitzoo"](https://neftyblocks.com/collection/dust/drops/210480).
+
+**Curent Analytics:**
+
+DUST’s all-time NFT sales total $282,060 in sales from 1,712 transactions. DUST’s 30-day sales volume was 9,965 WAX from 14 transactions. Source: [https:// https://wax.atomichub.io/]( https://wax.atomichub.io/).
+
+Approximately 80,000 DUST tokens are distributed per day to 200 individual wallets making the 30-day total 2.4M tokens to 6,000 wallets.
+
+Implemented Google Analytics on our [DU$T website](https://dustismagic.com). Over the last 7 days we had 68 users - 42 of them new with 1.6k Events, and an average engagement time of 2m 08s. The top Country ID's were: United States, India, Australia, indoneasia, Ghana, Romania, and Singapore.
+
+**Sources:**
+
+[https://wax.bloks.io/tokens/DUST-wax-niftywizards](https://wax.bloks.io/tokens/DUST-wax-niftywizards)
+
+[https://wax.bloks.io/account/miners.dust](https://wax.bloks.io/account/miners.dust)
+
+The DUST Telegram group has 1,699 members (down 52 from the last report), the Discord server has 1,704 members (down 17) and the Twitter following is 7,094 (down 43).  
+  
+### **Product 5: Nifty Wizards**
+
+**New Information:**
+
+We droped two new packs in December - [Christmas Ornament Pack, Mints 1-200](https://neftyblocks.com/collection/niftywizards/drops/209336) and [Christmas Ornament Packs](https://neftyblocks.com/collection/niftywizards/drops/209337). 176 of the first drop and 445 of the second drop have sold for a total of $975.50.
+
+We added (6) new blends in December - [Weed Tree Blend premint](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/33168) [Christmas Tree Blend](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/33171) [Magic Christmas Tree](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/33172) [Weed Tree Mint on Demand](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/33173) [Amnesia Haze](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/330191) and [Kris Kringle Weed](https://neftyblocks.com/collection/niftywizards/blends/blend.nefty/33452). 
+
+A new Telegram room was added to the game entitled "Nifty Wizards - Nifty Farms" where all users that hold any type of tree are added. From this room they can watch their trees passively farm weed seeds and weed leafs. 
+
+**Curent Analytics:** 
+
+Nifty Wizards’ all-time NFT sales rank is 119 on the WAX blockchain with $183,201 in sales from 24,880 transactions. The 30-day sales volume was $267 from 144 transactions. Source: [https://cryptoslam.io/](https://cryptoslam.io/)
+
+Our game lobby currently has 2,438 members (down 42 since the last report). Our Twitter account has 4,309 (down 7).
+
+**Does your Guild have any new information to submit that impacts Ecosystem Development?**
+
+We released two informational articles during this report period: ["Collection Staking for increased DU$T Mining Power is Live"](https://medium.com/@dustismagic/collection-staking-for-increased-du-t-mining-power-is-live-6ddf70e9463c) and ["A DU$T(y) Refresher](https://medium.com/@dustismagic/a-du-t-y-refresher-37ed15eb1000)
+
+**Do you have any feedback for improving the Office of Inspector General, the Inspector General Guidelines, or this form?**
+
+No, thank you.
