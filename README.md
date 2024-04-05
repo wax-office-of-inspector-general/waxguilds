@@ -1,24 +1,24 @@
-The WAX Protocol is a DPoS blockchain designed to scale in conjunction with a microservice layer that provides specialized infrastructure for building digital goods marketplaces. The knowledge required to construct interconnected and highly sophisticated marketplace services comes from the team’s 20+ years’ experience building digital goods businesses. The WAX Platform is the combination of both the WAX Protocol and a microservice layer.
+<h1 align="center">WAX Guild Reports</h1>
 
-The Office of Inspector General (OIG) is a neutral third-party role designed to evaluate WAX Guild Candidates' contribution to the ecosystem and provide ongoing transparency for the community. The office is designed as a committee with 3 inspector generals who will standardize WAX Guild evaluations, and properly recognize those WAX Guilds making valuable contributions to the WAX ecosystem.
+The WAX OIG functions as an impartial entity dedicated to assessing the contributions of WAX Guild Candidates to the ecosystem and ensuring ongoing transparency within the community. This office operates as a panel comprising three inspector generals who are tasked with standardizing the evaluation of WAX Guilds, acknowledging those guilds that significantly benefit the WAX ecosystem.
 
 
 ## Guild Ratings
 
-The ratings are published and archived here
+The ratings are published on Notion
 
-[Guild Ratings](https://www.notion.so/Guild-Ratings-9439f28c57374a56988e6dc1369771d3)
+[Guild Ratings](https://www.notion.so/wax-oig/Guild-Ratings-0e51defdf10641748a253ccc7f5146b1)
 
 [Report Submission Guide](https://github.com/wax-office-of-inspector-general/waxguilds/wiki/Report-Submission)
 
 ## Evaluation Process
 
-The OIG framework and the guild rating guidelines are under constant development. Therefore the guidelines update regularly, which can be followed here
+The WAX OIG framework and the guild rating guidelines are under constant development. Therefore the guidelines update regularly, which can be followed here
 
-[Versioned Guidelines](https://www.notion.so/Versioned-Guidelines-9430c90bc86f4123bd8e21bd8693b8ad)
+[Versioned Guidelines](https://www.notion.so/wax-oig/Versioned-Guidelines-a83f99e6acd0444ab7cec9419ca4eff0)
 
 ## Feedback
-[Community Feedback Log](https://www.notion.so/Community-Feedback-Log-fe450ffff7c643b29167fd01e8cb8de8)
+[Community Feedback Log](https://www.notion.so/wax-oig/Community-Feedback-Log-d36a68da0d114e40b94794e256a3f3a2)
 
 
 ## Resources
