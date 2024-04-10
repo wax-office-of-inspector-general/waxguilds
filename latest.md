@@ -34,7 +34,7 @@ Others APIs: Roborovski, dfuse, ...
 **List of SCs**: a.wallet, b.wallet  
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption... [https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49](Reference to a previous report)"
 
 *[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
 
