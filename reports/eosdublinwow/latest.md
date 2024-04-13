@@ -2,83 +2,85 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://eosdublin.com |
+| Contact | hello@eosdublin.com |
+| bp.json (mainnet) | https://eosdublin.com/wax.json |
+| bp.json (testnet) | https://eosdublin.com/wax-testnet.json |
+| producer (mainnet) | eosdublinwow |
+| producer (testnet) | eosdublinwow |
+| Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
+We upgraded Hyperion infrastructure by adding a new server, with another 10 TB of NVMe storage, to the existing elasticsearch cluster. Some shards were moved to the new server to balance the storage.
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+During the process of moving the shards, the elasticsearch cluster was marked as "Yellow" which was picked up as downtime by the monitoring services (https://wax.validationcore.io/stats/guild/eosdublinwow).
+
+The partial downtime (~1D) was reported in advance in the "Wax Guilds Public" telegram channel, and noted by Kaefer. 
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
-|--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| Chain API | History (full) | History (testnet - full) | AA API |
+|---|---|---|---|
+| [x] | [x] | [x] | [x] |
+| - | - | - | - |
 
-Others APIs: Roborovski, dfuse, ...
+*Metrics to be tracked*
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### 1. Wax School Project 
+**URLs**:
+- [wax.school - main website](https://wax.school)
+- [Wax School on Medium](https://medium.com/@waxblockchain)
+- [Wax School on Twitter/X](https://twitter.com/waxschool_)
+- [Wax School on Youtube](https://www.youtube.com/channel/UCwV0PjHGLr3jzwkHTLxwlpg)
 
-**URLs**: example.com, github.com/example/example-repo
 
-**List of SCs**: a.wallet, b.wallet  
+New Medium articles added:
+ - [WAX School Top 3 Highlights 05/04/24–11/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-05-04-24-11-04-24-c3b5f6e21db0)
+ - [WAX School Top 3 Highlights 22/03/24–04/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-22-03-24-04-04-24-c76ebb778cdd)
+ - [WAX x Amazon AWS](https://medium.com/@waxblockchain/wax-x-amazon-aws-cb3ad4022618)
+ - [WAX School Top 3 Highlights 07/03/24–21/03/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-07-03-24-21-03-24-4b364e1ffade)
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
-Period: January 10th, 2024 - February 27th 2024
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+On Twitter/X ~6000 new impressions
 
 
 ---
+### 2. Antelope Java SDK
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+**URLs**:
+- Antelope Java SDK [https://github.com/mcicu/antelope-java-sdk](https://github.com/mcicu/antelope-java-sdk) (main library)
+- Softkey signature provider [https://github.com/mcicu/antelope-java-softkey-signature-provider](https://github.com/mcicu/antelope-java-softkey-signature-provider) 
+- RPC provider [https://github.com/mcicu/antelope-java-rpc-provider](https://github.com/mcicu/antelope-java-rpc-provider)
+- ABIEOS serialization provider [https://github.com/mcicu/antelope-java-abieos-serialization-provider](https://github.com/mcicu/antelope-java-abieos-serialization-provider)
+- Demo project integrating the libraries
+[https://github.com/mcicu/antelope-java-sdk-demo](https://github.com/mcicu/antelope-java-sdk-demo)
+
+Since the last guild report we updated the demo project to contain examples on how to purchase blockchain resources (ram and cpu).
+
+We are in active discussions to have the next release under the official antelope.io namespace.
+
+**Metrics**
+
+*Untracked at this point*
 
 ---
-
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
-
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+Done through the Wax School Project, we got around ~6000 new impressions on Twitter/X.
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
-
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+*None currently*
 
 ----
 
