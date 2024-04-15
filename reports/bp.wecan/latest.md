@@ -13,7 +13,7 @@
 ### <ins>Noteworthy</ins>
 
 We have faced a scripting bot attack on Hyperion Mainnet Public endpoint in between April 10-12 which was fended off successfully.
-[!image](https://github.com/We-Can-dev/reports/assets/89981724/c5b640f9-d39a-4da4-aa53-47a31e5f4e73)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/c5b640f9-d39a-4da4-aa53-47a31e5f4e73)
 
 On the other notes of Sys/Tech OPS work:
 1. WIP on clustered deployment of NodeOS
@@ -67,7 +67,7 @@ The tasks listed below indicate ongoing development efforts and completed tasks 
 Our players have received assistance from our moderators across various social platforms such as Discord, Twitter, and Telegram chats.
 
 R-Planet is set to participate in the Top web3 conference in Dubai - https://web3dubai.io/. 
-[!image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
 
 R-Planet is set to participate in April Fest by Spinnia
 
