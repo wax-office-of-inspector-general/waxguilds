@@ -5,7 +5,7 @@
 | Website | https://dapplica.io/ |
 | Contact | oleh@dapplica.io |
 | bp.json (mainnet) | https://wax.dapplica.io/wax.json |
-| bp.json (testnet) | (https://dapplica.io/wax-testnet.json |
+| bp.json (testnet) | https://dapplica.io/wax-testnet.json |
 | producer (mainnet) | dapplica |
 | producer (testnet) | dapplicawaxt |
 | Guild Jurisdiction | Ukraine |
