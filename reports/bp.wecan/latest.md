@@ -19,6 +19,7 @@ On the other notes of Sys/Tech OPS work:
 1. WIP on clustered deployment of NodeOS
 2. WIP Datadog monitoring lib suite
 3. WIP IBC
+4. New Hyperion build
 
 ### <ins>API Services</ins>
 
@@ -122,30 +123,40 @@ Prospectors world instances:
 ---
 ### Pepper Stake
 * Status: **release**
+
+**URLs:**
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
+New onboarded pool
+![image](https://github.com/We-Can-dev/reports/assets/89981724/74e41319-9fc4-4822-839d-015b68795f3e)
+
+to a bunch of about 30 active pools.
+
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+![image](https://github.com/We-Can-dev/reports/assets/89981724/e1a422d2-bf60-4300-92c8-6f23fe762b5e)
+
 ---
 ### WAXSCAN
-**WAX Block Explorer**
 * Status: **release/ in development**
+
+**URLs:**
 * Website: https://waxscan.wecan.dev/; 
 https://waxscan-testnet.wecan.dev/
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: April 07th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+![image](https://github.com/We-Can-dev/reports/assets/89981724/f7dbef5e-a5fa-4c07-8d33-2d80ba376b01)
+
 ---
 ### Docker containers for WAX ecosystem
 We keep building and testing latest versions of WAX pubilc infra components:
