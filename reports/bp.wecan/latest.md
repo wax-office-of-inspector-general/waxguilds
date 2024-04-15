@@ -33,6 +33,7 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 ### <ins>Contributions</ins>
 
 ---
+
 ### R-Planet MMO Strategy game (Early Access Alpha) (rplainet.io alchemy game)
 * Status: **in development**
 
@@ -122,6 +123,7 @@ Prospectors world instances:
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/5fe2381b-7eed-4a69-8cba-261e02cbec66)
 
 ---
+
 ### Pepper Stake
 * Status: **release**
 
@@ -143,6 +145,7 @@ Stats:
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/e1a422d2-bf60-4300-92c8-6f23fe762b5e)
 
 ---
+
 ### WAXSCAN
 * Status: **release/ in development**
 
@@ -159,6 +162,7 @@ Stats:
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/f7dbef5e-a5fa-4c07-8d33-2d80ba376b01)
 
 ---
+
 ### Docker containers for WAX ecosystem
 We keep building and testing latest versions of WAX pubilc infra components:
 * Nodeos - https://hub.docker.com/r/wecandev/waxblockchain
@@ -169,6 +173,7 @@ We keep building and testing latest versions of WAX pubilc infra components:
 https://hub.docker.com/r/wecandev/eosio-lightapi-wsapi
 https://hub.docker.com/r/wecandev/eosio-lightapi-dbwriter
 https://hub.docker.com/r/wecandev/eosio-lightapi-chronicle
+
 ---
 
 ### <ins>Backups </ins>
