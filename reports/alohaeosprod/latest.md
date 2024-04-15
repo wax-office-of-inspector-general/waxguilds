@@ -2,83 +2,118 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://www.alohaeos.com/ |
+| Contact | info@alohaeos.com |
+| bp.json (mainnet) | https://www.alohaeos.com/wax.json |
+| bp.json (testnet) | https://www.alohaeos.com/waxtest.json |
+| producer (mainnet) | alohaeosprod |
+| producer (testnet) | alohaeosprod |
+| Guild Jurisdiction | Oregon, US |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
-
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+On 2024.04.01 we missed 4 rounds due to temporary network issues at the datacenter.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [ ] | [x] | [ ] | [ ] | [ ] | [ ] |  [ ] |
+| - | 45.6k / day | - | - | - |  - |
 
-Others APIs: Roborovski, dfuse, ...
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### Droppp.io
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: https://droppp.io
 
-**List of SCs**: a.wallet, b.wallet  
+**Updates**: 
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+- Mobile update: Enjoy a compact preview of an item when buying or listing items from a mobile device (translation: less scrolling!)
+- New Feature: Collection Value added to Inventory, Profile, and Drop Collection Overview Pages!
+- Bug Fix: Funko Promotional, Bonus, and Mini Drops in the Collection Tracker are back in action!
+- Updated shipping notifications: You will now receive a shipping email notification when your package(s) are scanned by the carrier after leaving the warehouse, instead of when the label is created.
+- New Feature: Sales History is on Droppp! Now, you can find a rundown of sales history for any item from your inventory, collection tracker or the Droppp Marketplace. Easily view which mints sold, who sold them, and the price paid for each listing.   
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+Stats: - Droppp has created over 199k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+**List of SCs**: dp, mint.droppp
 
-**Metrics**
+-------------------------------------------------------------------------------------------
 
-[report relevant metrics and metric period...]
+### Funko Drops
 
-Period: January 10th, 2024 - February 27th 2024
+**URLs**: https://droppp.io/drops
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Updates:
+
+- On Feb 28, 2024 we took a redemption snapshot for [Funkoween Series 1](https://droppp.io/drop/156/funkoween-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Mar 1, 2024 we announced the [Star Trek™: The Next Generation x Funko Series 1](https://droppp.io/drop/180/star-trek-the-next-generation-series-1/) Digital Pop! drop.   
+- On Mar 1, 2024 we completed the redemption for [WB 100th Anniversary x Funko Series 1](https://droppp.io/drop/150/wb-100th-anniversary-series-1/).
+- On Mar 5, 2024 we released the [Transformers x Funko Series 2](https://droppp.io/drop/177/transformers-series-2/) Digital Pop! collection on Droppp. This release consisted of 21k Standard and 17k Premium packs and sold out.   
+- On Mar 12, 2024 we released the [Star Trek™: The Next Generation x Funko Series 1](https://droppp.io/drop/180/star-trek-the-next-generation-series-1/) Digital Pop! collection on Droppp. This release consisted of 18k Standard and 18k Premium packs.   
+- On Mar 15, 2024 we announced the [Star Wars™: Funko Digital Pop! Series 1](https://droppp.io/drop/183/star-wars-series-1/) Digital Pop! drop.   
+- On Mar 26, 2024 we released the [Star Wars™: Funko Digital Pop! Series 1](https://droppp.io/drop/183/star-wars-series-1/) Digital Pop! collection on Droppp. This release consisted of 35k Standard and 30k Premium packs.   
+- On Apr 1, 2024 we announced and released the [Funko April Fools Series 2](https://droppp.io/drop/186/funko-april-fools-series-2/) Digital Pop! drop. This release consisted of 7k Standard and 8k Premium packs and sold out.
+- On Apr 5, 2024 we announced the [My Little Pony x Funko Series 2](https://droppp.io/drop/189/my-little-pony-series-2/) Digital Pop! drop.   
+
+-------------------------------------------------------------------------------------------
+
+### Guild Benchmarks
+
+**Description**: Network tool used for measuring CPU execution performance of guilds.   
+
+**URLs**: [Charts](https://www.alohaeos.com/tools/benchmarks#networkId=11&timeframeId=4), [Data](https://wax.bloks.io/account/eosmechanics)
+
+**List of SCs**: eosmechanics
+
+---
+
+### Guild Reliability Tracker (Website and Telegram bot)
+
+**Description**: Tools used for measuring the reliability of WAX Guilds and for notifying users of reliability issues on Telegram.   
+
+**URLs**: [Website](https://www.alohaeos.com/tools/reliability#networkId=11&timeframeId=10&sort=rank&sortDir=asc), [Telegram](https://t.me/WAX_Mainnet_Aloha_Tracker)
 
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+### TokenHead
+
+**Description**: Mobile app to track and showcase your digital collectibles.   
+
+**URLs**: https://www.tokenhead.io/
 
 ---
-
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
+Social Media Engagement
 
-Initiative B: Representing WAX at web3 fair in Exampletown
+- https://www.instagram.com/reel/C4ijo51reY8/ (179k views)
+- https://www.instagram.com/reel/C5YoL4FL4yE/ (161k views)
+- https://www.instagram.com/reel/C3-nDVZR1Cj/ (133k views)
+- https://www.instagram.com/reel/C3slJWqRqm4/ (92.2k views)
+- https://twitter.com/Dropppio/status/1767573864454795592 (14.5k views)
 
-Initiative C: Link to YT/X/Twitch reccording
+Community Coverage
 
-### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+- https://www.youtube.com/watch?v=xwfXrR1rbvo (88k views)
+- https://www.youtube.com/watch?v=7OfJe7j_a1Y (26k views)
+- https://www.youtube.com/watch?v=3siHtNwfk6s (5.2k views)
+- https://www.youtube.com/watch?v=vA1HdK7u61g (3.9k views)
+- https://www.youtube.com/watch?v=oOcY-nEP8CE (2.3k views)
 
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+Droppp Discord
 
+The Droppp Discord server is an all-in-one place for Droppp users to socialize with each other, get support on Droppp related products, and stay current on Droppp related news.   
+
+**URLs**: https://droppp.io/discord   
+**User Count**: 19k
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+None at this time. Keep up the good work!
 
 ----
 
