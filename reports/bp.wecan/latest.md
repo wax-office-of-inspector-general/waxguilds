@@ -69,7 +69,10 @@ Our players have received assistance from our moderators across various social p
 R-Planet is set to participate in the Top web3 conference in Dubai - https://web3dubai.io/. 
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
 
+![image](https://github.com/We-Can-dev/reports/assets/89981724/92ed6962-4a06-4539-8e9d-5da1a504344e)
+
 R-Planet is set to participate in April Fest by Spinnia
+![image](https://github.com/We-Can-dev/reports/assets/89981724/8f6907f6-4f4f-4529-9afe-86bead47d55d)
 
 
 **Metrics**
