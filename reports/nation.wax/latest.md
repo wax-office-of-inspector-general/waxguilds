@@ -76,20 +76,12 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ### WAX Detective
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: https://waxdetective.io/
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+""
 
 **Metrics**
-
-[report relevant metrics and metric period...]
 
 Period: March 1st, 2024 - April 15th 2024
 
@@ -100,20 +92,12 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ### DFuse SaaS
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: https://wax.dfuse.eosnation.io/
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+""
 
 **Metrics**
-
-[report relevant metrics and metric period...]
 
 Period: March 1st, 2024 - April 15th 2024
 
@@ -124,20 +108,15 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ### Open Source & Educational Content
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: MISSING
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: 
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+""
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
 
 **Metrics**
-
-[report relevant metrics and metric period...]
 
 Period: March 1st, 2024 - April 15th 2024
 
@@ -148,20 +127,14 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ### BLockchain Stats
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: https://blocktivity.info/coin/waxp_0
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: blocktivity1
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+""
 
 **Metrics**
-
-[report relevant metrics and metric period...]
 
 Period: March 1st, 2024 - April 15th 2024
 
@@ -172,44 +145,26 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ### WAX v5 Tests and Bug Reports
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: https://github.com/AntelopeIO/leap/issues/created_by/matthewdarwin, https://github.com/AntelopeIO/leap/issues?q=is%3Aissue+author%3AYaroShkvorets
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+"No new issues created during this period"
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
 Period: March 1st, 2024 - April 15th 2024
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
 
 
 ---
 
 ### Pinax Substreams
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: https://pinax.network/en/chain/waxtest
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+""
 
 **Metrics**
-
-[report relevant metrics and metric period...]
 
 Period: March 1st, 2024 - April 15th 2024
 
@@ -218,24 +173,12 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
-
----
-
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: MISSING
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -243,9 +186,8 @@ URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+"We haven’t gotten credit for having a history solution on testnet, although we have Firehose/Substreams available there. Would love to see Firehose recognized as a history solution by the OIG."
 
 ----
 
