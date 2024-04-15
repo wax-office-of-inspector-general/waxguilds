@@ -94,18 +94,17 @@ https://play.prospectors.io,
 https://wax.prospectors.io, 
 https://grandland.prospectors.io
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: prospectorsc, (tbd)
 
 **Update**: 
 
 We actively engage with players through engaging posts on Prospectors' social media platforms such as Twitter, Discord, and Telegram channels. 
 Our aim is to encourage them to participate by replying, communicating with other players, and visiting the game more frequently. 
+![image](https://github.com/We-Can-dev/reports/assets/89981724/8f70502c-11fc-4c89-9240-cbb9f25d6f76)
 
 Updated wax bank shortcut:
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/e59e13a9-aee3-4414-bf99-df9253440fa2)
-
-Also, we’ve been answering and helping players in Discord and Telegram chats and the Zendesk system all the time.  
+![image](https://github.com/We-Can-dev/reports/assets/89981724/e59e13a9-aee3-4414-bf99-df9253440fa2)  
 
 **Metrics**
 
@@ -117,6 +116,8 @@ Prospectors world instances:
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/dd2bf99b-f6f7-4cfe-8cc6-ca4ddf18d667)
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/28d0c30f-4b65-48f3-afda-e18e1091d405)
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/7c0b2c9b-7785-42e6-9c0d-9b753e803459)
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/5fe2381b-7eed-4a69-8cba-261e02cbec66)
 
 ---
 ### Pepper Stake
