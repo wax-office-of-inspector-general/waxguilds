@@ -183,7 +183,7 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 
 ![stats](https://assets.tacostudios.io/bp-assets/april-2024/wuffi_collection_monster_rooms.png)
 
-**C) Bananconf**: Taco is going to attend to Bananconf, an NFT event in Tallin from April 22nd - 24th
+**C) Bananaconf**: Taco is going to attend to Bananconf, an NFT event in Tallin from April 22nd - 24th
 
 **D) European Web 3 Organization**: Taco's CEO is a board member of the Web3 Organization, a non-profit based in Brussels which contributes to building a better Web3 European ecosystem with a spirit of cooperation and EU friendship. Other board members include Circle.com representatives, as well as other major We2 and Web3 professionals. https://europeanweb3.org/
 
