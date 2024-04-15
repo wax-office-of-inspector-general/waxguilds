@@ -4,28 +4,29 @@
 | --- | --- |
 | Website | https://tacostudios.io/ |
 | Contact | info@tacostudios.io |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
+| bp.json (mainnet) | https://tacostudios.io/bp.json |
+| bp.json (testnet) | https://tacostudios.io/waxtest.json |
 | producer (mainnet) | guild.taco |
-| producer (testnet) | guild.example |
+| producer (testnet) | guild.taco |
 | Guild Jurisdiction | Italy |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
-
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Nothing to share lately, just the usual updates. We had our Mainnet Hyperion failing for some hours cause of a network issue. We are testing the latest Hyperion version both on testnet and mainnet.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| ~2.1M req | - | ~90k req | ~16.5M | ~12M req | ~250k req |
 
-Others APIs: Roborovski, dfuse, ...
+As an additional info, our rpc served ~165M requests in the last 28 days.
+
+All the tracked requests in the table are intended in the last 28 days for every single service provided.
+
+Others APIs: ----
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
 ### Overall Stats for Taco Products
 
@@ -220,17 +221,17 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 - Hours Streamed: 35+
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+Currently we are not offering public backups, we have just our own private backup to easily restore the servers if needed.
+URL: ---
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+We don't have any feedback right now to share with the OIG, other that we really like the new guild report format: it helps to create a standard between guilds easily. Thanks!
 
 ----
 
