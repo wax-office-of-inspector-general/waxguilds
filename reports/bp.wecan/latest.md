@@ -79,6 +79,7 @@ R-Planet is set to participate in April Fest by Spinnia
 Period: March 15th, 2024 - April 15th 2024
 
 Stats:
+
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/321e4d64-c21f-4e89-b26c-e9ffd22fe754)
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/0ed5005b-148c-44d3-b4df-4497e538a449)
 
