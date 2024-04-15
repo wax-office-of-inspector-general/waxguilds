@@ -25,7 +25,7 @@ We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited ini
 ### <ins>Contributions</ins>
 
 ### A-DEX Swap (https://wax.a-dex.io/swap)
-Initial project launch.
+Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provide liquidity to earn 0.2% of trading fees. Initial project launch.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (3)](https://github.com/A-DEX/waxguilds/assets/24969602/731eafe7-5c6e-4159-9265-6a8441ebcc9f)
 
@@ -33,7 +33,7 @@ Initial project launch.
 
 ### A-DEX Send (https://wax.a-dex.io/swap)
 
-Initial project launch.
+Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). Initial project launch.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/d9041457-48bc-4dee-a28e-59bc2b20e2e3)
 
@@ -41,7 +41,7 @@ Initial project launch.
 
 ### A-DEX Buy (https://wax.a-dex.io/swap)
 
-Initial project launch.
+Fiat & Crypto users on-ramp direct to WAX. Initial project launch.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (4)](https://github.com/A-DEX/waxguilds/assets/24969602/90967906-4299-4546-a32e-6ccb5e26abd5)
 
