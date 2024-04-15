@@ -13,16 +13,16 @@
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Waiting on Matthew"
+"Nothing to report for this evaluation period."
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
+| [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
 | - | - | - | - | ~x req |  ~y req |
 
-Others APIs: Roborovski, dfuse, ...
+Others APIs: Our Firehose solution has a full history of all the blocks so we checked "History (full)".
 
 ### <ins>Contributions</ins>
 
@@ -148,7 +148,7 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 **URLs**: https://github.com/AntelopeIO/leap/issues/created_by/matthewdarwin, https://github.com/AntelopeIO/leap/issues?q=is%3Aissue+author%3AYaroShkvorets
 
 **Update**: 
-"No new issues created during this period"
+"No new issues created during this period."
 
 **Metrics**
 
