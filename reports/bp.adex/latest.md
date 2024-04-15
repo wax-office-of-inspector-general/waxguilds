@@ -25,8 +25,9 @@ We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited ini
 ### <ins>Contributions</ins>
 
 ### A-DEX Swap (https://wax.a-dex.io/swap)
-
 Initial project launch.
+
+![wax a-dex io_swap(iPhone 14 Pro Max) (3)](https://github.com/A-DEX/waxguilds/assets/24969602/731eafe7-5c6e-4159-9265-6a8441ebcc9f)
 
 ---
 
@@ -34,11 +35,15 @@ Initial project launch.
 
 Initial project launch.
 
+![wax a-dex io_swap(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/d9041457-48bc-4dee-a28e-59bc2b20e2e3)
+
 ---
 
 ### A-DEX Buy (https://wax.a-dex.io/swap)
 
 Initial project launch.
+
+![wax a-dex io_swap(iPhone 14 Pro Max) (4)](https://github.com/A-DEX/waxguilds/assets/24969602/90967906-4299-4546-a32e-6ccb5e26abd5)
 
 ---
 
@@ -46,6 +51,7 @@ Initial project launch.
 
 A comprehensive, up-to-date collection of information about Antelope(EOSIO) chains and assets.
 Added some popular WAX tokens info and logos.
+
 
 ---
 
@@ -58,6 +64,8 @@ An SDK for building applications on top of A-DEX.
 ### A-DEX Status (https://status.a-dex.io/)
 
 We provide transparency of our service availability through our public infra status dashboard.
+
+![status a-dex io_(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/a3d0c073-b40a-449e-b793-2e37f38c6564)
 
 ---
 
