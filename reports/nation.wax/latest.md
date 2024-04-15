@@ -2,18 +2,18 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
+| Website | https://eosnation.io/ |
+| Contact | stephane@eosnation.io |
 | bp.json (mainnet) | https://example.com/wax.json |
 | bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| producer (mainnet) | nation.wax |
+| producer (testnet) | nation.wax |
+| Guild Jurisdiction | Sherbrooke, Quebec, Canada |
 
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+"Waiting on Matthew"
 
 ### <ins>API Services</ins>
 
