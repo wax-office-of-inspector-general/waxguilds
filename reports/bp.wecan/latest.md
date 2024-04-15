@@ -41,8 +41,7 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 * App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet; 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
-
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: rplanet, a.rplanet, (tbd)
 
 **Update**:
 
@@ -77,11 +76,12 @@ R-Planet is set to participate in April Fest by Spinnia
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
+![image](https://github.com/We-Can-dev/reports/assets/89981724/321e4d64-c21f-4e89-b26c-e9ffd22fe754)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/0ed5005b-148c-44d3-b4df-4497e538a449)
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
 ---
 
 ### Prospectors
@@ -104,11 +104,15 @@ Also, we’ve been answering and helping players in Discord and Telegram chats a
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Prospectors world instances:
+![image](https://github.com/We-Can-dev/reports/assets/89981724/dd2bf99b-f6f7-4cfe-8cc6-ca4ddf18d667)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/28d0c30f-4b65-48f3-afda-e18e1091d405)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/7c0b2c9b-7785-42e6-9c0d-9b753e803459)
+
 ---
 ### Pepper Stake
 * Status: **release**
