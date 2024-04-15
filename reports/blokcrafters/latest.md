@@ -4,8 +4,8 @@
 | --- | --- |
 | Website | https://blokcrafters.com/ |
 | Contact | bc@blokcrafters.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
+| bp.json (mainnet) | https://blokcrafters.com/waxmain.json |
+| bp.json (testnet) | https://blokcrafters.com/waxtest.json |
 | producer (mainnet) | blokcrafters |
 | producer (testnet) | blokcrafters |
 | Guild Jurisdiction | Clearwater, FL (USA) |
