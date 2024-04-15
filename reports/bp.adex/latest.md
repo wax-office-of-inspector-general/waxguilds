@@ -24,8 +24,8 @@ We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited ini
 
 **Others APIs: **
 
-A-DEX REST API: https://wax.a-dex.io/api/docs/
-A-DEX GRAPHQL API: https://wax.a-dex.io/v1/graphql
+* A-DEX REST API: https://wax.a-dex.io/api/docs/
+* A-DEX GRAPHQL API: https://wax.a-dex.io/v1/graphql
 
 ### <ins>Contributions</ins>
 
