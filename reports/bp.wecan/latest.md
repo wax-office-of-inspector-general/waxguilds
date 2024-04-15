@@ -105,7 +105,13 @@ Our aim is to encourage them to participate by replying, communicating with othe
 
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/8f70502c-11fc-4c89-9240-cbb9f25d6f76)
 
-Updated wax bank shortcut:
+There's a series of scenarios in development:
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/a0ba8567-7cc1-4285-b3d6-fd434dc816cc)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/1b703272-a2a8-4f8b-a57b-9a8f592395d6)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/fa07cdf9-b3ce-47d3-b4e5-4603759950f2)
+
+Also we updated wax bank shortcut:
 
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/e59e13a9-aee3-4414-bf99-df9253440fa2)  
 
