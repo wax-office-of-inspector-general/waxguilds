@@ -2,83 +2,83 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
+| Website | https://blokcrafters.com/ |
+| Contact | bc@blokcrafters.com |
 | bp.json (mainnet) | https://example.com/wax.json |
 | bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| producer (mainnet) | blokcrafters |
+| producer (testnet) | blokcrafters |
+| Guild Jurisdiction | Clearwater, FL (USA) |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+"We discovered that we had missing blocks in our hyperion history service.  The missing blocks were added."
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [x] | [x] | [x] | [x] | [ ] | [ ] |
 
-Others APIs: Roborovski, dfuse, ...
+Others APIs: none at the moment
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### WaxDapps
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: https://waxdapps.io/
 
-**List of SCs**: a.wallet, b.wallet  
+**Update**
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+*Added many new Listings*
+* SpinTycoon [p2e]
+* Alcor LP [DeFi] 
+* Apex Conquest [p2e]
+* Run WAX Node AWS CDK [Dev Resources/Tools]
+* WaxDAO [Tools, DeFi, Community]
+* EOSphere WAX How to Dev Guides [Dev Resources/Tools]
+* Heads up Monitoring [Dev Resources/Tools]
+* bingx [exchange]
+* xt.com [exchange]
+* okx [exchange]
+* bitget [exchange]
+* bybit [exchange]
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
 
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+*Removed Listings*
+* Beast Garden [p2e] 
+* Coin Pirates [p2e]
+* Game of Stonks [p2e]
+* xpansion [p2e]
+* bittrex [exchange]
+* wax.gg [Nft Tools]
+* wax tracker [android/ios app]
+* NFT Insider [drops/bloger] relaunch coming this year, will relist when re launched.
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+*Stats*
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
-
----
-
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
-
----
-
+![waxdapps_4_15](https://github.com/blokcrafters/waxguilds/assets/66744057/c95dc9ab-bb31-4bde-917c-195ccafc62fe)
+![waxdapps_4_15_24](https://github.com/blokcrafters/waxguilds/assets/66744057/0efcd834-d211-4ec3-9e90-db0c0dcee11c)
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
 
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [x] | [ ] | [ ] | [ ] | [ ] |
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+I like the move to having this template.md file present, I'm looking forward to seeing how it works out.
+And how it works.
 
 ----
-
