@@ -30,6 +30,8 @@ We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited ini
 ### <ins>Contributions</ins>
 
 ### A-DEX Swap (https://wax.a-dex.io/swap)
+**List of SCs**: swap.adex
+
 Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provide liquidity to earn 0.2% of trading fees. Initial project launch.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (3)](https://github.com/A-DEX/waxguilds/assets/24969602/731eafe7-5c6e-4159-9265-6a8441ebcc9f)
@@ -37,6 +39,7 @@ Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provid
 ---
 
 ### A-DEX Send (https://wax.a-dex.io/swap)
+**List of SCs**: eosio.token, wuffi, usdt.alcor, token.nefty
 
 Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). Initial project launch.
 
