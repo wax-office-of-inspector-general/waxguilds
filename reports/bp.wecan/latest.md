@@ -13,6 +13,7 @@
 ### <ins>Noteworthy</ins>
 
 We have faced a scripting bot attack on Hyperion Mainnet Public endpoint in between April 10-12 which was fended off successfully.
+[!image](https://github.com/We-Can-dev/reports/assets/89981724/c5b640f9-d39a-4da4-aa53-47a31e5f4e73)
 
 On the other notes of Sys/Tech OPS work:
 1. WIP on clustered deployment of NodeOS
@@ -33,6 +34,8 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 ---
 ### R-Planet MMO Strategy game (Early Access Alpha) (rplainet.io alchemy game)
 * Status: **in development**
+
+**URLs:**
 * Website: https://rplanet.io;
            https://rplanet.app/;
 * App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet; 
@@ -43,23 +46,28 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Update**:
 
-Implemented Alliance Invitations
-Enabled sending alliance invitations
-Added a button to player info for inviting to an alliance.
-Refined Combat Formula for Weak Players
-Implemented Swiping for Navigation (Users can now navigate through pages using swiping gestures, enhancing the user experience)
-Implemented Alliance Unions: 
-Alliance administrators are now able to manage alliances, declare enemies, and assign map colors (green for their own alliance, blue for friendly alliances, and red for enemies). 
-Enhanced Combat Attack Confirmation
-Implemented a confirmation dialog before sending combat attacks, ensuring player intention. 
-Implemented View Mode for the Game
-Implemented a view mode for the game where chat and action buttons are disabled upon entering
-Players are not required to choose a faction upon entering the game in this mode.
+The development of the R-Planet game is actively ongoing with various tasks at different stages of completion. The team is making progress on both design and development fronts. Continuous collaboration and effort are being put forth to enhance the gaming experience and meet user expectations.
+
+The tasks listed below indicate ongoing development efforts and completed tasks within the project:
+
+
+1. Implemented Alliance Invitations
+    - Enabled sending alliance invitations
+    - Added a button to player info for inviting to an alliance.
+2. Refined Combat Formula for Weak Players
+3. Implemented Swiping for Navigation (Users can now navigate through pages using swiping gestures, enhancing the user experience)
+4. Implemented Alliance Unions: 
+    - Alliance administrators are now able to manage alliances, declare enemies, and assign map colors (green for their own alliance, blue for friendly alliances, and red for enemies). 
+5. Enhanced Combat Attack Confirmation
+    - Implemented a confirmation dialog before sending combat attacks, ensuring player intention. 
+6. Implemented View Mode for the Game
+    - Implemented a view mode for the game where chat and action buttons are disabled upon entering
+    - Players are not required to choose a faction upon entering the game in this mode.
 
 Our players have received assistance from our moderators across various social platforms such as Discord, Twitter, and Telegram chats.
 
 R-Planet is set to participate in the Top web3 conference in Dubai - https://web3dubai.io/. 
-
+[!image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
 
 R-Planet is set to participate in April Fest by Spinnia
 
