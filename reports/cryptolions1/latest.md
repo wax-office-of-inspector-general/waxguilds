@@ -24,7 +24,6 @@
 Those are last 7 days stats
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
 ### Dark Country 
 
@@ -53,12 +52,12 @@ A tournament launched within Ultra Arena with 200$ prize pool, so that can bring
 Period: March 1st, 2024 - April 15th 2024
 
 
-Sales of NFTs, 135$ total over last 30 days
+**Sales of NFTs, 135$ total over last 30 days
 UAW on chain: 20-30
 DAU: 15, average time 45 mins
 369  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes ,
 Over 150 000 of Dark Country NFTs staked in game at the moment (-15k drop, as people unstake for WUFFI drop)
----
+**---
 ### Collect.Social
 
 **URLs**: collect.social, 
@@ -113,11 +112,6 @@ https://dapplica.io/blog/wax/part-18-gui-for-quests-and-leaderboards/
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th 2024
-
-Created BUY pools: 6 active
-Created SELL pools: 23 active pools, +2 new
-Created TRADE pools: 5 (all active)
 ---
 
 ### AtomicNotifyBot
