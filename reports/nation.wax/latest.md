@@ -4,8 +4,8 @@
 | --- | --- |
 | Website | https://eosnation.io/ |
 | Contact | stephane@eosnation.io |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
+| bp.json (mainnet) | https://eosnation.io/wax.json |
+| bp.json (testnet) | https://eosnation.io/waxtest.json |
 | producer (mainnet) | nation.wax |
 | producer (testnet) | nation.wax |
 | Guild Jurisdiction | Sherbrooke, Quebec, Canada |
