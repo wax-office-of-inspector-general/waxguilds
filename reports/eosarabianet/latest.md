@@ -11,7 +11,6 @@
 | Guild Jurisdiction | UAE,Dubai |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
 "Last month, we encountered an issue with our proxy server, which sits in front of the History and Hyperion nodes. This problem affected the uptime of our services only between March 30th, 2024, and March 31st, 2024. the good things we still have a rate above 95 for the last 30 days check." 
 
