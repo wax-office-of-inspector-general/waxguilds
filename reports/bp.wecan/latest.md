@@ -100,7 +100,8 @@ https://grandland.prospectors.io
 **Update**: 
 
 We actively engage with players through engaging posts on Prospectors' social media platforms such as Twitter, Discord, and Telegram channels. 
-Our aim is to encourage them to participate by replying, communicating with other players, and visiting the game more frequently. 
+Our aim is to encourage them to participate by replying, communicating with other players, and visiting the game more frequently.
+
 ![image](https://github.com/We-Can-dev/reports/assets/89981724/8f70502c-11fc-4c89-9240-cbb9f25d6f76)
 
 Updated wax bank shortcut:
