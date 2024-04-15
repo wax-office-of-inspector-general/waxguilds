@@ -159,7 +159,7 @@ Period: March 1st, 2024 - April 15th 2024
 
 ### Pinax Substreams
 
-**URLs**: https://pinax.network/en/chain/waxtest
+**URLs**: https://pinax.network/en/chain/wax, https://pinax.network/en/chain/waxtest
 
 **Update**: 
 ""
