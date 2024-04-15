@@ -2,73 +2,70 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://eosarabia.net/ |
+| Contact | info@eosarabia.net |
+| bp.json (mainnet) | https://eosarabia.net/wax.json |
+| bp.json (testnet) | https://eosarabia.net/waxtest.json |
+| producer (mainnet) | eosarabianet |
+| producer (testnet) | eosarabianet |
+| Guild Jurisdiction | UAE,Dubai |
 
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+"Last month, we encountered an issue with our proxy server, which sits in front of the History and Hyperion nodes. This problem affected the uptime of our services only between March 30th, 2024, and March 31st, 2024. the good things we still have a rate above 95 for the last 30 days check." 
+
+"We have updated our bp.json(mainnet+testnet) file to cover the FULL parameter with true/false. "
+
+"We  missed producing around in testnet due to network outage from Datacenter."
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
+| History (partial) | History (full) | History (testnet) (full) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [] | [ x] | [x] | [x] | [x] | [] |  [x] |
+| - | 1.039m req/week | 555k req/week | 1.5m req/week | ~x req  |  1822 req/week |
 
-Others APIs: Roborovski, dfuse, ...
+
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### Vstate (https://vstate.eosarabia.net/)
 
-**URLs**: example.com, github.com/example/example-repo
+We enhanced the performance for Atomic Assets stats portal.
 
-**List of SCs**: a.wallet, b.wallet  
+### Courses portal (https://wax.courses.eosarabia.net)
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+Updated some info in our courses portal and will add some more in the next week.
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: January 10th, 2024 - February 27th 2024
+Period: April 01st, 2024 - April 15th 2024
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Stats: 
+Atomic assets API: 3,052,157 requests , Status 200.
+![AA](https://github.com/EOS-Arabia/waxguilds/assets/47085785/95aa5caa-48d6-4546-96d3-eaec42c56241)
 
+WAX API mainnet: 1,887,843 requests, status 200.
+![API](https://github.com/EOS-Arabia/waxguilds/assets/47085785/dad63493-9004-4c04-b06b-2ac7a1a2aaa7)
 
----
-
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
-
----
+Vstate: 1762 requests, status 200.
+![vstate](https://github.com/EOS-Arabia/waxguilds/assets/47085785/d2a888d7-e86a-4ac1-a4bf-76097efe15dd)
 
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
+Support the community with instant translation for all news and announcements.
+https://t.me/waxarabia
 
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+Translate the articles to our blog:
+https://eosarabia.net/blog
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: (https://snapshots.eosarabia.net)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -76,9 +73,7 @@ URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
-
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+None at this time
 
 ----
 
