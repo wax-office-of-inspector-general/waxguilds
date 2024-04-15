@@ -25,9 +25,56 @@
 Others APIs: Roborovski, dfuse, ...
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### Spyglass
+
+**URLs**: https://wax.api.eosnation.io/transaction_lookup
+
+**Update**: 
+
+**Metrics**
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### BP Validator
+
+**URLs**: https://validate.eosnation.io/, https://github.com/EOS-Nation/bpvalidate
+
+**Update**: 
+""
+
+**Metrics**
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### Pomelo
+
+**URLs**: https://bounties.pomelo.io/, https://pomelo.io/, https://github.com/pomelo-io
+
+
+**Update**: 
+""
+
+**Metrics**
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### WAX Detective
 
 **URLs**: example.com, github.com/example/example-repo
 
@@ -44,7 +91,127 @@ Others APIs: Roborovski, dfuse, ...
 
 [report relevant metrics and metric period...]
 
-Period: January 10th, 2024 - February 27th 2024
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### DFuse SaaS
+
+**URLs**: example.com, github.com/example/example-repo
+
+**List of SCs**: a.wallet, b.wallet  
+
+**Update**: 
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+
+[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+
+*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### Open Source & Educational Content
+
+**URLs**: example.com, github.com/example/example-repo
+
+**List of SCs**: a.wallet, b.wallet  
+
+**Update**: 
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+
+[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+
+*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### BLockchain Stats
+
+**URLs**: example.com, github.com/example/example-repo
+
+**List of SCs**: a.wallet, b.wallet  
+
+**Update**: 
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+
+[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+
+*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### WAX v5 Tests and Bug Reports
+
+**URLs**: example.com, github.com/example/example-repo
+
+**List of SCs**: a.wallet, b.wallet  
+
+**Update**: 
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+
+[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+
+*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+
+
+---
+
+### Pinax Substreams
+
+**URLs**: example.com, github.com/example/example-repo
+
+**List of SCs**: a.wallet, b.wallet  
+
+**Update**: 
+"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+
+[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+
+*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
 
