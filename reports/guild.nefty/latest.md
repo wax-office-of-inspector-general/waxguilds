@@ -211,7 +211,7 @@ Period: _February 28, 2024 to April 10, 2024_
 * Collaboration with Apex Conquest and BetsifyMe. Working on a new Betsy commander theme. Any Betsy will be used in the [game to play](https://apexconquest.com). 
 * Provided 210k Nefty to WUF/WAX HYPER Farm Pool in Alcor.
 * Listed WUF for drop, auctions and blends.
-* [Youtube channel](https://www.youtube.com/@neftyblocks3937/featured): Daily broadcasts from Monday to Friday at 5pm CET, shared 6 videos at the moment. 
+* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 6 videos at the moment. 
 * [Twitter](https://twitter.com/neftyblocks): we registered 23.2K impressions and 26K Followers.
 * [Discord](https://discord.gg/d3Y25QVKH8): 4.5k total members, 465 monthly visitors, 721 monthly messages.
 * [Medium](https://neftyblocks.medium.com): 68 Reads, 1174 followers.
