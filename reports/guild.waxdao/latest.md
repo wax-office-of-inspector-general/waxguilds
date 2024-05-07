@@ -2,58 +2,194 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://waxdaobp.io |
+| Contact | mikedcryptocurrency@gmail.com |
+| bp.json (mainnet) | https://waxdaobp.io/bp.json |
+| bp.json (testnet) | https://waxdaobp.io/test.json |
+| producer (mainnet) | guild.waxdao |
+| producer (testnet) | waxdaoguild1 |
+| Guild Jurisdiction | USA |
 
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Small issue with our IPFS, just required restarting nginx
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [x] | [ ] | [x] | [x] | [x] | [x] | 
+| - | - | - | - | ~60k req |  ~117k req |
 
 Others APIs: Roborovski, dfuse, ...
 
 ### <ins>Contributions</ins>
 *[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### WaxDAO Farms And DAOs
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: https://waxdao.io
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: waxdaofarmer, farms.waxdao, dao.waxdao
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+General maintenance, fixed a bug in the farm contract to allow users staking less than 1 full token to still earn from token farms.
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: January 10th, 2024 - February 27th 2024
+Period: March 1st, 2024 - April 15th 2024
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Stats:
+
+- Search console: 938 clicks / 887k impressions / 10.6% CTR (past 28d)
+- Google analytics: 4.2k users / 2.5k new users / 291k events / 9m 1s engagement time (past 28d)
+- 946 NFT farms, 134 token farms, 18 daos, 48 proposals, 1062 vote actions in daos (all running totals)
 
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+### NFT Backer
+
+**URLs**: https://waxdao.io
+
+**List of SCs**: waxdaobacker
+
+**Update**: 
+No new updates this period
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: 1823 total NFTs backed
+
+
+---
+
+### Token Tools
+
+**URLs**: https://waxdao.io
+
+**List of SCs**: waxdaosynths, waxdaoescrow, waxdaolocker
+
+**Update**: 
+Added a new tool to the UI for [locking regular tokens](https://waxdao.io/locker), basically works the same as the LP locker but supports non-LP tokens. 
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: 74 total token locks, 199 people have used our token creator, 39 synthetic tokens have been created, 34 total slow drip escrow agreements
+
+
+---
+
+
+### Creator Tools
+
+**URLs**: https://waxdao.io
+
+**List of SCs**: waxdaomarket
+
+**Update**: 
+No new updates this period besides minor UI tweaks
+
+**Metrics**
+
+[report relevant metrics and metric period...]
+
+Period: March 1st, 2024 - April 15th 2024
+
+Stats: 2435 total nft drops, 1859 total blends, 19,795 total drop claims, 30,916 total blend claims, 13,851 total pack openings
+
+
+---
+
+### Unity Tutorials
+
+**URLs**: https://blog.waxdao.io
+
+**List of SCs**: n/a
+
+**Update**: 
+Added a 9th article to the series:
+https://blog.waxdao.io/create-games-on-wax-using-unity-part-9-ending-the-game-0d35671ccf7c
+
+**Metrics**
+
+n/a
+
+
+---
+
+### New: WaxFusion Liquid Staking Protocol
+
+**URLs**:
+[Token Contract](https://github.com/mdcryptonfts/token.fusion)
+[DApp Contract](https://github.com/mdcryptonfts/dapp.fusion)
+[POL Contract](https://github.com/mdcryptonfts/pol.fusion)
+[CPU Rental Contract](https://github.com/mdcryptonfts/cpu.fusion)
+[Node JS Worker Bot](https://github.com/mdcryptonfts/fusion_worker)
+
+(These are currently private repos, I am creating a Github team with the 3 of you so you can view them)
+
+**List of SCs**: dapp.fusion, token.fusion, pol.fusion, cpu1.fusion, cpu2.fusion, cpu3.fusion
+
+**Intro**: 
+Sponsored privately by the WAX team, we are creating a fully open-source, multisig liquid staking platform that will allow WAX holders to earn yield from their WAX while also having liquid capital.
+
+WaxFusion will serve as a foundation for other projects to build on top of, by creating a source of real, sustainable yield. 
+
+There will be 2 tokens:
+- SWAX (non-transferable, earns a sum of WAX that can be claimed from WaxFusion each day)
+- LSWAX (the liquified version of SWAX, which autocompounds)
+
+Users can liquify/unliquify their tokens as needed.
+
+The core principle that WaxFusion is based off of, is our innovative flywheel mechanism that compounds our POL (protocol owned liquidity) on a daily basis. POL will be permanently locked inside the WaxFusion contracts and will never be able to be removed unless somehow enough msig parties (wax team, OIG etc) decided to do so.
+
+When users stake in WaxFusion, they earn not only from their own WAX, but from our POL - which compounds from fees generated by the platform.
+
+Fees come from a % of all earnings from staked WAX, as well as from renting out our WAX via a CPU rental at the lowest cost on the market.
+
+In addition, the WAX team has agreed to not only seed this protocol owned liquidity with an initial pool of WAX, but to add to it over time since it can never actually be spent anyway.
+
+They have also agreed to seed initial liquidity for the WAX/LSWAX pair on Alcor, which again can not be touched by us.
+
+Funds earned by the platform will be automatically distributed to:
+
+- Liquidity for WAX/LSWAX
+- Ecosystem fund (supporting several WAX projects through buybacks etc, including Hive, Nefty, AtomicHub, WaxDAO, and others)
+- ve33 fund (there will be a voting mechanism for LSWAX holders to vote on which liquidity pairs are able to receive a portion of WaxFusion revenue each week)
+
+The smart contracts automatically vote for all top 21 block producers on a daily basis, to avoid any sort of bias (i.e. voting for WaxDAO with all the user funds). In the future when this grows large enough to matter, it would really be awesome if we could come up with some sort of solution for OIG elections too, like allowing people to submit weighted votes. This way platforms like WaxFusion could let all their users vote with their SWAX/LSWAX, and submit the tally to the OIG election (50% Rakeden, 30% new guy, 20% other new guy etc). But this is a topic for another time :)
+
+We are not only open sourcing the entire project, but also creating an open source node js app for people to run a worker bot if they want to add some redundancy to the platform (WaxFusion requires some actions to be called every so often, like unstaking WAX, claiming voting rewards etc)
+
+Fusion is fully running on testnet right now (except for the ve33 mechanic which was not part of the original proposal), undergoing code review, beta testing and getting some branding and documentation completed before releasing officially on mainnet.
+
+**UI Previews**
+
+<img width="702" alt="Screen Shot 2024-04-15 at 7 23 05 PM" src="https://github.com/mdcryptonfts/waxguilds/assets/105838382/47351891-7b66-41fd-9d4b-7f97a1b188ac">
+
+<img width="626" alt="Screen Shot 2024-04-15 at 7 22 22 PM" src="https://github.com/mdcryptonfts/waxguilds/assets/105838382/f712e5e7-2b96-4d82-b039-55ab1b2a5aab">
+
+<img width="617" alt="Screen Shot 2024-04-15 at 7 22 13 PM" src="https://github.com/mdcryptonfts/waxguilds/assets/105838382/0b030840-3fcc-4b66-9337-2d3512f81575">
+
+
+
+**Metrics**
+
+n/a
+
+
 
 ---
 
@@ -61,24 +197,18 @@ Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded use
 ### <ins>Marketing</ins>
 [Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: n/a
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [] | [] | [] | [ ] | [ ] |
 
 
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+Doing a great job with re-evaluating what's important (ecosystem dev) at this time, and the overhaul of Notion. Keep it up.
 
 ----
-
