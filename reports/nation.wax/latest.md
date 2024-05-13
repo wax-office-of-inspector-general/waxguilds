@@ -2,73 +2,117 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://eosnation.io/ |
+| Contact | stephane@eosnation.io |
+| bp.json (mainnet) | https://eosnation.io/wax.json |
+| bp.json (testnet) | https://eosnation.io/waxtest.json |
+| producer (mainnet) | nation.wax |
+| producer (testnet) | nation.wax |
+| Guild Jurisdiction | Sherbrooke, Quebec, Canada |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
-
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Nothing to report for this evaluation period.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
+| [ ] | [x] | [x] | [ ] | [ ] | [ ] |
 | - | - | - | - | ~x req |  ~y req |
 
-Others APIs: Roborovski, dfuse, ...
+Others APIs: Our dfuse and Firehose solutions have full history of all the blocks, so we checked "History (full)".
 
-### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
+**URLs**
 
-### Example Project A
+dfuse: https://wax.dfuse.eosnation.io
 
-**URLs**: example.com, github.com/example/example-repo
+Firehose and Substreams on WAX: https://pinax.network/en/chain/wax
 
-**List of SCs**: a.wallet, b.wallet  
-
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+Firehose and Substreams on WAX Testnet: https://pinax.network/en/chain/waxtest
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Our WAX Firehose is serving almost 2TB per day on mainnet and between 5-830GB per day on testnet:
 
-Period: January 10th, 2024 - February 27th 2024
+<img width="1510" alt="Screenshot 2024-04-15 at 5 03 40 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/937e5c51-9c0e-4b25-a2d9-fd011282c685">
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Our WAX Substreams are seving almost 3TB per day on mainnet and between 5-850GB on testnet:
+
+<img width="1510" alt="Screenshot 2024-04-15 at 5 03 04 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/38ce3c11-93f8-4f72-8744-c2587a430f43">
+
+
+### <ins>Contributions</ins>
+
+### BP Validator
+
+**URLs**: https://validate.eosnation.io/, https://github.com/EOS-Nation/bpvalidate
+
+---
+
+### WAX Detective
+
+**URLs**: https://waxdetective.io/
+
+**Update**: 
+WAX Detective has been updated to track GA4 Google Analytics, so we're once again able to provide usage stats. 
+
+**Metrics**
+
+Period: March 1st, 2024 - April 14th 2024
+
+Stats: 256 users, 1m 13s average engagement time
+
+<img width="650" alt="Screenshot 2024-04-15 at 4 06 59 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/a748fe77-71c3-4f20-9c0e-95d955dd783c">
 
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+
+### Spyglass
+
+**URLs**: https://spyglass.network, https://wax.api.eosnation.io/transaction_lookup
+
+**Metrics**
+
+Period: March 1st, 2024 - April 14th 2024
+
+Stats: 40 users, 13s average engagement time
+
+<img width="642" alt="Screenshot 2024-04-15 at 4 22 39 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/010c4e87-7fab-4ece-8dad-d8f2f67c60c1">
+
 
 ---
+
+
+### Pomelo
+
+**URLs**: https://bounties.pomelo.io/, https://pomelo.io/, https://github.com/pomelo-io
+
+
+---
+
+### Blockchain Stats
+
+**URLs**: https://blocktivity.info/coin/waxp_0
+
+**List of SCs**: blocktivity1
+
+
+---
+
+### WAX v5 Tests and Bug Reports
+
+**URLs**: https://github.com/AntelopeIO/leap/issues/created_by/matthewdarwin, https://github.com/AntelopeIO/leap/issues?q=is%3Aissue+author%3AYaroShkvorets
+
+**Update**: 
+No new issues created during this period.
 
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
-
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+Nothing to report for this period.
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: https://snapshots.eosnation.io/
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -76,9 +120,5 @@ URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
-
-----
-
+We would love to see Firehose & Substreams recognized as a history solution by the OIG. In previous evaluations we were not awarded points for having a history solution available on WAX Testnet, although our Firehose & Substreams endpoints are available there.
