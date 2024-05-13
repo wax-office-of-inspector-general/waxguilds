@@ -2,83 +2,197 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://wecan.dev/ |
+| Contact | contact@wecan.dev |
+| bp.json (mainnet) | https://wecan.dev/wax.json |
+| bp.json (testnet) | https://wecan.dev/waxtest.json |
+| producer (mainnet) | bp.wecan |
+| producer (testnet) | wecan |
+| Guild Jurisdiction | Ukraine (UA) |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+We have faced a scripting bot attack on Hyperion Mainnet Public endpoint in between April 10-12 which was fended off successfully.
+![image](https://github.com/We-Can-dev/reports/assets/89981724/c5b640f9-d39a-4da4-aa53-47a31e5f4e73)
+
+On the other notes of Sys/Tech OPS work:
+1. WIP on clustered deployment of NodeOS
+2. WIP Datadog monitoring lib suite
+3. WIP IBC
+4. New Hyperion build
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
+| - | 33M req/week | 60K req/week | 6.75M req/week | 43K req/week |  108K req/week |
 
-Others APIs: Roborovski, dfuse, ...
+WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+---
 
-**URLs**: example.com, github.com/example/example-repo
+### R-Planet MMO Strategy game (Early Access Alpha) (rplainet.io alchemy game)
+* Status: **in development**
 
-**List of SCs**: a.wallet, b.wallet  
+**URLs:**
+* Website: https://rplanet.io;
+           https://rplanet.app/;
+* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet; 
+       https://apps.apple.com/es/app/r-planet/id1625678981;
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+**List of SCs**: rplanet, a.rplanet, (tbd)
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
+**Update**:
 
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+The development of the R-Planet game is actively ongoing with various tasks at different stages of completion. The team is making progress on both design and development fronts. Continuous collaboration and effort are being put forth to enhance the gaming experience and meet user expectations.
+
+The tasks listed below indicate ongoing development efforts and completed tasks within the project:
+
+
+1. Implemented Alliance Invitations
+    - Enabled sending alliance invitations
+    - Added a button to player info for inviting to an alliance.
+2. Refined Combat Formula for Weak Players
+3. Implemented Swiping for Navigation (Users can now navigate through pages using swiping gestures, enhancing the user experience)
+4. Implemented Alliance Unions: 
+    - Alliance administrators are now able to manage alliances, declare enemies, and assign map colors (green for their own alliance, blue for friendly alliances, and red for enemies). 
+5. Enhanced Combat Attack Confirmation
+    - Implemented a confirmation dialog before sending combat attacks, ensuring player intention. 
+6. Implemented View Mode for the Game
+    - Implemented a view mode for the game where chat and action buttons are disabled upon entering
+    - Players are not required to choose a faction upon entering the game in this mode.
+
+Our players have received assistance from our moderators across various social platforms such as Discord, Twitter, and Telegram chats.
+
+R-Planet is set to participate in the Top web3 conference in Dubai - https://web3dubai.io/. 
+![image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/92ed6962-4a06-4539-8e9d-5da1a504344e)
+
+R-Planet is set to participate in April Fest by Spinnia
+![image](https://github.com/We-Can-dev/reports/assets/89981724/8f6907f6-4f4f-4529-9afe-86bead47d55d)
+
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
-
----
-
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+![image](https://github.com/We-Can-dev/reports/assets/89981724/321e4d64-c21f-4e89-b26c-e9ffd22fe754)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/0ed5005b-148c-44d3-b4df-4497e538a449)
 
 ---
 
+### Prospectors
+* Status: **release**
 
-### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
+**URLs:**
+* Website: https://prospectors.io, 
+https://play.prospectors.io, 
+https://wax.prospectors.io, 
+https://grandland.prospectors.io
 
-Initiative A: example.com
+**List of SCs**: prospectorsc, (tbd)
 
-Initiative B: Representing WAX at web3 fair in Exampletown
+**Update**: 
 
-Initiative C: Link to YT/X/Twitch reccording
+We actively engage with players through engaging posts on Prospectors' social media platforms such as Twitter, Discord, and Telegram channels. 
+Our aim is to encourage them to participate by replying, communicating with other players, and visiting the game more frequently.
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/8f70502c-11fc-4c89-9240-cbb9f25d6f76)
+
+There's a series of scenarios in development:
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/a0ba8567-7cc1-4285-b3d6-fd434dc816cc)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/1b703272-a2a8-4f8b-a57b-9a8f592395d6)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/fa07cdf9-b3ce-47d3-b4e5-4603759950f2)
+
+Also we updated wax bank shortcut:
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/e59e13a9-aee3-4414-bf99-df9253440fa2)  
+
+**Metrics**
+
+Period: March 15th, 2024 - April 15th 2024
+
+Stats:
+
+Prospectors world instances:
+![image](https://github.com/We-Can-dev/reports/assets/89981724/dd2bf99b-f6f7-4cfe-8cc6-ca4ddf18d667)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/28d0c30f-4b65-48f3-afda-e18e1091d405)
+![image](https://github.com/We-Can-dev/reports/assets/89981724/7c0b2c9b-7785-42e6-9c0d-9b753e803459)
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/5fe2381b-7eed-4a69-8cba-261e02cbec66)
+
+---
+
+### Pepper Stake
+* Status: **release**
+
+**URLs:**
+* Website: https://pepperstake.online/;
+https://testnet.pepperstake.online/
+
+New onboarded pool
+![image](https://github.com/We-Can-dev/reports/assets/89981724/74e41319-9fc4-4822-839d-015b68795f3e)
+
+to a bunch of about 30 active pools.
+
+**Metrics**
+
+Period: March 15th, 2024 - April 15th 2024
+
+Stats:
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/e1a422d2-bf60-4300-92c8-6f23fe762b5e)
+
+---
+
+### WAXSCAN
+* Status: **release/ in development**
+
+**URLs:**
+* Website: https://waxscan.wecan.dev/; 
+https://waxscan-testnet.wecan.dev/
+
+**Metrics**
+
+Period: April 07th, 2024 - April 15th 2024
+
+Stats:
+
+![image](https://github.com/We-Can-dev/reports/assets/89981724/f7dbef5e-a5fa-4c07-8d33-2d80ba376b01)
+
+---
+
+### Docker containers for WAX ecosystem
+We keep building and testing latest versions of WAX pubilc infra components:
+* Nodeos - https://hub.docker.com/r/wecandev/waxblockchain
+* Delphioracle Pusher - https://hub.docker.com/r/wecandev/delphioracle-pusher
+* Hyperion - https://hub.docker.com/r/wecandev/wax-hyperion-api
+* AA - https://hub.docker.com/r/wecandev/eosio-contract-api-server
+* Light-API - https://backup.wecan.dev/wax/light_api/
+https://hub.docker.com/r/wecandev/eosio-lightapi-wsapi
+https://hub.docker.com/r/wecandev/eosio-lightapi-dbwriter
+https://hub.docker.com/r/wecandev/eosio-lightapi-chronicle
+
+---
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: [https://backup.wecan.dev/](https://backup.wecan.dev/)
 
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| Snapshot | Blocks Log | State History | Elastic Search | AA API | Light-API |
+|--------|--------|--------|--------|--------|-------|
+| [x] | [x] | [x] | [x] | [x] | [x] |
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+Keep up the good work.
 
 ----
 

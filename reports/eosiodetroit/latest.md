@@ -2,83 +2,115 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://detroitledger.tech/ |
+| Contact | adam@detroitledger.tech, jp@detroitledger.tech |
+| WAX Mainnet bp.json (https://detroitledger.tech/chains/wax.json) | |
+| WAX Testnet bp.json (https://detroitledger.tech/chains/wax/testnet/bp.json) |  |
+| producer (mainnet) | eosiodetroit |
+| producer (testnet) | eosiodetroit |
+| Guild Jurisdiction | United States |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+* WAX AtomicAssets Mainnet API (https://atomic.wax.detroitledger.tech): was down for roughly 12 hours due to an attempt at upgrading to 1.3.24. The fix provided in the 1.3.21 to 1.3.24 upgrade branch required modifications to work properly and resulted in the inability to index further blocks. We have restored from a 1.3.24 backup and are not operational.
+* WAX Hyperion Mainnet API (https://hyperion.wax.detroitledger.tech): After an issue with our elasticsearch cluster was remedied during a brief outage,an issue with the firewall whitelisting specific IPs resulting in false negatives while testing for connectivity. While our Hyperion was operational, it was not exposed publicly for some time. This has been remedied.
+
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
-|--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
 
-Others APIs: Roborovski, dfuse, ...
+| Stats |WAX Hyperion - Partial (mainnet)| Chain / History (full) | AtomicAssets API | IPFS |
+|---------------------|----------------------------------|------------------------|-------------------|-----------------|
+| Active|Yes|Yes|Yes|Yes| **
+| Requests/day|!| 667,710|2,945|N/A|
+| Additional Info|Impacted by Outage| |||
+
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### Nodesuite
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: https://github.com/eosdetroit/nodesuite, 
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: N/A
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+Updated nodeos start script
+Added nodeos restart script
+Added local monitoring script to check producer health
+Updated hyperion deployment playbook to utilize updated dependencies
+Updated snapshot handlers for snapshot providers (Sweden, Cryptolions, Sweden)
+Updated config.ini template
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
 
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+
+
+
+
+### WAX Labs
+
+**URLs**: https://labs.wax.io, https://github.com/worldwide-asset-exchange/wax-labs-ui, 
+
+**List of SCs**: labs.wax
+
+**Update**: 
+* Fixed last updated date to reflect the correct date
+* Improved Telegram field placeholder instruction and remove email field from front-end until smart contract can be upgraded
+* Fixed note field field on rejection
+* Fixed caching/build issue causing old WAX Labs website to load
+* Fixed deliverables to review filter to capture all relevant proposals and show on all login states
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 1st, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+* New proposals submitted: 2
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+### FACINGS
 
+**URLs**: https://facings.io, https://github.com/facings/collection-manager_
 
----
+**List of SCs**: mint.facings, open.facings, make.facings, earn.facings
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+**Update**: 
+* FACINGS is now also contracted with Pantheon, the game DLT is building for a client on WAX, directly to provide NFT minting services for the first edition of the game NFTs.
+* FACINGS has been working to finalize the set design and metadata while it waits for the remaining production artwork to be completed.
+* Work continues on the NFT publishing workflow reimplementation. It is expected that FACINGS will begin work on the sales engine reimplementation within the next reporting period.
 
----
+### Pyntelope
 
+**URLs**: https://github.com/FACINGS/pyntelope, 
+
+**List of SCs**: N/A
+
+**Update**: 
+* No update
+
+### OIG Election Portal
+**URLs**: https://oig.wax.io, https://github.com/wax-office-of-inspector-general/oig.wax.io
+
+**List of SCs**: decide
+
+**Update**: 
+* No update
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
-
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+* The team completed the Portuguese translations of the “Learn” section of the WAX Developer documentation. We are waiting on feedback from the IGs and their translation resources about the quality of the translations before we accelerate the work towards translating the rest of the site. The next section translated will be the “Build” section and we will submit work incrementally.
+* The Chinese translations are currently being redone based on the feedback from an OIG resource both parties agreed was qualified to evaluate it. It was determined that our resource outsourced some or all of the translations we submitted and that the outsourced resource used low-quality auto-translation practices for large portions of the docs.
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+Daily WAX Mainnet Snapshots - https://snapshots.detroitledger.tech
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+None.
 
-----
+
+
+
+
+
+
 
