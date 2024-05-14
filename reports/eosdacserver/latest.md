@@ -2,83 +2,86 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://eosdac.io |
+| Contact | pramod@dacoco.io |
+| bp.json (mainnet) | https://eosdac.io/wax.json |
+| bp.json (testnet) | https://eosdac.io/waxtest.json |
+| producer (mainnet) | eosdacserver |
+| producer (testnet) | eosdacserver |
+| Guild Jurisdiction |  Switzerland (CH) |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+In the last period we have added one more server for Hyperion cluster and upgraded it from Partial to Full. 
+
+Added lightAPI instance - https://wax-lightapi.eosdac.io
+
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [] | [x] | [x] | [x] | [x] | [x] |  [x] |
+| - | 22.4m req/month | 62k req/month | 7.5m req/month | 59k req/month |  9k req/month |
 
-Others APIs: Roborovski, dfuse, ...
+
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### Alien Worlds
 
-**URLs**: example.com, github.com/example/example-repo
+**URLs**: Game site - https://play.alienworlds.io/, Github - https://github.com/Alien-Worlds
 
-**List of SCs**: a.wallet, b.wallet  
+**List of SCs**: alien.worlds, stkvt.worlds, index.worlds, msig.worlds, m.federation, awlndratings, s.federation, federation, token.worlds, uspts.worlds, other.worlds, boost.worlds, dao.worlds
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+In the latest update 2.12.0 we introduced a Preview mode, a feature that allows new players to immerse themselves in the metaverse without the initial setup of a WAX wallet
+Preview Mode provides a preloaded account with sufficient Trilium, NFTs, and Shards to give players a genuine feel of the game.
+Read full report [here](https://alienworlds.io/blogs/%20%20alien-worlds-2-12-0-preview-mode/)
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: Mar15, 2024 - Apr 15, 2024
+Stats: 
+UAW - 134.89k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+Transactions - 104.87m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+30 days NFT trading volume 1.95M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
+New Unique wallets onboarded - 22k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
 
-Period: January 10th, 2024 - February 27th 2024
+---
+### UAL plugin
+UAL-WAX plugin: https://www.npmjs.com/package/@eosdacio/ual-wax. 
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+**Metrics**
+Has an avg of ~150 Weekly downloads
+---
+### Galactic Hub
+Galactic Hubs grants offer support to community-aligned projects with a clear focus, driving advancements in specific areas
+Access season2 selected projects in the works here https://alienworlds.io/galactic-hubs/
+
+#### Released products
+Msig Chat - Msig.chat is an innovative chat and DAO management web application, specifically designed for communities on the WAX blockchain, particularly those within Alien Worlds, read more [here](https://medium.com/@vladislavhramtsov/introducing-msig-chat-the-on-chain-chat-and-dao-management-app-a687fe08ad05)
 
 
 ---
+### Testnet RNG
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+Only guild running ORNG script on testnet, executed over 15k jobs on the testnet since the last evaluation
 
 ---
-
-
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
+Cointelegrah Coverage: [AI will build Alien Worlds](https://cointelegraph.com/magazine/ai-build-metaverse-alien-worlds-eric-wall-vs-bittensor-ai-eye/)
 
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+NFT NYC: [Saro McKenna takes the stage and joins the panel: "NFT Utility - Unleashing Value from Your Community](https://nftnyc2024.sessionize.com/session/574142)
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [ ] | [ ] |
 
-
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
 
 ----
-

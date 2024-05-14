@@ -2,83 +2,55 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://eosiomadrid.io |
+| Contact | admin@eosiomadrid.io |
+| bp.json (mainnet) | https://eosiomadrid.io/wax/bp.json |
+| bp.json (testnet) | https://eosiomadrid.io/wax/testnet/bp.json |
+| producer (mainnet) | waxmadrid111 |
+| producer (testnet) | waxmadrid111 |
+| Guild Jurisdiction | Spain |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Faced issues updating atomic API to 1.3.24 . Issues are resolved now and a second atomic API server is added in a load balancer.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [_] | [x] | [x] | [x] | [x] | [x] 
+| - | 3.17M req/week | 44.48K req/week | 309.77K req/week | 13.25K req/week |  17,9K req/week |
 
-Others APIs: Roborovski, dfuse, ...
+
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+https://wax.eosiotracker.io
 
-**URLs**: example.com, github.com/example/example-repo
+https://wax-testnet.eosiotracker.io
 
-**List of SCs**: a.wallet, b.wallet  
+Operational, continues providing info on WAX endPoints, checker & validator. 
 
-**Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
-Period: January 10th, 2024 - February 27th 2024
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
-
----
-
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
-
----
+161 users last month with average engagement time of 46s (by google analytics).
 
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+None at this moment.
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+
+https://wax-backups.eosiomadrid.io
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [x] | [x] | [x] | [ ] | [x] |
+
 
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
-
-----
-
+None at this moment.

@@ -1,84 +1,63 @@
 ### <ins>General</ins>
 
+![oiac-logo](https://user-images.githubusercontent.com/89456085/136773956-b263025a-424d-4995-b55a-5d835e98632c.png)
+
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://www.oiac.io |
+| Contact | cillian@oiac.io |
+| bp.json (mainnet) | https://www.oiac.io/wax.json |
+| bp.json (testnet) | https://www.oiac.io/waxtest.json |
+| producer (mainnet) | oneinacilian |
+| producer (testnet) | oneinacilian |
+| Guild Jurisdiction | London |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
-
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Our TestNet Hyperion API certificate expired, and the monitoring solution failed to capture this event. However, we have rectified the issue and implemented the necessary monitoring to prevent such unnecessary outages from recurring.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [] | [x] | [x] | [x] | [x] | [x] |  [x] |
+| - | 86932 | 63355 | 2279689 | - |  47473 |
 
-Others APIs: Roborovski, dfuse, ...
 
-### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
+### Docker Project
 
-### Example Project A
-
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
-
-**Metrics**
-
-[report relevant metrics and metric period...]
-
-Period: January 10th, 2024 - February 27th 2024
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
+Over the past six weeks, we have validated the latest Elasticsearch/Kibana version (8.13.2) with Hyperion 3.3.8-9 and Nodeos version v4.0.4wax01 on Autoobuilds. Additionally, we have implemented port lockdowns on Docker to restrict access to localhost on Hyperion for enhanced security, particularly in scenarios where Docker networking and firewall configurations may not be fully understood.
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+### Missing & Empty Blocks Monitoring Tool
+
+**Update**: 
+None this period
 
 ---
 
+### 6 Week Hyperion Snapshot
+
+https://wiki.oiac.io/snapshots/
+
+**Update**: 
+We had a request from one of our fellow guilds to make this service live again, after recently retiring due to the fact there is no points awarded, and therefore not the most efficint allocation of resources. We still believe that there are many use cases and would be very grateful should the OIG reconsider the award of points. 
+
+---
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+None at this point
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
-
+None at this point
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+None at this point
 
 ----
-
