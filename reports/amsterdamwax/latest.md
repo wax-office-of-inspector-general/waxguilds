@@ -2,7 +2,7 @@
 
 |  |  |
 | --- | --- |
-| Website | [https://example.com/](https://eosamsterdam.net/) |
+| Website | [https://eosamsterdam.net/](https://eosamsterdam.net/) |
 | Contact | rhett@eosamsterdam.net |
 | bp.json (mainnet) | [https://eosamsterdam.net/bp.json](https://eosamsterdam.net/bp.json) |
 | bp.json (testnet) | [https://waxtest.eosams.xeos.me/bp.json](https://waxtest.eosams.xeos.me/bp.json) |
@@ -12,18 +12,17 @@
 | Guild Jurisdiction | Netherlands |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
-
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Hyperion availability has been improved. Also, a faster server for block production is being prepared. Addtionally, we have a price oracle running now, taking prices from Coinbase and Binance
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [X] | [x] | [x] | [x] | [x] |  [] |
-| - | 8k req/hour | - | 33k req/hour | 130k req/hour | - |
+| [] | [X] | [x] | [x] | [x] | [] |  [] |
+| - | 8k req/hour | 100 req/hour | 33k req/hour | 130k req/hour | - |
 
-Others APIs: WAX RPC (300k req/hour)
+Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (15k req/hour)
+
 
 ### <ins>Contributions</ins>
 
@@ -37,7 +36,7 @@ Others APIs: WAX RPC (300k req/hour)
 None in the reporting period.
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -51,7 +50,7 @@ N/A
 None in the reporting period.
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -65,7 +64,7 @@ N/A
 None in the reporting period.
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -85,7 +84,7 @@ This project is a private project by cc32d9.
 None in the reporting period.
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -102,10 +101,10 @@ It can also be accessed through a HTTP API, supporting both MySQL and Postgres b
 EOS Amsterdam is cosponsoring the development of a new streaming API in Memento. The new API will allow the user to connect to the websocket endpoint and subscribe to events for multiple blockchain accounts. The wsebsocket service needs to listen on a separate TCP port, so a new environment option is required. socket.io protocol is used for communication. 
 
 **Update**: 
-None in the reporting period.
+A websocket streaming API has been developed and is currently in testing
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -118,7 +117,7 @@ N/A
 **Update**: None in the reporting period.
 
 **Metrics**
-N/A
+
 
 ---
 
@@ -129,10 +128,9 @@ N/A
 **Description**: Continuous support of WAX Leap.
 
 **Update**: 
-Following the latest WAX Leap 5.0.1 release, we have been working on the 5.0.2 release. We are tackling some issues here - [AntelopeIO/leap#2384](https://github.com/AntelopeIO/leap/issues/2384)
+Following the latest WAX Leap 5.0.1 release, we have been working on the 5.0.2 release. We are tackling some issues here - [AntelopeIO/leap#2384](https://github.com/AntelopeIO/leap/issues/2384). Additionally, we reported [one more problem](https://github.com/AntelopeIO/leap/issues/2393).
 
 **Metrics**
-N/A
 
 ---
 
@@ -146,7 +144,19 @@ N/A
 None in the reporting period.
 
 **Metrics**
-N/A
+
+---
+
+### Community support
+
+**URLs**: N/A
+
+**Description**: Assisting the technical community in Telegram chats: WAX Developers, Antelope Developers, WAX Infra discussion
+
+**Update**: 
+Continuous community support.
+
+**Metrics**
 
 ---
 
@@ -160,17 +170,20 @@ N/A
 None in the reporting period.
 
 **Metrics**
-N/A
 
 ---
 
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: [Snapshots](https://snapshots.eosamsterdam.net/public/wax/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [x] | [x] | [x] | [ ] | [X] |
+
+Blocks and state history from 2021-09-26
+Atomic assets from 2022-02-16
+Also, Chronicle data snapshots (latest from 2023-12-06)
 
 
 ### <ins>Feedback to OIG</ins>
