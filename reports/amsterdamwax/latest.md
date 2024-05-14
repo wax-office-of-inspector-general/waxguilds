@@ -35,8 +35,6 @@ Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (15k req/hour)
 **Update**: 
 None in the reporting period.
 
-**Metrics**
-
 
 ---
 
@@ -48,8 +46,6 @@ None in the reporting period.
 
 **Update**: 
 None in the reporting period.
-
-**Metrics**
 
 
 ---
@@ -63,9 +59,6 @@ None in the reporting period.
 **Update**: 
 None in the reporting period.
 
-**Metrics**
-
-
 ---
 
 ### Chronos
@@ -76,15 +69,8 @@ None in the reporting period.
 
 The database architecture allows for an enormous data ingestion performance. A single server can handle about 100k inserts per second with secondary indexes and materialized views, or even 500k inserts per second without secondary indexes.
 
-The data model of ScyllaDB is that each table or materialized view is a hash of sorted trees: the partition key is an unsortable hash key, and each partition is a sorted tree. Also each tree cannot contain more than 2 billion rows. This implies the limitations and restrictions on the application data model.
-
-This project is a private project by cc32d9. 
-
 **Update**: 
 None in the reporting period.
-
-**Metrics**
-
 
 ---
 
@@ -96,15 +82,8 @@ None in the reporting period.
 
 A typical use case for Memento is tracking incoming and outgoing payments for a specific account, and checking their reversibility. The database may contain traces for all contracts on the blockchain, or it may be limited to a specific subset of accounts. dApps can set up their own instances, while public infrastructure providers may offer the service to a wider audience.
 
-It can also be accessed through a HTTP API, supporting both MySQL and Postgres backends. Additionally, it also has a GraphQL interface in addition to the RESTful interface.
-
-EOS Amsterdam is cosponsoring the development of a new streaming API in Memento. The new API will allow the user to connect to the websocket endpoint and subscribe to events for multiple blockchain accounts. The wsebsocket service needs to listen on a separate TCP port, so a new environment option is required. socket.io protocol is used for communication. 
-
 **Update**: 
 A websocket streaming API has been developed and is currently in testing
-
-**Metrics**
-
 
 ---
 
@@ -115,9 +94,6 @@ A websocket streaming API has been developed and is currently in testing
 **Description**: The smart contract developer's handbook aims to address all the questions existing and prospective Antelope smart contract developers might have. This should make developer onboarding even easier. This project is a private project by cc32d9. 
 
 **Update**: None in the reporting period.
-
-**Metrics**
-
 
 ---
 
@@ -130,20 +106,16 @@ A websocket streaming API has been developed and is currently in testing
 **Update**: 
 Following the latest WAX Leap 5.0.1 release, we have been working on the 5.0.2 release. We are tackling some issues here - [AntelopeIO/leap#2384](https://github.com/AntelopeIO/leap/issues/2384). Additionally, we reported [one more problem](https://github.com/AntelopeIO/leap/issues/2393).
 
-**Metrics**
-
 ---
 
 ### bInfra.one
 
 **URLs**: [https://binfra.one/](https://binfra.one/)
 
-**Description**: bInfra.one is an infrastucture service for dApps to offer them stronger and more reliable infrastructure. This service has helped various popular applications with their infrastructure so far. Some of the notable clients include milliononmars.com, desertfarm.io, and arenaofglory.io. This service is offered by cc32d9.
+**Description**: bInfra.one is an infrastucture service for dApps to offer them stronger and more reliable infrastructure.
 
 **Update**: 
 None in the reporting period.
-
-**Metrics**
 
 ---
 
@@ -156,8 +128,6 @@ None in the reporting period.
 **Update**: 
 Continuous community support.
 
-**Metrics**
-
 ---
 
 ### Exposition Park Holdings (wax.io)
@@ -168,8 +138,6 @@ Continuous community support.
 
 **Update**: 
 None in the reporting period.
-
-**Metrics**
 
 ---
 
