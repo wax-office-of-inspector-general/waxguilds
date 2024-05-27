@@ -2,83 +2,93 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://greeneosio.com/ |
+| Contact | sukeshtedla@teknokrats.se |
+| bp.json (mainnet) | https://greeneosio.com/wax/bp.json |
+| bp.json (testnet) | https://greeneosio.com/wax-test/bp.json |
+| producer (mainnet) | greeneosiobp |
+| producer (testnet) | greeneosiobp |
+| Guild Jurisdiction | Göteborg, Sweden |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
+We have significantly upgraded our infrastructure by adding more resources and monitoring. In addition, we have also upgraded our Atomic servers to the 1.3.24 version. 
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
+Also, we have migrated our WaxGalaxy TG bots to better servers to support more users.
+
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
-
-Others APIs: Roborovski, dfuse, ...
+| [ ] | [x] | [x] | [x] | [ ] | [ ] |  [] |
+| - | 5m req/month | 100k req/month | 20m req/month | - | - |
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
+### WAX API Services
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: https://pro.waxgalaxy.io/
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+During the last 6 weeks, we've updated the server supporting the API requests and renewed our SSL certificates. We will also upgrade to the latest Fusio software in the coming months to add more functionality and features.
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
 Period: January 10th, 2024 - February 27th 2024
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
+Stats: 50 registered developer accounts, 3 paying customers, Averaging around 5k requests/day
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+### WAX Galaxy Bots
+
+**URLs**: https://web.telegram.org/k/#@waxgalaxybot, https://web.telegram.org/k/#@waxgreenybot
+
+**Update**: 
+
+Migrated all of our telegram bots backend to a bigger server to support the demand. Also fixed bugs related to USD pricing and some other minor issues.
+
+**Metrics**
+
+Period: January 10th, 2024 - February 27th 2024
+
+Stats: 
+
+**Our Telegram Bots Stats:** [1200+ users, **3241** accounts,~5.6m+ notifications]
+
+**Greenybot Updates: (@waxgreenybot) [telegram]**
+
+Latest Stats: use /adminstats command
+- Users Count: 362      
+- Accounts Count: 773    
+
+**WAX Galaxy Sales Bot Updates: (@waxgalaxybot) [telegram]**
+
+- Users Count: 840 (4% increase from last update) 
+- Accounts Count: 2466 (1% increase from the last update) 
+
+On average daily we send out more than 1000+ notifications to users.
+
 
 ---
 
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+-NA- [As a Standby Producer we don't have much resources to contribute to marketing initiatives]
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+| [ ] | [ ] | [ ] | [ ] | [ ] |
 
 
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+
+"We can open up new Exchange listings as we have significant connections with regional exchanges and DeFi protocols, but to do this we would need support from the WAX team or OIGs as these things don't come free."
 
 ----
 
