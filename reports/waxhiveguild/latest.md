@@ -2,83 +2,73 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://hivebp.io/ |
+| Contact | ben@hivebp.io |
+| bp.json (mainnet) | https://hivebp.io/bp.json |
+| bp.json (testnet) | https://hivebp.io/test.json |
+| producer (mainnet) | waxhiveguild |
+| producer (testnet) | waxhiveguild |
+| Guild Jurisdiction | Germany |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [] | [x] | [x] | [x] | [x] | [] |  [x] |
+| - | 1017792 req/day | 20400 req/day | 367008 req/day |  |  98616 req/day |
 
 Others APIs: Roborovski, dfuse, ...
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
 
-**URLs**: example.com, github.com/example/example-repo
+### NFTHive
 
-**List of SCs**: a.wallet, b.wallet  
+**URLs**: nfthive.io, github.com/example/example-repo
+
+**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward  
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
-
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
+* Collection Overview Redesigned and Updated: https://nfthive.io/collections
+* Collection Pages Redisgned and Updated, including Template Market (Only best offers per Template): https://nfthive.io/collection/cosmicclashx
+* New API fully synced. Started building views and endpoints, eg https://wax-api.nfthive.io/api/collections-overview, https://wax-api.nfthive.io/api/drops, https://wax-api.nfthive.io/api/listings
+* Lots of smaller UI fixes 
 
 **Metrics**
 
-[report relevant metrics and metric period...]
+Period: March 15th, 2024 - April 15th 2024
 
-Period: January 10th, 2024 - February 27th 2024
+Stats:
 
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-
-
----
-
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
+* Market
+Volume: 366,997.92699646 WAX / $30,952.84
+Buyers: 715
+Sellers: 1042
+Sales: 26401
 
 ---
+* Drops
+Volume 168,998.68988323 WAX / $14,598.97
+Buyers: 573
+Sellers: 73
+Sales: 7892
 
+---
+* Crafting
+Recipes: 147
+Crafters: 319
+Actions: 3564
+
+### WAXMarketCap
+
+Nothing
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
-
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
-
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
-
 
 ### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
-
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
-
-----
 

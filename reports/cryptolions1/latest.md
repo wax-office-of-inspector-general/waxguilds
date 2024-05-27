@@ -15,6 +15,7 @@
 no issues 
 
 
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
@@ -100,6 +101,10 @@ During the last report period:
 — We've maintained existing frontend and backend  
 
 
+Created BUY pools: 6 active
+Created SELL pools: 23 active pools, +2 new
+Created TRADE pools: 5 (all active)
+
 Metrics
 Period: February 27th, 2024 — April 10th, 2024
 
@@ -155,9 +160,17 @@ A multi-sig tool for users to create msig TX's without any technical knowledge.
 
 **update**  - fixed one issue 
 
+### AtomicNotifyBot
 
+**URLs**: https:/t.me/atomicnotifybot
 
+**Metrics**
 
+Period: March 1st, 2024 - April 15th 2024
+
+stats on the bot: Users: 296(+1 users) , Wallets: 180 (+1 wallets).
+
+---
 
 
 ### <ins>Backups </ins>
@@ -176,4 +189,3 @@ URL: https://wax-backup.cryptolions.io/
 no feedback today
 
 ----
-
