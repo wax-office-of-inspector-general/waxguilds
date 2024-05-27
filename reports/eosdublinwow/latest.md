@@ -11,11 +11,9 @@
 | Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-We upgraded Hyperion infrastructure by adding a new server, with another 10 TB of NVMe storage, to the existing elasticsearch cluster. Some shards were moved to the new server to balance the storage.
-
-During the process of moving the shards, the elasticsearch cluster was marked as "Yellow" which was picked up as downtime by the monitoring services (https://wax.validationcore.io/stats/guild/eosdublinwow).
-
-The partial downtime (~1D) was reported in advance in the "Wax Guilds Public" telegram channel, and noted by Kaefer. 
+We had several Hyperion downtimes caused by the failed synchronization with the SHiP node which was running wax-leap v4.0.4. We had to manually resynchronise the missing history.
+After these events, we decided to upgrade SHiP node to wax-leap 5.0.1, and it was a great choice so far as it seems that now Hyperion synchronizes successfully without any downtime for the last couple of weeks. 
+We keep monitoring it to make sure we offer the best possible uptime.
 
 ### <ins>API Services</ins>
 
@@ -37,15 +35,21 @@ The partial downtime (~1D) was reported in advance in the "Wax Guilds Public" te
 
 
 New Medium articles added:
- - [WAX School Top 3 Highlights 05/04/24–11/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-05-04-24-11-04-24-c3b5f6e21db0)
- - [WAX School Top 3 Highlights 22/03/24–04/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-22-03-24-04-04-24-c76ebb778cdd)
- - [WAX x Amazon AWS](https://medium.com/@waxblockchain/wax-x-amazon-aws-cb3ad4022618)
- - [WAX School Top 3 Highlights 07/03/24–21/03/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-07-03-24-21-03-24-4b364e1ffade)
+ - [WAX School Top 3 Highlights 26/04/2024–09/05/2024](https://medium.com/@waxblockchain/wax-school-top-3-highlights-26-04-2024-09-05-2024-fcd3a10346f9)
+ - [NFTopia 4 — A journey into the Niche](https://medium.com/@waxblockchain/nftopia-4-a-journey-into-the-niche-e782c3fbbe87)
+ - [NFTopia 4 — A Metaverse Summer-Jam](https://medium.com/@waxblockchain/nftopia-4-a-metaverse-summer-jam-35bc059ef024)
+ - [WAX School Top 3 Highlights 19/04/24–25/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-19-04-24-25-04-24-62677ba2befe)
+ - [WAX School calendar week ending 28/4/24](https://medium.com/@waxblockchain/wax-school-calendar-week-ending-28-4-24-fe9cdb263732)
+ - [WAX School Top 3 Highlights 12/04/24–18/04/24](https://medium.com/@waxblockchain/wax-school-top-3-highlights-12-04-24-18-04-24-49354f1da495)
 
+We also run NFT drops on the [wax school twitter page](https://twitter.com/waxschool_):
+- [May 7 NFT drop](https://twitter.com/waxschool_/status/1787803368129253755)
+- [April 29 NFT drop](https://twitter.com/waxschool_/status/1784962024293703917)
+- [April 15 NFT drop](https://twitter.com/waxschool_/status/1779809422161678685) (*this wasn't mentioned in the previous report)
 
 **Metrics**
 
-On Twitter/X ~6000 new impressions
+On Twitter/X ~4000 new impressions
 
 
 ---
@@ -59,8 +63,6 @@ On Twitter/X ~6000 new impressions
 - Demo project integrating the libraries
 [https://github.com/mcicu/antelope-java-sdk-demo](https://github.com/mcicu/antelope-java-sdk-demo)
 
-Since the last guild report we updated the demo project to contain examples on how to purchase blockchain resources (ram and cpu).
-
 We are in active discussions to have the next release under the official antelope.io namespace.
 
 **Metrics**
@@ -70,7 +72,7 @@ We are in active discussions to have the next release under the official antelop
 ---
 
 ### <ins>Marketing</ins>
-Done through the Wax School Project, we got around ~6000 new impressions on Twitter/X.
+Done through the Wax School Project, we got around ~4000 new impressions on Twitter/X.
 
 ### <ins>Backups </ins>
 
