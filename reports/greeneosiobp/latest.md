@@ -15,6 +15,7 @@ We have significantly upgraded our infrastructure by adding more resources and m
 
 Also, we have migrated our WaxGalaxy TG bots to better servers to support more users.
 
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
@@ -68,6 +69,7 @@ Latest Stats: use /adminstats command
 
 On average daily we send out more than 1000+ notifications to users.
 
+
 ---
 
 
@@ -84,6 +86,7 @@ On average daily we send out more than 1000+ notifications to users.
 
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
+
 
 "We can open up new Exchange listings as we have significant connections with regional exchanges and DeFi protocols, but to do this we would need support from the WAX team or OIGs as these things don't come free."
 

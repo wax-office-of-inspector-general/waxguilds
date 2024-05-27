@@ -1,19 +1,6 @@
-<h1 align="center">WAX Guilds</h1>
+<h1 align="center">WAX Guild Reports</h1>
 
-<p>
-  <img src="https://img.shields.io/badge/node-%3E%3D16.19.0-blue.svg" />
-  <a href="https://github.com/wax-office-of-inspector-general/waxguilds/wiki" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/wax-office-of-inspector-general/wax-developer/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://twitter.com/WAXOIG" target="_blank">
-    <img alt="Twitter: WAXOIG" src="https://img.shields.io/twitter/follow/WAXOIG.svg?style=social" />
-  </a>
-</p>
-
-The Office of Inspector General (OIG) is a neutral third-party role designed to evaluate WAX Guild Candidates' contribution to the ecosystem and provide ongoing transparency for the community. The office is designed as a committee with 3 inspector generals who will standardize WAX Guild evaluations, and properly recognize those WAX Guilds making valuable contributions to the WAX ecosystem.
+The WAX OIG functions as an impartial entity dedicated to assessing the contributions of WAX Guild Candidates to the ecosystem and ensuring ongoing transparency within the community. This office operates as a panel comprising three inspector generals who are tasked with standardizing the evaluation of WAX Guilds, acknowledging those guilds that significantly benefit the WAX ecosystem.
 
 
 ## Guild Ratings
@@ -26,7 +13,7 @@ The ratings are published on Notion
 
 ## Evaluation Process
 
-The OIG framework and the guild rating guidelines are under constant development. Therefore the guidelines update regularly, which can be followed here
+The WAX OIG framework and the guild rating guidelines are under constant development. Therefore the guidelines update regularly, which can be followed here
 
 [Versioned Guidelines](https://www.notion.so/wax-oig/Versioned-Guidelines-a83f99e6acd0444ab7cec9419ca4eff0)
 
