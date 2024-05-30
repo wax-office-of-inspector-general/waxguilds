@@ -11,11 +11,11 @@
 | Guild Jurisdiction |  Switzerland (CH) |
 
 ### <ins>Noteworthy</ins>
-We have upgraded hyperion to latest version 3.3.10
-We noticed that some monitoring services reported downtime for our hyperion v2 node for example
+- We have upgraded hyperion to latest version 3.3.10
+- We noticed that some monitoring services reported downtime for our hyperion v2 node for example
 https://wax.sengine.co/guilds/eosdacserver,  https://nodestatus.ledgerwise.io/wax/producer/eosdacserver?tab=errors
 while others showed 100% uptime, for example https://wax.validationcore.io/stats/guild/eosdacserver
-We have added additional monitoring to catch these issues in future
+- We have added additional monitoring to catch these issues in future
 
 ### <ins>API Services</ins>
 
