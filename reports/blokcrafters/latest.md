@@ -12,7 +12,11 @@
 
 ### <ins>Noteworthy</ins>
 
-"We discovered that we had missing blocks in our hyperion history service.  The missing blocks were added."
+We spent a little time debugging why we were consistently behind on indexed blocks for Hyperion history and
+eventually cleared it up by restarting the indexer on a very overloaded system.
+It had started too many indexer processes.  We also interacted a bit with ledgerwise to investigate
+why the nodestatus page had us perpetually stuck at 57 blocks behind for Hyperion history.
+It is now reporting properly for us.
 
 ### <ins>API Services</ins>
 
@@ -74,7 +78,7 @@ URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
 ### <ins>Feedback to OIG</ins>
 
-I like the move to having this template.md file present, I'm looking forward to seeing how it works out.
-And how it works.
+So.. on the latest.md template - it took a bit to figure out that one of the OIG saves the current latest.md.
+We're good with this now - and then we just update the latest.md with new info for this reporting period.
 
 ----
