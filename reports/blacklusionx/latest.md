@@ -14,7 +14,7 @@
 
 ### <ins>Noteworthy</ins>
 
-This month was characterized by maintenance and upkeep of our projects. Some bigger changes will likely launch next month.
+This month was characterized by the maintenance and upkeep of our projects. Some bigger changes will likely launch next month.
 
 ### <ins>API Services</ins>
 | History (partial) | History (full) | History (testnet) | AA API     | Light-API | IPFS      |
@@ -37,7 +37,7 @@ This month was characterized by maintenance and upkeep of our projects. Some big
 
 Period: -
 
-Stats: Not tracked, but it is save to say the validationcore is an essential part of the OIG evaluations itself :)
+Stats: Not tracked, but it is safe to say the validationcore is an essential part of the OIG evaluations itself :)
 
 ---
 
@@ -48,8 +48,8 @@ Stats: Not tracked, but it is save to say the validationcore is an essential par
 **List of SCs**: illusiveauth
 
 **Update**:
-- Last month we launched our AI features for illusive. We are tracking the user data to determine which features we should build out next and on what we should focus.
-- We had talks with a couple of games on launching campaigns incentivizing users to create content (write to earn), however we are currently unsure if this will work in the current landscape of WAX. We are always happy to hear more opinions on this and we will continue our talks hopefully launching some campaigns soon or focusing on a different approach.
+- Last month we launched our AI features for illusive. We are tracking the user data to determine which features to build out next and what to focus on.
+- We had talks with a couple of games on launching campaigns incentivizing users to create content (write to earn), however, we are currently unsure if this will work in the current landscape of WAX. We are always happy to hear more opinions on this and we will continue our talks hopefully launching some campaigns soon or focusing on a different approach.
 - Until then, we will leave the current feature set as is, to ensure we spend our development time on the right features.
 **Metrics**
 
@@ -73,7 +73,7 @@ Stats: 116 unique users
 
 Period: 1. May 2024 - 31 May 2024
 
-Stats: 38.19k unique visitors | 3.12M total requests (based on cloudflare stats)
+Stats: 38.19k unique visitors | 3.12M total requests (based on Cloudflare stats)
 
 ---
 
