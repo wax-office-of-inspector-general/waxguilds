@@ -14,15 +14,13 @@
 
 ### <ins>Noteworthy</ins>
 
-Check the contributions section
+This month was characterized by maintenance and upkeep of our projects. Some bigger changes will likely launch next month.
 
 ### <ins>API Services</ins>
-We updated our server infrastructure and the api versions
-
-| History (partial) | History (full) | History (testnet) | AA API | Light-API | IPFS      |
-|-------------------|--------|-------------------|-------|-----------|-----------|
-| [ ]               | [ ] | [x]               | [x] | [ ]       | [x]       |
-| -                 | - | not tracked       | 1.5mio req | -         | not tracked |
+| History (partial) | History (full) | History (testnet) | AA API     | Light-API | IPFS      |
+|-------------------|--------|-------------------|------------|-----------|-----------|
+| [ ]               | [ ] | [x]               | [x]        | [ ]       | [x]       |
+| -                 | - | not tracked       | 1.6mio req | -         | not tracked |
 
 
 ### <ins>Contributions</ins>
@@ -33,11 +31,8 @@ We updated our server infrastructure and the api versions
 
 **List of SCs**: -
 
-**Update**: 
-- We have pruned the validationcore database to contain data only back to 2023-01-01. This has reduced the database size by 50% and increased the query speed. This also improves other aspects such as the time machine and the filters are easier to use and specify with the smaller available range.
-- We have deployed changes to the accepted server versions as discussed in the telegram chat. This ensures our lists of apis are up-to-date. Old api versions were deprecated and removed.
-
-
+**Update**:
+- Upkeep and Maintenance
 **Metrics**
 
 Period: -
@@ -53,19 +48,14 @@ Stats: Not tracked, but it is save to say the validationcore is an essential par
 **List of SCs**: illusiveauth
 
 **Update**:
-- We have quietly pushed our Token pages into production as a beta feature. Users can now track token prices via the overview page and look at historical data on the detail page https://www.illusive.gg/tokens/. Currently, this only supports tokens listed on coingecko. We are planning to expand this to wax-based tokens as well, but testing the overall functionality with the current live version
-- We have published our community pages that were part of the gHubs grant. Users can now see all games that integrate the same NFT collection and see the aggregated player stats: e.g. https://www.illusive.gg/communities/alien-worlds/ For Battlefleet Armageddon we are also testing to inject web2 stats from the Unity Cloud 
-- We have listed 3 new games on illusive this month: Avalon, Mission Control, and Battlefleet Armageddon
-- On our rankings page we have fixed a bug, that caused the percentage changes to not show. We also have changed the behavior of the ranking table to behave better responsive performance: https://www.illusive.gg/rankings/
-- We have ported over 100 pieces of existing content to illusive: https://www.illusive.gg/feed/
-- We have launched our AI search: The ported content is used to inject custom context into a chatGPT-based AI search via a Vectorstore. Users can now ask questions about the games and the AI will try to answer with parts from the content. You can try it yourself by clicking on the searchbar. Keep in mind, that currently Alien Worlds has the most content and hence responses will be most accurate
-- We have added a couple of improvements to the Content Creator and Content Viewer: Design Changes, Responsive improvements, added a sidebar showing an overview of all sections of the content and how far the user has already read the content
-
+- Last month we launched our AI features for illusive. We are tracking the user data to determine which features we should build out next and on what we should focus.
+- We had talks with a couple of games on launching campaigns incentivizing users to create content (write to earn), however we are currently unsure if this will work in the current landscape of WAX. We are always happy to hear more opinions on this and we will continue our talks hopefully launching some campaigns soon or focusing on a different approach.
+- Until then, we will leave the current feature set as is, to ensure we spend our development time on the right features.
 **Metrics**
 
-Period: 15. March 2024 - 15 April 2024
+Period: 1. May 2024 - 31 May 2024
 
-Stats: 127 unique users, 3 new games
+Stats: 116 unique users
 
 ---
 
@@ -81,9 +71,9 @@ Stats: 127 unique users, 3 new games
 **Metrics**
 
 
-Period: 15. March 2024 - 15 April 2024
+Period: 1. May 2024 - 31 May 2024
 
-Stats: 41.35k unique visitors | 5.64M total requests (based on cloudflare stats)
+Stats: 38.19k unique visitors | 3.12M total requests (based on cloudflare stats)
 
 ---
 
@@ -110,7 +100,7 @@ Stats: Other guilds are using our exporters. We do not have exact numbers, since
 
 **Metrics**
 
-Period: 15. March 2024 - 11 April 2024
+Period: 1. May 2024 - 31. May 2024
 
 Stats: 8 subscribers. The number by itself, does not sound impressive, but keep in mind that this tool is targeted towards guild operators. Taking this into account, a decent percentage of all guilds use the bot to monitor their infrastructure.
 
