@@ -18,7 +18,7 @@
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [] |  [x] |
-| - | 504000 req/day | 5400 req/day | 230400 req/day |  |  92640 req/day |
+| - | 864000 req/day | 5400 req/day | 230400 req/day |  |  92640 req/day |
 
 ### <ins>Contributions</ins>
 
