@@ -15,20 +15,16 @@
 Here's a brief summary of recent developments:
 
 
-- The Atomic API has been officially launched.
-- Hyperion has been fully indexed for the testnet, serving as a valuable resource for a team of developers as they work on building a software tool. Although initially intended for a Chinese team, we've decided to make it accessible to everyone.
-- We have redundant instances of AtomicAPI for the mainnet, with two launched behind the Balancer.
-- The indexing of Hyperion mainnet's partial history is underway and will be completed within a week.
-- HAProxy rules have been adjusted to facilitate access.
-- Webpage maintenance has been completed.
-- wax.json has been updated on both the webpage and the chain.
+1. Double the capacity of AtomicAPI servers.
+2. Introduce a new producer to optimize CPU usage.
+3. Implement a faster Hyperion server.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |Chain API |
 |--------|--------|--------|--------|--------|--------|--------|
 | [] | [ ] | [x] | [x] | [] | [] |  [x] |
-| - | - | Repairing | 10.9k req / week * estimated value, since it hasn't run a long time |- | - | 1.46m req/week |
+| 250k req/week | - |  - | 154k req/week |- | - |  963k req/week|
 
 
 ### <ins>Contributions</ins>
@@ -40,42 +36,38 @@ We are developing an analytical platform called MetaPlay,MetaPlay is built on on
 **URLs**: [https://metaplay-frontend.vercel.app/]
 
 **Update**: 
-At the moment, our team is focused on fine-tuning and improving the UI to deliver optimal user experiences. Additionally, we're implementing additional indexes for the data to enhance the speed of the API. Once these tasks are accomplished, we'll unveil the inaugural version of MetaPlay.
+At the moment, our team hasn’t achieved significant progress.
 
 
 ### <ins>Marketing</ins>
 
 **Social Media Metrics**
 
-****Wechat Official Account****-NFT Gamer
+| Website/Platform | Visitors/Views |
+| ---------------- | --------------- |
+| [Twitter (NFTGAMERCHINA)](https://x.com/NFTGAMERCHINA) | 1,263 members |
+| [YouTube (NFTGamer)](https://www.youtube.com/@nftgamer2225) | 198 Followers |
+| [Discord (Alien Worlds China)](https://discord.gg/HaGdzwwt4b) | 563 members |
+| [Binance Square (NFTGamer)](https://www.binance.com/zh-CN/square/profile/Square-Creator-486d43093) | 173 Followers |
+| **WeChat Official Account** | |
+| [NFTGAMER](https://mp.weixin.qq.com/s/rtHpkmXFJhQvm3rIGJs9_g) | 5,643 Followers |
+| [Alien Worlds Chinese](https://mp.weixin.qq.com/s/k70iYMn0JZLtzfkNVJhemQ) | 1,146 Followers |
+| **Video Channels** | |
+| [i喵见](https://weixin.qq.com/sph/AbMncT) | 6,777 Followers |
+| [Alien Worlds Chinese](https://weixin.qq.com/sph/AOdVCC) | 108 Followers |
+| [Weibo (Alien Worlds)](https://weibo.com/u/7584097275) | 3,758 Followers |
+| [Kuaishou (NFTGamer)](https://www.kuaishou.com/profile/3xnvv6pazy2f5e4) | 6,310 Followers |
+| [BiliBili (NFTGamer)](https://space.bilibili.com/18921900) | 742 Followers |
+| [Weishi (NFTGamer)](https://video.weishi.qq.com/as4MOFyY) | 521 Followers |
+| [Red (NFTGamer)](https://www.xiaohongshu.com/user/profile/5f36a24900000000010009f3?xhsshare=CopyLink&appuid=5f36a24900000000010009f3&apptime=1702363719) | 195 Followers |
+| [Toutiao (NFTGamer)](https://www.toutiao.com/c/user/token/MS4wLjABAAAAXatKWY0ySD8jcwQ8ivw_xnxmDuu1P7yQlY0dbBpeYNyjutaRm309OLnqiDL4EaJF/) | 132 Followers |
+| **Notion** | |
+| [AlienWorlds](https://bit.ly/AlienWorldsCN) | |
+| [WAX Eastern](https://www.notion.so/waxeastern/WAX-Eastern-d8c65f7fab4740539891d2bcfce72ed5) | |
+| **Telegram** | |
+| [Alien Worlds China](https://t.me/alienworldschina) | 2,204 members, 409 new members,  214450 messages sent |
+| [NFTGamerChina](https://t.me/NFTGamerChina) | 1,091 members, 192 new members, 41517 messages sent |
 
-
-Period: March 1st, 2024 - April 14th 2024
-
-Stats
-- Follower:5462
-- Total Views:5520
-
-
-![Total views of our WeChat official account during the last review period](https://i.imgur.com/SQCLFvE.jpeg)
-
-Article:
-
-[WAX community, claim your WUF airdrop now!](https://mp.weixin.qq.com/s/8m62Tra0rTceSZbklkRzrA)
-
-****TG Group****-[NFT Gamer](https://t.me/NFTGamerChina)
-- Follower:1162
-
-![Except for a slight decrease in the number of users by 1.5%, all other metrics have shown promising improvement](https://i.imgur.com/sUAaeYF.jpeg)
-
-Except for a slight decrease in the number of users by 1.5%, all other metrics have shown promising improvement
-
-****TG Group****-[Alien Worlds China](https://t.me/alienworldschina)
-- Follower:2130
-  
-![We've observed some encouraging improvements in all metrics during the recent period](https://i.imgur.com/CrAe9CD.jpeg)
-
-We've observed some encouraging improvements in all metrics during the recent period
 ### <ins>Backups </ins>
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
@@ -85,7 +77,5 @@ We've observed some encouraging improvements in all metrics during the recent pe
 
 ### <ins>Feedback to OIG</ins>
 
-OIG's documentation got a bit mixed up regarding the AtomicAPI endpoints. It mentioned "/v1/atomi*" and "/v1/docs," but it's actually "/atomic*" and "/docs." Just a heads-up for developers looking to integrate with the API!
 
 ----
-
