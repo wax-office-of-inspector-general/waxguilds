@@ -11,13 +11,15 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-This last period we have continued rolling out upgrades to WAX v5.0.1 and have updated our WAX Technical How To documention in Medium and on WAX Developers.
+Our WAX Mainnet Hyperion Service has been migrated to our Perth DC. The primary reason is the cost of Enterprise NVMe SSD’s, it’s more cost effective and easier to procure our own hardware in our own DC rather than lease from a bare metal provider. Interestingly we have provisioned the exact same Dell 740XD server in our Perth DC, so queries appear to be just as fast as before.
 
-Our Perth Data Centre has also now been upgraded to a primary Enterprise 1Gbps Synchronous Internet Connection in preparation for more services to be launched there.
+Our Perth DC has started handling production loads and appears to working well.
 
-We’ve also added additional hardware, CPU’s, RAM and much needed SAS Disks to our Perth server rack.
+Our Store-1 server that hosts our public Hyperion Snapshots was extremely utilised this last month, I don’t think I have ever seen 1Gb/s of internet traffic for a single server on our infrastructure before.
 
-![image](https://github.com/Rossco99/waxguilds/assets/12730423/9c920a2e-957a-4d20-b716-15a8e5f6b4cd)
+![image](https://github.com/Rossco99/waxguilds/assets/12730423/237ca2b2-ac07-43fd-bbe8-d6c1ed24f2bb)
+
+Our upgrades to v5.0.1wax01 are ongoing.
 
 ### <ins>API Services</ins>
 
@@ -33,18 +35,17 @@ We’ve also added additional hardware, CPU’s, RAM and much needed SAS Disks t
 **URLs**: https://github.com/eosphere/HeadsUp-Monitoring-Alerts 
 
 **Update**: 
-In this last period, the HeadsUp Team have been testing the release candidate that will be used as final for the v0.1 Beta as all phase features have now been incorporated:
+In this last period, the HeadsUp Team have been testing the release candidate that will be used as final for the v0.1 Beta as all phase features have now been incorporated.
 
-- Weighted Alerts
-- Alert Reminders
-- More Detailed Alerts, include error value, last updated and current value
-- Incorporated user requested UI updates
-- Modular approach to Metric Processing making it significantly easier to expand the number of metrics and alerts in future.
-- Automation of the deployment lifecycle so we can deploy faster and with less risk moving forward.
+As you have heard us mention before we have found bugs and tricky gremlins that needed to be taken care of.
 
-The plan is to have a rock solid base going forward and we are almost there.
+However we are in the home straight, with only one issue remaining.. we have found a bug with the Ingestor disconnecting and reconnecting.
 
-If you would like to give HeadsUp a try, join our Telegram Group (https://t.me/headsup_monitoring_alerts) for github links and instructions on the current stable Alpha release.
+Mark is on the case, we suspect that it has to do with with an unexpected API response from a node that was experiencing networking issues.. the ingestor didn't know what to do with this response.
+
+We expect to release v0.1 in the coming week.
+
+Please join our Telegram Group (https://t.me/headsup_monitoring_alerts) for the latest release information as well as github links and instructions .
 
 ---
 
@@ -57,31 +58,10 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we have updated all our relevant How To documentation to the Antelope Leap 5.0 version of WAX software.
+This month we added another guide to our WAX Hyperion Full History Series, that details setting up Data Tiering in your Elasticsearch cluster to make more effective use of your hardware resources.
 
-Set Up a WAX Testnet Node
-https://medium.com/eosphere/wax-technical-how-to-1-4cc5c9aa8d4e
-
-WAX Snapshots
-https://medium.com/eosphere/wax-technical-how-to-2-db45a339e735
-
-Set Up a WAX Testnet Block Producer Node
-https://medium.com/eosphere/wax-technical-how-to-3-78d358c46146
-
-Set Up a Solid WAX Mainnet Node
-https://medium.com/eosphere/wax-technical-how-to-4-886c5bfaf7b9
-
-How To Set Up a WAX State-History Node
-https://medium.com/eosphere/wax-technical-how-to-7-9ccc102efd9d
-
-Working with WAX Software Files and Folders
-https://medium.com/eosphere/wax-technical-how-to-8-42011a30de1e
-
-Optimising RAM and Disk Utilisation
-https://medium.com/eosphere/wax-technical-how-to-11-43695f583e89
-
-WAX Account Custom Permissions
-https://medium.com/eosphere/wax-technical-how-to-12-9d39257d319
+Using Data Tiers with WAX Hyperion Full History
+https://medium.com/eosphere/wax-technical-how-to-15-10-030540d30a23
 
 ---
 
@@ -107,29 +87,33 @@ Please contact us at info@eosphere.io to discuss your needs so we can craft a su
 
 **URLs**: https://developer.wax.io, https://developer.wax.io/operate/wax-infrastructure
 
-**Update**: All our WAX Technical How To Guides are added and maintained on the WAX Developer Portal. This last period they were updated to cover WAX v5.0.1wax01
+**Update**: 
+We recently added a comprehensive guide on how to visualise metrics from a WAX Load Balancer using Elasticstack
 
 ---
 
 ### Metrics
 
-Period: March 26th, 2024 - April 9th 2024 (2 Weeks)
+Period: May 15th, 2024 - May 29th 2024 (2 Weeks)
 
 **Infrastructre Stats**:
-- 90.51% of Requests are Normal API, 9.49% are Hyperion API
-- 16 to 18 Million HTTP "200"`s served per day
-- 246 Million Requests this last two weeks
-- **1.97 Million HTTP v1.1 and 23 Thousand HTTP v2.0 WAX Blockchain Successful Push Actions per day.**
+- 44.32.51% of Requests are Normal API, 55.69% are Hyperion API (Results are a bit skewed this last period due to the “Too Many Requests” 429 policy being triggered. Over 193 Million requests hit this policy this last two weeks.)
+- 12 to 22 Million HTTP "200"`s served per day
+- 348 Million Requests this last two weeks
+- Typically we have around 2Mil WAX Mainnet Successful Push Actions per day, however the data is also skewed due to the 429 policy.
 - 2 Million Requests served by our Atomic API per day
 
 **Medium Stats**:
-![image](https://github.com/Rossco99/waxguilds/assets/12730423/3a287e4f-45db-4b21-8226-1091b5f7d462)
+![image](https://github.com/Rossco99/waxguilds/assets/12730423/19fd8509-3909-4570-8990-f8b4742a6216)
+
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/Rossco99/waxguilds/assets/12730423/03004c65-fa68-41ba-80da-1ac8d02602f3)
+![image](https://github.com/Rossco99/waxguilds/assets/12730423/a2a03eae-7640-47cd-b399-5fb9b871d78b)
+
+As can be seen , we have experienced a few network challenges this last 24 hours.
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
@@ -141,7 +125,7 @@ Initiative A: Regular Community Update
 
 We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
 
-Here is April -> https://medium.com/eosphere/eosphere-guild-april-24-update-3eed160ebab9
+Here is May -> https://medium.com/eosphere/eosphere-guild-may-24-update-23d3b577474f
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -154,7 +138,7 @@ URL: https://snapshots.eosphere.io/
 
 
 ### <ins>Feedback to OIG</ins>
-None at this time, bring on the $WAX Bull Run.
+None at this time, good luck with the election @rakeden
 
 ----
 
