@@ -196,7 +196,7 @@ Mainnet: [snapshots.waxsweden.org](https://snapshots.waxsweden.org/)
 
 Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.org/)
 
-Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240411-302695521.tar.gz)
+Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
 Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-05-01T04_30_01_367_277282072.bin.tar.gz)
 
