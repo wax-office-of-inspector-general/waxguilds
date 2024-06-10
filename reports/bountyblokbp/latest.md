@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report April 2024
+# Guild Report May 2024
 
 ### <ins>General</ins>
 |  |  |
@@ -15,13 +15,17 @@
 
 ### <ins>Noteworthy</ins>
 
-March 4th we changed a private peer within the BP to the one we purchased on Feb 28 to a new powerful peer sentry 7950X to improve further empty blocks and low trx. Since then empty blocks significantly improved.
+1) On May 3rd we had an outage in the middle of the night due to a broken power supply which triggered the rack fuse to pop affecting our mainnet BP.
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/39c23454-b7c6-4aca-9204-cb19d77c25d5)
+
+2) We are hosting an IPFS server https://ipfs.wax.bountyblok.io on a Ryzen 9 7950X3D protected by fail2ban, iptables, nginx throttlings and CloudFlare Firewall rules from spammers: Eg: https://ipfs.wax.bountyblok.io/ipfs/QmXn7h5bxtvef5tVVSDrZsqoLJgJGSVJp2kausoftEqT43
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [ ] | [x] | [] | [] | [] |  [] |
+| [] | [ ] | [x] | [] | [] | [x] 
 | - | - | - | - | - | - |
 
 ### <ins>Contributions</ins>
@@ -30,59 +34,66 @@ March 4th we changed a private peer within the BP to the one we purchased on Feb
 
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
-**Update**: In the last few weeks we onboarded 2 new fintech/edtech clients
+**Update**: In the last few weeks we onboarded 3 new fintech/edtech clients
 
-1) St. Clair College Financial Literacy Platform: https://edu.stocktrak.com/stclaircollege/
+1) Jackson State University  Global Trading Platform: [https://edu.stocktrak.com/stclaircollege/](https://edu.stocktrak.com/jacksonstate/)
 
-2) The FactSet APAC Trading Challenge: https://edu.stocktrak.com/factsetchallenge/
+2) CLIMB USA Stock Market Experience: [https://edu.stocktrak.com/factsetchallenge/](https://edu.stocktrak.com/climbusa/)
 
-[Rest of the clients here](https://github.com/bountyblok/waxguilds/blob/df273ce32670355c8d033c90c42169de9ae7f1ef/reports/bountyblokbp/2024-02.md?plain=1#L45)
+3) The Deakin Trading Room: [https://edu.stocktrak.com/deakin/](https://edu.stocktrak.com/deakin/)
+
+[Rest of the clients here](https://github.com/wax-office-of-inspector-general/waxguilds/blob/7c73d820d880ae7476243e80b6a957532b4a801d/reports/bountyblokbp/2024-04.md?plain=1#L39)
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th, 2024
+Period: April 16, 2024 - May 31, 2024
 
 |  |  |
 | --- | --- |
-| Total WAX TXs  | 10,358,329 |
-| New Clients | 2 |
-
+| Total WAX TXs  | 9,012,924  |
+| New Clients | 3 |
 ---
+
 ### Product #2: Smart Asset Distribution Tool
 
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Take snapshots by points
-* Allow creators to setup points by schema
-* Creators can now setup leaderboard by collection
-  ![Screenshot - 2024-04-15T181027 728](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/38b842e7-1bf3-49ae-8946-e3adaf048548)
+* Users can now take snapshot of wallets created by a specific wallet
+  ![1](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/bbb70b2e-f402-4ca4-8874-83917369fa45)
+
+* Filter freestyle list to only include account holding certain templates
+  ![2](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/a095d398-796c-4451-a3a9-564977cdc961)
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th, 2024
+Period: April 16, 2024 - May 31, 2024
 
 |  |  |
 | --- | --- |
-| New Projects added | 9 |
-| Total distributions | 779 |
-| Total assets distributed | 921,064 |
+| New Projects added | 7 |
+| Total distributions | 604 |
+| Total assets distributed | 278,986 |
 ---
+
 ### Product #3: Gift NFT
 
 **URLs**: https://giftnft.io/
 
 **Update** 
-* Major enhancement: gift links are now created via atomictoolsx smart contract removing the need for holding account
-* Minor improvements related to UI/UX and performance
+* Cloudflare protection on giftnft for Bot prevention
+  ![3](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/732257b0-40d7-4fcc-8e43-300188258fb1)
+
+* Functionality to cancel unclaimed gift links from my Gifts page
+  ![4](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/7d9b965c-ac0a-4ac2-839c-e1d9e3e05a11)
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th, 2024
+Period: April 16, 2024 - May 31, 2024
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 523 |
+| Total Gifts sent | 24 |
 ---
 
 ### Product #4: Contest Giveaway Platform
@@ -90,89 +101,89 @@ Period: March 1st, 2024 - April 15th, 2024
 **URLs**: https://wax.contest.bountyblok.io / https://solana.contest.bountyblok.io/ 
 
 **Update** 
-* WAX fraud prevention API integration: Extra security layer to prevent fradulent wallets from participating in contests - https://github.com/wax-fraud-prevention/wax-fraud-database
-* New task type "add Token to CoinmarketCap Watchlist" to earn entries
-* Optional feature to REQUIRE entire contest COMPLETION so users can be eligible for draw
-* Major change: Allow users to unlock more tasks when completing Hold Token Actions so that the contest feels never ending. The more tokens you hold, the more tasks you can unlock. Requested by WUFFI TEAM.
+* Leaderboard across campaigns to view entries earned by wallets in all giveaways.
+  ![5](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/e1b2b7bb-c45a-438c-b29c-bf8cebadc1f0)
 
-* New website but we'll keep under this product: We launched a **SOLANA VERSION** of our contest tool specifically for WAX Team: https://solana.contest.bountyblok.io/ - Requested by WUFFI TEAM.
-* Solana contest tool with phantom and solflare wallet support including all the popular social media and web3 actions like holding NFTs and FTs. - Requested by WUFFI TEAM.
+* New TikTok action asking users to follow an account on TikTok
+  ![6](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/2c817230-e3ee-4d86-9ae7-505686463529)
+  ![6A](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/ac3478b3-1760-466b-bbd1-4e39fee2081a)
+
+* New TikTok action asking users to watch a video on TikTok
+  ![6B](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/921080f0-22aa-4a12-b4cc-1347e5e40a9b)
+
+* Helped Marty launch a WUF giveaway on solana giveaway tool
+* Various improvements related to UI/UX and performance
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th, 2024
+Period: April 16, 2024 - May 31, 2024
 
 |  |  |
 | --- | --- |
-| Total Contests | 58 |
-| Total Entries | 64,126 |
-| Total X Follows | 17,024 |
-| Total X Reposts | 6,270 |
-| Total X Likes | 5,856 |
-| Total new X Posts | 11.461 |
-| Total Discord Joins | 10,025 |
+| Total Contests | 84 |
+| Total Entries | 97,133 |
+| Total X Follows | 24,292 |
+| Total X Reposts | 6,784 |
+| Total X Likes | 6,456 |
+| Total new X Posts | 3,263 |
+| Total Discord Joins | 10,933 |
 ---
 
 ### Novopangea 
-* Won the NFT CUP: https://twitter.com/intraVerse_Game/status/1764352881740660966?t=oyi-err_zN1Qucz9Tlnq1Q&s=19
-* March 4th launched several campaigns for month of March "Play 50 matches and win 1000 OBSD" ![unnamed (3)](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/9f1784a3-7f3c-462d-962e-2fa74f159cb4) ![unnamed (5)](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/67ffb13e-2cf2-486c-abcc-ea19afdebd0c)
-* April 1st: Launched 3 different NOVO WAR events: https://medium.com/@Novopangea.io/novo-war-and-creature-events-a24a999ad139
+* Working with Upland. The flags 3D modeled are done and doing statues next
+  ![Screenshot_20240509_155810_Chrome](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/bac39377-5ff9-45fc-9272-acef33bc220a)
+  ![Screenshot_20240509_155506_Chrome](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/ec164fa6-91df-49f6-89ef-b16fb13a8472)
+  ![Screenshot_20240514_083032_Chrome](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/7189dbd5-0c61-47f7-85e4-bf7e3c069aa8)
+  ![Screenshot_20240515_160943_Chrome](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/f22c80c0-76d2-4015-9a94-6149fd3c09ff)
+
+* Connected Mike with Greb Glabuz BD from Polygon
+* Participating in the NFT World Cup WUF League: https://x.com/Novopangeaio/status/1795823472524112014
+* Collaborating with AlienWorlds and launch a weapon: https://x.com/Novopangeaio/status/1795789832590922163
 ---
 
 ### Avalon
-* Avalon after 7 months Avalon has been approved for all Xbox and Game Pass stores, Marius just signed all contracts / I can ask for proof if needed*
-* Avalon in GDC https://twitter.com/DanuGames/status/1769586401362735392?t=mvYV4IkgLRSVHYNlFLYvtQ&s=19
+* Moved majority of the game about 55% to ue5 - very expensive and took 5 weeks
+* Solidified relationship with Adrian from Speilworks and now have Wombat integration
+* Multiple VC meetings
+* Working on a big announcement for Q3 TBD
 ---
-
-### Web3 APIs
-* Going to keep this one short - we / Lukas had several calls with Ankr/QuickNode and the conclusion was simply the return at this moment was not worth the $$$$
-* We will revisit this in the future
----
-
 
 ### Polygon CDK/AggLayer L2
 * Confidential - email sent to oig@wax.io
 ---
 
 ### WUFFI Contribution 
-* Added WUFFI specific features to the drop tool listed in Product #4 above
-* Mainly our biggest implementation was to launch and deploy a Solana version of our contest tool https://solana.contest.bountyblok.io/ 
+* Launched our first Solana contest for WUFFI: https://solana.contest.bountyblok.io/contest/ae18ad89-4ad0-4eec-8050-d5564b53abff
+* Related to our tools:
+   - https://x.com/WUFFI_Inu/status/1795455058739433514
+   - https://discord.com/channels/1199336574110937159/1199338175353585684/1245013780497170522
+   - https://t.me/wuffi_announcements/42
+     
+   ![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/4decd7c3-c247-4bf3-9cc2-2839ad59fb17)
+
+* WUFFI Snapshots and various data on Solana for Marty - had to sign up to paid plan on https://solscan.io/  
 * Team working closely with WUFFI team on slack
-* In addition kindly refer to the previous [WUFFI Contributions](https://github.com/bountyblok/waxguilds/blob/df273ce32670355c8d033c90c42169de9ae7f1ef/reports/bountyblokbp/2024-02.md#ecosystem-5-wuffi-contribution-40-hours)
+* bountyblokbp also received WUFFI Partner allocation: https://waxblock.io/transaction/b095795e53b57ef9c3a0a60e9607a48b325b8e5c743d49f8f0dfce5677118e61
+* Solana integration exlusive for WUFFI/WAX team have been quite busy in the last few days:
+  ![Data transfer by hosts (Previous 7 days)](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/740a2462-0133-4bc9-8670-5fd87aa462fe)
+  ![Page views by source per hosts (Previous 7 days)](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/8bd4ceb1-93a8-4489-8170-ca44ee2ae038)
 ---
 
-### Atomichub Expands to Polygon
-* Atomichub is officially live on Polygon. We helped Martin Harder by connecting them to the top BDs at Polygon. Sergio from Polygon faciliated the entire thing for AH.
-* https://x.com/AtomicHub/status/1777771302150922568
-* Follow up from [atomichub + polygon](https://github.com/bountyblok/waxguilds/blob/df273ce32670355c8d033c90c42169de9ae7f1ef/reports/bountyblokbp/2024-01.md#ecosystem-6-atomichubspielworks--polygon-ventures)
----
-
-
-### Hacken Partership
-* We partnered with Hacken.io to offer projects on wax even more discounts for web3 security/audit services (we take no commission)
-* Hacken docusign partnership was official signed early March
-* https://twitter.com/dnikolaros/status/1770078761133760823?t=NkAEyTVhQ_pyYcjb4e5hqA&s=19
-* Big thanks to Jassy for the intro
-
-  ![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/d9c10a1e-6ead-4a8e-898e-5d37230fe27b)
----
-
+### Spielworks BD Collab - Ongoing
+* Strategic intro Adrian to Liithos founder Michael Mumbauer - ex head of Playstation - https://liithos.com/
+* Intro Adrian to Polygon strategy team
+* Working to connect Adrian with Animocabrands on gaming division / execution
+* Potentially connect Adrian with [P2V](https://www.p2v.ventures/)
+--- 
 
 ### <ins>Marketing</ins>
-Initiative A: Collab with WAX to promote our airdropping tokens: https://twitter.com/WAX_io/status/1765074882977792500?t=A4kHXAWS8j_uNbnIJagUCA&s=19
+Initiative A: Collab with WAX Team to promote WUFFI via bountyblok contest on Solana: https://solana.contest.bountyblok.io/contest/ae18ad89-4ad0-4eec-8050-d5564b53abff
 
-Initiative B: Working with NFTOPIA Fam for upcoming virtual convention May 3-5: https://twitter.com/PuzzlerPuzzled/status/1772010540652519857?t=JO34mOizZMHWttgB578SQQ&s=19
-![Screenshot_20240318-165106](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/80dc8250-fe05-4998-ad7a-17e826569dc3)
-
-Initiative C: Asked to give quote for the big AWS partnership: https://venturebeat.com/games/amazon-web-services-and-wax-blockchain-join-to-support-web3-gaming-tools/
-
-Initiative D: Several contest giveaways for marketing purposes via our tools example StPatrictsDay: https://twitter.com/WAX_io/status/1769379182859997454?t=F_-0YUiVhw2JWe7koaPO4Q&s=19
+Initiative B: NFTOPIA presence 
+![20240504_150616](https://github.com/wax-office-of-inspector-general/waxguilds/assets/53401686/20315269-b17f-422e-bc44-d99b9f9c6d14)
 
 
 ### <ins>Backups </ins>
 
 ### <ins>Feedback to OIG</ins>
-
-
 ----
-
