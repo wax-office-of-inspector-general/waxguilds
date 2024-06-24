@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Greenville, SC, USA |
 
 ### <ins>Noteworthy</ins>
-Last month was a relatively calm month in regards to the WAX infrastructure and services.  Much of our time this month has been spent building out some of the services we offer like our WAX/Minecraft integration and our AWData services (adding AI learning/interfaces); see below.
+Finally got around to getting the new 14900K block producer built and pushed into production.  This pushed our CPU Mechanics execution times from around .22ms down to about .13ms, one of the lowest on the graphs.  It also greatly improved the overall billing comparisons on the Sweden billing dashboards.  Submitting orders to procure new additional 14900K servers to upgrade our public API endpoints so they match our BP billings.
 
 ### <ins>API Services</ins>
 
@@ -20,7 +20,7 @@ Last month was a relatively calm month in regards to the WAX infrastructure and 
 | [x] | [ ] | [x] | [x] | [ ] | [ ] |  [ ] |
 | - | - | - | - | ~x req |  ~y req |
 
-Others APIs: IBC for EOS/WAX/TELOS/UX networks (3000 reqs/day; in use for Alcor IBC services)
+Others APIs: IBC for EOS/WAX/TELOS/UX networks (5000 reqs/day; in use for Alcor IBC services; only free public IBC nodes still operational)
 
 ### <ins>Contributions</ins>
 
@@ -31,7 +31,7 @@ Others APIs: IBC for EOS/WAX/TELOS/UX networks (3000 reqs/day; in use for Alcor 
 - https://docs.google.com/spreadsheets/d/1javR5ibcSuR58Bdhj3hz_rddO7MUfquqzLTmB3f8OTs
 
 **Update**: 
-Provided repo as examples to many BPs/teams launching/upgrading nodes to v5.0.  Working on adding notes/best practices for configuing P2P for different node types and preparing for new v6.0 details to be released soon.
+Beginning to update the NodeOS Configuration sheet with new options/updates related to the Sprint v1 testing.  Also, since I had to review all the CPU performance settings in getting the new 14th gen deployed, I added a section to the configuration guide to provide a little detail about what settings we recommend (and a script to configure them).
 
 ---
 
@@ -46,22 +46,18 @@ Provided repo as examples to many BPs/teams launching/upgrading nodes to v5.0.  
 
 **Update**: 
 Deployed many updates to the system over the last month:
-- Onboarding new additional client for additional MC world offering questing rewards (neri.world)
-- In discussions with other communities about potentially launching additional questing worlds for their communities
-- Developing new MySQL-based logging to help with high-load performance issues; in dev testing now and deploying to production this week
-- Next feature is migrating from waxjs/ual to Wharfkit
-- Investigating adding new Parkour functionality to add additional gameplay/reward mechanics for playing
-- Unique Welcome Center on Kavian.World created to help onboard new users and distribute information about AW/WAX
-- Renewed TLM shard/contract intergration agreement with AW
+- Launched 2nd independent Minequest-integrated world (neri.world)
+- Deployed new MySQL-based logging that increased logging performance tremendously (also required backend updates to address performance issues)
+- Ran our first community sponsored questing event where players were rewarded $KEK for completing the quests (also required updates to better handle token quantieies >1M)
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
-- 47 Total Quests
-- 87 Unique Accounts Joined / 69 Unique Accounts Completed
-- 2,438 Quest Joins / 1,927 Quest Completions
-- Highest Participation: 62 Players / 47 Completed
+- 75 Total Quests
+- 135 Unique Accounts Joined / 91 Unique Accounts Completed
+- 4,549 Quest Joins / 3,590 Quest Completions
+- Highest Participation: 79 Players / 63 Completed
 
 ---
 
@@ -73,7 +69,7 @@ Stats:
 Adjustments of different drop parameters for various projects per their requests (different requirements, drop frequencies)
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
 6 Active projects with Hourly/Daily NFT and/or Token Drops
@@ -91,13 +87,13 @@ Stats:
 **URLs**: https://reporting.eosusa.io
 
 **Update**: 
-Successfully integrated data warehouse of billions of AW mining actions and other game data into our new AI services to begin offering self-service detailed reporting of all game-related information.  URL to AI available upon request during testing phase.
+We have continued non-stop to refine and build data models to properly handle the monsterous amount of AW blockchain data for use in a self-service web interface.  The system is able to able to answer basic uestions pertaining to the last week of data, which is auto-updated at midnight UTC daily.  With the recent release of ChatGPT 4, we are working on adapting the training models over from LLama2 engine for it's improved features and performance.
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
-- 697 Daily Hits / 15,000 Avg. Monthly
+- 300 Daily Hits / 10,000 Avg. Monthly
 
 ---
 
@@ -109,7 +105,7 @@ Stats:
 No recent updates as had to let go minion that managed this system :(
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
 - Endpoints Tested: 79 (each from 6 different probes)
@@ -119,7 +115,7 @@ Stats:
 ### Node Operator Calls
 
 **Update**: 
-Still attending weekly Antelope Node Operators call to learn latest Antelope development upgrades and provide testing/feedback.  v6.0 is soon to be released for initial non-production testing.
+Still attending weekly Antelope Node Operators call to learn latest Antelope development upgrades and provide testing/feedback.  v6.0 (actually called Spring v1.0) testing has begun and new instant finality features have been activated on the private testnet.
 
 ---
 
@@ -128,20 +124,20 @@ Still attending weekly Antelope Node Operators call to learn latest Antelope dev
 **URLs**: https://ibc.eosusa.io
 
 **Update**: 
-Running one of 2 free, publically accessible IBC nodes for EOS, WAX, TELOS, & UX
+The ONLY publically accessible IBC nodes for EOS, WAX, TELOS, & UX
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
-- 3000 reqs/day across all IBC nodes/services
+- 5000 reqs/day across all IBC nodes/services
 
 ---
 
 ### Blockchain Consulting Services
 
 **Update**: 
-Still providing consulting services as needed for several of our projects.  This last month we helped Chronaverse project get a new contract/token deployed for their project.
+Still providing consulting services as needed for several of our projects.
 
 ---
 
@@ -162,10 +158,10 @@ Still providing API services for:
 - Avalon
 
 **Metrics**
-Period: March 1st, 2024 - April 14th, 2024
+Period: April 15st, 2024 - May 31th, 2024
 
 Stats:
-Avg Combined API Calls: 144,000/day
+Avg Combined API Calls: 900,000/day (Uplift traffic has greatly increased)
 
 ---
 
