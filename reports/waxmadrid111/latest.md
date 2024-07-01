@@ -12,14 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-Faced issues updating atomic API to 1.3.24 . Issues are resolved now and a second atomic API server is added in a load balancer.
+All services remain operational.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [_] | [x] | [x] | [x] | [x] | [x] 
-| - | 3.17M req/week | 44.48K req/week | 309.77K req/week | 13.25K req/week |  17,9K req/week |
+| - | 2.26M req/week | 45.92K req/week | 526.51K req/week | 13.29K req/week |  17,99K req/week |
 
 
 
@@ -34,7 +34,7 @@ Operational, continues providing info on WAX endPoints, checker & validator.
 
 **Metrics**
 
-161 users last month with average engagement time of 46s (by google analytics).
+113 users last month with average engagement time of 33s (by google analytics).
 
 
 ### <ins>Marketing</ins>
@@ -43,11 +43,14 @@ None at this moment.
 
 ### <ins>Backups </ins>
 
+New addition of Elastic Search backup to the backup system.
+
 https://wax-backups.eosiomadrid.io
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [x] |
+| [x] | [x] | [x] | [x] | [x] |
+
 
 
 
