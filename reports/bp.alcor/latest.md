@@ -3,7 +3,7 @@
 |  |  |
 | --- | --- |
 | Website | https://bp.alcor.exchange/ |
-| Contact | admin@alcor.exchange |
+| Contact | admin@alcor.exchange or @Avral on Telegram (CEO) |
 | bp.json (mainnet) | https://bp.alcor.exchange/wax.json |
 | bp.json (testnet) | https://bp.alcor.exchange/wax-testnet.json |
 | producer (mainnet) | bp.alcor |
@@ -12,16 +12,13 @@
 
 ### <ins>Noteworthy</ins>
 
-Transactions used significantly more CPU on the Alcor Block Producer compared to other BPs. 
-
-For Example, the minting on contract federation transaction took about 3-10ms on Alcor (https://wax.bloks.io/transaction/0da348a78dbd6fea6888641a8fecaf759de7f3cfc42a0ab60b180dff8c489ba5?tab=traces), while on other BPs it only used 0.5 to 0.7ms. We've upgraded our hardware to address this issue. You can see the transaction details here: https://wax.bloks.io/transaction/09e965000c3c63239a68076f025d2418e3e0dd54d7e4607af3f91bb2bbc6ac5c?tab=traces
-
+Experienced some minor issues with DelphiOracle as  it could not get price from third party, issue was solved quickly.   
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [x] | [] | [] |  [x] |
-| - | ~3 requests per second | - | ~2,5 requests per second| - |  - |
+| - | ~3.4 requests per second | - | ~2,7 requests per second| - |  - |
 
 **Others APIs: **
 Off-chain price oracle: 	https://wax.alcor.exchange/api/v2/
@@ -41,45 +38,48 @@ Obtaining information about the markets using the Alcor API services:
 
 **Update**: 
 
--Multi-route improvements so users can perform better swaps between tokens without liquidity pool created
+-Working on aggregated routes for Alcor UI
 
 
--Alcor USDT proxy introduced, users can deposit and withdraw USDT from and to any Centralised Exchange without having an EOS account. https://medium.com/@di0nix/from-usdt-to-waxp-and-vice-versa-in-just-two-clicks-3a94c5ecedf9
+-Alcor Exchange has been listed on CoinGecko: https://www.coingecko.com/en/exchanges/alcor
 
+-Alcor Exchange has been listed on Coin Market Cap: https://www.coingecko.com/en/exchanges/alcor
 
--QoL improvement: Incuded a claim all button for pools position, over 100 txs can be performed within a single click.  
+-QoL improvement: Improved loading times for Alcor DEX, loading the page is now 2.2X faster!
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/fe2c16d8-44ba-457a-93e6-96f73ed28652)
+-Pending changes to be done for the rework of the WAX Labs proposal, make it similar to BirdEye. https://labs.wax.io/proposals/193
 
--Submitted WAX Labs proposal to improve Alcorlytics with WAX Tools. https://labs.wax.io/proposals/193
+-Alcor bot displaying high volume buy orders for $WUF is live https://discord.com/api/oauth2/authorize?client_id=1241703398710181970&permissions=116736&scope=bot (pending tutorial on implementation)
 
--Alcor handled the $WUF drop smoothly
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/a6af945e-469b-4931-9118-d6d32480a175)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/a96759be-72ae-42cc-ae1d-8c47f3dc9a39)
 
--Alcor listing with real-time data on Coin Market Cap is expected to be live in less than a week. 
+Head over to Alcor discord on #wax-usdt to check the bot . Everyone will be able to implement the bot when documentation is finished. 
 
--Alcor bot displaying high volume buy orders for $WUF in development (ETA: 14 days)
 
 **Metrics**
 
 Period: March 14 2024 to April 14 2024
 
-TVL: 1.4 M USDT
+TVL: 1.380 M USDT
 
-Swap Trading Volume (30d) $13,933,463.29
+Swap Trading Volume (30d)  $3,779,349.36
 
-Spot Trading Volume (30d) $1,247,595.92
+Spot Trading Volume (30d) $789,759.59
 
-Daily active users (30d avg.) 4126
+Daily active users (30d avg.) 4493
 
-Swap Fees (30d) $108,070.08
+Swap Fees (30d)  $21,384.42
 
-Spot Fees (30d) $22,310.24
+Spot Fees (30d) $13,758.14
 
-Spot Transactions: 114796
+Spot Transactions: 117224
 
-Swap Transactions: 676648
+Swap Transactions: 1381743
 
-Views: 2.1M
+Views: 2.6M
+
+Interestingly, even though trading volume decreased (attributed to less hype compared to WUFFI release, community engagements, visits and overall transactions have increased.
 
 Sources: https://alcor.exchange/analytics/
 
@@ -87,12 +87,15 @@ Sources: https://alcor.exchange/analytics/
 ### Alcor Yield Farming
 **URLs**: https://alcor.exchange/farm
 
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/7c088798-e363-4a3a-9bd5-74f060e115b0)
+
+
 **Update**: 
--Minor rework on User Interface that allows user to claim all their farm rewards.   ![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/2a9413c2-04af-4ff2-bdcd-982be2a079c2)
+-Working on fixing issues with meme tokens that have burn mechanic (problems with claiming farm rewards)
 
--Farm for WAX/USDT created for 30 days. $4,000 in rewards. 
+-Farm for WAX/USDT with 1 000 000 000 WUFF rewards created for 60 days. 
 
--We partnered with 5 projects to create a Hyper Farm for WUF/WAX. Over $10,000 USDT in rewards for 90 days. 
+- Hyper Farm for WUF/WAX is still ongoing. Over $10,000 USDT in rewards for 60 days. 
 https://twitter.com/alcorexchange/status/1778179054476112201
 
 
@@ -100,11 +103,11 @@ https://twitter.com/alcorexchange/status/1778179054476112201
 
 Period: March 14 2024 to April 14 2024
 
--600k WAX and 239B WUF locked in WUF/WAX pools. 
+-1.6M WAX and 141B WUF locked in WUF/WAX pools. 
 
--948k WAX and 65k USDT locked in WAX/USDT pools. 
+-1.05M WAX and 56k USDT locked in WAX/USDT pools. 
 
--300k WAX and 329M MARTIA locked in WAX/MARTIA pools. 
+-260k WAX and 339M MARTIA locked in WAX/MARTIA pools. 
 
 ...
 
@@ -116,17 +119,17 @@ https://api.alcor.exchange/#introduction
 https://docs.alcor.exchange/alcor-swap/alcorswap-v2-price-oracles
 
 **Update**: 
--We have been working on farm APIs for the Thrive on Mars team
--Alcor buy alert bot and price update will use TWAP
+-Alcor buy alert bot and price update uses TWAP
+-CoinGecko and CMC are using TWAP and off-chain APIs
 
 **Metrics**
--3.6 requests per second
+-3.7 requests per second
 
 ...
 
 ---
 
-### Introducing LSW- Alcor Liquid Staked Token
+### LSW- Alcor Liquid Staked Token
 
 ![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/147891649/fb5becb5-47a3-4aab-8436-9bbc830c5784)
 
@@ -135,35 +138,24 @@ https://docs.alcor.exchange/alcor-swap/alcorswap-v2-price-oracles
 **URLs**: 
 https://alcor.exchange/staking/
 
-**Introduction**: 
+**Update**: 
+-Audit by the Sentnl team completed
 
--Liquid Staked WAX ($LSW) offers a liquid staking solution for WAX. By staking your WAX coins with Alcor DEX, you receive an on-chain representation of your staking position as the $LSW token. This allows you to participate in DeFi activities while maximizing earning WAX DeFi APR rewards.
+- There have been a total of 3 airdrops since $LSW launch (KEK, WUFFI and KEK again) we aim to continue attracting new projects to collaborate with our DeFi initiatives, increasing the overall APR of LSW. 
 
-**LSW compared to individually staking**
 
-Alcor handles voting and restaking on behalf of users, ensuring maximum APR while also providing a Liquid Staked Token that can be used in various DeFi activities, including Spot, farms, and possibly upcoming lending and borrowing.
+**Metrics**
 
-Wallets participating in the protocol will be taken into account for airdrops from partnered projects and taken into account retroactively in points programs.
+6.1 Million WAX staked in one month. 
 
-Users can withdraw their WAX, subject to a 3-day unbinding period, or swap their $LSW for WAX instantly on Alcor or other listed DEXes for immediate access to their assets.
-
-**Next milestones**
-
--LSW is available on the main net, silent launch until audit of contract is 100% completed by Sentnl (in progress).
-
--Introducing Instant and delayed Unstake. 
 
 ...
 ---
 ### <ins>Marketing</ins>
 
-Alcor listing on Coin Market Cap with volume tracking: Expected to be live in less than a week.  
+-Listing for CoinGecko and CMC completed.
 
-Carried out a WAX Hub task along with the WAX team to increase awareness about the DEX and increase article output. Succesful, over 20 articles and threads created.  https://docs.google.com/spreadsheets/d/1VXgix0jcQ1fCeoXy2vrpaKdxqNEQ15idXyMBX_PJMng/edit#gid=0
-
-Alcor banners: Offer banners to some relevant projects in the space. We just created a farm for NEFTY, SPN and WOMBAT. 
-
-Coin Gecko listing: In progress, no ETA
+-DEXScan listing in progress. 
 
 ### <ins>Backups </ins>
 Not available
@@ -172,7 +164,6 @@ Not available
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+Increase the voting threshold for OIG elections.
 
 ----
-
