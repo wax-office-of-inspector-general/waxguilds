@@ -11,14 +11,14 @@
 | Guild Jurisdiction | Oregon, US |
 
 ### <ins>Noteworthy</ins>
-On 2024.04.01 we missed 4 rounds due to temporary network issues at the datacenter.
+- We created a Droppp profile page on [CoinMarketCap](https://coinmarketcap.com/community/profile/Droppp/?type=Posts) and we will be utilizing that page more going forward including the use of WAX related tags.   
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [ ] | [ ] | [ ] | [ ] |  [ ] |
-| - | 45.6k / day | - | - | - |  - |
+| - | 48k / day | - | - | - |  - |
 
 
 ### <ins>Contributions</ins>
@@ -29,11 +29,10 @@ On 2024.04.01 we missed 4 rounds due to temporary network issues at the datacent
 
 **Updates**: 
 
-- Mobile update: Enjoy a compact preview of an item when buying or listing items from a mobile device (translation: less scrolling!)
-- New Feature: Collection Value added to Inventory, Profile, and Drop Collection Overview Pages!
-- Bug Fix: Funko Promotional, Bonus, and Mini Drops in the Collection Tracker are back in action!
-- Updated shipping notifications: You will now receive a shipping email notification when your package(s) are scanned by the carrier after leaving the warehouse, instead of when the label is created.
-- New Feature: Sales History is on Droppp! Now, you can find a rundown of sales history for any item from your inventory, collection tracker or the Droppp Marketplace. Easily view which mints sold, who sold them, and the price paid for each listing.   
+- New Feature: Drop Moments! Click the Notify Me button on a drop announcement blade to get extra reminders for your fave drops!
+- Bug Fix: "Only Show Missing Items" and Rarity Filters in Collection Tracker are back in action.
+- Design Update: Updated font sizes on mobile views.
+- New Feature: Updated Droppp to incorporate Mythic and Ultra rarities.
 
 Stats: - Droppp has created over 199k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
@@ -47,15 +46,14 @@ Stats: - Droppp has created over 199k WAX “*.dp” accounts (verifiable on cha
 
 Updates:
 
-- On Feb 28, 2024 we took a redemption snapshot for [Funkoween Series 1](https://droppp.io/drop/156/funkoween-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Mar 1, 2024 we announced the [Star Trek™: The Next Generation x Funko Series 1](https://droppp.io/drop/180/star-trek-the-next-generation-series-1/) Digital Pop! drop.   
-- On Mar 1, 2024 we completed the redemption for [WB 100th Anniversary x Funko Series 1](https://droppp.io/drop/150/wb-100th-anniversary-series-1/).
-- On Mar 5, 2024 we released the [Transformers x Funko Series 2](https://droppp.io/drop/177/transformers-series-2/) Digital Pop! collection on Droppp. This release consisted of 21k Standard and 17k Premium packs and sold out.   
-- On Mar 12, 2024 we released the [Star Trek™: The Next Generation x Funko Series 1](https://droppp.io/drop/180/star-trek-the-next-generation-series-1/) Digital Pop! collection on Droppp. This release consisted of 18k Standard and 18k Premium packs.   
-- On Mar 15, 2024 we announced the [Star Wars™: Funko Digital Pop! Series 1](https://droppp.io/drop/183/star-wars-series-1/) Digital Pop! drop.   
-- On Mar 26, 2024 we released the [Star Wars™: Funko Digital Pop! Series 1](https://droppp.io/drop/183/star-wars-series-1/) Digital Pop! collection on Droppp. This release consisted of 35k Standard and 30k Premium packs.   
-- On Apr 1, 2024 we announced and released the [Funko April Fools Series 2](https://droppp.io/drop/186/funko-april-fools-series-2/) Digital Pop! drop. This release consisted of 7k Standard and 8k Premium packs and sold out.
-- On Apr 5, 2024 we announced the [My Little Pony x Funko Series 2](https://droppp.io/drop/189/my-little-pony-series-2/) Digital Pop! drop.   
+- On Apr 16, 2024 we released the [My Little Pony x Funko Series 2](https://droppp.io/drop/189/my-little-pony-series-2/) Digital Pop! collection on Droppp. This release consisted of 8.5k Standard and 8.5k Premium packs.   
+- On Apr 19, 2024 we announced the [WB Horror x Funko Series 2](https://droppp.io/drop/192/wb-horror-series-2/) Digital Pop! drop.   
+- On Apr 27, 2024 we announced the [Funko Funime and Cosplay](https://droppp.io/drop/195/funime-and-cosplay-series-1/) Digital Pop! drop.   
+- On Apr 30, 2024 we released the [WB Horror x Funko Series 2](https://droppp.io/drop/192/wb-horror-series-2/) Digital Pop! collection on Droppp. This release consisted of 23k Standard, 19k Premium, and 499 Mythic packs and sold out.      
+- On May 14, 2024 we released the [Funko Funime and Cosplay](https://droppp.io/drop/195/funime-and-cosplay-series-1/) Digital Pop! collection on Droppp. This release consisted of 18k Standard and 18k Premium packs.   
+- On May 17, 2024 we announced the [Scooby-Doo x Funko Series 2](https://droppp.io/drop/198/scooby-doo-series-2/) Digital Pop! drop.   
+- On May 28, 2024 we released the [Scooby-Doo x Funko Series 2](https://droppp.io/drop/198/scooby-doo-series-2/) Digital Pop! collection on Droppp. This release consisted of 21k Standard and 17k Premium packs and sold out.
+- On May 31, 2024 we announced the [Batman 85th x Funko Series 1](https://droppp.io/drop/201/batman-85th-series-1/) Digital Pop! drop.   
 
 -------------------------------------------------------------------------------------------
 
@@ -90,19 +88,19 @@ Updates:
 
 Social Media Engagement
 
-- https://www.instagram.com/reel/C4ijo51reY8/ (179k views)
-- https://www.instagram.com/reel/C5YoL4FL4yE/ (161k views)
-- https://www.instagram.com/reel/C3-nDVZR1Cj/ (133k views)
-- https://www.instagram.com/reel/C3slJWqRqm4/ (92.2k views)
-- https://twitter.com/Dropppio/status/1767573864454795592 (14.5k views)
+- https://www.instagram.com/reel/C7Exnh6JLeI/ (164k views)
+- https://www.instagram.com/reel/C5YoL4FL4yE/ (166k views)
+- https://www.instagram.com/reel/C6MgZ0lJ7ua/ (153k views)
+- https://www.instagram.com/reel/C58qWeerkP8/ (162k views)
+- https://www.instagram.com/reel/C6occMhxOI1/ (122k views)
 
 Community Coverage
 
-- https://www.youtube.com/watch?v=xwfXrR1rbvo (88k views)
-- https://www.youtube.com/watch?v=7OfJe7j_a1Y (26k views)
-- https://www.youtube.com/watch?v=3siHtNwfk6s (5.2k views)
-- https://www.youtube.com/watch?v=vA1HdK7u61g (3.9k views)
-- https://www.youtube.com/watch?v=oOcY-nEP8CE (2.3k views)
+- https://www.youtube.com/watch?v=gr3Nx9Y-gUM (20k views)
+- https://www.youtube.com/watch?v=Dk9DNn7wvbc (39k views)
+- https://www.youtube.com/watch?v=Y_GyUfYdqAk (17k views)
+- https://www.tiktok.com/@sidekickink/video/7361531125853932842 (120k views)
+- https://www.youtube.com/watch?v=vA1HdK7u61g (4.3k views)
 
 Droppp Discord
 
