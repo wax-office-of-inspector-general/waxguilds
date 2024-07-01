@@ -12,16 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-Over the last month we have experienced a few reboots of one of our nodes that make up the Hyperion data cluster. Thanks to redundancy, consistency and availability problems have been minimal. However, we are in the process of adding a new node to increase reliability and availability in case this problem persists and we have to permanently replace the affected node.
+No updates.
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API         | Light-API | IPFS           |
-| ----------------- | -------------- | ----------------- | -------------- | --------- | -------------- |
-| []                | [X]            | [x]               | [x]            | []        | [X]            |
-| -                 | 5.44M req/week | 486K req/week     | 6.87M req/week |           | 1.79K req/week |
-
-Others APIs: Roborovski, dfuse, ...
+| History (partial) | History (full) | History (testnet) | AA API        | Light-API | IPFS           |
+| ----------------- | -------------- | ----------------- | ------------- | --------- | -------------- |
+| []                | [X]            | [x]               | [x]           | []        | [X]            |
+| -                 | 3,8M req/week  | 465K req/week     | 760k req/week |           | 1.68K req/week |
 
 ### <ins>Contributions</ins>
 
@@ -33,32 +31,81 @@ Others APIs: Roborovski, dfuse, ...
 
 **Update**:
 
-We have incorporated a new artist to create the playing cards: Carmen Yanes
+Developing: We are receiving many requests to port the game to mobile devices so we are studying the feasibility of the project. We find it interesting since it can attract more players. We have been doing feasibility studies of the project for a migration to mobile devices and even as an integrated Telegram or Discord application. Due to these studies and the tests carried out, all the development work of this period has been minimized both in this project and in the other projects that we develop.
 
-- Gallery link: https://hive.blog/@yanes94/posts
+**WUFFI Partnership**
 
-We continue working on the update that will include guilds.
+We have implemented the partner plan with WUFFI. Rada Quest will distribute WUF tokens through the game and various activities to the community.
+Distribution of WUF to the community:
+
+- Gem Tournament: Prize pool divided among the top 3 places.
+- Coliseum: WUF is distributed each round to players who score more than 5000 points in the arena.
+- Rada Lotto: One lucky winner receives WUF.
+
+- More info: https://x.com/RadaQuestTCG/status/1791133276272312711
+
+**Fan Art**
+
+We're continuing our fan art contest while attracting the HIVE community to connect with our art and, consequently, our game.
+
+- https://hive.blog/hive-161342/@radaquest/celebrating-the-7th-rada-quest-fan-art-contest-winners-and-launching-the-8th-edition#@deddywox/re-radaquest-2024423t17855409z
+
+- https://hive.blog/hive-161342/@radaquest/discovering-the-8th-rada-quest-fan-art-contest-winners-and-embarking-on-the-9th-edition-adventure
+
+- https://hive.blog/hive-161342/@radaquest/unveiling-the-9th-rada-quest-fan-art-contest-winners-and-launching-the-10th-edition-s-call-to-creativity
+
+**Intraverse**
+
+We continue to participate in Intraverse Cups as partners, currently anticipating the next cup, which will include partners from WUFFI, aiming for greater exposure of the game to new users.
+
+![Intraverse](https://3dkrender.com/wp-content/uploads/2024/05/image003.jpg)
+
+**Rada Lotto**
+
+The event has been very well received by the community, with growing interest each day. We continue to making lives sessions to disseminate information.
+
+All of this is documented in our live sessions on X.
+
+- Lotto 4 Reproductions so far + Tuned in 71
+https://x.com/RadaQuestTCG/status/1781010479265014070
+
+- Lotto 5 Reproductions so far + Tuned in 89
+https://x.com/RadaQuestTCG/status/1787893403050553759
+
+- Lotto 6 Reproductions so far + Tuned in 121
+https://x.com/RadaQuestTCG/status/1792965537275748499
+
+**NFTopia**
+
+We successfully participated in NFTopia 4, which was well received by the community. We conducted an AMA and a game demonstration for new audiences.
+
+- https://x.com/RadaQuestTCG/status/1786074631163580489
+
 
 **Metrics**
 
 30 days period. Data from DappRadar:
 
-- Rank 21 in the WAX games category
-- 357 UAW (Unique Active Wallets) 30 days average
+- Rank 22 in the WAX games category
+- 312 UAW (Unique Active Wallets) 30 days average
 
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/04/rada_dappradar_april_24.png)
+![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/05/may24.png)
 
-- NFTs minted: until April 14th, 2024: 310,696
-- NFTs burned: until April 14th, 2024: 139,005
-- Rate of NFTs active: 55.2%
+X (Twitter) - 6,23K followers (+200 this period) - 15.2k impressions
 
-![Rada Quest NFTs](https://3dkrender.com/wp-content/uploads/2024/04/radaquest_nft_scarcity.png)
+![Twitter](https://3dkrender.com/wp-content/uploads/2024/05/image001.png)
 
-**NFT Holders**
 
-We've reached the milestone of over 7k holders for our collection.
-- https://twitter.com/MarcoS3DK/status/1768940491947561174
+### Client/Server WAX App Template
 
+Open source Client/Server Template to accelerate the creation of applications in the WAX ecosystem.
+
+**URLs**: https://github.com/3dkrender/WAX_CS_Template
+
+**Update**:
+We have added multi-language support for the template. In addition, we have created a tutorial to explain the implementation and that is easily applicable to other types of React applications.
+
+- Tutorial: https://3dkrender.com/localization-system/
 
 ### FundingWAX - Discord Bot
 
@@ -68,30 +115,7 @@ We've reached the milestone of over 7k holders for our collection.
 
 **Update**:
 
-After updating all software, both client and server, to the new wharfkit library, we have activated the testnet version of the Discord bot on our own server.
-
-Currently, users can perform the following tasks:
-
-- **From Discord:**
-
-  - Verify/check WAX accounts
-  - Make validated token deposits
-  - Withdraw tokens
-  - Send tips (transfers) to other Discord members
-  - Create raffles with tokens as prizes
-  - Check the value of a cryptocurrency
-  - Check the balance of tokens
-  - Check the activity rank of a user / all users
-
-- **From the web dashboard:**
-  - Link WAX accounts to the Discord account (implicit verification)
-  - Make validated token deposits
-  - Withdraw tokens
-
-![FundingWAX Discord Bot](https://3dkrender.com/wp-content/uploads/2024/04/fundingwax_01.png)
-![FundingWAX Discord Bot](https://3dkrender.com/wp-content/uploads/2024/04/fundingwax_02.png)
-![FundingWAX Discord Bot](https://3dkrender.com/wp-content/uploads/2024/04/fundingwax_03.png)
-![FundingWAX Discord Bot](https://3dkrender.com/wp-content/uploads/2024/04/fundingwax_04.png)
+No updates in the last period.
 
 **Metrics**
 
@@ -103,7 +127,7 @@ _The application is in the testing phase. It currently only supports the use of 
 
 **List of SCs**: blenderizerx
 
-No updates in the last period.
+Thanks to our new IPFS service we have improved the loading speed of NFT illustrations
 
 ### TokensCrowd
 
@@ -117,106 +141,99 @@ No updates in the last period.
 
 **URLs**: https://developer.wax.io/
 
-We continue to contribute to the developer documentation portal with new translations into Spanish and the addition of new articles.
-
+We continue to contribute to the developer documentation portal with new translations into Spanish.
 
 ---
 
 ### <ins>Marketing</ins>
 
-### Rada Quest
+### 3DK Render
 
-**Fan Art**
+**Website**
 
-We're continuing our fan art contest while attracting the HIVE community to connect with our art and, consequently, our game.
+site improvements and new articles published:
 
-- https://hive.blog/hive-161342/@radaquest/winners-announcement-of-the-4th-rada-quest-fan-art-contest-and-launch-of-the-5th-edition
-- https://hive.blog/hive-161342/@radaquest/unveiling-the-stars-of-the-5th-rada-quest-fan-art-contest-and-launching-into-the-6th-edition-adventure
-- https://hive.blog/hive-161342/@radaquest/unveiling-the-champions-of-the-6th-rada-quest-fan-art-contest-and-embarking-on-the-7th-edition-s-creative-journey
+We have started a series of articles to help NFT creators use the bridge between WAX and other chains developed by MyCloudWallet.
 
-**Intraverse**
+- https://3dkrender.com/wax-nft-bridge-i/
 
-We've partnered with the multi-chain street fighter-style game, Intraverse, providing a great opportunity to spotlight Rada Quest alongside other projects from different chains. For this occasion, the Intraverse team created a 3D model of our character, Ariana.
 
-![Intraverse](https://3dkrender.com/wp-content/uploads/2024/04/image003.jpg)
-
-- https://twitter.com/intraVerse_Game/status/1770503073477034070
-- https://twitter.com/RadaQuestTCG/status/1774064263620968571
- 
 ### Cristalla
 
 **Marketing & Ecosystem Growth Summary**
 
-February 28 2024 to April 14 2024
+April 15 2024 to May 30 2024
 
-During this period, we've focused on expanding our reach within the ecosystem through Twitter spaces and also on engaging with new gamer communities through networking.
+- Twitter: 62.6K impressions and 15155 Followers. Approximately +600 followers gained during this period.
+- X Space: 
+  - 3 spaces as co-host, 2 spaces as guest
+  - Total 5 spaces and approximate sum of reproductions so far + Tuned in: 400
+- WAX Hub: Rank number 1 with Influence 19.422 Reputation 49.944
 
-- Twitter: 23.2K impressions and 14541 Followers. Approximately +500 followers gained during this period.
-- X Space: 5 spaces as co-host, 4 spaces as guest. Total 9 spaces and approximate sum of reproductions so far + Tuned in:1000
 
-![Cristalla](https://3dkrender.com/wp-content/uploads/2024/04/image007.png)
+Activity breakdown
 
-- WAX Hub: Rank number 1 with Influence 18.281 Reputation 48.394
-![Cristalla](https://3dkrender.com/wp-content/uploads/2024/04/image009.png)
+![Cristalla](https://3dkrender.com/wp-content/uploads/2024/05/image007.png)
 
-### X Threads Collaborations
-- Alien Worlds Galaxy Championship  
-  [Link to Tweet](https://twitter.com/queencristalla/status/1767953699815465030)
+During this period, we have achieved a significant number of organic impressions on the network and gained a substantial number of followers. Cristalla's X account holds considerable influence within the community and is consistently recommended to new audiences as a primary focal point for attracting new users.
 
-### BONK + WUFFI
-- [Link to Tweet](https://twitter.com/queencristalla/status/1773210430397202913)
-- WUFFI Tone claim  
-  [Link to Tweet](https://twitter.com/queencristalla/status/1775186260883017747)
+We continue to host spaces and live sessions to further expand our audience.
 
-### Twitch
-Streaming sessions take place every Tuesday and Thursday, featuring interviews, gameplay from different community games, and sharing the most significant news of the week.
+**Twitch**
 
-- Novopangea with Yocreati  
-  [Watch on Twitch](https://www.twitch.tv/videos/2077222808)
+- AMA Novopangea with Yocreati playing NOVOWAR
+https://www.twitch.tv/videos/2121495691
 
-- Novopangea Swag unboxing & Twitchy Tides  
-  [Watch on Twitch](https://www.twitch.tv/videos/2077222808)
+- AMA Vulnerability Agents
+https://www.twitch.tv/videos/2129344470
 
-### NFTopia
-- Twitter spaces every Wednesday, and we're gearing up for the convention in May.  
-  [Link to Tweet](https://twitter.com/thenftopia/status/1766239946539422116)
+- NFTopia Event coverage
+https://www.twitch.tv/videos/2137410407
 
-### X SPACES
-- NFTOPIA Wednesday co-host  
-  Week 5 06-03-2024 Reproductions so far + Tuned in 313  
-  [Link to Tweet](https://twitter.com/thenftopia/status/1765453513684091132)
+**NFTopia 4**
 
-  Week 6 13-03-2024 Reproductions so far + Tuned in 490  
-  [Link to Tweet](https://twitter.com/ConsumerBreak/status/1767978756998836624)
+During NFTopia 4, live coverage of the event was provided, and an AMA was conducted at her booth as a content creator.
 
-  Week 7 20-03-2024 Reproductions so far + Tuned in  
-  [Link to Tweet](https://twitter.com/thenftopia/status/1770512492302635441)
+Official statistics of the event have not yet been released but the event has been very well received by the entire community, making for a weekend of fun, education and networking.
 
-  Week 9 03-04-2024 Reproductions so far + Tuned in 61  
-  [Link to Peek](https://twitter.com/i/spaces/1ynJOyVXNvOKR/peek)
+- https://x.com/thenftopia/status/1787209399318221132
+- https://x.com/ConsumerBreak/status/1787214828966125872
 
-  Week 10 10-04-2024 Reproductions so far + Tuned in 62  
-  [Link to Tweet](https://twitter.com/thenftopia/status/1778120540819169546)
+![NFTopia](https://3dkrender.com/wp-content/uploads/2024/05/image009-1.png)
 
-- WAX Guest  
-  WAX Women of WAX space Reproductions so far + Tuned in 61  
-  [Link to Tweet](https://twitter.com/WAX_io/status/1773017230608830794)
+**X SPACES**
 
-- Intraverse guest  
-  Intraverse Road to NFT World Cup Reproductions so far + Tuned in 121  
-  [Link to Tweet](https://twitter.com/intraVerse_Game/status/1773395274003624365)
+- NFTOPIA Wednesday co-host 
+Week 11 17-04-2024 Reproductions so far + Tuned in 51
+https://x.com/thenftopia/status/1780656850993893429
 
-  INTRAVERSE Intratalk ep 03 Reproductions so far + Tuned in 188  
-  [Link to Tweet](https://twitter.com/intraVerse_Game/status/1778453049381470631)
+- NFTOPIA Wednesday co-host
+Week 11 15-05-2024 Reproductions so far + Tuned in 98
+https://x.com/thenftopia/status/1790037860969824316
 
-- Gaming community guest  
-  ITEMZ GAMES Reproductions so far + Tuned in  
-  [Link to Peek](https://twitter.com/i/spaces/1BRJjPyaXZWKw/peek)
+- ITEMZ GAMES LATAM Guest (Presenting WAX to the gamer community with MarcosDK)
+18-04-2024 Reproductions so far + Tuned in 35
+https://x.com/ITEMZ_LATAM/status/1781014505654264048
 
-### Partner with Twitchy Tides
-- [Link to Tweet](https://twitter.com/TwitchyTides/status/1777340190295478739)
-- [Link to Tweet](https://twitter.com/queencristalla/status/1775932582154420669)
+- WAX Guest
+Here comes NFTopia space Reproductions so far + Tuned in 252
+https://x.com/WAX_io/status/1785700846241489266
 
+- WAX co-host
+Women of WAX on board the next generation
+https://x.com/WAX_io/status/1790774234324615327
+
+
+**Youtube**
+
+- Novopangea
+https://www.youtube.com/watch?v=Z92Qm9QIoWs
+
+
+**WAX Hub**
+First place on the leaderboard.
+
+![WAX Hub](https://3dkrender.com/wp-content/uploads/2024/05/image011.png)
 
 ### <ins>Backups </ins>
 
@@ -229,7 +246,8 @@ URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 ### <ins>Feedback to OIG</ins>
 
 We have shared this report on our social networks:
-- https://3dkrender.com/3dk-render-guild-april-2024-report/
-- https://x.com/MarcoS3DK/status/1779761280523305292
+
+- https://3dkrender.com/3dk-render-guild-report-may-2024/
+- https://x.com/MarcoS3DK/status/1796144067098603638
 
 ---
