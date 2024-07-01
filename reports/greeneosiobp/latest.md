@@ -11,17 +11,15 @@
 | Guild Jurisdiction | Göteborg, Sweden |
 
 ### <ins>Noteworthy</ins>
-We have significantly upgraded our infrastructure by adding more resources and monitoring. In addition, we have also upgraded our Atomic servers to the 1.3.24 version. 
-
-Also, we have migrated our WaxGalaxy TG bots to better servers to support more users.
+We have upgraded our infrastructure by adding more storage on Hyperion nodes. In addition, we have added more monitoring on WaxGalaxy TG bots to ensure uptime.
 
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
+| History (partial) | History (full) | History (testnet) | AA API | Chain-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [ ] | [ ] |  [] |
-| - | 5m req/month | 100k req/month | 20m req/month | - | - |
+| - | 5m req/month | 100k req/month | 25m req/month | 24m req/month | - |
 
 ### <ins>Contributions</ins>
 
@@ -30,11 +28,11 @@ Also, we have migrated our WaxGalaxy TG bots to better servers to support more u
 **URLs**: https://pro.waxgalaxy.io/
 
 **Update**: 
-During the last 6 weeks, we've updated the server supporting the API requests and renewed our SSL certificates. We will also upgrade to the latest Fusio software in the coming months to add more functionality and features.
+During the last 6 weeks, we've made some updates to increase the stability of the services, and added a few more users, and we are looking forward to adding new features and services in the next 3 months.
 
 **Metrics**
 
-Period: January 10th, 2024 - February 27th 2024
+Period: April 15th, 2024 - May 27th 2024
 
 Stats: 50 registered developer accounts, 3 paying customers, Averaging around 5k requests/day
 
@@ -46,28 +44,28 @@ Stats: 50 registered developer accounts, 3 paying customers, Averaging around 5k
 
 **Update**: 
 
-Migrated all of our telegram bots backend to a bigger server to support the demand. Also fixed bugs related to USD pricing and some other minor issues.
+We have added new monitoring features to ensure the uptime of the bots. We would appreciate it if we could get higher points here as we are continuously maintaining and supporting over 1200+ users daily.
 
 **Metrics**
 
-Period: January 10th, 2024 - February 27th 2024
+Period: April 15th, 2024 - May 27th 2024
 
 Stats: 
 
-**Our Telegram Bots Stats:** [1200+ users, **3241** accounts,~5.6m+ notifications]
+**Our Telegram Bots Stats:** [1200+ users, **3301** accounts,~5.6m+ notifications]
 
 **Greenybot Updates: (@waxgreenybot) [telegram]**
 
 Latest Stats: use /adminstats command
-- Users Count: 362      
-- Accounts Count: 773    
+- Users Count: 363      
+- Accounts Count: 784    
 
 **WAX Galaxy Sales Bot Updates: (@waxgalaxybot) [telegram]**
 
-- Users Count: 840 (4% increase from last update) 
-- Accounts Count: 2466 (1% increase from the last update) 
+- Users Count: 844 (1% increase from last update) 
+- Accounts Count: 2517 (5% increase from the last update) 
 
-On average daily we send out more than 1000+ notifications to users.
+On average daily we send out more than 1500+ notifications to users.
 
 
 ---
@@ -88,7 +86,7 @@ On average daily we send out more than 1000+ notifications to users.
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
 
-"We can open up new Exchange listings as we have significant connections with regional exchanges and DeFi protocols, but to do this we would need support from the WAX team or OIGs as these things don't come free."
+"We would appreciate it if we could get higher points on our telegram bot as we are continuously maintaining and supporting over 1200+ users and monitoring over 3000+ accounts daily. We can also open up new Exchange listings as we have significant connections with regional exchanges and DeFi protocols, but to do this we would need support from the WAX team or OIGs as these things don't come free."
 
 ----
 
