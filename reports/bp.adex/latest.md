@@ -93,6 +93,5 @@ We provide transparency of our service availability through our public infra sta
 
 ### <ins>Feedback to OIG</ins>
 
-N/A
-
+Please evaluate our products and ecosystem contribution, thanks.
 ----
