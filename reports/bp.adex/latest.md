@@ -11,20 +11,17 @@
 | Guild Jurisdiction | UAE |
 
 ### <ins>Noteworthy</ins>
-This last period we have launched our core producs on WAX Main Net and rolling out initial infra nodes(WAX v5.0.1), apis, etc.
-
-We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited initial guild form.
+A-DEX Analytics finally launched, also we laucnhed AA API and IPFS. We are working on the Hyperion setup for the test net and main net.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [] | [] | [] | [ ] | [ ] |  [ ] |
-| - | - | - | - | ~x req |  ~y req |
+| [] | [] | [] | [x] | [] | [x] |
+| - | - | - | - | - |  - |
 
 **Others APIs: **
 
-* A-DEX REST API: https://wax.a-dex.io/api/docs/
 * A-DEX GRAPHQL API: https://wax.a-dex.io/v1/graphql
 
 ### <ins>Contributions</ins>
@@ -38,6 +35,15 @@ Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provid
 
 ---
 
+### A-DEX Analytics (https://wax.a-dex.io/analytics)
+**List of SCs**: swap.adex
+
+DEX analytics with core metrics(TVL, Volume, UAW, Transaction, Fees, APY, Actions). All data is available from our GraphQL API.
+
+![wax a-dex io_analytics(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/f93e7993-bc44-4051-b6dc-ee4a678b274f)
+
+---
+
 ### A-DEX Send (https://wax.a-dex.io/swap)
 **List of SCs**: eosio.token, wuffi, usdt.alcor, token.nefty
 
@@ -47,19 +53,12 @@ Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). I
 
 ---
 
+
 ### A-DEX Buy (https://wax.a-dex.io/swap)
 
 Fiat & Crypto users on-ramp direct to WAX. Initial project launch.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (4)](https://github.com/A-DEX/waxguilds/assets/24969602/90967906-4299-4546-a32e-6ccb5e26abd5)
-
----
-
-### A-DEX Assets (https://github.com/A-DEX/assets)
-
-A comprehensive, up-to-date collection of information about Antelope(EOSIO) chains and assets.
-Added some popular WAX tokens info and logos.
-
 
 ---
 
@@ -69,11 +68,19 @@ An SDK for building applications on top of A-DEX.
 
 ---
 
+### A-DEX Assets (https://github.com/A-DEX/assets) - Community Tools
+
+A comprehensive, up-to-date collection of information about Antelope(EOSIO) chains and assets.
+Added some popular WAX tokens info and logos.
+
+---
+
+
 ### A-DEX Status (https://status.a-dex.io/)
 
 We provide transparency of our service availability through our public infra status dashboard.
 
-![status a-dex io_(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/a3d0c073-b40a-449e-b793-2e37f38c6564)
+![status a-dex io_(iPhone 14 Pro Max) (2)](https://github.com/A-DEX/waxguilds/assets/24969602/95002a48-43e5-4797-be4a-8e5eb184238f)
 
 ---
 
