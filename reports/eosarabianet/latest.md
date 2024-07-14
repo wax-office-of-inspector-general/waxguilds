@@ -12,7 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-"We missed a producing round on testnet duo to datacenter network outage." 
+"We fixed our automated failover script for BP producing nodes." 
 
 
 ### <ins>API Services</ins>
@@ -20,7 +20,7 @@
 | History (partial) | History (full) | History (testnet) (full) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [ x] | [x] | [x] | [x] | [] |  [x] |
-| - | 111k req/week | 698k req/week | 3.5m req/week | ~x req  |  2225 req/week |
+| - | 92k req/week | 676k req/week | 303K req/week | ~x req  |  2167 req/week |
 
 
 
@@ -28,26 +28,29 @@
 
 ### Courses portal (https://wax.courses.eosarabia.net)
 
-New course added to list:https://wax.courses.eosarabia.net/course/72
+New course added to list:https://wax.courses.eosarabia.net/cours/77
 
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: April 15th, 2024 - May 30th 2024
+Period:  May 30th 2024 - Jul 14th 2024
 
 Stats: 
-Atomic assets API: 10,806,974 requests , Status 200.
-![AA proxy](https://github.com/EOS-Arabia/waxguilds/assets/47085785/b01b8878-1300-4075-a8cb-f121c614ab67)
+Atomic assets API: 6,017,0574 requests , Status 200.
+<img width="1063" alt="AA 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/8a5407cf-450e-4bbb-bbc4-212f39a87067">
 
 
-WAX API mainnet: 3,697,680 requests, status 200.
-![api ](https://github.com/EOS-Arabia/waxguilds/assets/47085785/8118146b-94be-4c17-a883-8f2bc1afcd3f)
+
+WAX API mainnet: 718,822 requests, status 200.
+<img width="1070" alt="API 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/2f209a43-5957-424b-9dfe-83d5b2b216d5">
 
 
-Vstate: 4685 requests, status 200.
-![vstate](https://github.com/EOS-Arabia/waxguilds/assets/47085785/d31f71a4-e49f-4ae5-8eef-e58db0e5efe8)
+
+Vstate: 4,216 requests, status 200.
+<img width="1073" alt="Vstate 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/8f66d300-988c-4e9e-a60d-e272f0ad8170">
+
 
 
 
@@ -55,18 +58,17 @@ Vstate: 4685 requests, status 200.
 
 Support the community with instant translation for all news and announcements.
 https://t.me/waxarabia
-https://t.me/waxarabia/2318
-https://t.me/waxarabia/2319
-https://t.me/waxarabia/2320
-https://t.me/waxarabia/2321
-https://t.me/waxarabia/2322
-https://t.me/waxarabia/2323
+https://t.me/waxarabia/2326
+https://t.me/waxarabia/2328
+https://t.me/waxarabia/2329
+
 
 
 
 ### <ins>Backups </ins>
 URL: (https://snapshots.eosarabia.net)
-New Block log backup added :2024-05-28T07:07:04.673
+New Block log backup added :2024-07-09T07:28:34.555
+New state-history backup added : 2024-06-12T22:17:01.640
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
