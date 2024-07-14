@@ -66,12 +66,10 @@ Msig Chat - Msig.chat is an innovative chat and DAO management web application, 
 
 ---
 ### Testnet RNG
-
 Only guild running ORNG script on testnet, executed over 10k jobs on the testnet since the last evaluation
 
 ---
 ### <ins>Marketing</ins>
-
 DappRadar Coverage: [State of Blockchain Gaming in Q1 2024](https://dappradar.com/blog/state-of-blockchain-gaming-in-q1-2024)
 
 Blockchain Gamer Biz coverage: [Saro McKenna latest piece on Potential of self-governed blockchain worlds](https://blockchaingamer.biz/features/opinions/31817/illimitable-potential-self-governed-blockchain-worlds/)
