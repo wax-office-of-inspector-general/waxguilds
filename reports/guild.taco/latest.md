@@ -30,9 +30,7 @@ Others APIs: ----
 
 ### Overall Stats for Taco Products
 
-***Period: April 15th, 2024 - May 27th, 2024***
-
-![stats](https://assets.tacostudios.io/bp-assets/may-2024/may_2024_analytics.png)
+***Period: May 28th - July 13th 2024***
 
 ---
 
@@ -55,8 +53,8 @@ During the last weeks we updated the apps with new bugs and tools fix.
 
 |  | All Time | Current Time Span |
 | --- | --- | --- |
-| Downloads | 38.9k | 270 |
-| Screen View | 105.8M | 2.4M |
+| Downloads | 39.1k | 220 |
+| Screen View | 107.7M | 1.9M |
 
 ---
 
@@ -68,15 +66,15 @@ https://swap.tacocrypto.io/
 **List of SCs**: swap.taco
 
 **Update**: 
-During the last weeks we updated the swap to fix bugs, we added more than 100 token logos, and continued having more liquidity pools. We also held Governance Polls to assign rewards, with more than 2,500 votes gathered from the community and 3,000k WAX assigned.
+In this last month and a half more than 500 new pairs were created, and more than 100 new token logos added. Plus, minor bug fix were implemented on the booking ads and charts side.
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Total Value Locked | 16.2M WAX |
-| Daily Swaps | 19.1k |
-| Swap Pairs | 2,600+ |
+| Total Value Locked | 16M WAX |
+| Daily Swaps | 17.3k |
+| Swap Pairs | 3,100+ |
 
 ---
 
@@ -92,15 +90,15 @@ https://swap.tacocrypto.io/nft
 **List of SCs**: swap.taco
 
 **Update**: 
- New MEAL rewards were constantly added throughout the months, bringing the number of MEAL up to almost 500 (495). There are currently 60 active SALSA.
+New MEAL rewards were constantly added throughout the months, bringing the number of MEAL up to 510. There are currently 66 active SALSA. New MEALs were also provided by top projects such as Wombat (WOMBAT/WUF).
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Projects using Creators DeFi Tools | 145+ |
-| Daily Rewards distributed | 650+ |
-| Daily Rewards value | 25,000+ WAX |
+| Projects using Creators DeFi Tools | 150+ |
+| Daily Rewards distributed | 660+ |
+| Daily Rewards value | 27,000+ WAX |
 
 ---
 
@@ -125,22 +123,20 @@ combz.taco
 combzm.taco
 
 **Update**
-- A new Season of Combz closed, with more than 250,000 TACO tokens distributed. The sixth Season is starting on May 28th, and it will have more 150,000 TACO as starting rewards. New substantial features have been implemented for the new Season such as: Hexplorers Upgrade, Components Recast, as well as Spacecombs Recast, that with the Dynamic Leaderboard, the in game shop with TACO tokens, and Base Building, will give life to the new phase of the game, that will also include a F2P mode.
-- Plus, Combz and Alien Worlds gave life to a second grant from GalacticHubs for an onboarding project regarding both the Taco and AlienWorlds communities. The Event was an amazing success and brought to a substantial burn of TLM tokens, Alien Worlds Standard Shields (the NFT required for the event) as well as an increase of price. More than 1,000 prizes were distributed as a part of the event.
-- On April 18th we run a drop of Combz assets for WUF that went sold out in minutes. All the proceeds, plus a team allocation were redistributed to the community through the game (1B WUF assigned)
-- In the meantime, Brigade continues to be one of the most played games within the chain, with around 10k transactions per day.
-
-![awcombz](https://assets.tacostudios.io/bp-assets/may-2024/aw-combz-event.png)
+- Combz Season 6 is currently ongoing, with more than 250,000 TACO distributed since its beginning.
+- All the rewards from the Combz & Alien Worlds partnership were distributed, integrating the two communities and creating engangament and burning events for AW NFTs.
+- More WUF rewards were allocated to Combz players through raffles.
+- Brigade is still one of the top played games within the chain, with around 10k transactions per day.
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| NFT Holders | 10,100 |
-| Minted NFTs | 631k+ |
-| NFT Market Cap | 87.2M WAX |
-| Market Volume (Last 60 days) | 477k WAX |
-| App Downloads | 6.94k+ |
+| NFT Holders | 10,200 |
+| Minted NFTs | 651k+ |
+| NFT Market Cap | 90M+ WAX |
+| Market Volume (Last 60 days) | 590k WAX |
+| App Downloads | 7.1k+ |
 
 ---
 
@@ -155,20 +151,21 @@ acr.taco
 acrpool.taco
 
 **Update**: 
-- From April 22nd to April 29th we run a free to play tournament of Acryptia with 500M Wuffi distributed to players based on their leaderboard share. We also made a Wuffi-branded playable Skin limited edition drop that went sold out in half an hour.
-- Acryptia secured its fourth GalacticHubs grant, and for the entire month of May run Alien Worlds x Acryptia events with 72k TLM as prizes for the players. In order to join players had to burn 20 Standard Shovels (300 limited supply), and this lead to a massive burn event of 6,000 Standard Shovels, bringind also the price of this iconic NFT up x20/x30 during the event.
-- On June a sixth Season of Acryptia will start, with new NFTs, rewards and contests on their way.
+- A new Acryptia Season started - the sixth season - on June 20th.
+- Since the beginning 1,000 users connected to the game, and 400 collected at the least the first achievement.
+- More than 3,000 rewards have been assigned so far
+- Two different events have been organized in partnership with two WAX projects: Wax Jungle Deer Club and Crypto Rabbits. The goal is to give exposure to smaller projects by promoting them within our community.
+- A third event will be create, with WUF as rewards, during August.
 
-![awacryptia](https://assets.tacostudios.io/bp-assets/may-2024/aw-acryptia-event.png)
 
 **Metrics**
 
-*WUF and AW events*
+*Season 6*
 
 |  |  |
 | --- | --- |
-| Players | 1,500+ |
-| Games Played| 12k+ |
+| Players | 1,000+ |
+| Games Played| 38,000k+ |
 
 ---
 
@@ -187,25 +184,24 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 
 ### <ins>Marketing</ins>
 
-**A) Onboarding on WAX through Monster Rooms, part 2**: After a successful Monster Rooms drop and staking on Magic Eden, we are keep on onboarding Solana and Ethereum users on WAX through Promo Codes handed by the WAX team. The more giveaways, contests and activities we build around Monster Rooms PFPs, will bring users to connect with WAX or revamp their unused wallets.
+**A) Onboarding on WAX through Monster Rooms, part 3**: We are continuing to onboard users on WAX through Monster Rooms. This time, we airdropped a free Acryptia Custom Deck (an NFT which is exclusively on WAX) to all the Monster Rooms PFP holders who connected their WAX and Solana wallet. A lot of players created a WAX wallet to receive the perk, and they're now actively playing Acryptia. 
 
-**B) Second WAX x Solana cross chain projects Collab**: After the Monster Rooms and Wuffi collab, we are building a new WAX/Solana cross chain collab. We are going to announced soon the collab with Elementerra, which has a big community coming from WAX, in order to strenghten the WAX brand on Solana. The bigger the partnerships for Monster Rooms, the ore eyeballs will be brought to WAX.
+**B) 20B WUF distributed**: We distributed 10B WUF to Monster Rooms PFP holders. We're going to distributed 10 more B on July 29th. With multiple usecases attached to WUF on the WAX chain (MEAL, events, utility) this is another instrument to bring more users on WAX.
 
-**C) Raids**: Taco community is raiding on WUF and other Twitter pages to increase the knowledge of its partners around the Web3
+**C) Raids**: Taco community and Monster Rooms community in particular is raiding on WUF and other Twitter pages to increase the knowledge of its partners around the Web3
 
 **D) Community Outreach**: Taco's community outreach consists of Twitch, Medium, Discord and Telegram channels, with new contents generated every day.
 
 **Discord**
 - link: https://discord.gg/tacocrypto
-- 13,687 members
-- 252 servers following
-- 1,200 new members
-- 28,000 messages sent
+- 13,029 members
+- 255 servers following
+- 24,500 messages sent
 
 **Twitter**
 - Link: https://twitter.com/tacowax
-- 15,800 Followers (Taco)
-- 14,300 Followers (Monster Rooms)
+- 15,700 Followers (Taco)
+- 13,000 Followers (Monster Rooms)
 
 **Instagram**
 - Link: https://www.instagram.com/taco.wax/
@@ -218,12 +214,12 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 **Medium**
 - Link: https://medium.com/@taco.wax
 - 1,300 Followers
-- 230 mail subscribers
+- 235 mail subscribers
 
 **Twitch**
 - Link: https://www.twitch.tv/tacostudiostv
-- Followers: 1,200
-- Hours Streamed: 40+
+- Followers: 1,300
+- Hours Streamed: 50+
 
 ### <ins>Backups </ins>
 Currently we are not offering public backups, we have just our own private backup to easily restore the servers if needed.
