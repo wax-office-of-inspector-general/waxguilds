@@ -33,36 +33,53 @@ Others APIs: none at the moment
 **URLs**: https://waxdapps.io/
 
 **Update**
+Visitor traffic during this period has grown 5x. We are not sure for the reason but we are happy to see it.
 
 *Added Listings*
-* Spinnia [P2E]
-* Wombat [Wallet]
-* Uniswap [Exchange]
-* Meromai [Adding soon]
+* None
 
 
 *Removed Listings*
 * None
 
 **Metrics**
-Period: April 15th, 2024 - May 31th 2024
+Period: May 31th, 2024 - July 15th 2024
 *Stats*
 
-![2waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0ab84b80-d1b5-4cbc-bc0b-715d31d6c28c)
-![3waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0f5bed25-b981-4f77-9ade-3005689c4c64)
-![1waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/ed1c708f-5382-41c0-8f7d-05ee7ac3a4af)
+![igg3](https://github.com/user-attachments/assets/b772e974-e465-486f-a536-f54aa468bfd1)
+![igg2](https://github.com/user-attachments/assets/cf40ccb9-793b-4eed-a894-fbe78e90483b)
+![igg1](https://github.com/user-attachments/assets/98ef3bf1-2651-4273-8d66-4d95c502839b)
 
-### New project Submission 
+
+
 ### WaxAI 
+![waxai_igreport](https://github.com/user-attachments/assets/8df2895f-3011-4ed5-af35-6c25d90e6973)
 
 **URls** https://waxai.io/
 
-![waxai_img](https://github.com/blokcrafters/waxguilds/assets/66744057/4fbdced2-69de-4e98-9953-4f1221c304d8)
 
+### Project Update
+Significant progress has been made for WAX AI:
 
-### Description:
-*WAX AI provides tailored assistance to members of the WAX ecosystem, enhancing their experience and productivity by leveraging Openai Assistant API. WAX AI is trained on various forms of data scraped from WAX ecosystem resources. it can deliver relevant and precise support.
-WAX AI MVP is able to assist a user just like a normal LLM would be able to but it can deliver more precise support compared to a normal LLM due to its added training, It can also query realtime data on chain. We plan to expand its abilities & features but are happy to announce its initial release! If you have any feedback after using it, we would love to hear it as we continue to build waxai.io!*
+1. **Training Expansion**: 
+   - WAX AI has been trained on all waxdapps.io resources totalling 97+ different projects/tools within the WAX ecosystem, categories indlude:
+     - Play to Earn
+     - Market Places
+     - Developer Resources/Tools
+     - Exchanges
+     - NFT Tools
+     - DeFi
+     - Block Explorers
+     - Market Ranking Sites
+     - Android / iOS Apps
+     - Live Drops Schedules
+     - Wallets
+     - Funding
+     - Community
+2. **User Interface (UI) Enhancements and Bug Fixes**:
+   - **Chat Function Improvements**: chat function improvements.
+   - **Code Block Bug Fix**: Resolved an issue where the assistant’s code blocks were not displaying correctly when copied.
+   - **Conversational Pathways**: Fixed bugs related to the assistant’s conversational pathways that were causing conversation threads to break.
 
 ### <ins>Marketing</ins>
 
