@@ -25,18 +25,15 @@
 
 ### NFTHive
 
-**URLs**: nfthive.io, github.com/example/example-repo
+**URLs**: nfthive.io
 
-**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool  
+**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool, rwax, token.rwax  
 
 **Update**: 
-* News and Story Section added
-* Tokens added to Packs (Pack Creator Token Editor, Add different Token Tiers to be randomized (eg Tier1: 100 WAX per Pack, Tier2: 50 WAX per Pack), Unpack Animation with Tokens)
-* SEO Improvements
-* Added Drop Highlights
-* Better token integration for drops (Logos, contracts etc frome eos-airdrops)
-* Crafting Overview UX Updated
-* Lots of smaller UI and Bugfixes
+* WaxDAO custom Token Backer integrated, back tokens, see backed tokens, claim backed from burning NFTs
+* Airdrop Tool for WUF (and other token holders) added. Create an airdrop with your custom tokens, backend takes a snapshot at a given time, wallets are pushed to chain. Airdrops can be claimed here: https://nfthive.io/airdrops
+* Checksum added for rendering PFPs
+* Lots of smaller UI and Bugfixes (Collection Search, Cover Images, Bulk Collection Importer, WAX Unstaking Refund, Unpacking)
 
 **Metrics**
 
@@ -45,27 +42,42 @@ Period: May 1st, 2024 - May 31st 2024
 Stats:
 
 * Market
-Volume: 789,701.83683275 WAX / $50,066.27
-Buyers: 810
-Sellers: 1309
-Sales: 31204
+Volume: 813,948.60405791 WAX / $31,366.66
+Buyers: 704
+Sellers: 1277
+Sales: 42484
 
 ---
 * Drops
-Volume: 376,304.16134849 WAX / $24,031.64
-Buyers: 573
-Sellers: 82
-Sales: 10022
+Volume: 628,699.8280854 WAX / $22,711.08
+Buyers: 689
+Sellers: 77
+Sales: 9160
 
 ---
 * Crafting
-Recipes: 38
-Crafters: 348
-Actions: 3030
+Recipes: 20
+Crafters: 271
+Actions: 1231
 
 ### WAXMarketCap
 
 Nothing
+
+### RWAX
+
+**URLs**: rwax.io (possibly), https://waxblock.io/account/rwax
+
+**List of SCs**: rwax, token.rwax
+
+**Update**:
+* Started developing RWAX with the help of Mike D from WaxDAO.
+* Tokenization of templates for collection owners possible
+* Minting tokens based on lists of templates provided
+* Added factors for traits of NFTs to affect tokenization value
+* Receive NFTs and mint tokens based on setup
+* Receive Tokens and release NFTs based on setup
+* Design process for website started
 
 ### <ins>Marketing</ins>
 
