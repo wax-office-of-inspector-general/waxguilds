@@ -25,20 +25,17 @@ Operations are running smoothly and we keep working on operations and tooling.
 
 ### Hyperion
 
-**URLs**: https://github.com/eosrio/hyperion-history-api/releases/tag/v3.3.10-1
+**URLs**: https://github.com/eosrio/hyperion-history-api/
 
 **Update**:
-After updating the main branch version 3.3.10, the team started working on a strict type-check branch working on the inconsistencies found. All the dependencies are being updated and full coverage API testing was implemented.
+This cycle the team is focused on what we are calling the Hyperion Hub, which will consolidate information from participating operators to map performance, usage and availability allowing developers to optimize endpoint selection and operators to direct efforts. The dev team is working on Hyperion log export functionalities and secure connection to the Hub. Repositories and commits are soon to be made public.
 
-New features being included in this branch includes:
-Account Autocomplete API
-Savannah Compatibility
-Hyperion light explorer is being carved out to work as a stand alone software (https://github.com/eosrio/hyperion-explorer)
+This is an important step towards a decentralized infrastructure ecosystem.  
 
 Other than that we keep on supporting the community mainly through the telegram channel.
 
 **Metrics**
-72 forks of the Github Repository
+72 forks and 121 stars on Github
 
 
 ---
@@ -50,13 +47,14 @@ Other than that we keep on supporting the community mainly through the telegram 
 **Update**:
 We kept on implementing it on our projects, and also working on benchmarking.
 
+
 ---
 
 ### Node Abieos
 
 **URLs**: https://github.com/eosrio/node-abieos/releases/tag/v3.3.0
 
-**Update**: No major update this cycle.
+**Update**: no major update this cycle.
 
 **Metrics**
 211 downloads last month. 4011 downloads all time.
@@ -68,15 +66,17 @@ We kept on implementing it on our projects, and also working on benchmarking.
 
 **URLs**: https://github.com/eosrio/bp-info-standard/releases/tag/v1.0.4
 
-**Update**: No major update this cycle.
+**Update**: No major updates this cycle
  
 
 ---
 ### Fleet SHiP Router
 
 **Update**:
-No major update this cycle.
+No major updates this cycle.
+
 Launch is expected in Q2/2024.
+
 
 ---
 
@@ -93,5 +93,7 @@ URL:
 
 
 ### <ins>Feedback to OIG</ins>
-Keep up the great work!
+Keep up the great work! 
+
 ----
+
