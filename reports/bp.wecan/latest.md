@@ -100,14 +100,6 @@ https://testnet.pepperstake.online/
 ![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
 ![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
 
-**Metrics**
-
-Period: May 1th, 2024 - May 31th 2024
-
-Stats:
-
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/243c35e2-10c1-4198-99ca-d93deaced8b6)
-
 ---
 
 ### WAXSCAN
@@ -116,14 +108,6 @@ Stats:
 **URLs:**
 * Website: https://waxscan.wecan.dev/; 
 https://waxscan-testnet.wecan.dev/
-
-**Metrics**
-
-Period: May 25th, 2024 - May 31th 2024
-
-Stats:
-
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/eec6f566-946e-4268-9e5e-2e792a3aed02)
 
 ---
 
