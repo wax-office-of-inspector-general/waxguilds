@@ -32,6 +32,8 @@ Others APIs: ----
 
 ***Period: May 28th - July 13th 2024***
 
+![bpreport](https://assets.tacostudios.io/bp-assets/july-2024/BP_Report_July_2024.png)
+
 ---
 
 **Products**
@@ -157,6 +159,8 @@ acrpool.taco
 - Two different events have been organized in partnership with two WAX projects: Wax Jungle Deer Club and Crypto Rabbits. The goal is to give exposure to smaller projects by promoting them within our community.
 - A third event will be create, with WUF as rewards, during August.
 
+![acryptias6](https://assets.tacostudios.io/bp-assets/july-2024/Acryptia_S6.png)
+
 
 **Metrics**
 
@@ -187,6 +191,8 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 **A) Onboarding on WAX through Monster Rooms, part 3**: We are continuing to onboard users on WAX through Monster Rooms. This time, we airdropped a free Acryptia Custom Deck (an NFT which is exclusively on WAX) to all the Monster Rooms PFP holders who connected their WAX and Solana wallet. A lot of players created a WAX wallet to receive the perk, and they're now actively playing Acryptia. 
 
 **B) 20B WUF distributed**: We distributed 10B WUF to Monster Rooms PFP holders. We're going to distributed 10 more B on July 29th. With multiple usecases attached to WUF on the WAX chain (MEAL, events, utility) this is another instrument to bring more users on WAX.
+
+![wufdistribution](https://assets.tacostudios.io/bp-assets/july-2024/WUF_distribution.png)
 
 **C) Raids**: Taco community and Monster Rooms community in particular is raiding on WUF and other Twitter pages to increase the knowledge of its partners around the Web3
 
