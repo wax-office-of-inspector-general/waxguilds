@@ -30,16 +30,18 @@ Firehose and Substreams on WAX: https://pinax.network/en/chain/wax
 
 Firehose and Substreams on WAX Testnet: https://pinax.network/en/chain/waxtest
 
+**Update**:
+The team has been making progress on our new [Antelope Token API](https://github.com/pinax-network/antelope-token-api) with support for WAX, built on the Firehose/Substreams data stack. 
+
 **Metrics**
 
-Our WAX Firehose is serving almost 2TB per day on mainnet and between 5-830GB per day on testnet:
+Our WAX Firehose is serving between 1GB-5.5TB per day on mainnet and between 500MB and 2GB on testnet:
 
-<img width="1510" alt="Screenshot 2024-04-15 at 5 03 40 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/937e5c51-9c0e-4b25-a2d9-fd011282c685">
+<img width="1483" alt="Screenshot 2024-07-15 at 3 51 22 PM" src="https://github.com/user-attachments/assets/0f645e4f-b2ac-44f9-9317-62319bc1c908">
 
-Our WAX Substreams are seving almost 3TB per day on mainnet and between 5-850GB on testnet:
+Our WAX Substreams are serving between 130-800GB per day on mainnet (and trending upward) and between 2-10GB on testnet:
 
-<img width="1510" alt="Screenshot 2024-04-15 at 5 03 04 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/38ce3c11-93f8-4f72-8744-c2587a430f43">
-
+<img width="1470" alt="Screenshot 2024-07-15 at 3 46 29 PM" src="https://github.com/user-attachments/assets/fa56d712-e173-48aa-ab73-94870673706f">
 
 ### <ins>Contributions</ins>
 
@@ -53,17 +55,14 @@ Our WAX Substreams are seving almost 3TB per day on mainnet and between 5-850GB 
 
 **URLs**: https://waxdetective.io/
 
-**Update**: 
-WAX Detective has been updated to track GA4 Google Analytics, so we're once again able to provide usage stats. 
-
 **Metrics**
 
-Period: March 1st, 2024 - April 14th 2024
+Period: April 16th - July 15 2024
 
-Stats: 256 users, 1m 13s average engagement time
+Stats: 521 users, 1m 18s average engagement time
+- Note: We experienced an unusual spike of traffic of 85 users on April 20 that may not represent legitimate usage. WAX Detective normally gets between 5-20 users per day.
 
-<img width="650" alt="Screenshot 2024-04-15 at 4 06 59 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/a748fe77-71c3-4f20-9c0e-95d955dd783c">
-
+<img width="723" alt="Screenshot 2024-07-15 at 4 44 28 PM" src="https://github.com/user-attachments/assets/c1eef66f-10aa-4ca4-8f6d-0b90509fab32">
 
 ---
 
@@ -74,20 +73,25 @@ Stats: 256 users, 1m 13s average engagement time
 
 **Metrics**
 
-Period: March 1st, 2024 - April 14th 2024
+Period: April 16th - July 15 2024
 
-Stats: 40 users, 13s average engagement time
+Stats: 561 users, 25s average engagement time
+- Note: We experienced an unusual spike of traffic of 30 users on June 17 and 389 users on June 18 that may not represent legitimate usage. Spyglass normally gets between 1-5 users per day.
 
-<img width="642" alt="Screenshot 2024-04-15 at 4 22 39 PM" src="https://github.com/EOS-Nation/waxguilds/assets/37008057/010c4e87-7fab-4ece-8dad-d8f2f67c60c1">
-
+<img width="729" alt="Screenshot 2024-07-15 at 4 46 56 PM" src="https://github.com/user-attachments/assets/2cb8ef3b-5e89-421e-9cd6-d5165cccfb98">
 
 ---
 
 
-### Pomelo
+### WAX Name Service
 
-**URLs**: https://bounties.pomelo.io/, https://pomelo.io/, https://github.com/pomelo-io
+**URLs**: https://www.waxnameservice.io/
 
+**Metrics**
+
+Period: April 16th - July 15 2024
+
+Stats: No new suffixes listed, 7 names sold.
 
 ---
 
