@@ -68,7 +68,7 @@ Nothing
 
 **URLs**: rwax.io (possibly), https://waxblock.io/account/rwax
 
-**List of SCs**: rwax, token.rwax
+**List of SCs**: rwax, token.rwax, waxtokenbase
 
 **Update**:
 * Started developing RWAX with the help of Mike D from WaxDAO.
@@ -78,6 +78,8 @@ Nothing
 * Receive NFTs and mint tokens based on setup
 * Receive Tokens and release NFTs based on setup
 * Design process for website started
+* Also added WAX Token Base, an on chain information base on Tokens, that will fuel an API to get token information such as logo, supply, etc, an we aim to replace github repositories for tokens
+* RWAX automatically reports new tokens to waxtokenbase
 
 ### <ins>Marketing</ins>
 
