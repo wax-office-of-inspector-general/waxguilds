@@ -47,13 +47,13 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Metrics**
 
-Period: May 15th, 2024 - May 31th 2024
+Period: June 15th, 2024 - July 15th 2024
 
 Stats:
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/572d4404-ada7-40cd-931a-646f0226d123)
+![image](https://gist.github.com/user-attachments/assets/385f5c1f-8ff7-4649-a59f-b48c51d5f3b7)
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/d400fa8c-e086-4d05-bd81-96dd8d82994e)
+![image](https://gist.github.com/user-attachments/assets/48d723eb-d4dd-40de-8120-47ddfc3bdfeb)
 
 ---
 
@@ -68,25 +68,23 @@ https://grandland.prospectors.io
 
 **List of SCs**: prospectorsc, (tbd)
 
-**Update**: 
-
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/3878253d-80ea-4b08-a56b-da9650b096aa)
-
 **Metrics**
 
-Period: May 15th, 2024 - May 31th 2024
+Period: June 15th, 2024 - July 15th 2024
 
 Stats:
 
+![image](https://gist.github.com/user-attachments/assets/1c2e60c7-ccae-42fa-b8b1-1dc394e5aebb)
+
+![image](https://gist.github.com/user-attachments/assets/e236ec59-feb2-4b6e-978b-31a46403c2dc)
+
 Prospectors world instances:
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/c721bcfb-7955-47f5-bce7-e5e544643c80)
+![image](https://gist.github.com/user-attachments/assets/b41dade0-d0c0-4de5-a25b-6b3f59161701)
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/394408d4-0959-4b74-8120-a2732009d070)
+![image](https://gist.github.com/user-attachments/assets/3060b298-c1f5-43f6-8916-78be260feec0)
 
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/d830941b-5dac-4bc1-8d20-07a27843f6a4)
-
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/a306462c-e821-4630-9315-efe58557eaa7)
+![image](https://gist.github.com/user-attachments/assets/332ef8b0-7d72-4934-a36d-98c4ec3dbd2b)
 
 ---
 
