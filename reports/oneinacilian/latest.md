@@ -12,15 +12,18 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
+### <ins>May 2024 Update</ins>
+We are pleased to provide an update on the latest developments and contributions from Oneinacillian to the WAX blockchain ecosystem. Over the past period, we have introduced three valuable resources to support the community: Chain DB snapshots, Atomic snapshots, and a new Telegram bot. Below are the details for each offering:
+In addition to the snapshots, we are launching a new Telegram bot designed to notify block producers of any empty or missing blocks. This bot provides a detailed report every 24 hours, helping to maintain the integrity and performance of the blockchain.
 ### <ins>Noteworthy</ins>
-Our TestNet Hyperion API certificate expired, and the monitoring solution failed to capture this event. However, we have rectified the issue and implemented the necessary monitoring to prevent such unnecessary outages from recurring.
-
+We experienced an outage during the previous evaluation period affecting our test net block producer. On two separate occasions, our block producer missed rounds: 9 rounds on the 23rd of May and 33 rounds on the 26th of May. The issue was traced back to a corrupted state database, which caused the block producer to stop synchronising blocks.
+In response, we reinitialised the block producer and carried out thorough maintenance to ensure stability moving forward.
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 86932 | 63355 | 2279689 | - |  47473 |
+| - | 79402 | 65760 | 1138533 | - |  46337 |
 
 
 ### Docker Project
@@ -28,24 +31,37 @@ Our TestNet Hyperion API certificate expired, and the monitoring solution failed
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-Over the past six weeks, we have validated the latest Elasticsearch/Kibana version (8.13.2) with Hyperion 3.3.8-9 and Nodeos version v4.0.4wax01 on Autoobuilds. Additionally, we have implemented port lockdowns on Docker to restrict access to localhost on Hyperion for enhanced security, particularly in scenarios where Docker networking and firewall configurations may not be fully understood.
+Nothing to report this period
 
 ---
 
-### Missing & Empty Blocks Monitoring Tool
+### Telegram Bot for Block Producer Notifications
 
 **Update**: 
-None this period
+We have developed a new Telegram bot, using the Sentnl API, to enhance the monitoring capabilities for block producers. This bot sends a message every 24 hours, detailing the number of empty blocks by guild and any missing blocks within the same period, along with exact timestamps.
+* Access: Join the channel using the following link: @oiacblockinfo
+* Purpose: This bot ensures that block producers stay informed about block performance issues, allowing for timely interventions and improvements.
 
 ---
 
-### 6 Week Hyperion Snapshot
-
-https://wiki.oiac.io/snapshots/
+### Chain DB Snapshots
 
 **Update**: 
-We had a request from one of our fellow guilds to make this service live again, after recently retiring due to the fact there is no points awarded, and therefore not the most efficint allocation of resources. We still believe that there are many use cases and would be very grateful should the OIG reconsider the award of points. 
+We now provide regular Chain DB snapshots, for both main net and test net, to facilitate easier and faster blockchain synchronisation for new nodes and to support developers in their testing and development efforts.
+* Repository URL: https://mainnetsnapshots.oiac.io & https://testnetsnapshots.oiac.io
+* Frequency: Daily
+* Purpose: These snapshots help reduce the time required to sync new nodes and provide a reliable backup solution.
 
+---
+
+### Atomic Snapshots
+
+**Update**: 
+In addition to the Chain DB snapshots, we are also offering Atomic snapshots. These snapshots are crucial for developers and users working with the AtomicAssets standard, enabling quicker access to the latest state of the assets on the blockchain.
+* Repository URL: https://atomicmainsnapshots.oiac.io/ 
+* Frequency: Daily
+* Purpose: These snapshots support the efficient development and deployment of DApps and provide a reliable backup for the AtomicAssets state.
+  
 ---
 
 ### <ins>Marketing</ins>
@@ -61,3 +77,5 @@ None at this point
 None at this point
 
 ----
+
+Thank you for considering our update. We look forward to continuing to support the WAX blockchain and its community with valuable tools and resources.

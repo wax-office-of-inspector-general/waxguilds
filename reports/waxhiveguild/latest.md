@@ -18,9 +18,7 @@
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [] |  [x] |
-| - | 1017792 req/day | 20400 req/day | 367008 req/day |  |  98616 req/day |
-
-Others APIs: Roborovski, dfuse, ...
+| - | 864000 req/day | 5400 req/day | 230400 req/day |  |  92640 req/day |
 
 ### <ins>Contributions</ins>
 
@@ -29,38 +27,41 @@ Others APIs: Roborovski, dfuse, ...
 
 **URLs**: nfthive.io, github.com/example/example-repo
 
-**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward  
+**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool  
 
 **Update**: 
-* Collection Overview Redesigned and Updated: https://nfthive.io/collections
-* Collection Pages Redisgned and Updated, including Template Market (Only best offers per Template): https://nfthive.io/collection/cosmicclashx
-* New API fully synced. Started building views and endpoints, eg https://wax-api.nfthive.io/api/collections-overview, https://wax-api.nfthive.io/api/drops, https://wax-api.nfthive.io/api/listings
-* Lots of smaller UI fixes 
+* News and Story Section added
+* Tokens added to Packs (Pack Creator Token Editor, Add different Token Tiers to be randomized (eg Tier1: 100 WAX per Pack, Tier2: 50 WAX per Pack), Unpack Animation with Tokens)
+* SEO Improvements
+* Added Drop Highlights
+* Better token integration for drops (Logos, contracts etc frome eos-airdrops)
+* Crafting Overview UX Updated
+* Lots of smaller UI and Bugfixes
 
 **Metrics**
 
-Period: March 15th, 2024 - April 15th 2024
+Period: May 1st, 2024 - May 31st 2024
 
 Stats:
 
 * Market
-Volume: 366,997.92699646 WAX / $30,952.84
-Buyers: 715
-Sellers: 1042
-Sales: 26401
+Volume: 789,701.83683275 WAX / $50,066.27
+Buyers: 810
+Sellers: 1309
+Sales: 31204
 
 ---
 * Drops
-Volume 168,998.68988323 WAX / $14,598.97
+Volume: 376,304.16134849 WAX / $24,031.64
 Buyers: 573
-Sellers: 73
-Sales: 7892
+Sellers: 82
+Sales: 10022
 
 ---
 * Crafting
-Recipes: 147
-Crafters: 319
-Actions: 3564
+Recipes: 38
+Crafters: 348
+Actions: 3030
 
 ### WAXMarketCap
 

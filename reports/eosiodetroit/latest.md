@@ -3,7 +3,7 @@
 |  |  |
 | --- | --- |
 | Website | https://detroitledger.tech/ |
-| Contact | adam@detroitledger.tech, jp@detroitledger.tech |
+| Contact | rob@detroitledger.tech, adam@detroitledger.tech, jp@detroitledger.tech |
 | WAX Mainnet bp.json (https://detroitledger.tech/chains/wax.json) | |
 | WAX Testnet bp.json (https://detroitledger.tech/chains/wax/testnet/bp.json) |  |
 | producer (mainnet) | eosiodetroit |
@@ -12,18 +12,27 @@
 
 ### <ins>Noteworthy</ins>
 
-* WAX AtomicAssets Mainnet API (https://atomic.wax.detroitledger.tech): was down for roughly 12 hours due to an attempt at upgrading to 1.3.24. The fix provided in the 1.3.21 to 1.3.24 upgrade branch required modifications to work properly and resulted in the inability to index further blocks. We have restored from a 1.3.24 backup and are not operational.
-* WAX Hyperion Mainnet API (https://hyperion.wax.detroitledger.tech): After an issue with our elasticsearch cluster was remedied during a brief outage,an issue with the firewall whitelisting specific IPs resulting in false negatives while testing for connectivity. While our Hyperion was operational, it was not exposed publicly for some time. This has been remedied.
+* DLT has entered the alpha testing phase of a new PvP game on WAX that is being developing with the game's founder, FACINGS, and MirrorPool. DLT has assisted in game development, project management, and go-to-market strategy. FACINGS' platform (under development) is being dogfooded for the game's NFT launch and utility. The WAX team has committed marketing support for the game.
+* FACINGS' platform (public name TBA) which has been in active development since late 2023 will be available to the public in the late summer / early Fall, with a heavy emphasis on serving the WAX ecosystem.
+
+
+* For awareness: 
+    * DLT's WAX Mainnet Hyperion endpoint is once again serving **full history**
+    * DLT's IPFS Gateway can be accessed via https://ipfs.gateway.detroitledger.tech (now reflected in our bp json)
+    * DLT's Daily WAX Nodeos Snapshots are available at: https://snapshots.detroitledger.tech 
+    * DLT's Monthly AtomicAssets API (v1.3.24) database backups are available at: https://detroitledger.tech/backups/atomic
+        * Please feel free to contact us if you are in need of a current-day backup!
+
 
 
 ### <ins>API Services</ins>
 
 
-| Stats |WAX Hyperion - Partial (mainnet)| Chain / History (full) | AtomicAssets API | IPFS |
+| Stats |WAX Hyperion - FULL (mainnet)| Chain / History (full) | AtomicAssets API | IPFS |
 |---------------------|----------------------------------|------------------------|-------------------|-----------------|
 | Active|Yes|Yes|Yes|Yes| **
-| Requests/day|!| 667,710|2,945|N/A|
-| Additional Info|Impacted by Outage| |||
+| Requests/day| 57,920 | 143,116 |13,762|N/A|
+| Additional Info|Back to FULL history :D| ||ipfs.gateway.detroitledger.tech
 
 
 ### <ins>Contributions</ins>
@@ -35,12 +44,7 @@
 **List of SCs**: N/A
 
 **Update**: 
-Updated nodeos start script
-Added nodeos restart script
-Added local monitoring script to check producer health
-Updated hyperion deployment playbook to utilize updated dependencies
-Updated snapshot handlers for snapshot providers (Sweden, Cryptolions, Sweden)
-Updated config.ini template
+N/A
 
 
 
@@ -54,28 +58,39 @@ Updated config.ini template
 **List of SCs**: labs.wax
 
 **Update**: 
-* Fixed last updated date to reflect the correct date
-* Improved Telegram field placeholder instruction and remove email field from front-end until smart contract can be upgraded
-* Fixed note field field on rejection
-* Fixed caching/build issue causing old WAX Labs website to load
-* Fixed deliverables to review filter to capture all relevant proposals and show on all login states
+* Includes proposal’s feedback on details page.
+* Includes a pre-loaded template when writing your proposal.
+* Includes an indicator of max length on biography and how much its being used.
+
 
 **Metrics**
 
-Period: March 1st, 2024 - April 15th 2024
+Period: April 16st, 2024 - May 31th 2024
 
-* New proposals submitted: 2
+* New proposals submitted: 4
 
-### FACINGS
+### FACINGS Platform
 
-**URLs**: https://facings.io, https://github.com/facings/collection-manager_
+**URLs**: https://dashboard.dev.facings.io
 
 **List of SCs**: mint.facings, open.facings, make.facings, earn.facings
 
 **Update**: 
-* FACINGS is now also contracted with Pantheon, the game DLT is building for a client on WAX, directly to provide NFT minting services for the first edition of the game NFTs.
-* FACINGS has been working to finalize the set design and metadata while it waits for the remaining production artwork to be completed.
-* Work continues on the NFT publishing workflow reimplementation. It is expected that FACINGS will begin work on the sales engine reimplementation within the next reporting period.
+* FACINGS has demonstrated a launch of the game's WAX testnet pack NFTs through its platform, showcasing the ability to automate thousands of on-chain publishing actions for an off-chain collection owner in a robust way.
+* FACINGS has begun work on the sales engine and frontend to support the game's launch later in the summer.
+
+### FACINGS Creator
+
+**URLs**: https://creator.facings.io, https://github.com/facings/collection-manager
+
+**List of SCs**: atomicassets
+
+**Update**: 
+* FACINGS has pushed QoL updates to the Creator to improve UX based on feedback:
+** Drag and drop for image files added to collection image.
+** Pressing enter when creating a schema will add a row for a new attribute field.
+** NFT image thumbnail previews show the full NFT image properly now.
+** Fixed corner case with previewing IPFS hashes when creating a template.
 
 ### Pyntelope
 
@@ -95,8 +110,7 @@ Period: March 1st, 2024 - April 15th 2024
 * No update
 
 ### <ins>Marketing</ins>
-* The team completed the Portuguese translations of the “Learn” section of the WAX Developer documentation. We are waiting on feedback from the IGs and their translation resources about the quality of the translations before we accelerate the work towards translating the rest of the site. The next section translated will be the “Build” section and we will submit work incrementally.
-* The Chinese translations are currently being redone based on the feedback from an OIG resource both parties agreed was qualified to evaluate it. It was determined that our resource outsourced some or all of the translations we submitted and that the outsourced resource used low-quality auto-translation practices for large portions of the docs.
+* The team has added more Portuguese translations of the dfuse section of the WAX Developer documentation to their working branch: https://github.com/eosdetroit/wax-developer/commit/647f054e3cc88ed66049cf3aeb60529e906f9ae0
 
 ### <ins>Backups </ins>
 
