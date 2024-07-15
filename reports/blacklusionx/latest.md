@@ -61,9 +61,9 @@ Stats: Not tracked, but it is safe to say the validationcore is an essential par
 - See the above explanation of why there have been no major updates this month
 **Metrics**
 
-Period: 1. May 2024 - 31 May 2024
+Period: 15. June 2024 - 15 July 2024
 
-Stats: 116 unique users
+Stats: 102 unique users
 
 ---
 
