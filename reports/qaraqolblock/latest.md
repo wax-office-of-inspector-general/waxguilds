@@ -11,7 +11,7 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We started work on our new flagship product WAXMap to be introduced on call. We had some difficulties with our Hyperion previously, but it has been fixed. We have also setup backups for Atomic Assets and Chain DB. We are also almost done setting up Blocks Log and State History. 
+We started work on our new flagship product WAXMap to be introduced on call. We had some difficulties with our Hyperion previously, but it has been fixed. We have also setup backups for Atomic Assets and Chain DB. We are also almost done setting up Blocks Log and State History backups as well. 
 
 
 ### <ins>API Services</ins>
