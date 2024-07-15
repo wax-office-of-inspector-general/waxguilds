@@ -13,14 +13,16 @@
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-- No issues
+- Introduced a bug into the NFT backer contract when an update was made. Resulted in a loss of $800 worth of WUF, which I'm covering myself (so no loss of user funds). The bug is now patched and the service now operates as usual.
+
+- One of our backup SHIPs crashed and needed to be restarted from snapshot, which resulted in our Light API lagging behind head block for a few hours. It was fixed the same day and is now operating as normal.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [x] | [x] | 
-| - | - | - | - | ~354k req/day |  ~93k req/day |
+| - | - | - | - | ~48k req/day |  ~126k req/day |
 
 Others APIs: Roborovski, dfuse, ...
 
@@ -29,26 +31,27 @@ Others APIs: Roborovski, dfuse, ...
 
 ### WaxDAO Farms And DAOs
 
-**URLs**: https://waxdao.io
+**URLs**: https://waxdao.io, https://farms.waxdao.io
 
-**List of SCs**: waxdaofarmer, farms.waxdao, dao.waxdao
+**List of SCs**: waxdaofarmer, farms.waxdao, dao.waxdao, tf.waxdao
 
 **Update**: 
-- Several minor UI updates for the farms, such as select all / select 100 / select 500 buttons on the v2 farms since users with too many NFTs would get failed transactions trying to stake. Fixed an issue with depositing tokens into a farm's reward pool via the public farm page. Fixed a contract issue with v2 farms overestimating how many periods were left before a farm expires. Other minor UI improvements.
-
-- Minor UI updates for DAOs, such as proposals not showing a finalize button in certain cases after the proposal ended. Fixed a DAO contract bug that was incorrectly allowing a proposal to pass in certain cases if it didn't meet the minimum amount of votes set by a DAO.
+- Released a new token farm contract (tf.waxdao), and a new [open source UI](https://github.com/mdcryptonfts/farm-partner-ui) and [documentation](https://waxdao.gitbook.io/waxdao) for people to deploy their own farming platforms.
+- Released a partner program for the new token farms, including an open source [partner smart contract](https://github.com/mdcryptonfts/farm-partner-contract), open source [indexer](https://github.com/mdcryptonfts/token-farms-indexer) and open source [express API](https://github.com/mdcryptonfts/token-farms-api) (the API endpoints are documented on Gitbook)
+- Nefty/LaunchBagz is our first partner to build on top of the token farms, although not 100% sure if the feature is live on their front end yet
+- Our personal deployment of the new token farms is at https://farms.waxdao.io
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: 04/15/2024 - 05/30/2024
+Period: 06/01/2024 - 07/14/2024
 
 Stats:
 
-- Search console: 1.5k clicks / 15.3k impressions / 9.8%% CTR
-- Google analytics: 5.9k users / 4.2k new users / 11m 30s engagement time
-- 970 NFT farms, 143 token farms, 19 daos, 49 proposals, 1,070 vote actions in daos (all running totals)
+- Search console: 1.45k clicks / 14.3k impressions / 10.1%% CTR
+- Google analytics: 4.8k users / 3.1k new users / 13m 05s engagement time
+- 998 NFT farms, 154 token farms, 21 daos, 49 proposals, 1,070 vote actions in daos (all running totals)
 
 
 ---
@@ -60,15 +63,14 @@ Stats:
 **List of SCs**: waxdaobacker
 
 **Update**: 
-No new updates this period
+- Made some adjustments to the [smart contract](https://github.com/mdcryptonfts/backed_nfts_v2) to optimize how claims/balances are handled
+- NFT Hive has implemented support for the NFT backer into their front end
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
 Period: All time
 
-Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
+Stats: 4,695 total NFTs backed
 
 
 ---
@@ -80,7 +82,7 @@ Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
 **List of SCs**: waxdaosynths, waxdaoescrow, waxdaolocker
 
 **Update**: 
-- Minor contract updates for waxdaoescrow and waxdaolocker
+- Implemented support for NFT Hive's airdrop tool, although not much usage and there seems to be some malformed JSON in the API response, which is causing issues with parsing on the front end
 
 **Metrics**
 
@@ -88,7 +90,7 @@ Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
 
 Period: All time
 
-Stats: 102 total token locks, 213 people have used our token creator, 42 synthetic tokens have been created, 54 total slow drip escrow agreements
+Stats: 144 total token locks, 224 people have used our token creator, 44 synthetic tokens have been created, 58 total slow drip escrow agreements
 
 
 ---
@@ -109,7 +111,7 @@ No new updates this period
 
 Period: All time
 
-Stats: 2,463 total nft drops, 1859 total blends, 20,709 total drop claims, 34,704 total blend claims, 14,928 total pack openings
+Stats: 2,491 total nft drops, 1,984 total blends, 22,033 total drop claims, 39,013 total blend claims, 16,558 total pack openings
 
 
 ---
@@ -133,33 +135,35 @@ n/a
 ### WaxFusion Liquid Staking Protocol
 
 **URLs**:
-[Token Contract](https://github.com/mdcryptonfts/token.fusion)
-[DApp Contract](https://github.com/mdcryptonfts/dapp.fusion)
-[POL Contract](https://github.com/mdcryptonfts/pol.fusion)
-[CPU Rental Contract](https://github.com/mdcryptonfts/cpu.fusion)
-[Node JS Worker Bot](https://github.com/mdcryptonfts/fusion_worker)
+[Smart Contracts]([https://github.com/mdcryptonfts/token.fusion](https://github.com/mdcryptonfts/waxfusion))
+[Website](https://github.com/mdcryptonfts/dapp.fusion)
 
 
 **List of SCs**: dapp.fusion, token.fusion, pol.fusion, cpu1.fusion, cpu2.fusion, cpu3.fusion
 
 **Update**: 
 
-- Created [public documentation](https://docs.waxfusion.io) for WaxFusion
-
-- Launched a [public UI](https://test.waxfusion.io) and did a trial run on testnet to have users report bugs/feature requests etc
-
-- Made many improvements to the pol.fusion and dapp.fusion contracts, and created a [new repo](https://github.com/mdcryptonfts/waxfusion) that includes all of the updated contracts, as well as a very comprehensive list of unit tests/simulations which helped us to identify/fix several bugs. The unit tests also include several "mock" contracts that allow us to simulate behavior of other contracts like Alcor, eosio.system etc
-
-- Submitted 3 of the contracts for audit so far. The token.fusion and cpu.fusion contracts have been given a green light, and am currently awaiting audit results for the pol.fusion contract. The dapp.fusion contract is ready for audit, just waiting on results from the pol contract before submitting the dapp.fusion contract. Expecting to have this launched on mainnet before the next evaluation.
-
-- Got most of the logos/branding created for WaxFusion
-
-- Created a public [worker app](https://docs.waxfusion.io/worker-app) to allow anyone to add redundancy to the protocol. Worth noting that due to updating the contracts to comply with the audit, some adjustments do need to be made to this worker app now (certain actions have different parameters now etc)
+- Made tons of updates to the smart contracts and refactored a lot of stuff, but am still waiting on WAX team to complete the audit of the dapp.fusion contract before I can release the product. I was told that they will get back to auditing it this upcoming week.
+- Added a [status page](https://test.waxfusion.io/status) to the website, so users can stay up to date regarding any delays/issues related to the protocol
 
 **Metrics**
 
 n/a
 
+---
+
+### Smart Contract Development Handbook
+
+**URLs**: https://waxdao.gitbook.io/wax-smart-contract-development-guide
+
+**List of SCs**: n/a
+
+**Update**: 
+- Initial creation of handbook, which covers many tips/tricks/resources for smart contract developers to refer to
+
+**Metrics**
+
+n/a
 
 
 ---
@@ -180,6 +184,6 @@ URL: n/a
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-- Good luck in the election Giannis
+- Just what we spoke about on the call, would be nice if you could convince someone from WAX team to fill us in once in a while (monthly private roundtable with guilds would be ideal)
 
 ----
