@@ -12,11 +12,8 @@
 
 ### <ins>Noteworthy</ins>
 
-We spent a little time debugging why we were consistently behind on indexed blocks for Hyperion history and
-eventually cleared it up by restarting the indexer on a very overloaded system.
-It had started too many indexer processes.  We also interacted a bit with ledgerwise to investigate
-why the nodestatus page had us perpetually stuck at 57 blocks behind for Hyperion history.
-It is now reporting properly for us.
+We had an issue with the letsencrypt certificates not working properly with java for elasticsearch.
+This was resolved within a few hours.
 
 ### <ins>API Services</ins>
 
@@ -95,7 +92,6 @@ URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
 ### <ins>Feedback to OIG</ins>
 
-So.. on the latest.md template - it took a bit to figure out that one of the OIG saves the current latest.md.
-We're good with this now - and then we just update the latest.md with new info for this reporting period.
+Nothing for now.
 
 ----
