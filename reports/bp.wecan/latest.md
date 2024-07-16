@@ -12,21 +12,22 @@
 
 ### <ins>Noteworthy</ins>
 
-We have faced a scripting bot attack on Hyperion Mainnet Public endpoint in between April 10-12 which was fended off successfully.
-![image](https://github.com/We-Can-dev/reports/assets/89981724/c5b640f9-d39a-4da4-aa53-47a31e5f4e73)
+There was an issue from Apr 24 to 26 with our Atomic Mainnet public when it just had some lock issues with redis on one node.
+We have fixed failover mechanism and added immediate notification if such situation happens.
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/5c559c1c-a9ac-4af8-a29d-bfc5af016908)
 
 On the other notes of Sys/Tech OPS work:
-1. WIP on clustered deployment of NodeOS
-2. WIP Datadog monitoring lib suite
-3. WIP IBC
-4. New Hyperion build
+1. Still - WIP on clustered deployment of NodeOS
+2. Still - WIP Datadog monitoring lib suite
+3. Still - WIP IBC
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 33M req/week | 60K req/week | 6.75M req/week | 43K req/week |  108K req/week |
+| - | 21.16M req/week | 61.3K req/week | 1.94M req/week | 51.7K req/week |  134.26K req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -47,43 +48,56 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Update**:
 
-The development of the R-Planet game is actively ongoing with various tasks at different stages of completion. The team is making progress on both design and development fronts. Continuous collaboration and effort are being put forth to enhance the gaming experience and meet user expectations.
-
 The tasks listed below indicate ongoing development efforts and completed tasks within the project:
 
+1. Display Player Count by Faction
+We have implemented a new feature in the Game tab that displays the number of players in each faction. This allows for a comparative view of faction distribution, providing players with a clearer understanding of the game's dynamics and player engagement.
+2. Added UI Popups
+To enhance the user experience, several new UI popups have been added:
+Hero Quest Completed: Notifies players when their hero has successfully completed a quest.
+Hero Died: Alerts players when their hero has died.
+Reward Image: Displays a visual representation of rewards earned.
+XP Earned: Shows the amount of experience points gained.
+3. Enhanced Bases Summary Page
+The bases summary page has been enriched with more detailed information to improve player convenience (Additional Indicators, Activity Visualization)
+4. Concept of Premium Accounts
+We have developed a concept for Premium accounts, aimed at providing enhanced features and benefits to players who opt for this tier. 
+These developments are part of our continuous effort to improve the gameplay experience and provide more detailed, accessible information to our players. 
 
-1. Implemented Alliance Invitations
-    - Enabled sending alliance invitations
-    - Added a button to player info for inviting to an alliance.
-2. Refined Combat Formula for Weak Players
-3. Implemented Swiping for Navigation (Users can now navigate through pages using swiping gestures, enhancing the user experience)
-4. Implemented Alliance Unions: 
-    - Alliance administrators are now able to manage alliances, declare enemies, and assign map colors (green for their own alliance, blue for friendly alliances, and red for enemies). 
-5. Enhanced Combat Attack Confirmation
-    - Implemented a confirmation dialog before sending combat attacks, ensuring player intention. 
-6. Implemented View Mode for the Game
-    - Implemented a view mode for the game where chat and action buttons are disabled upon entering
-    - Players are not required to choose a faction upon entering the game in this mode.
 
-Our players have received assistance from our moderators across various social platforms such as Discord, Twitter, and Telegram chats.
+The R-Planet game's development is well underway, with tasks at multiple phases. Both design and development teams are making steady progress. Ongoing teamwork and dedicated efforts are focused on refining the gaming experience and aligning with user expectations.
 
-R-Planet is set to participate in the Top web3 conference in Dubai - https://web3dubai.io/. 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/c2a29f5c-dd4e-4f3c-8738-0643292a5721)
+Moderator Assistance
+Our players have been actively supported by our dedicated moderators across various social platforms such as Discord, Twitter, and Telegram chats. This ongoing assistance has ensured that player queries are addressed promptly, enhancing their overall gaming experience and fostering a strong community spirit.
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/92ed6962-4a06-4539-8e9d-5da1a504344e)
+__Participation in Top Web3 Conference in Dubai__
+R-Planet participated as a silver sponsor in the Top Web3 Conference in Dubai (https://web3dubai.io/). During the event, we showcased the unique concept of our game, highlighting its distinctive features and future potential. This participation not only increased our visibility within the Web3 community but also provided us with valuable networking opportunities and insights into industry trends.
 
-R-Planet is set to participate in April Fest by Spinnia
-![image](https://github.com/We-Can-dev/reports/assets/89981724/8f6907f6-4f4f-4529-9afe-86bead47d55d)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/75a260c6-0af4-4172-93e3-00e0e2ccc2c8)
+
+
+__Listing on Killer Whales Show by Hello Labs__
+R-Planet has been listed on the Killer Whales show from Hello Labs: https://www.hello.one/killerwhales/project/r-planet.
+Killer Whales is a globally recognized reality TV show available to over 500 million viewers on platforms such as Apple TV, Amazon Prime, HELLO TV, Tubi, and Google Play. The show features high-stakes episodes where Web3 entrepreneurs pitch their crypto and NFT projects to a panel of industry experts known as the Killer Whales.
+We are thrilled about this possible opportunity to showcase R-Planet to a global audience and potentially receive mentorship and promotion that could further propel our game's success.
+For more details, visit: https://www.hello.one/killerwhales/project/r-planet
+__Distribution of $WUF Tokens__
+On May 23rd, we began distributing the 10 billion $WUF tokens received by R-Planet as a partner project. This distribution marks a significant milestone in our engagement efforts, providing our community with tangible benefits and reinforcing our commitment to rewarding player participation and loyalty.
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/a3e04bbf-9eb6-46b4-8bd7-854123232bfb)
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/ad72479d-e109-482b-9877-75d348e172e3)
 
 
 **Metrics**
 
-Period: March 15th, 2024 - April 15th 2024
+Period: May 15th, 2024 - May 31th 2024
 
 Stats:
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/321e4d64-c21f-4e89-b26c-e9ffd22fe754)
-![image](https://github.com/We-Can-dev/reports/assets/89981724/0ed5005b-148c-44d3-b4df-4497e538a449)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/572d4404-ada7-40cd-931a-646f0226d123)
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/d400fa8c-e086-4d05-bd81-96dd8d82994e)
 
 ---
 
@@ -100,33 +114,26 @@ https://grandland.prospectors.io
 
 **Update**: 
 
-We actively engage with players through engaging posts on Prospectors' social media platforms such as Twitter, Discord, and Telegram channels. 
-Our aim is to encourage them to participate by replying, communicating with other players, and visiting the game more frequently.
+Part of originally planned scenarios were executed.
+Another part is still in preparation state
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/8f70502c-11fc-4c89-9240-cbb9f25d6f76)
-
-There's a series of scenarios in development:
-
-![image](https://github.com/We-Can-dev/reports/assets/89981724/a0ba8567-7cc1-4285-b3d6-fd434dc816cc)
-![image](https://github.com/We-Can-dev/reports/assets/89981724/1b703272-a2a8-4f8b-a57b-9a8f592395d6)
-![image](https://github.com/We-Can-dev/reports/assets/89981724/fa07cdf9-b3ce-47d3-b4e5-4603759950f2)
-
-Also we updated wax bank shortcut:
-
-![image](https://github.com/We-Can-dev/reports/assets/89981724/e59e13a9-aee3-4414-bf99-df9253440fa2)  
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/3878253d-80ea-4b08-a56b-da9650b096aa)
 
 **Metrics**
 
-Period: March 15th, 2024 - April 15th 2024
+Period: May 15th, 2024 - May 31th 2024
 
 Stats:
 
 Prospectors world instances:
-![image](https://github.com/We-Can-dev/reports/assets/89981724/dd2bf99b-f6f7-4cfe-8cc6-ca4ddf18d667)
-![image](https://github.com/We-Can-dev/reports/assets/89981724/28d0c30f-4b65-48f3-afda-e18e1091d405)
-![image](https://github.com/We-Can-dev/reports/assets/89981724/7c0b2c9b-7785-42e6-9c0d-9b753e803459)
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/5fe2381b-7eed-4a69-8cba-261e02cbec66)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/c721bcfb-7955-47f5-bce7-e5e544643c80)
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/394408d4-0959-4b74-8120-a2732009d070)
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/d830941b-5dac-4bc1-8d20-07a27843f6a4)
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/a306462c-e821-4630-9315-efe58557eaa7)
 
 ---
 
@@ -137,18 +144,20 @@ Prospectors world instances:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-New onboarded pool
-![image](https://github.com/We-Can-dev/reports/assets/89981724/74e41319-9fc4-4822-839d-015b68795f3e)
 
-to a bunch of about 30 active pools.
+Some of the old some of the new friends - some even drop WUFFI
+
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/7bb035c9-8f61-40c4-870e-3c5410106bff)
+
+As of now there are 35 active pools.
 
 **Metrics**
 
-Period: March 15th, 2024 - April 15th 2024
+Period: May 1th, 2024 - May 31th 2024
 
 Stats:
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/e1a422d2-bf60-4300-92c8-6f23fe762b5e)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/243c35e2-10c1-4198-99ca-d93deaced8b6)
 
 ---
 
@@ -161,11 +170,11 @@ https://waxscan-testnet.wecan.dev/
 
 **Metrics**
 
-Period: April 07th, 2024 - April 15th 2024
+Period: May 25th, 2024 - May 31th 2024
 
 Stats:
 
-![image](https://github.com/We-Can-dev/reports/assets/89981724/f7dbef5e-a5fa-4c07-8d33-2d80ba376b01)
+![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/89981724/eec6f566-946e-4268-9e5e-2e792a3aed02)
 
 ---
 

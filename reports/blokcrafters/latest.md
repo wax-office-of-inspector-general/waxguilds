@@ -12,7 +12,11 @@
 
 ### <ins>Noteworthy</ins>
 
-"We discovered that we had missing blocks in our hyperion history service.  The missing blocks were added."
+We spent a little time debugging why we were consistently behind on indexed blocks for Hyperion history and
+eventually cleared it up by restarting the indexer on a very overloaded system.
+It had started too many indexer processes.  We also interacted a bit with ledgerwise to investigate
+why the nodestatus page had us perpetually stuck at 57 blocks behind for Hyperion history.
+It is now reporting properly for us.
 
 ### <ins>API Services</ins>
 
@@ -30,39 +34,35 @@ Others APIs: none at the moment
 
 **Update**
 
-*Added many new Listings*
-* SpinTycoon [p2e]
-* Alcor LP [DeFi] 
-* Apex Conquest [p2e]
-* Run WAX Node AWS CDK [Dev Resources/Tools]
-* WaxDAO [Tools, DeFi, Community]
-* EOSphere WAX How to Dev Guides [Dev Resources/Tools]
-* Heads up Monitoring [Dev Resources/Tools]
-* bingx [exchange]
-* xt.com [exchange]
-* okx [exchange]
-* bitget [exchange]
-* bybit [exchange]
+*Added Listings*
+* Spinnia [P2E]
+* Wombat [Wallet]
+* Uniswap [Exchange]
+* Meromai [Adding soon]
 
 
 *Removed Listings*
-* Beast Garden [p2e] 
-* Coin Pirates [p2e]
-* Game of Stonks [p2e]
-* xpansion [p2e]
-* bittrex [exchange]
-* wax.gg [Nft Tools]
-* wax tracker [android/ios app]
-* NFT Insider [drops/bloger] relaunch coming this year, will relist when re launched.
+* None
 
 **Metrics**
-
-Period: March 15th, 2024 - April 15th 2024
-
+Period: April 15th, 2024 - May 31th 2024
 *Stats*
 
-![waxdapps_4_15](https://github.com/blokcrafters/waxguilds/assets/66744057/c95dc9ab-bb31-4bde-917c-195ccafc62fe)
-![waxdapps_4_15_24](https://github.com/blokcrafters/waxguilds/assets/66744057/0efcd834-d211-4ec3-9e90-db0c0dcee11c)
+![2waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0ab84b80-d1b5-4cbc-bc0b-715d31d6c28c)
+![3waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0f5bed25-b981-4f77-9ade-3005689c4c64)
+![1waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/ed1c708f-5382-41c0-8f7d-05ee7ac3a4af)
+
+### New project Submission 
+### WaxAI 
+
+**URls** https://waxai.io/
+
+![waxai_img](https://github.com/blokcrafters/waxguilds/assets/66744057/4fbdced2-69de-4e98-9953-4f1221c304d8)
+
+
+### Description:
+*WAX AI provides tailored assistance to members of the WAX ecosystem, enhancing their experience and productivity by leveraging Openai Assistant API. WAX AI is trained on various forms of data scraped from WAX ecosystem resources. it can deliver relevant and precise support.
+WAX AI MVP is able to assist a user just like a normal LLM would be able to but it can deliver more precise support compared to a normal LLM due to its added training, It can also query realtime data on chain. We plan to expand its abilities & features but are happy to announce its initial release! If you have any feedback after using it, we would love to hear it as we continue to build waxai.io!*
 
 ### <ins>Marketing</ins>
 
@@ -78,7 +78,7 @@ URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
 ### <ins>Feedback to OIG</ins>
 
-I like the move to having this template.md file present, I'm looking forward to seeing how it works out.
-And how it works.
+So.. on the latest.md template - it took a bit to figure out that one of the OIG saves the current latest.md.
+We're good with this now - and then we just update the latest.md with new info for this reporting period.
 
 ----

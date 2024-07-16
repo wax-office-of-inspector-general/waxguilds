@@ -11,10 +11,9 @@
 | Guild Jurisdiction | Sweden |
 
 ### <ins>Noteworthy</ins>
-- We have tried to help guilds figure out why they have more than average empty blocks, and what to do about it.
-- We investigated and guided one team to fix their issue with overbilling in CPU for transactions compared to all other teams.
-- We are currently preparing for the new Hyperion Release, and have started to upgrade softwares for one of our instances.
-- Went through all our machines to ensure we are not pwnd by the recent major vulnerabilities in the Linux Ecosystem.
+- Updated Hyperion to 3.3.10
+- Main producer had CPU failiure, and we have replaced that machine with a new one.
+
 
 ### <ins>API Services</ins>
 
@@ -28,13 +27,13 @@
 
 | Website/Platform | Visitors/views | Timeframe |
 | ---------------- | -------- | -------- |
-| Anyo Twitter | 18.8k | 28 days | 
-| alienw.com | 2.3k | 30 days | 
-| waxsweden.org | 1.1k | 30 days |
-| academy.anyo.io | 668 | 30 days | 
-| Anyo YouTube | 371 | 28 days |
-| anyo.io | 164 | 30 days |
+| alienw.com | 3.6k | 30 days | 
+| waxsweden.org | 630 | 30 days |
+| academy.anyo.io | 238 | 30 days | 
+| Anyo YouTube | 273 | 28 days |
+| anyo.io | 850 | 30 days |
 
+- Removed twitter, because data is only accessible behind twitter premium subscriptions
 
 ---
 ### Thalos
@@ -44,28 +43,12 @@
 
 **Update**:
 
-#### Version 1.1.1 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.1)
-- Build binaries linked with musl libc for alpine linux.
-- Added docker image.
-- redis-acl tool: added --pass-len flag.
-- redis-acl tool: fix correct syntax for cleartext passwords.
-- redis-acl tool: allow ping command for server user.
+#### Version 1.1.2-rc2 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc2](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc2)
+- fix a bug where TableDeltaRow.Data was not set
+- fix a bug where blockResult.Deltas was not properly nil checked. Resulting in panic if accessed
 
-#### Version 1.1.0 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.0](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.0)
-- Adding ActionTrace.FirstReceiver flag, that is true only if receiver is the same as contract name.
-- Adding log.file_timestamp_format config field
-- Added cli flag --log-file-timestamp
-- Directory where log files are stored is created with correct permissions.
-- Adding flags for almost all config values.
-- Improved disconnect code for ship client.
-- Application now waits for ship to reply with a close message before exiting the application.
-- The application now recognizes an close error and no longer reports is as an actual error to the log.
-- Application only calls "GetInfo" from the antelope API once and only if it actually needs the information.
-- CI: update actions/checkout to version 4
-- CI: update actions/setup-go to version 5
-- golang: update github.com/eosswedenorg-go/antelope-ship-client to v0.2.7
-- golang: switched github.com/pborman/getopt for github.com/spf13/cobra
-- golang: use github.com/spf13/viper to handle configuration.
+#### Version 1.1.2-rc1 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc1)
+- Moved from github.com/eoscanda/eos-go to github.com/pnx/antelope-go library
 
 ---
 
@@ -75,7 +58,7 @@
 **URLs**: [WAX APT repo](https://eosswedenorg.github.io/apt/wax), [Main apt repo, some of our tools](https://eosswedenorg.github.io/apt/main), [Antelope APT repo](https://eosswedenorg.github.io/apt/antelope), [Github](https://github.com/eosswedenorg/apt)
 
 **Update**:
-- Added the new Thalos v1.1.0 & v1.1.1 into [Apt Main Repo](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.2 into [Apt Main Repo - Edge](https://eosswedenorg.github.io/apt/main)
 
 ---
 
@@ -86,9 +69,12 @@
 
 **Update**: 
 - Latest OIG Roundtables are uploaded on YouTube and the site.
-- [2024-04-09 | Lukas Sliwka](https://youtu.be/4X_N_136Nwc)
-- [2024-03-26](https://youtu.be/TkLp1X6DE-U)
-- [2024-03-12](https://youtu.be/PAeygF8pnHw)
+- [2024-05-21](https://youtu.be/IORlljPM-ms)
+
+### Memo tracker:
+- fixed bug on the WAX memo_tracker where it would fail for the user
+- improved handling of api data
+- provide debug info for user
 
 ---
 
@@ -107,7 +93,6 @@
 **URLs**: [github.com/eosswedenorg-go](https://github.com/eosswedenorg-go), [Antelope Ship Client](https://github.com/eosswedenorg-go/antelope-ship-client), [Atomicasset API Client](https://github.com/eosswedenorg-go/atomicasset), [Antelope HTTP API](https://github.com/eosswedenorg-go/leapapi)
 
 **Update**:
-- Updated Error Handling of the websocket client Test for Antelope SHIP.
 
 ---
 
@@ -128,7 +113,6 @@
 **URLs**: [https://academy.anyo.io/](https://academy.anyo.io/)
 
 **Update**: 
-- In talks with a 3rd party to help review new course material.
 
 ---
 
@@ -138,7 +122,7 @@
 **URLs**: [https://waxsweden.org/testnet](https://waxsweden.org/testnet)
 
 **Update**:
-- Top-up of the Testnet WAX Token Faucet Balance
+- helped the WAX team set up more accounts for their Cloud Wallet Backend
 
 ---
 
@@ -148,18 +132,29 @@
 **URLs**: [Github](https://github.com/eosswedenorg/antelope-api-healthcheck), [APT](https://eosswedenorg.github.io/apt/main)
 
 **Update**: 
+- Added a fix for an atomic api issue, and is currently having one team testing it before pushed live. 
 
 ---
 
 ### BP Notification & Data Service
 **Description**: CPU and block notifications for Guilds on WAX, as well as an upcoming data service to more easily track the performance of all guilds. 
 
-**URLs**: [notify.waxsweden.org/](https://notify.waxsweden.org/)
+**URLs**: [notify.waxsweden.org/](https://notify.waxsweden.org/), [dashboard.waxsweden.org](https://dashboard.waxsweden.org)
 
 **List of SCs**: [Mainnet](notify.se), [Testnet]()
 
 **Update**: 
-- Working on the website to display BP CPU analytics, will share with the OIG and a few selected Guilds for feedback once it's done.
+- First version of the data dashboard is up and running
+    - Added a breakdown of CPU Billing across top 150 actions for all active BPs
+    - Snapshots of data going back a week
+    - View to investigate an contract::action over the last 24h - https://dashboard.waxsweden.org/actions
+    - View to dig into strange CPU billed transactions for a BP - https://dashboard.waxsweden.org/actions/bp-breakdown
+    - View for the daily top used contracts over the last week - https://dashboard.waxsweden.org/top-contracts
+    - View of top authorized user for a specific contract::action - https://dashboard.waxsweden.org/contracts/authorized-users
+- Improved session handling
+- Added numbers to the top-contracts graph
+- Updated color-scheme of the graph
+- Better scaling of tables for phone
 
 ---
 
@@ -169,8 +164,8 @@
 **URLs**: [alienw.com/](https://alienw.com/), [Alpha API - https://api.alienw.com/](api.alienw.com/)
 
 **Update**: 
-- Actively working on an Alpha version of the API
-- Working on a wallet interface for everything DAO related.
+- wallet interface has gotten further updates, soon ready for launch
+- Mobile adaptation of the UI is now "done"
 
 ---
 
@@ -180,9 +175,7 @@
 **URLs**: [api.waxsweden.org](https://api.waxsweden.org/)
 
 **Update**: 
-
-- Providing a team with SHIP & Thalos access to help them build and run their product. 
-- Maintenance and upgrades on the softwares behind the Alien Worlds Teleport.
+- Provided access to SHIP-node and Thalos for two teams working on their projects. 
 
 ---
 
@@ -203,9 +196,9 @@ Mainnet: [snapshots.waxsweden.org](https://snapshots.waxsweden.org/)
 
 Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.org/)
 
-Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240411-302695521.tar.gz)
+Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
-Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-04-04T04_21_26_752_272617431.bin.tar.gz)
+Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-05-01T04_30_01_367_277282072.bin.tar.gz)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -213,17 +206,6 @@ Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.
 
 
 ### <ins>Feedback to OIG</ins>
-We believe the OIG ratings for full history is skewed. It is essential for the network and compared to a partial history, it requires much more hardware, and maintenance. Restoring any issues also takes way longer than it does for any partial history. 
-If you run it with any redundancy on hardware, it will quickly consume 30-100x the disk-space on high-speed NVME drives compared to a partial history solution. 
-
-Current guidelines encourages teams to push for top 10 in ratings, and then scale down operations, as there is little to no benefit of pushing higher once you do. Dropping 24p at that stage doesn't have a huge impact.  
-Specially if that team also spins up, or already runs an Atomic API (12p). Another Atomic API adds little to no value for the chain, while another Full history adds redundancy incase any issues occurs on those existing. As the time to restore it from issues can take multiple days, or even weeks.
-
-We don't think the other APIs are supposedly less important. Rather, the importance of highly redundant and reliable History solutions for users, tools and services are undervalued in the guidelines. Most recent data is most often requested, but potential lack of older data is a risk and problem.
-
-Full History: 48p
-Partial History: 24P
-Atomic API: 12p
 
 ----
 

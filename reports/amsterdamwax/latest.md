@@ -26,6 +26,13 @@ Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (15k req/hour)
 
 ### <ins>Contributions</ins>
 
+### Savanna testnet
+
+**URLs**: n/a
+
+**Update**: 
+We are producing on and helping with tests in the fast finality testnet (Savanna).
+
 ### Hyperion Health Checker
 
 **URLs**: [https://github.com/cc32d9/eosio-haproxy](https://github.com/cc32d9/eosio-haproxy)

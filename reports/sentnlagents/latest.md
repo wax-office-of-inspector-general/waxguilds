@@ -21,6 +21,9 @@
 | [x] | [x] | [x] | [x] | [ ] | [ ] |  [ ] |
 | - | 4337535 req | 337535 req | 1200000 req | ~x req |  ~y req |
 
+**Update**: 
+
+- We started providing a private SHIP server WS:// socket for Gudasol, owner of tetra.earth and cXc.world on WAX.
 
 ### <ins>Contributions</ins>
 
@@ -32,9 +35,7 @@
 
 **Update**: 
 
-We had a issue where sengine was marking a hyperion node as up, as it was checking for the latest action within hyperion using /v2/history/get_actions, yet the node's /v2/health was reporting older statistics,  due to the hyperion node proxying /v2/history requests to another hyperion. We have now upgraded the code to check both /v2/health (if available) and /v2/history/get_actions to determine the latest action timestamp.
-
-We have also updated the history check to query a recent transaction as an additional check.
+- We have updated our P2P checks to ensure compatibility with leap 5.
 
 
 
@@ -42,7 +43,7 @@ We have also updated the history check to query a recent transaction as an addit
 
 We had bp.wecan use our manual scan facility 10 times, during the last month. The facility helps guilds to double check their services are up using all the sengine checks, by requesting a on demand scan.
 
-Period:  February 28th, 2024 - April 15th 2024
+Period:  April 16th 2024 - 31 May 2024
 
 
 
@@ -52,18 +53,26 @@ Period:  February 28th, 2024 - April 15th 2024
 
 Every month we perform a security audit for a guild from the list below.
 
+* Dapplica
+* Cryptolions
+* NFThive
+* EOSAuthority 
 * WAXsweden
 * EOSDetroit
 * EOSdac
 * EOSUSA
+* GreenEOSIO
+* ZenBlocks
 * AlohaEOS
 * BlokCrafters
 * Ledgerwise
+* Pink.gg
 * EOSarabia
 * EOSRIO
+* CSxcommunity
 * Eosphere
 * Blacklusion
-* Tokengamer
+* token gamer
 * Neftybloks
 
 Security checks include:
@@ -85,9 +94,20 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for Alohaeos.
+We completed a security audit for EOSauthority, NFTHive and Cryptolions.
 
 ---
+
+
+### 🔐 Smart Contract Audits	
+
+At Sentnl we provide smart contract audits for EOSIO contracts on WAX. We've always been at the forefront of what we do.
+
+**Update**: 
+
+We completed a security audit for Alcor Exchange and their new Liquid WAX staking product
+
+
 
 ### 🧰 Various community tools	
 
@@ -118,11 +138,14 @@ No update this month.
 
 * Snapshot service Docker and automated website - We created a docker image and ReactJS frontend to automate the setup of a snapshot service for WAX mainnet and testnet.
 * https://github.com/ankh2054/snapshots.sentnl.io, https://github.com/ankh2054/snapshot-service
+* EOSIO CDT - Docker deployment to easily install EOSIO CDT using any version  - https://github.com/ankh2054/eosio-cdt
 
 
 **Update**: 
 
-No update this month.
+- Added our EOSIO CDT docker which was not previously on our list.
+- Updated snapshots.sentnl.io with important security js module updates & updated Dockerfile to latest alpine and react-scripts.
+- Updated - snapshot-service with important security python updates & updated Dockerfile to use Ubuntu 22.04 and install Antelope Leap 5.
 
 ---
 
