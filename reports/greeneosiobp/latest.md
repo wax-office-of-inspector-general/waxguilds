@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Göteborg, Sweden |
 
 ### <ins>Noteworthy</ins>
-We have upgraded our infrastructure by adding more storage on Hyperion nodes. In addition, we have added more monitoring on WaxGalaxy TG bots to ensure uptime.
+Fixed WaxGalaxy TG bot bugs!
 
 
 ### <ins>API Services</ins>
@@ -28,13 +28,13 @@ We have upgraded our infrastructure by adding more storage on Hyperion nodes. In
 **URLs**: https://pro.waxgalaxy.io/
 
 **Update**: 
-During the last 6 weeks, we've made some updates to increase the stability of the services, and added a few more users, and we are looking forward to adding new features and services in the next 3 months.
+We added a few more users and updated the infra to reduce the response times, and we look forward to adding new features.
 
 **Metrics**
 
-Period: April 15th, 2024 - May 27th 2024
+Period: May 27th, 2024 - July 13th 2024
 
-Stats: 50 registered developer accounts, 3 paying customers, Averaging around 5k requests/day
+Stats: 60 registered developer accounts, 3 paying customers, Averaging around 5k requests/day
 
 ---
 
@@ -44,11 +44,11 @@ Stats: 50 registered developer accounts, 3 paying customers, Averaging around 5k
 
 **Update**: 
 
-We have added new monitoring features to ensure the uptime of the bots. We would appreciate it if we could get higher points here as we are continuously maintaining and supporting over 1200+ users daily.
+Bug fixes! We would appreciate it if we could get higher points here as we are continuously maintaining and supporting over 1200+ users daily.
 
 **Metrics**
 
-Period: April 15th, 2024 - May 27th 2024
+Period: May 27th, 2024 - July 13th 2024
 
 Stats: 
 
@@ -57,13 +57,13 @@ Stats:
 **Greenybot Updates: (@waxgreenybot) [telegram]**
 
 Latest Stats: use /adminstats command
-- Users Count: 363      
-- Accounts Count: 784    
+- Users Count: 365      
+- Accounts Count: 798    
 
 **WAX Galaxy Sales Bot Updates: (@waxgalaxybot) [telegram]**
 
-- Users Count: 844 (1% increase from last update) 
-- Accounts Count: 2517 (5% increase from the last update) 
+- Users Count: 849 (0.5% increase from last update) 
+- Accounts Count: 2539 (1% increase from the last update) 
 
 On average daily we send out more than 1500+ notifications to users.
 
