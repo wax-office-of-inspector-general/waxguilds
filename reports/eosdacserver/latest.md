@@ -11,11 +11,11 @@
 | Guild Jurisdiction |  Switzerland (CH) |
 
 ### <ins>Noteworthy</ins>
-
-In the last period we have added one more server for Hyperion cluster and upgraded it from Partial to Full. 
-
-Added lightAPI instance - https://wax-lightapi.eosdac.io
-
+- We have upgraded hyperion to latest version 3.3.10
+- We noticed that some monitoring services reported downtime for our hyperion v2 node for example
+https://wax.sengine.co/guilds/eosdacserver,  https://nodestatus.ledgerwise.io/wax/producer/eosdacserver?tab=errors
+while others showed 100% uptime, for example https://wax.validationcore.io/stats/guild/eosdacserver
+- We have added additional monitoring to catch these issues in future
 
 ### <ins>API Services</ins>
 
@@ -35,7 +35,6 @@ Added lightAPI instance - https://wax-lightapi.eosdac.io
 **List of SCs**: alien.worlds, stkvt.worlds, index.worlds, msig.worlds, m.federation, awlndratings, s.federation, federation, token.worlds, uspts.worlds, other.worlds, boost.worlds, dao.worlds
 
 **Update**: 
-
 In the latest update a new feature for staking for Tokenised Lore is introduced, where players can directly contribute and propose new lore or changes. [Read more here](https://alienworlds.io/blogs/tokenized-lore-staking-is-live-start-accumulating-vote-power-today/)
 
 In the latest update 2.12.0 we introduced a Preview mode, a feature that allows new players to immerse themselves in the metaverse without the initial setup of a WAX wallet
@@ -56,11 +55,11 @@ New Unique wallets onboarded - 27k. Source : [EOSUSA WAX STATS](https://wax.stat
 UAL-WAX plugin: https://www.npmjs.com/package/@eosdacio/ual-wax. 
 
 **Metrics**
-Has an avg of ~150 Weekly downloads
+Has an avg of ~125 Weekly downloads
 ---
 ### Galactic Hub
 Galactic Hubs grants offer support to community-aligned projects with a clear focus, driving advancements in specific areas
-Access season2 selected projects in the works here https://alienworlds.io/galactic-hubs/
+Galactic Hubs Update https://alienworlds.io/blogs/galactic-hubs-april-update/
 
 #### Released products
 
@@ -100,11 +99,13 @@ The Alien Worlds API tools consist of many components that can be used, modified
 
 ---
 ### Testnet RNG
-
-Only guild running ORNG script on testnet, executed over 15k jobs on the testnet since the last evaluation
+Only guild running ORNG script on testnet, executed over 10k jobs on the testnet since the last evaluation
 
 ---
 ### <ins>Marketing</ins>
+DappRadar Coverage: [State of Blockchain Gaming in Q1 2024](https://dappradar.com/blog/state-of-blockchain-gaming-in-q1-2024)
+
+Blockchain Gamer Biz coverage: [Saro McKenna latest piece on Potential of self-governed blockchain worlds](https://blockchaingamer.biz/features/opinions/31817/illimitable-potential-self-governed-blockchain-worlds/)
 
 Blockchaingamer Coverage: [Dacoco launches AI tool to expand Alien Worlds lore with UGC stories](https://www.blockchaingamer.biz/news/33097/dacoco-launches-ai-tool-to-expand-alien-worlds-lore-with-user-generated-stories/)
 [Alien Worlds Introduces Lynx AI Tool for Tokenized Lore Expansion](https://gam3s.gg/news/alien-worlds-lynx-ai/)

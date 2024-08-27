@@ -23,7 +23,7 @@ Technical Update:
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]    | [x]    | [x]    | [x]    |  []    | []     |  
-|30.31 k req/week |30.13 k req/week |30.56 k req/week | 2.91M req/week |  |   |
+|29.98 k req/week |30.51 k req/week |31.02 k req/week | 2.97M req/week |  |   |
 
 
 Others APIs: Roborovski, dfuse, ...
@@ -60,7 +60,7 @@ Others APIs: Roborovski, dfuse, ...
 [report relevant metrics and metric period...]
 
 
-Period: May 2024 - July 2024
+Period: 2024
 
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
@@ -100,8 +100,9 @@ Expected daily cross-chain bridge assets: 50,000 WAX
 
 
 **Update**: 
-"During the last 4 weeks we started WAX Blindbox event to boost our trade volume and TVL; while having 2 cooperations with WUI communities
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/f9286b42-4517-4368-8648-087e48f12e30)
+"We have some cooperations with new WAX projects to boost our trade volume and TVL
+
+
 
 
 
@@ -118,12 +119,12 @@ Expected daily cross-chain bridge assets: 50,000 WAX
 [report relevant metrics and metric period...]
 
 
-Period: Feb. 1th, 2024 - March 31th 2024
+Period: June 2024 - July 2024
 
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-Average daily users: 30
-Average daily volume: 100,000 WAX
+Average daily users: 50
+Average daily volume: 120,000 WAX
 ---
 
 
@@ -144,8 +145,9 @@ Average daily volume: 100,000 WAX
 Initiative A: https://wax.defibox.io/scoreShop
 **List of SCs**: ann.box
 
-<img width="776" alt="image" src="https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/655c7ec1-f65b-4ba5-bd07-ab3a79e7fd34">
-<img width="795" alt="image" src="https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/1c9a25b2-1f14-414e-ad0f-f37854e88605">
+<img width="888" alt="image" src="https://github.com/user-attachments/assets/6a5bd5be-0e14-45cf-aa53-a9649b7d5c30">
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/0416d74f-63d8-42ee-bbf6-80b549ad16e9">
+
 
 
 
