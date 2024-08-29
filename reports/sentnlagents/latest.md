@@ -86,7 +86,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for Dapplica, Neftyblocks, Tokengamer 
+We completed a security audit for Wombat, Taco
 
 ---
 
@@ -112,13 +112,14 @@ A tool we created that trawls through the messages of certain  Telegram groups a
 **Update**: 
 
 
-### Automated producer unreg tool
+### 🆘 Automated producer unreg tool
 
 We've created an automated producer unreg tool - https://github.com/ankh2054/unregbot
 It monitors our missing blocks API (streams from ship using LIB) for your mainnet and testnet producers and if missing round(s) detected it will automatically unreg your producer. Optionally it also sends you a message via pushover (which is useful as it overrides your phones do not disturb settings)
 
+**Update**: 
 
-
+- We added the options to pause and resume producers to reduce missing blocks whilst waiting for the producer to unregister.
 
 ### 🧰 Various community tools	
 
@@ -154,9 +155,6 @@ No update this month.
 
 **Update**: 
 
-- Added our EOSIO CDT docker which was not previously on our list.
-- Updated snapshots.sentnl.io with important security js module updates & updated Dockerfile to latest alpine and react-scripts.
-- Updated - snapshot-service with important security python updates & updated Dockerfile to use Ubuntu 22.04 and install Antelope Leap 5.
 
 ---
 
@@ -178,7 +176,6 @@ Sengine uses the API to display the missed blocks for each guild.
 
 **Update**: 
 
-- Created a new API route called unregging to facilitate our new unregtool. 
 
 ---
 
@@ -198,7 +195,6 @@ https://wiki.sentnl.io/security
 
 **Update**: 
 
-No update this month.
 
 
 ### <ins>Marketing</ins>
