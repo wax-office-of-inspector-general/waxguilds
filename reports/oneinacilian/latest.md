@@ -12,18 +12,24 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>June 2024 Update</ins>
+### <ins>August 2024 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
-Over the past period, we have introduced several valuable resources to support the community. Below are the details for each offering:
+Over the past period, we have been actively developing a monitoring initiative. This is a new mechanism aimed at providing greater visibility and proactive monitoring for solutions running within the WAX ecosystem. Our efforts are focused on creating a system that can:
+
+* <ins>Monitor OIG Portals:</ins> Automatically alert guilds when critical components are impaired or flagged as down.
+* <ins>State Availability Tracking:</ins> Keep a close watch on the availability of state data to ensure uninterrupted access.
+* <ins>Snapshot Monitoring:</ins> Track and report on the status of snapshots being taken, providing timely updates on their availability.
+
+Our goal is to eventually package these monitoring capabilities into a comprehensive solution that we believe will be highly beneficial for all guilds. We look forward to sharing more details as this project progresses.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 117047 | 86063 | 572188 | 45612 |  46646 |
+| - | 1727363 | 247871 | 348929 | 45620 |  46599 |
 
 
 ### <ins>Docker Project</ins>
@@ -31,42 +37,21 @@ Over the past period, we have introduced several valuable resources to support t
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-We have made several significant enhancements to our Docker Project to improve flexibility, stability, and ease of use. Here are the key updates:
-
-**Hyperion Version Control as a Variable**:
-
-* This update allows users to easily switch and test new versions of Hyperion. By controlling the Hyperion version through a variable, we ensure that upgrades and rollbacks are seamless and less error-prone.
-
-**Elasticsearch (ES) Memory Parameters as a Variable**:
-
-* Users can now control Elasticsearch memory parameters through a variable. This flexibility helps in optimising performance based on the specific needs of the environment, whether for development, testing, or production.
-
-**Latest Hyperion Deployment Testing**:
-
-* We have successfully tested the latest Hyperion deployment (version 3.3.10-1) within the stack. This deployment has been validated through indexer jobs and API health status checks, ensuring robustness and reliability.
-
-**Customised Nodeos Deb Deployments**:
-
-* We have introduced the ability to customise Nodeos deb deployments and implement dynamic modifications required for startup environments. This feature allows users to easily switch to and test different versions of Nodeos, facilitating rapid testing and deployment of new features.
-
-These improvements aim to provide a more flexible and resilient infrastructure for our users, making it easier to maintain and enhance blockchain applications.
+We continue to make enhancements to our Docker Project to improve flexibility, stability, and ease of use. 
 
 ---
 
-### <ins>Telegram Bot for Block Producer Notifications TESTNET</ins>
+### <ins>Telegram Bot for Block Producer Notifications </ins>
 
 **Update**: 
-We have introduced a new Telegram bot for monitoring missing blocks on the testnet. Unlike our mainnet offering, this testnet bot does not monitor empty blocks.
-
-* Access: Join the channel using the following link: @oiacblockinfotestnet
-* Purpose: This bot ensures that block producers on the testnet stay informed about any missing blocks, allowing for timely interventions and improvements.
+No major update this period
 
 ---
 
 ### <ins>Full State History Snapshots</ins>
 
 **Update**: 
-OIAC has started providing Full State History snapshots.
+No major update this period
 
 * Repository URL: https://stateblocks.oiac.io
 * Frequency: Weekly
@@ -77,7 +62,7 @@ OIAC has started providing Full State History snapshots.
 ### <ins>Full Blocks Snapshots</ins>
 
 **Update**: 
-OIAC has started providing Full Blocks snapshots.
+No major update thsi period
 
 * Repository URL: https://stateblocks.oiac.io
 * Frequency: Weekly
@@ -88,7 +73,7 @@ OIAC has started providing Full Blocks snapshots.
 ### <ins>LightAPI Services</ins>
 
 **Update**:
-OIAC has started providing LightAPI services.
+No major update this period
 
 * Repository URL: https://light-api.oiac.io
 * Purpose: These services offer lightweight and efficient access to blockchain data, supporting various applications and integrations.
