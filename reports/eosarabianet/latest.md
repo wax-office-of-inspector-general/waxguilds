@@ -12,7 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-"We fixed our automated failover script for BP producing nodes." 
+We moved our producer nodes to a new datacenter to address the recent missed rounds.
+We set up a new Hyperion server (version 3.3.10) for Testnet with the full history.
+Additionally, we built a new failover server for the Atomic Assets service because the disk on the old failover server became full.
 
 
 ### <ins>API Services</ins>
@@ -20,37 +22,37 @@
 | History (partial) | History (full) | History (testnet) (full) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [ x] | [x] | [x] | [x] | [] |  [x] |
-| - | 92k req/week | 676k req/week | 303K req/week | ~x req  |  2167 req/week |
+| - | 127k req/week | 688k req/week | 290K req/week | ~x req  |  2258 req/week |
 
 
 
 ### <ins>Contributions</ins>
 
-### Courses portal (https://wax.courses.eosarabia.net)
-
-New course added to list:https://wax.courses.eosarabia.net/cours/77
 
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period:  May 30th 2024 - Jul 14th 2024
+Period:  Jul 15th 2024 - Aug 30th 2024
 
 Stats: 
-Atomic assets API: 6,017,0574 requests , Status 200.
-<img width="1063" alt="AA 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/8a5407cf-450e-4bbb-bbc4-212f39a87067">
+Atomic assets API: 1928010 requests , Status 200.
+
+
+<img width="1077" alt="AA" src="https://github.com/user-attachments/assets/562add4b-c3db-43c0-8821-78d091ab9662">
+
+
+WAX API mainnet: 1161780 requests, status 200.
+
+<img width="1076" alt="wax api" src="https://github.com/user-attachments/assets/e8d1c107-9789-4b25-97ab-d15a5afa1879">
 
 
 
-WAX API mainnet: 718,822 requests, status 200.
-<img width="1070" alt="API 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/2f209a43-5957-424b-9dfe-83d5b2b216d5">
+Vstate: 3896 requests, status 200.
 
 
-
-Vstate: 4,216 requests, status 200.
-<img width="1073" alt="Vstate 30-may-to-14-jul-2024" src="https://github.com/user-attachments/assets/8f66d300-988c-4e9e-a60d-e272f0ad8170">
-
+<img width="1073" alt="vstate" src="https://github.com/user-attachments/assets/ff37ebf3-cd88-4999-8094-cf4020d119a0">
 
 
 
@@ -58,17 +60,18 @@ Vstate: 4,216 requests, status 200.
 
 Support the community with instant translation for all news and announcements.
 https://t.me/waxarabia
-https://t.me/waxarabia/2326
-https://t.me/waxarabia/2328
-https://t.me/waxarabia/2329
+https://t.me/waxarabia/2330
+https://t.me/waxarabia/2331
+https://t.me/waxarabia/2332
+
 
 
 
 
 ### <ins>Backups </ins>
 URL: (https://snapshots.eosarabia.net)
-New Block log backup added :2024-07-09T07:28:34.555
-New state-history backup added : 2024-06-12T22:17:01.640
+New Block log backup added :2024-08-12T21:52:45.156
+New state-history backup added : 2024-08-12T21:52:45.156
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -79,4 +82,3 @@ New state-history backup added : 2024-06-12T22:17:01.640
 None at this time
 
 ----
-
