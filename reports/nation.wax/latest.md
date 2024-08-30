@@ -3,7 +3,7 @@
 |  |  |
 | --- | --- |
 | Website | https://eosnation.io/ |
-| Contact | stephane@eosnation.io |
+| Contact | daniel@eosnation.io |
 | bp.json (mainnet) | https://eosnation.io/wax.json |
 | bp.json (testnet) | https://eosnation.io/waxtest.json |
 | producer (mainnet) | nation.wax |
@@ -11,7 +11,9 @@
 | Guild Jurisdiction | Sherbrooke, Quebec, Canada |
 
 ### <ins>Noteworthy</ins>
-Nothing to report for this evaluation period.
+As core developers on The Graph (under our Pinax brand), this past month we added [official support for WAX Firehose and Substreams on The Graph](https://thegraph.com/networks/wax/?subnetwork=wax-mainnet). As we prepare to transition our dfuse services to our more modern data stack offered with Pinax and add support for WAX Subgraphs on The Graph, we also released some new foundational building blocks available for the community to start leveraging immediately, including our new [WAX Datasets and Raw Blocks Substreams](https://pangea.substreams.pinax.network), and our [Antelope foundational Substreams modules](https://blog.pinax.network/substreams/stream-seamless-antelope-data-with-epic-new-foundational-substreams-modules/) that make it easier to build custom Substreams for your specific use cases on WAX.
+
+[The Graph](https://thegraph.com) is a widely adopted industry standard protocol for indexing blockchain data, supporting many different blockchains. WAX Subgraphs on The Graph will bring a new way for dApps on WAX to index data in a way that's familliar with developers in the broader web3 industry. It will also make it easier to have WAX dApps listed on data aggregators like [CoinGecko](https://www.coingecko.com), [CoinMarketCap](https://coinmarketcap.com), and [DefiLlama](https://defillama.com) since they favour or sometimes even require that an application is indexed with a Subgraph on The Graph before it can be listed on their platforms. We're proud to have brought support for WAX Firehose and Substreams on The Graph, and look forward to adding support for Subgraphs next month. Read more about [The Graph's curation program](https://thegraph.com/blog/curator-program-launch/) with the biggest data aggregators in the industry.
 
 ### <ins>API Services</ins>
 
@@ -30,18 +32,24 @@ Firehose and Substreams on WAX: https://pinax.network/en/chain/wax
 
 Firehose and Substreams on WAX Testnet: https://pinax.network/en/chain/waxtest
 
+Firehose and Substreams for WAX and WAX Testnet on The Graph (hosted by Pinax): 
+- https://thegraph.com/networks/wax/?subnetwork=wax-mainnet
+- https://thegraph.market/services/firehose/wax
+- https://thegraph.market/services/substreams/wax
+- https://thegraph.market/services/firehose/wax-testnet
+- https://thegraph.market/services/substreams/wax-testnet
+
 **Update**:
-The team has been making progress on our new [Antelope Token API](https://github.com/pinax-network/antelope-token-api) with support for WAX, built on the Firehose/Substreams data stack. 
+We'll be launching our new [Antelope Token API](https://github.com/pinax-network/antelope-token-api) and [Antelope Transactions API](https://github.com/pinax-network/antelope-transactions-api) next week, with support for WAX, built on the Firehose/Substreams data stack. See the noteworthy section above for more updates on our progress on bringing support for WAX on The Graph and increasing adoption for WAX Firehose and Substreams. 
 
 **Metrics**
 
-Our WAX Firehose is serving between 1GB-5.5TB per day on mainnet and between 500MB and 2GB on testnet:
+Our WAX Firehose is averaging about 1 GiB per day with a peak of 1.5TB on August 22 and 498 GiB on August 25 on WAX:
+<img width="1461" alt="Screenshot 2024-08-30 at 5 26 40 PM" src="https://github.com/user-attachments/assets/928e9dc3-cbc4-4b4d-a429-4171be780a22">
 
-<img width="1483" alt="Screenshot 2024-07-15 at 3 51 22 PM" src="https://github.com/user-attachments/assets/0f645e4f-b2ac-44f9-9317-62319bc1c908">
+Our WAX Substreams are serving between 225 - 791 GiB per day on WAX:
+<img width="1465" alt="Screenshot 2024-08-30 at 5 22 50 PM" src="https://github.com/user-attachments/assets/24514f3a-63c3-4588-8957-d59a78a2e962">
 
-Our WAX Substreams are serving between 130-800GB per day on mainnet (and trending upward) and between 2-10GB on testnet:
-
-<img width="1470" alt="Screenshot 2024-07-15 at 3 46 29 PM" src="https://github.com/user-attachments/assets/fa56d712-e173-48aa-ab73-94870673706f">
 
 ### <ins>Contributions</ins>
 
@@ -57,12 +65,10 @@ Our WAX Substreams are serving between 130-800GB per day on mainnet (and trendin
 
 **Metrics**
 
-Period: April 16th - July 15 2024
+Period: July 16 - August 30 2024
 
-Stats: 521 users, 1m 18s average engagement time
-- Note: We experienced an unusual spike of traffic of 85 users on April 20 that may not represent legitimate usage. WAX Detective normally gets between 5-20 users per day.
-
-<img width="723" alt="Screenshot 2024-07-15 at 4 44 28 PM" src="https://github.com/user-attachments/assets/c1eef66f-10aa-4ca4-8f6d-0b90509fab32">
+Stats: 194 users, 1m 13s average engagement time
+<img width="805" alt="Screenshot 2024-08-30 at 5 29 38 PM" src="https://github.com/user-attachments/assets/bd1de353-29c8-4462-ab45-7af8f5f2512f">
 
 ---
 
@@ -73,12 +79,10 @@ Stats: 521 users, 1m 18s average engagement time
 
 **Metrics**
 
-Period: April 16th - July 15 2024
+Period: July 16 - August 30 2024
 
-Stats: 561 users, 25s average engagement time
-- Note: We experienced an unusual spike of traffic of 30 users on June 17 and 389 users on June 18 that may not represent legitimate usage. Spyglass normally gets between 1-5 users per day.
-
-<img width="729" alt="Screenshot 2024-07-15 at 4 46 56 PM" src="https://github.com/user-attachments/assets/2cb8ef3b-5e89-421e-9cd6-d5165cccfb98">
+Stats: 25 users, 19s average engagement time
+<img width="803" alt="Screenshot 2024-08-30 at 5 32 51 PM" src="https://github.com/user-attachments/assets/496b4222-0a7c-4055-9ff4-334403132e72">
 
 ---
 
@@ -91,7 +95,7 @@ Stats: 561 users, 25s average engagement time
 
 Period: April 16th - July 15 2024
 
-Stats: No new suffixes listed, 7 names sold.
+Stats: No new suffixes listed, no names sold.
 
 ---
 
