@@ -12,7 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-Operations are running smoothly and we keep working on operations and tooling.
+The team have been deeply involved with the Savanna Consensus upgrade and the Spring v1.0 Hardfork. The team focused on both helping in the testing and also in making the necessary adaptations to Hyperion. 
+
+An infrastructure issue affected our Atomic API but the issue is solved. 
 
 ### <ins>API Services</ins>
 
@@ -25,12 +27,10 @@ Operations are running smoothly and we keep working on operations and tooling.
 
 ### Hyperion
 
-**URLs**: https://github.com/eosrio/hyperion-history-api/
+**URLs**: https://github.com/eosrio/hyperion-history-api/tree/3.3.10-strict
 
 **Update**:
-This cycle the team is focused on what we are calling the Hyperion Hub, which will consolidate information from participating operators to map performance, usage and availability allowing developers to optimize endpoint selection and operators to direct efforts. The dev team is working on Hyperion log export functionalities and secure connection to the Hub. Repositories and commits are soon to be made public.
-
-This is an important step towards a decentralized infrastructure ecosystem.  
+While still working on the Hyperion Hub, part of the team is now working on the revamp of Hyperion Block Explorer which allows anyone running Hyperion to easily create a lightweight block explorer..
 
 Other than that we keep on supporting the community mainly through the telegram channel.
 
@@ -96,4 +96,3 @@ URL:
 Keep up the great work! 
 
 ----
-
