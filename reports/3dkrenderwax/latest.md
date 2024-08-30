@@ -19,7 +19,7 @@ No updates.
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API | IPFS        |
 | ----------------- | -------------- | ----------------- | -------------- | --------- | ----------- |
 | []                | [X]            | [x]               | [x]            | []        | [X]         |
-| -                 | 1.48M req/week | 479K req/week     | 1.30M req/week |           | 2K req/week |
+| -                 | 2.03M req/week | 219K req/week     | 1.82M req/week |           | 1.7K req/week |
 
 ### <ins>Contributions</ins>
 
@@ -31,129 +31,95 @@ No updates.
 
 **Update**:
 
-No development updates in the last period.
+We are continuing to adapt the game for mobile. In the meantime, we have improved some sections of the UI to make it more responsive and added the option to convert in-game resources into tradable NFTs.
 
 **WUFFI Partnership**
 
-We continue the partnership with WUFFI, which has been very well received by the community. We have conducted several live sessions to disseminate information about the game and the partnership.
+Our partnership with WUFFI remains strong as we continue to distribute WUF tokens through our game. The community has embraced this partnership with enthusiasm, leading to high participation across all related activities.
 
-- https://x.com/RadaQuestTCG/status/1810288724905021833
-
-**Fan Art**
-
-After several months running the Fan Art contest in the Hive community, we have considered that it is not giving the expected results, so we have paused this activity to be able to concentrate our efforts on the projects that require more attention.
-
-The last editions of the contest were:
-- https://hive.blog/hive-161342/@radaquest/9th-rada-quest-fan-art-contest-winners-and-introducing-the-10th-edition-with-exciting-game-updates-and-wuf-token-prizes
-- https://hive.blog/hive-161342/@radaquest/discovering-the-8th-rada-quest-fan-art-contest-winners-and-embarking-on-the-9th-edition-adventure
-- https://hive.blog/hive-161342/@radaquest/celebrating-the-7th-rada-quest-fan-art-contest-winners-and-launching-the-8th-edition#@deddywox/re-radaquest-2024423t17855409z
-
+- https://x.com/RadaQuestTCG/status/1828150923820138683
 
 **Intraverse**
 
-Rada Quest participated in the special edition of Intraverse, the WUFFI League, alongside other WUFFI partners, and we proudly ranked 16th. The event brought significant traction to our social media and our community enjoyed playing and winning various prizes.
+Rada Quest will be participating in the special Intraverse event, which will be held from September 2nd to 13th. This event features projects not only from WAX but also from other web3 communities and blockchains like Polygon and Cardano.
 
-- https://x.com/RadaQuestTCG/status/1797872216320704841
-
-Top 16
-- https://x.com/intraVerse_Game/status/1803736560732414390
+- https://x.com/RadaQuestTCG/status/1821545824775475417
 
 *Metal Battle Partner*
 
-Players can also earn more Meta Battler Points by using Rada cards in the highly anticipated game, Metal Battle (Soon).
+Our collaboration with the game Metal Battler is now live, allowing players to use Rada Quest cards to build decks and earn point boosts.
 
-- https://x.com/RadaQuestTCG/status/1810288724905021833
+- https://x.com/RadaQuestTCG/status/1819525046513131915
 
-Rada Lotto
+*Rada Lotto*
 
 All of this is documented in our live sessions on X.
 
-Lotto 7 Reproductions so far + Tuned in 69
-- https://x.com/RadaQuestTCG/status/1798372283884425711
+Lotto 10 Reproductions so far + Tuned in 100
+- https://x.com/RadaQuestTCG/status/1815407514428793054
 
-Lotto 8 Reproductions so far + Tuned in 108
-- https://x.com/RadaQuestTCG/status/1804172124115869957
+Lotto 11 Reproductions so far + Tuned in 61
+- https://x.com/RadaQuestTCG/status/1820484722205601820
 
-Lotto 9 Reproductions so far + Tuned in 39
-- https://x.com/RadaQuestTCG/status/1808878823112351888
+Lotto 12 Reproductions so far + Tuned in 64
+- https://x.com/RadaQuestTCG/status/1824106298004083183
 
+*Gems Tournament*
 
-**Metrics**
+We've seen a significant uptick in participation in our weekly Gems Tournament, reaching more than 300 active players. Many newcomers are also showing interest in mastering the best combos and climbing the ranks.
+
+![141](https://3dkrender.com/wp-content/uploads/2024/08/gems_141.png)
+![142](https://3dkrender.com/wp-content/uploads/2024/08/gems_142.png)
+![143](https://3dkrender.com/wp-content/uploads/2024/08/gems_143.png)
+
+**More Metrics**
 
 Internal metrics show a stable number of active users in the last period. 
 
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/07/radajun-jul24.png)
+![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/08/rada_082024.png)
 
 30 days period. Data from DappRadar:
 
-- Rank 21 in the WAX games category
-- 276 UAW (Unique Active Wallets) 30 days average
+- Rank 19 in the WAX games category
+- 291 UAW (Unique Active Wallets) 30 days average
 
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/07/july24.png)
+> *Note*: DappRadar metrics are not very representative as they are based on user interaction with our smart contracts and there are some operations, such as participating in the Gems minigame or the Coliseum, that do not require signing transactions. We have reduced transaction signing to reduce costs for players.
+
+![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/08/dappradar_082024.png)
 
 X (Twitter) metrics:
 
-![Twitter](https://3dkrender.com/wp-content/uploads/2024/07/radatwitter.png)
+![Twitter](https://3dkrender.com/wp-content/uploads/2024/08/rada_x-082024.png)
 
 ---
-# New Product
-
 ### Pug Tapper (Telegram Game)
 
 **URLs**: https://t.me/pugtapper_bot
 
-#### Introduction
-
-**Pug Tapper** is our new game that not only promises fun and entertainment but also acts as a connection point between different blockchain and non-blockchain ecosystems. This game represents an innovative way to integrate communities and platforms, offering a unique experience to players and establishing a bridge to new opportunities in the blockchain world.
-
-#### Spirit of the Game
-
-Pug Tapper is designed with the spirit of creating an collaborative environment. Our goal is to use the game as a funnel that connects the Telegram community with the WAX blockchain, as well as with various applications available on this blockchain. The idea is to foster a dynamic and active community where players from different games and platforms can interact and benefit from each other.
-
 #### Ecosystem Integration Strategy
+
+Pug Tapper's main goal is to serve as a link between communities. So far we have only consolidated collaborations within WAX but we hope to be able to expand our offer of collaborations to other chains to serve as a bridge between the different communities.
+
+The main use of Pug Tapper is the generation of Coins, either directly in the game or through activities in our collaborators' applications. With these Coins, players will be able to buy improvements within the game or they will be able to buy assets that the collaborating projects will offer to the Tappers community.
 
 1. Connection between Telegram and WAX
 - **Telegram Community**: Pug Tapper is launched on Telegram, where we already have an active community. Through daily rewards and special events, we encourage continuous participation and player loyalty.
 - **Bridge to WAX**: We use Pug Tapper to direct players to the WAX blockchain, offering them additional benefits and rewards when they engage with applications and games on WAX.
 
 2. Strategic Collaborations
-- **Rada Quest**: We are currently collaborating with Rada Quest. This collaboration allows Rada Quest players to earn rewards in Pug Tapper by completing activities in their game. This synergy not only enriches the player experience but also strengthens the communities of both games.
-- **Expanding Collaborations**: As more projects join as collaborators, we foresee a vibrant community of players coming from different games and platforms. These collaborations will facilitate greater interaction and movement within the ecosystem, creating a more robust and diverse environment.
+- **Rada Quest**: We continue to collaborate with Rada Quest. Some activities within the Rada Quest game grant Coins in Pug Tapper. Additionally, Rada Quest has offered Pug Tapper players the ability to purchase various NFTs in exchange for the Coins earned. These NFTs are used as special cards for the current Coliseum event in Rada Quest, so they are very useful.
+- **Meta Battler**: We are also collaborating with Meta Battler, a game that allows players to use NFT WAX from multiple collections to build decks and earn Meta Battler tokens. Some activities in Meta Battler generate Pug Tapper Coins. They have also given away an exclusive NFT for purchase with Pug Tapper Coins.
 
-#### Benefits for the Community
+**Some Metrics**
+- **Total players**: 9.3k
+- **Daily active players**: 700+
+- **Telegram Community**: 1.2k+ members
 
-1. Enriched Gaming Experience
-- Players have the opportunity to enjoy cross-game and cross-platform rewards and benefits.
-- The diversity of activities and rewards keeps players engaged and motivated.
+![Pug Tapper Metrics](https://3dkrender.com/wp-content/uploads/2024/08/pugtapper_082024.png)
+![Pug Tapper Metrics](https://3dkrender.com/wp-content/uploads/2024/08/pugtapper_tg_082024.png)
 
-2. Community Growth and Expansion
-- As more projects join, the Pug Tapper community will grow, attracting players from different ecosystems.
-- Interaction among players from different games will foster a broader and more diverse sense of community.
-
-3. Fostering Innovation
-- The integration of different platforms and games creates an environment conducive to innovation and the development of new ideas and collaborations.
-
-#### Conclusion
-
-Pug Tapper is not just a game but a strategic tool for connecting and enriching different ecosystems. Through our collaborations and integration strategies, we are creating an interconnected and dynamic player community. We hope this approach will not only increase the number of active users but also strengthen the position of Pug Tapper and our associated platforms in the market.
-
----
-
-#### Next Steps
-
-1. **Strengthen Collaboration with Rada Quest**: Implement more joint activities and promote cross-rewards to increase participation.
-2. **Seek New Collaborations**: Identify and establish partnerships with other games and platforms on the WAX blockchain and beyond.
-3. **Monitoring and Evaluation**: Continue monitoring player activity and adjusting our strategies to maximize impact and engagement.
-
-#### Metrics
-
-- **Telegram Community**: 300+ members (https://t.me/pugtapper)
-- **Daily Active Users**: 200+ users
-
-![Pug Tapper Metrics](https://3dkrender.com/wp-content/uploads/2024/07/pugtapper_july24.png)
-
-- **Twitter**: 150+ followers (https://x.com/PugTapper)
-![twitter](https://3dkrender.com/wp-content/uploads/2024/07/pug_twitter_july24.png)
+- **Twitter**: 550+ followers (https://x.com/PugTapper)
+![twitter](https://3dkrender.com/wp-content/uploads/2024/08/pugtapper_x-082024.png)
 
 ### Client/Server WAX App Template
 
@@ -165,6 +131,9 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 No updates in the last period.
 
+- 4 Stars
+- 3 Forks
+
 ### FundingWAX - Discord Bot
 
 **URLs**: https://test.fundingwax.com (testnet)
@@ -173,18 +142,19 @@ No updates in the last period.
 
 **Update**:
 
-No updates in the last period.
+We have started integrating the web client side of FundingWax with our official website for Dungeon Keeper Studios, our video game development company. Our intention is to offer a centralized environment where our clients can access all the features.
 
-**Metrics**
-
-_The application is in the testing phase. It currently only supports the use of the WAX testnet and can only be accessed from our public Discord server. Therefore, we do not have representative metrics._
+More information:
+- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
 
 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-We continue to contribute to the developer documentation portal with new translations into Spanish.
+We continue to contribute to the developer documentation portal with new translations into Spanish and tutorials.
+
+We have added an article about using WAX temporary accounts thanks to CloudWallet. While creating the article, a bug was discovered in the waxjs.js service that affected temporary accounts. After informing the WAX ​​team, the bug has been fixed and we were able to complete the tutorial.
 
 ---
 
@@ -194,117 +164,125 @@ We continue to contribute to the developer documentation portal with new transla
 
 **Marketing & Ecosystem Growth Summary**
 
-May 31 2024 to July 12 2024
-- Twitter: 25.2K impressions and 15316 Followers. Approximately +711 followers gained during this period.
-- X Space: 
-  - 5 spaces as co-host, 1 spaces as guest
-  - Total 6 spaces and approximate sum of reproductions so far + Tuned in: 1071
-- Twitch: Total 8 Live and approximate sum of reproductions so far + Tuned in: 945
-- WAX Hub: Rank number 2 with Influence 20.101 Reputation 51.144
+July 13 2024 to August 28 2024
+-	**Twitter**: 22.4K impressions and 15191 Followers. Media Activity 1.2K
+-	**X Space**: 
+  - 8 spaces as co-host, 1 space as guest
+  - Total 9 spaces and approximate sum of reproductions so far + Tuned in: 4467
+-	**Twitch**: Total 8 Live and approximate sum of reproductions so far + Tuned in: 1980
+-	**WAX Hub**: Rank number 2 with Influence 21.201 Reputation 51.844
 
 Activity breakdown
 
-![Cristalla](https://3dkrender.com/wp-content/uploads/2024/07/Cristalla_twitter_july24.png)
+![Cristalla](https://3dkrender.com/wp-content/uploads/2024/08/image003.png)
 
-During this period, Cristalla has focused on raising the visibility of the ecosystem to live audiences through streams and spaces on X, as well as participating in several excellent initiatives detailed below.
-
-**WUFFI League**
-
-As the official streamer for the WUFFI League of Intraverse, Cristalla provided live coverage of the rounds for the community and distributed prizes.
-
-- https://x.com/intraVerse_Game/status/1803356775585907083
+During this period, Cristalla continued to host spaces on X and live streaming sessions to bring visibility to various ecosystem projects, share news, and attract audiences to all associated products.
 
 **Twitch**
 
-AMAs with projects and coverage of special events like the WUFFI League of Intraverse were conducted, alongside regular streams featuring new updates from WAX, WUFFI, and various projects on WAX. Multi-streaming on both Twitch and X simultaneously has been initiated to achieve greater reach.
+![Twitch](https://3dkrender.com/wp-content/uploads/2024/08/image005.png)
+![Twitch](https://3dkrender.com/wp-content/uploads/2024/08/image007.png)
 
-AMA Aphelium
-- https://www.twitch.tv/videos/2159317409
-
-WUFFI League Round 1
-- https://www.twitch.tv/videos/2175276192
-
-WUFFI League Round 1
-- https://www.twitch.tv/videos/2176214909
-
-WUFFI League Round 2
-- https://www.twitch.tv/videos/2176975420
-
-WUFFI League Round 2
-- https://www.twitch.tv/videos/2177851975
-
-
-**WAX NEWS**
-- https://www.twitch.tv/videos/2187459164
+Live 25-07-2024 
+- https://www.twitch.tv/videos/2207111185
 Multistream X
-- https://x.com/queencristalla/status/1808198870234538102
+- https://x.com/queencristalla/status/1816535131089436745
 
-**WAX NEWS**
-- https://www.twitch.tv/videos/2193357553
+Live 30-07-2024 
+- https://www.twitch.tv/videos/2211423642
 Multistream X
-- https://x.com/queencristalla/status/1810738447100854345
+- https://x.com/queencristalla/status/1818348004107059434
 
-**BINX QR & WAX NEWS**
-- https://www.twitch.tv/videos/2195029340
+Live 5-08-2024 
+- https://www.twitch.tv/videos/2216480939
+
+Live 6-08-2024 
+- https://www.twitch.tv/videos/2217445314
 Multistream X
-- https://x.com/queencristalla/status/1811461738291741124
+- https://x.com/queencristalla/status/1820886629080297808
+
+Live 8-08-2024 
+- https://www.twitch.tv/videos/2219144015
+Multistream X
+- https://x.com/queencristalla/status/1821607694949617952
+
+Live 15-08-2024 
+- https://www.twitch.tv/videos/2224952964
+Multistream X
+- https://x.com/queencristalla/status/1824112007643111875
+
+Live 20-08-2024 
+- https://www.twitch.tv/videos/2229292379
+Multistream X
+- https://x.com/queencristalla/status/1825929583532949676
+
+Live 27-08-2024 
+- https://www.twitch.tv/videos/2235389863
 
 **X SPACES**
 
 NFTOPIA Wednesday co-host 
 
-Week 13 05-06-2024 Reproductions so far + Tuned in 73
-- https://x.com/thenftopia/status/1796616595902730250
+Week 18 17-07-2024 Reproductions so far + Tuned in 146
+- https://x.com/thenftopia/status/1813634185128722670
 
-Week 14 12-06-2024 Reproductions so far + Tuned in 217
-- https://x.com/thenftopia/status/1800950029877915885
+Week 19 24-07-2024 Reproductions so far + Tuned in 118
+- https://x.com/thenftopia/status/1816172144893776243
 
-Week 15 19-06-2024 Reproductions so far + Tuned in 139
-- https://x.com/thenftopia/status/1801739540996231272
+Week 20 31-07-2024 Reproductions so far + Tuned in 118
+- https://x.com/thenftopia/status/1818708542540726284
 
-Week 16 26-06-2024 Reproductions so far + Tuned in 119
-- https://x.com/thenftopia/status/1804975661368668228
+Week 21 01-08-2024 Reproductions so far + Tuned in 134
+- https://x.com/thenftopia/status/1821244845979316464
 
-Week 17 10-07-2024 Reproductions so far + Tuned in 118
-- https://x.com/thenftopia/status/1808240738125353312
+Week 22 14-08-2024 Reproductions so far + Tuned in 139
+- https://x.com/thenftopia/status/1823780962410623401
 
+Week 23 21-08-2024 Reproductions so far + Tuned in 150
+- https://x.com/thenftopia/status/1826318642214216144
 
-**Intraverse WUFFI League guest**
+Week 24 28-08-2024 Reproductions so far + Tuned in 235
+- https://x.com/thenftopia/status/1828854678987387378
 
-11-07-2024 Reproductions so far + Tuned in 405
-- https://x.com/queencristalla/status/1800233836053455253
-- https://x.com/intraVerse_Game/status/1800558724911903224
+WAX Wednesday Co-host Latin American projects on WAX
 
-**X Threads**
+28-08-2024 Reproductions so far + Tuned in 312
+- https://x.com/WAX_io/status/1828824980852777158
 
-Vulnerability Agents (WUFFI Partner)
-- https://x.com/queencristalla/status/1799093280593924284
-Zombiecoin (WUFFI Partner)
-- https://x.com/queencristalla/status/1801230268843348345
+Intraverse September Fest X space (Rada Quest)
 
-Rada Quest (WUFFI Partner)
-- https://x.com/queencristalla/status/1809261572067405941
-
-**WAX Streamer Station**
-
-The community of streamers on WAX has been growing recently. Audiences enjoy interacting and playing with everything WAX live, and more people are joining to support the streamers. In response, Cristalla and other community streamers have formed the WAX Streamer Station, an initiative (currently on Discord and X) where both streamers and viewers can enjoy organized schedules, streamer calendars, notifications, and more. Join us!
-
-- https://x.com/WAXstream/status/1805821965443232053
+8-08-2024 Reproductions so far + Tuned in 1000
+- https://x.com/RadaQuestTCG/status/1821046509615419810
 
 **Binx Partner**
 
-Participating in the Binx Wellness Treasure Quest event from July to December as a Binx Partner.
+Cristalla participated in the Binx Wellness Treasure Quest event as a Binx Partner from July to December, promoting the assigned codes for August.
 
 What is Binx? Binx is a new kind of social streaming community focused on content creators. It builds apps, tools, and services dedicated to enhancing social video streaming all over the world.
+- https://x.com/queencristalla/status/1825919638254809348
 
-https://x.com/queencristalla/status/1811961811882725735
+
+**Blockchain Stream Team**
+
+Cristalla joined the Blockchain Stream Team initiative, collaborating with other streamers to spotlight web3 projects across different ecosystems.
+
+- https://x.com/queencristalla/status/1814295596343136700
+
+
+**Collaboration with ITEMZ GAMES LATAM to Include WAX**
+
+The ITEMZ GAMES LATAM team organized a web3 event in Mexico City on August 17th, where Cristalla helped coordinate the inclusion of the WAX logo in the physical promotional materials. This effort was aimed at introducing the WAX blockchain to a broader audience. All permissions for logo usage were obtained from the WAX team, and official digital resources were used.
+
+- https://x.com/ITEMZ_LATAM/status/1821026356655792614
+- https://x.com/ITEMZ_LATAM/status/1820944846997352889
+- https://x.com/soyjair42/status/1825309875980927325
 
 
 **WAX Hub**
 
 Second place on the leaderboard.
 
-![waxhub](https://3dkrender.com/wp-content/uploads/2024/07/waxhub_july24.png)
+![waxhub](https://3dkrender.com/wp-content/uploads/2024/08/image011.png)
 
 
 ### <ins>Backups </ins>
@@ -319,7 +297,7 @@ URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
 
 We have shared this report on our social networks:
 
-- https://3dkrender.com/3dk-render-guild-july-2024-report/
-- https://x.com/MarcoS3DK/status/1812500483744903274
+- https://3dkrender.com/3dk-render-guild-august-2024-report/
+- https://x.com/MarcoS3DK/status/1829483647725965324
 
 ---
