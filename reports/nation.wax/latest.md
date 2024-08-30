@@ -3,7 +3,7 @@
 |  |  |
 | --- | --- |
 | Website | https://eosnation.io/ |
-| Contact | stephane@eosnation.io |
+| Contact | daniel@eosnation.io |
 | bp.json (mainnet) | https://eosnation.io/wax.json |
 | bp.json (testnet) | https://eosnation.io/waxtest.json |
 | producer (mainnet) | nation.wax |
@@ -11,7 +11,9 @@
 | Guild Jurisdiction | Sherbrooke, Quebec, Canada |
 
 ### <ins>Noteworthy</ins>
-Nothing to report for this evaluation period.
+As core developers on The Graph (under our Pinax brand), this past month we added [official support for WAX Firehose and Substreams on The Graph](https://thegraph.com/networks/wax/?subnetwork=wax-mainnet). As we prepare to transition our dfuse services to our more modern data stack offered with Pinax and add support for WAX Subgraphs on The Graph, we also released some new foundational building blocks available for the community to start leveraging immediately, including our new [WAX Datasets and Raw Blocks Substreams](https://pangea.substreams.pinax.network), and our [Antelope foundational Substreams modules](https://blog.pinax.network/substreams/stream-seamless-antelope-data-with-epic-new-foundational-substreams-modules/) that make it easier to build custom Substreams for your specific use cases on WAX.
+
+[The Graph](https://thegraph.com) is a widely adopted industry standard protocol for indexing blockchain data, supporting many different blockchains. WAX Subgraphs on The Graph will bring a new way for dApps on WAX to index data in a way that's familliar with developers in the broader web3 industry. It will also make it easier to have WAX dApps listed on data aggregators like [CoinGecko](https://www.coingecko.com), [CoinMarketCap](https://coinmarketcap.com), and [DefiLlama](https://defillama.com) since they favour or sometimes even require that an application is indexed with a Subgraph on The Graph before it can be listed on their platforms. We're proud to have brought support for WAX Firehose and Substreams on The Graph, and look forward to adding support for Subgraphs next month. Read more about [The Graph's curation program](https://thegraph.com/blog/curator-program-launch/) with the biggest data aggregators in the industry.
 
 ### <ins>API Services</ins>
 
@@ -30,8 +32,15 @@ Firehose and Substreams on WAX: https://pinax.network/en/chain/wax
 
 Firehose and Substreams on WAX Testnet: https://pinax.network/en/chain/waxtest
 
+Firehose and Substreams for WAX and WAX Testnet on The Graph (hosted by Pinax): 
+- https://thegraph.com/networks/wax/?subnetwork=wax-mainnet
+- https://thegraph.market/services/firehose/wax
+- https://thegraph.market/services/substreams/wax
+- https://thegraph.market/services/firehose/wax-testnet
+- https://thegraph.market/services/substreams/wax-testnet
+
 **Update**:
-The team has been making progress on our new [Antelope Token API](https://github.com/pinax-network/antelope-token-api) with support for WAX, built on the Firehose/Substreams data stack. 
+We'll be launching our new [Antelope Token API](https://github.com/pinax-network/antelope-token-api) and [Antelope Transactions API](https://github.com/pinax-network/antelope-transactions-api) next week, with support for WAX, built on the Firehose/Substreams data stack. See the noteworthy section above for more updates on our progress on bringing support for WAX on The Graph and increasing adoption for WAX Firehose and Substreams. 
 
 **Metrics**
 
