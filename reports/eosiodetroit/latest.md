@@ -12,10 +12,8 @@
 
 ### <ins>Noteworthy</ins>
 
-* Our team got to the bottom of a latent bug in WAX Labs which messed up deliverable filters and released a fix. Please consider acknowledging our team's maintenance efforts.
-* Pantheon (the WAX game DLT has developed mentioned in prior reports) is slated to conduct a beta test starting in mid August.
-* We have invested in some bare-metal WAX testnet signer hardware upgrades.
-
+* Pantheon, our TCG, had its closed beta period during this reporting period. We cordially invite the IGs to play test the game with us as time permits.
+* Some of the investigation work for various WAX Labs bugs and missing features was performed and require coordination with the WAX team. Additional development hours to be scheduled next reporting period.
 
 * For awareness: 
     * DLT's IPFS Gateway can be accessed via https://ipfs.gateway.detroitledger.tech
@@ -23,44 +21,42 @@
     * DLT's Monthly AtomicAssets API (v1.3.24) database backups are available at: https://detroitledger.tech/backups/atomic
         * Please feel free to contact us if you are in need of a current-day backup!
 
-
-
 ### <ins>API Services</ins>
-
 
 | Stats |WAX Hyperion - FULL (mainnet)| Chain / History (full) | AtomicAssets API | IPFS |
 |---------------------|----------------------------------|------------------------|-------------------|-----------------|
 | Active|Yes|Yes|Yes|Yes| **
-| Requests/day| 94,121 | 121,763 |16,176|N/A|
+| Requests/day| 89,653 | 80,231 | 7,286 |N/A|
 | Additional Info|| ||ipfs.gateway.detroitledger.tech
-
 
 ### <ins>Contributions</ins>
 
 ### Nodesuite
 
-**URLs**: https://github.com/eosdetroit/nodesuite, 
+**URLs**: https://github.com/eosdetroit/nodesuite 
 
 **List of SCs**: N/A
 
 **Update**: 
-N/A
+* No updates.
 
 ### WAX Labs
 
-**URLs**: https://labs.wax.io, https://github.com/worldwide-asset-exchange/wax-labs-ui, 
+**URLs**: https://labs.wax.io, https://github.com/worldwide-asset-exchange/wax-labs-ui 
 
 **List of SCs**: labs.wax
 
 **Update**: 
-* Deliverables filter fixes.
-
+* It was reported to us that there is exploit within the momentjs (time localization) library. We investigated this issue and determined that the reporting user was looking at WAX Labs 2.0 and not the current 3.0 version.
+* The current codebase was transferred to WAX's org/public repository. We're still working on migrating the deployment steps to Github.
+* The Telegram notifications have been done but not active because there was an expectation/miscommunication that we would be using API keys that the WAX team managed. We will be scheduling a call with the WAX team in the coming weeks to get this fully active and discuss the optimal Github deployment strategy.
+* The deliverable filter issue is still being investigated due to difficulty replicating the issue in local/testnet environments.
 
 **Metrics**
 
-Period: June 1st, 2024 - July 15th, 2024
+Period: July 16th, 2024 - August 31st, 2024
 
-* New proposals submitted: 2
+* Proposals submitted: 5 new proposals submitted, 1 proposal resubmitted
 
 ### FACINGS Studio
 
@@ -69,7 +65,8 @@ Period: June 1st, 2024 - July 15th, 2024
 **List of SCs**: mint.facings, open.facings, make.facings, earn.facings
 
 **Update**: 
-* FACINGS continues to build its Studio MVP for a release targeting this Fall. We're working on sales architecture now.
+* FACINGS is finishing up the the new pack sales architecture in support of Pantheon's pack sale slated for October. A test sales page is located here: https://pantheon.test.facings.io/shop.html
+* Additional work is being performed to optimize assigning of abilities to the Pantheon god cards randomly/dynamically, which can be reused and implemented into the Studio.
 
 ### FACINGS Creator
 
@@ -78,11 +75,21 @@ Period: June 1st, 2024 - July 15th, 2024
 **List of SCs**: atomicassets
 
 **Update**: 
-* Fixes related to rendering SVGs and showing properly sized thumbnails.
+* No updates to the open source creator suite.
+
+### Pantheon (Game)
+
+**URLs**: https://playpantheon.com, https://pantheon.detroitledger.tech (beta link)
+
+**List of SCs**: dummyholding (testnet), pantheonundr (testnet)
+
+**Update**:
+* "Closed" beta was performed over the August 11th to August 31st timeframe on the WAX testnet. The game is in a stable state with various bug fixes and quality of life features planned to be implemented during the month of September. The beta had multiple game tables running at one time and 20-30 people participated.
+* The mainnet pack sale will take place during the first half of October, and the live release of the game will take place in the second half of October.
 
 ### Pyntelope
 
-**URLs**: https://github.com/FACINGS/pyntelope, 
+**URLs**: https://github.com/FACINGS/pyntelope
 
 **List of SCs**: N/A
 
@@ -98,7 +105,7 @@ Period: June 1st, 2024 - July 15th, 2024
 * No update
 
 ### <ins>Marketing</ins>
-* We're working on a marketing plan for Pantheon with the client.
+* Building a social presense for Pantheon began this period. The official [X account](https://x.com/Pantheon_TCG) gained 116 followers and the number of users in [Discord](https://discord.gg/zSKc77Tnvj) is 65. Various content creators and ambassadors such as @queencristalla, @UsoroEmmanuel, @2mrpc, @Kenny_Tomide, and @thenftopia have started to promote the beta and game in general. Numerous how-to videos have been created by additional community members.
 
 ### <ins>Backups </ins>
 
@@ -108,3 +115,4 @@ Daily WAX Mainnet Snapshots - https://snapshots.detroitledger.tech
 ### <ins>Feedback to OIG</ins>
 
 None.
+
