@@ -12,21 +12,15 @@
 
 ### <ins>Noteworthy</ins>
 
-1. Deployed testing nodeos cluster as testnet api poc
-2. Resolved multiple internal hiccups that cloudflare ended up with when they forcefully switched everyone to http2 on origins
-3. Assisting with deployment of WAX infra from our backup storage
-
-Delayed a lot of work due to NDA project, but:
-
-1. Still - WIP Datadog monitoring lib suite - completed delphioracle and bp block tracking, as well as api monitoring. p2p in progress, wrapping everything in portable format.
-2. Still - WIP IBC - deployed testing proof server on testnet eos and wax envs, figuring out what to do next.
+We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
+The reason is being investigated.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 19.4M req/week | 57.1K req/week | 2.09M req/week | 58.1K req/week |  126.7K req/week |
+| - | 17.1M req/week | 49K req/week | 2.13M req/week | 51K req/week |  115K req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -47,7 +41,7 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Metrics**
 
-Period: June 15th, 2024 - July 15th 2024
+Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
@@ -70,7 +64,7 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: June 15th, 2024 - July 15th 2024
+Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
