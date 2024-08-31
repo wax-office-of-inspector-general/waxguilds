@@ -31,15 +31,19 @@ Others APIs: none at the moment
 **URLs**: https://waxdapps.io/
 
 **Update**
-Traffic for the last 30 days was 23,760. Implemented twitter feed window of relevant tweets. Added "Learn" tab to help new users/visitors. 
+Traffic for the last 30 days was surging. We are pleased with the results! 20,000+ visitors. 
+Dev Updates: Implemented twitter feed window of relevant tweets. Added "Learn" tab to help new users/visitors. 
 
 *Added Listings*
-* 
+* WAX Fusion (DeFi)
+* BitMart (Exchange)
 
-
-*Removed Listings*
+*Removed Listings* 
 * Token Gamer (Live Drop Schedules)
-* 
+* GoldMand Game (P2E)
+* Million on Mars (P2E)
+* Train of the Century (P2E)
+
 
 **Metrics**
 Period: July 15th, 2024 - August 31th 2024
