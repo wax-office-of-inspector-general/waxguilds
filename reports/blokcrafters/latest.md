@@ -38,6 +38,7 @@ Traffic for the last 30 days was 23,760. Implemented twitter feed window of rele
 
 
 *Removed Listings*
+* Token Gamer (Live Drop Schedules)
 * 
 
 **Metrics**
