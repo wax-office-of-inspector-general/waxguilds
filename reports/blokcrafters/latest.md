@@ -31,7 +31,7 @@ Others APIs: none at the moment
 **URLs**: https://waxdapps.io/
 
 **Update**
-Visitor traffic during this period has grown 5x. We are not sure for the reason but we are happy to see it.
+Traffic for the last 30 days was 23,760. Implemented twitter feed window of relevant tweets. Added "Learn" tab to help new users/visitors. 
 
 *Added Listings*
 * 
@@ -63,16 +63,10 @@ Period: July 15th, 2024 - August 31th 2024
 Significant progress has been made for WAX AI:
 
 1. **Training Expansion**: 
-   - WAX AI Update:
+   - WAX AI Update: 
 
 2. **User Interface (UI) Enhancements and Bug Fixes**:
-   - **Chat Function Improvements**: chat function improvements.
-   - **Code Block Bug Fix**: Resolved an issue where the assistant’s code blocks were not displaying correctly when copied.
-   - **Conversational Pathways**: Fixed bugs related to the assistant’s conversational pathways that were causing conversation threads to break.
-
-**Metrics**
-Period: July 15th, 2024 - August 31th 2024
-*Stats*
+   - **Chat Function Improvements**: 
 
 ### <ins>Marketing</ins>
 
