@@ -26,6 +26,7 @@ Others APIs: none at the moment
 ### <ins>Contributions</ins>
 
 ### WaxDapps
+![waxdapps](https://github.com/user-attachments/assets/64450ac8-e765-424e-a37a-8b45c9b1c21a)
 
 **URLs**: https://waxdapps.io/
 
@@ -33,24 +34,27 @@ Others APIs: none at the moment
 Visitor traffic during this period has grown 5x. We are not sure for the reason but we are happy to see it.
 
 *Added Listings*
-* None
+* 
 
 
 *Removed Listings*
-* None
+* 
 
 **Metrics**
-Period: May 31th, 2024 - July 15th 2024
+Period: July 15th, 2024 - August 31th 2024
 *Stats*
 
-![igg3](https://github.com/user-attachments/assets/b772e974-e465-486f-a536-f54aa468bfd1)
-![igg2](https://github.com/user-attachments/assets/cf40ccb9-793b-4eed-a894-fbe78e90483b)
-![igg1](https://github.com/user-attachments/assets/98ef3bf1-2651-4273-8d66-4d95c502839b)
+![IG_report_8 31](https://github.com/user-attachments/assets/acab9a79-f436-401b-8a51-b72cfac80c68)
+![IG_report_8 31 1](https://github.com/user-attachments/assets/c9b0b0d8-3013-416b-950c-f1e0f59ea6b4)
+![IG_report_8 31 2](https://github.com/user-attachments/assets/11da5ca8-538b-45a9-876c-72da11bbc8ec)
+
 
 
 
 ### WaxAI 
-![waxai_igreport](https://github.com/user-attachments/assets/8df2895f-3011-4ed5-af35-6c25d90e6973)
+![waxai (1)](https://github.com/user-attachments/assets/7f719897-2bde-4acd-90fa-05fdbbe5ed60)
+
+
 
 **URls** https://waxai.io/
 
@@ -59,24 +63,16 @@ Period: May 31th, 2024 - July 15th 2024
 Significant progress has been made for WAX AI:
 
 1. **Training Expansion**: 
-   - WAX AI has been trained on all waxdapps.io resources totalling 97+ different projects/tools within the WAX ecosystem, categories indlude:
-     - Play to Earn
-     - Market Places
-     - Developer Resources/Tools
-     - Exchanges
-     - NFT Tools
-     - DeFi
-     - Block Explorers
-     - Market Ranking Sites
-     - Android / iOS Apps
-     - Live Drops Schedules
-     - Wallets
-     - Funding
-     - Community
+   - WAX AI Update:
+
 2. **User Interface (UI) Enhancements and Bug Fixes**:
    - **Chat Function Improvements**: chat function improvements.
    - **Code Block Bug Fix**: Resolved an issue where the assistant’s code blocks were not displaying correctly when copied.
    - **Conversational Pathways**: Fixed bugs related to the assistant’s conversational pathways that were causing conversation threads to break.
+
+**Metrics**
+Period: July 15th, 2024 - August 31th 2024
+*Stats*
 
 ### <ins>Marketing</ins>
 
