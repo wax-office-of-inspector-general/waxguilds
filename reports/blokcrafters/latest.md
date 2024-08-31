@@ -12,8 +12,8 @@
 
 ### <ins>Noteworthy</ins>
 
-We had an issue with the letsencrypt certificates not working properly with java for elasticsearch.
-This was resolved within a few hours.
+Thankfully this was a quiet period for us.  Several of us were travelling or on vacation.
+Nothing noteworthy to report this period.
 
 ### <ins>API Services</ins>
 
