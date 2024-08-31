@@ -19,7 +19,7 @@ No updates here
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ X] | [x] | [x] | [x] | [x] |  [x] |
-| X | 2549186 | 15715 | 3469011 | 10 |  1010 |
+| X | 7087331 | 10238 | 4557067 | 0 |  20 |
 
 Those are last 7 days stats
 
@@ -33,38 +33,38 @@ Those are last 7 days stats
 darkcountryz, darkcountrys, darknovastak, exportexport
 
 **Update**: 
-"Launched event especially with Wombat, onboarded 100+ new users. https://darkcountry.io/wombat 
+"Lots of collaborations on our new launch, that may bring  
 
-Fixes for game stability
+Updates on Tournaments, so now tournaments can be run by holding only certains cards of certain collection.
 
-Also launched ongoing SDM/WAX, SDM/WUFFI WUFi farming at Alcros with APR 300%+ 
+Re-launched  SDM/WAX, SDM/WUFFI WUFi farming at Alcros with APR 300%+ 
 
-Period: June 1st, 2024 - July 15th 2024
+Period: July 16th, 2024 - August 31st 2024
 
 
-**Sales of NFTs, 322$ total over last 30 days
-UAW on chain: 90 ( growth from +10 from last report), over last 30 days (310 UAW)
-game DAU: 35, average time 2.5 hour ( so DAU increased + 10 players a day, time played at same level)
-374  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes , +3 new wallets
-Over 146 000 of Dark Country NFTs staked in game at the moment (-2k NFTs drop from previous time)
+**Sales of NFTs, 650$ total over last 30 days (2x from last month)
+UAW on chain: ~70 
+game DAU: 35, average time 2.5 hour ( same DAU as it was before) 
+378 (+4 new)  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes ,
+Over 146 000 of Dark Country NFTs staked in game at the moment (same as previous peiriod)
 **---
 ### Collect.Social
 
-**URLs**: collect.social, 
+**URLs**: collect.social,
 
 **List of SCs**: collectwhale, collectclaim, collectalley, collectpromo
 
 **Update**: 
-"New During last 6 weeks we performed initiation of 21 auctions and brings attention to old and new users as well. " 
+"Again: During last 6 weeks we performed initiation of 21 auctions and brings attention to old and new users as well. " 
 We are working on WUF integration in the Collect. 
-Also launched WUF farming rewards for RACOON/WAX pool
+Re-launched WUF farming rewards for RACOON/WAX pool. got very good trading volumes
 
 **Metrics**
 
-Period: June 1st, 2024 - July 15th 2024
+Period: July 16th, 2024 - August 31st 2024
 
-UAW on chain: 190 (last 30 days)
-Sales of NFTs, 15$ total over last 30 days
+UAW on chain: 150 (last 30 days)
+Sales of NFTs, 65$ total over last 45 days
 
 ---
 ### AlchemySwap
@@ -78,12 +78,9 @@ Sales of NFTs, 15$ total over last 30 days
 
 **Metrics**
 
-Period: June 1st, 2024 - July 15th 2024
+Period: July 16th, 2024 - August 31st 2024
 
-Created BUY pools: 8 active ( +1 new pool) 
-Created SELL pools: 27 active pools) 
-Created TRADE pools: 3 (all active)
-
+4 new pools created during reporting period 
 ---
 ### King of The Hill (NEW PRODUCT)
 
@@ -92,11 +89,11 @@ Created TRADE pools: 3 (all active)
 **List of SCs**: kingofthetap
 
 **Update**: 
-"Made updates for better prize distribution, got feedback on how to improve it more to be less bot friendly. 
+"Working on improvement on how game should work moving further"
 
 **Metrics**
 
-Period: June 1st, 2024 - July 15th 2024
+Period: July 16th, 2024 - August 31st 2024
 
 DAU: 11
 Pool size: up to 10M WUF day
@@ -108,7 +105,9 @@ Users funds: ~ +1M a day on top of the pool to play game
 **URLs**: dapplica.io/blog 
 
 **Update**: 
-"Prepared, reviewed and Submitted all 18 articles into developers.wax.io portal for merging  
+Two final articles were published
+https://dapplica.io/blog/wax/part-19-putting-it-all-together-to-launch-a-game/ 
+https://dapplica.io/blog/wax/part-20-deployment-of-our-games-smart-contracts-on-wax-blockchain/ 
 **Metrics**
 
 ---
@@ -119,25 +118,25 @@ Users funds: ~ +1M a day on top of the pool to play game
 
 **Metrics**
 
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
-stats on the bot: Users: 301(+3 users) , Wallets: 181(+1 wallet)
+stats on the bot: Users: 301(no new users) , Wallets: 182(+1 wallet)
 
 ---
 
 ### <ins>Marketing</ins>
 
 
-1. (Still upcoming due to Blumint side delays) Larger partnerships with Blumint.com to bring new web2 player guilds into Dark Country, so mainly into WAX as they do support WAX on the platform. We are giving 2500$ budget for June to run 10-15 events(mainly tournaments) and expect to receive several hundreds new players. 
-2. Wombat and Dark Country partnership
-
+1. More than 10 partnerships along with our new collection, so assuming some users can join WAX to use our other collections.
+2. https://dapplica.io/blog/wax/part-19-putting-it-all-together-to-launch-a-game/ 
+https://dapplica.io/blog/wax/part-20-deployment-of-our-games-smart-contracts-on-wax-blockchain/ 
 
 ### <ins>Backups </ins>
 URL: https://atomicbackup.dapplica.io/
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [X] | [X] | 3469011
+| [x] | [x] | [x] | [X] | [X] | 4557067
 
 
 ### <ins>Feedback to OIG</ins>
