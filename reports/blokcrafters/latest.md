@@ -68,6 +68,11 @@ Significant progress has been made for WAX AI:
 2. **User Interface (UI) Enhancements and Bug Fixes**:
    - **Chat Function Improvements**: 
 
+**Metrics**
+Period: July 15th, 2024 - August 31th 2024
+*Stats*
+- We will be submitting metrics for waxai starting next report! 
+
 ### <ins>Marketing</ins>
 
 
