@@ -11,15 +11,15 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We started work on our new flagship product WAXMap to be introduced on call. We had some difficulties with our Hyperion previously, but it has been fixed. We have also setup backups for Atomic Assets and Chain DB. We are also almost done setting up Blocks Log and State History backups as well. 
-
+We faced issues with our full history Hyperion, causing us to resync. During the downtime we setup a partial hyperion as a backup. We released a major update to our strategist yesterday implementing many of the user suggestions and feedback to make the tool more useful and beginner friendly. 
+Finished setting up state history and blocks log snapshots.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | 1788/week | - |
+| [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
+| - | - | - | - | 2054/week | - |
 
 
 ### <ins>Contributions</ins>
@@ -33,7 +33,7 @@ New: https://blog.qaraqol.com/
 **List of SCs**: N/A  
 
 **Update**: 
-We began working on creating new content on the Qaraqol website, transferring over some articles previously published if still relevant and updating them. We also started planning & creating scripts for video tutorials. 
+We continued working on creating new content for the Qaraqol website, while transferring over some articles previously published if still relevant and updating them. Started recording video content to be edited and released in the next few weeks. 
 
 
 **Metrics**
@@ -48,18 +48,18 @@ New: https://github.com/qaraqol/WaxMarketCap-IPFS-script
 
 List of SCs: n/a 
 
-Update: We developed an open source IPFS script that allows guilds or anyone with an IPFS node to automatically pin every single asset of top 30 Atomic Market collections or any of their choosing to their IPFS node. In our new updated version, it automatically grabs the top 30 collections through the WaxMarketCap API, making it so the most important collections don't need to be provided manually
+Update: No update
 
 Qaraqol Tool Strategist (Alien Worlds)
 
 URLs: https://strategist.qaraqol.com/
 
 
-Update: We are working on new features and fixing bugs. We are planning slight changes to UI to make it easier to understand and use the tool before heavily advertising and onboarding new users.
+Update: Developed new feature to allow for users to change the NFT point exchange rate from $0-100 as requested by users instead of a default hardcoded rate. We also added multiple new filters/sliders on the Customize Build and All Builds page such as CPU in ms per day and TLM per day. Also added tooltips explaining what certain sliders mean to make the tool more beginner friendly and bring new users in to WAX and Alien Worlds.
 
 Metrics
 
-86 users 6/01-7/01
+78 users 8/01-8/31
 
 ---
 
@@ -72,7 +72,7 @@ URL: (https://snapshots.qaraqol.com/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [] | [] | [ ] | [x] |
+| [x] | [x] | [x] | [ ] | [x] |
 
 ### <ins>Marketing</ins>
 
