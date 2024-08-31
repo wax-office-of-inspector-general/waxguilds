@@ -82,7 +82,7 @@ Stats:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-43 active pools with about 1000+ active user stakes accross the platform.
+44 active pools with about 1000+ active user stakes accross the platform.
 
 ![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
 ![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
