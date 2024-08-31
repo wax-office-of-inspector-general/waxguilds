@@ -60,13 +60,12 @@ Period: July 15th, 2024 - August 31th 2024
 
 
 ### Project Update
-Significant progress has been made for WAX AI:
 
-1. **Training Expansion**: 
-   - WAX AI Update: 
+1. **AI Training Improvment's**: 
+   - Knowledge Base: Adjusted WAX AI's knowledge base to improve accuracy of output. 
 
 2. **User Interface (UI) Enhancements and Bug Fixes**:
-   - **Chat Function Improvements**: 
+   - **Chat Function Improvements**: Made improvements to UI/UX 
 
 **Metrics**
 Period: July 15th, 2024 - August 31th 2024
