@@ -11,14 +11,15 @@
 | Guild Jurisdiction | Oregon, US |
 
 ### <ins>Noteworthy</ins>
-- We performed a number of data migrations to improve performance of our tools at https://www.alohaeos.com/tools. Users should see a notable improvement in responsiveness on the Benchmarks.  
+- We are almost finished creating the custom timeframe reporting on our Benchmarks tool per an OIG request.   
+- We have been participating in the Savanna upgrades testing on the Jungle 4 and Kylin testnets. This has introduced changes that broke our reliability tracking of which we have been working on solving. This will be important when and if WAX adopts Savanna.   
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [ ] | [ ] | [ ] | [ ] |  [ ] |
-| - | 45k / day | - | - | - |  - |
+| - | 49k / day | - | - | - |  - |
 
 
 ### <ins>Contributions</ins>
@@ -29,9 +30,8 @@
 
 **Updates**: 
 
-- Droppp Arcade Announcement: https://x.com/Dropppio/status/1803186876473586003
-- Misc design updates
-- Misc bug fixes
+- Card ID: Optimize Your Trading and Selling! Our new Card ID features make managing your inventory easier than ever. You can now search by Card ID within each collection, including the ability to search for multiple Card IDs at once.   
+- Misc bug fixes   
 
 Stats: - Droppp has created over 200k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
@@ -45,18 +45,17 @@ Stats: - Droppp has created over 200k WAX “*.dp” accounts (verifiable on cha
 
 Updates:
 
-- On Jun 5, 2024 we took a redemption snapshot for [Fantastik Plastik Series 2](https://droppp.io/drop/171/fantastik-plastik-series-2/) and opened the redemption at https://droppp.io/redemptions.   
-- On Jun 7, 2024 we completed the redemption for [Squid Games x Funko Series 1](https://droppp.io/drop/165/squid-game-series-1/).   
-- On Jun 11, 2024 we released the [Batman 85th x Funko Series 1](https://droppp.io/drop/201/batman-85th-series-1/) Digital Pop! collection on Droppp. This release consisted of 18k Standard and 24k Premium packs.   
-- On Jun 14, 2024 we announced the [The Disney Afternoon x Funko Series 1](https://droppp.io/drop/204/the-disney-afternoon-series-1/) Digital Pop! drop.
-- On Jun 19, 2024 we took a redemption snapshot for [Space Jam x Funko Series 1](https://droppp.io/drop/174/space-jam-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Jun 21, 2024 we announced the [Daria x Funko Series 1](https://droppp.io/drop/207/daria-series-1/) Digital Pop! drop.
-- On Jun 21, 2024 we completed the redemption for [Harry Potter x Funko Series 1](https://droppp.io/drop/168/harry-potter-series-1/).   
-- On Jun 25, 2024 we released the [Disney Afternoon x Funko Series 1](https://droppp.io/drop/204/the-disney-afternoon-series-1/) Digital Pop! collection on Droppp. This release consisted of 15k Standard and 19k Premium packs.      
-- On Jul 2, 2024 we released the [Daria x Funko Series 1](https://droppp.io/drop/207/daria-series-1/) Digital Pop! collection on Droppp. This release consisted of 7k Standard and 9.5k Premium packs.
-- On Jul 3, 2024 we took a redemption snapshot for [Transformers x Funko Series 2](https://droppp.io/drop/177/transformers-series-2/) and opened the redemption at https://droppp.io/redemptions.   
-- On Jul 5, 2024 we completed the redemption for [Fantastik Plastik Series 2](https://droppp.io/drop/171/fantastik-plastik-series-2/).   
-- On Jul 10, 2024 we took a redemption snapshot for [Star Trek™: The Next Generation x Funko Series 1](https://droppp.io/drop/180/star-trek-the-next-generation-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Jul 24, 2024 we took a redemption snapshot for [The Star Wars™: Funko Digital Pop! Series 1](https://droppp.io/drop/183/star-wars-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Jul 26, 2024 we announced the [Universal Monsters x Funko Series 1](https://droppp.io/drop/213/universal-monsters-series-1/) Digital Pop! drop.   
+- On Jul 30, 2024 we took a redemption snapshot for [April Fools Series 2](https://droppp.io/drop/186/funko-april-fools-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On Aug 2, 2024 we announced the [Rick and Morty x Funko Series 1](https://droppp.io/drop/216/rick-and-morty-series-1/) Digital Pop! drop.   
+- On Aug 6, 2024 we released the [Universal Monsters x Funko Series 1](https://droppp.io/drop/213/universal-monsters-series-1/) Digital Pop! collection on Droppp. This release consisted of 9k Standard and 7k Premium packs and sold out.   
+- On Aug 11, 2024 we released the [Ricky and Morty x Funko Series 1](https://droppp.io/drop/216/rick-and-morty-series-1/) Digital Pop! collection on Droppp. This release consisted of 18k Standard and 17k Premium packs and sold out.   
+- On Aug 14, 2024 we took a redemption snapshot for [My Little Pony Series 2](https://droppp.io/drop/189/my-little-pony-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On Aug 16, 2024 we announced the [TMNT x Funko Series 2](https://droppp.io/drop/219/teenage-mutant-ninja-turtles-series-2/) Digital Pop! drop.   
+- On Aug 27, 2024 we released the [TMNT x Funko Series 2](https://droppp.io/drop/219/teenage-mutant-ninja-turtles-series-2/) Digital Pop! collection on Droppp. This release consisted of 15k Standard and 14k Premium packs and sold out.
+- On Aug 29, 2024 we announced the [Cartoon Network x Funko S1](https://droppp.io/drop/222/cartoon-network-series-1/) Digital Pop! drop.   
+
 
 -------------------------------------------------------------------------------------------
 
@@ -91,26 +90,26 @@ Updates:
 
 Social Media Engagement
 
-- https://www.instagram.com/reel/C7o0okbRe3z/ (137k views)
-- https://www.instagram.com/reel/C8M3pxQpFD4/ (137k views)
-- https://www.instagram.com/reel/C8e4061J-Q1/ (123k views)
-- https://www.instagram.com/reel/C7UfiHCJDUk/ (111k views)
-- https://x.com/Dropppio/status/1803186876473586003 (6.8k views)
+- https://www.instagram.com/reel/C-LbIccpT5D/ (96k views)
+- https://www.instagram.com/reel/C-LCjZqJRXK/ (87.4k views)
+- https://www.instagram.com/reel/C-vGFo5JmCv/ (75.7k views)
+- https://www.instagram.com/reel/C95AOoIJuaD/ (11.6k views)
+- https://x.com/Dropppio/status/1820485975187112238 (26k views)
 
 Community Coverage
 
-- https://youtu.be/wvJGI02XmHw?si=6hnhRgtCXXTN2Ckf (1.3k views)
-- https://youtu.be/F9mPwBXKFrs?si=yWpUrlT8GB9NhIW3 (753 views)
-- https://youtu.be/-4xm9_QRCeo?si=snT1n-1wUU1zlFUN (1.5k views)
-- https://youtu.be/_hEA7vlrGgU?si=BNE8reH1EF9l9ve9 (4.6k views)
-- https://youtu.be/7ET5n22Diw0?si=w2PB2VAHFDpHY9IO (2.7k views)
+- https://youtu.be/36Bx1mFeTfI?si=1EOpRcqLJZmovtW0 (26k views)
+- https://www.youtube.com/watch?v=aV2vjrgEy3E (25k views)
+- https://www.youtube.com/watch?v=FVb_PK9kBdE (29k views)
+- https://youtu.be/Fp3HRs1SPrw?si=PLAEopd8NGXCeCkD (4.1k views)
+- https://www.youtube.com/watch?v=Mk_ztJIDy3c (2.8k views)
 
 Droppp Discord
 
 The Droppp Discord server is an all-in-one place for Droppp users to socialize with each other, get support on Droppp related products, and stay current on Droppp related news.   
 
 **URLs**: https://droppp.io/discord   
-**User Count**: 19k
+**User Count**: ~19k
 
 ### <ins>Feedback to OIG</ins>
 
