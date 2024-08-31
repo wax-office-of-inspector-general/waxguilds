@@ -45,9 +45,10 @@ Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/385f5c1f-8ff7-4649-a59f-b48c51d5f3b7)
+![image](https://gist.github.com/user-attachments/assets/b52cc9f9-43d6-4d71-b872-9671d50f1982)
 
-![image](https://gist.github.com/user-attachments/assets/48d723eb-d4dd-40de-8120-47ddfc3bdfeb)
+
+![image](https://gist.github.com/user-attachments/assets/807162f2-bff8-4177-876a-3e278275bb92)
 
 ---
 
@@ -68,17 +69,9 @@ Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/1c2e60c7-ccae-42fa-b8b1-1dc394e5aebb)
+![image](https://gist.github.com/user-attachments/assets/e8b98312-86c8-4abb-9fc8-22e1823374eb)
 
-![image](https://gist.github.com/user-attachments/assets/e236ec59-feb2-4b6e-978b-31a46403c2dc)
-
-Prospectors world instances:
-
-![image](https://gist.github.com/user-attachments/assets/b41dade0-d0c0-4de5-a25b-6b3f59161701)
-
-![image](https://gist.github.com/user-attachments/assets/3060b298-c1f5-43f6-8916-78be260feec0)
-
-![image](https://gist.github.com/user-attachments/assets/332ef8b0-7d72-4934-a36d-98c4ec3dbd2b)
+![image](https://gist.github.com/user-attachments/assets/525afd3a-d19d-48c5-b9fc-b5b3f71f8bca)
 
 ---
 
