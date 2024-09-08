@@ -12,21 +12,15 @@
 
 ### <ins>Noteworthy</ins>
 
-1. Deployed testing nodeos cluster as testnet api poc
-2. Resolved multiple internal hiccups that cloudflare ended up with when they forcefully switched everyone to http2 on origins
-3. Assisting with deployment of WAX infra from our backup storage
-
-Delayed a lot of work due to NDA project, but:
-
-1. Still - WIP Datadog monitoring lib suite - completed delphioracle and bp block tracking, as well as api monitoring. p2p in progress, wrapping everything in portable format.
-2. Still - WIP IBC - deployed testing proof server on testnet eos and wax envs, figuring out what to do next.
+We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
+The reason is being investigated.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 19.4M req/week | 57.1K req/week | 2.09M req/week | 58.1K req/week |  126.7K req/week |
+| - | 17.1M req/week | 49K req/week | 2.13M req/week | 51K req/week |  115K req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -47,13 +41,14 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Metrics**
 
-Period: June 15th, 2024 - July 15th 2024
+Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/385f5c1f-8ff7-4649-a59f-b48c51d5f3b7)
+![image](https://gist.github.com/user-attachments/assets/b52cc9f9-43d6-4d71-b872-9671d50f1982)
 
-![image](https://gist.github.com/user-attachments/assets/48d723eb-d4dd-40de-8120-47ddfc3bdfeb)
+
+![image](https://gist.github.com/user-attachments/assets/807162f2-bff8-4177-876a-3e278275bb92)
 
 ---
 
@@ -70,21 +65,13 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: June 15th, 2024 - July 15th 2024
+Period: July 15th, 2024 - Aug 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/1c2e60c7-ccae-42fa-b8b1-1dc394e5aebb)
+![image](https://gist.github.com/user-attachments/assets/e8b98312-86c8-4abb-9fc8-22e1823374eb)
 
-![image](https://gist.github.com/user-attachments/assets/e236ec59-feb2-4b6e-978b-31a46403c2dc)
-
-Prospectors world instances:
-
-![image](https://gist.github.com/user-attachments/assets/b41dade0-d0c0-4de5-a25b-6b3f59161701)
-
-![image](https://gist.github.com/user-attachments/assets/3060b298-c1f5-43f6-8916-78be260feec0)
-
-![image](https://gist.github.com/user-attachments/assets/332ef8b0-7d72-4934-a36d-98c4ec3dbd2b)
+![image](https://gist.github.com/user-attachments/assets/525afd3a-d19d-48c5-b9fc-b5b3f71f8bca)
 
 ---
 
@@ -95,7 +82,7 @@ Prospectors world instances:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-43 active pools with about 1000+ active user stakes accross the platform.
+44 active pools with about 1000+ active user stakes accross the platform.
 
 ![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
 ![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
