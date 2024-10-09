@@ -30,9 +30,9 @@ Others APIs: ----
 
 ### Overall Stats for Taco Products
 
-***Period: July 14th - August 27th 2024***
+***Period: August 28th - October 9th 2024***
 
-![bpreport](https://assets.tacostudios.io/bp-assets/august-2024/BP_Report_August_2024.png)
+![bpreport](https://assets.tacostudios.io/bp-assets/october-2024/analytics-aug-oct-2024.png)
 
 ---
 
@@ -49,14 +49,14 @@ AppStore: [https://apps.apple.com/it/app/taco-wax-utility-tools/id1569255815](ht
 **List of SCs**: p.taco
 
 **Update**: 
-During the last weeks we updated the apps with new bugs and tools fix.
+- Fixed and updates charts within the app
 
 **Metrics**
 
 |  | All Time | Current Time Span |
 | --- | --- | --- |
-| Downloads | 39.3k | 210 |
-| Screen View | 110.2M | 2.5M |
+| Downloads | 39.5k | 130 |
+| Screen View | 111.3M | 1.1M |
 
 ---
 
@@ -68,15 +68,17 @@ https://swap.tacocrypto.io/
 **List of SCs**: swap.taco
 
 **Update**: 
-In this last month and a half more than 100 new pairs were created. Plus, bug fix.
+- 120 new pairs were created
+- Bug fix
+- Top day for Swap was September 18th, with 20,000+ swaps
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Total Value Locked | 16.2M WAX |
-| Daily Swaps | 13.3k |
-| Swap Pairs | 3,200+ |
+| Total Value Locked | 15.8M WAX |
+| Daily Swaps | 12.1k |
+| Swap Pairs | 3,320+ |
 
 ---
 
@@ -92,15 +94,18 @@ https://swap.tacocrypto.io/nft
 **List of SCs**: swap.taco
 
 **Update**: 
-There are currently 475 active MEALs and 59 active SALSA.
+- There are currently 479 active MEALs and 51 active SALSA
+- There is a new Top 5 MEAL for liquidity WAX/DMATTER
+- A new SALSA giving 350 TLM per day has been added for 430+ days
+- The MEAL giving 1M SHING per day (ONI/WAX) has been renewed for 40+ days)
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Projects using Creators DeFi Tools | 150+ |
-| Daily Rewards distributed | 630+ |
-| Daily Rewards value | 21,000+ WAX |
+| Projects using Creators DeFi Tools | 145+ |
+| Daily Rewards distributed | 600+ |
+| Daily Rewards value | 18,000+ WAX |
 
 ---
 
@@ -125,17 +130,17 @@ combz.taco
 combzm.taco
 
 **Update**
-- Combz is currently running, with more than 280,000 TACO distributed since its beginning.
-- Brigade is still one of the top played games within the chain, with around 5k transactions per day.
+- Combz reached 300,000 TACO distributed since its beginning, with the extra 20,000 TACO added one month ago.
+- Brigade is still one of the top played games within the chain, with around 3.5k transactions per day.
 
 **Metrics**
 
 |  |  |
 | --- | --- |
 | NFT Holders | 10,200 |
-| Minted NFTs | 667k+ |
-| NFT Market Cap | 172M+ WAX |
-| Market Volume (Last 60 days) | 388k WAX |
+| Minted NFTs | 679k+ |
+| NFT Market Cap | 175M+ WAX |
+| Market Volume (Last 60 days) | 437k WAX |
 | App Downloads | 7.15k+ |
 
 ---
@@ -151,23 +156,17 @@ acr.taco
 acrpool.taco
 
 **Update**: 
-- Acryptia Season 6 was completed
-- 1,300 users connected to the game, and 850 collected at the least the first achievement.
-- More than 5,000 rewards have been assigned
-- An event with 150,000,000 WUF was completed, with more than 350 participants
-- Currently we're running a series of three Alien Worlds events with 180,000 TLM as rewards
-
-![acryptiasevent](https://assets.tacostudios.io/bp-assets/august-2024/Dungeon_Drillers_Event.png)
+- The fifth series of Alien Worlds events, with 180,000 TLM as rewards (plus 12,000 TLM for Venue owners), was completed on October 8th. All the prizes have been distributed. A new Acryptia Season - the 7th - is set to start in November.
 
 
 **Metrics**
 
-*Season 6*
+*Alien Worlds Events*
 
 |  |  |
 | --- | --- |
-| Players | 1,300+ |
-| Games Played| 74,000k+ |
+| Players | 300+ |
+| Games Played| 9,500k+ |
 
 ---
 
@@ -194,22 +193,22 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 
 **Discord**
 - link: https://discord.gg/tacocrypto
-- 12,809 members
-- 257 servers following
-- 23,200 messages sent
+- 12,700 members
+- 260 servers following
+- 19,200 messages sent
 
 **Twitter**
 - Link: https://twitter.com/tacowax
 - 15,700 Followers (Taco)
-- 11,300 Followers (Monster Rooms)
+- 11,000 Followers (Monster Rooms)
 
 **Instagram**
 - Link: https://www.instagram.com/taco.wax/
-- 1,640 Followers
+- 1,540 Followers
 
 **Telegram**
 - Link: https://t.me/tacowax
-- 1,697 members
+- 1,657 members
 
 **Medium**
 - Link: https://medium.com/@taco.wax
@@ -219,7 +218,7 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 **Twitch**
 - Link: https://www.twitch.tv/tacostudiostv
 - Followers: 1,300
-- Hours Streamed: 60+
+- Hours Streamed: 65+
 
 ### <ins>Backups </ins>
 Currently we are not offering public backups, we have just our own private backup to easily restore the servers if needed.
