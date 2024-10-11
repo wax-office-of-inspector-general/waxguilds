@@ -17,7 +17,7 @@
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [x] | [x] | [x] | [x] | [] |  [x] |
+| [] | [x] | [x] | [x] | [] |  [x] |
 | - | 864000 req/day | 5400 req/day | 230400 req/day |  |  92640 req/day |
 
 ### <ins>Contributions</ins>
@@ -25,15 +25,13 @@
 
 ### NFTHive
 
-**URLs**: nfthive.io
+**URLs**: https://nfthive.io
 
-**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool, rwax, token.rwax  
+**List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool  
 
 **Update**: 
-* WaxDAO custom Token Backer integrated, back tokens, see backed tokens, claim backed from burning NFTs
-* Airdrop Tool for WUF (and other token holders) added. Create an airdrop with your custom tokens, backend takes a snapshot at a given time, wallets are pushed to chain. Airdrops can be claimed here: https://nfthive.io/airdrops
-* Checksum added for rendering PFPs
-* Lots of smaller UI and Bugfixes (Collection Search, Cover Images, Bulk Collection Importer, WAX Unstaking Refund, Unpacking)
+* Improved Token Ingredients for Crafting
+* Lots of smaller UI and Bugfixes
 
 **Metrics**
 
@@ -42,27 +40,32 @@ Period: May 1st, 2024 - May 31st 2024
 Stats:
 
 * Market
-Volume: 813,948.60405791 WAX / $31,366.66
-Buyers: 704
-Sellers: 1277
-Sales: 42484
+Volume: 2,367,934.93488023 WAX / $76,714.49
+Buyers: 1097
+Sellers: 1584
+Sales: 45015
 
 ---
 * Drops
-Volume: 628,699.8280854 WAX / $22,711.08
-Buyers: 689
-Sellers: 77
-Sales: 9160
+Volume: 260,310.63315005 WAX / $7,825.01
+Buyers: 519
+Sellers: 60
+Sales: 8196
 
 ---
 * Crafting
-Recipes: 20
-Crafters: 271
-Actions: 1231
+Recipes: 32
+Crafters: 278
+Actions: 2064
 
 ### WAXMarketCap
 
-Nothing
+**URLs**: https://waxmarketcap.com
+
+**List of SCs**: -
+
+**Update**:
+* Nothing
 
 ### RWAX
 
@@ -71,15 +74,37 @@ Nothing
 **List of SCs**: rwax, token.rwax, waxtokenbase
 
 **Update**:
-* Started developing RWAX with the help of Mike D from WaxDAO.
-* Tokenization of templates for collection owners possible
-* Minting tokens based on lists of templates provided
-* Added factors for traits of NFTs to affect tokenization value
-* Receive NFTs and mint tokens based on setup
-* Receive Tokens and release NFTs based on setup
-* Design process for website started
-* Also added WAX Token Base, an on chain information base on Tokens, that will fuel an API to get token information such as logo, supply, etc, an we aim to replace github repositories for tokens
-* RWAX automatically reports new tokens to waxtokenbase
+* Design finished
+* Frontend Development started and almost complete
+
+### WAX API
+
+**URLs**: https://github.com/hivebp/wax-api, https://wax-api.hivebp.io/api/schemas/alien.worlds, 
+https://wax-api.hivebp.io/api/assets?collection=maiden.funko&schema=series1.drop&attributes=rarity:Legendary,
+https://wax-api.hivebp.io/api/listings?order_by=price_asc
+
+**List of SCs**:  atomicassets, atomicmarket, simpleassets, simplemarket, neftyblocksd, waxbuyoffers, neftyblocksp, 
+atomicpacksx, wax.gg, market.myth, waxplorercom, nft.hive, atomicdropsx, clltncattool, nfthivedrops, nfthivepacks,
+atomhubtools, neftyblocksa, nfthivecraft, twitchreward, redeemprtcol, verifystatus, wufclaimtool, rwax, waxtokenbase,
+waxdaobacker
+
+**Update**:
+* Published API at https://github.com/hivebp/wax-api
+* Filler for irreverisble blocks functional, but DB schema and logic is still being changed as endpoints are developed
+* Schemas, Assets and Listings Endpoints released
+* DB Schema exported
+* Snapshot will be generated towards the end of development
+
+### Telegram Bot
+
+**URLs**: https://t.me/WAXplorerBot
+
+**List of SCs**: -
+
+**Update**:
+* Not sure if it was already reported, but I notice we're in decay. We actually recently added a feature to receive 
+daily floor price changes of your inventory. It helps users to notice when the value of their inventory goes up or that
+there are items they're able to sell now.
 
 ### <ins>Marketing</ins>
 
