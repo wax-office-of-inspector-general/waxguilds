@@ -10,63 +10,45 @@
 | producer (testnet) | wax.eastern |
 | Guild Jurisdiction | China |
 
-### <ins>Noteworthy</ins>
-
-Here's a brief summary of recent developments:
-
-
-1. We collaborated with WAXDAO to translate their UNITY game tutorials. Check out the translated tutorials here: https://bit.ly/3LqQHq5.
-2. We have completed the translation of the WAX ACADEMY course in collaboration with WAX SWEDEN, providing the Chinese WAX community with more detailed introductory materials about WAX，check it out here: https://academy.anyo.io/courses/cn-wax-course/.
-
-
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |Chain API |
 |--------|--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [] | [] |  [x] |
-| 336k req/week | - | 161k req/week|126k req/week |- | - | 80.85m req/week |
+| 378k req/week | - | 191k req/week|135k req/week |- | - | 97m req/week |
 
-
-### <ins>Contributions</ins>
-
-### WAX Information Hub
-
-We have created a comprehensive content platform about WAX, encompassing all our summarized and original introductions, project tutorials, and translated materials. It offers a one-stop solution for Chinese-speaking players.Check it out here: https://bit.ly/3W3QVbt.
- 
-### MetaPlay
-
-We have terminated our collaboration with the current technical staff and will restart the project once we find suitable replacements.
-
-**URLs**: [https://metaplay-frontend.vercel.app/]
+### <ins>Noteworthy</ins>
+With the recent policy shift and the gradual market recovery, we have hired a Vietnamese-speaking administrator to manage the gaming community on the WAX blockchain. We will begin with Alien Worlds and progressively incorporate other games into our management efforts. Here's the link to the aw vietnamese community:https://t.me/alienworldsvietnamofficial
 
 ### <ins>Marketing</ins>
 
 **Social Media Metrics**
 
+Overall, the number of followers across social media platforms has increased
 | Website/Platform | Visitors/Views |
 | ---------------- | --------------- |
-| [Twitter (NFTGAMERCHINA)](https://x.com/NFTGAMERCHINA) | 1,248 members |
-| [YouTube (NFTGamer)](https://www.youtube.com/@nftgamer2225) | 232 Followers |
-| [Discord (Alien Worlds China)](https://discord.gg/HaGdzwwt4b) | 559 members |
-| [Binance Square (NFTGamer)](https://www.binance.com/zh-CN/square/profile/Square-Creator-486d43093) | 229 Followers |
+| [Twitter (NFTGAMERCHINA)](https://x.com/NFTGAMERCHINA) | 1,231 members |
+| [YouTube (NFTGamer)](https://www.youtube.com/@nftgamer2225) | 244 Followers |
+| [Discord (Alien Worlds China)](https://discord.gg/HaGdzwwt4b) | 556 members |
+| [Binance Square (NFTGamer)](https://www.binance.com/zh-CN/square/profile/Square-Creator-486d43093) | 255 Followers |
 | **WeChat Official Account** | |
-| [NFTGAMER](https://mp.weixin.qq.com/s/rtHpkmXFJhQvm3rIGJs9_g) | 5,679 Followers |
-| [Alien Worlds Chinese](https://mp.weixin.qq.com/s/k70iYMn0JZLtzfkNVJhemQ) | 1,140 Followers |
+| [NFTGAMER](https://mp.weixin.qq.com/s/rtHpkmXFJhQvm3rIGJs9_g) | 5,701 Followers |
+| [Alien Worlds Chinese](https://mp.weixin.qq.com/s/k70iYMn0JZLtzfkNVJhemQ) | 1,139 Followers |
 | **Video Channels** | |
 | [i喵见](https://weixin.qq.com/sph/AbMncT) | 6,809 Followers |
 | [Alien Worlds Chinese](https://weixin.qq.com/sph/AOdVCC) | 127 Followers |
-| [Weibo (Alien Worlds)](https://weibo.com/u/7584097275) | 3,755 Followers |
-| [Kuaishou (NFTGamer)](https://www.kuaishou.com/profile/3xnvv6pazy2f5e4) | 6,310 Followers |
-| [BiliBili (NFTGamer)](https://space.bilibili.com/18921900) | 767 Followers |
-| [Weishi (NFTGamer)](https://video.weishi.qq.com/as4MOFyY) | 522 Followers |
-| [Red (NFTGamer)](https://www.xiaohongshu.com/user/profile/5f36a24900000000010009f3?xhsshare=CopyLink&appuid=5f36a24900000000010009f3&apptime=1702363719) | 164 Followers |
-| [Toutiao (NFTGamer)](https://www.toutiao.com/c/user/token/MS4wLjABAAAAXatKWY0ySD8jcwQ8ivw_xnxmDuu1P7yQlY0dbBpeYNyjutaRm309OLnqiDL4EaJF/) | 208 Followers |
+| [Weibo (Alien Worlds)](https://weibo.com/u/7584097275) | 4261 Followers |
+| [Kuaishou (NFTGamer)](https://www.kuaishou.com/profile/3xnvv6pazy2f5e4) | 6,378 Followers |
+| [BiliBili (NFTGamer)](https://space.bilibili.com/18921900) | 827 Followers |
+| [Weishi (NFTGamer)](https://video.weishi.qq.com/as4MOFyY) | 523 Followers |
+| [Red (NFTGamer)](https://www.xiaohongshu.com/user/profile/5f36a24900000000010009f3?xhsshare=CopyLink&appuid=5f36a24900000000010009f3&apptime=1702363719) | 162 Followers |
+| [Toutiao (NFTGamer)](https://www.toutiao.com/c/user/token/MS4wLjABAAAAXatKWY0ySD8jcwQ8ivw_xnxmDuu1P7yQlY0dbBpeYNyjutaRm309OLnqiDL4EaJF/) | 405 Followers |
 | **Notion** | |
 | [AlienWorlds](https://bit.ly/AlienWorldsCN) |N/A |
 | [WAX Eastern](https://www.notion.so/waxeastern/WAX-Eastern-d8c65f7fab4740539891d2bcfce72ed5) |N/A  |
 | **Telegram** | |
-| [Alien Worlds China](https://t.me/alienworldschina) | 2,262 members, 196 new members,  222.5k messages sent |
-| [NFTGamerChina](https://t.me/NFTGamerChina) | 1,064 members,42k messages sent |
+| [Alien Worlds China](https://t.me/alienworldschina) | 2,416 members, 72 new members,  230.7k messages sent |
+| [NFTGamerChina](https://t.me/NFTGamerChina) | 1,093 members,42.8k messages sent |
 
 ### <ins>Backups </ins>
 
@@ -76,3 +58,4 @@ We have terminated our collaboration with the current technical staff and will r
 
 
 ### <ins>Feedback to OIG</ins>
+Keep up the good work.
