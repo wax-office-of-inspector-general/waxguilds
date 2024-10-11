@@ -12,10 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-There was an incident related to storage, disks I/O was irregular and suddenly halting resulting in lost rounds, we had the disks replaced but with a persisten behavior so we requested the host provider to replace the server instead in the end.  
-We also had another incident also impacting our BP node related to PCI errors, server was randomly loosing packets and connection, BIOS and firmware were updated to solve this. 
-- Upgraded BP to nodeos 5.0.1wax01 and changed to use database_map_mode: mapped_private
-- Upgraded part of the public and private nodes to 5.0.1wax01 and changed to use database_map_mode: mapped_private
+There was an incident related to one of our block producer servers, failover started producing and our monitoring systems reported that the server was unreachable. After several attempts to connect to the server we identified that the server was unreachabled through any network but it was still producing thus resulting in double producing for a small period of time. 
+We had to request to forcefuly restart the server.
+We are implementing and testing unregbot.  
 
 
 ### <ins>API Services</ins>
@@ -23,7 +22,7 @@ We also had another incident also impacting our BP node related to PCI errors, s
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API       | IPFS            | Chain API       |
 |-------------------|----------------|-------------------|----------------|-----------------|-----------------|-----------------|
 | [ ]               | [ ]            | [x]               | [x]            | [x]             | [x]             | [x]             |
-| -                 | -              | 91.08k req/week   | 2.19M req/week | 81.08k req/week | 1.11k req/week  | 18.45M req/week |
+| -                 | -              | 87.97k req/week   | 2.52M req/week | 83.14k req/week | 751 req/week    | 18.65M req/week |
 
 ### <ins>Contributions</ins>
 
@@ -35,26 +34,28 @@ We also had another incident also impacting our BP node related to PCI errors, s
 
 **Update**
 
-* Support transfer fee in tokens
-* Released NFT trading
-* Bug fixes and small tweaks
+* Allow the possibility to transfer ingredients to another blend as a result (Currently on test).
+* Display transfer fee when a token has one.
+* Bug fixes and improvements.
+* Neftyblocks is now listed on DeFillama.
+
 
 **Metrics**  
 
-Period: _May 29, 2024 to Jul 12, 2024_
+Period: _Jul 13, 2024 to Aug 26, 2024_
 
-* Primary market volume: 1.64M WAXP
-* Secondary market volume: 1.15M WAXP
+* Primary market volume: 2.26M WAXP
+* Secondary market volume: 1.43M WAXP
 
 **Stats**
 
-* Views: 1.43M  
-* Users: 30k  
-* Avg Engagement Time: 13m 34s
-* Blends performed: 53K
-* Drop claims: 42.5K
-* Packs opened: 35k
-* Upgrades performed: 1439
+* Views: 1.9M  
+* Users: 24k  
+* Avg Engagement Time: 17m 01s
+* Blends performed: 59K
+* Drop claims: 53.6K
+* Packs opened: 44.2k
+* Upgrades performed: 5.4k
 
 ---
 
@@ -66,73 +67,82 @@ Period: _May 29, 2024 to Jul 12, 2024_
 
 **Update**
 
-* 
-* We have facilitated 13.8K drop claims that use custom WAX-based tokens native to 3rd party projects: 
-   
-  
-| **Token** | **Claims** |
-|-----------|------------|
-| WUF       | 4303       |
-| SKUNKY    | 1873       |
-| KEK       | 1506       |
-| CHAD      |  565       |
-| NEFTY     |  553       |
-| ANTLERS   |  417       |
-| WXBOOTY   |  414       |
-| AQUA      |  366       |
-| DUST      |  351       |
-| GUILD     |  333       |
-| LVAPE     |  315       |
-| BRIX      |  294       |
-| WOMBAT    |  263       |
-| WIENR     |  251       |
-| DINO      |  236       |
-| RAIDD     |  200       |
-| AIGOD     |  170       |
-| NOA       |  157       |
-| CMX       |  151       |
-| BINX      |  129       |
-| CHIPS     |  127       |
-| NOVO      |   86       |
-| TACO      |   79       |
-| XYTE      |   79       |
-| USDT      |   76       |
-| XPS       |   71       |
-| BEATZ     |   62       |
-| SCHWAX    |   51       |
-| ICE       |   46       |
-| TLM       |   43       |
-| LANBX     |   41       |
-| SHING     |   38       |
-| PXJ       |   28       |
-| QUAX      |   28       |
-| CBX       |   27       |
-| CITYRUN   |   25       |
-| TICKET    |   19       |
-| NKFE      |   11       |
-| CHRONA    |   10       |
-| SKATE     |    9       |
-| CHAOS     |    6       |
-| HDC       |    5       |
-| PXF       |    4       |
-| CREWC     |    3       |
-| ROOK      |    2       |
-| CREEPZ    |    1       |
+* We have facilitated 20.48K drop claims that use custom WAX-based tokens native to 3rd party projects: 
+
+
+| **Token**   | **Claims** |
+|-------------|------------|
+| WUF         |   5012     |
+| SKUNKY      |   1967     |
+| WOMBAT      |   1850     |
+| ANON        |   1751     |
+| HOWL        |   1563     |
+| FED         |   1484     |
+| RJUAN       |   1050     |
+| DUST        |   1029     |
+| DINO        |    858     |
+| NEFTY       |    745     |
+| LVAPE       |    569     |
+| GUILD       |    300     |
+| XYTE        |    296     |
+| NOA         |    283     |
+| SOUL        |    226     |
+| SEXY        |    179     |
+| KEK         |    158     |
+| GHOST       |    138     |
+| WXBOOTY     |    121     |
+| CHIPS       |    107     |
+| NOVO        |     96     |
+| CHAD        |     90     |
+| CHRONA      |     69     |
+| WAXART      |     67     |
+| TLM         |     63     |
+| CREWC       |     54     |
+| RAIDD       |     48     |
+| HDC         |     35     |
+| BRIX        |     34     |
+| PXJ         |     33     |
+| CMX         |     25     |
+| SCHWAX      |     19     |
+| CREEPZ      |     15     |
+| PXF         |     13     |
+| QUAX        |     13     |
+| BINX        |     11     |
+| AQUA        |     11     |
+| SHING       |     10     |
+| NKFE        |     10     |
+| FORGE       |      9     |
+| TACO        |      9     |
+| LANBX       |      9     |
+| WIENR       |      8     |
+| HCC         |      8     |
+| WAXFREN     |      7     |
+| BLUE        |      6     |
+| SSN         |      6     |
+| AIGOD       |      4     |
+| DUCK        |      4     |
+| LSWAX       |      3     |
+| TOMATOE     |      2     |
+| CHAOS       |      1     |
+| KENN        |      1     |
+| TICKET      |      1     |
+| USDT        |      1     |
+
 
 **Metrics**  
 
-Period: _May 29, 2024 to Jul 12, 2024_
+Period: _Jul 13, 2024 to Aug 26, 2024_
 
-* Drops created: 1.6K
-* Blends created: 547
-* Packs created: 116
-* Upgrades created: 27
+* Drops created: 1.5k
+* Blends created: 418
+* Packs created: 154
+* Upgrades created: 49
 
 **Stats**
 
-* Views: 1.4M  
-* Users: 30k  
-* Avg Engagement Time: 13m 34s  
+* Views: 37.5k  
+* Users: 1k  
+* Avg Engagement Time: 19m 7s
 
 ---
 
@@ -144,23 +154,23 @@ Period: _May 29, 2024 to Jul 12, 2024_
 
 **Update**
 
-* No new implementations to report. We keep actively providing support for new users of the embedded marketplaces. 
+* We keep actively providing support for new users of the embedded marketplaces. 
 
 **Metrics**
 
-Period: _May 29, 2024 to Jul 12, 2024_
+Period: _Jul 13, 2024 to Aug 26, 2024_
 
-* New implementations: 0
-* Total number of implementations: 98
-* Transactions: $2,562.94
-* Volume: 
+* New implementations: 2
+* Total number of implementations: 100
+* Transactions: $1.7k
+
 
 ---
 
 ### Neftyblocks CLI
 **URLs**: [https://github.com/neftyblocks/neftyblocks-cli](https://github.com/neftyblocks/neftyblocks-cli)
 
-* Bug fixing and improvements.
+* No updates to report.
 
 ---
 
@@ -171,20 +181,16 @@ Period: _May 29, 2024 to Jul 12, 2024_
 
 **Update**:
 
-* Launched 3 more tokens:
-    * $WIENR, TVL 153K WAX
-    * $ANON, TVL 311K WAX
-    * $RJUAN, TVL 256K WAX
-* Implemented new [swap contract](https://waxblock.io/account/swap.nefty) (Open source) based on Totoro Finance.
-* Implemented WAXDAO token farms.
-* Almost ready to release self service tools. Test version can be checked here: https://wax-test.launchbagz.com
+* Self-service opened
+* Launched by community: $FED and $DUCK
+* Working on Telegram miniapp to promote launchbagz (soon to release)
 
 **Metrics**  
 
-Period: _June 15, 2024 to Jul 12, 2024_
+Period: _Jul 13, 2024 to Aug 26, 2024_
 
-* Total visits: 2.05K
-* Page views: 4.22K
+* Total visits: 4.12K
+* Page views: 4.3K
 
 ---
 
@@ -192,9 +198,10 @@ Period: _June 15, 2024 to Jul 12, 2024_
 
 Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to start incursioning into DeFi on WAX.
 
-* Replaced WoE single server with 2 more powerful servers
-* Provided access to NeftyBlocks ship nodes
-* Created embeddable Swap widget (soon to be Open Sourced)
+* Adding neftyblocks pools
+* Adding a page to manage your liquidity on taco / defibox / a-dex / neftyblocks
+* Finalizing works with limit orders
+* Small updates and fixes  
 
 ---
 
@@ -216,9 +223,9 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-Period: _May 29, 2024 to Jul 12, 2024_
+Period: _Jul 13, 2024 to Aug 26, 2024_
 
-* Number of TAG crafts: 2.1k
+* Number of TAG crafts: 1.8k
 
 ---
 
@@ -228,20 +235,19 @@ Period: _May 29, 2024 to Jul 12, 2024_
 
 **Metrics**
 
-* AA API Requests: 1.4M requests/week
+* AA API Requests: 1.34M requests/week
 
 ---
 
-
 ### <ins>Marketing</ins>
 
-Period: _May 29, 2024 to Jul 12, 2024_
-* 
-* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 87 videos at the moment with 172 subscribers. 
-* [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 65 videos at the moment with a total of 12.6k views. 
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 52.3K impressions and 26.2K Followers.  
+Period: _Jul 13, 2024 to Aug 26, 2024_
+ 
+* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 108 videos at the moment with 186 subscribers. 
+* [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 84 videos at the moment with a total of 15.1k views. 
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 32K impressions and 26.2K Followers, engagement 12.2k.
 * [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 3.97k total members, 104 monthly visitors, 121 monthly messages.  
-* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 3 new articles with 1257 views and 700+ reads during June and July.
+* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 710 views and 410+ reads during July and August.
 
 
 ### <ins>Backups </ins>
@@ -251,7 +257,7 @@ Period: _May 29, 2024 to Jul 12, 2024_
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |----------|------------|---------------|----------------|--------|
-| [ ]      | [ ]        | [ ]           | [ ]            | [ x ]    |
+| [ ]      | [ ]        | [ ]           | [ ]            | [ x ]  |
 
 ### <ins>Feedback to OIG</ins>
 
