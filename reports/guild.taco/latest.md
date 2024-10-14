@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Italy |
 
 ### <ins>Noteworthy</ins>
-Nothing to share lately, just the usual updates. We had our Mainnet Hyperion failing for some hours cause of a network issue. We are testing the latest Hyperion version both on testnet and mainnet.
+Nothing to share lately, just the usual updates.
 
 ### <ins>API Services</ins>
 
