@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-This cycle was mainly targeted to monitoring and tweaking to make sure we offer the best possible uptime especially for Hyperion. With the latest infrastructure changes from the past months we are now consistently getting ~100% uptime everyday.
+We are focusing on a few new projects that would hopefully revive the ecosystem a bit. This cycle we had some major issues with Hyperion and we're trying to keep it stable.
 
 ### <ins>API Services</ins>
 
@@ -31,32 +31,9 @@ This cycle was mainly targeted to monitoring and tweaking to make sure we offer 
 - [Wax School on Twitter/X](https://twitter.com/waxschool_)
 - [Wax School on Youtube](https://www.youtube.com/channel/UCwV0PjHGLr3jzwkHTLxwlpg)
 
-
-New Medium articles added:
-- [An open challenge (Gauntlet status: Down)](https://medium.com/@waxblockchain/an-open-challenge-gauntlet-status-b3e45895ff7a)
-- [WAX School — How does an NFT project succeed?](https://medium.com/@waxblockchain/wax-school-how-does-an-nft-project-succeed-13b752c2616c)
-- [WAX School — How does a NFT project fail?](https://medium.com/@waxblockchain/wax-school-how-does-a-nft-project-fail-12e3cc778ae4)
-- [WAX School Spotlight — Don’t Count Your Chickens.](https://medium.com/@waxblockchain/wax-school-spotlight-dont-count-your-chickens-802edfcf5dfe)
-- [Wax School Top 3 Highlights 13/06/2024–20/06/2024](https://medium.com/@waxblockchain/wax-school-6258e44cbbb4)
-- [Quick article this week, No poem or rambling story about my life. How about a Haiku?](https://medium.com/@waxblockchain/quick-article-this-week-no-poem-or-rambling-story-about-my-life-how-about-a-haiku-80c736840e01)
-- [Wax School Spotlight — ACK Consortium](https://medium.com/@waxblockchain/wax-school-spotlight-ack-consortium-f5690fd6f6fe)
-- [WAX School Top 3 Highlights 23/05/2024–30/05/2024](https://medium.com/@waxblockchain/wax-school-top-3-highlights-23-05-2024-30-05-2024-265150ba3b62)
-- [WAX School Spotlight — The Hustle](https://medium.com/@waxblockchain/w-22b25db56f95)
-- [WAX School Spotlight — World of Smelly Koalas](https://medium.com/@waxblockchain/wax-school-spotlight-world-of-smelly-koalas-6ba5341c0d25)
-
-We also run NFT drops on the [wax school twitter page](https://twitter.com/waxschool_):
-- [July 8 NFT drop](https://x.com/waxschool_/status/1810286221429448795)
-- [July 1 NFT drop](https://x.com/waxschool_/status/1807735050038898817)
-- [June 24 NFT drop](https://x.com/waxschool_/status/1805236557932036239)
-- [June 17 NFT drop](https://x.com/waxschool_/status/1802706572302340217)
-- [June 4 NFT drop](https://x.com/waxschool_/status/1797946947900490180)
-- [May 27 NFT drop](https://x.com/waxschool_/status/1795089426051194943)
-- [May 20 NFT drop](https://x.com/waxschool_/status/1792480758902247812)
-
 **Metrics**
 
-On Twitter/X ~8000 new impressions
-
+Untracked
 
 ---
 ### 2. Antelope Java SDK
@@ -78,7 +55,7 @@ No updates this cycle - we provided help for the interested parties, on demand, 
 ---
 
 ### <ins>Marketing</ins>
-Done through the Wax School Project, we got around ~8000 new impressions on Twitter/X.
+Done through the Wax School Project.
 
 ### <ins>Backups </ins>
 
@@ -88,7 +65,7 @@ Done through the Wax School Project, we got around ~8000 new impressions on Twit
 
 
 ### <ins>Feedback to OIG</ins>
-*None. Thank you*
+None
 
 ----
 

@@ -11,10 +11,10 @@
 | Guild Jurisdiction | Sweden |
 
 ### <ins>Noteworthy</ins>
-- New main producer, old machine turned sad.
-- New Thalos Releases
-- Patched all machines against the latest known vulnerabilities.
-- Been running internal vulnerability scans towards all services and machines.
+- New Thalos Releases, including bug fixes and new features.
+- Official Docker build for thalos [https://thalos.waxsweden.org/docs/installation/docker](https://thalos.waxsweden.org/docs/installation/docker)
+- Updated Thalos Docs to reflect all Thalos changes and updates.
+
 
 ### <ins>API Services</ins>
 
@@ -28,11 +28,11 @@
 
 | Website/Platform | Visitors/views | Timeframe |     |
 | ---------------- | -------------- | --------- | --- |
-| alienw.com       | 3.1k           | 30 days   |     |
-| waxsweden.org    | 448            | 30 days   |     |
-| academy.anyo.io  | 235            | 30 days   |     |
-| Anyo YouTube     | 284            | 28 days   |     |
-| anyo.io          | 1.6k           | 30 days   |     |
+| alienw.com       | 1.1k           | 30 days   |     |
+| waxsweden.org    | 469            | 30 days   |     |
+| academy.anyo.io  | 189            | 30 days   |     |
+| Anyo YouTube     | 185            | 28 days   |     |
+| anyo.io          | 264            | 30 days   |     |
 
 
 ---
@@ -43,29 +43,29 @@
 
 **Update**:
 
-#### Version 1.1.3 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.3](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.3)
-- Updated antelope-go library to v0.1.2 that fixes a bug in abi binary  
-    decoder, it expects some fields to be strings while they are "names"  
-    (strings encoded into a int64)
-- Fix a bug with "set_abi" struct had the wrong order of fields in ShipProcessor.updateAbiFromAction()
-- Fix a bug in ShipProcessor.updateAbiFromAction() that assumed the abi  
-    was in hex format when in fact it is binary.
+#### Version 1.1.5 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5)
+- New config section: cache
+- New CLI flag: cache specify what cache driver to use
+- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
+request made when Thalos wants to fetch a ABI from the api.
+- API Table Deltas: abi decode the data in value field for contract_row deltas.
+- golang: update github.com/shufflingpixels/antelope-go to v0.1.5
+- golang: update github.com/quic-go/quic-go from 0.41.0 to 0.42.0
+- golang: version 1.20 can no longer be used to build the project.
+- Docker Image v1.1.5 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5)
 
-#### Version 1.1.2 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2)
-- Implement action blacklist, it is not possible to configure a blacklist  
-    that will be used to filter out processing of unwanted contracts/actions.
-- Minor cleanups in tools
-- Moved from github.com/eoscanda/eos-go to github.com/pnx/antelope-go library
+#### Version 1.1.5-rc1 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1)
+- New config section: cache
+- New CLI flag: cache specify what cache driver to use
+- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
+request made when Thalos wants to fetch a ABI from the api.
+- API Table Deltas: abi decode the data in value field for contract_row deltas.
+- golang: update github.com/shufflingpixels/antelope-go to v0.1.4
 
-#### Version 1.1.2-rc4 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc4](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc4)
-- API: Fix a bug regarding json timestamp being encoded/decoded with wrong  format
-- Implement action blacklist, it is not possible to configure a blacklist  
-    that will be used to filter out processing of unwanted contracts/actions
+#### Version 1.1.4 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4)
+- Implement whitelist option for ship contract/action blacklist
+- Fix bug with integer overflow on 32 bit CPUs.
 
-#### Version 1.1.2-rc3 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc3(https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc3)
-- Fix a bug in isVariant() where v.Elem() was called on non interface/pointer
-- Minor cleanups in tool
----
 
 ### APT Packages
 **Description**: APT Packages for WAX, Antelope and relevant tools for Linux distros. *apt install wax*
@@ -73,11 +73,9 @@
 **URLs**: [WAX APT repo](https://eosswedenorg.github.io/apt/wax), [Main apt repo, some of our tools](https://eosswedenorg.github.io/apt/main), [Antelope APT repo](https://eosswedenorg.github.io/apt/antelope), [Github](https://github.com/eosswedenorg/apt)
 
 **Update**:
-- Added the new Thalos v1.1.2-rc3 & v1.1.2-rc4 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.2 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.3 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
-- Created a new compile environment for building wax-leap on ubuntu 24.04
-- Added wax-leap-5.0.1 for 24.04 Noble Numbat
+- Added the new Thalos v1.1.5-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.5 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.4 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
 
 ---
 
@@ -87,10 +85,7 @@
 **URLs**: [anyo.io](https://anyo.io/), [OIG Roundtables](https://academy.anyo.io/wax-oig-roundtables), [Anyo YouTube](https://www.youtube.com/anyobservation), [Anyo Twitter](https://twitter.com/anyobservation), [WAX Memo Tracker](https://anyo.io/blockchain_tools/memo_tracker), [WAX Trx tracker](https://anyo.io/blockchain_tools/trx_tracker)
 
 **Update**: 
-- Latest OIG Roundtables are uploaded on YouTube and the site.
-- Helped host the OIG Roundtable election special 
-- [2024-06-11 | OIG election special](https://youtu.be/-_Hb_PEjB9M)
-- [2024-06-04](https://youtu.be/jk4X8pfNwoc)
+
 
 ---
 
@@ -100,11 +95,6 @@
 **URLs**: [OIG Vote Tracker](https://anyo.io/blockchain_tools/oig)
 
 **update**:
-- Fixed multiple bugs
-- Improved css
-- Fixed old broken images
-- Updated to track the new election
-- Fixed links for socials.
 
 ---
 
@@ -114,7 +104,6 @@
 **URLs**: [github.com/eosswedenorg-go](https://github.com/eosswedenorg-go), [Antelope Ship Client](https://github.com/eosswedenorg-go/antelope-ship-client), [Atomicasset API Client](https://github.com/eosswedenorg-go/atomicasset), [Antelope HTTP API](https://github.com/eosswedenorg-go/leapapi)
 
 **Update**:
-- Small updates on dependencies for ship client
 
 ---
 
@@ -133,8 +122,7 @@
 **URLs**: [https://academy.anyo.io/](https://academy.anyo.io/)
 
 **Update**: 
-- Chinese version of the WAX Course has had a lot of new sections released.
-	- https://academy.anyo.io/courses/cn-wax-course/
+
 
 ---
 
@@ -164,8 +152,7 @@
 **List of SCs**: [Mainnet](notify.se), [Testnet]()
 
 **Update**: 
-- Fixed minor bug on the dashboard
-- Tweaked some UI changes.
+- started to work on a new feature to display resource states of accounts across time.
 
 ---
 
@@ -175,9 +162,6 @@
 **URLs**: [alienw.com/](https://alienw.com/), [Alpha API - https://api.alienw.com/](api.alienw.com/), [alienw wallet Interface](https://wallet.alienw.com)
 
 **Update**: 
-- Wallet interface is now deployed for production
-- Alienw Api added more endpoints and filters
-- Alienw Telegram bot got improvements to handle multiple actions inside an msig.
 
 ---
 
@@ -209,7 +193,7 @@ Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.o
 
 Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
-Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-07-01T04_30_01_417_287820280.bin.tar.gz)
+Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-08-01T04_30_01_408_293176065.bin.tar.gz)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|

@@ -11,19 +11,14 @@
 | Guild Jurisdiction |  Switzerland (CH) |
 
 ### <ins>Noteworthy</ins>
-- We have upgraded hyperion to latest version 3.3.10
-- We noticed that some monitoring services reported downtime for our hyperion v2 node for example
-https://wax.sengine.co/guilds/eosdacserver,  https://nodestatus.ledgerwise.io/wax/producer/eosdacserver?tab=errors
-while others showed 100% uptime, for example https://wax.validationcore.io/stats/guild/eosdacserver
-- We have added additional monitoring to catch these issues in future
+-  Added monitoring tools to monitor block production node and apis
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 15.7m req/month | 30k req/month | 7.5m req/month | 57k req/month |  16k req/month |
-
+| - | 33m req/month | 30k req/month | 10.94m req/month | 57k req/month |  16k req/month |
 
 
 ### <ins>Contributions</ins>
@@ -43,28 +38,29 @@ Read full report [here](https://alienworlds.io/blogs/%20%20alien-worlds-2-12-0-p
 
 **Metrics**
 
-Period: June 14, 2024 - July 13, 2024
+Period: Jul 29, 2024 - Aug 29, 2024
 Stats: 
-UAW - 176.26k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-Transactions - 160.44m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-30 days NFT trading volume 2.57M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
-New Unique wallets onboarded - 27k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
+UAW - 503.73k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+Transactions - 146.13m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+30 days NFT trading volume - 5.02M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
+New Unique wallets onboarded - 140k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
 
 ---
 ### UAL plugin
 UAL-WAX plugin: https://www.npmjs.com/package/@eosdacio/ual-wax. 
 
 **Metrics**
-Has an avg of ~125 Weekly downloads
+Has an avg of ~108 Weekly downloads
 ---
 ### Galactic Hub
 Galactic Hubs grants offer support to community-aligned projects with a clear focus, driving advancements in specific areas
 Galactic Hubs Update https://alienworlds.io/blogs/galactic-hubs-april-update/
 
 #### Released products
-
+---
 ##### Unity SDK for Mobile
 At Alien Worlds, open-source is a key pillar for the longevity and success of our metaverse. We’ve seen this come to life through the recently completed [Unity SDK for mobile](https://github.com/double-coconut/coconut-wax/tree/master), developed by Double Coconut, the creators of Milky Way Miner. This Unity SDK is a significant contribution to the entire WAX ecosystem, allowing any developer to provide a better user experience for mobile players by supporting in-game transactions of NFTs and fungible tokens. Open-source initiatives like this are important because they democratize access to powerful tools, fostering innovation and improvement of the Alien Worlds metaverse. 
+
 Read Official announcement [here](https://blog.doublecoconut.com/2024/03/26/wax-sdk/)
 [Demo](https://www.dropbox.com/scl/fi/psdh88nebqjac4lkmt7qn/CoconutWax_Sample.mp4?rlkey=f9ul1vsjyua5js5hlqma30udf&e=4&dl=0)
 ---
@@ -82,6 +78,18 @@ Msig.chat is an innovative chat and DAO management web application, specifically
 ---
 
 #### Upcoming Releases
+
+##### Milkyway  Miner
+Milky Way Miner, created by experienced gaming studio Double Coconut. Already a popular web2 game, and available in web3 form as a sideloaded APK, the fully revamped version will soon be available in app stores. Read more [here](https://alienworlds.io/blogs/mining-masterclass-game-developer-david-fox-on-bringing-milky-way-miner-to-alien-worlds/)
+
+![Milkyway Miner](https://alienworlds-media-bucket.s3.eu-central-1.amazonaws.com/doublecoconut2_f03179a5bb.png)
+[Video](https://www.youtube.com/shorts/6ShSCMRY8fk) 
+
+---
+
+##### The Hand of Alta: Community Driven Creation
+Creation of a new NOVO WAR weapon inspired by the Alien Worlds lore.
+[Read more here](https://medium.com/@Novopangea.io/the-hand-of-alta-community-driven-creation-73aa17a58649)
 
 ##### Mercenary Battle Grounds
 Mercenary Battleground is a captivating strategy game that challenges players to defend their base against waves of enemy forces. Set in a fantasy world, the game offers a unique blend of tower defense and real-time strategy gameplay.
@@ -103,13 +111,15 @@ Only guild running ORNG script on testnet, executed over 10k jobs on the testnet
 
 ---
 ### <ins>Marketing</ins>
-DappRadar Coverage: [State of Blockchain Gaming in Q1 2024](https://dappradar.com/blog/state-of-blockchain-gaming-in-q1-2024)
+##### Edge of NFT Podcast: 
+[Decentralized Gaming and Metaverse Insights with Dallas Johnson](https://www.youtube.com/watch?v=_-mKkRY-3pk)
 
-Blockchain Gamer Biz coverage: [Saro McKenna latest piece on Potential of self-governed blockchain worlds](https://blockchaingamer.biz/features/opinions/31817/illimitable-potential-self-governed-blockchain-worlds/)
+##### [Alien Worlds featured on gam3s.gg WAX ecosystem update](https://gam3s.gg/news/gaming-wax-q2-report/)
+The recent report shows Alien Worlds dominating with 6 million unique active wallets this quarter, a testament to our community-driven approach
 
-Blockchaingamer Coverage: [Dacoco launches AI tool to expand Alien Worlds lore with UGC stories](https://www.blockchaingamer.biz/news/33097/dacoco-launches-ai-tool-to-expand-alien-worlds-lore-with-user-generated-stories/)
-[Alien Worlds Introduces Lynx AI Tool for Tokenized Lore Expansion](https://gam3s.gg/news/alien-worlds-lynx-ai/)
-NFT NYC: [Saro McKenna takes the stage and joins the panel: "NFT Utility - Unleashing Value from Your Community](https://nftnyc2024.sessionize.com/session/574142)
+##### NFT Evening's roundup of Best Play to Earn Games
+Alien Worlds featured in NFT Evening's roundup of "Best Play to Earn Games": [Best Play-to-Earn Games for Crypto & NFT Rewards in 2024](https://nftevening.com/best-play-to-earn-games/)
+
 
 ### <ins>Backups </ins>
 
