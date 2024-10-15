@@ -12,7 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-Launched new product: WAX Signals(https:/t.me/waxsignals). Listed more tokens on swap & analytics. Provided Snapshots && AA dumps.
+Launched a new product: WAX Signals(https://t.me/waxsignals). Listed more tokens on swap & analytics. Provided Snapshots && AA dumps.
 
 ### <ins>API Services</ins>
 
@@ -27,7 +27,7 @@ Launched new product: WAX Signals(https:/t.me/waxsignals). Listed more tokens on
 
 ### <ins>Contributions</ins>
 
-### WAX Signals (https:/t.me/waxsignals)
+### WAX Signals (https://t.me/waxsignals)
 **List of SCs**: swap.adex, swap.box, swap.taco, swap.nefty, swap.alcor, alcordexmain
 
 Real-time telegram alerts about DeFi activity on WAX Mainnet:
