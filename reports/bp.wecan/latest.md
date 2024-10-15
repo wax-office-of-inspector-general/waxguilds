@@ -73,9 +73,9 @@ Period: Sep 15th, 2024 - Oct 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/e8b98312-86c8-4abb-9fc8-22e1823374eb)
+![image](https://gist.github.com/user-attachments/assets/d506348f-6b7a-432e-91b0-471c1d4c00ec)
 
-![image](https://gist.github.com/user-attachments/assets/525afd3a-d19d-48c5-b9fc-b5b3f71f8bca)
+![image](https://gist.github.com/user-attachments/assets/25f4ca15-4cb4-4b2b-b279-7a7b41afda75)
 
 ---
 
