@@ -25,7 +25,7 @@ No other issues over the past 1.5 months.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 0 req/week | 0 req/week | 0 req/week | 0 req/week |  0 req/week |
+| - | 10.12M req/week | 664.15k req/week | 1.63M req/week | 37.88k req/week |  104.52k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
