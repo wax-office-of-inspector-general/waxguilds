@@ -14,7 +14,7 @@
 
 ### <ins>Noteworthy</ins>
 
-Some "issues" related to the FIO Blockchain consumed a lot of my time this month.
+Some "issues" related to the FIO Blockchain consumed a lot of my time this month. I will not go into detail here in this report, but essentially we had an unplanned case come up, that urgently required my attention.
 
 Our testnet atomic node experienced some issues this month. We resolved the issue.
 
@@ -38,7 +38,7 @@ Our testnet atomic node experienced some issues this month. We resolved the issu
 **Metrics**
 
 Period:
-- Huge Performance Improvements: This month we have developed & deployed changes for the frontend and apis of the validationcore. Essentially calculating the statistics of a single guild or the overview of all guilds are the heaviest operations in the whole system. When we designed the queries a while back, the amount of data was a lot less. With the new queries we ensure that the statistics are only calculated if absolutely necessary. Additionally we have adjusted the architecture to make the all guilds query more easily cachable. When the user now loads a session (opens validationcore for the first time), the guild overview table only has to be calculated a single time, ensuring that all subsequent queries are instant. As a result our whole system as become a lot less "clogged", speeding up all queries. We will keep an eye on the current version and possibly create a replica database on a beefier server to ensure a snappy performance in the future.
+- Huge Performance Improvements: This month we have developed & deployed changes for the frontend and APIs of the validationcore. Essentially calculating the statistics of a single guild or the overview of all guilds are the heaviest operations in the whole system. When we designed the queries a while back, the amount of data was a lot less. With the new queries, we ensure that the statistics are only calculated if absolutely necessary. Additionally, we have adjusted the architecture to make the all guilds query more easily cachable. When the user now loads a session (opens validationcore for the first time), the guild overview table only has to be calculated a single time, ensuring that all subsequent queries are instant. As a result our whole system as become a lot less "clogged", speeding up all queries. We will keep an eye on the current version and possibly create a replica database on a beefier server to ensure a snappy performance in the future.
 - Validations load Instantly: The biggest difference is noticeable when loading the validation of a guild (hence no statistics). These queries now load in under 1 second
 - We have gotten requests to add additional validations e.g. for IPFS. It is on our roadmap
 
@@ -103,7 +103,7 @@ Stats: Other guilds are using our exporters. We do not have exact numbers, since
 
 **Metrics**
 
-Period: 15. July 2024 - 15. August 2024
+Period: 15. September 2024 - 15. October 2024
 
 Stats: 8 subscribers. The number by itself, does not sound impressive, but keep in mind that this tool is targeted towards guild operators. Taking this into account, a decent percentage of all guilds use the bot to monitor their infrastructure.
 
