@@ -13,14 +13,19 @@
 ### <ins>Noteworthy</ins>
 
 We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
-The reason is being investigated.
+The reason is being investigated:
+
+the reason was in poor condition of one of the switches in the failover history node which made it flap.
+node was migrated out of there.
+
+No other issues over the past 1.5 months.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 17.1M req/week | 49K req/week | 2.13M req/week | 51K req/week |  115K req/week |
+| - | 0 req/week | 0 req/week | 0 req/week | 0 req/week |  0 req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -41,7 +46,7 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **Metrics**
 
-Period: July 15th, 2024 - Aug 15th 2024
+Period: Sep 15th, 2024 - Oct 15th 2024
 
 Stats:
 
@@ -65,7 +70,7 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: July 15th, 2024 - Aug 15th 2024
+Period: Sep 15th, 2024 - Oct 15th 2024
 
 Stats:
 
@@ -82,7 +87,7 @@ Stats:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-44 active pools with about 1000+ active user stakes accross the platform.
+40 active pools with about 2000+ active user stakes accross the platform.
 
 ![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
 ![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
