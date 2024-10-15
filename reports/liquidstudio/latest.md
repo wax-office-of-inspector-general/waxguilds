@@ -83,7 +83,7 @@ URL: [snapshots.liquidstudios.io](https://snapshots.liquidstudios.io/)
 |--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [ ] | [ ] |
 
-Up-to-date Backups of blocks.log and state_history.log have been made and uploaded on the 31st of August. 
+Up-to-date Backups of blocks.log and state_history.log have been made and uploaded on the 15th of October. 
 
 ### <ins>Feedback to OIG</ins>
 ----
