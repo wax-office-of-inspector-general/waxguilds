@@ -39,7 +39,7 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 **URLs:**
 * Website: https://rplanet.io;
            https://rplanet.app/;
-* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet; 
+* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (5k downloads); 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
@@ -50,10 +50,9 @@ Period: Sep 15th, 2024 - Oct 15th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/b52cc9f9-43d6-4d71-b872-9671d50f1982)
+![image](https://gist.github.com/user-attachments/assets/2dae3ed8-c941-418d-9298-5939663bc707)
 
-
-![image](https://gist.github.com/user-attachments/assets/807162f2-bff8-4177-876a-3e278275bb92)
+![image](https://gist.github.com/user-attachments/assets/1dcb1a06-7f8f-4e51-9b02-694864219cc5)
 
 ---
 
