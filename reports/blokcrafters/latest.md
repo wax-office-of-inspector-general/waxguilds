@@ -12,8 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-Thankfully this was a quiet period for us.  Several of us were travelling or on vacation.
-Nothing noteworthy to report this period.
+This was a not so quiet period for us in real life.  A few people in Florida are now looking for
+new homes following hurricane Helene.  All BlokCrafters servers are located elsewhere, there was
+no impact on technical operations.
 
 ### <ins>API Services</ins>
 
