@@ -12,16 +12,16 @@
 | Guild Jurisdiction | Netherlands |
 
 ### <ins>Noteworthy</ins>
-Hyperion availability has been improved. Also, a faster server for block production is being prepared. Addtionally, we have a price oracle running now, taking prices from Coinbase and Binance
+Following our block production troubles a while back, we ordered new servers which have now been fully operational over the past couple of weeks.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [X] | [x] | [x] | [x] | [] |  [] |
-| - | 8k req/hour | 100 req/hour | 33k req/hour | 130k req/hour | - |
+| - | 8k req/hour | 110 req/hour | 35k req/hour | 135k req/hour | - |
 
-Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (15k req/hour)
+Others APIs: WAX RPC (290k req/hour), WAX Testnet RPC (15k req/hour)
 
 
 ### <ins>Contributions</ins>
@@ -31,7 +31,7 @@ Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (15k req/hour)
 **URLs**: n/a
 
 **Update**: 
-We are producing on and helping with tests in the fast finality testnet (Savanna).
+We are still producing on and helping with tests in the fast finality testnet (Savanna).
 
 ### Hyperion Health Checker
 
@@ -90,7 +90,8 @@ None in the reporting period.
 A typical use case for Memento is tracking incoming and outgoing payments for a specific account, and checking their reversibility. The database may contain traces for all contracts on the blockchain, or it may be limited to a specific subset of accounts. dApps can set up their own instances, while public infrastructure providers may offer the service to a wider audience.
 
 **Update**: 
-A websocket streaming API has been developed and is currently in testing
+Version 2.0 of Memento API is out. The whole API is reworked in Typescript, and websocket streaming interface has been added:
+[https://github.com/Antelope-Memento/antelope_memento_api](https://github.com/Antelope-Memento/antelope_memento_api)
 
 ---
 
@@ -111,7 +112,7 @@ A websocket streaming API has been developed and is currently in testing
 **Description**: Continuous support of WAX Leap.
 
 **Update**: 
-Following the latest WAX Leap 5.0.1 release, we have been working on the 5.0.2 release. We are tackling some issues here - [AntelopeIO/leap#2384](https://github.com/AntelopeIO/leap/issues/2384). Additionally, we reported [one more problem](https://github.com/AntelopeIO/leap/issues/2393).
+We're a part of the next EOS release testing. While it is uncertain whether this one will also be used for WAX, we wanted to shortly mention it.
 
 ---
 

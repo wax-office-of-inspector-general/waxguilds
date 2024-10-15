@@ -14,7 +14,7 @@
 
 ### <ins>Noteworthy</ins>
 Technical Update:
-1. An abnormality occurred in the synchronization of full production data. The data from August last year was missing and has been resynchronized.
+1. An abnormality occurred in the synchronization of full production data. Some data was missing and has been resynchronized. Full flag to testnet hyperion endpoints checked
 
 
 ### <ins>API Services</ins>
@@ -23,7 +23,7 @@ Technical Update:
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]    | [x]    | [x]    | [x]    |  []    | []     |  
-|30.31 k req/week |30.13 k req/week |30.56 k req/week | 2.91M req/week |  |   |
+|30.02 k req/week |29.94 k req/week |30.18 k req/week | 3.14M req/week |  |   |
 
 
 Others APIs: Roborovski, dfuse, ...
@@ -33,63 +33,9 @@ Others APIs: Roborovski, dfuse, ...
 *[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
 
-### EOS WAX IBC bridge
-
-![image](https://github.com/DefiboxTeam/waxguilds/assets/93515916/d225fe63-a0cc-4b9b-91d6-7a2cbbde8f97)
-
-
-**URLs**: https://defibox.io/bridge/
-
-
-**List of SCs**: Antelope IBC smart contract related in EOS, WAX
-
-
-**Update**: 
-"We are doing some research about EOS players join WAX and make a schedule for EOS WAX bridge
-
-
-[[If needed, reference to a previous report](Not available)]
-
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
-
-
-**Metrics**
-
-
-[report relevant metrics and metric period...]
-
-
-Period: May 2024 - July 2024
-
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-Expected daily users: 50
-Expected daily cross-chain bridge assets: 50,000 WAX
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Defibox WAX Swap
-<img width="1171" alt="image" src="https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/978709ae-1a2e-4ca3-b722-d543d1907c7e">
+![image](https://github.com/user-attachments/assets/5f8189c8-eb0e-4ea5-a8ea-fb4238faf4dd)
+
 
 
 
@@ -100,8 +46,9 @@ Expected daily cross-chain bridge assets: 50,000 WAX
 
 
 **Update**: 
-"During the last 4 weeks we started WAX Blindbox event to boost our trade volume and TVL; while having 2 cooperations with WUI communities
-![image](https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/f9286b42-4517-4368-8648-087e48f12e30)
+"We have some cooperations with new WAX projects to boost our trade volume and TVL
+
+
 
 
 
@@ -118,13 +65,14 @@ Expected daily cross-chain bridge assets: 50,000 WAX
 [report relevant metrics and metric period...]
 
 
-Period: Feb. 1th, 2024 - March 31th 2024
+Period: August 2024
 
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-Average daily users: 30
-Average daily volume: 100,000 WAX
+Average daily users: 60
+Average daily volume: 4,000 USD
 ---
+![image](https://github.com/user-attachments/assets/a8cdfa25-0a34-4b54-a857-6fe010a0ea0c)
 
 
 ...
@@ -144,8 +92,9 @@ Average daily volume: 100,000 WAX
 Initiative A: https://wax.defibox.io/scoreShop
 **List of SCs**: ann.box
 
-<img width="776" alt="image" src="https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/655c7ec1-f65b-4ba5-bd07-ab3a79e7fd34">
-<img width="795" alt="image" src="https://github.com/wax-office-of-inspector-general/waxguilds/assets/93515916/1c9a25b2-1f14-414e-ad0f-f37854e88605">
+<img width="888" alt="image" src="https://github.com/user-attachments/assets/6a5bd5be-0e14-45cf-aa53-a9649b7d5c30">
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/0416d74f-63d8-42ee-bbf6-80b549ad16e9">
+
 
 
 

@@ -11,9 +11,8 @@
 | Guild Jurisdiction | United Kingdom (GB) |
 
 ### <ins>Noteworthy</ins>
-- Upgraded Atomic server
-- Updates to ChatGPT assistant and prepare for wider launch soon
-
+- Upgraded telegram bot to handle transactions in an MSIG
+- Resolved issue with testnet producer to reduce CPU times.
 
 ### <ins>API Services</ins>
 
@@ -24,13 +23,18 @@
 
 
 ### <ins>Contributions</ins>
+WAX Authority bot
+
+**URLs**: https://t.me/waxauthoritybot
+
+- The bot can now process and alert transactions when they are part of an MSIG. Example if a BP account is monioring.
+- There are currently over 8k accounts monitored by the bot with most alerts being sent within 0.5 seconds and 100% uptime.
+- Request OIGs to please reinstate points for this actively used project to support infrastructure for redundancy, ongoing support & maintenance.
+
+
 ChatGPT assistant - WAX Blockchain assistant by EOS Authority
 
 **URLs**: https://chat.openai.com/g/g-lDdr7dzKK-wax-blockchain-assistant-by-eos-authority https://eosauthority.com/blog/WAX_Blockchain_Assistant_by_EOS_Authority
 
-The team has put together the blog linked above. The WAX team has agreed to promote the new AI system and we will explore ways in the future to integrate chat support to discord or other WAX channels. OpenAI has announced the launch to all users within a week or two and the WAX team is likely to promote this on their channels soon. We have over 100+ users (paid ChatGPT) users try this so far and over 100,000 API requests were processed so far. We look forward to wider launch when OpenAI releases the system to all users. The system is also updated to support multiple languages and send summary for user account / specific transaction.
+Updated to add more information on OIGs and relevant WAX info
 
-
-### <ins>Feedback to OIG</ins>
-1) Please reinstate the points for atomic as the system is now upgraded
-2) WAX GPT does not have points allocated yet, the system is live for over a month now and usage reports as also submitted with this report.

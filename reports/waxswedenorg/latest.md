@@ -11,8 +11,9 @@
 | Guild Jurisdiction | Sweden |
 
 ### <ins>Noteworthy</ins>
-- Updated Hyperion to 3.3.10
-- Main producer had CPU failiure, and we have replaced that machine with a new one.
+- New Thalos Releases, including bug fixes and new features.
+- Official Docker build for thalos [https://thalos.waxsweden.org/docs/installation/docker](https://thalos.waxsweden.org/docs/installation/docker)
+- Updated Thalos Docs to reflect all Thalos changes and updates.
 
 
 ### <ins>API Services</ins>
@@ -25,15 +26,14 @@
 
 ### <ins>Contributions</ins>
 
-| Website/Platform | Visitors/views | Timeframe |
-| ---------------- | -------- | -------- |
-| alienw.com | 3.6k | 30 days | 
-| waxsweden.org | 630 | 30 days |
-| academy.anyo.io | 238 | 30 days | 
-| Anyo YouTube | 273 | 28 days |
-| anyo.io | 850 | 30 days |
+| Website/Platform | Visitors/views | Timeframe |     |
+| ---------------- | -------------- | --------- | --- |
+| alienw.com       | 1.1k           | 30 days   |     |
+| waxsweden.org    | 469            | 30 days   |     |
+| academy.anyo.io  | 189            | 30 days   |     |
+| Anyo YouTube     | 185            | 28 days   |     |
+| anyo.io          | 264            | 30 days   |     |
 
-- Removed twitter, because data is only accessible behind twitter premium subscriptions
 
 ---
 ### Thalos
@@ -43,14 +43,29 @@
 
 **Update**:
 
-#### Version 1.1.2-rc2 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc2](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc2)
-- fix a bug where TableDeltaRow.Data was not set
-- fix a bug where blockResult.Deltas was not properly nil checked. Resulting in panic if accessed
+#### Version 1.1.5 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5)
+- New config section: cache
+- New CLI flag: cache specify what cache driver to use
+- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
+request made when Thalos wants to fetch a ABI from the api.
+- API Table Deltas: abi decode the data in value field for contract_row deltas.
+- golang: update github.com/shufflingpixels/antelope-go to v0.1.5
+- golang: update github.com/quic-go/quic-go from 0.41.0 to 0.42.0
+- golang: version 1.20 can no longer be used to build the project.
+- Docker Image v1.1.5 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5)
 
-#### Version 1.1.2-rc1 - [github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.2-rc1)
-- Moved from github.com/eoscanda/eos-go to github.com/pnx/antelope-go library
+#### Version 1.1.5-rc1 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1)
+- New config section: cache
+- New CLI flag: cache specify what cache driver to use
+- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
+request made when Thalos wants to fetch a ABI from the api.
+- API Table Deltas: abi decode the data in value field for contract_row deltas.
+- golang: update github.com/shufflingpixels/antelope-go to v0.1.4
 
----
+#### Version 1.1.4 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4)
+- Implement whitelist option for ship contract/action blacklist
+- Fix bug with integer overflow on 32 bit CPUs.
+
 
 ### APT Packages
 **Description**: APT Packages for WAX, Antelope and relevant tools for Linux distros. *apt install wax*
@@ -58,7 +73,9 @@
 **URLs**: [WAX APT repo](https://eosswedenorg.github.io/apt/wax), [Main apt repo, some of our tools](https://eosswedenorg.github.io/apt/main), [Antelope APT repo](https://eosswedenorg.github.io/apt/antelope), [Github](https://github.com/eosswedenorg/apt)
 
 **Update**:
-- Added the new Thalos v1.1.2 into [Apt Main Repo - Edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.5-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.5 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.4 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
 
 ---
 
@@ -68,13 +85,7 @@
 **URLs**: [anyo.io](https://anyo.io/), [OIG Roundtables](https://academy.anyo.io/wax-oig-roundtables), [Anyo YouTube](https://www.youtube.com/anyobservation), [Anyo Twitter](https://twitter.com/anyobservation), [WAX Memo Tracker](https://anyo.io/blockchain_tools/memo_tracker), [WAX Trx tracker](https://anyo.io/blockchain_tools/trx_tracker)
 
 **Update**: 
-- Latest OIG Roundtables are uploaded on YouTube and the site.
-- [2024-05-21](https://youtu.be/IORlljPM-ms)
 
-### Memo tracker:
-- fixed bug on the WAX memo_tracker where it would fail for the user
-- improved handling of api data
-- provide debug info for user
 
 ---
 
@@ -102,8 +113,6 @@
 **URLs**: [waxsweden.org/commercial-api/](https://waxsweden.org/commercial-api/)
 
 **Update**: 
-- Added an offering for Private Thalos Instances for customers.
-- Currently in communications with one new prospect of tapping into this service.
 
 ---
 
@@ -114,6 +123,7 @@
 
 **Update**: 
 
+
 ---
 
 ### WAX Testnet
@@ -122,7 +132,6 @@
 **URLs**: [https://waxsweden.org/testnet](https://waxsweden.org/testnet)
 
 **Update**:
-- helped the WAX team set up more accounts for their Cloud Wallet Backend
 
 ---
 
@@ -132,7 +141,6 @@
 **URLs**: [Github](https://github.com/eosswedenorg/antelope-api-healthcheck), [APT](https://eosswedenorg.github.io/apt/main)
 
 **Update**: 
-- Added a fix for an atomic api issue, and is currently having one team testing it before pushed live. 
 
 ---
 
@@ -144,28 +152,16 @@
 **List of SCs**: [Mainnet](notify.se), [Testnet]()
 
 **Update**: 
-- First version of the data dashboard is up and running
-    - Added a breakdown of CPU Billing across top 150 actions for all active BPs
-    - Snapshots of data going back a week
-    - View to investigate an contract::action over the last 24h - https://dashboard.waxsweden.org/actions
-    - View to dig into strange CPU billed transactions for a BP - https://dashboard.waxsweden.org/actions/bp-breakdown
-    - View for the daily top used contracts over the last week - https://dashboard.waxsweden.org/top-contracts
-    - View of top authorized user for a specific contract::action - https://dashboard.waxsweden.org/contracts/authorized-users
-- Improved session handling
-- Added numbers to the top-contracts graph
-- Updated color-scheme of the graph
-- Better scaling of tables for phone
+- started to work on a new feature to display resource states of accounts across time.
 
 ---
 
 ### Alienw.com
 **Description**: Explorer for everything related to the Alien Worlds DAOs, including an API and wallet interface. 
 
-**URLs**: [alienw.com/](https://alienw.com/), [Alpha API - https://api.alienw.com/](api.alienw.com/)
+**URLs**: [alienw.com/](https://alienw.com/), [Alpha API - https://api.alienw.com/](api.alienw.com/), [alienw wallet Interface](https://wallet.alienw.com)
 
 **Update**: 
-- wallet interface has gotten further updates, soon ready for launch
-- Mobile adaptation of the UI is now "done"
 
 ---
 
@@ -175,7 +171,6 @@
 **URLs**: [api.waxsweden.org](https://api.waxsweden.org/)
 
 **Update**: 
-- Provided access to SHIP-node and Thalos for two teams working on their projects. 
 
 ---
 
@@ -198,7 +193,7 @@ Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.o
 
 Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
-Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-05-01T04_30_01_367_277282072.bin.tar.gz)
+Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-08-01T04_30_01_408_293176065.bin.tar.gz)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
@@ -208,4 +203,3 @@ Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.
 ### <ins>Feedback to OIG</ins>
 
 ----
-

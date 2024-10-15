@@ -11,20 +11,18 @@
 | Guild Jurisdiction | UAE |
 
 ### <ins>Noteworthy</ins>
-This last period we have launched our core producs on WAX Main Net and rolling out initial infra nodes(WAX v5.0.1), apis, etc.
 
-We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited initial guild form.
+Launched more public infrastructure: Hyperion Mainnet(partial), Hyperion Testnet(full), Light API. Providing state history snapshots and docker images. Added metrics&stats for core products and apis.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [] | [] | [] | [ ] | [ ] |  [ ] |
-| - | - | - | - | ~x req |  ~y req |
+| [x] | [] | [x] | [x] | [x] | [x] |
+| 124718 req/week | - | 17014 req/week | 75621 req/week | 4357 req/week |  1008 req/week |
 
 **Others APIs: **
 
-* A-DEX REST API: https://wax.a-dex.io/api/docs/
 * A-DEX GRAPHQL API: https://wax.a-dex.io/v1/graphql
 
 ### <ins>Contributions</ins>
@@ -34,14 +32,47 @@ We’ve also produced 1 week+ on WAX Test Net(no issues so far) and submited ini
 
 Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provide liquidity to earn 0.2% of trading fees. Initial project launch.
 
+**Update**
+
+Working on new tokens listing and possible collaborations.
+
+**Metrics**
+
+* TVL: 880 WAX
+* Volume: 316 WAX (30 days)
+* UAW: 327 (30 days)
+* Transactions: 351 (30 days)
+
+* Visits: 260 (30 days)
+* Page views: 540 (30 days)
+
+
 ![wax a-dex io_swap(iPhone 14 Pro Max) (3)](https://github.com/A-DEX/waxguilds/assets/24969602/731eafe7-5c6e-4159-9265-6a8441ebcc9f)
+
+---
+
+### A-DEX Analytics (https://wax.a-dex.io/analytics)
+**List of SCs**: swap.adex
+
+DEX analytics with core metrics(TVL, Volume, UAW, Transaction, Fees, APY, Actions). All data is available from our GraphQL API.
+
+**Update**
+
+* Working on target analytics for each listed token
+
+**Metrics**
+
+* Visits: 30(30 days)
+* Page views: 160(30 days)
+
+![wax a-dex io_analytics(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/f93e7993-bc44-4051-b6dc-ee4a678b274f)
 
 ---
 
 ### A-DEX Send (https://wax.a-dex.io/swap)
 **List of SCs**: eosio.token, wuffi, usdt.alcor, token.nefty
 
-Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). Initial project launch.
+Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). Continuing to providing this service.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/d9041457-48bc-4dee-a28e-59bc2b20e2e3)
 
@@ -49,17 +80,9 @@ Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). I
 
 ### A-DEX Buy (https://wax.a-dex.io/swap)
 
-Fiat & Crypto users on-ramp direct to WAX. Initial project launch.
+Fiat & Crypto users on-ramp direct to WAX. Continuing to providing this service.
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (4)](https://github.com/A-DEX/waxguilds/assets/24969602/90967906-4299-4546-a32e-6ccb5e26abd5)
-
----
-
-### A-DEX Assets (https://github.com/A-DEX/assets)
-
-A comprehensive, up-to-date collection of information about Antelope(EOSIO) chains and assets.
-Added some popular WAX tokens info and logos.
-
 
 ---
 
@@ -67,15 +90,61 @@ Added some popular WAX tokens info and logos.
 
 An SDK for building applications on top of A-DEX.
 
+**Metrics**
+
+Downloads: ~90/month
+Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
+
+---
+
+### A-DEX Assets (https://github.com/A-DEX/assets) - Community Tools
+
+A comprehensive, up-to-date collection of information about Antelope(EOSIO) chains and assets.
+Added some popular WAX tokens info and logos.
+
 ---
 
 ### A-DEX Status (https://status.a-dex.io/)
 
 We provide transparency of our service availability through our public infra status dashboard.
 
-![status a-dex io_(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/a3d0c073-b40a-449e-b793-2e37f38c6564)
+**Update**
+
+Added Hyperion & Atomic Assets & Light API monitoring.
+
+![status a-dex io_(iPhone 14 Pro Max) (3)](https://github.com/user-attachments/assets/3b4a8694-a9b8-4b68-b7d4-7024f96ef0e6)
 
 ---
+
+### Docker Images (https://hub.docker.com/u/adexofficial) - Ecosystem
+
+We are providing up to date docker images for all WAX related software.
+
+---
+
+### Commercial API Services (https://docs.a-dex.io/about-us/services) - Ecosystem
+
+We are providing dedicated commercial solutions for WAX APIs.
+
+---
+
+### Antelope Servers TG group (https://t.me/leapservers) - Ecosystem
+
+We are created and maintaining Antelope Servers telegram group.
+
+**Metrics**
+
+* Members: 111
+
+---
+
+### <ins>Backups </ins>
+
+| Chain DB Snapshot | Blocks Log | State History | Elastic Search | AA API |
+|----------|------------|---------------|----------------|--------|
+| [ ]      | [ ]        | [x]           | [ ]            | [ ]  |
+
+Source: https://snapshots-wax.a-dex.xyz
 
 ### <ins>Marketing</ins>
 * Listed WAX/USDT/WUF/NEFTY for trading and managing, provided initial liquidity.
@@ -86,6 +155,6 @@ We provide transparency of our service availability through our public infra sta
 
 ### <ins>Feedback to OIG</ins>
 
-N/A
+Requested metrics for our products provided.
 
 ----

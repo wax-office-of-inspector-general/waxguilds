@@ -14,13 +14,15 @@
 
 ### <ins>Noteworthy</ins>
 
-This month was characterized by the maintenance and upkeep of our projects. Some bigger changes will likely launch next month.
+We have finally submitted our WAX Labs Proposal this month. While it does not directly affect our Guild operations, it has required a significant portion of our time. You can read more about our WAX Labs Proposal here:
+https://docs.google.com/document/d/1bHlVhLSsqvtZmAcxU6C-vMBEZFzouXecsey-GZCiP1c/edit
+
 
 ### <ins>API Services</ins>
 | History (partial) | History (full) | History (testnet) | AA API     | Light-API | IPFS      |
 |-------------------|--------|-------------------|------------|-----------|-----------|
 | [ ]               | [ ] | [x]               | [x]        | [ ]       | [x]       |
-| -                 | - | not tracked       | 1.6mio req | -         | not tracked |
+| -                 | - | not tracked       | 1.42mio req | -         | not tracked |
 
 
 ### <ins>Contributions</ins>
@@ -32,10 +34,10 @@ This month was characterized by the maintenance and upkeep of our projects. Some
 **List of SCs**: -
 
 **Update**:
-- Upkeep and Maintenance
+- Maintenance
 **Metrics**
 
-Period: -
+Period:
 
 Stats: Not tracked, but it is safe to say the validationcore is an essential part of the OIG evaluations itself :)
 
@@ -48,14 +50,12 @@ Stats: Not tracked, but it is safe to say the validationcore is an essential par
 **List of SCs**: illusiveauth
 
 **Update**:
-- Last month we launched our AI features for illusive. We are tracking the user data to determine which features to build out next and what to focus on.
-- We had talks with a couple of games on launching campaigns incentivizing users to create content (write to earn), however, we are currently unsure if this will work in the current landscape of WAX. We are always happy to hear more opinions on this and we will continue our talks hopefully launching some campaigns soon or focusing on a different approach.
-- Until then, we will leave the current feature set as is, to ensure we spend our development time on the right features.
+- Maintenance
 **Metrics**
 
-Period: 1. May 2024 - 31 May 2024
+Period: 15. July 2024 - 15 August 2024
 
-Stats: 116 unique users
+Stats: 111 unique users
 
 ---
 
@@ -71,9 +71,9 @@ Stats: 116 unique users
 **Metrics**
 
 
-Period: 1. May 2024 - 31 May 2024
+Period: 1. August 2024 - 31 August 2024
 
-Stats: 38.19k unique visitors | 3.12M total requests (based on Cloudflare stats)
+Stats: 30.51k unique visitors |1.17M total requests (based on Cloudflare stats)
 
 ---
 
@@ -100,7 +100,7 @@ Stats: Other guilds are using our exporters. We do not have exact numbers, since
 
 **Metrics**
 
-Period: 1. May 2024 - 31. May 2024
+Period: 15. July 2024 - 15. August 2024
 
 Stats: 8 subscribers. The number by itself, does not sound impressive, but keep in mind that this tool is targeted towards guild operators. Taking this into account, a decent percentage of all guilds use the bot to monitor their infrastructure.
 
@@ -122,7 +122,7 @@ URL: -
 
 ### <ins>Feedback to OIG</ins>
 
-There are a lot of calls happening recently and the timelines for the periods are sometimes tricky to find. Make a calendar we can subscribe to ✨ 
+There are a lot of calls happening recently and the timelines for the periods are sometimes tricky to find. Make a calendar we can subscribe to ✨
 
 ----
 

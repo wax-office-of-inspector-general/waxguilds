@@ -23,7 +23,6 @@
 
 **Update**: 
 
-- We started providing a private SHIP server WS:// socket for Gudasol, owner of tetra.earth and cXc.world on WAX.
 
 ### <ins>Contributions</ins>
 
@@ -35,16 +34,9 @@
 
 **Update**: 
 
-- We have updated our P2P checks to ensure compatibility with leap 5.
-
-
+- We updated our code to ensure that history nodes not set to Full: True in JSON file will not be counted as full history.
 
 **Metrics**
-
-We had bp.wecan use our manual scan facility 10 times, during the last month. The facility helps guilds to double check their services are up using all the sengine checks, by requesting a on demand scan.
-
-Period:  April 16th 2024 - 31 May 2024
-
 
 
 ---
@@ -94,7 +86,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for EOSauthority, NFTHive and Cryptolions.
+We completed a security audit for Wombat, Taco
 
 ---
 
@@ -105,9 +97,29 @@ At Sentnl we provide smart contract audits for EOSIO contracts on WAX. We've alw
 
 **Update**: 
 
-We completed a security audit for Alcor Exchange and their new Liquid WAX staking product
 
 
+### 📝 AI Summary tool	
+
+A tool we created that trawls through the messages of certain  Telegram groups and creates daily summarizations. It also tries to filter the noise by calculating an importance score of messages based on sentiment and engagement.
+
+**The current method of filtering includes:**
+
+- Analysing each message and placing a weight on how positive or negative a message is. (higher weights for very positive or very negative messages)
+- Anaylsing each message and counts the amount of reactions and replies a message receives and includes them in a importance score calculation.
+
+
+**Update**: 
+
+
+### 🆘 Automated producer unreg tool
+
+We've created an automated producer unreg tool - https://github.com/ankh2054/unregbot
+It monitors our missing blocks API (streams from ship using LIB) for your mainnet and testnet producers and if missing round(s) detected it will automatically unreg your producer. Optionally it also sends you a message via pushover (which is useful as it overrides your phones do not disturb settings)
+
+**Update**: 
+
+- We added the options to pause and resume producers to reduce missing blocks whilst waiting for the producer to unregister.
 
 ### 🧰 Various community tools	
 
@@ -143,9 +155,6 @@ No update this month.
 
 **Update**: 
 
-- Added our EOSIO CDT docker which was not previously on our list.
-- Updated snapshots.sentnl.io with important security js module updates & updated Dockerfile to latest alpine and react-scripts.
-- Updated - snapshot-service with important security python updates & updated Dockerfile to use Ubuntu 22.04 and install Antelope Leap 5.
 
 ---
 
@@ -163,6 +172,9 @@ Sengine uses the API to display the missed blocks for each guild.
 * https://github.com/ankh2054/missing-blocks
 * https://missm.sentnl.io/documentation/static/index.html
 * https://misst.sentnl.io/documentation/static/index.html
+
+
+**Update**: 
 
 
 ---
@@ -183,7 +195,6 @@ https://wiki.sentnl.io/security
 
 **Update**: 
 
-No update this month.
 
 
 ### <ins>Marketing</ins>

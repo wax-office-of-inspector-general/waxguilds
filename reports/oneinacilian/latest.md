@@ -12,56 +12,72 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>May 2024 Update</ins>
-We are pleased to provide an update on the latest developments and contributions from Oneinacillian to the WAX blockchain ecosystem. Over the past period, we have introduced three valuable resources to support the community: Chain DB snapshots, Atomic snapshots, and a new Telegram bot. Below are the details for each offering:
-In addition to the snapshots, we are launching a new Telegram bot designed to notify block producers of any empty or missing blocks. This bot provides a detailed report every 24 hours, helping to maintain the integrity and performance of the blockchain.
+### <ins>August 2024 Update</ins>
+We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
+
 ### <ins>Noteworthy</ins>
-We experienced an outage during the previous evaluation period affecting our test net block producer. On two separate occasions, our block producer missed rounds: 9 rounds on the 23rd of May and 33 rounds on the 26th of May. The issue was traced back to a corrupted state database, which caused the block producer to stop synchronising blocks.
-In response, we reinitialised the block producer and carried out thorough maintenance to ensure stability moving forward.
+Over the past period, we have been actively developing a monitoring initiative. This is a new mechanism aimed at providing greater visibility and proactive monitoring for solutions running within the WAX ecosystem. Our efforts are focused on creating a system that can:
+
+* <ins>Monitor OIG Portals:</ins> Automatically alert guilds when critical components are impaired or flagged as down.
+* <ins>State Availability Tracking:</ins> Keep a close watch on the availability of state data to ensure uninterrupted access.
+* <ins>Snapshot Monitoring:</ins> Track and report on the status of snapshots being taken, providing timely updates on their availability.
+
+Our goal is to eventually package these monitoring capabilities into a comprehensive solution that we believe will be highly beneficial for all guilds. We look forward to sharing more details as this project progresses.
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 79402 | 65760 | 1138533 | - |  46337 |
+| - | 1727363 | 247871 | 348929 | 45620 |  46599 |
 
 
-### Docker Project
+### <ins>Docker Project</ins>
 
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-Nothing to report this period
+We continue to make enhancements to our Docker Project to improve flexibility, stability, and ease of use. 
 
 ---
 
-### Telegram Bot for Block Producer Notifications
+### <ins>Telegram Bot for Block Producer Notifications </ins>
 
 **Update**: 
-We have developed a new Telegram bot, using the Sentnl API, to enhance the monitoring capabilities for block producers. This bot sends a message every 24 hours, detailing the number of empty blocks by guild and any missing blocks within the same period, along with exact timestamps.
-* Access: Join the channel using the following link: @oiacblockinfo
-* Purpose: This bot ensures that block producers stay informed about block performance issues, allowing for timely interventions and improvements.
+No major update this period
 
 ---
 
-### Chain DB Snapshots
+### <ins>Full State History Snapshots</ins>
 
 **Update**: 
-We now provide regular Chain DB snapshots, for both main net and test net, to facilitate easier and faster blockchain synchronisation for new nodes and to support developers in their testing and development efforts.
-* Repository URL: https://mainnetsnapshots.oiac.io & https://testnetsnapshots.oiac.io
-* Frequency: Daily
-* Purpose: These snapshots help reduce the time required to sync new nodes and provide a reliable backup solution.
+No major update this period
+
+* Repository URL: https://stateblocks.oiac.io
+* Frequency: Weekly
+* Purpose: These snapshots are essential for maintaining a complete and accurate history of the blockchain state, facilitating development and ensuring data integrity.
 
 ---
 
-### Atomic Snapshots
+### <ins>Full Blocks Snapshots</ins>
 
 **Update**: 
-In addition to the Chain DB snapshots, we are also offering Atomic snapshots. These snapshots are crucial for developers and users working with the AtomicAssets standard, enabling quicker access to the latest state of the assets on the blockchain.
-* Repository URL: https://atomicmainsnapshots.oiac.io/ 
-* Frequency: Daily
-* Purpose: These snapshots support the efficient development and deployment of DApps and provide a reliable backup for the AtomicAssets state.
-  
+No major update thsi period
+
+* Repository URL: https://stateblocks.oiac.io
+* Frequency: Weekly
+* Purpose: These snapshots are crucial for developers and block producers to have a comprehensive record of all blocks, ensuring seamless synchronisation and recovery processes.
+
+----
+
+### <ins>LightAPI Services</ins>
+
+**Update**:
+No major update this period
+
+* Repository URL: https://light-api.oiac.io
+* Purpose: These services offer lightweight and efficient access to blockchain data, supporting various applications and integrations.
+
 ---
 
 ### <ins>Marketing</ins>

@@ -19,7 +19,7 @@ All services remain operational.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [_] | [x] | [x] | [x] | [x] | [x] 
-| - | 2.26M req/week | 45.92K req/week | 526.51K req/week | 13.29K req/week |  17,99K req/week |
+| - | 2.3M req/week | 30.82K req/week | 619.36K req/week | 3.2K req/week |  7.5K req/week |
 
 
 
@@ -34,7 +34,7 @@ Operational, continues providing info on WAX endPoints, checker & validator.
 
 **Metrics**
 
-113 users last month with average engagement time of 33s (by google analytics).
+174 users last month with average engagement time of 43s (by google analytics).
 
 
 ### <ins>Marketing</ins>
@@ -43,14 +43,14 @@ None at this moment.
 
 ### <ins>Backups </ins>
 
-New addition of Elastic Search backup to the backup system.
+Operational, continues providing all types of backups.
+
 
 https://wax-backups.eosiomadrid.io
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [x] | [x] |
-
 
 
 

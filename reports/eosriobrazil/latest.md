@@ -12,7 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-Operations are running smoothly and we keep working on operations and tooling.
+The team have been deeply involved with the Savanna Consensus upgrade and the Spring v1.0 Hardfork. The team focused on both helping in the testing and also in making the necessary adaptations to Hyperion. 
+
+An infrastructure issue affected our Atomic API but the issue is solved. 
 
 ### <ins>API Services</ins>
 
@@ -25,20 +27,15 @@ Operations are running smoothly and we keep working on operations and tooling.
 
 ### Hyperion
 
-**URLs**: https://github.com/eosrio/hyperion-history-api/releases/tag/v3.3.10-1
+**URLs**: https://github.com/eosrio/hyperion-history-api/tree/3.3.10-strict
 
 **Update**:
-After updating the main branch version 3.3.10, the team started working on a strict type-check branch working on the inconsistencies found. All the dependencies are being updated and full coverage API testing was implemented.
-
-New features being included in this branch includes:
-Account Autocomplete API
-Savannah Compatibility
-Hyperion light explorer is being carved out to work as a stand alone software (https://github.com/eosrio/hyperion-explorer)
+While still working on the Hyperion Hub, part of the team is now working on the revamp of Hyperion Block Explorer which allows anyone running Hyperion to easily create a lightweight block explorer..
 
 Other than that we keep on supporting the community mainly through the telegram channel.
 
 **Metrics**
-72 forks of the Github Repository
+72 forks and 121 stars on Github
 
 
 ---
@@ -50,13 +47,14 @@ Other than that we keep on supporting the community mainly through the telegram 
 **Update**:
 We kept on implementing it on our projects, and also working on benchmarking.
 
+
 ---
 
 ### Node Abieos
 
 **URLs**: https://github.com/eosrio/node-abieos/releases/tag/v3.3.0
 
-**Update**: No major update this cycle.
+**Update**: no major update this cycle.
 
 **Metrics**
 211 downloads last month. 4011 downloads all time.
@@ -68,15 +66,17 @@ We kept on implementing it on our projects, and also working on benchmarking.
 
 **URLs**: https://github.com/eosrio/bp-info-standard/releases/tag/v1.0.4
 
-**Update**: No major update this cycle.
+**Update**: No major updates this cycle
  
 
 ---
 ### Fleet SHiP Router
 
 **Update**:
-No major update this cycle.
+No major updates this cycle.
+
 Launch is expected in Q2/2024.
+
 
 ---
 
@@ -93,5 +93,6 @@ URL:
 
 
 ### <ins>Feedback to OIG</ins>
-Keep up the great work!
+Keep up the great work! 
+
 ----

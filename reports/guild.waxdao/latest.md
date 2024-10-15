@@ -13,14 +13,14 @@
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-- No issues
+No issues to speak of.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [x] | [x] | 
-| - | - | - | - | ~354k req/day |  ~93k req/day |
+| - | - | - | - | ~354k req/day |  ~89k req/day |
 
 Others APIs: Roborovski, dfuse, ...
 
@@ -29,26 +29,23 @@ Others APIs: Roborovski, dfuse, ...
 
 ### WaxDAO Farms And DAOs
 
-**URLs**: https://waxdao.io
+**URLs**: https://waxdao.io, https://farms.waxdao.io
 
-**List of SCs**: waxdaofarmer, farms.waxdao, dao.waxdao
+**List of SCs**: waxdaofarmer, farms.waxdao, dao.waxdao, tf.waxdao
 
 **Update**: 
-- Several minor UI updates for the farms, such as select all / select 100 / select 500 buttons on the v2 farms since users with too many NFTs would get failed transactions trying to stake. Fixed an issue with depositing tokens into a farm's reward pool via the public farm page. Fixed a contract issue with v2 farms overestimating how many periods were left before a farm expires. Other minor UI improvements.
 
-- Minor UI updates for DAOs, such as proposals not showing a finalize button in certain cases after the proposal ended. Fixed a DAO contract bug that was incorrectly allowing a proposal to pass in certain cases if it didn't meet the minimum amount of votes set by a DAO.
+A few minor UI improvements and contract updates.
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: 04/15/2024 - 05/30/2024
+Period: 07/15/2024 - 08/30/2024
 
 Stats:
 
-- Search console: 1.5k clicks / 15.3k impressions / 9.8%% CTR
-- Google analytics: 5.9k users / 4.2k new users / 11m 30s engagement time
-- 970 NFT farms, 143 token farms, 19 daos, 49 proposals, 1,070 vote actions in daos (all running totals)
+- 1,033 NFT farms, 176 token farms, 21 daos, 49 proposals, 1,070 vote actions in daos (all running totals)
 
 
 ---
@@ -60,15 +57,14 @@ Stats:
 **List of SCs**: waxdaobacker
 
 **Update**: 
-No new updates this period
+
+- Just a minor contract update to allow deposits without backing NFTs. But given the deprecation of AA backing feature, it's likely that I'll be rewriting this contract and creating a better indexer/API.
 
 **Metrics**
 
-[report relevant metrics and metric period...]
-
 Period: All time
 
-Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
+Stats: 5,858 total NFTs backed
 
 
 ---
@@ -80,7 +76,9 @@ Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
 **List of SCs**: waxdaosynths, waxdaoescrow, waxdaolocker
 
 **Update**: 
-- Minor contract updates for waxdaoescrow and waxdaolocker
+
+- Fixed a UI issue where certain token pages weren't behaving properly.
+- Updated the indexer to count liquidity pairs that include new tokens (lsWAX, LSW etc)
 
 **Metrics**
 
@@ -88,7 +86,7 @@ Stats: 3,525 total NFTs backed, about 100% increase since last evaluation
 
 Period: All time
 
-Stats: 102 total token locks, 213 people have used our token creator, 42 synthetic tokens have been created, 54 total slow drip escrow agreements
+Stats: 161 total token locks, 233 people have used our token creator, 48 synthetic tokens have been created, 60 total slow drip escrow agreements
 
 
 ---
@@ -101,7 +99,8 @@ Stats: 102 total token locks, 213 people have used our token creator, 42 synthet
 **List of SCs**: waxdaomarket
 
 **Update**: 
-No new updates this period
+
+- Couple of minor front end updates related to NSFW collections etc
 
 **Metrics**
 
@@ -109,7 +108,7 @@ No new updates this period
 
 Period: All time
 
-Stats: 2,463 total nft drops, 1859 total blends, 20,709 total drop claims, 34,704 total blend claims, 14,928 total pack openings
+Stats: 2,550 total nft drops, 2,142 total blends, 23,134 total drop claims, 42,261 total blend claims, 19,563 total pack openings
 
 
 ---
@@ -133,33 +132,50 @@ n/a
 ### WaxFusion Liquid Staking Protocol
 
 **URLs**:
-[Token Contract](https://github.com/mdcryptonfts/token.fusion)
-[DApp Contract](https://github.com/mdcryptonfts/dapp.fusion)
-[POL Contract](https://github.com/mdcryptonfts/pol.fusion)
-[CPU Rental Contract](https://github.com/mdcryptonfts/cpu.fusion)
-[Node JS Worker Bot](https://github.com/mdcryptonfts/fusion_worker)
+[Smart Contracts](https://github.com/mdcryptonfts/waxfusion)
+[Website](https://waxfusion.io)
 
 
 **List of SCs**: dapp.fusion, token.fusion, pol.fusion, cpu1.fusion, cpu2.fusion, cpu3.fusion
 
 **Update**: 
 
-- Created [public documentation](https://docs.waxfusion.io) for WaxFusion
+- Released on WAX Mainnet
+- Listed on [DefiLlama](https://defillama.com/protocol/waxfusion#information)
+- Listed on [DappRadar](https://dappradar.com/dapp/waxfusion)
+- Partnered with dozens of WAX projects to create Alcor farms and boost ecosystem liquidity
+- Partnered with Herb Bot and Crypto Alpha to integrate lsWAX into Telegram bots
+- Got lsWAX integrated as a payment option on Hive and Nefty
+- Multiple UI improvements
+- Pushed a smart contract update, and wrote another update but need to write more tests for it and propose a msig before it can be pushed to mainnet
+- Added/updated multiple sections of the documentation
+- Updated Thalos version and improved the indexer
+- Created an API with a simple `get_tvl` endpoint, started some tests with reading table deltas to create a more robust public API
+- Wrote a Medium article and had it published by the WAX team
+- Telegram group is very active and reached just under 300 members
+- Applied for CoinGecko listing, got turned down due to liquidity and social following, but will be reapplying as the numbers grow
+- lsWAX is already a [top 10 token](https://waxonedge.app/analytics) and hasn't even been out for a month
+- Around 500 WAX has already been permanently locked in our `pol.fusion` contract, which will always be there to generate rewards for users, but never withdrawn from the contract. It's essentially `eosio.null` but with more value-add.
 
-- Launched a [public UI](https://test.waxfusion.io) and did a trial run on testnet to have users report bugs/feature requests etc
+**Metrics**
 
-- Made many improvements to the pol.fusion and dapp.fusion contracts, and created a [new repo](https://github.com/mdcryptonfts/waxfusion) that includes all of the updated contracts, as well as a very comprehensive list of unit tests/simulations which helped us to identify/fix several bugs. The unit tests also include several "mock" contracts that allow us to simulate behavior of other contracts like Alcor, eosio.system etc
+6+ million total WAX locked, over 400 unique users, over 500 lsWAX holders, over 50,000 WAX worth of rewards generated for users, 3,575 WAX generated for ecosystem incentives (Alcor farms that are natively supported on the WaxFusion contract)
 
-- Submitted 3 of the contracts for audit so far. The token.fusion and cpu.fusion contracts have been given a green light, and am currently awaiting audit results for the pol.fusion contract. The dapp.fusion contract is ready for audit, just waiting on results from the pol contract before submitting the dapp.fusion contract. Expecting to have this launched on mainnet before the next evaluation.
+---
 
-- Got most of the logos/branding created for WaxFusion
+### Smart Contract Development Handbook
 
-- Created a public [worker app](https://docs.waxfusion.io/worker-app) to allow anyone to add redundancy to the protocol. Worth noting that due to updating the contracts to comply with the audit, some adjustments do need to be made to this worker app now (certain actions have different parameters now etc)
+**URLs**: https://waxdao.gitbook.io/wax-smart-contract-development-guide
+
+**List of SCs**: n/a
+
+**Update**:
+
+- Added new information to multiple sections
 
 **Metrics**
 
 n/a
-
 
 
 ---
@@ -167,6 +183,25 @@ n/a
 
 ### <ins>Marketing</ins>
 [Describe your guilds marketing initatives. List only initiatives inside the last review period.]
+
+### YouTube Live Streams
+
+Weekly live streams on my [YouTube Channel](https://www.youtube.com/@MikeDCrypto/streams). P.S. I realize it is called the "WaxFusion Show" but a majority of the stream time is spent engaging people about WAX in general, talking to guests, etc. The discussions have been really helpful and engaging for the overall ecosystem.
+
+### DefiLlama Initiative
+
+I've taken it upon myself to get WAX more exposure on DefiLlama, the main site that everyone in crypto uses to discover new projects.
+
+- Fixed the adapter that all WAX/EOS projects use to calculate TVL (it used to not count WAX that was in the "refunding" stage, now it does)
+- Fixed Alcor's TVL calculation (counts LSW now, counts more tokens than before)
+- Fixed AtomicHub's TVL calculation (it used to not count AtomicAssets contract)
+- Added NeftyBlocks
+- Added AlienWorlds
+- Added Taco
+- Added WaxFusion and WaxDAO (not sure if relevant here since I mentioned it above)
+- More projects will be added soon
+
+This initiative has boosted WAX over 20 ranks so far in the overall chains list. Which may not seem important depending on your opinion. But we've seen new users showing up from DefiLlama, new people writing threads on Twitter about why WAX is the best chain ever. New people engaging with other projects after finding WaxFusion etc, so it is working.
 
 
 ### <ins>Backups </ins>
@@ -180,6 +215,6 @@ URL: n/a
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-- Good luck in the election Giannis
+- Please consider having an open discussion about my [RFP issue](https://github.com/wax-office-of-inspector-general/WAX-RFP/issues/8). If possible, I would prefer to have the IGs on my YouTube channel for this discussion as it would allow me to lead the conversation and avoid extra noise (anyone interested can still ask questions and give feedback in the live chat). It would also engage normal users more than the google meet setting would.
 
 ----

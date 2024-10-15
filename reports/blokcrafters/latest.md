@@ -12,11 +12,8 @@
 
 ### <ins>Noteworthy</ins>
 
-We spent a little time debugging why we were consistently behind on indexed blocks for Hyperion history and
-eventually cleared it up by restarting the indexer on a very overloaded system.
-It had started too many indexer processes.  We also interacted a bit with ledgerwise to investigate
-why the nodestatus page had us perpetually stuck at 57 blocks behind for Hyperion history.
-It is now reporting properly for us.
+Thankfully this was a quiet period for us.  Several of us were travelling or on vacation.
+Nothing noteworthy to report this period.
 
 ### <ins>API Services</ins>
 
@@ -29,40 +26,56 @@ Others APIs: none at the moment
 ### <ins>Contributions</ins>
 
 ### WaxDapps
+![waxdapps](https://github.com/user-attachments/assets/64450ac8-e765-424e-a37a-8b45c9b1c21a)
 
 **URLs**: https://waxdapps.io/
 
 **Update**
+Traffic for the last 30 days was surging. We are pleased with the results! 20,000+ visitors. 
+Dev Updates: Implemented twitter feed window of relevant tweets. Added "Learn" tab to help new users/visitors. 
 
 *Added Listings*
-* Spinnia [P2E]
-* Wombat [Wallet]
-* Uniswap [Exchange]
-* Meromai [Adding soon]
+* WAX Fusion (DeFi)
+* BitMart (Exchange)
 
+*Removed Listings* 
+* Token Gamer (Live Drop Schedules)
+* GoldMand Game (P2E)
+* Million on Mars (P2E)
+* Train of the Century (P2E)
 
-*Removed Listings*
-* None
 
 **Metrics**
-Period: April 15th, 2024 - May 31th 2024
+Period: July 15th, 2024 - August 31th 2024
 *Stats*
 
-![2waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0ab84b80-d1b5-4cbc-bc0b-715d31d6c28c)
-![3waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/0f5bed25-b981-4f77-9ade-3005689c4c64)
-![1waxdapps_5_31](https://github.com/blokcrafters/waxguilds/assets/66744057/ed1c708f-5382-41c0-8f7d-05ee7ac3a4af)
+![IG_report_8 31](https://github.com/user-attachments/assets/acab9a79-f436-401b-8a51-b72cfac80c68)
+![IG_report_8 31 1](https://github.com/user-attachments/assets/c9b0b0d8-3013-416b-950c-f1e0f59ea6b4)
+![IG_report_8 31 2](https://github.com/user-attachments/assets/11da5ca8-538b-45a9-876c-72da11bbc8ec)
 
-### New project Submission 
+
+
+
 ### WaxAI 
+![waxai (1)](https://github.com/user-attachments/assets/7f719897-2bde-4acd-90fa-05fdbbe5ed60)
+
+
 
 **URls** https://waxai.io/
 
-![waxai_img](https://github.com/blokcrafters/waxguilds/assets/66744057/4fbdced2-69de-4e98-9953-4f1221c304d8)
 
+### Project Update
 
-### Description:
-*WAX AI provides tailored assistance to members of the WAX ecosystem, enhancing their experience and productivity by leveraging Openai Assistant API. WAX AI is trained on various forms of data scraped from WAX ecosystem resources. it can deliver relevant and precise support.
-WAX AI MVP is able to assist a user just like a normal LLM would be able to but it can deliver more precise support compared to a normal LLM due to its added training, It can also query realtime data on chain. We plan to expand its abilities & features but are happy to announce its initial release! If you have any feedback after using it, we would love to hear it as we continue to build waxai.io!*
+1. **AI Training Improvment's**: 
+   - Knowledge Base: Adjusted WAX AI's knowledge base to improve accuracy of output. 
+
+2. **User Interface (UI) Enhancements and Bug Fixes**:
+   - **Chat Function Improvements**: Made improvements to UI/UX 
+
+**Metrics**
+Period: July 15th, 2024 - August 31th 2024
+*Stats*
+- We will be submitting metrics for waxai starting next report! 
 
 ### <ins>Marketing</ins>
 
@@ -78,7 +91,6 @@ URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
 ### <ins>Feedback to OIG</ins>
 
-So.. on the latest.md template - it took a bit to figure out that one of the OIG saves the current latest.md.
-We're good with this now - and then we just update the latest.md with new info for this reporting period.
+Nothing for now.
 
 ----

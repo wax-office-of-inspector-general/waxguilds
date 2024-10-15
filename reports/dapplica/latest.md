@@ -5,7 +5,7 @@
 | Website | https://dapplica.io/ |
 | Contact | oleh@dapplica.io |
 | bp.json (mainnet) | https://wax.dapplica.io/wax.json |
-| bp.json (testnet) | https://dapplica.io/wax-testnet.json |
+| bp.json (testnet) | https://wax.dapplica.io/wax-testnet.json |
 | producer (mainnet) | dapplica |
 | producer (testnet) | dapplicawaxt |
 | Guild Jurisdiction | Ukraine |
@@ -19,7 +19,7 @@ No updates here
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ X] | [x] | [x] | [x] | [x] |  [x] |
-| 28719 | 886876 | 37554 | 841526 | 10 |  1002 |
+| X | 7087331 | 10238 | 4557067 | 0 |  20 |
 
 Those are last 7 days stats
 
@@ -33,41 +33,38 @@ Those are last 7 days stats
 darkcountryz, darkcountrys, darknovastak, exportexport
 
 **Update**: 
-"We have run very big update and started Season 1 with $ 5 000 prize pool
+"Lots of collaborations on our new launch, that may bring  
 
-🏆 Rewards include USD cash prizes, SDM token prizes, packs of NFTs prizes. 
+Updates on Tournaments, so now tournaments can be run by holding only certains cards of certain collection.
 
-More can be found here https://darkcountrygame.medium.com/seasons-lonesomeroad-and-exp-game-rewards-fe93ebc0971c 
-Season will last 4 months. 
-Also implemented WUF integration inside of NFT marketplace, and payments in the website, so users can buy our packs with WUF. 
+Re-launched  SDM/WAX, SDM/WUFFI WUFi farming at Alcros with APR 300%+ 
 
-Plenty of fixes in game stability and 
-
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
 
-**Sales of NFTs, 500$ total over last 30 days
-UAW on chain: 80 ( growth from 20 from last report) 
-DAU: 25, average time 2.5 hour ( so DAU increased + 10 player a day, time played increased by 3-4 times)
-471  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes , This increased by 100 new unique wallets.
-Over 148 000 of Dark Country NFTs staked in game at the moment (-2k NFTs drop from previous time)
+**Sales of NFTs, 650$ total over last 30 days (2x from last month)
+UAW on chain: ~70 
+game DAU: 35, average time 2.5 hour ( same DAU as it was before) 
+378 (+4 new)  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes ,
+Over 146 000 of Dark Country NFTs staked in game at the moment (same as previous peiriod)
 **---
 ### Collect.Social
 
-**URLs**: collect.social, 
+**URLs**: collect.social,
 
 **List of SCs**: collectwhale, collectclaim, collectalley, collectpromo
 
 **Update**: 
-"During last 6 weeks we performed initiation of 21 auctions and brings attention to old and new users as well. " 
+"Again: During last 6 weeks we performed initiation of 21 auctions and brings attention to old and new users as well. " 
 We are working on WUF integration in the Collect. 
+Re-launched WUF farming rewards for RACOON/WAX pool. got very good trading volumes
 
 **Metrics**
 
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
-UAW on chain: 80 (last 30 days)
-Sales of NFTs, 250$ total over last 45 days
+UAW on chain: 150 (last 30 days)
+Sales of NFTs, 65$ total over last 45 days
 
 ---
 ### AlchemySwap
@@ -77,16 +74,13 @@ Sales of NFTs, 250$ total over last 45 days
 **List of SCs**: alchemyswapx, alchemyswapp, alchemyswapy, alchemyswapz
 
 **Update**: 
-"WUF integration is done, so users can now create all pool types using WUF token. 
+"No Updates so far"  
 
 **Metrics**
 
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
-Created BUY pools: 8 active ( +2 new pools) 
-Created SELL pools: 27 active pools, +4 new pools
-Created TRADE pools: 3 (all active)
-
+4 new pools created during reporting period 
 ---
 ### King of The Hill (NEW PRODUCT)
 
@@ -95,15 +89,15 @@ Created TRADE pools: 3 (all active)
 **List of SCs**: kingofthetap
 
 **Update**: 
-"Project being released as of 15 April, we got 200+ visitors and 10+ unique players in first day of release. Thus we had to rework game due to feedback. So now new version is live, we have 10 onchain DAU and new game happening every 24 hours. For now players can play with WUF, but we will open WAX games and some custom tokens soon too. 
+"Working on improvement on how game should work moving further"
 
 **Metrics**
 
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
-DAU: 10
-Pool size: 10M WUF
-Users fund: ~ 1M a day on top of the pool to play game
+DAU: 11
+Pool size: up to 10M WUF day
+Users funds: ~ +1M a day on top of the pool to play game
 
 ---
 ### Game development articles
@@ -111,8 +105,9 @@ Users fund: ~ 1M a day on top of the pool to play game
 **URLs**: dapplica.io/blog 
 
 **Update**: 
-"Edited some of old dev articles due to feedback, working on last 2 articles to complete the scope"
-Working on integration into WAX developers portal, got issues with markup, but should complete by next two weeks. 
+Two final articles were published
+https://dapplica.io/blog/wax/part-19-putting-it-all-together-to-launch-a-game/ 
+https://dapplica.io/blog/wax/part-20-deployment-of-our-games-smart-contracts-on-wax-blockchain/ 
 **Metrics**
 
 ---
@@ -123,24 +118,25 @@ Working on integration into WAX developers portal, got issues with markup, but s
 
 **Metrics**
 
-Period: April 16th, 2024 - May 31st 2024
+Period: July 16th, 2024 - August 31st 2024
 
-stats on the bot: Users: 298(+2 users) , Wallets: 180
+stats on the bot: Users: 301(no new users) , Wallets: 182(+1 wallet)
 
 ---
 
 ### <ins>Marketing</ins>
 
 
-Larger partnerships with Blumint.com to bring new web2 player guilds into Dark Country, so mainly into WAX as they do support WAX on the platform. We are giving 2500$ budget for June to run 10-15 events(mainly tournaments) and expect to receive several hundreds new players. 
-
+1. More than 10 partnerships along with our new collection, so assuming some users can join WAX to use our other collections.
+2. https://dapplica.io/blog/wax/part-19-putting-it-all-together-to-launch-a-game/ 
+https://dapplica.io/blog/wax/part-20-deployment-of-our-games-smart-contracts-on-wax-blockchain/ 
 
 ### <ins>Backups </ins>
 URL: https://atomicbackup.dapplica.io/
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [X] | [X] | 841526
+| [x] | [x] | [x] | [X] | [X] | 4557067
 
 
 ### <ins>Feedback to OIG</ins>
