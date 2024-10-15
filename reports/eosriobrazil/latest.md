@@ -12,9 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-The team have been deeply involved with the Savanna Consensus upgrade and the Spring v1.0 Hardfork. The team focused on both helping in the testing and also in making the necessary adaptations to Hyperion. 
-
-An infrastructure issue affected our Atomic API but the issue is solved. 
+This last cycle marked the launch of QRY Hub. Allowing operators to share data on their services (Chain API, History, Atomic API, etc) and user to choose the most suitable. It is integrated with Nodepulse by Sentnl. This is the first step towards the implementation of QRY, a decentralized API ecosystem that will generate a better option for dApps and users while providing a new revenue stream for operators. 
 
 ### <ins>API Services</ins>
 
@@ -30,12 +28,21 @@ An infrastructure issue affected our Atomic API but the issue is solved.
 **URLs**: https://github.com/eosrio/hyperion-history-api/tree/3.3.10-strict
 
 **Update**:
-While still working on the Hyperion Hub, part of the team is now working on the revamp of Hyperion Block Explorer which allows anyone running Hyperion to easily create a lightweight block explorer..
+We have been working on multiple commits on the 3.5.0 branch, including the adaptations needed to connect to the QRY Hub and send information on availability, usage and health. https://github.com/eosrio/hyperion-history-api/compare/main...3.5.0
 
 Other than that we keep on supporting the community mainly through the telegram channel.
 
 **Metrics**
-72 forks and 121 stars on Github
+72 forks and 125 stars on Github
+
+---
+
+### QRY Hub
+
+**URLs**: https://hub.qry.network/
+
+**Update**:
+We launched QRY Hub. Allowing operators to share data on their services (Chain API, History, Atomic API, etc) and user to choose the most suitable. It is integrated with Nodepulse by Sentnl. This is the first step towards the implementation of QRY, a decentralized API ecosystem that will generate a better option for dApps and users while providing a new revenue stream for operators.
 
 
 ---
@@ -57,7 +64,7 @@ We kept on implementing it on our projects, and also working on benchmarking.
 **Update**: no major update this cycle.
 
 **Metrics**
-211 downloads last month. 4011 downloads all time.
+4011 downloads all time.
 
 
 ---
@@ -68,16 +75,6 @@ We kept on implementing it on our projects, and also working on benchmarking.
 
 **Update**: No major updates this cycle
  
-
----
-### Fleet SHiP Router
-
-**Update**:
-No major updates this cycle.
-
-Launch is expected in Q2/2024.
-
-
 ---
 
 ### <ins>Marketing</ins>
@@ -93,6 +90,6 @@ URL:
 
 
 ### <ins>Feedback to OIG</ins>
-Keep up the great work! 
+Great initiative to change the cycle and making it continuous.  
 
 ----
