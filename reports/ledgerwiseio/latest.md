@@ -2,83 +2,97 @@
 
 |  |  |
 | --- | --- |
-| Website | https://example.com/ |
-| Contact | info@example.com |
-| bp.json (mainnet) | https://example.com/wax.json |
-| bp.json (testnet) | https://example.com/waxtest.json |
-| producer (mainnet) | guild.example |
-| producer (testnet) | guild.example |
-| Guild Jurisdiction | Exampletown |
+| Website | https://ledgerwise.io |
+| Contact | hello@ledgerwise.io |
+| bp.json (mainnet) | https://ledgerwise.io/wax/bp.json |
+| bp.json (testnet) | https://ledgerwise.io/wax/testnet/bp.json |
+| producer (mainnet) | ledgerwiseio |
+| producer (testnet) | ledgerwiseio |
+| Guild Jurisdiction | Global |
 
 ### <ins>Noteworthy</ins>
-*[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
+Resolved many features on Nodestatus also on Delphi Oracle alert system. 
+We have made significant changes in our setup and made it a lot more reliable. Shifted our infra on Cloudfare also have 
+made all our tools and services a lot more precise. 
 
-"Last month we experienced an issue: The issue was a low trx amount...We upgraded our hyperion cluster and added shards..."
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | ~x req |  ~y req |
+| [x] | [ ] | [ ] | [ ] | [ ] | [x] |  [ ] |
+| - | 18M/week | 543.94/week | 530.27M/week | 20k/week req | 13k/week |
 
-Others APIs: Roborovski, dfuse, ...
+
 
 ### <ins>Contributions</ins>
-*[This section needs to reflect the guilds current contributions sheet from their guilds page on Notion. New entries shall be added at the end.]*
 
-### Example Project A
 
-**URLs**: example.com, github.com/example/example-repo
-
-**List of SCs**: a.wallet, b.wallet  
+### Tools resolved features and fixed bugs as per Kaefer's feedback. We are not sure why IGs have started decaying tools scores as new updates were recently added both on IPFS and Nodestatus. 
+**URLs**: https://nodestatus.ledgerwise.io/
 
 **Update**: 
-"During the last 6 weeks we've updated the client to use wharfkit... Our Devs made a few adjustments to the contract to reduce resource consumption..."
+Have updated many things to the tools - added link BPJson, chainJson, Snapshots link! Added Map for BP Location and Producer Location. Added Curated list for Snapshot and APIs.
 
-[[If needed, reference to a previous report](https://github.com/wax-office-of-inspector-general/waxguilds/blob/d707e65ff0544bb441d665963c9e91e2378fdee8/reports/3dkrenderwax/2024-01.md?plain=1#L49)]
-
-*[Describe ONLY the progress/updates on the project since the last report, please don't repeat information]*
-
-**Metrics**
-
-[report relevant metrics and metric period...]
-
-Period: January 10th, 2024 - February 27th 2024
-
-Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
+Have been helping Guids reaching out to us. Resolved many issues based on Guid and IGs feedback. 
 
 
 ---
 
-...
-*[Repeat the above for every Contribution Entry followed by a horizontal line]*
-...
 
----
+### IPFS Reseizer
 
+
+**URLs**:(http://ipfs-resizer.ledgerwise.io/swagger-ui/index.html https://github.com/ledgerwise/nest-ipfs-resizer/blob/master/README.md)
+
+Last time added new features to IPFS Resizer
+
+1.) Format 
+2.) Width and height individual controls, so if you provide only width then height will be calculated automatically. 
+3) Content-fit 
+4) Animated 
+5) Without Enlargement 
+6) Background Follow more updates here - https://github.com/ledgerwise/nest-ipfs-resizer/blob/master/README.md Will be adding video/audio next.
+
+We also have added video resizing - will share that, please readme.md and will urge to update scorces this time.
+Also helping few other Guids run it. 
+
+### Cerberus 
+
+Maintaining the Bot.
+
+**URLs**: https://cerberus.ledgerwise.io/
+
+### IDelphi Monitor Bot
+
+**URLs**: t.me/delphimonitorbot
+
+Maintaining and resolved dependency on a few API - made it a lot anti-fragile. 
+
+Used by 13 guids. 
+
+
+### Waxzilla
+
+**URLs**: waxzilla.io, maintaining it. 
+  
 
 ### <ins>Marketing</ins>
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
 
-Initiative A: example.com
-
-Initiative B: Representing WAX at web3 fair in Exampletown
-
-Initiative C: Link to YT/X/Twitch reccording
+Nothing to add here. 
 
 ### <ins>Backups </ins>
-URL: [Example wecan.dev](https://backup.wecan.dev/wax/)
+URL: http://snapshots.ledgerwise.io/ https://ledgerwise.io/snapshots/
 
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [ ] | [ ] |
+providing ES snapshots and Atomic snapshot, also blocks snapshot
+All are up to date and running. 
+
+
 
 
 ### <ins>Feedback to OIG</ins>
 *[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
-"Please revisit score weight between product and ecosystem contributions, BECAUSE..."
+Nothing for now 
 
 ----
-
