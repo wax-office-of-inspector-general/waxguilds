@@ -13,20 +13,20 @@
 
 ### <ins>Noteworthy</ins>
 
+- This month we installed IPFS and Light-api services. 
+
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [x] | [ ] | [ ] |  [ ] |
-| - | 4337535 req | 337535 req | 1200000 req | ~x req |  ~y req |
-
-**Update**: 
+| [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
+|  |  |  |  |  | |
 
 
-### <ins>Contributions</ins>
+### Contributions
 
-
+---
 ### 🔎 Sengine	
 
 **URLs**: https://wax.sengine.co , [https://github.com/ankh2054/oig-portal](https://github.com/ankh2054/oig-portal)
@@ -34,9 +34,36 @@
 
 **Update**: 
 
-- We updated our code to ensure that history nodes not set to Full: True in JSON file will not be counted as full history.
+- Added ability to obtain a list of Hyperions, P2P nodes and Atomic Nodes using the following queries.
+http://wax.sengine.co/api/nodes/hyperion 
+http://wax.sengine.co/api/nodes/atomic
+http://wax.sengine.co/api/nodes/p2p
 
-**Metrics**
+
+### 🔗 NodePulse
+
+**Description:** 
+
+The product aims to solve the problem of connecting to a hyperion OR atomic API that is fully working at the time of the request, without having to hardcode multiple nodes.
+QRY Network created by EOSRIO have also decided to make this the primary JS library for their service. 
+
+
+
+**The product consists of the following:**
+
+•  a JS Library that devs install to maintain a list of working and healthy Hyperion and Atomic nodes.
+•  a API backend service which maintains that healthy list of nodes, which can be run by multiple guilds.
+•  a Cloudflare Proxy that maintains a list of healthy API backend server nodes. 
+
+
+**Operational flow:**
+
+•  JS library connects to the Cloudflare Proxy load balancer and refreshes it's healthy nodes list (defaults to 3 full hyperion nodes with streaming enabled) every 10 seconds. 
+•  The Cloudflare proxy runs a healthcheck on all API servers in the pool to ensure they can provide healthy nodes to the JS library.
+•  Failover: Incase the JS library cannot connect to an API service, it uses it's already maintained list of nodes OR default nodes hardcoded into library.
+
+**URLs**: https://github.com/Sentnl/nodepulse, https://github.com/Sentnl/nodepulse-backend
+
 
 
 ---
@@ -86,72 +113,81 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for Wombat, Taco
+We completed a security audit for EOSDetroit, EOSUSA, EOSDAC
 
 ---
-
-
 ### 🔐 Smart Contract Audits	
 
-At Sentnl we provide smart contract audits for EOSIO contracts on WAX. We've always been at the forefront of what we do.
+At Sentnl we provide smart contract audits for EOSIO contracts on WAX.
 
 **Update**: 
 
 
-
+---
 ### 📝 AI Summary tool	
 
-A tool we created that trawls through the messages of certain  Telegram groups and creates daily summarizations. It also tries to filter the noise by calculating an importance score of messages based on sentiment and engagement.
+**Description:** Trawls through the messages of certain  Telegram groups and creates daily summarizations. It also tries to filter the noise by calculating an importance score of messages based on sentiment and engagement.
 
-**The current method of filtering includes:**
-
-- Analysing each message and placing a weight on how positive or negative a message is. (higher weights for very positive or very negative messages)
-- Anaylsing each message and counts the amount of reactions and replies a message receives and includes them in a importance score calculation.
+**URLs:** https://github.com/ankh2054/tldr-summaries
 
 
 **Update**: 
 
 
+---
 ### 🆘 Automated producer unreg tool
 
-We've created an automated producer unreg tool - https://github.com/ankh2054/unregbot
-It monitors our missing blocks API (streams from ship using LIB) for your mainnet and testnet producers and if missing round(s) detected it will automatically unreg your producer. Optionally it also sends you a message via pushover (which is useful as it overrides your phones do not disturb settings)
+**Description:** It monitors our missing blocks API for your mainnet and testnet producers and if missing round(s) detected it will automatically unreg your producer.
+
+**URLS**: https://github.com/ankh2054/unregbot
+
 
 **Update**: 
 
-- We added the options to pause and resume producers to reduce missing blocks whilst waiting for the producer to unregister.
-
+---
 ### 🧰 Various community tools	
 
 
-* Update JSON on chain to reflect bp.json - script that automatically downloads your guilds JSON from your website and pushes it to chain using greymass producerjson contract using cron. https://github.com/ankh2054/updateJSONtochain
+**Description:** Update JSON on chain to reflect bp.json
 
-* EOS monitor - We created a EOS node monitoring tool that monitors your nodeos and alerts if if there any issues.- https://github.com/ankh2054/eosmonitor
+**URLS:** https://github.com/ankh2054/updateJSONtochain
 
-* Hyperion missing blocks feature - A script that automates finding missing blocks in hyperion - https://github.com/eosrio/hyperion-history-api/scripts/fix_missing_blocks 
+**Description:** EOS monitor -  monitors your nodeos and alerts if if there any issues
 
-* API service to allow Guilds to search for all latest security vulnerabilities related to their infrastructure - https://vuln.sentnl.io
+**URLS:**  https://github.com/ankh2054/eosmonitor
 
-* This is a tool that connects to the OpenAI API and scans all c++ files in your GitHub repository for EOSIO Smart contract vulnerabilities. - https://github.com/Sentnl/EOSIO-Vulnerability-Scanner
+**Description:** Fix Hyperion missing blocks -  A script that automates finding missing blocks in hyperion.
+
+**URLS:**  https://github.com/eosrio/hyperion-history-api/scripts/fix_missing_blocks 
+ 
+**Description:** API service to allow Guilds to search for all latest security vulnerabilities related to their infrastructure
+
+**URLS:**  https://vuln.sentnl.io 
+
+**Description:** Connects to the OpenAI API and scans all c++ files in your GitHub repository for EOSIO Smart contract vulnerabilities
+
+**URLS:**  https://github.com/Sentnl/EOSIO-Vulnerability-Scanner 
 
 
 **Update**: 
 
 No update this month.
 
-
 ---
 
 ### 🐳 Docker Images
 
-**URLs**:
+**Description**: Delphi oracle Docker to more easily run the oracle price feeds and push to chain.
 
-* Delphi oracle Docker - We created a docker image to easily allow new Guilds get setup with pushing pricing feeds to the oracle.  https://github.com/ankh2054/delphioracle
+**URLs**: https://github.com/ankh2054/delphioracle
 
-* Snapshot service Docker and automated website - We created a docker image and ReactJS frontend to automate the setup of a snapshot service for WAX mainnet and testnet.
-* https://github.com/ankh2054/snapshots.sentnl.io, https://github.com/ankh2054/snapshot-service
-* EOSIO CDT - Docker deployment to easily install EOSIO CDT using any version  - https://github.com/ankh2054/eosio-cdt
+**Description**: Automatically creates snapshots for WAX mainnet and testnet and 
 
+**URLs**: https://github.com/ankh2054/snapshots.sentnl.io, https://github.com/ankh2054/snapshot-service
+
+**Description**: Docker deployment to easily install EOSIO CDT using any version
+
+**URLs**: https://github.com/ankh2054/eosio-cdt
 
 **Update**: 
 
@@ -181,7 +217,7 @@ Sengine uses the API to display the missed blocks for each guild.
 
 ### 📖 Security Wiki	
 
-Wiki all about security related to being a block producer. Also contains various examples of using our vulnerability API service, https://vuln.sentnl.io
+**Description:** Wiki all about security related to being a block producer. Also contains various examples of using our vulnerability API service, https://vuln.sentnl.io
 
 For example:
 
@@ -192,25 +228,7 @@ For example:
 https://wiki.sentnl.io/security
 
 
-
 **Update**: 
-
-
-
-### <ins>Marketing</ins>
-
-[Describe your guilds marketing initatives. List only initiatives inside the last review period.]
-
-
-### <ins>Backups </ins>
-
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [ ] | [ ] | [ ] | [ ] | [ ] |
-
-
-### <ins>Feedback to OIG</ins>
-*[valuable feedback for the WAX OIG around the topics governance, guidelines, ...]*
 
 
 ----
