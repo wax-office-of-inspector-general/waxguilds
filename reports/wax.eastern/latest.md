@@ -15,40 +15,25 @@
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |Chain API |
 |--------|--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [] | [] |  [x] |
-| 378k req/week | - | 191k req/week|135k req/week |- | - | 97m req/week |
+| 397k req/week | - | 203k req/week|145k req/week |- | - | 106m req/week |
 
-### <ins>Noteworthy</ins>
-With the recent policy shift and the gradual market recovery, we have hired a Vietnamese-speaking administrator to manage the gaming community on the WAX blockchain. We will begin with Alien Worlds and progressively incorporate other games into our management efforts. Here's the link to the aw vietnamese community:https://t.me/alienworldsvietnamofficial
+#### 1. Resource Integration and Content Column for the Crypto Community
+This month, WAX Eastern focused on integrating and regularly publishing the latest WAX resources for crypto users. We created a dedicated column on Notion, where we frequently update important content related to the WAX ecosystem, covering topics from on-chain games to the latest NFT projects and ways to earn through WAX. This column has become a valuable tool for crypto players to quickly stay informed on WAX's latest developments. The column can be accessed here: [https://www.notion.so/waxeastern/WAX-Eastern-f5f8d1a4a8a54d77b18ba240691fd7a0](https://www.notion.so/waxeastern/WAX-Eastern-f5f8d1a4a8a54d77b18ba240691fd7a0).
 
-### <ins>Marketing</ins>
+#### 2. Educational Outreach and Marketing to the General Public
+We now have over 35,000 followers across various platforms, and our follower base continues to grow. To introduce WAX blockchain to non-crypto users, we’ve employed soft marketing strategies to educate them about the basics of blockchain, how WAX on-chain games work, and how users can earn through WAX. This approach has not only increased WAX’s exposure but also successfully sparked interest in WAX from a wider audience.
 
-**Social Media Metrics**
+#### 3. WAX Official Progress and Project Updates
+To maintain player interest and engagement within the WAX ecosystem, we regularly synchronize the latest official WAX articles, ensuring that players stay informed about WAX’s development. Additionally, we also promote new projects launched on WAX, encouraging more players to get involved. These efforts have continuously expanded WAX's influence among players.
 
-Overall, the number of followers across social media platforms has increased
-| Website/Platform | Visitors/Views |
-| ---------------- | --------------- |
-| [Twitter (NFTGAMERCHINA)](https://x.com/NFTGAMERCHINA) | 1,231 members |
-| [YouTube (NFTGamer)](https://www.youtube.com/@nftgamer2225) | 244 Followers |
-| [Discord (Alien Worlds China)](https://discord.gg/HaGdzwwt4b) | 556 members |
-| [Binance Square (NFTGamer)](https://www.binance.com/zh-CN/square/profile/Square-Creator-486d43093) | 255 Followers |
-| **WeChat Official Account** | |
-| [NFTGAMER](https://mp.weixin.qq.com/s/rtHpkmXFJhQvm3rIGJs9_g) | 5,701 Followers |
-| [Alien Worlds Chinese](https://mp.weixin.qq.com/s/k70iYMn0JZLtzfkNVJhemQ) | 1,139 Followers |
-| **Video Channels** | |
-| [i喵见](https://weixin.qq.com/sph/AbMncT) | 6,809 Followers |
-| [Alien Worlds Chinese](https://weixin.qq.com/sph/AOdVCC) | 127 Followers |
-| [Weibo (Alien Worlds)](https://weibo.com/u/7584097275) | 4261 Followers |
-| [Kuaishou (NFTGamer)](https://www.kuaishou.com/profile/3xnvv6pazy2f5e4) | 6,378 Followers |
-| [BiliBili (NFTGamer)](https://space.bilibili.com/18921900) | 827 Followers |
-| [Weishi (NFTGamer)](https://video.weishi.qq.com/as4MOFyY) | 523 Followers |
-| [Red (NFTGamer)](https://www.xiaohongshu.com/user/profile/5f36a24900000000010009f3?xhsshare=CopyLink&appuid=5f36a24900000000010009f3&apptime=1702363719) | 162 Followers |
-| [Toutiao (NFTGamer)](https://www.toutiao.com/c/user/token/MS4wLjABAAAAXatKWY0ySD8jcwQ8ivw_xnxmDuu1P7yQlY0dbBpeYNyjutaRm309OLnqiDL4EaJF/) | 405 Followers |
-| **Notion** | |
-| [AlienWorlds](https://bit.ly/AlienWorldsCN) |N/A |
-| [WAX Eastern](https://www.notion.so/waxeastern/WAX-Eastern-d8c65f7fab4740539891d2bcfce72ed5) |N/A  |
-| **Telegram** | |
-| [Alien Worlds China](https://t.me/alienworldschina) | 2,416 members, 72 new members,  230.7k messages sent |
-| [NFTGamerChina](https://t.me/NFTGamerChina) | 1,093 members,42.8k messages sent |
+#### 4. Promoting the CDAO Project to Enhance Ecosystem Circulation
+Through the promotion of the CDAO(community dao) project, we aim to generate interest in various games on the WAX blockchain, preventing users from being confined to a single game. The cross-game nature of the CDAO project allows players to explore a wider variety of games on WAX and improve their overall experience through game interaction. This initiative has effectively facilitated the circulation of assets within the WAX ecosystem, driving more on-chain asset flow and enhancing the overall ecosystem’s activity.
+
+### <ins>Community Management</ins>
+
+The Vietnamese Alien Worlds community has grown to around 807 members as of October 13, 2024, with efforts to expand further. The community is managed through a dedicated Telegram group: Alien Worlds Vietnam Official.
+
+A Notion-based Vietnamese Information Column was established, offering resources such as articles, tutorials, and guides for the Alien Worlds ecosystem. This is expected to grow, with future updates including videos, news, and events. Notion link: [Alien Worlds Vietnam ](https://bit.ly/AlienWorldsVN)
 
 ### <ins>Backups </ins>
 
@@ -58,4 +43,4 @@ Overall, the number of followers across social media platforms has increased
 
 
 ### <ins>Feedback to OIG</ins>
-Keep up the good work.
+Appreciate your continous support and look forward to your feedback.
