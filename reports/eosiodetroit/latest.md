@@ -12,10 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-* Our team got to the bottom of a latent bug in WAX Labs which messed up deliverable filters and released a fix. Please consider acknowledging our team's maintenance efforts.
-* Pantheon (the WAX game DLT has developed mentioned in prior reports) is slated to conduct a beta test starting in mid August.
-* We have invested in some bare-metal WAX testnet signer hardware upgrades.
-
+* The IGs were given a demo/play test of the Pantheon beta, with initial sale taking place October 20-22nd and version 1.0 set to be released on October 29th.
+* A recording of an internal demo of the FACINGS studio has been sent via telegram and email to the IGs. This demo took place in mid-September. Link and detailed update provided below.
+* The deliverables needing review filter and simplification of claiming deliverables (all one button click) have been deployed to WAX Labs on mainnet, among other work performed.
 
 * For awareness: 
     * DLT's IPFS Gateway can be accessed via https://ipfs.gateway.detroitledger.tech
@@ -23,88 +22,84 @@
     * DLT's Monthly AtomicAssets API (v1.3.24) database backups are available at: https://detroitledger.tech/backups/atomic
         * Please feel free to contact us if you are in need of a current-day backup!
 
-
-
 ### <ins>API Services</ins>
-
 
 | Stats |WAX Hyperion - FULL (mainnet)| Chain / History (full) | AtomicAssets API | IPFS |
 |---------------------|----------------------------------|------------------------|-------------------|-----------------|
 | Active|Yes|Yes|Yes|Yes| **
-| Requests/day| 94,121 | 121,763 |16,176|N/A|
+| Requests/day| 284,907 | 373,884 | 19,372 |N/A|
 | Additional Info|| ||ipfs.gateway.detroitledger.tech
-
 
 ### <ins>Contributions</ins>
 
 ### Nodesuite
 
-**URLs**: https://github.com/eosdetroit/nodesuite, 
+**URLs**: https://github.com/eosdetroit/nodesuite 
 
 **List of SCs**: N/A
 
 **Update**: 
-N/A
+* Minor Changes:
+  * Updated local debian packages and variable defaults to latest releases (wax-leap/leap/spring)
+  * Updated nodeos configuration template to deploy variables exclusive to eosio/leap/spring based on release_name
+
 
 ### WAX Labs
 
-**URLs**: https://labs.wax.io, https://github.com/worldwide-asset-exchange/wax-labs-ui, 
+**URLs**: https://labs.wax.io, https://github.com/worldwide-asset-exchange/wax-labs-ui 
 
 **List of SCs**: labs.wax
 
 **Update**: 
-* Deliverables filter fixes.
+* We met with the WAX team to determine the best way to optimize the deployment. The deployment process no longer requires us to send the WAX team an IPFS hash. Updates will automatically be deployed in production when the branch is merged into the main branch of the repository owned by the WAX team.
+* The filter for deliverables in need of review was deployed to production and can be toggled by clicking the All Proposals header. https://labs.wax.io/proposals?whose=Deliverables+to+review
+* Claiming of deliverables has been updated so that all required actions to receive the funds are handled via a single button click in the UI (similar to how V2 worked). We need the IGs to verify this works on mainnet with one of the project owners.
+* The number of requests being sent when filtering proposals was decreased in some instances.
 
+### FACINGS Studio / Creator
 
-**Metrics**
+**URLs**: https://dashboard.dev.facings.io, https://creator.facings.io, https://github.com/facings/collection-manager
 
-Period: June 1st, 2024 - July 15th, 2024
-
-* New proposals submitted: 2
-
-### FACINGS Studio
-
-**URLs**: https://dashboard.dev.facings.io
-
-**List of SCs**: mint.facings, open.facings, make.facings, earn.facings
+**List of SCs**: mint.facings, open.facings, make.facings, earn.facings, atomicassets (FACINGS Creator/Collection Manager)
 
 **Update**: 
-* FACINGS continues to build its Studio MVP for a release targeting this Fall. We're working on sales architecture now.
+* The video demo of FACINGS Studio can be found here: https://www.youtube.com/watch?v=PhyvYYAK__Q
+* The work needed to enable WAX sales was completed and the work needed to accept credit cards was started
+* Initial UI views developed for various functionality.
+* Additional work in support of preparing the FACINGS Studio for creating the mainnet Pantheon assets. 
+* As stated in the video tutorial, the 1.0 MVP of FACINGS studio is slated to be released for use by the public by end of Q4/early Q1 2025.
+* No updates specifically to the open source Creator platform.
 
-### FACINGS Creator
+### Pantheon (Game)
 
-**URLs**: https://creator.facings.io, https://github.com/facings/collection-manager
+**URLs**: https://playpantheon.com, https://pantheon.detroitledger.tech (beta link)
 
-**List of SCs**: atomicassets
+**List of SCs**: dummyholding (testnet), pantheonundr (testnet)
 
-**Update**: 
-* Fixes related to rendering SVGs and showing properly sized thumbnails.
+**Update**:
+* The “open” beta began and has continued throughout the months of September and October.
+* Most of the work performed focused on increasing game stability, bug fixes discovered during the beta period, and visual effects/guides improvements (showing which cards were affected by the abilities).
+* Work on a scripted/guided in-game tutorial began which will be included in the initial release of the game.
+* Initial sale taking place October 20-22nd and version 1.0 set to be released on October 29th.
 
 ### Pyntelope
 
-**URLs**: https://github.com/FACINGS/pyntelope, 
+**URLs**: https://github.com/FACINGS/pyntelope
 
 **List of SCs**: N/A
-
-**Update**: 
-* No update
-
-### OIG Election Portal
-**URLs**: https://oig.wax.io, https://github.com/wax-office-of-inspector-general/oig.wax.io
-
-**List of SCs**: decide
 
 **Update**: 
 * No update
 
 ### <ins>Marketing</ins>
-* We're working on a marketing plan for Pantheon with the client.
+
+No WAX specific marketing (Pantheon focused).
 
 ### <ins>Backups </ins>
 
 Daily WAX Mainnet Snapshots - https://snapshots.detroitledger.tech
 
-
 ### <ins>Feedback to OIG</ins>
 
 None.
+
