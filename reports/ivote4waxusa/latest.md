@@ -11,7 +11,9 @@
 | Guild Jurisdiction | Greenville, SC, USA |
 
 ### <ins>Noteworthy</ins>
-Been fighting alot of issues with our Hyperion clusters and working on building new clusters to replace them with the redeployed 10900Ks that are being replaced by new 14900Ks.  Deployed 2 new 14900Ks into the supporting infrastructure this month and will continue to slowly upgrade until public infrastructure is all on matching 14900K hardware.
+This period has been a tough period due to the fact the entire region got smashed by Hurricane Helene.  Power grid and primary communications provider (Spectrum) for the data center were knocked offline Friday AM Sept 27.  Backup generator and backup fiber connections kicked in and kept the datacenter up and running, however public API access could not failover as the backup circuits cannot handle the few 100mbit of API traffic. During the hurricane I also had a tree fall on my house and was without power for a week, so as long as the hamster wheel kept spinning, I had other dumpster fires to attend to :)  Power and primary communications at the datacenter were recovered by Sunday PM Sept 29 (although would have intermittent issues while they repaired the grid).
+
+Working to get our Hyperion clusters all updated to the latest 3.5.0 versions.  As we are building new servers for these versions, we are decomissioning our WAX Testnet Atomic API as there is no incentive to continue it's operations (no paying customers and no points for offering it :) ).
 
 ### <ins>API Services</ins>
 
@@ -45,18 +47,16 @@ Few more updates to NodeOS configs with details and new Spring 1.x parameters af
 **List of SCs**: https://waxblock.io/account/waxminecraft
 
 **Update**: 
-Deployed many updates to the system over the last month:
-- Completed initial test parkour tournaments and now beginning the dev to automate the creation/processing of those WAX-based rewards
-- Working with AW team to implement new tournament functionality in their contracts.
+All development efforts this period has been dedicated to building the new tournament services in addition to the daily questing tasks.  This will also integrate into the new AW tournament contract but also provide stand-alone tournaments with your own tokens/assets. Initial beta version ha been successfully deployed to the dev and test environemnts and is deploying production today (Oct. 15th) for initial full load testing (both stand-alone and AW-integrated tournaments).
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024 (few days offline)
 
 Stats:
-- 67 Total Quests
-- 106 Unique Accounts Joined / 71 Unique Accounts Completed
-- 3,357 Quest Joins / 2,662 Quest Completions
-- Highest Participation: 62 Players / 38 Completed
+- 54 Total Quests
+- 84 Unique Accounts Joined / 67 Unique Accounts Completed
+- 2,452 Quest Joins / 1,918 Quest Completions
+- Highest Participation: 59 Players / 38 Completed
 
 ---
 
@@ -68,7 +68,7 @@ Stats:
 Adjustments of different drop parameters for various projects per their requests (different requirements, drop frequencies)
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024
 
 Stats:
 6 Active projects with Hourly/Daily NFT and/or Token Drops
@@ -86,13 +86,13 @@ Stats:
 **URLs**: https://reporting.eosusa.io
 
 **Update**: 
-Fighting issues with once models are learned, service begins to take on a life of it's own and make up stuff :)  Data engineer has been working to rewrite the learning processes to generate outside the AI server and feed the updated models in.
+Initial ChatGPT4o models are loaded and able to answer AW game information along with initial miner statistics for last day and week.  Working to address issues getting other models loaded with additional information such as land data and more historical data.
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024 (few days offline)
 
 Stats:
-- 233 Daily Hits / 10,000 Avg. Monthly
+- 186 Daily Hits / 5,500 Avg. Monthly
 
 ---
 
@@ -104,7 +104,7 @@ Stats:
 No recent updates as had to let go minion that managed this system :(
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024
 
 Stats:
 - Endpoints Tested: 79 (each from 6 different probes)
@@ -123,13 +123,13 @@ Still attending weekly Antelope Node Operators call to learn latest Antelope dev
 **URLs**: https://ibc.eosusa.io
 
 **Update**: 
-Working to contact all chain resources to alert them that the upcoming EOS consensus change is going to break all IBC services bridging to/from EOS.  WAX/TELOS bridges will still continue to work and we are trying to determine if the community/chains are going to continue development of this IBC product since there is no longer Antelope Collition or ENF support to continue development.  Waiting for feedback from WAX team on their opinion/stance of the services.
+So, as I'm sure you are by now aware, the IBC services between WAX and EOS stopped working once EOS activated their new instant finality consensus protocol. I spent hours reaching out and contacting all of the technical contacts for the Antelope-based chains to get their general stance on the Spring/IBC tech going forward and determining what might be needed to get IBC operational again (mostly work related to the proof server services).  All have expressed that the IF/IBC tech is not high on their priority list so no resources or funding would be available to complete the work needed.  Alcor has disabled the EOS/WAX bridging in their interfaces but there are still users attempting to bridge tokens and getting them stuck.  I'm working to determine what is needed to temporarily halt the contract deposits and continue working to see if the community itself wants to continue development/support of the software or if things will truly just be abandoned.
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024 (few days offline)
 
 Stats:
-- 170 reqs/day across all IBC nodes/services (7,700 total for period); primarily hits on the WAX IBC Proof servers
+- 50 reqs/day across all IBC nodes/services (2,200 total for period); primarily hits on the WAX & EOS IBC Proof servers
 
 ---
 
@@ -157,7 +157,7 @@ Still providing API services for:
 - Avalon
 
 **Metrics**
-Period: July 15th, 2024 - August 30th, 2024
+Period: September 1st, 2024 - October 15th, 2024 (few days offline)
 
 Stats:
 Avg Combined API Calls: 6.8mil/day
