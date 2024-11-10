@@ -19,7 +19,7 @@ All services remain operational.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [_] | [x] | [x] | [x] | [x] | [x] 
-| - | 2.3M req/week | 30.82K req/week | 619.36K req/week | 3.2K req/week |  7.5K req/week |
+| - | 1.47M req/week | 136.98K req/week | 325.43K req/week | 3.04K req/week |  8.31K req/week |
 
 
 
@@ -34,7 +34,7 @@ Operational, continues providing info on WAX endPoints, checker & validator.
 
 **Metrics**
 
-174 users last month with average engagement time of 43s (by google analytics).
+150 users last month with average engagement time of 60s (by google analytics).
 
 
 ### <ins>Marketing</ins>
