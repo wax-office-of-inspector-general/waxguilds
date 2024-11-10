@@ -11,17 +11,15 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-We had a disk array failure on a Canada DC storage server, this array was hosting our WAX Mainnet Hyperion ES Snapshots. The array has been repaired however Hyperion ES Snapshots are now being hosted in our Perth DC for the short term.
+Our Canada DC disk array that was hosting our WAX Mainnet Hyperion ES Snapshots has been repaired and we 70% of the way through uploading the 30TB snapshot. Hyperion ES Snapshots are still being hosted in our Perth DC for now.
 
-We had a planned 3rd Party ISP network outage in Perth on the 20th of August. Perth was down for 105mins and returned to full production without any issues. WAX Testnet API's and WAX Mainnet Hyperion Full History was effected.
+We had an upstream internet outage in Perth for 90mins on the 7th/8th October due to an environmental issue experienced by our provider. All services restored successfully after the issue was remediated.
 
-HeadsUp v0.1.3 was released.
+HeadsUp v0.1.6 was released.
 
 Be sure to check out the public showcase of HeadsUp to get a feel for the platforms capability here -> https://headsup.eosphere.io/
 
-We are also currently planning to refresh our servers in Sydney, this will probably happen at the end of September 2024.
-
-Our upgrades to v5.0.1wax01 are organically being completed.
+We have also started the process of refreshing our servers in Sydney, currently waiting on hardware.
 
 ### <ins>API Services</ins>
 
@@ -38,12 +36,21 @@ Our upgrades to v5.0.1wax01 are organically being completed.
 
 **Update**: 
 
-The EOSphere Team have just released HeadsUp v1.3.0 which brings some much requested quality of life upgrades:
+The EOSphere Team have just released HeadsUp v1.6.0 ,this release includes a multitude of bug fixes and new features:
 
-- Telegram alerting has been added
-- Changes in the Vote Rank will now generate notifications when monitoring of Vote Rank is enabled
-- Email alerts have been upgraded from txt to HTML with improved styling and content
-- Alert messages and subject lines have been improved to better describe the alert
+- Removed the old buggy metric History API Connects and replaced it with a metric for ‘Last Indexed Action’. **This is excellent to track whether your indexer is indexing actions in the indexed block.**
+- Fixed spelling of Address in Add Node window
+- Fixed deleting of a chain deletes associated alerts
+- Fixed an error showing that alerts had been active for 54 years
+- Can now change the type of a node after creating it, without needing to delete and recreate
+- Latency shows as N/A when node not connected
+- Reminders for node not connected fixed
+- Fixed an error causing ‘create node’ button to be clicked twice before creating node on some browsers
+- Fixed an error causing default monitoring and alerting settings not to be applied upon creation
+- Updated the silencing module to work for connects and latency alerts which take a URL parameter
+- Added node sort_order to each row on the chain page node tables
+- When creating a new node, the default value for sort_order reflects the next number up from the others in the table
+- Changed the vote rank alert to be ‘alert me when vote rank changes’, allowing users to disable vote rank notifications by turning this off
 
 Take a look at the public showcase -> https://headsup.eosphere.io/
 
@@ -60,29 +67,11 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we added a guide showing how to configure and deploy HeadsUp with as little as 30mins of effort.
+This month we created a guide that covers how to configure and start receiving HeadsUp Alerts through Telegram using the Bot API.
 
-**Configure and Deploy HeadsUp Monitoring and Alerts**
+**Configure HeadsUp Telegram Alerts**
 
-https://medium.com/eosphere/eosphere-guild-august-24-update-b853c719908a
-
----
-
-### Commercial API Services
-
-**URLs**: https://eosphere.io/services, https://developer.wax.io/operate/wax-api-services
-
-**Update**:
-EOSphere offer Commercial Solutions for WAX Services.
-
-We are able to host or operate your own infrastructure for the following:
-- Hyperion Full History
-- Atomic API
-- WAX Protocol Network API
-
-At this point, we unfortunately aren’t able to provide this service to other WAX Guilds. However, you are welcome to use our ElasticSearch Snapshot Repository API.
-
-Please contact us at info@eosphere.io to discuss your needs so we can craft a suitable solution for you.
+https://medium.com/eosphere/wax-technical-how-to-25-1cb831003433
 
 ---
 
@@ -92,32 +81,34 @@ Please contact us at info@eosphere.io to discuss your needs so we can craft a su
 
 **Update**: 
 
-We recently added additional WAX Hyperion Full History Articles
+We recently added an article on ZFS deduplication
 
 ---
 
 ### Metrics
 
-Period: August 13th, 2024 - August 27th 2024 (2 Weeks)
+Deeper statistics are available in our Regular Community Update.
+
+Period: September 26th 2024 - October 10th 2024 (2 Weeks)
 
 **Infrastructre Stats**:
-- 53.97%% of Requests are Normal API, 46.03% are Hyperion API
-- 8 to 13 Million HTTP "200"`s served per day
-- 240 Million Requests this last two weeks
+- 51.93% of Requests are Normal API, 48.07% are Hyperion API
+- 8 to 16 Million HTTP "200"`s served per day
+- 280 Million Requests this last two weeks
 - We provide for around 1 to 2Mil WAX Mainnet Successful Push Actions per day.
-- 1.176 Million Requests served by our Atomic API per day
+- 960k Requests served by our Atomic API per day
 
 **Medium Stats**:
 
-![image](https://github.com/user-attachments/assets/f9f2dfe0-b728-43fa-9386-9e052eed5c7d)
+![image](https://github.com/user-attachments/assets/97f2b4c5-e959-4d3a-b0ee-33799aac68a7)
 
-![image](https://github.com/user-attachments/assets/b0daf16c-8d1b-4ab7-b6e7-2e2a01d7be64)
+![image](https://github.com/user-attachments/assets/a56d7bae-83ab-4dcc-acce-ed38fc8c4f22)
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/user-attachments/assets/be7a2b09-3828-4640-86cf-4f009b2d6836)
+![image](https://github.com/user-attachments/assets/4a2139bd-a58f-4c6a-b285-5f7e8b54899a)
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
@@ -129,7 +120,7 @@ Initiative A: Regular Community Update
 
 We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
 
-Here is August -> https://medium.com/eosphere/eosphere-guild-august-24-update-b853c719908a
+Here is October -> https://medium.com/eosphere/eosphere-guild-october-24-update-4de552cf4179
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -145,4 +136,3 @@ URL: https://snapshots.eosphere.io/
 All good for now thanks.
 
 ----
-
