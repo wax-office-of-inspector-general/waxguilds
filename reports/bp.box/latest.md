@@ -23,7 +23,7 @@ Technical Update:
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]    | [x]    | [x]    | [x]    |  []    | []     |  
-|30.02 k req/week |29.94 k req/week |30.18 k req/week | 3.14M req/week |  |   |
+|29.87 k req/week |28.74 k req/week |30.11 k req/week | 3.03M req/week |  |   |
 
 
 Others APIs: Roborovski, dfuse, ...
@@ -34,23 +34,26 @@ Others APIs: Roborovski, dfuse, ...
 
 
 ### Defibox WAX Swap
-![image](https://github.com/user-attachments/assets/5f8189c8-eb0e-4ea5-a8ea-fb4238faf4dd)
-
-
-
+<img width="813" alt="image" src="https://github.com/user-attachments/assets/a166203b-307d-41f3-b01f-8a495aed3701">
 
 **URLs**: https://wax.defibox.io/
 
-
 **List of SCs**: swap.box
-
 
 **Update**: 
 "We have some cooperations with new WAX projects to boost our trade volume and TVL
 
 
+### Exploration on WAX version RAM
+<img width="1043" alt="image" src="https://github.com/user-attachments/assets/2598477b-007d-473c-9b09-51dd20c5b451">
 
 
+**URLs**: https://defibox.io/ram
+
+**List of SCs**: ram.defi
+
+**Update**: 
+The RAM wave on EOS has been continuing for a while. On EOS, we have BRAM, WRAM, RAMS, RAMX, etc. all based on RAM. Among them, the most popular RAM tokenization is "BRAM". And Defibox RAM trading platform is the most visited website for RAM traders. Both are very good products from Defibox. We recently noticed in the WAX governance group talking about WAX version RAM. Our group internally evaluate our RAM product and see the possibility of bringing it to the WAX if the WAX ecosystem have some RAM fever in the future, Defibox could be a good RAM builders also on WAX.
 
 
 [[If needed, reference to a previous report](Not available)]
@@ -65,14 +68,15 @@ Others APIs: Roborovski, dfuse, ...
 [report relevant metrics and metric period...]
 
 
-Period: August 2024
+Period: September 2024
 
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-Average daily users: 60
-Average daily volume: 4,000 USD
+Average daily users: 45
+Average daily volume: 3,500 USD
 ---
-![image](https://github.com/user-attachments/assets/a8cdfa25-0a34-4b54-a857-6fe010a0ea0c)
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/72e6addf-d4f3-4635-aab8-f15be3f0e650">
+
 
 
 ...
@@ -92,8 +96,7 @@ Average daily volume: 4,000 USD
 Initiative A: https://wax.defibox.io/scoreShop
 **List of SCs**: ann.box
 
-<img width="888" alt="image" src="https://github.com/user-attachments/assets/6a5bd5be-0e14-45cf-aa53-a9649b7d5c30">
-<img width="871" alt="image" src="https://github.com/user-attachments/assets/0416d74f-63d8-42ee-bbf6-80b549ad16e9">
+<img width="771" alt="image" src="https://github.com/user-attachments/assets/729d6800-ddc5-4434-bb55-7a47153d71dc">
 
 
 

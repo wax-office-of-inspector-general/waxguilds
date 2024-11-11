@@ -10,6 +10,17 @@
 | producer (testnet) | waxmadrid111 |
 | Guild Jurisdiction | Spain |
 
+### <ins>Noteworthy</ins>
+
+All services remain operational.
+
+### <ins>API Services</ins>
+
+| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
+|--------|--------|--------|--------|--------|--------|
+| [_] | [x] | [x] | [x] | [x] | [x] 
+| - | 1.47M req/week | 136.98K req/week | 325.43K req/week | 3.04K req/week |  8.31K req/week |
+
 ### <ins>Contributions</ins>
 
 Final release of a WAX blockchain explorer and wallet, accessible at 
@@ -17,7 +28,6 @@ Final release of a WAX blockchain explorer and wallet, accessible at
 https://wax.chainscout.io and https://wax-testnet.chainscout.io 
 
 Offers a comprehensive suite of features for users interacting with the WAX blockchain such as :
-
 
 
 **Explorer**

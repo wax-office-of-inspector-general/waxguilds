@@ -12,9 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-There was an incident related to one of our block producer servers, failover started producing and our monitoring systems reported that the server was unreachable. After several attempts to connect to the server we identified that the server was unreachabled through any network but it was still producing thus resulting in double producing for a small period of time. 
-We had to request to forcefuly restart the server.
-We are implementing and testing unregbot.  
+Nothing to report.
 
 
 ### <ins>API Services</ins>
@@ -22,7 +20,7 @@ We are implementing and testing unregbot.
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API       | IPFS            | Chain API       |
 |-------------------|----------------|-------------------|----------------|-----------------|-----------------|-----------------|
 | [ ]               | [ ]            | [x]               | [x]            | [x]             | [x]             | [x]             |
-| -                 | -              | 87.97k req/week   | 2.52M req/week | 83.14k req/week | 751 req/week    | 18.65M req/week |
+| -                 | -              | 98.28k req/week   | 1.46M req/week | 82.74k req/week | 175 req/week    | 22.41M req/week |
 
 ### <ins>Contributions</ins>
 
@@ -34,28 +32,24 @@ We are implementing and testing unregbot.
 
 **Update**
 
-* Allow the possibility to transfer ingredients to another blend as a result (Currently on test).
-* Display transfer fee when a token has one.
 * Bug fixes and improvements.
-* Neftyblocks is now listed on DeFillama.
-
 
 **Metrics**  
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
 
-* Primary market volume: 2.26M WAXP
-* Secondary market volume: 1.43M WAXP
+* Primary market volume: 1.51M WAXP
+* Secondary market volume: 1.78M WAXP
 
 **Stats**
 
-* Views: 1.9M  
+* Views: 1.7M  
 * Users: 24k  
-* Avg Engagement Time: 17m 01s
-* Blends performed: 59K
-* Drop claims: 53.6K
-* Packs opened: 44.2k
-* Upgrades performed: 5.4k
+* Avg Engagement Time: 19m 46s
+* Blends performed: 58.2K
+* Drop claims: 46.3K
+* Packs opened: 57.6k
+* Upgrades performed: 26.3k
 
 ---
 
@@ -70,79 +64,83 @@ Period: _Jul 13, 2024 to Aug 26, 2024_
 * We have facilitated 20.48K drop claims that use custom WAX-based tokens native to 3rd party projects: 
 
 
-| **Token**   | **Claims** |
-|-------------|------------|
-| WUF         |   5012     |
-| SKUNKY      |   1967     |
-| WOMBAT      |   1850     |
-| ANON        |   1751     |
-| HOWL        |   1563     |
-| FED         |   1484     |
-| RJUAN       |   1050     |
-| DUST        |   1029     |
-| DINO        |    858     |
-| NEFTY       |    745     |
-| LVAPE       |    569     |
-| GUILD       |    300     |
-| XYTE        |    296     |
-| NOA         |    283     |
-| SOUL        |    226     |
-| SEXY        |    179     |
-| KEK         |    158     |
-| GHOST       |    138     |
-| WXBOOTY     |    121     |
-| CHIPS       |    107     |
-| NOVO        |     96     |
-| CHAD        |     90     |
-| CHRONA      |     69     |
-| WAXART      |     67     |
-| TLM         |     63     |
-| CREWC       |     54     |
-| RAIDD       |     48     |
-| HDC         |     35     |
-| BRIX        |     34     |
-| PXJ         |     33     |
-| CMX         |     25     |
-| SCHWAX      |     19     |
-| CREEPZ      |     15     |
-| PXF         |     13     |
-| QUAX        |     13     |
-| BINX        |     11     |
-| AQUA        |     11     |
-| SHING       |     10     |
-| NKFE        |     10     |
-| FORGE       |      9     |
-| TACO        |      9     |
-| LANBX       |      9     |
-| WIENR       |      8     |
-| HCC         |      8     |
-| WAXFREN     |      7     |
-| BLUE        |      6     |
-| SSN         |      6     |
-| AIGOD       |      4     |
-| DUCK        |      4     |
-| LSWAX       |      3     |
-| TOMATOE     |      2     |
-| CHAOS       |      1     |
-| KENN        |      1     |
-| TICKET      |      1     |
-| USDT        |      1     |
+|   **Token**   |   **Claims**  |
+|---------------|---------------|
+| WUF           |   3926        |
+| HOWL          |   2566        |
+| CITYRUN       |   2384        |
+| DUST          |   1274        |
+| SKUNKY        |   939         |
+| WOMBAT        |   876         |
+| SEXY          |   782         |
+| KEK           |   710         |
+| XYTE          |   677         |
+| CHRONA        |   660         |
+| STAG          |   500         |
+| LANBX         |   497         |
+| LVAPE         |   423         |
+| GUILD         |   412         |
+| TOOLS         |   378         |
+| GHOST         |   241         |
+| NEFTY         |   236         |
+| NOVO          |   144         |
+| FED           |   109         |
+| AQUA          |   93          |
+| DINO          |   77          |
+| BRIX          |   73          |
+| SOUL          |   58          |
+| SQJ           |   53          |
+| CHAD          |   51          |
+| NKFE          |   46          |
+| AIGOD         |   42          |
+| BINX          |   37          |
+| CHIPS         |   32          |
+| TLM           |   29          |
+| SHING         |   26          |
+| HDC           |   24          |
+| RAIDD         |   21          |
+| BLUE          |   19          |
+| PXJ           |   18          |
+| NOA           |   16          |
+| PXF           |   14          |
+| HCC           |   13          |
+| FORGE         |   11          |
+| LSWAX         |   10          |
+| SKATE         |   8           |
+| CREWC         |   8           |
+| UPMAX         |   7           |
+| WAXART        |   7           |
+| WXBOOTY       |   7           |
+| TACO          |   6           |
+| SCHWAX        |   6           |
+| ROOK          |   5           |
+| QUAX          |   5           |
+| CHAOS         |   5           |
+| USDT          |   3           |
+| DTX           |   3           |
+| CREEPZ        |   2           |
+| CMX           |   1           |
+| SSN           |   1           |
+| WIENR         |   1           |
+| TMDC          |   1           |
+| BEANS         |   1           |
+
 
 
 **Metrics**  
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
 
-* Drops created: 1.5k
-* Blends created: 418
-* Packs created: 154
-* Upgrades created: 49
+* Drops created: 2.4k
+* Blends created: 506
+* Packs created: 114
+* Upgrades created: 4
 
 **Stats**
 
-* Views: 37.5k  
-* Users: 1k  
-* Avg Engagement Time: 19m 7s
+* Views: 38k
+* Users: 1012
+* Avg Engagement Time: 17m 42s
 
 ---
 
@@ -158,12 +156,11 @@ Period: _Jul 13, 2024 to Aug 26, 2024_
 
 **Metrics**
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
 
-* New implementations: 2
-* Total number of implementations: 100
-* Transactions: $1.7k
-
+* New implementations: 4
+* Total number of implementations: 103
+* Transactions: $2k
 
 ---
 
@@ -181,26 +178,45 @@ Period: _Jul 13, 2024 to Aug 26, 2024_
 
 **Update**:
 
-* Self-service opened
-* Launched by community: $FED and $DUCK
-* Working on Telegram miniapp to promote launchbagz (soon to release)
+* Launch of new product: Bagz Tapper application.
+
 
 **Metrics**  
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
 
-* Total visits: 4.12K
-* Page views: 4.3K
+* Total visits: 11.8k
+* Page views: 11.8k
 
 ---
+
+### Bagz Tapper
+
+**URLs**: [https://tg-app.launchbagz.com](https://tg-app.launchbagz.com/)  
+**List of SCs**: 
+
+**Update**:
+
+* 3 Seasons released, currently on 3rd season.
+* Release new outfits with each season ($AIGOD, $BLUWHL, $FED, $RODC, $RJUAN, $WOMBEE, $WIZARD)
+* 3 Airdrops delivered ($AIGOD, $RJUAN, $FED)
+* Incoming Airdrop for $WOMBEE, $RODC, $BLUWHL
+* WIP prediction markets
+
+**Metrics**  
+
+Period: _Aug 27, 2024 to Oct 14, 2024_
+
+* Total users: 1.6k
+
+---
+
 
 ### WaxOnEdge
 
 Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to start incursioning into DeFi on WAX.
 
-* Adding neftyblocks pools
-* Adding a page to manage your liquidity on taco / defibox / a-dex / neftyblocks
-* Finalizing works with limit orders
+* Add query params for analytics page to able to filter tokens / pairs on page load
 * Small updates and fixes  
 
 ---
@@ -211,7 +227,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-* Number of subscribers: 209
+* Number of subscribers: 159
 
 ---
 
@@ -223,9 +239,9 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
 
-* Number of TAG crafts: 1.8k
+* Number of TAG crafts: 1.7k
 
 ---
 
@@ -235,19 +251,19 @@ Period: _Jul 13, 2024 to Aug 26, 2024_
 
 **Metrics**
 
-* AA API Requests: 1.34M requests/week
+* API Requests: 1.33M requests/week
 
 ---
 
 ### <ins>Marketing</ins>
 
-Period: _Jul 13, 2024 to Aug 26, 2024_
+Period: _Aug 27, 2024 to Oct 14, 2024_
  
-* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 108 videos at the moment with 186 subscribers. 
-* [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 84 videos at the moment with a total of 15.1k views. 
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 32K impressions and 26.2K Followers, engagement 12.2k.
-* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 3.97k total members, 104 monthly visitors, 121 monthly messages.  
-* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 710 views and 410+ reads during July and August.
+* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 133 videos at the moment with 337 subscribers. 
+* [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 107 videos at the moment with a total of 22k views.
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 45.1K impressions and 26.2K Followers, engagement 12.2k.
+* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 364 monthly visitors, 913 monthly messages.  
+* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 739 views and 350+ reads during September and October.
 
 
 ### <ins>Backups </ins>
