@@ -44,11 +44,11 @@ Stats: 60 registered developer accounts, 3 paying customers, Averaging around 5k
 
 **Update**: 
 
-Bug fixes! We would appreciate it if we could get higher points here as we are continuously maintaining and supporting over 1200+ users daily.
+Added new functionality now to track NFT Trade offer alerts and reinitiated the WAX Whale Alerts with some updates. We would appreciate it if we could get higher points here as we are continuously maintaining and supporting over 1300+ users daily.
 
 **Metrics**
 
-Period: Aug 27th, 2024 - Oct 14th 2024
+Period: Oct 14th, 2024 - Sept 21st 2024
 
 Stats: 
 
@@ -62,10 +62,10 @@ Latest Stats: use /adminstats command
 
 **WAX Galaxy Sales Bot Updates: (@waxgalaxybot) [telegram]**
 
-- Users Count: 852 (0.1% increase from last update) 
-- Accounts Count: 2578 (1% increase from the last update) 
+- Users Count: 852  
+- Accounts Count: 2587 (0.5% increase from the last update) 
 
-On average daily we send out more than 2300+ notifications to users.
+On average daily we send out more than 3000+ notifications to users.
 
 
 ---
