@@ -12,7 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-Added new SHIP node with disk capacity: 21TB instead of the previous one which was around :16TB.
+We have upgraded our Hyperion testnet to  "3.5.0-5" and the SHIP node to version: 5.0.3wax01 and we are working on the same upgarde for mainnet side right now.
 
 
 ### <ins>API Services</ins>
@@ -20,7 +20,7 @@ Added new SHIP node with disk capacity: 21TB instead of the previous one which w
 | History (partial) | History (full) | History (testnet) (full) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [ x] | [x] | [x] | [x] | [] |  [x] |
-| - | 190k req/week | 697k req/week | 338K req/week | ~x req  |  2208 req/week |
+| - | 727k req/week | 1.5M req/week | 512K req/week | ~x req  |  538 req/week |
 
 
 
@@ -32,26 +32,29 @@ Added new SHIP node with disk capacity: 21TB instead of the previous one which w
 
 [report relevant metrics and metric period...]
 
-Period:   Aug 30th 2024 - Oct 14th 2024
+Period:   Oct 14th 2024 - Nov 23th 2024
 
 Stats: 
-Atomic assets API: 1835780 requests , Status 200.
-
-![AA OCT](https://github.com/user-attachments/assets/09a9f797-84cf-4666-a500-ce5de588ab17)
+Atomic assets API: 1907828  requests , Status 200.
 
 
-
-
-WAX API mainnet: 1088462 requests, status 200.
-
-![API WAX](https://github.com/user-attachments/assets/3e7529f5-38a2-417c-a4c1-4808d938972c)
+![AA](https://github.com/user-attachments/assets/33bc0ed3-2ba0-4fd4-9854-1ddc7f4fec23)
 
 
 
 
-Vstate: 3094 requests, status 200.
+WAX API mainnet: 2162188 requests, status 200.
 
-![vstate oct](https://github.com/user-attachments/assets/893fad15-5800-482d-aa05-f9ed90f7adae)
+
+![api](https://github.com/user-attachments/assets/f8f3e13c-46ad-4803-8886-726f8eac2bbf)
+
+
+
+
+Vstate: 2818 requests, status 200.
+
+
+![vstate](https://github.com/user-attachments/assets/b7ac7260-cc85-4fb7-a1db-4455ee4c0a37)
 
 
 
@@ -65,8 +68,8 @@ Support the community with instant translation for all news and announcements.
 
 ### <ins>Backups </ins>
 URL: (https://snapshots.eosarabia.net)
-New Block log backup added :2024-10-05T06:18:46.042
-New state-history backup added : 2024-10-05T06:18:46.042
+New Block log backup added :2024-11-03T20:03:31.522
+
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
