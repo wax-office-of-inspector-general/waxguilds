@@ -12,20 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
-The reason is being investigated:
-
-the reason was in poor condition of one of the switches in the failover history node which made it flap.
-node was migrated out of there.
-
-No other issues over the past 1.5 months.
+Mostly reinforced our infra and consolidated a bunch of maintenance tasks in order to smoothly transition between hosting providers maintenances.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 10.12M req/week | 664.15k req/week | 1.63M req/week | 37.88k req/week |  104.52k req/week |
+| - | 14.9M req/week | 82.91k req/week | 4.46M req/week | 45.69k req/week |  83.98k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -44,15 +38,102 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
 
+The development of the R-Planet game is progressing steadily, with various tasks at different stages of completion. 
+The team is advancing, maintaining continuous collaboration to improve the gaming experience and meet user expectations.
+The following completed tasks highlight the ongoing development efforts within the project.
+
+Changelog:
+
+**New Features**
+1. Banning in Private Chat
+Players can now ban other users in private chat, giving them control over their chat interactions.
+
+2. Resource Display in Search List
+Players can see resource quantities for each base in the “My” list during searches, streamlining the resource transfer process.
+
+3. Spying on Players Under Protective Dome
+Players under a Protective Dome can now spy on others under protection, allowing for mission completion even while protected.
+4. Base Event Info Button for Other Players’ Bases
+A new button on the Base Info page allows viewing of combat, support, and spy activities on other players’ bases, with filters for easy navigation.
+
+5. Alliance Invitations Enhancement
+Alliance leaders can now invite players directly from the player’s info page, alongside existing player requests to join.
+6. Alliance Invitations via Private Chat
+Admins or owners can send alliance invites through private chat.
+7. Viewing Captured Alien Bases
+Alliance members can observe layout and details of captured alien bases.
+8. “Finish Now” for Building Tasks
+If fewer than 5 minutes remain on a building task, players can use the “Finish Now” option for immediate completion without an asset.
+
+**Additional Improvements**
+1. Animated Activity Indicator
+An animated indicator has been added to show active processes on the general building view.
+2. Optimized Support Display in Combat Reports
+Combat reports are now organized with two tabs for Units and Support, improving navigation and display of captured resources.
+
+3. Automatic Asset Detachment at Game End
+Assets now detach automatically when the game ends.
+4. Improved Messenger View
+The message input field now accommodates two rows for easier typing.
+5. Relocation Settings Update
+Relocation is restricted to the first 3 days after joining the game.
+6. Reduced Protective Dome Activation Time
+Activation time for the Protective Dome has been reduced to 3 hours, facilitating quicker base protection.
+7. Enhanced Hero Report
+When a hero dies during an adventure, the report is updated to show failure status, highlighted in red, with faded images.
+8. Server Participation Mark
+Servers with active participation are now marked with a unique icon.
+9. Initial Protection Removal for Rapidly Developing Bases
+Bases with 250 or more droids lose initial protection to encourage fair competition.
+10. Hide Arrived Supports on Map
+Supports that have arrived are no longer displayed on the map.
+11. Speed Selectors in Wiki
+Speed selectors added to the Wiki offer accurate data based on server speed.
+12. Frame Icon Navigation Filters
+Frame icons now navigate directly to relevant tasks with pre-applied filters.
+13. Task Sorting in Activity Tab
+Tasks are sorted by end time in the Activity tab, showing those nearing completion first.
+14. Asset Properties Display
+Assets now display properties with icons for easy identification.
+15. Grouped Asset Display
+Identical assets are grouped, displaying a count in the list view.
+
+**Ecosystem Networking Engagement**
+
+***Overview***
+
+There was done some portion of effort and some resources were used to push more tracktion from the user base side.
+This collaboration has helped us attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio).
+
+***Two-Round Tournament***
+
+The R-Planet Two-Round Tournament, with a ***$50,000 USD prize pool***, has been a highlight of our community engagement efforts. 
+The first round, featuring 3 servers, has been completed, and the second round will take place on one server on November 26th. 
+This tournament has created excitement among players and helped foster competition within the community.
+
+Both events hopefully reflected on the WAX awareness side, since we had a really great volume gain from that due to increased demand of NFTs that are used in the gameplay.
+WAX positive volume uptick
+
+![image](https://gist.github.com/user-attachments/assets/0bd19b43-fbbd-4b04-807b-b3c3adcffc00)
+
+and we even came back to the atomic market tops for some time
+
+![image](https://gist.github.com/user-attachments/assets/89944a43-693d-44ce-93e7-77a20abd9780)
+
+
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+Period: Oct 24th, 2024 - Nov 24th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/2dae3ed8-c941-418d-9298-5939663bc707)
+activity volume
 
-![image](https://gist.github.com/user-attachments/assets/1dcb1a06-7f8f-4e51-9b02-694864219cc5)
+![image](https://gist.github.com/user-attachments/assets/bcc761ad-d9ac-4946-bb24-8bf1cb697e86)
+
+nft volume
+
+![image](https://gist.github.com/user-attachments/assets/c0e516d1-8461-4a3a-be07-701960db6ff6)
 
 ---
 
@@ -69,13 +150,11 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+Period: Oct 24th, 2024 - Nov 24th 2024
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/d506348f-6b7a-432e-91b0-471c1d4c00ec)
-
-![image](https://gist.github.com/user-attachments/assets/25f4ca15-4cb4-4b2b-b279-7a7b41afda75)
+TBD
 
 ---
 
