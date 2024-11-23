@@ -48,13 +48,21 @@ Changelog:
 1. Banning in Private Chat
 Players can now ban other users in private chat, giving them control over their chat interactions.
 
+![image](https://gist.github.com/user-attachments/assets/c8d8ae89-8afa-4378-8743-d05a4aca90a0)
+
 2. Resource Display in Search List
 Players can see resource quantities for each base in the “My” list during searches, streamlining the resource transfer process.
+
+![image](https://gist.github.com/user-attachments/assets/0c7e70bf-f3b5-49bf-8c71-6d623d85f1c9)
 
 3. Spying on Players Under Protective Dome
 Players under a Protective Dome can now spy on others under protection, allowing for mission completion even while protected.
 4. Base Event Info Button for Other Players’ Bases
 A new button on the Base Info page allows viewing of combat, support, and spy activities on other players’ bases, with filters for easy navigation.
+
+![image](https://gist.github.com/user-attachments/assets/22cada01-6d5c-4a28-8eef-17dd26e51c8c)
+
+![image](https://gist.github.com/user-attachments/assets/c46c8441-0cf9-4b85-8ecf-c86a8723f200)
 
 5. Alliance Invitations Enhancement
 Alliance leaders can now invite players directly from the player’s info page, alongside existing player requests to join.
@@ -65,11 +73,15 @@ Alliance members can observe layout and details of captured alien bases.
 8. “Finish Now” for Building Tasks
 If fewer than 5 minutes remain on a building task, players can use the “Finish Now” option for immediate completion without an asset.
 
+![image](https://gist.github.com/user-attachments/assets/ba603259-700b-4ba1-899f-a4e160b79453)
+
 **Additional Improvements**
 1. Animated Activity Indicator
 An animated indicator has been added to show active processes on the general building view.
 2. Optimized Support Display in Combat Reports
 Combat reports are now organized with two tabs for Units and Support, improving navigation and display of captured resources.
+
+![image](https://gist.github.com/user-attachments/assets/77fd8672-49a1-40c0-9358-fa553b96f950)
 
 3. Automatic Asset Detachment at Game End
 Assets now detach automatically when the game ends.
@@ -102,8 +114,8 @@ Identical assets are grouped, displaying a count in the list view.
 
 ***Overview***
 
-There was done some portion of effort and some resources were used to push more tracktion from the user base side.
-This collaboration has helped us attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio).
+There was done some portion of effort and some resources were used to get more traction from the user base side.
+This collaboration has helped us to attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio) which created prositive influx to the WAX ecosystem.
 
 ***Two-Round Tournament***
 
@@ -150,11 +162,28 @@ https://grandland.prospectors.io
 
 **Metrics**
 
+prospectors also gained some traction due to issues with the EOS world specifically related to the recent changes in EOS blockchain and subsequent migration of some portion of the users to the WAX worlds was initiated.
+
+![image](https://gist.github.com/user-attachments/assets/08c655ce-6a58-47b7-b537-ee6bf025976f)
+
 Period: Oct 24th, 2024 - Nov 24th 2024
 
 Stats:
 
-TBD
+prospectors google analitycs
+
+play.prospectors.io (EOS)
+
+![image](https://gist.github.com/user-attachments/assets/bd560edb-3ba3-4042-85c0-fa7181014675)
+
+wax.prospectors.io (WAX - Yukon server)
+
+![image](https://gist.github.com/user-attachments/assets/0eedfec4-3f4b-49a8-bde5-5d181c5e5da0)
+
+grandland.prospectors.io (WAX - Our main server)
+
+![image](https://gist.github.com/user-attachments/assets/34a897dd-d2f4-454f-a373-592e279843b8)
+
 
 ---
 
@@ -165,10 +194,9 @@ TBD
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-40 active pools with about 2000+ active user stakes accross the platform.
+38 active pools with about 1977 active user stakes accross the platform.
 
-![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
-![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
+![image](https://gist.github.com/user-attachments/assets/97958cbf-d166-4f16-a05d-0c9e082d2f81)
 
 ---
 
