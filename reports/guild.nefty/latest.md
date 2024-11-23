@@ -12,8 +12,10 @@
 
 ### <ins>Noteworthy</ins>
 
-
-
+- Updated our testnet hyperion to v3.5.0-5 and connect it with QRY HUB
+- Started migrating part of our nodes from tmpfs to private mode
+- Updated IPFS to v0.29.0
+- Increasing redundancy due to incoming maintenances on Hetzner side that impacts multiple nodes
 
 ### <ins>API Services</ins>
 
