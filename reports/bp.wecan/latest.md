@@ -124,6 +124,9 @@ This collaboration has helped us to attract new players and expand our social me
 The R-Planet Two-Round Tournament, with a ***$50,000 USD prize pool***, has been a highlight of our community engagement efforts. 
 The first round, featuring 3 servers, has been completed, and the second round will take place on one server on November 26th. 
 This tournament has created excitement among players and helped foster competition within the community.
+https://t.me/rplanetio/709827
+https://t.me/rplanetio/709828
+
 
 Both events hopefully reflected on the WAX awareness side, since we had a really great volume gain from that due to increased demand of NFTs that are used in the gameplay.
 WAX positive volume uptick
