@@ -14,6 +14,8 @@
 
 Mostly reinforced our infra and consolidated a bunch of maintenance tasks in order to smoothly transition between hosting providers maintenances.
 
+We also quickly assisted with Alcor's situation related to the stuck funds on EOS when the IBCs went down.
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
