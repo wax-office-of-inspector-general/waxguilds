@@ -182,6 +182,30 @@ ITEMZ GAMES LATAM X SPACE guest
 - 10-21-2024 Reproductions so far + Tuned in 37
 - https://x.com/ITEMZ_LATAM/status/1859733601077821547
 
+**Articles**
+
+Start Your Web3 Journey with a WAX Cloud Wallet
+- https://medium.com/dungeon-keeper-studios/start-your-web3-journey-with-a-wax-cloud-wallet-a3b4319f5488
+
+WUFTOPIA: A Weekend Full of Fun and Web3 Experiences
+- https://medium.com/dungeon-keeper-studios/wuftopia-a-weekend-full-of-fun-and-web3-experiences-f230fd74d7f0
+
+From Tokens to Transactions: A Beginner’s Guide to CPU, NET & RAM on WAX io
+- https://medium.com/dungeon-keeper-studios/from-tokens-to-transactions-a-beginners-guide-to-cpu-net-ram-on-wax-io-b5cf63289d6e
+
+Navigating WAX io Marketplaces: Exploring NFThive, Atomichub and Neftyblocks
+- https://medium.com/dungeon-keeper-studios/navigating-wax-io-marketplaces-exploring-nfthive-atomichub-and-neftyblocks-65e665c79095
+
+Understanding Voting on WAX io: Earn Rewards While Supporting the Network
+- https://medium.com/dungeon-keeper-studios/understanding-voting-on-wax-io-earn-rewards-while-supporting-the-network-d069078dbbc2
+
+More articles are on the way, focusing on the gamification of content creation using WAX.
+
+ITEMZ GAMES LATAM
+
+The WAX logo was included in the advertising for the ITEMZ GAMES LATAM event held in Mexico City on November 23. All permissions were obtained from the WAX team, and only official digital resources were used.
+- https://x.com/ITEMZ_LATAM/status/1860017507198992570
+
 
 ### <ins>Feedback to OIG</ins>
 
