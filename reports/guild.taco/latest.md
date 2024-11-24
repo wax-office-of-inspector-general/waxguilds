@@ -11,16 +11,16 @@
 | Guild Jurisdiction | Italy |
 
 ### <ins>Noteworthy</ins>
-Nothing to share lately, just the usual updates. We had our Mainnet Hyperion failing for some hours cause of a network issue. We are testing the latest Hyperion version both on testnet and mainnet.
+Nothing to share lately, just the usual updates.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| ~2.1M req | - | ~90k req | ~16.5M | ~12M req | ~250k req |
+| ~2.3M req | - | ~70k req | ~16.8M | ~11.7M req | ~280k req |
 
-As an additional info, our rpc served ~165M requests in the last 28 days.
+As an additional info, our rpc served ~160M requests in the last 28 days.
 
 All the tracked requests in the table are intended in the last 28 days for every single service provided.
 

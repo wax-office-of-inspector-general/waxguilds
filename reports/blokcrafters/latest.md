@@ -12,8 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-Thankfully this was a quiet period for us.  Several of us were travelling or on vacation.
-Nothing noteworthy to report this period.
+
 
 ### <ins>API Services</ins>
 
@@ -25,67 +24,81 @@ Others APIs: none at the moment
 
 ### <ins>Contributions</ins>
 
+
 ### WaxDapps
+
 ![waxdapps](https://github.com/user-attachments/assets/64450ac8-e765-424e-a37a-8b45c9b1c21a)
+
 
 **URLs**: https://waxdapps.io/
 
+
 **Update**
-Traffic for the last 30 days was surging. We are pleased with the results! 20,000+ visitors. 
-Dev Updates: Implemented twitter feed window of relevant tweets. Added "Learn" tab to help new users/visitors. 
+
+- Moved Alcor and DefiBox out of the Exchange category. Made a new category "DEX" With 5 Decentralized exchange's available on WAX it makes sense to have DEX be its own category. Re ordered waxdapps resources to be ordered based on the categories with most user traffic to least.
 
 *Added Listings*
-* WAX Fusion (DeFi)
-* BitMart (Exchange)
 
-*Removed Listings* 
-* Token Gamer (Live Drop Schedules)
-* GoldMand Game (P2E)
-* Million on Mars (P2E)
-* Train of the Century (P2E)
-
+* A-DEX (DEX)
+* Neftyswap (DEX)
+* Taco Swap (DEX)
+* WAX On Edge (DEX)
 
 **Metrics**
-Period: July 15th, 2024 - August 31th 2024
+
+Period: October 16, 2024 - November 10th 2024
+
 *Stats*
 
-![IG_report_8 31](https://github.com/user-attachments/assets/acab9a79-f436-401b-8a51-b72cfac80c68)
-![IG_report_8 31 1](https://github.com/user-attachments/assets/c9b0b0d8-3013-416b-950c-f1e0f59ea6b4)
-![IG_report_8 31 2](https://github.com/user-attachments/assets/11da5ca8-538b-45a9-876c-72da11bbc8ec)
+
+<img width="450" alt="10-11-24_waxdapps1" src="https://github.com/user-attachments/assets/4e108004-60a2-4e38-826b-38eced4b2246">
+<img width="500" alt="10-11-24_waxdapps2" src="https://github.com/user-attachments/assets/224d4bae-4b3f-456f-b08e-f105de4be5f6">
+<img width="400" alt="10-11-24_waxdapps3" src="https://github.com/user-attachments/assets/0d7b8c8b-7cdb-4fec-a339-ff2a36d8a5dd">
 
 
+  
+  
+### WaxAI
 
-
-### WaxAI 
 ![waxai (1)](https://github.com/user-attachments/assets/7f719897-2bde-4acd-90fa-05fdbbe5ed60)
 
-
+  
+  
 
 **URls** https://waxai.io/
 
+  
+  
 
 ### Project Update
 
-1. **AI Training Improvment's**: 
-   - Knowledge Base: Adjusted WAX AI's knowledge base to improve accuracy of output. 
+  
 
-2. **User Interface (UI) Enhancements and Bug Fixes**:
-   - **Chat Function Improvements**: Made improvements to UI/UX 
+1. **UI/UX**: In the process of rebuilding the UI for a cleaner/smarter experience. Re-Imagining what type AI can be useful and impactful to the WAX community! 
+
 
 **Metrics**
-Period: July 15th, 2024 - August 31th 2024
+
+Period: October 16th, 2024 - November 10th 2024
+
 *Stats*
-- We will be submitting metrics for waxai starting next report! 
+No stats to share for this reporting period
+
+  
 
 ### <ins>Marketing</ins>
 
-
-
+  
 ### <ins>Backups </ins>
+
 URL: [wax-snapshots.blokcrafters.io](https://wax-snapshots.blokcrafters.io/)
 
+  
+
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
+
 |--------|--------|--------|--------|--------|
+
 | [x] | [ ] | [ ] | [ ] | [ ] |
 
 
