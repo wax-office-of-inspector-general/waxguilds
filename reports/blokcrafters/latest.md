@@ -35,25 +35,21 @@ Others APIs: none at the moment
 
 **Update**
 
-- Moved Alcor and DefiBox out of the Exchange category. Made a new category "DEX" With 5 Decentralized exchange's available on WAX it makes sense to have DEX be its own category. Re ordered waxdapps resources to be ordered based on the categories with most user traffic to least.
+Creator and Name for TacoSwap has been corrected under DEX. 
 
 *Added Listings*
 
-* A-DEX (DEX)
-* Neftyswap (DEX)
-* Taco Swap (DEX)
-* WAX On Edge (DEX)
-
 **Metrics**
 
-Period: October 16, 2024 - November 10th 2024
+Period: November 10, 2024 - November 24th 2024
 
 *Stats*
 
+<img width="574" alt="waxdapps2_stats_11 10-11 24" src="https://github.com/user-attachments/assets/7ec7ab10-bcdf-411c-af34-0fc534789f43">
+<img width="573" alt="waxdapps1_stats_11 10-11 24" src="https://github.com/user-attachments/assets/7af827e0-aa7e-42fd-959a-2f535670b584">
+<img width="578" alt="waxdapps_stats_11 10-11 24" src="https://github.com/user-attachments/assets/8ce3bd50-091f-410e-b485-b91c20436007">
 
-<img width="450" alt="10-11-24_waxdapps1" src="https://github.com/user-attachments/assets/4e108004-60a2-4e38-826b-38eced4b2246">
-<img width="500" alt="10-11-24_waxdapps2" src="https://github.com/user-attachments/assets/224d4bae-4b3f-456f-b08e-f105de4be5f6">
-<img width="400" alt="10-11-24_waxdapps3" src="https://github.com/user-attachments/assets/0d7b8c8b-7cdb-4fec-a339-ff2a36d8a5dd">
+
 
 
   
@@ -79,7 +75,7 @@ Period: October 16, 2024 - November 10th 2024
 
 **Metrics**
 
-Period: October 16th, 2024 - November 10th 2024
+Period: November 10th, 2024 - November 24th 2024
 
 *Stats*
 No stats to share for this reporting period
