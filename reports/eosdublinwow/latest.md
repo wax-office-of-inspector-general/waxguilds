@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-We are focusing on a few new projects that would hopefully revive the ecosystem a bit. This cycle we had some major issues with Hyperion and we're trying to keep it stable.
+This cycle we mainly focused on stabilising the Hyperion service, as we've seen a greater number of requests lately, causing some continuous failures due to volume. We are also actively working on a couple of new applications that could bring new activity to the chain. 
 
 ### <ins>API Services</ins>
 

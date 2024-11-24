@@ -11,10 +11,9 @@
 | Guild Jurisdiction | Sweden |
 
 ### <ins>Noteworthy</ins>
-- New Thalos Releases, including bug fixes and new features.
-- Official Docker build for thalos [https://thalos.waxsweden.org/docs/installation/docker](https://thalos.waxsweden.org/docs/installation/docker)
-- Updated Thalos Docs to reflect all Thalos changes and updates.
-
+- Put a lot of time into Investigating Hyperion Full history, and surrounding applications
+- Set up a partial Hyperion History 
+- 
 
 ### <ins>API Services</ins>
 
@@ -28,11 +27,11 @@
 
 | Website/Platform | Visitors/views | Timeframe |     |
 | ---------------- | -------------- | --------- | --- |
-| alienw.com       | 1.1k           | 30 days   |     |
-| waxsweden.org    | 469            | 30 days   |     |
-| academy.anyo.io  | 189            | 30 days   |     |
-| Anyo YouTube     | 185            | 28 days   |     |
-| anyo.io          | 264            | 30 days   |     |
+| alienw.com       | 1.6k           | 30 days   |     |
+| waxsweden.org    | 397            | 30 days   |     |
+| academy.anyo.io  | 235            | 30 days   |     |
+| Anyo YouTube     | 218            | 28 days   |     |
+| anyo.io          | 225            | 30 days   |     |
 
 
 ---
@@ -42,30 +41,10 @@
 **URLs**: [thalos.waxsweden.org](https://thalos.waxsweden.org/), [Github](https://github.com/eosswedenorg/thalos), [Documentation](https://thalos.waxsweden.org/docs/), [NodeJS Client](https://github.com/eosswedenorg/thalos-nodejs), [Go Client](https://github.com/eosswedenorg/thalos/tree/master/api)
 
 **Update**:
+- Small bug fixes
+- Submitted the latest update of Thalos for labs: https://labs.wax.io/proposals/157
 
-#### Version 1.1.5 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5)
-- New config section: cache
-- New CLI flag: cache specify what cache driver to use
-- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
-request made when Thalos wants to fetch a ABI from the api.
-- API Table Deltas: abi decode the data in value field for contract_row deltas.
-- golang: update github.com/shufflingpixels/antelope-go to v0.1.5
-- golang: update github.com/quic-go/quic-go from 0.41.0 to 0.42.0
-- golang: version 1.20 can no longer be used to build the project.
-- Docker Image v1.1.5 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5)
-
-#### Version 1.1.5-rc1 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1)
-- New config section: cache
-- New CLI flag: cache specify what cache driver to use
-- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
-request made when Thalos wants to fetch a ABI from the api.
-- API Table Deltas: abi decode the data in value field for contract_row deltas.
-- golang: update github.com/shufflingpixels/antelope-go to v0.1.4
-
-#### Version 1.1.4 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4)
-- Implement whitelist option for ship contract/action blacklist
-- Fix bug with integer overflow on 32 bit CPUs.
-
+---
 
 ### APT Packages
 **Description**: APT Packages for WAX, Antelope and relevant tools for Linux distros. *apt install wax*
@@ -73,9 +52,6 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [WAX APT repo](https://eosswedenorg.github.io/apt/wax), [Main apt repo, some of our tools](https://eosswedenorg.github.io/apt/main), [Antelope APT repo](https://eosswedenorg.github.io/apt/antelope), [Github](https://github.com/eosswedenorg/apt)
 
 **Update**:
-- Added the new Thalos v1.1.5-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.5 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.4 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
 
 ---
 
@@ -85,8 +61,12 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [anyo.io](https://anyo.io/), [OIG Roundtables](https://academy.anyo.io/wax-oig-roundtables), [Anyo YouTube](https://www.youtube.com/anyobservation), [Anyo Twitter](https://twitter.com/anyobservation), [WAX Memo Tracker](https://anyo.io/blockchain_tools/memo_tracker), [WAX Trx tracker](https://anyo.io/blockchain_tools/trx_tracker)
 
 **Update**: 
-
-
+- Latest OIG Roundtables are uploaded on YouTube and the site.
+- Continued to work on the new oig dashboard, details down at the BP Notification & Data Service, which perhaps should be split into different things at this stage.
+- Latest OIG calls
+    - https://youtu.be/dDJ8EcV30rU - QRY Hyperion Update
+    - https://youtu.be/X3QrJwNj7I4 - Substreams and Graph presentation
+    - https://youtu.be/3ssXlLoqy-Q - Hyperion Hub presentation
 ---
 
 ### WAX OIG Election Tools
@@ -95,6 +75,11 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [OIG Vote Tracker](https://anyo.io/blockchain_tools/oig)
 
 **update**:
+- Fixed multiple bugs
+- Improved css
+- Fixed old broken images
+- Updated to track the new election
+- Fixed links for socials.
 
 ---
 
@@ -132,6 +117,16 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [https://waxsweden.org/testnet](https://waxsweden.org/testnet)
 
 **Update**:
+- Compiled, tested and Deployed a new system contract on WAX testnet - b96446d3ddaf70ad29ab000a2bd72d90370908cf13c5162f6e2f7f7a9c0ea316
+    - This update enables new ram actions.
+* ramtransfer: transfer ram to someone
+* ramburn and buyramburn: burn ram actions
+* buyramself: convenience action to buy ram to yourself (don't have to specify a target ram receiver)
+
+- Tested all the new features 
+    - eosio::ramburn - 2c7b2057bad404b83192b520e654f6347023069e38d790da1677074747bc9884
+    - eosio::buyramself - 182664b5330938bb5cccf45aae2737675ac0beb56c1957757797cfb66d43c510
+    - eosio::ramtransfer - fca9fa7dfd898c10cbcb4902fdc43cdee78f2a437846d7b97968c16c6b5e3ec5
 
 ---
 
@@ -152,7 +147,9 @@ request made when Thalos wants to fetch a ABI from the api.
 **List of SCs**: [Mainnet](notify.se), [Testnet]()
 
 **Update**: 
-- started to work on a new feature to display resource states of accounts across time.
+- Quiet a bit of work on https://dashboard.waxsweden.org/guilds
+    - Added a page for all guild products [https://dashboard.waxsweden.org/guilds/products](https://dashboard.waxsweden.org/guilds/products)
+
 
 ---
 
@@ -162,6 +159,7 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [alienw.com/](https://alienw.com/), [Alpha API - https://api.alienw.com/](api.alienw.com/), [alienw wallet Interface](https://wallet.alienw.com)
 
 **Update**: 
+- Minor fix of Telegram notification bot
 
 ---
 
@@ -193,7 +191,7 @@ Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.o
 
 Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
-Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-08-01T04_30_01_408_293176065.bin.tar.gz)
+Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-10-01T04_30_01_168_303715488.bin.tar.gz)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|

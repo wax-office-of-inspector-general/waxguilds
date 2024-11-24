@@ -12,9 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-We moved our producer nodes to a new datacenter to address the recent missed rounds.
-We set up a new Hyperion server (version 3.3.10) for Testnet with the full history.
-Additionally, we built a new failover server for the Atomic Assets service because the disk on the old failover server became full.
+Added new SHIP node with disk capacity: 21TB instead of the previous one which was around :16TB.
 
 
 ### <ins>API Services</ins>
@@ -22,7 +20,7 @@ Additionally, we built a new failover server for the Atomic Assets service becau
 | History (partial) | History (full) | History (testnet) (full) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [ x] | [x] | [x] | [x] | [] |  [x] |
-| - | 127k req/week | 688k req/week | 290K req/week | ~x req  |  2258 req/week |
+| - | 190k req/week | 697k req/week | 338K req/week | ~x req  |  2208 req/week |
 
 
 
@@ -34,44 +32,41 @@ Additionally, we built a new failover server for the Atomic Assets service becau
 
 [report relevant metrics and metric period...]
 
-Period:  Jul 15th 2024 - Aug 30th 2024
+Period:   Aug 30th 2024 - Oct 14th 2024
 
 Stats: 
-Atomic assets API: 1928010 requests , Status 200.
+Atomic assets API: 1835780 requests , Status 200.
 
-
-<img width="1077" alt="AA" src="https://github.com/user-attachments/assets/562add4b-c3db-43c0-8821-78d091ab9662">
-
-
-WAX API mainnet: 1161780 requests, status 200.
-
-<img width="1076" alt="wax api" src="https://github.com/user-attachments/assets/e8d1c107-9789-4b25-97ab-d15a5afa1879">
+![AA OCT](https://github.com/user-attachments/assets/09a9f797-84cf-4666-a500-ce5de588ab17)
 
 
 
-Vstate: 3896 requests, status 200.
+
+WAX API mainnet: 1088462 requests, status 200.
+
+![API WAX](https://github.com/user-attachments/assets/3e7529f5-38a2-417c-a4c1-4808d938972c)
 
 
-<img width="1073" alt="vstate" src="https://github.com/user-attachments/assets/ff37ebf3-cd88-4999-8094-cf4020d119a0">
+
+
+Vstate: 3094 requests, status 200.
+
+![vstate oct](https://github.com/user-attachments/assets/893fad15-5800-482d-aa05-f9ed90f7adae)
+
+
 
 
 
 ### <ins>Marketing</ins>
 
 Support the community with instant translation for all news and announcements.
-https://t.me/waxarabia
-https://t.me/waxarabia/2330
-https://t.me/waxarabia/2331
-https://t.me/waxarabia/2332
-
-
 
 
 
 ### <ins>Backups </ins>
 URL: (https://snapshots.eosarabia.net)
-New Block log backup added :2024-08-12T21:52:45.156
-New state-history backup added : 2024-08-12T21:52:45.156
+New Block log backup added :2024-10-05T06:18:46.042
+New state-history backup added : 2024-10-05T06:18:46.042
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|

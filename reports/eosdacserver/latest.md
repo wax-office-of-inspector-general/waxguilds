@@ -12,13 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 -  Added monitoring tools to monitor block production node and apis
+-  Upgrade to hyperion v3.5 in progress
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 33m req/month | 30k req/month | 10.94m req/month | 57k req/month |  16k req/month |
+| - | 35m req/month | 51k req/month | 10.28m req/month | 13.4k req/month |  15k req/month |
 
 
 ### <ins>Contributions</ins>
@@ -27,30 +28,25 @@
 
 **URLs**: Game site - https://play.alienworlds.io/, Github - https://github.com/Alien-Worlds
 
-**List of SCs**: alien.worlds, stkvt.worlds, index.worlds, msig.worlds, m.federation, awlndratings, s.federation, federation, token.worlds, uspts.worlds, other.worlds, boost.worlds, dao.worlds
+**List of SCs**: alien.worlds, stkvt.worlds, index.worlds, msig.worlds, m.federation, awlndratings, s.federation, federation, token.worlds, uspts.worlds, other.worlds, boost.worlds, dao.worlds, comp.worlds, lore.world, stake.worlds, arena.worlds
 
 **Update**: 
-In the latest update a new feature for staking for Tokenised Lore is introduced, where players can directly contribute and propose new lore or changes. [Read more here](https://alienworlds.io/blogs/tokenized-lore-staking-is-live-start-accumulating-vote-power-today/)
-
-In the latest update 2.12.0 we introduced a Preview mode, a feature that allows new players to immerse themselves in the metaverse without the initial setup of a WAX wallet
-Preview Mode provides a preloaded account with sufficient Trilium, NFTs, and Shards to give players a genuine feel of the game.
-Read full report [here](https://alienworlds.io/blogs/%20%20alien-worlds-2-12-0-preview-mode/)
+On September 25, Alien Worlds launched a new set of parallel DAOs and a proposal system. [Read more here](https://alienworlds.io/blogs/a-new-era-for-daos-the-launch-of-the-secure-worker-proposal-system/)
 
 **Metrics**
-
-Period: Jul 29, 2024 - Aug 29, 2024
+Period: Sep 14, 2024 - Oct 14, 2024
 Stats: 
-UAW - 503.73k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-Transactions - 146.13m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-30 days NFT trading volume - 5.02M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
-New Unique wallets onboarded - 140k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
+UAW - 542.39k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+Transactions - 169.82m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+30 days NFT trading volume - 1.86M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
+New Unique wallets onboarded - 98k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
 
 ---
 ### UAL plugin
 UAL-WAX plugin: https://www.npmjs.com/package/@eosdacio/ual-wax. 
 
 **Metrics**
-Has an avg of ~108 Weekly downloads
+Has an avg of ~247 Weekly downloads
 ---
 ### Galactic Hub
 Galactic Hubs grants offer support to community-aligned projects with a clear focus, driving advancements in specific areas
@@ -62,6 +58,7 @@ Galactic Hubs Update https://alienworlds.io/blogs/galactic-hubs-april-update/
 At Alien Worlds, open-source is a key pillar for the longevity and success of our metaverse. We’ve seen this come to life through the recently completed [Unity SDK for mobile](https://github.com/double-coconut/coconut-wax/tree/master), developed by Double Coconut, the creators of Milky Way Miner. This Unity SDK is a significant contribution to the entire WAX ecosystem, allowing any developer to provide a better user experience for mobile players by supporting in-game transactions of NFTs and fungible tokens. Open-source initiatives like this are important because they democratize access to powerful tools, fostering innovation and improvement of the Alien Worlds metaverse. 
 
 Read Official announcement [here](https://blog.doublecoconut.com/2024/03/26/wax-sdk/)
+
 [Demo](https://www.dropbox.com/scl/fi/psdh88nebqjac4lkmt7qn/CoconutWax_Sample.mp4?rlkey=f9ul1vsjyua5js5hlqma30udf&e=4&dl=0)
 ---
 ##### Lynx AI
@@ -111,14 +108,14 @@ Only guild running ORNG script on testnet, executed over 10k jobs on the testnet
 
 ---
 ### <ins>Marketing</ins>
-##### Edge of NFT Podcast: 
-[Decentralized Gaming and Metaverse Insights with Dallas Johnson](https://www.youtube.com/watch?v=_-mKkRY-3pk)
 
-##### [Alien Worlds featured on gam3s.gg WAX ecosystem update](https://gam3s.gg/news/gaming-wax-q2-report/)
-The recent report shows Alien Worlds dominating with 6 million unique active wallets this quarter, a testament to our community-driven approach
+##### CV Summit 2024
+Alien Worlds Co-Founder, Saro McKenna, participated in an exciting panel on Sports and Gaming in Web3
+[Link to the event](https://www.cvsummit.ch/events/cv-summit-2024)
 
-##### NFT Evening's roundup of Best Play to Earn Games
-Alien Worlds featured in NFT Evening's roundup of "Best Play to Earn Games": [Best Play-to-Earn Games for Crypto & NFT Rewards in 2024](https://nftevening.com/best-play-to-earn-games/)
+
+##### Alien Worlds held a spaces for the launch of new Worker Proposal Update to the DAO: Union DAOs. A total of 165 people tuned in 
+[Link to spaces](https://x.com/i/spaces/1BdGYEXwoMyGX)
 
 
 ### <ins>Backups </ins>
