@@ -274,9 +274,9 @@ Period: _Oct 15, 2024 to Nov 22, 2024_
  
 * [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 134 videos at the moment with 339 subscribers. 
 * [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 108 videos at the moment with a total of 22k views.
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 45.1K impressions and 26.2K Followers, engagement 12.2k.
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 42.5K impressions and 26.8K Followers, engagement rate 14%.
 * [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 281 monthly visitors, 339 monthly messages.  
-* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 739 views and 350+ reads during September and October.
+* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 230 views and 91 reads during November.
 
 
 ### <ins>Backups </ins>
