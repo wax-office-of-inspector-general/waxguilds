@@ -14,15 +14,13 @@
 
 ### <ins>Noteworthy</ins>
 
-Some "issues" related to the FIO Blockchain consumed a lot of my time this month. I will not go into detail here in this report, but essentially we had an unplanned case come up, that urgently required my attention.
-
-Our testnet atomic node experienced some issues this month. We resolved the issue.
+- 
 
 ### <ins>API Services</ins>
 | History (partial) | History (full) | History (testnet) | AA API     | Light-API | IPFS      |
 |-------------------|--------|-------------------|------------|-----------|-----------|
 | [ ]               | [ ] | [x]               | [x]        | [ ]       | [x]       |
-| -                 | - | not tracked       | 1.68mio req | -         | not tracked |
+| -                 | - | not tracked       | 2.01mio req | -         | not tracked |
 
 
 ### <ins>Contributions</ins>
@@ -38,9 +36,8 @@ Our testnet atomic node experienced some issues this month. We resolved the issu
 **Metrics**
 
 Period:
-- Huge Performance Improvements: This month we have developed & deployed changes for the frontend and APIs of the validationcore. Essentially calculating the statistics of a single guild or the overview of all guilds are the heaviest operations in the whole system. When we designed the queries a while back, the amount of data was a lot less. With the new queries, we ensure that the statistics are only calculated if absolutely necessary. Additionally, we have adjusted the architecture to make the all guilds query more easily cachable. When the user now loads a session (opens validationcore for the first time), the guild overview table only has to be calculated a single time, ensuring that all subsequent queries are instant. As a result our whole system as become a lot less "clogged", speeding up all queries. We will keep an eye on the current version and possibly create a replica database on a beefier server to ensure a snappy performance in the future.
-- Validations load Instantly: The biggest difference is noticeable when loading the validation of a guild (hence no statistics). These queries now load in under 1 second
-- We have gotten requests to add additional validations e.g. for IPFS. It is on our roadmap
+- Upkeep
+- Please notice that there were some networking issues with OVH from the night of the 19 - 20. November. Since our validationcore nodes are hosted at OVH, it has impacted some guild scores. Please keep this in mind to ensure a fair scoring of guilds.
 
 Stats: Not tracked, but it is safe to say the validationcore is an essential part of the OIG evaluations itself :)
 
@@ -56,9 +53,9 @@ Stats: Not tracked, but it is safe to say the validationcore is an essential par
 - Maintenance
 **Metrics**
 
-Period: 15. September 2024 - 15 October 2024
+Period: 25. October 2024 - 25 November 2024
 
-Stats: 84 unique users
+Stats: 72 unique users
 
 ---
 
@@ -70,13 +67,15 @@ Stats: 84 unique users
 
 **Update**:
 - Upkeep
+- This month we have worked quite a lot on a new documentation page, as currently oneapi.dev does not show anything. We wanted that the user can try out the api request directly in the browser. For this we have combined all the OpenApi schemas from Chain, Hyperion and Atomic. As of right now it is currently hosted on vercel, as we had some issues with the cloudflare pages. But we will point it to wax.oneapi.dev and oneapi.dev in the next days.  
+- https://oneapi-docs.vercel.app/docs
 
 **Metrics**
 
 
-Period: 15. September 2024 - 15 October 2024
+Period: 25. October 2024 - 25 November 2024
 
-Stats: 33.73k unique visitors |1.96M total requests (based on Cloudflare stats)
+Stats: 20.45k unique visitors | 2.5M total requests (based on Cloudflare stats)
 
 ---
 
@@ -103,9 +102,9 @@ Stats: Other guilds are using our exporters. We do not have exact numbers, since
 
 **Metrics**
 
-Period: 15. September 2024 - 15. October 2024
+Period: 25. October 2024 - 25. November 2024
 
-Stats: 8 subscribers. The number by itself, does not sound impressive, but keep in mind that this tool is targeted towards guild operators. Taking this into account, a decent percentage of all guilds use the bot to monitor their infrastructure.
+Stats: 14 (6 more than last time) subscribers. The number by itself, does not sound impressive, but keep in mind that this tool is targeted towards guild operators. Taking this into account, a decent percentage of all guilds use the bot to monitor their infrastructure.
 
 
 ---
@@ -125,7 +124,7 @@ URL: -
 
 ### <ins>Feedback to OIG</ins>
 
-There are a lot of calls happening recently and the timelines for the periods are sometimes tricky to find. Make a calendar we can subscribe to ✨
+!! There are a lot of calls happening recently and the timelines for the periods are sometimes tricky to find. Make a calendar we can subscribe to ✨
 
 ----
 
