@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report August 2024
+# Guild Report October 2024
 
 ### <ins>General</ins>
 |  |  |
@@ -29,16 +29,20 @@
 
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
-**Update**: No new clients this Summer - several coming up this Fall, working with The RMIT Vietnam Global Financial Markets Platform, balfourcapitalgroup.com and 2-3 more.
+**Update**: 
+* Much higher TXs as school/semesters/back to work season begins
+* New client: Still under construction "Campeonato Bursátil"
+  ![logo](https://github.com/user-attachments/assets/f62070aa-ffc8-4219-8057-3972d538f999)
+
 
 **Metrics**
 
-Period: July 16, 2024 - August 31, 2024
+Period: September 1, 2024 - October 15, 2024
 
 |  |  |
 | --- | --- |
-| Total WAX TXs | 2,734,267 |
-| New Clients | 0 |
+| Total WAX TXs | 9,087,242 |
+| New Clients | 1 |
 ---
 
 ### Product #2: Smart Asset Distribution Tool
@@ -46,24 +50,18 @@ Period: July 16, 2024 - August 31, 2024
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Allow creators to Blacklist wallet for points leaderboard in distribution tool
-  ![Droptool-1](https://github.com/user-attachments/assets/7f3dfd68-5a49-466f-9ae4-54a53fdc000a)
-  
-* Removed the NFT Backing feature
-  
-* Portugese language support added
-  ![Droptool-3](https://github.com/user-attachments/assets/fbd80d84-d9f3-46da-9f21-2f0aca128e1b)
-
+* Ability to edit existing template/schema points settings.
+  ![Droptool#1](https://github.com/user-attachments/assets/ba572b47-6da2-47aa-b89e-8834321f2f10)
 
 **Metrics**
 
-Period: July 16, 2024 - August 31, 2024
+Period: September 1, 2024 - October 15, 2024
 
 |  |  |
 | --- | --- |
-| New Projects added | 8 |
-| Total distributions | 835 |
-| Total assets distributed | 137,935 |
+| New Projects added | 2 |
+| Total distributions | 787 |
+| Total assets distributed | 2,501,577 |
 ---
 
 ### Product #3: Gift NFT
@@ -71,17 +69,19 @@ Period: July 16, 2024 - August 31, 2024
 **URLs**: https://giftnft.io/
 
 **Update** 
-*  Added multi language (Spanish and Portugese) 
-  ![Giftnft-1](https://github.com/user-attachments/assets/404470fe-d57e-4cb4-9255-6ee44a01c805)
+*  MAJOR site revamp - overall new theme, replaced old NFTs like Blockchain heroe
+![GiftNFT#1](https://github.com/user-attachments/assets/c7d93847-1d7b-439a-b491-cc2533f94b73)
+
+* Fixed a few bugs reported by Nikhil Sadalkar
 
 
 **Metrics**
 
-Period: July 16, 2024 - August 31, 2024
+Period: September 1, 2024 - October 15, 2024
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 30 |
+| Total Gifts sent | 7 |
 ---
 
 ### Product #4: Contest Giveaway Platform
@@ -89,104 +89,111 @@ Period: July 16, 2024 - August 31, 2024
 **URLs**: https://wax.contest.bountyblok.io / https://solana.contest.bountyblok.io/ 
 
 **Update** 
-* New action Join X space action, asking users to set reminder to the upcoming space
-  ![ContestTool-1](https://github.com/user-attachments/assets/fa07de19-1aa0-4272-977d-343823660624)
+* New Medium task asking users to follow the user on Medium
+  ![#1](https://github.com/user-attachments/assets/2ef0940e-fecf-463b-85ef-2fa837219b9f)
 
-* New action asking users to Add a coin to their coingecko profile
-  ![ContestTool-2](https://github.com/user-attachments/assets/2f362570-2c7a-4bb5-aac7-ae410401de67)
+* New Medium task asking users to react to a post
+  ![#2](https://github.com/user-attachments/assets/647bdc4c-1706-4b28-8d4f-64992d0ddf8f)
 
-* [MAJOR FEATURE] PrivadoID Proof of Personhood Launching in September with announcements/collabs
+* Template names are now visible on the analytics screen for Burn NFT actions
+  ![#3](https://github.com/user-attachments/assets/e302fa20-3e0f-43ed-a948-0a77f3191d72)
   
-* New Intraverse actions: 1) Create an account on intraverse, 2) Perform intraverse social quests, 3) Pick an Avatar for your intraverse competition
-  ![ContestTool-4](https://github.com/user-attachments/assets/83156b88-0c84-4f7a-90bd-426e797c6759)
+* Added a minimum required quantity field for hold NFT action. Only users who hold the minimum quantity will be able to complete the action.
+  ![#4](https://github.com/user-attachments/assets/9efac732-d420-4fd1-99d6-f256ac42b1f7)
 
-* Portugese language support added
-  ![ContestTool-5](https://github.com/user-attachments/assets/021bf82e-472c-44d8-9108-8bf0de180014)
+* Added the ability to set a minimum number of mandatory tasks that must be completed to unlock optional tasks.
+  ![#5](https://github.com/user-attachments/assets/07f25126-2686-4713-ac56-e932b518e1b1)
 
-* Creators can now draw top X wallets from leaderboard as winners
-  ![ContestTool-6](https://github.com/user-attachments/assets/0e7d1782-1d8a-4909-a9b3-b30e0c909abf)
+* Added NFTHive to the list of available marketplaces for Hold NFT actions.
+  ![#6](https://github.com/user-attachments/assets/bfe76a3b-5279-4629-b357-93cdb0e3a0ba)
+
+* Privado ID proof of human integration to contest tool to fight bots. To complete a the verification users must scan their face and verify the generated proof.
+  More details on the medium blog post and on how others can integrate this on their WAX web app
+  ![#7](https://github.com/user-attachments/assets/8b035359-6468-4141-b951-ec50f56fb87d)
 
 * Various bugs fixes
 
 **Metrics**
 
-Period: July 16, 2024 - August 31, 2024
+Period: September 1, 2024 - October 15, 2024
 
 |  |  |
 | --- | --- |
-| Total Contests | 65 |
-| Total Entries | 102,168 |
-| Total X Follows | 28,465 |
-| Total X Reposts | 5,578 |
-| Total X Likes | 4,919 |
-| Total new X Posts | 6,354 |
-| Total Discord Joins | 7,236 |
+| Total Contests | 50 |
+| Total Entries | 36,684 |
+| Total X Follows | 6,786 |
+| Total X Reposts | 1,355 |
+| Total X Likes | 1,320 |
+| Total new X Posts | 1,313 |
+| Total Discord Joins | 2,269 |
 ---
 
 ### NEW: Technical Articles 
 
 **URLs**: https://bountyblok.medium.com/
 
-1. Protecting Your WAX Blockchain RPC Endpoints from DDoS Attacks and Abuse
+1. How to Integrate Privado ID to WAX: Proof of Human Features for Web3 Apps
 
-https://bountyblok.medium.com/protecting-your-wax-blockchain-rpc-endpoints-from-ddos-attacks-and-abuse-f3ec2df643ca
-
-2. Exploring Randomization Algorithms for WAX Blockchain
-
-https://bountyblok.medium.com/exploring-randomization-algorithms-for-wax-blockchain-21d1c10d2572
-
+https://bountyblok.medium.com/how-to-integrate-privado-id-to-wax-proof-of-human-features-for-web3-apps-4777cfc8c424
 
 ---
 ### Novopangea 
-* Collab with Alien Worlds and the release of "Hand of Alta" a community driven blend: https://x.com/Novopangeaio/status/1823083572237930912?t=wdX0Q7clD06v7OxSV5w0Qg&s=19
+* Working on tower defense game on steam with novo war skin
+* Many Novo War engagement streams example: https://x.com/i/broadcasts/1PlJQbdzpbWxE
+* Obtained Official WAX Gaming spotlight: https://x.com/Novopangeaio/status/1839386365181784138
+* Finishing statues to release on Upland
+  
 ---
 
 ### Avalon
-* Nothing new - meeting end of September
+* Currently on private beta on Steam !!!
+  ![Untitled_2](https://github.com/user-attachments/assets/1c4bc690-ac3f-454d-b34a-7969c2a8dda2)
+
+* Live 2 years, check out some player's POV screenshots: https://medium.com/@DanuGames/the-art-of-avalon-a-visual-journey-through-our-alpha-players-eyes-1e5ef5d7d7f1
+
 ---
 
 ### Polygon CDK/AggLayer L2
-* Next meeting around end of October/early November
+* Ares+ release this October + upcoming meeting
+  ![image](https://github.com/user-attachments/assets/0d4f7c98-1769-4e39-929b-c6427ae1f222)
+
+---
+
+### Privado Partnership
+* Privado ID (privado.id) is super bullish on WAX and its community and are fully aware of them.
+* We recently integrated their products on sybil: https://x.com/bountyblok/status/1833188619860812226
+* We can connect anyone on WAX with the privadoid team just let us know - they're open to collab
+* Collab announcement with WAX https://x.com/PrivadoID/status/1833189703886970933
+
+ ![image](https://github.com/user-attachments/assets/9a99d2bf-56c0-4a46-82a2-c8ab8be7da46)
+
 ---
 
 ### WUFFI Contribution 
-* bountyblokbp approved for the Final WUFFI Pawtner Allocation
-* Became Mod in WUFFI Discord - helps with trust/handle support for wuffi contests
-  
-  ![image](https://github.com/user-attachments/assets/fc729ed1-ca83-41fe-8d81-d725461e7372)
+* Reported major "go back" issue affecting UX: https://drive.google.com/file/d/1KtqO_NBW5sbgGIFiQ3fDRXlbYkRdPKds/view?usp=drive_link
+* Wuffi pawntership 3/3 allocation: [https://wax.bloks.io/transaction/a1397d3a561a1c25d36c46d1a450f0da79b3e176713c7f1033580977e192a5a5](https://waxblock.io/transaction/a1397d3a561a1c25d36c46d1a450f0da79b3e176713c7f1033580977e192a5a5)
 
-* Our team did a bunch of QA on WuffiTap and found some bugs that were fixed since:
-  
-When I try to connect to OKX, the app opens but nothing happens. Scanning the QR code also opens the OKX app, prompting me to "connect wallet," but the Wuffitap app still doesn't detect the connection, so I can't claim any points. Although the OKX app shows multiple connections to Wuffitap, the issue persists.
-
-[Watch the video on Google Drive](https://drive.google.com/file/d/1R2FUjZj2k1zRsIrICQFch1gc62tq7tSB/view?usp=sharing)
-
-
-### Coingecko
-* Meeting again this Fall
+---
 
 ### intraverse.io COLLAB
-* Working with Morteza and team for contest giveaways, and the major tournament: https://x.com/intraVerse_Game/status/1825526621941445047
-* 20+ WAX projects participating
-  ![image](https://github.com/user-attachments/assets/b08c69ca-e65d-4232-9f4c-e76363da3333)
-* Major twitter space on August 20: https://x.com/i/spaces/1zqKVYvNDqmxB/peek
-  ![image](https://github.com/user-attachments/assets/1843dc0f-78c9-420c-84b7-3fb569507bb0)
-* Been working with the team for over a month in anticipation of the upcoming tournament on intraverse
-  ![image](https://github.com/user-attachments/assets/57eb2668-15c4-43a2-83d9-eaa8debba5ba)
-
+* Working on a cross chain collab with LINEA end of this month
 
 --- 
 
 ### <ins>Marketing</ins>
-Initiative A: WAX Developer Week Highlight: https://x.com/WAX_io/status/1826665703543349597
+Initiative: NFTOPIA Collab
+* Contest via BBLK: https://x.com/ConsumerBreak/status/1841211004690071794 + https://x.com/ConsumerBreak/status/1843367133532566010?t=NAvYKcZEhDL-NpTEoaxP5g&s=19
+* bountyblok banner and booth purchases for upcoming NFTOPIA November 23-24:
+  
+https://waxblock.io/transaction/8f43fdb8d68be73f7a220e6982d0b9fdd0db9f9373cfe0f2e67c3286b1c78899
+https://waxblock.io/transaction/7d47a4e38116b59a94a9a6dd8e25caf44335b0ba5a2614527b0a5dce9232d323
+https://neftyblocks.com/collection/nftopiafrens/drops/226968
+https://neftyblocks.com/collection/nftopiafrens/drops/226967
 
-Initiative B: Partnership with intraverse: https://x.com/intraVerse_Game/status/1825526621941445047 
 
-Initiative C: Boost Your Web3 Projects with @bountyblok official WAX tweet https://x.com/WAX_io/status/1816141399940579484
-
-Initiative D: Twitch Streamer https://www.twitch.tv/nftdealer1 and power user of our tools showing them on his stream quite frequently here is a clip: https://streamable.com/2649et
 
 ### <ins>Backups </ins>
 
 ### <ins>Feedback to OIG</ins>
+
 ----

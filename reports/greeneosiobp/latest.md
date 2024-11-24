@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Göteborg, Sweden |
 
 ### <ins>Noteworthy</ins>
-Fixed duplicate NFT transfer notification bugs in TG bots and added daily monitoring for uptime tracking!
+Built a standalone hyperion server to support the telegram bot and added uptime monitoring. Pushing around 5000+ notifications every day across both the bots. Updated the testnet bp.json as well to align with the latest standards.
 
 
 ### <ins>API Services</ins>
@@ -48,7 +48,7 @@ Bug fixes! We would appreciate it if we could get higher points here as we are c
 
 **Metrics**
 
-Period: May 27th, 2024 - July 13th 2024
+Period: Aug 27th, 2024 - Oct 14th 2024
 
 Stats: 
 
@@ -62,10 +62,10 @@ Latest Stats: use /adminstats command
 
 **WAX Galaxy Sales Bot Updates: (@waxgalaxybot) [telegram]**
 
-- Users Count: 851 (0.1% increase from last update) 
-- Accounts Count: 2555 (1% increase from the last update) 
+- Users Count: 852 (0.1% increase from last update) 
+- Accounts Count: 2578 (1% increase from the last update) 
 
-On average daily we send out more than 2000+ notifications to users.
+On average daily we send out more than 2300+ notifications to users.
 
 
 ---

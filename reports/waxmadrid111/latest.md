@@ -19,41 +19,34 @@ All services remain operational.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [_] | [x] | [x] | [x] | [x] | [x] 
-| - | 2.3M req/week | 30.82K req/week | 619.36K req/week | 3.2K req/week |  7.5K req/week |
-
-
+| - | 1.47M req/week | 136.98K req/week | 325.43K req/week | 3.04K req/week |  8.31K req/week |
 
 ### <ins>Contributions</ins>
 
-https://wax.eosiotracker.io
+Final release of a WAX blockchain explorer and wallet, accessible at 
 
-https://wax-testnet.eosiotracker.io
+https://wax.chainscout.io and https://wax-testnet.chainscout.io 
 
-Operational, continues providing info on WAX endPoints, checker & validator. 
-
-
-**Metrics**
-
-174 users last month with average engagement time of 43s (by google analytics).
+Offers a comprehensive suite of features for users interacting with the WAX blockchain such as :
 
 
-### <ins>Marketing</ins>
+**Explorer**
 
-None at this moment.
+Account Search, Transaction History, Resource Usage Tracking and Contract/Action Explorer and Interaction.
 
-### <ins>Backups </ins>
-
-Operational, continues providing all types of backups.
+**Wallet Features**
 
 
-https://wax-backups.eosiomadrid.io
-
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [x] | [x] |
+Token Transfers, Resource Staking/Unstaking,  RAM Buying/Selling, Account Key Management.
 
 
+**Governance**
 
-### <ins>Feedback to OIG</ins>
+Block Producer Voting
 
-None at this moment.
+
+**Other info**
+
+The platform's data exploration capabilities are powered by a dedicated, non-public Hyperion cluster, ensuring efficient and reliable access to blockchain data.
+
+This release aims to provide users with a robust and user-friendly interface for navigating and managing their activities on the WAX blockchain.

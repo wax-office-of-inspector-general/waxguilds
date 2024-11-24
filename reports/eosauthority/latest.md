@@ -10,9 +10,6 @@
 | producer (testnet) | waxauthority |
 | Guild Jurisdiction | United Kingdom (GB) |
 
-### <ins>Noteworthy</ins>
-- Upgraded telegram bot to handle transactions in an MSIG
-- Resolved issue with testnet producer to reduce CPU times.
 
 ### <ins>API Services</ins>
 
@@ -27,14 +24,6 @@ WAX Authority bot
 
 **URLs**: https://t.me/waxauthoritybot
 
-- The bot can now process and alert transactions when they are part of an MSIG. Example if a BP account is monioring.
-- There are currently over 8k accounts monitored by the bot with most alerts being sent within 0.5 seconds and 100% uptime.
-- Request OIGs to please reinstate points for this actively used project to support infrastructure for redundancy, ongoing support & maintenance.
+- Fix ocassional msig issue with delay in hyperion or history for alerts. Other alerts have no issues and just made another update to msigs alone since msig alerts are not auth by the account
 
-
-ChatGPT assistant - WAX Blockchain assistant by EOS Authority
-
-**URLs**: https://chat.openai.com/g/g-lDdr7dzKK-wax-blockchain-assistant-by-eos-authority https://eosauthority.com/blog/WAX_Blockchain_Assistant_by_EOS_Authority
-
-Updated to add more information on OIGs and relevant WAX info
 
