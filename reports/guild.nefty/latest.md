@@ -173,7 +173,8 @@ Period: _Oct 15, 2024 to Nov 22, 2024_
 
 **Update**:
 
-* No updates to report.
+* Launched tokens: BLUEWHALE, REDORDEAD, WOMBEE
+* Fixed and issue with token farms that prevented some tokens to be displayed
 
 
 **Metrics**  
