@@ -12,21 +12,26 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>October 2024 Update</ins>
+### <ins>November 2024 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
-Since our last update we have introduced Hyperion full snapshots to support synchronisation and backup needs, as well as a Validator Checker Utility to assist in tracking key OIG portals for downtime or disruptions. Additionally, we have addressed recent challenges in block production to maintain the stability and integrity of our services.
+Since our last update we have made progress on two key initiatives: the deployment of a new IPFS hosting solution with advanced monitoring capabilities and the development of an automated Hyperion deployment framework to streamline scalability and flexibility. Both offerings are designed to enhance operational efficiency and support the broader WAX community.
 
-During the evaluation period, 81 blocks were missed, which impacted our recent technical evaluation score. After investigating the issue, it was identified and promptly rectified to ensure it does not recur. We remain committed to maintaining high standards of service and will continue to monitor our infrastructure closely to avoid further disruptions.
+During the evaluation period, blocks were missed, which has again impacted our technical evaluation score. We know the cause, and we are confident that it will not be recurring issue. We remain committed to maintaining high standards of service and will continue to monitor our infrastructure closely to avoid further disruptions.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 3610553 | 269885 | 387068 | 48094 |  46993 |
+| - | 3338101 | 345127 | 365477 | 47937 |  47493 |
 
+
+### <ins>New Service Offering: IPFS Deployment Offering</ins>
+Since the last update, we have developed and deployed a new IPFS hosting solution with enhanced features. This deployment integrates Prometheus and Grafana for advanced monitoring and performance tracking, including pre-configured dashboards for seamless adoption. The solution is designed to simplify the management and scalability of IPFS services while maintaining flexibility through Docker Compose-based deployment.
+
+For full details and setup instructions, please refer to our repository: [IPFS Deployment Repository.](https://github.com/oneinacillian/ipfs-deploy)
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
@@ -50,12 +55,17 @@ We intend to share this utility with other guilds imminently, as we believe it w
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-We have made several improvements to our Docker project, including:
+We have further enhanced our Hyperion auto-build framework, introducing customisation options and optimisations to improve deployment flexibility and scalability.
 
- * Control Hyperion versions as a variable to allow seamless testing and switching between different versions.
- * Control Elasticsearch memory parameters through variable settings for optimal performance.
- * Test and validate the latest Hyperion release (3.3.10-1) within the stack, confirmed by successful indexer jobs and API health checks.
- * Customise nodeos deployments with dynamic modifications to adapt to different startup environments, ensuring greater flexibility in version control. 
+One of the key advancements is the ability for users to specify the number of Elasticsearch nodes they wish to include in their deployment. Based on a simple configuration variable, a custom Docker Compose YAML file is automatically generated to scaffold the desired setup, while the default Hyperion compose remains available for use:
+
+  * For example, setting MOUNT_OF_NODE_INSTANCES=2 will scaffold a two-node Elasticsearch cluster, while MOUNT_OF_NODE_INSTANCES=3 will scaffold a three-node cluster, and so on.
+    
+In addition, we have made modifications to the RabbitMQ deployment, enabling custom adjustments to the environment to meet varied operational requirements. These enhancements align with Hyperion's most suitable components and deployment needs, further optimising its overall performance.
+
+These updates have been tested successfully, with ongoing refinements being made to ensure a robust and efficient deployment process. We believe these enhancements represent an important step forward in simplifying and scaling Hyperion deployments.
+
+For further details, please visit the repository here: [Docker Compose Autobuilds.](https://github.com/oneinacillian/docker_compose_autobuilds)
 
 ---
 
