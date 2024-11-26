@@ -11,8 +11,7 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We faced issues with our full history Hyperion, causing us to resync. During the downtime we setup a partial hyperion as a backup. We released a major update to our strategist yesterday implementing many of the user suggestions and feedback to make the tool more useful and beginner friendly. 
-Finished setting up state history and blocks log snapshots.
+We faced issues with our full history Hyperion, causing us to have to switch to partial hyperion while we work on fixing missing transactions. We developed multiple new products during this period, such as Qaraqol Metrics. We also developed and open sourced two different tools related to Hyperion.
 
 ### <ins>API Services</ins>
 
@@ -24,6 +23,23 @@ Finished setting up state history and blocks log snapshots.
 
 ### <ins>Contributions</ins>
 
+Hyperion Tools:
+
+**URLs**: 
+https://github.com/qaraqol/hyperion-repair-helper
+https://github.com/qaraqol/hyperion-actions-metrics
+
+**Update**: We developed and open sourced two tools regarding hyperion. First is the Hyperion Actions tool, allowing anyone to track and compare the daily number of actions processed by Hyperion nodes on the WAX blockchain. 
+
+The second tool is the Hyperion repair helper, designed to reindex blocks that are either missing entirely or simply missing transactions over and over again automatically in small batches, reducing the load on the server and making the default repair script easier to use.
+
+Qaraqol Metrics:
+
+**URLs**:
+https://metrics.qaraqol.com/
+**List of SCs**:  N/A
+
+**Update**: During the past evaluation period, we developed a tool to track and visualize historical data regarding resource cost and the correlation with transaction per seconds. Short term plan is to track different types of data on WAX, and develop an API for developers to be able to get the WAX Staked: x Resource Ratio. 
 
 Qaraqol Academy
 
@@ -33,8 +49,7 @@ New: https://blog.qaraqol.com/
 **List of SCs**: N/A  
 
 **Update**: 
-We continued working on creating new content for the Qaraqol website, while transferring over some articles previously published if still relevant and updating them. Started recording video content to be edited and released in the next few weeks. 
-
+No update
 
 **Metrics**
 160,910 total reads across all articles (Period: 2021-2024)
@@ -55,11 +70,11 @@ Qaraqol Tool Strategist (Alien Worlds)
 URLs: https://strategist.qaraqol.com/
 
 
-Update: Developed new feature to allow for users to change the NFT point exchange rate from $0-100 as requested by users instead of a default hardcoded rate. We also added multiple new filters/sliders on the Customize Build and All Builds page such as CPU in ms per day and TLM per day. Also added tooltips explaining what certain sliders mean to make the tool more beginner friendly and bring new users in to WAX and Alien Worlds.
+Update: No update except working on advertising the tool more during this period. Planning on integrating CPU ratio API when finished
 
 Metrics
 
-78 users 8/01-8/31
+108 users during month of September
 
 ---
 
@@ -67,7 +82,7 @@ Metrics
 ...
 
 ---
-### <ins>Backups </ins>
+### <ins>Backups </ins> 
 URL: (https://snapshots.qaraqol.com/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
