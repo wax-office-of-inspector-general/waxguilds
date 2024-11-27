@@ -190,18 +190,9 @@ Weekly live streams on my [YouTube Channel](https://www.youtube.com/@MikeDCrypto
 
 ### DefiLlama Initiative
 
-I've taken it upon myself to get WAX more exposure on DefiLlama, the main site that everyone in crypto uses to discover new projects.
-
-- Fixed the adapter that all WAX/EOS projects use to calculate TVL (it used to not count WAX that was in the "refunding" stage, now it does)
-- Fixed Alcor's TVL calculation (counts LSW now, counts more tokens than before)
-- Fixed AtomicHub's TVL calculation (it used to not count AtomicAssets contract)
-- Added NeftyBlocks
-- Added AlienWorlds
-- Added Taco
-- Added WaxFusion and WaxDAO (not sure if relevant here since I mentioned it above)
-- More projects will be added soon
-
-This initiative has boosted WAX over 20 ranks so far in the overall chains list. Which may not seem important depending on your opinion. But we've seen new users showing up from DefiLlama, new people writing threads on Twitter about why WAX is the best chain ever. New people engaging with other projects after finding WaxFusion etc, so it is working.
+- [Added NFT Hive](https://defillama.com/protocol/nft-hive) to the list of WAX projects
+- Due to getting LSWAX listed on CoinGecko, I was able to add LSWAX TVL for Alcor, Taco and Nefty. This boosted the overall TVL of WAX Blockchain by roughly $100k, and moved us up to rank 153.
+- In talks with DefiLlama devs about providing them an API (possibly Alcor's, or a custom one) so that we can count the TVL of WAX tokens that aren't listed on CoinGecko. The difficulty of WAX projects getting listed on CoinGecko is currently resulting in a lot of TVL missing from DefiLlama metrics, since they only count TVL of tokens that they can fetch prices for from CoinGecko's API. If we can work with them on an alternative solution, many WAX tokens could be added to the DefiLlama adapters, which could significantly boost TVL and exposure.
 
 
 ### <ins>Backups </ins>
