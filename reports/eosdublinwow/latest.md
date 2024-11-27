@@ -11,7 +11,10 @@
 | Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-This cycle we mainly focused on stabilising the Hyperion service, as we've seen a greater number of requests lately, causing some continuous failures due to volume. We are also actively working on a couple of new applications that could bring new activity to the chain. 
+This cycle we upgraded all our infra:
+ - all the services now use wax-leap version v5.0.3wax01, both on main and testnet;
+ - hyperion is now running the latest version (3.3.10), both on mainnet and testnet;
+Also improved monitoring and uptime
 
 ### <ins>API Services</ins>
 
