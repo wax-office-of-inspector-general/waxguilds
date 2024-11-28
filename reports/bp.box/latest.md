@@ -23,7 +23,7 @@ Technical Update:
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]    | [x]    | [x]    | [x]    |  []    | []     |  
-|29.87 k req/week |28.74 k req/week |30.11 k req/week | 3.03M req/week |  |   |
+|30.17 k req/week |29.22 k req/week |29.85 k req/week | 2.98M req/week |  |   |
 
 
 Others APIs: Roborovski, dfuse, ...
@@ -34,7 +34,8 @@ Others APIs: Roborovski, dfuse, ...
 
 
 ### Defibox WAX Swap
-<img width="813" alt="image" src="https://github.com/user-attachments/assets/a166203b-307d-41f3-b01f-8a495aed3701">
+<img width="1092" alt="image" src="https://github.com/user-attachments/assets/ee876309-886d-4ef4-8d54-92d7cc44d5c4">
+
 
 **URLs**: https://wax.defibox.io/
 
@@ -45,7 +46,7 @@ Others APIs: Roborovski, dfuse, ...
 
 
 ### Exploration on WAX version RAM
-<img width="1043" alt="image" src="https://github.com/user-attachments/assets/2598477b-007d-473c-9b09-51dd20c5b451">
+<img width="1437" alt="image" src="https://github.com/user-attachments/assets/ecc25734-2477-473e-8448-0338f473fe0a">
 
 
 **URLs**: https://defibox.io/ram
@@ -53,7 +54,12 @@ Others APIs: Roborovski, dfuse, ...
 **List of SCs**: ram.defi
 
 **Update**: 
+We heard from WAX OIG that WAX RAM inflation has been stopped for a while and experienced some price pump recently. We think Defibox RAM trading platform will contribute a lot to WAX system. We are already evaluating it whether it worth it or not. We haven't found any WAX RAM trading tools except "EOS authority", and it is very rough. Defibox can provide a professional RAM trading tools.
 The RAM wave on EOS has been continuing for a while. On EOS, we have BRAM, WRAM, RAMS, RAMX, etc. all based on RAM. Among them, the most popular RAM tokenization is "BRAM". And Defibox RAM trading platform is the most visited website for RAM traders. Both are very good products from Defibox. We recently noticed in the WAX governance group talking about WAX version RAM. Our group internally evaluate our RAM product and see the possibility of bringing it to the WAX if the WAX ecosystem have some RAM fever in the future, Defibox could be a good RAM builders also on WAX.
+<img width="1040" alt="image" src="https://github.com/user-attachments/assets/6ae933cc-e59e-4e9b-8d7e-7089f0302ce7">
+
+
+
 
 
 [[If needed, reference to a previous report](Not available)]
@@ -68,14 +74,15 @@ The RAM wave on EOS has been continuing for a while. On EOS, we have BRAM, WRAM,
 [report relevant metrics and metric period...]
 
 
-Period: September 2024
+Period: Nov 2024
 
 
 Stats: UAW, TVL, on-chain events, engagement time, user retention, onboarded users
-Average daily users: 45
-Average daily volume: 3,500 USD
+Average daily users: 60
+Average daily volume: 3,800 USD
 ---
-<img width="770" alt="image" src="https://github.com/user-attachments/assets/72e6addf-d4f3-4635-aab8-f15be3f0e650">
+<img width="1110" alt="image" src="https://github.com/user-attachments/assets/b227d3ee-9bf9-4402-b1ed-babb80ba156c">
+
 
 
 
