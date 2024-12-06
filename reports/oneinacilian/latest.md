@@ -28,10 +28,16 @@ During the evaluation period, blocks were missed, which has again impacted our t
 | - | 3338101 | 345127 | 365477 | 47937 |  47493 |
 
 
-### <ins>New Service Offering: IPFS Deployment Offering</ins>
+### <ins> IPFS Deployment Offering</ins>
 Since the last update, we have developed and deployed a new IPFS hosting solution with enhanced features. This deployment integrates Prometheus and Grafana for advanced monitoring and performance tracking, including pre-configured dashboards for seamless adoption. The solution is designed to simplify the management and scalability of IPFS services while maintaining flexibility through Docker Compose-based deployment.
 
-For full details and setup instructions, please refer to our repository: [IPFS Deployment Repository.](https://github.com/oneinacillian/ipfs-deploy)
+Update on IPFS Deploy
+We are pleased to announce enhancements to our IPFS Deploy offering, with the addition of image and video resizing capabilities. These new features have been seamlessly integrated into the original codebase, allowing users to efficiently resize images and videos directly within the deployment environment.
+
+This functionality enhances the versatility of our IPFS services, catering to a broader range of use cases, particularly for applications requiring optimised multimedia handling.
+
+As always, the updated codebase is available for review, and we welcome feedback from the community to further improve this offering.
+We have now switched our own IPFS deployment to https://github.com/oneinacillian/ipfs-deploy and successfully test the resizing of content through our IPFS hosted gateway on WAX: https://ipfs-gateway.oiac.io and will continue to monitor the stability
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
