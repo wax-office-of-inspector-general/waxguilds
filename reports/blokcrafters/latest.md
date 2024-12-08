@@ -35,7 +35,7 @@ Others APIs: none at the moment
 
 **Update**
 
-Added a new category "Meme Coin" majority of the WAX community participates within Meme Coin communities.
+Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. This is a nice addition to resources on Waxdapps. 
 
 *Added Listings*
 
