@@ -35,9 +35,17 @@ Others APIs: none at the moment
 
 **Update**
 
-Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. This is a nice addition to resources on Waxdapps. 
+Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. Added 8 meme coins listing and moved Wuffi into the category. 
 
 *Added Listings*
+- (Meme Coin) RedOrDeadCoin, $RODC
+- (Meme Coin) The Rising Tide of Potential, $BLUWHL
+- (Meme Coin) The Buzzing Force of Innovation, $WOMBEE
+- (Meme Coin) FED - cut rates NOW, $FED
+- (Meme Coin) The Real Juan, $RJUAN
+- (Meme Coin) $ANON
+- (Meme Coin) $WIENR
+- (Meme Coin) THE $AIGOD TOKEN
 
 
 **Metrics**
