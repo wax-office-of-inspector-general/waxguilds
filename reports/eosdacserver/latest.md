@@ -11,15 +11,14 @@
 | Guild Jurisdiction |  Switzerland (CH) |
 
 ### <ins>Noteworthy</ins>
--  Added monitoring tools to monitor block production node and apis
--  Upgrade to hyperion v3.5 in progress
+- 
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 35m req/month | 51k req/month | 10.28m req/month | 13.4k req/month |  15k req/month |
+| - | 37m req/month | 30k req/month | 11.3m req/month | 57k req/month |  16k req/month |
 
 
 ### <ins>Contributions</ins>
@@ -34,12 +33,13 @@
 On September 25, Alien Worlds launched a new set of parallel DAOs and a proposal system. [Read more here](https://alienworlds.io/blogs/a-new-era-for-daos-the-launch-of-the-secure-worker-proposal-system/)
 
 **Metrics**
-Period: Sep 14, 2024 - Oct 14, 2024
+Period: Nov 10, 2024 - Dec 09, 2024
 Stats: 
-UAW - 542.39k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-Transactions - 169.82m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
-30 days NFT trading volume - 1.86M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
-New Unique wallets onboarded - 98k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
+UAW - 728.69k. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+Transactions - 157.82m. Source: [Dappradar](https://dappradar.com/dapp/alien-worlds/?range-ds=30d)
+30 days NFT trading volume - 2.4M WAX. Source: [Atomic Hub](https://atomichub.io/explorer/collection/wax-mainnet/alien.worlds)
+New Unique wallets onboarded - 88k. Source : [EOSUSA WAX STATS](https://wax.stats.eosusa.news/d/IDpsWwxGz/alienworlds-active-miners?orgId=1&from=now-30d&to=now&refresh=1m&fullscreen&panelId=28)
+
 
 ---
 ### UAL plugin
@@ -54,33 +54,32 @@ Galactic Hubs Update https://alienworlds.io/blogs/galactic-hubs-april-update/
 
 #### Released products
 ---
-##### Unity SDK for Mobile
-At Alien Worlds, open-source is a key pillar for the longevity and success of our metaverse. We’ve seen this come to life through the recently completed [Unity SDK for mobile](https://github.com/double-coconut/coconut-wax/tree/master), developed by Double Coconut, the creators of Milky Way Miner. This Unity SDK is a significant contribution to the entire WAX ecosystem, allowing any developer to provide a better user experience for mobile players by supporting in-game transactions of NFTs and fungible tokens. Open-source initiatives like this are important because they democratize access to powerful tools, fostering innovation and improvement of the Alien Worlds metaverse. 
-
-Read Official announcement [here](https://blog.doublecoconut.com/2024/03/26/wax-sdk/)
-
-[Demo](https://www.dropbox.com/scl/fi/psdh88nebqjac4lkmt7qn/CoconutWax_Sample.mp4?rlkey=f9ul1vsjyua5js5hlqma30udf&e=4&dl=0)
----
-##### Lynx AI
-In the expansive Alien Worlds metaverse, the integration of innovative technologies continues to transform player interaction and content creation. The latest tool making waves is the Lynx AI, now available in the official Alien Worlds Discord and over 30 community discords. [Read more here](https://alienworlds.io/blogs/creating-lore-in-alien-worlds-with-lynx-the-new-AI/)
-
-
-##### Starblind Zero "Comic for Alien Worlds"
-The eight page Web3 comic goes beyond traditional digital comics by incorporating LightningWorks technologies, setting a new standard for the future of comics.[Read more](https://blog.lightningworks.io/2024/01/15/starblind-zero-comic-for-alien-worlds/)
-
----
-##### Msig Chat
-Msig.chat is an innovative chat and DAO management web application, specifically designed for communities on the WAX blockchain, particularly those within Alien Worlds, read more [here](https://medium.com/@vladislavhramtsov/introducing-msig-chat-the-on-chain-chat-and-dao-management-app-a687fe08ad05)
-
----
-
-#### Upcoming Releases
 
 ##### Milkyway  Miner
 Milky Way Miner, created by experienced gaming studio Double Coconut. Already a popular web2 game, and available in web3 form as a sideloaded APK, the fully revamped version will soon be available in app stores. Read more [here](https://alienworlds.io/blogs/mining-masterclass-game-developer-david-fox-on-bringing-milky-way-miner-to-alien-worlds/)
 
 ![Milkyway Miner](https://alienworlds-media-bucket.s3.eu-central-1.amazonaws.com/doublecoconut2_f03179a5bb.png)
 [Video](https://www.youtube.com/shorts/6ShSCMRY8fk) 
+[Download on Android](https://play.google.com/store/apps/details?id=com.rogue.mwm) [Download on iOS](https://apps.apple.com/us/app/milky-way-miner-alien-worlds/id6651823428)
+##### Unity SDK for Mobile
+At Alien Worlds, open-source is a key pillar for the longevity and success of our metaverse. We’ve seen this come to life through the recently completed [Unity SDK for mobile](https://github.com/double-coconut/coconut-wax/tree/master), developed by Double Coconut, the creators of Milky Way Miner. This Unity SDK is a significant contribution to the entire WAX ecosystem, allowing any developer to provide a better user experience for mobile players by supporting in-game transactions of NFTs and fungible tokens. Open-source initiatives like this are important because they democratize access to powerful tools, fostering innovation and improvement of the Alien Worlds metaverse. 
+
+Read Official announcement [here](https://blog.doublecoconut.com/2024/03/26/wax-sdk/)
+
+[Demo](https://www.dropbox.com/scl/fi/psdh88nebqjac4lkmt7qn/CoconutWax_Sample.mp4?rlkey=f9ul1vsjyua5js5hlqma30udf&e=4&dl=0)
+
+---
+##### Brigade Joins Forces with Alien Worlds Community in New Cross-Chain Gaming Even
+GalacticHubs and Brigade are teaming up to connect gaming communities on WAX and Taiko, bringing a new cross-chain experience to life
+[Read more](https://medium.com/@taco.wax/alien-worlds-brigade-taiko-b437b288822d)
+
+---
+
+#### Upcoming Releases
+
+##### Machiavellic Brings Galactic Racing to the Alien Worlds Community
+![Galactic Racing](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*p9TsoC4H2LCxjlGEMEacXw.png)
+[Read more](https://medium.com/@machiavellic_io/machiavellic-brings-galactic-racing-to-the-alien-worlds-community-207ca35dc289)
 
 ---
 
@@ -108,6 +107,9 @@ Only guild running ORNG script on testnet, executed over 10k jobs on the testnet
 
 ---
 ### <ins>Marketing</ins>
+
+##### [Alien Worlds Novemeber Marketing report](https://docs.google.com/presentation/d/1wILW7tmlrBXiXpIunuhoc7LJjUWLOH4FhwSvaSORBpA/edit?usp=sharing)
+---
 
 ##### CV Summit 2024
 Alien Worlds Co-Founder, Saro McKenna, participated in an exciting panel on Sports and Gaming in Web3
