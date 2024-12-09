@@ -10,30 +10,41 @@
 | producer (testnet) | wax.eastern |
 | Guild Jurisdiction | China |
 
+### <ins>Noteworthy</ins>
+To handle Hetzner downtimes, many services had to be moved and adjusted, which caused issues with history, the producer module, and API nodes, all of which required reconfiguration.
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |Chain API |
 |--------|--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [] | [] |  [x] |
-| 397k req/week | - | 203k req/week|145k req/week |- | - | 106m req/week |
+| 407k req/week | - | 287k req/week|163k req/week |- | - | 125m req/week |
 
-#### 1. Resource Integration and Content Column for the Crypto Community
-This month, WAX Eastern focused on integrating and regularly publishing the latest WAX resources for crypto users. We created a dedicated column on Notion, where we frequently update important content related to the WAX ecosystem, covering topics from on-chain games to the latest NFT projects and ways to earn through WAX. This column has become a valuable tool for crypto players to quickly stay informed on WAX's latest developments. The column can be accessed here: [https://www.notion.so/waxeastern/WAX-Eastern-f5f8d1a4a8a54d77b18ba240691fd7a0](https://www.notion.so/waxeastern/WAX-Eastern-f5f8d1a4a8a54d77b18ba240691fd7a0).
+This month, WAX Eastern made significant progress in driving the development of the WAX ecosystem. Key efforts include:  
 
-#### 2. Educational Outreach and Marketing to the General Public
-We now have over 35,000 followers across various platforms, and our follower base continues to grow. To introduce WAX blockchain to non-crypto users, we’ve employed soft marketing strategies to educate them about the basics of blockchain, how WAX on-chain games work, and how users can earn through WAX. This approach has not only increased WAX’s exposure but also successfully sparked interest in WAX from a wider audience.
+**Updating and Promoting the WAX Column**  
+   Regular updates to the [WAX knowledge base](https://www.notion.so/waxeastern/WAX-Eastern-f5f8d1a4a8a54d77b18ba240691fd7a0) have been made, covering wax blockchain fundamentals, gameplay guides, and earnings strategies. Promotion efforts on social media have successfully attracted new users to explore the WAX blockchain.  
 
-#### 3. WAX Official Progress and Project Updates
-To maintain player interest and engagement within the WAX ecosystem, we regularly synchronize the latest official WAX articles, ensuring that players stay informed about WAX’s development. Additionally, we also promote new projects launched on WAX, encouraging more players to get involved. These efforts have continuously expanded WAX's influence among players.
+**Translating and Sharing WAX Official Updates**  
+   Official articles and project updates have been translated into Chinese and shared within the community, strengthening ties between WAX and its Chinese-speaking users.  
 
-#### 4. Promoting the CDAO Project to Enhance Ecosystem Circulation
-Through the promotion of the CDAO(community dao) project, we aim to generate interest in various games on the WAX blockchain, preventing users from being confined to a single game. The cross-game nature of the CDAO project allows players to explore a wider variety of games on WAX and improve their overall experience through game interaction. This initiative has effectively facilitated the circulation of assets within the WAX ecosystem, driving more on-chain asset flow and enhancing the overall ecosystem’s activity.
+**Promoting Games and NFT Projects**  
+   High-quality games and NFT projects, such as Alien Worlds, have been actively promoted through community events, increasing engagement and user participation.  
 
-### <ins>Community Management</ins>
+**Community Interaction and Education**  
+   By hosting discussions, Q&A sessions, and educational activities, WAX Eastern has enhanced users' understanding of the ecosystem.  
 
-The Vietnamese Alien Worlds community has grown to around 807 members as of October 13, 2024, with efforts to expand further. The community is managed through a dedicated Telegram group: Alien Worlds Vietnam Official.
+**Looking Ahead**
 
-A Notion-based Vietnamese Information Column was established, offering resources such as articles, tutorials, and guides for the Alien Worlds ecosystem. This is expected to grow, with future updates including videos, news, and events. Notion link: [Alien Worlds Vietnam ](https://bit.ly/AlienWorldsVN)
+   Plans include collaborating with game and NFT creators, expanding advanced content topics, and launching community incentive programs to further grow and strengthen the WAX ecosystem.
+
+**Community Management**
+
+The [Vietnamese Alien Worlds community](https://t.me/alienworldsvietnamofficial) has grown to 1,486 members as of Dec 8, 2024,  reflecting a 15.78% increase from the previous count. Interaction levels, including messages, replies, and media shares, have also increased compared to the previous reporting period, indicating higher overall engagement within the community. 
+
+During this period, we translated and shared a total of 40 updates on the latest developments of Alien Worlds. For detailed content, please refer to the [link](https://docs.google.com/document/d/1-uSqz4xsE2LV7WQqDxIE5GkAxjHPcbgLLDzZqKvnmCg/edit?tab=t.0.) .
+
+The Notion-based Vietnamese Information Column is being consistently updated to provide resources for the Alien Worlds community. Check it out here: [Alien Worlds Vietnam](https://bit.ly/AlienWorldsVN).
 
 ### <ins>Backups </ins>
 
@@ -43,4 +54,4 @@ A Notion-based Vietnamese Information Column was established, offering resources
 
 
 ### <ins>Feedback to OIG</ins>
-Appreciate your continous support and look forward to your feedback.
+Thank you for your ongoing support. We value your insights and look forward to receiving your feedback.
