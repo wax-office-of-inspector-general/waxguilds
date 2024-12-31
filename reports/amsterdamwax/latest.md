@@ -80,7 +80,8 @@ None in the reporting period.
 
 A typical use case for Memento is tracking incoming and outgoing payments for a specific account, and checking their reversibility. The database may contain traces for all contracts on the blockchain, or it may be limited to a specific subset of accounts. dApps can set up their own instances, while public infrastructure providers may offer the service to a wider audience.
 
-**Update**: None in the reporting period
+**Update**: 
+Memento API release 2.1 is available now. It fixes bugs in websocket streams.
 
 ---
 
@@ -101,7 +102,7 @@ A typical use case for Memento is tracking incoming and outgoing payments for a 
 **Description**: Continuous support of WAX Leap.
 
 **Update**: 
-Following the latest WAX Leap 5.0.1 release, we have been working on the 5.0.2 release. We are tackling some issues here - [AntelopeIO/leap#2384](https://github.com/AntelopeIO/leap/issues/2384). Additionally, we reported [one more problem](https://github.com/AntelopeIO/leap/issues/2393).
+None in the reporting period.
 
 ---
 
