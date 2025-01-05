@@ -12,7 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-In order to improve the availability of our Hyperion query service, we have added a node to the Elasticsearch data cluster. Due to the large size of the current Mainnet database, nodes require time to synchronize replicas between them. Due to the overhead of shard rebalancing, Guilds monitors are intermittently showing timeout issues when accessing our Elasticsearch API. We hope that in the next few days all nodes in the cluster will have stabilized and these access issues will be resolved.
+We detected some missing transactions in several blocks indexed in Hyperion, so we performed maintenance and recovery tasks on December 14. The affected blocks were successfully restored.
 
 **Testnet**
 
@@ -24,7 +24,7 @@ In Testnet we have upgraded our Hyperion service to version 3.5 so that it can j
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API | IPFS        |
 | ----------------- | -------------- | ----------------- | -------------- | --------- | ----------- |
 | []                | [X]            | [x]               | [x]            | []        | [X]         |
-| -                 | 2.66M req/week | 225K req/week     | 1.00M req/week |           | 2.02K req/week |
+| -                 | 5.07M req/week | 246K req/week     | 593K req/week  |           | 934 req/week |
 
 ### <ins>Contributions</ins>
 
@@ -47,29 +47,43 @@ Dapprada Article “10 Dapps on WAX Every Community Member Should Try”
 
 **WUFTOPIA**
 
-Rada Quest participated in WUFTOPIA as a partner of WUFFI. More information and stats will be included in the next report.
+Rada Quest joined WUFTOPIA as a partner of WUFFI. The event drew over 800 attendees and approximately 900 unique viewers on Twitch during the live broadcast.
 
-- https://x.com/thenftopia/status/1859023280960577725
+- https://x.com/RadaQuestTCG/status/1860731486518771873
+- https://x.com/thenftopia/status/1860732324234588565
+- https://x.com/BlackFang_ART/status/1860734991740588427
 
-**Intraverse Uptober**
+**WAX Holiday Calendar**
 
-- https://x.com/RadaQuestTCG/status/1849852924253569125
+For the third consecutive year, Rada Quest participated in the WAX Holiday Calendar, collaborating with other incredible projects within the ecosystem.
+- https://x.com/RadaQuestTCG/status/1863588933226869074
+- https://x.com/maxytv/status/1867027383603138875
 
-**WUFFI Partnership**
+**Coliseum Campaign 16th**
 
-Our partnership with WUFFI remains strong as we continue to distribute WUF tokens through our game. The community has embraced this partnership with enthusiasm, leading to high participation across all related activities.
+A special holiday edition of the Coliseum campaign featured exceptional prizes, offering a festive experience for the community.
 
-**More Metrics**
+- https://x.com/RadaQuestTCG/status/1863936222412059111
+- https://x.com/RadaQuestTCG/status/1869026262116934104
 
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/11/radastats_01.png)
+**Internal Metrics**
 
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/11/radastats_02.png)
+November 24 2024 to January 3 2025
+![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2025/01/radastats_01.png)
+
+![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2025/01/radastats_02.png)
 
 X (Twitter) metrics:
 
-![Twitter](https://3dkrender.com/wp-content/uploads/2024/11/radaquest_stats.png)
+November 24 2024 to January 3 2025
+- 6.9K impressions and 6250 Followers. 
+
 
 > *Note*: We do not include DappRadar metrics from now on as they are in the public domain.
+
+**Development upadte**
+
+We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
 ---
 ### Pug Tapper (Telegram Game)
@@ -78,13 +92,10 @@ X (Twitter) metrics:
 
 Collaborations were carried out to promote visibility for various projects in the WAX ecosystem, while maintaining our mission to expand the reach of our game to new users.
 
-CryptoRabbitClub Collaboration
-- https://x.com/PugTapper/status/1859980729469292971
+Ai Geometrics Collaboration
+- https://x.com/PugTapper/status/1869421450765180967
 
-WUTOPIA Collaboration
-- https://x.com/PugTapper/status/1859286850998878457
-
-**Twitter**: 750+ followers (https://x.com/PugTapper)
+**Twitter**: 617 followers (https://x.com/PugTapper)
 
 ### Client/Server WAX App Template
 
@@ -129,83 +140,59 @@ We have improved the formatting of the original documents of the tutorial "How t
 ### Cristalla
 
 **Marketing & Ecosystem Growth Summary**
-October 12 2024 to November 23 2024
 
-- Twitter: 9.3K impressions and 15255 Followers, New Follows 348, Media Activity 529
--	X Space:  7 spaces as co-host, 2 space as guest. Total 9 spaces and approximate sum of reproductions so far + Tuned in: 1241
--	Twitch & X (Multistream): Approximate sum of reproductions so far + Tuned in: 248
+November 24 2024 to January 3 2025
+- Twitter: 5.1K impressions and 15389 Followers, New Follows 134, Media Activity 507
+- X Space: 3 spaces as co-host, 1 space as guest. Total 4 spaces and approximate sum of reproductions so far + Tuned in: 442
+- Twitch & X (Multistream). Approximate sum of reproductions so far + Tuned in: 346
 
 **Activity breakdown**
 
-![Cristalla Metrics](https://3dkrender.com/wp-content/uploads/2024/11/cristalla_stats.png)
+Cristalla continued to host weekly X Spaces to spotlight projects and engage with the community. Weekly streams provided updates and new content, helping to inform the current audience and attract new users.
 
-As part of the staff, Cristalla contributed to the organization and planning of WUFTOPIA, a NFTopia event celebrating WUFFI and its partners. She continued to host weekly X Spaces and live streams. Additionally, she is developing a series of articles aimed at simplifying onboarding processes for content creators and exploring gamification opportunities within the WAX ecosystem.
-
-**Lives and X Spaces**
+**Lives**
 
 Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
-- https://x.com/queencristalla/status/1851296511642255396
-- https://x.com/queencristalla/status/1853842072471527752
-- https://x.com/queencristalla/status/1856374848693399899
+- https://x.com/queencristalla/status/1863979771777941736
+- https://x.com/queencristalla/status/1869776283522978132
+
+**DAO Lab**
+
+Cristalla received recognition on DAO Lab’s X account for her content creation, representing the WAX Hub and showcasing her contributions to the ecosystem.
+
+- https://x.com/TheDAOLabs/status/1874556921941790830
+
+**X SPACES**
 
 NFTOPIA Wednesday co-host 
 
-Week 30 10-16-2024 Reproductions so far + Tuned in 121
-- https://x.com/thenftopia/status/1831391723697659959
+Week 35 11-11-2024 Reproductions so far + Tuned in 56
+- https://x.com/thenftopia/status/1866920905219145806
 
-Week 31 10-23-2024 Reproductions so far + Tuned in 111
-- https://x.com/i/spaces/1BRJjwVXmeexw/peek
+Week 36 11-17-2024 Reproductions so far + Tuned in 98
+- https://x.com/thenftopia/status/1869084496609382843
 
-Week 32 10-30-2024 Reproductions so far + Tuned in 150
-- https://x.com/thenftopia/status/1850431993789497509
-
-Week 33 11-06-2024 Reproductions so far + Tuned in 100
-- https://x.com/thenftopia/status/1852900556538257498
-
-Week 34 11-13-2024 Reproductions so far + Tuned in 113
-- https://x.com/thenftopia/status/1855569125680070679
-
-WAX X SPACE co-host WAX Streamers
-- 10-16-2024 Reproductions so far + Tuned in 174
-- https://x.com/WAX_io/status/1846596632382787644
-
-WAX X SPACE co-host WUFTOPIA
-- 11-02-2024 Reproductions so far + Tuned in 357
-- https://x.com/WAX_io/status/1859280646222274623
-
-Intraverse Mint party
-- 11-06-2024 Reproductions so far + Tuned in 78 
-- https://x.com/intraVerse_Game/status/1854177163299176903
+Week 37 01-01-2025 Reproductions so far + Tuned in 111
+- https://x.com/thenftopia/status/1874531058894725469
 
 
-ITEMZ GAMES LATAM X SPACE guest
-- 10-21-2024 Reproductions so far + Tuned in 37
-- https://x.com/ITEMZ_LATAM/status/1859733601077821547
+**Guest WAX Spaces**
+
+WAXWednesday Wax Holiday Calendar Tuned in 177
+- https://x.com/i/spaces/1mnxeAOVXOPxX/peek
+
 
 **Articles**
 
-Start Your Web3 Journey with a WAX Cloud Wallet
-- https://medium.com/dungeon-keeper-studios/start-your-web3-journey-with-a-wax-cloud-wallet-a3b4319f5488
+Understanding the WAX Office of Inspector General (OIG): Strengthening the Blockchain
+- https://medium.com/dungeon-keeper-studios/understanding-the-wax-office-of-inspector-general-oig-strengthening-the-blockchain-11e9d7cf4a83
 
-WUFTOPIA: A Weekend Full of Fun and Web3 Experiences
-- https://medium.com/dungeon-keeper-studios/wuftopia-a-weekend-full-of-fun-and-web3-experiences-f230fd74d7f0
+**Video**
 
-From Tokens to Transactions: A Beginner’s Guide to CPU, NET & RAM on WAX io
-- https://medium.com/dungeon-keeper-studios/from-tokens-to-transactions-a-beginners-guide-to-cpu-net-ram-on-wax-io-b5cf63289d6e
+A new English-language YouTube channel has been launched, aiming to create diverse visual content. This initiative is designed to introduce new audiences to WAX and encourage them to join the community.
 
-Navigating WAX io Marketplaces: Exploring NFThive, Atomichub and Neftyblocks
-- https://medium.com/dungeon-keeper-studios/navigating-wax-io-marketplaces-exploring-nfthive-atomichub-and-neftyblocks-65e665c79095
-
-Understanding Voting on WAX io: Earn Rewards While Supporting the Network
-- https://medium.com/dungeon-keeper-studios/understanding-voting-on-wax-io-earn-rewards-while-supporting-the-network-d069078dbbc2
-
-More articles are on the way, focusing on the gamification of content creation using WAX.
-
-ITEMZ GAMES LATAM
-
-The WAX logo was included in the advertising for the ITEMZ GAMES LATAM event held in Mexico City on November 23. All permissions were obtained from the WAX team, and only official digital resources were used.
-- https://x.com/ITEMZ_LATAM/status/1860017507198992570
-
+WAX Blockchain Beginner’s Guide: CPU, NET, RAM, Marketplaces, Staking, and OIG
+- https://www.youtube.com/watch?v=2UOKWE_wVOI&t
 
 ### <ins>Feedback to OIG</ins>
 
