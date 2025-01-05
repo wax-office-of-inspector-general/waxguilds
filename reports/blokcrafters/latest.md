@@ -43,11 +43,10 @@ No added features or updates other than metrics due to holidays and new year. We
 
 Period: December 9, 2024 - January 5th 2025
 
-<img width="763" alt="IGReport1_09-24_05-25" src="https://github.com/user-attachments/assets/fdc61769-3224-49a5-b562-03bd22b77c83" />
-<img width="566" alt="IGReport2_09-24_05-25" src="https://github.com/user-attachments/assets/28b79817-bb7f-4907-b7e2-13c4a9d6da16" />
-<img width="568" alt="IGReport3_09-24_05-25" src="https://github.com/user-attachments/assets/5f0661dc-e1c1-470a-a894-aa336cf34a05" />
 
-
+<img width="600" alt="IGReport1_09-24_05-25" src="https://github.com/user-attachments/assets/7aecc47a-8b52-4885-b32b-d881592c237e" />
+<img width="566" alt="IGReport2_09-24_05-25" src="https://github.com/user-attachments/assets/58be8827-6d7e-466f-af41-0ead11d83154" />
+<img width="568" alt="IGReport3_09-24_05-25" src="https://github.com/user-attachments/assets/6f562864-3452-4397-9f9b-cfc802260b93" />
 
 
 
