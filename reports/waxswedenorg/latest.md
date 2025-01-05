@@ -11,10 +11,11 @@
 | Guild Jurisdiction | Sweden |
 
 ### <ins>Noteworthy</ins>
-- New Thalos Releases, including bug fixes and new features.
-- Official Docker build for thalos [https://thalos.waxsweden.org/docs/installation/docker](https://thalos.waxsweden.org/docs/installation/docker)
-- Updated Thalos Docs to reflect all Thalos changes and updates.
-
+- New Thalos Releases
+- Updates on OIG Election Dashboard
+- Bug fixes on dashboard.waxsweden.org
+- New Partial Hyperion API at api.waxsweden.org
+- Big maintenance on History Hardware
 
 ### <ins>API Services</ins>
 
@@ -26,15 +27,6 @@
 
 ### <ins>Contributions</ins>
 
-| Website/Platform | Visitors/views | Timeframe |     |
-| ---------------- | -------------- | --------- | --- |
-| alienw.com       | 1.1k           | 30 days   |     |
-| waxsweden.org    | 469            | 30 days   |     |
-| academy.anyo.io  | 189            | 30 days   |     |
-| Anyo YouTube     | 185            | 28 days   |     |
-| anyo.io          | 264            | 30 days   |     |
-
-
 ---
 ### Thalos
 **Description**: Light-weight, Quick and easy to use Blockchain stream service. Utilizing the Thalos Server, Redis and Thalos Clients to stream any WAX data, directly from a SHIP node. Listen to one contract, action or all of them.
@@ -42,29 +34,34 @@
 **URLs**: [thalos.waxsweden.org](https://thalos.waxsweden.org/), [Github](https://github.com/eosswedenorg/thalos), [Documentation](https://thalos.waxsweden.org/docs/), [NodeJS Client](https://github.com/eosswedenorg/thalos-nodejs), [Go Client](https://github.com/eosswedenorg/thalos/tree/master/api)
 
 **Update**:
+- Updated the docs page to reflect the latest changes: [https://thalos.waxsweden.org/](https://thalos.waxsweden.org/)
 
-#### Version 1.1.5 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5)
-- New config section: cache
-- New CLI flag: cache specify what cache driver to use
-- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
-request made when Thalos wants to fetch a ABI from the api.
-- API Table Deltas: abi decode the data in value field for contract_row deltas.
-- golang: update github.com/shufflingpixels/antelope-go to v0.1.5
-- golang: update github.com/quic-go/quic-go from 0.41.0 to 0.42.0
-- golang: version 1.20 can no longer be used to build the project.
-- Docker Image v1.1.5 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/265496553?tag=1.1.5)
+#### Version 1.1.8 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.8](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.8)
+- Support for wildcard contracts in Blacklist
+- [Security CVE-2024-45337] Update golang.org/x/crypto to 0.31.0
+- [Security CVE-2024-53259] Update github.com/quic-go/quic-go to 0.48.2
 
-#### Version 1.1.5-rc1 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.5-rc1)
-- New config section: cache
-- New CLI flag: cache specify what cache driver to use
-- New CLI flag: abi-cache-api-timeout configure the timeout for the HTTP
-request made when Thalos wants to fetch a ABI from the api.
-- API Table Deltas: abi decode the data in value field for contract_row deltas.
-- golang: update github.com/shufflingpixels/antelope-go to v0.1.4
+#### Version 1.1.7 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7)
+- ship: set MaxMessagesInFlight to 1. This forces the client/server to ack every message and might be a workaround fix for issue #25 according to this comment: [AntelopeIO/leap#1358 (comment)](https://github.com/AntelopeIO/leap/issues/1358#issuecomment-2276294557)
+- golang: update eosswedenrg-go/antelope-ship-client to v0.3.2
+- Docker Image v1.1.7-rc2 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/300602886?tag=1.1.7-rc2](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/300602886?tag=1.1.7-rc2)
 
-#### Version 1.1.4 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.4)
-- Implement whitelist option for ship contract/action blacklist
-- Fix bug with integer overflow on 32 bit CPUs.
+#### Version 1.1.7-rc2 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7-rc2](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7-rc2)
+- ship: set MaxMessagesInFlight to 1. This forces the client/server to ack every message and might be a workaround fix for issue #25 according to this comment: [AntelopeIO/leap#1358 (comment)](https://github.com/AntelopeIO/leap/issues/1358#issuecomment-2276294557)
+- golang: update eosswedenrg-go/antelope-ship-client to v0.3.2
+
+#### Version 1.1.7-rc1 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7-rc1](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.7-rc1)
+- Add support to disable processing of table deltas.
+
+#### Version 1.1.6 [https://github.com/eosswedenorg/thalos/releases/tag/v1.1.6](https://github.com/eosswedenorg/thalos/releases/tag/v1.1.6)
+- makefile: make sure we apppend to GOBULDFLAGS if user wants to add their own.
+- minor style fixes.
+- api/channel_test.go: rearange fields.
+- README.md: Update minimum go version
+- README.md: Link to docker page
+- .github/workflows/release.yml: need to update version regex for musl builds
+- Docker Image v1.1.6 [https://github.com/eosswedenorg/thalos/pkgs/container/thalos/292537749?tag=1.1.6](https://github.com/eosswedenorg/thalos/pkgs/container/thalos/292537749?tag=1.1.6)
+- Fix typo in config.example.yml
 
 
 ### APT Packages
@@ -73,9 +70,12 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [WAX APT repo](https://eosswedenorg.github.io/apt/wax), [Main apt repo, some of our tools](https://eosswedenorg.github.io/apt/main), [Antelope APT repo](https://eosswedenorg.github.io/apt/antelope), [Github](https://github.com/eosswedenorg/apt)
 
 **Update**:
-- Added the new Thalos v1.1.5-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.5 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
-- Added the new Thalos v1.1.4 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.8 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.8-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.7 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.7-rc2 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.7-rc1 into [Apt Main Repo - edge](https://eosswedenorg.github.io/apt/main)
+- Added the new Thalos v1.1.6 into [Apt Main Repo - stable](https://eosswedenorg.github.io/apt/main)
 
 ---
 
@@ -85,6 +85,7 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [anyo.io](https://anyo.io/), [OIG Roundtables](https://academy.anyo.io/wax-oig-roundtables), [Anyo YouTube](https://www.youtube.com/anyobservation), [Anyo Twitter](https://twitter.com/anyobservation), [WAX Memo Tracker](https://anyo.io/blockchain_tools/memo_tracker), [WAX Trx tracker](https://anyo.io/blockchain_tools/trx_tracker)
 
 **Update**: 
+- Recordings of all the latest Tech talks up on YouTube
 
 
 ---
@@ -95,6 +96,9 @@ request made when Thalos wants to fetch a ABI from the api.
 **URLs**: [OIG Vote Tracker](https://anyo.io/blockchain_tools/oig)
 
 **update**:
+- Updates to track the Tenth Election.
+- Fixed bug where candidate images might fail to be fetched depending on where they were hosted.
+- Reworked some backend logic to improve the tool.
 
 ---
 
@@ -152,7 +156,8 @@ request made when Thalos wants to fetch a ABI from the api.
 **List of SCs**: [Mainnet](notify.se), [Testnet]()
 
 **Update**: 
-- started to work on a new feature to display resource states of accounts across time.
+- Fixed bug of menu not showing on - dashboard.waxsweden.org/guilds/
+- Updated default ranking view and headers on - https://dashboard.waxsweden.org/guilds/oig-ranking/
 
 ---
 
@@ -193,7 +198,7 @@ Testnet: [snapshots.testnet.waxsweden.org](https://snapshots.testnet.waxsweden.o
 
 Latest Mainnet Blocks log: [Mainnet Blocks log](https://snapshots-cdn.eossweden.org/wax/5.x/blocks_wax_20240603-311843724.tar.gz)
 
-Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2024-08-01T04_30_01_408_293176065.bin.tar.gz)
+Latest Testnet Blocks log: [Testnet Blocks log](https://snapshots-cdn.eossweden.org/wax-testnet/5.x/wax-testnet_blocks_2025-01-01T04_30_00_904_319610405.bin.tar.gz)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
