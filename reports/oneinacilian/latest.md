@@ -12,7 +12,7 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>November 2024 Update</ins>
+### <ins>January 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
@@ -61,15 +61,33 @@ We intend to share this utility with other guilds imminently, as we believe it w
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-We have further enhanced our Hyperion auto-build framework, introducing customisation options and optimisations to improve deployment flexibility and scalability.
+We have made several updates and enhancements to the Auto-Build solution, improving its functionality, monitoring capabilities, and ease of use. Below is a summary of the changes:
 
-One of the key advancements is the ability for users to specify the number of Elasticsearch nodes they wish to include in their deployment. Based on a simple configuration variable, a custom Docker Compose YAML file is automatically generated to scaffold the desired setup, while the default Hyperion compose remains available for use:
+## 1. Improved Navigation and Documentation
+- Updated the README for easier navigation, including detailed descriptions of changes and implementations.
 
-  * For example, setting MOUNT_OF_NODE_INSTANCES=2 will scaffold a two-node Elasticsearch cluster, while MOUNT_OF_NODE_INSTANCES=3 will scaffold a three-node cluster, and so on.
-    
-In addition, we have made modifications to the RabbitMQ deployment, enabling custom adjustments to the environment to meet varied operational requirements. These enhancements align with Hyperion's most suitable components and deployment needs, further optimising its overall performance.
+## 2. Nodeos Monitoring
+- Built a custom exporter for chain data (nodeos).
+- Created a managed dashboard to monitor chain information.
 
-These updates have been tested successfully, with ongoing refinements being made to ensure a robust and efficient deployment process. We believe these enhancements represent an important step forward in simplifying and scaling Hyperion deployments.
+## 3. Hyperion Monitoring
+- Added exporters for RabbitMQ, Redis, and Elasticsearch.
+- Integrated Prometheus and Grafana services into the compose process during Python script execution.
+- Developed managed dashboards for Redis, RabbitMQ, and Elasticsearch.
+
+## 4. Atomic Monitoring
+- Added exporters for PostgreSQL and Redis.
+- Developed managed dashboards for PostgreSQL and Redis.
+
+## 5. Elasticsearch Management
+- Expanded the Python script to dynamically manage Elasticsearch exporter configurations in Prometheus.
+- Extended `.env` to manage Elasticsearch heap dump and GC log parameters.
+- Introduced health checks for Elasticsearch instances.
+- Automated Elasticsearch configuration management.
+
+---
+
+These enhancements aim to provide a more robust and user-friendly Auto-Build solution, supporting efficient deployment, monitoring, and management of services.
 
 For further details, please visit the repository here: [Docker Compose Autobuilds.](https://github.com/oneinacillian/docker_compose_autobuilds)
 
