@@ -122,8 +122,18 @@ Around 20 000$ trading volume within first 48 hours
 **URLs**: dapplica.io/blog 
 
 **Update**: 
-Preparing an artciles 
+[Preparing an artciles ](https://dapplica.io/blog/game/part-21-writing-tests-for-wax-smart-contracts/) New article released
 **Metrics**
+
+### WAX Watcher Bot (NEW PRODUCT)
+
+**URLs**: [https:/t.me/atomicnotifybot](https://t.me/WaxWatcher_bot)
+
+ This is the WAX Wallet Monitoring Bot. Stay in control of your wallet with real-time updates and alerts. Select an option below to get started
+
+**Metrics**
+
+Period: Just released, first users are in 
 
 ---
 
