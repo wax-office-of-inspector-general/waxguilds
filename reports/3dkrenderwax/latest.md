@@ -105,10 +105,9 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 **Update**:
 
-No updates in the last period.
+- We have updated the server side incorporating improvements in the data table reading services from Hyperion APIs.
+- The NextUI library has been updated to its new HeroUI model
 
-- 4 Stars
-- 3 Forks
 
 ### FundingWAX - Discord Bot
 
