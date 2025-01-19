@@ -40,9 +40,14 @@ Others APIs: none at the moment
 
 Period: January 5th, 2025 - January 19th 2025
 
-<img width="400" alt="IGReport3_01-05_19-25" src="https://github.com/user-attachments/assets/18e0eb06-38f8-416a-a1fa-f9f71e6d5d5a" />
-<img width="400" alt="IGReport2_01-05_19-25" src="https://github.com/user-attachments/assets/f6716dd1-1ab6-4d3c-be8e-6fb4fc364441" />
-<img width="400" alt="IGReport1_01-05_19-25" src="https://github.com/user-attachments/assets/0b59c412-8787-46b6-90a1-292052bfa923" />
+
+
+<img width="575" alt="IGReport3_01-05_19-25" src="https://github.com/user-attachments/assets/4f097527-bfdf-4d2b-a9bb-48141762fc97" />
+
+<img width="575" alt="IGReport2_01-05_19-25" src="https://github.com/user-attachments/assets/1dd09c58-e715-4486-8055-198afd0bd4ae" />
+
+<img width="575" alt="IGReport1_01-05_19-25" src="https://github.com/user-attachments/assets/605592cc-171d-4a58-98dc-093907a6aacc" />
+
 
 
   
