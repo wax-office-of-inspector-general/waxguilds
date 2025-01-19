@@ -32,22 +32,17 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-
-**Update**
-No added features or updates other than metrics due to holidays and new year. We look forward to continued progress this year!
-
 *Added Listings*
+- wax.fun (Meme Coin/Community)
 
 
 **Metrics**
 
-Period: December 9, 2024 - January 5th 2025
+Period: January 5th, 2025 - January 19th 2025
 
-
-<img width="600" alt="IGReport1_09-24_05-25" src="https://github.com/user-attachments/assets/7aecc47a-8b52-4885-b32b-d881592c237e" />
-<img width="566" alt="IGReport2_09-24_05-25" src="https://github.com/user-attachments/assets/58be8827-6d7e-466f-af41-0ead11d83154" />
-<img width="568" alt="IGReport3_09-24_05-25" src="https://github.com/user-attachments/assets/6f562864-3452-4397-9f9b-cfc802260b93" />
-
+<img width="400" alt="IGReport3_01-05_19-25" src="https://github.com/user-attachments/assets/18e0eb06-38f8-416a-a1fa-f9f71e6d5d5a" />
+<img width="400" alt="IGReport2_01-05_19-25" src="https://github.com/user-attachments/assets/f6716dd1-1ab6-4d3c-be8e-6fb4fc364441" />
+<img width="400" alt="IGReport1_01-05_19-25" src="https://github.com/user-attachments/assets/0b59c412-8787-46b6-90a1-292052bfa923" />
 
 
   
