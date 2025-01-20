@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report November 2024
+# Guild Report January 2025
 
 ### <ins>General</ins>
 |  |  |
@@ -30,46 +30,16 @@
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
 **Update**: 
-* New client: "Bolsa Nacional de Valores - Campeonato Bursátil" is now live: https://campeonatobursatil.stocktrak.com/
-* Existing client changes: https://www.financialskillschallenge.com/ - Budget game and Progress Reports are now on-chain
-  ![image](https://github.com/user-attachments/assets/af9eefa2-0fbf-47d7-95f3-6c97ede098da)
-  ![image](https://github.com/user-attachments/assets/2cfc92ca-98eb-45e6-8b86-11f7cc31d729)
-
-  Example TXs:
-  Roll dice (When a user rolls a dice in the game)
-  https://waxblock.io/transaction/16f3c63f9e73066a66af76685cbb6a6e25bd4ce8434586b350cbf48bec84757c
-
-  Credit card purchase (When a user purchase something in the game using CC)
-  https://waxblock.io/transaction/db00b61f8ec2294301cbd19be0cfaa91e01db4804d8d7944fbf807c8962ee7dc
-
-  Do household chores (When a user choose household chores in the game)
-  https://waxblock.io/transaction/1bc2d8be2e1628869285c0d5c035e521f433e3c77bf3b6465d8f2f6dcdc5b93c
-
-
-* Re-enabled APIs for Avalon - we also collaborating with EOSUSA who is providing Avalon a dedicated AA API for them for free
-  Some of the Avalon NFTs minted in-game via our API
-
-  642869  (Legendary Avalon Alpha Badge) https://atomichub-ipfs.com/ipfs/QmNx3arWZGKdXvknsJgTdtz1M6biVvqjceqTyFF5v3t821
-
-  730767 (Avalon 7-Day Access Pass) https://atomichub-ipfs.com/ipfs/QmaamsKjyaX5DPcX2dfuYXKQRUC8msWTgwbmphw7o9ufjK
-
-  686132 (Uncommon Avalon Alpha Badge)  https://atomichub-ipfs.com/ipfs/QmZX871DucjbA8aKkvc4E7m9Ama3FAkgV84A2frakUPNio
-
-  813206  (The Watermill)  https://atomichub-ipfs.com/ipfs/QmQqbgXVTdAx3kYJs9APQoiVGjXjZdNzZq6fSfXv45ibLR
-
-  764210  (Kraken Necklace) https://atomichub-ipfs.com/ipfs/Qmde1XHURZjs87WAXMCfen7vxwHumwxaM217oHvoBfgCv9
-
-  812603  (Epic Druid Ring) https://atomichub-ipfs.com/ipfs/QmRqQmDHawBusruswZuKRvNEqCYev663DMAGy9j3eRessM
-
+* No new client
 
 **Metrics**
 
-Period: October 15, 2024 - November 22, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total WAX TXs | 9,240,282 |
-| New Clients | 1 |
+| Total WAX TXs | 4,931,765 |
+| New Clients | 0 |
 ---
 
 ### Product #2: Smart Asset Distribution Tool
@@ -77,19 +47,19 @@ Period: October 15, 2024 - November 22, 2024
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Added option to allow users to select WAX API endpoint if one is having issues.
-  ![Droptool](https://github.com/user-attachments/assets/a4505ce7-8334-4d4c-91c4-fdab69ff96bd)
+ Added 2 new languages Mandarin and Arabic
+  ![droptool (1)](https://github.com/user-attachments/assets/4bc8163e-418a-4860-9234-b401af18291e)
 
 
 **Metrics**
 
-Period: October 15, 2024 - November 22, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
 | New Projects added | 7 |
-| Total distributions | 593 |
-| Total assets distributed | 687,908 |
+| Total distributions | 665 |
+| Total assets distributed | 99,717 |
 ---
 
 ### Product #3: Gift NFT
@@ -97,17 +67,17 @@ Period: October 15, 2024 - November 22, 2024
 **URLs**: https://giftnft.io/
 
 **Update** 
-*  Added a widget to display available resources of connected wallet
-![Giftnft](https://github.com/user-attachments/assets/9eff4d17-d5c6-451b-92f9-78e1767677ad)
+*  Add option to allow users to select WAX API endpoint if one of them is having issues.
+![giftnft1](https://github.com/user-attachments/assets/9cf4f171-83cb-4f73-9e52-90ac5591c0e8)
 
 
 **Metrics**
 
-Period: October 15, 2024 - November 22, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 13 |
+| Total Gifts sent | 11 |
 ---
 
 ### Product #4: Contest Giveaway Platform
@@ -115,89 +85,106 @@ Period: October 15, 2024 - November 22, 2024
 **URLs**: https://wax.contest.bountyblok.io
 
 **Update** 
-* Added a counter in analytics screen showing how many NFTs were burned by a user
-  ![#1](https://github.com/user-attachments/assets/28aa6135-dc9a-404a-b2fb-e880cd71da2b)
+* Ability to hide tasks and only show 1 task at a time
+ ![contesttool-1](https://github.com/user-attachments/assets/8b7e1e05-ff7b-4bba-ade2-ba52cf122a8b)
 
-* Added template name for burn task in exported csv
-  ![#2](https://github.com/user-attachments/assets/1ffb0e00-2872-481d-8f1a-74e3417e0f6e)
+* Allow users to earn more entries as they buy more NFTs for hold nft tasks
 
-* Added a feature to download contest engagement results as pdf
-  ![#3-a](https://github.com/user-attachments/assets/d7121bc3-ea50-491f-8880-ce67aa2b118f)
-  ![#3-b](https://github.com/user-attachments/assets/24ec8949-c681-42ec-bc0f-dd59ccdc016b)
+* Unique / secret code task similar to gleam
+ ![contesttool-3](https://github.com/user-attachments/assets/f806510e-a6de-49a7-8e87-1acae97b1f0d)
 
-* Fixed a bug with Hold NFT from schema task where users were unable to earn entries
+
+* Clicking on walletname in the leaderboard should direct to their atomichub/hive/neftyblocks profile rather than waxblock
+
+* Ability to allow creators to edit # of entries earned for a specific action
+  ![contesttool-5a](https://github.com/user-attachments/assets/4c1f9e12-5f83-4cbf-8d77-f82316467df3)
+  ![contesttool-5b](https://github.com/user-attachments/assets/64b9a2c9-3428-42a2-9f19-6bc4340a2b0f)
+
+* Fixed a bug with "Contract Action" task which was preventing creators to select "Atleast" for min required qty
+
+* Allow premium dropbox urls for Upload Creative Action
+  ![contesttool-7](https://github.com/user-attachments/assets/90353f86-58ca-4b8d-90ca-d1e54dbd7c15)
+
   
 * Various UI tweaks and fixes
 
 **Metrics**
 
-Period: October 15, 2024 - November 22, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total Contests | 90 |
-| Total Entries | 31,406 |
-| Total X Follows | 6,644 |
-| Total X Reposts | 1,393 |
-| Total X Likes | 1,982 |
-| Total new X Posts | 2,425 |
-| Total Discord Joins | 2,254 |
+| Total Contests | 99 |
+| Total Entries | 101,131 |
+| Total X Follows | 23,504 |
+| Total X Reposts | 6,637 |
+| Total X Likes | 7,079 |
+| Total new X Posts | 7,223 |
+| Total Discord Joins | 9,105 |
 ---
 
+### NEW Product #5: Official WAX Status 
+
+**URLs**: https://status.wax.io/
+
+**Update** 
+* We’re excited to announce the launch of the WAX Network Status Page: https://status.wax.io
+
+Similar to status pages for networks like Sui (status.sui.io) and Solana (status.solana.com), this page monitors major outages and provides updates for the WAX community and builders. It is not intended for OIG to monitor guilds but rather to keep the community informed about issues with:
+
+Block Production: >2/3 of guilds are missing rounds.
+Public APIs: >2/3 are down or delayed by >5 minutes.
+RNG Oracle: queue exceeds 300.
+Core Services: Explorers, marketplaces, WCW website and Wallet APIs.
+Mainnet+Testnet.
+
+The status page relies on several Python scripts and cron jobs and will evolve over time with more features. WAX team will be linking it to the wax.io page as well.
+
+Special thanks to: 1) sentnl for the missing rounds API. 2) Anders + Nick for their feedback and suggestions.
+
+The status page is official and the WAX team linked it on their home page
+![screenshot-www_wax_io-2025_01_04-10_14_36](https://github.com/user-attachments/assets/21118387-7df4-4071-90b9-e00074889c02)
+
+
+---
 ### NEW: Technical Articles 
 
 **URLs**: https://bountyblok.medium.com/
 
-1. How to Integrate Privado ID to WAX: Proof of Human Features for Web3 Apps
-
-https://bountyblok.medium.com/how-to-integrate-privado-id-to-wax-proof-of-human-features-for-web3-apps-4777cfc8c424
+* No new article
 
 ---
 ### Novopangea 
-* Collaborating with Linea L2 projects throuhgh Intraverse for Uptober
-  ![image](https://github.com/user-attachments/assets/494c5bb5-f487-42ab-9da6-2e6b0b2b9ffd)
+* Working with Mike to give the game to a capable team: Dapplica, WAX game studio, spielworks etc etc - will share more info soon
 
  
 ---
 
 ### Avalon
-* Changes to our Enterprise API to handle some of Avalon's new features
-* BIG: Avalon steam APPROVED and upcoming https://store.steampowered.com/app/3281500/Avalon__Rise_of_the_Templars/
-![image](https://github.com/user-attachments/assets/ce7fe780-1f23-4ad9-8227-270d63cdda56)
-
+* Year in review: https://medium.com/@DanuGames/avalon-2024-a-year-of-milestones-and-innovation-in-game-development-0ccd40b79f77
+* Point 7) in article heavily relies on bountyblok tools and custom APIs for them !! "NFT Reward Distribution: We implemented an automatic quest-related NFT reward distribution system that integrates seamlessly between the UE4 engine and players’ wallets, bridging gaming achievements with tangible rewards."
 
 ---
 
 ### Polygon CDK/AggLayer L2
-* Met with Kendre to discuss next steps
+* no new update
+
+### WAX Holidays Calendar
+* Worked with MAXY and their WAXHolidaysCalendar from Dec 1 - 31.
+* Tons of giveaways throughout december powered by bountyblok contests such as https://bblk.io/LEN7
+* Sponsored this event: https://x.com/queencristalla/status/1865081803574567411?t=dYsjQVVT0I_jO9X7_Sex5g&s=19
+* We got WHC Creator role on their discord https://discord.gg/maxylab-multichain-765740558445969408
+* Sponsor TX: https://waxblock.io/transaction/d66c18b8abd2b2711d472e90952ff4c623ab9bd3fc3975bd374375aa3920c81d
+* Advent calendar powered by bblk
   
-![image](https://github.com/user-attachments/assets/d988056a-0110-4177-b20c-1a2044f4eb07)
+  ![screenshot-docs_google_com-2025_01_04-10_38_38](https://github.com/user-attachments/assets/b1b1ee7e-0033-43c8-9793-1334a413fa27)
 
-* Will require additional call with Lukas in Q1 2025
 
-### WUFTOPIA
-* This was a big focus for us in preparation for this weekend Nov 23-24
-* Nov 6th WAX Wednesday: https://x.com/ConsumerBreak/status/1853578640623050974 with a contest: bblk.io/JvK4
-* Huge pooled "SWAG" bountyblok contest, every booth will have its own Bountyblok contest on a button to click in the voice area. Also there is a VIP Bountyblok contest that is only for holders of the blended 20 Paw Prints (called WUFFI PARK)
-  ![image](https://github.com/user-attachments/assets/17e43ae2-2ee8-4ca9-a6c2-c72f6273b830)
-  ![PAW PRINT - Bountyblok_00000](https://github.com/user-attachments/assets/c31bd1ae-b4b6-402c-9e33-34ce55cde84a)
-  ![bounty button2](https://github.com/user-attachments/assets/9d91db5a-e2d1-4817-957e-3afd620b75c0)
-  ![bounty button](https://github.com/user-attachments/assets/4a03d402-77fa-47b2-bf1f-14b699e5db6b)
-
- 
-* bountyblokbp sponsored the PayPal Cash prizes for the Camknow Marbles Race on November 23 https://waxblock.io/transaction/f38d6b7a7225901c8716995667fa1c0322b93c3187e8b1f18c0cfb215aca3c4c
-  Details on Camknow: There will be a Marbles Race event hosted by a Web2 streamer Twitch.tv/Camknow, who has been onboarded to WAX recently and is doing amazing, also with his own collection Mecha Legends. His big 
-  giveaway streams are much more attractive and bring more people when it is PayPal Cash prizes.
-  
-* Important X post with the relevant details: https://x.com/thenftopia/status/1859056011660640267?t=lL_JDW4EXY7n2OQt90aOGQ&s=19
-* Byron's return: Using our distribution tool to engage and participate in this WUFTOPIA craze https://x.com/ArtistByron/status/1859649547573788716?t=lWZu0vuLC5ADhY0Pirt2Bw&s=19
 
 --- 
 
 ### <ins>Marketing</ins>
-* Mostly focused on WUFTOPIA/NFTOPIA event for this weekend with various giveaways and user engagement
-
-
+* Focused on WAX Holidays Calendar event during December
 
 ### <ins>Backups </ins>
 
