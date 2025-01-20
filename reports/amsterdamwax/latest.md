@@ -19,9 +19,9 @@ Hyperion availability has been improved. Also, a faster server for block product
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [X] | [x] | [x] | [x] | [] |  [] |
-| - | 7k req/hour | 95 req/hour | 30k req/hour | 100k req/hour | - |
+| - | 10.3k req/hour | 95 req/hour | 29.7k req/hour | 60.5k req/hour | - |
 
-Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (16k req/hour)
+Others APIs: WAX RPC (288k req/hour), WAX Testnet RPC (16k req/hour)
 
 
 ### <ins>Contributions</ins>
