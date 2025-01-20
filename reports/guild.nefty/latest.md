@@ -12,7 +12,7 @@
 
 ### <ins>Noteworthy</ins>
 
-* We had a two week maintenance (Nov 25th - Dec 6th) from our hosting provider affecting all nodes and producers, we increased redundacy and switched servers if needed to ensure that services were not critically interrupted while maintenance lasts.
+* We had an incident with a server which impacted in missing rounds for our producer. As the problem was caused by a hardware failure, we contacted our provider and requested a new server. We added more tools for monitoring like headsup and ialert to improve response time from the team.  
 
  
 
@@ -21,7 +21,7 @@
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API       | IPFS            | Chain API       |
 |-------------------|----------------|-------------------|----------------|-----------------|-----------------|-----------------|
 | [ ]               | [ ]            | [x]               | [x]            | [x]             | [x]             | [x]             |
-| -                 | -              | 97.03k req/week   | 1.72M req/week | 110.6k req/week | 77 req/week     | 25.73M req/week |
+| -                 | -              | 89.73k req/week   | 2.95M req/week | 101.9k req/week | 70 req/week     | 29.18M req/week |
 
 ### <ins>Contributions</ins>
 
@@ -33,26 +33,27 @@
 
 **Update**
 
-* Currently working on our second Success Story 
-* Fix for NSFW collections in Auctions
-* Updated dependencies
+* Currently working on our third Success Story 
+* Released second Success Story for RareRuggApes
+
 
 **Metrics**  
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
-* Primary market volume: 465k WAXP
-* Secondary market volume: 202k WAXP
+* Primary market volume: 565k WAXP  
+* Secondary market volume: 741k WAXP  
+
 
 **Stats**
 
-* Views: 394k  
-* Users: 9.4k  
-* Avg Engagement Time: 11m 42s
-* Blends performed: 11k
-* Drop claims: 10.2K
-* Packs opened: 12.2k
-* Upgrades performed: 408
+* Views: 1.1M  
+* Users: 19k  
+* Avg Engagement Time: 16m 22s
+* Blends performed: 34.8k
+* Drop claims: 19.6kK
+* Packs opened: 32.4k
+* Upgrades performed: 3k
 
 ---
 
@@ -64,63 +65,83 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **Update**
 
-* We have facilitated 8.2K drop claims that use custom WAX-based tokens native to 3rd party projects: 
+* Allow multiple template select in upgrades
+* Fix to support new IPFS CID format
+
+* We have facilitated 8.4K drop claims that use custom WAX-based tokens native to 3rd party projects: 
 
 
 |   **Token**   |   **Claims**  |
 |---------------|---------------|
-| "WUF"         | 5136          |
-| "HOURS"       | 567           |
-| "BLUWHL"      | 364           |
-| "RODC"        | 345           |
-| "WOMBEE"      | 342           |
-| "HOWL"        | 340           |
-| "WOMBAT"      | 159           |
-| "DUST"        | 148           |
-| "GHOST"       | 137           |
-| "SKUNKY"      | 121           |
-| "TOMATOE"     | 106           |
-| "NEFTY"       | 62            |
-| "CHRONA"      | 37            |
-| "CMX"         | 33            |
-| "PXJ"         | 31            |
-| "SQJ"         | 30            |
-| "SEXY"        | 27            |
-| "BRIX"        | 27            |
-| "LVAPE"       | 24            |
-| "GUILD"       | 23            |
-| "NOVO"        | 21            |
-| "SASCHA"      | 20            |
-| "STAG"        | 18            |
-| "NKFE"        | 15            |
-| "RAIDD"       | 12            |
-| "BEATZ"       | 10            |
-| "ANTLERS"     | 8             |
-| "BINX"        | 8             |
-| "TLM"         | 7             |
-| "FORGE"       | 5             |
-| "SHING"       | 3             |
-| "BEANS"       | 3             |
-| "KENN"        | 2             |
-| "SSN"         | 1             |
-| "AQUA"        | 1             |
-| "SOUL"        | 1             |
-
+| HOWL          | 1653          |
+| BRIX          |  917          |
+| LVAPE         |  871          |
+| HOURS         |  689          |
+| RODC          |  608          |
+| GHOST         |  362          |
+| DUST          |  343          |
+| WOMBAT        |  335          |
+| HDC           |  304          |
+| WUF           |  270          |
+| SQJ           |  244          |
+| HCC           |  242          |
+| TOMATOE       |  216          |
+| GUILD         |  203          |
+| ANTLERS       |  202          |
+| BLUWHL        |  160          |
+| WOMBEE        |  134          |
+| NKFE          |  124          |
+| SKUNKY        |  111          |
+| KEK           |   73          |
+| PXJ           |   64          |
+| NEFTY         |   37          |
+| NOVO          |   35          |
+| BINX          |   34          |
+| CHRONA        |   33          |
+| SOUL          |   25          |
+| STAG          |   24          |
+| CHIPS         |   23          |
+| RAIDD         |   17          |
+| CHSR          |   17          |
+| BLUE          |   14          |
+| QUAX          |   13          |
+| FORGE         |   10          |
+| SHING         |    9          |
+| CREWC         |    9          |
+| CHAD          |    6          |
+| TACO          |    5          |
+| BEANS         |    4          |
+| SASCHA        |    3          |
+| TLM           |    3          |
+| KENN          |    2          |
+| PXF           |    2          |
+| WAXART        |    2          |
+| TOCIUM        |    2          |
+| WOA           |    2          |
+| CHAOS         |    1          |
+| DTX           |    1          |
+| CMX           |    1          |
+| SSN           |    1          |
+| BLU           |    1          |
+| LSWAX         |    1          |
+| XPS           |    1          |
+| SCHWAX        |    1          |
+| XYTE          |    1          |
 
 **Metrics**  
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
-* Drops created: 432
-* Blends created: 158
-* Packs created: 47
-* Upgrades created: 0
+* Drops created: 878
+* Blends created: 433
+* Packs created: 77
+* Upgrades created: 46
 
 **Stats**
 
-* Views: 8k
-* Users: 374
-* Avg Engagement Time: 12m 36s
+* Views: 26k
+* Users: 828
+* Avg Engagement Time: 15m 20s
 
 ---
 
@@ -136,7 +157,7 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **Metrics**
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
 * New implementations: 1
 * Total number of implementations: 120
@@ -163,10 +184,10 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **Metrics**  
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
-* Total visits: 11.61k
-* Page views: 11.69k
+* Total visits: 5k
+* Page views: 5.31k
 
 ---
 
@@ -181,7 +202,7 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **Metrics**  
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
 * Total users: 1.7k
 
@@ -194,7 +215,12 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Update**:
 
-* No updates to report
+* Add liquidity : Fix init price on new pool + fetch suggested price from same pair on other exchanges
+* Computer nav: rename swap into spot
+* Mobile nav: Add "add liquidity" link
+* Swap: Update quick token select, use waxusdc@eth.token instead of usdt@usdt.alcor
+* Swap: Fix loading on swap button while the output hasn't been updated
+* Analytics: Add exchanges volume pie chart
 
 ---
 
@@ -204,7 +230,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-* Number of subscribers: 163
+* Number of subscribers: 176
 
 ---
 
@@ -216,9 +242,9 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
-* Number of TAG crafts: 226
+* Number of TAG crafts: 547
 
 ---
 
@@ -228,7 +254,7 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **Metrics**
 
-* API Requests: 1.4M requests/week
+* No updates to report
 
 ---
 
@@ -236,7 +262,7 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 **URLs**: [https://github.com/neftyblocks/wax-price-oracle](https://github.com/neftyblocks/wax-price-oracle)
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
 
 **Update**:
 
@@ -246,13 +272,11 @@ Period: _Nov 23, 2024 to Dec 05, 2024_
 
 ### <ins>Marketing</ins>
 
-Period: _Nov 23, 2024 to Dec 05, 2024_
+Period: _Dec 05, 2024 to Jan 10, 2025_
  
-* [NeftyShow Youtube channel](https://www.youtube.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 134 videos at the moment with 339 subscribers. 
-* [NeftyShow X](https://www.x.com/@NeftyShow): Daily broadcasts from Monday to Friday at 5pm CET, shared 108 videos at the moment with a total of 22k views.
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 14.1K impressions and 27K Followers, engagement rate 10.5%.
-* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 408 monthly visitors, 349 monthly messages.  
-* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 230 views and 91 reads during November.
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 26.8K impressions and 27K Followers, engagement rate 9.9%.
+* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 288 monthly visitors, 402 monthly messages.  
+* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 94 views and 39 reads during December.
 
 
 ### <ins>Backups </ins>
