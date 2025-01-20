@@ -14,6 +14,7 @@
 
 * Pantheon Update
 * FACINGS Studio Update
+* We didn't list it as a product, but we pushed what we believe are the final updates needed (notifications/telegram bot) to full satisfy missing features listed in the original WAX Labs proposal. It appears there is an issue with deployment process on WAX's end again and we will investigate it.
 * For awareness: 
     * DLT's IPFS Gateway can be accessed via https://ipfs.gateway.detroitledger.tech
     * DLT's Daily WAX Nodeos Snapshots are available at: https://snapshots.detroitledger.tech 
@@ -29,9 +30,10 @@
 **List of SCs**: mint.facings, open.facings, make.facings, earn.facings, atomicassets (FACINGS Creator/Collection Manager)
 
 **Update**: 
-* Various work needed to provision the pack sales page on tbe public website
-* Tweaking of anti-fraud measures as this is a new merchant service provider since the last releases
-* Various other fixes related to assigning of abilities and digital asset minting queue.
+* Continued tweaking and bug fixes related to the sales flow for purchasing packs
+* Signifcant work completed on the customer onboarding flow (making it streamlined for someone to sign up and pay to use FACINGS Studio)
+* Work to implement basic automated reported based on feedback from Pantheon.
+* We are still aiming to release the first MVP in Q1 of 2025.
 
 ### Pantheon (Game)
 
@@ -40,7 +42,21 @@
 **List of SCs**: pantheon, bck.pantheon, unw.pantheon, gme.pantheon
 
 **Update**:
-* The initial pack sale took place October 20th-22nd in various phases (beta testers vs open sale). 203 packs have been sold so far.
-* The game was successfully launched on October 29th, the development team has been hard at work fixing various bugs discovered and tweaks suggested by the initial users.
-* Development on the in-game scripted walkthrough tutorial contined and will be released November 16th.
-* DLT to focus on optimizing onboarding (MCW / promo pack faucet) and resource management (MYC Boost + app-side resource management) as the next priorities.
+
+The team delivered a minor and major release + hotfix since our last update in November.
+
+* 1.0.1 (Gameplay adjustments and bug fixes) - https://medium.com/@Pantheon_TCG/pantheon-v1-0-1-release-notes-515771be37fe
+* 1.1.0 + 1.1.1 (In-game walkthrough tutoiral) - https://medium.com/@Pantheon_TCG/pantheon-v1-1-1-release-notes-edd7bdd09133
+* Additional improvements implemented to boost account resources for users automatically included in 1.1.1.
+
+Pantheon participated in numerous marketing cross promotions in the past 2 months. The Discord server grew to 443 users and the X following grew to 254 users. The following cross promotions took place:
+
+* CrewToons/NFLottery Giveaways / play events
+* Pantheon Play-a-thon (In-person event)
+* WAX Holiday Calendar Giveaway
+* "Festival of Poseidon" Giveaway
+* NFTopia Metaverse Convention
+* Bountyblok giveaways
+
+
+
