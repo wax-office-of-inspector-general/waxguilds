@@ -11,14 +11,14 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We developed Foundry, a free tool that allows anybody to create a self managed WAX account for free while providing CPU and NET to accounts created using the tool. We also developed two new scripts to make it easy to airdrop/transfer in bulk tokens and NFTs. We also chatted with Ross from EOSphere regarding how we can improve our hyperion and other infrastructure.
+We began setting up our Token API due to downtime and promoted our products to the community. We also began upgrading our testnet infrastructure, load balancer, and mainnet ShiP. 
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | -| 1.491M in 3d  | - | 6072 in 3d  |
+| - | - | -| -  | - | -  |
 
 
 ### <ins>Contributions</ins>
@@ -32,12 +32,9 @@ https://github.com/qaraqol/foundry
 
 **List of SCs**:
 qaraqlcreate
-
+foundry 
 **Update**:
-We created Foundry, a free tool that allows anybody to create a self managed WAX account for free. Accounts created using the tool also receive CPU & NET stake to allow new users to try out the blockchain before making a commitment to buy WAX and stake it to use the chain further. 
-Like most of our tools, Foundry is open-sourced in case any projects would like to offer free onboarding for users to WAX themselves and build on top of what we developed.
-
-
+We switched over everything from qaraqlcreate to foundry. We also promoted the tool in multiple discords and telegrams. Additionally, we added Foundry to the developer docs.
 (new)
 Disperse
 
@@ -46,7 +43,7 @@ https://github.com/qaraqol/disperse
 https://github.com/qaraqol/disperse-nft
 
 **Update**:
-Disperse is a versatile tool that makes bulk WAX token transfers (for purposes such as airdrops) easy by processing recipient details from CSV files, allowing users to customize parameters and execute batch transactions with ease. An NFT version is also available, enabling batch transfers of NFTs with the same easy experience.
+We advertised Disperse in multiple chats and created a tutorial for the official WAX developer docs.
 
 
 waxport:
@@ -55,22 +52,7 @@ waxport:
 https://waxport.qaraqol.com/
 https://github.com/qaraqol/waxport
 **Update** 
-During the past few weeks, Pinax's Token API that waxport is built off of has been facing repeated downtime and errors, significantly impacting the useability of our tool. We attempted to setup our own instance of the Token API, but the source code and libraries for the Pinax substream repo responsible for preparing the token API database is broken. We have been working on fixing these errors and hope the IGs can be understanding.
-
-Qaraqol Metrics:
-
-**URLs**:
-https://metrics.qaraqol.com/
-**List of SCs**:  N/A
-
-**Update**: 
-Facing issues with API provider as explained above, impacting data collection occasionally. 
-
-
----
-
-...
-...
+We talked to Pinax and they fixed the previous issue that prevented us from syncing our own Token API. Currently, we are at about 180 million blocks, however the past 60 million has taken around a week, syncing at an incredibly slow pace. 
 
 ---
 ### <ins>Backups </ins> 
