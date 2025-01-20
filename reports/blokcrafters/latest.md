@@ -32,35 +32,24 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-
-**Update**
-
-Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. Added 8 meme coins listing and moved Wuffi into the category. 
-
 *Added Listings*
-- (Meme Coin) RedOrDeadCoin, $RODC
-- (Meme Coin) The Rising Tide of Potential, $BLUWHL
-- (Meme Coin) The Buzzing Force of Innovation, $WOMBEE
-- (Meme Coin) FED - cut rates NOW, $FED
-- (Meme Coin) The Real Juan, $RJUAN
-- (Meme Coin) $ANON
-- (Meme Coin) $WIENR
-- (Meme Coin) THE $AIGOD TOKEN
+- wax.fun (Meme Coin/Community)
 
 
 **Metrics**
 
-Period: November 30, 2024 - December 8th 2024
-
-<img width="567" alt="blokcrafters_oig_metrics" src="https://github.com/user-attachments/assets/2f654101-3740-4fe3-8e2a-bad6e8055b2f">
-<img width="575" alt="blokcrafters_oig_metrics1" src="https://github.com/user-attachments/assets/aff89312-32f0-4371-bc0a-76ad53b12a4a">
-<img width="574" alt="blokcrafters_oig_metrics2" src="https://github.com/user-attachments/assets/08b6f388-1178-4601-b181-3a3a1e978355">
+Period: January 5th, 2025 - January 19th 2025
 
 
 
+<img width="575" alt="IGReport3_01-05_19-25" src="https://github.com/user-attachments/assets/4f097527-bfdf-4d2b-a9bb-48141762fc97" />
+
+<img width="575" alt="IGReport2_01-05_19-25" src="https://github.com/user-attachments/assets/1dd09c58-e715-4486-8055-198afd0bd4ae" />
+
+<img width="575" alt="IGReport1_01-05_19-25" src="https://github.com/user-attachments/assets/605592cc-171d-4a58-98dc-093907a6aacc" />
 
 
-  
+
   
 ### WaxAI
 
