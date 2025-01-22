@@ -11,17 +11,15 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-Hyperion ES Snapshots are now hosted out of Perth and Canada. 
+No outages were experienced this last period.
 
-No outages were experienced this last period however we have been experimenting with SHIP failover on our WAX Testnet Hyperion Full history, so there were a few blips.
-
-HeadsUp v0.1.7 will be release this week.
+HeadsUp v0.1.7 was released.
 
 Be sure to check out the public showcase of HeadsUp to get a feel for the platforms capability here -> https://headsup.eosphere.io/
 
-We are provisioning a new AMD EPYC server in Sydney, hopefully we can do more with less physical hardware.
+We’ve had a few issues with our new AMD EPYC server in Sydney, mainly to do with the internet routing capability of our services provider. I expect us to have these resolved over the next few weeks when end of year change embargo’s are over.
 
-Perth servers are having their RAM and DISKs upgraded, our Dell 740xd's will have 1TB of RAM.
+Perth servers have successfully had their RAM upgraded, this should give us some runway before we need to upgrade to new platforms.
 
 ### <ins>API Services</ins>
 
@@ -38,7 +36,7 @@ Perth servers are having their RAM and DISKs upgraded, our Dell 740xd's will hav
 
 **Update**: 
 
-The EOSphere Team will be releasing HeadsUp v0.1.7 this coming week.
+The EOSphere Team have released HeadsUp v0.1.7.
 
 This release introduces a few quality of life improvements and address a number a pesky bugs.
 
@@ -55,6 +53,8 @@ This release introduces a few quality of life improvements and address a number 
 
 Take a look at the public showcase -> https://headsup.eosphere.io/
 
+The next version v0.1.8 that will be released in the comingh weeks will add functionality for monitoring chains.json and bp.json services, improvements to the mobile view and addition of the soon to be released Hyperion v3.5 updated metric information.
+
 Please join our Telegram Group (https://t.me/headsup_monitoring_alerts) for the latest release information as well as github links and instructions .
 
 ---
@@ -68,11 +68,37 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we created a guide that covers how to configure and receive HeadsUp Alerts through Slack using an Incoming Webhook App.
+This month we completely updated our WAX Hyperion Full History Series bringing it up to date with the current Hyperion `v3.3.10–1` code including the current requirements and state of play on the WAX Mainnet and Testnet.
 
-**Configure HeadsUp Slack Alerts**
+**Introduction to WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-1-d2936d3c58d4
 
-https://medium.com/eosphere/wax-technical-how-to-26-7bdb63caa4c4
+**Build WAX Hyperion Software Components**
+https://medium.com/eosphere/wax-technical-how-to-15-2-a042ea8bc4b4
+
+**Configure WAX Hyperion Software Components**
+https://medium.com/eosphere/wax-technical-how-to-15-3-b188c6aa9d12
+
+**Running WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-4-f735d4cbc197
+
+**Clustering Elasticsearch for WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-5-6ae01ea6bf62
+
+**Rectify Missing Blocks in WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-6-622ae2936771
+
+**WAX Hyperion Full History Indexer Scaling**
+https://medium.com/eosphere/wax-technical-how-to-15-7-ce11fbc97c40
+
+**WAX Hyperion Streaming with a WAX Load Balancer**
+https://medium.com/eosphere/wax-technical-how-to-15-8-396dd3b0484b
+
+**Repair WAX Hyperion Indexed Data**
+https://medium.com/eosphere/wax-technical-how-to-15-9-648857d7b535
+
+**Using Data Tiers with WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-10-030540d30a23
 
 ---
 
@@ -82,7 +108,7 @@ https://medium.com/eosphere/wax-technical-how-to-26-7bdb63caa4c4
 
 **Update**: 
 
-We recently added an article on using ElasticSearch Data Tiers with WAX Hyperion Full History.
+We recently added an article on automating the creation of nodeos snapshots
 
 ---
 
@@ -90,26 +116,26 @@ We recently added an article on using ElasticSearch Data Tiers with WAX Hyperion
 
 Deeper statistics are available in our Regular Community Update.
 
-Period: November 9th 2024 - November 23rd 2024 (2 Weeks)
+Period: December 17th 2024 - December 31st 2024 (2 Weeks)
 
 **Infrastructre Stats**:
-- 75.6% of Requests are Normal API, 24.4% are Hyperion API
-- 8 to 10 Million HTTP "200"`s served per day
-- 430 Million Requests this last two weeks
+- 94.97% of Requests are Normal API, 5.03% are Hyperion API
+- 6.5 to 8 Million HTTP "200"`s served per day
+- 114 Million Requests this last two weeks
 - We provide for around 1 to 2Mil WAX Mainnet Successful Push Actions per day.
-- 1.7Mil Requests served by our Atomic API per day
+- 2Mil Requests served by our Atomic API per day
 
 **Medium Stats**:
 
-![image](https://github.com/user-attachments/assets/fb8cc6f4-66fc-4942-95e6-4dc8804aff8d)
+![image](https://github.com/user-attachments/assets/a0d85753-ff49-4de3-a643-5239c68b0625)
 
-![image](https://github.com/user-attachments/assets/99bf3c78-1b46-4037-9b34-5a49800ea4f6)
+![image](https://github.com/user-attachments/assets/3bcdad93-2a11-47a2-adca-5ed8d4767346)
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/user-attachments/assets/2fe4905f-51b3-4ca4-bd16-31a33d498487)
+![image](https://github.com/user-attachments/assets/78f4f04b-cad6-4e73-b211-0f01b5928815)
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
@@ -121,7 +147,7 @@ Initiative A: Regular Community Update
 
 We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
 
-Here is November -> https://medium.com/eosphere/eosphere-guild-november-24-update-ff5ae607c72f
+Here is December -> https://medium.com/eosphere/eosphere-guild-december-24-update-b6ad2769a582
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -134,6 +160,6 @@ URL: https://snapshots.eosphere.io/
 
 
 ### <ins>Feedback to OIG</ins>
-All good cheers team.
+Feedback on the two week update windows for our perspective, we may use a shorter update time in the future however we prefer the 6 week sprints right now.
 
 ----
