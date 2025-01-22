@@ -12,14 +12,18 @@
 
 ### <ins>Noteworthy</ins>
 
-Polishing and adding more features to WAX Signals product. Maintaining and fixing issues according to Hetzner maintenance.
+1. Pixel Journey and WAX Deer Jungle Club joined our guild, anouncement in progress.
+2. Ongoing upgrading WAX Testnet infrastructure.
+3. Ongoing fixes of ES curator deleted part of Hyperion Mainnet data.
+4. Requests to our public APIs increased x2.
+5. TVL, Volume, UAW, Tx increased x10.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [] | [x] | [x] | [x] | [x] |
-| 126449 req/week | - | 43135 req/week | 339728 req/week | 4973 req/week |  1736 req/week |
+| 274139 req/week | - | 36577 req/week | 733642 req/week | 7761 req/week |  4423 req/week |
 
 **Others APIs: **
 
@@ -45,17 +49,17 @@ Swap (AMM) using bancor algorithm similar to Uniswap V2. Trade tokens and provid
 
 **Update**
 
-Listed: TLM/WOMBAT/WAXUSDC
+New Listing: PXJ/KING/ANTLERS
 
 **Metrics**
 
-* TVL: 690 WAX
-* Volume: 276 WAX (30 days)
-* UAW: 190 (30 days)
-* Transactions: 400 (30 days)
+* TVL: ~120000 WAX
+* Volume: ~4777 WAX (30 days)
+* UAW: ~270 (30 days)
+* Transactions: ~792 (30 days)
 
-* Visits: 380 (30 days)
-* Page views: 630 (30 days)
+* Visits: 490 (30 days)
+* Page views: 820 (30 days)
 
 
 ![wax a-dex io_swap(iPhone 14 Pro Max) (3)](https://github.com/A-DEX/waxguilds/assets/24969602/731eafe7-5c6e-4159-9265-6a8441ebcc9f)
@@ -66,6 +70,10 @@ Listed: TLM/WOMBAT/WAXUSDC
 **List of SCs**: swap.adex
 
 DEX analytics with core metrics(TVL, Volume, UAW, Transaction, Fees, APY, Actions). All data is available from our GraphQL API.
+
+**Update**
+
+Added APR metric, and fixed UI issues.
 
 **Metrics**
 
@@ -84,7 +92,7 @@ Web wallet for managing your tokens, sending tokens anywhere(CEX, DEX, dApps). C
 ![wax a-dex io_swap(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/d9041457-48bc-4dee-a28e-59bc2b20e2e3)
 
 **Update**
-Added: TLM/WOMBAT/WAXUSDC/WAXUSDT
+Added: PXJ/KING/ANTLERS/YEET
 
 ---
 
@@ -104,6 +112,52 @@ An SDK for building applications on top of A-DEX.
 
 Downloads: ~100/month
 Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
+
+---
+
+### Pixel Journey (https://pixeljourney.xyz)
+**List of SCs**: pixeljourney
+Docs:(https://docs.pixeljourney.xyz)
+
+Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Polygon and Ethereum, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse.
+
+**Update**
+Launched $KING campaigns on wax.fun, ~70K WAX invested. Reached ~50K $ market cap.
+
+**Metrics**
+
+* Visits: ~700 (30 days)
+* Rewards via farms: ~900K PXJ/monthly; ~8M YEET/monthly; ~12 NFTs/daily
+* Rewards for holders via airdrops: ~3.1M PXJ/month
+* Rewards for NFT holders via WaxDAO Staking: ~900k PXJ/month; ~8M WUF/month;
+* Rewards for discord community events: ~500 WAX/week
+* Rewards for end-of-year bountyblok: ~40K WAX(special prize pool)
+
+---
+
+### WAX Deer Jungle Club(https://waxdeer.com)
+**List of SCs**: tok.waxdeers
+**Collection**: (https://wax.atomichub.io/explorer/collection/wax-mainnet/waxdeerjc)
+
+WAX DEER JUNGLE CLUB NFT project, where artistry meets innovation in a symphony of utility and community-led growth. Our project stands as a beacon in the NFT space, showcasing unique, one-of-a-kind NFTs, underpinned by a dedicated token that anchors our vibrant economy.
+
+**Metrics**
+
+* Visits: ~4013 (7 days)
+
+---
+
+### WAX Deer World(WDW) (https://deerworld.io)
+**List of SCs**: faw.waxdeers, tok.waxdeers
+
+Wax Deer World (WDW) is the latest immersive farming game from the WDJC project, designed exclusively for the NFT space. Equip yourself with unique tools, gather rare resources, claim land to grow your farm, and experience the innovative world of farming within the WDJC ecosystem. Build, explore, and thrive in this exciting addition to the WDJC universe.
+
+**Metrics**
+
+* UAW: ~50 (7 days)
+* Transactions: ~3320 (7 days)
+
+* Visits: ~3347 (7 days)
 
 ---
 
@@ -142,6 +196,36 @@ We are created and maintaining Antelope Servers telegram group.
 
 ---
 
+### Pixel Journey X (https://x.com/PxJourney) - Ecosystem
+
+**Metrics**
+
+Promoting, engage people with WAX ecosystem on X
+
+* Followers: 3000
+
+---
+
+### Pixel Journey Discord (https://discord.gg/kQM6QGnGaH) - Ecosystem
+
+Promoting, engaging people with WAX ecosystem and bulding community on Discord
+
+**Metrics**
+
+* Members: 1463
+
+---
+
+### WAX Deer Jungle Club Discord (https://discord.gg/QdEtczNJ) - Ecosystem
+
+Promoting, engaging people with WAX ecosystem and bulding community on Discord
+
+**Metrics**
+
+* Members: 795
+
+---
+
 ### <ins>Backups </ins>
 
 | Chain DB Snapshot | Blocks Log | State History | Elastic Search | AA API |
@@ -152,9 +236,5 @@ Source: https://snapshots-wax.a-dex.xyz
 
 ### <ins>Feedback to OIG</ins>
 
-1. Same issue with missing communication with WAX Team, multiple emails were send, but still no reply for months.
-
-2. Our guild would like to support splitting initiative by TechOps and Products guilds, currently too much funds and time spent on not used infrastructure and nothing granted for products.
-
-3. We do not agree for granting zero points for WAX Signals product, members reached to 20 and show some interest. Also we are using Thalos for real time processing, but Telegram API rate limits are pretty low so we will not track all transactions. If nothing will change to grant something for products, even small amount(±300-500$), it will lead to discontinue and shut down the products.
+N/A
 ----
