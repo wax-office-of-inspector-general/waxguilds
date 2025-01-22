@@ -117,11 +117,13 @@ Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
 
 ### Pixel Journey (https://pixeljourney.xyz)
 **List of SCs**: pixeljourney
+
 Docs:(https://docs.pixeljourney.xyz)
 
 Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Polygon and Ethereum, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse.
 
 **Update**
+
 Launched $KING campaigns on wax.fun, ~70K WAX invested. Reached ~50K $ market cap.
 
 **Metrics**
@@ -135,8 +137,9 @@ Launched $KING campaigns on wax.fun, ~70K WAX invested. Reached ~50K $ market ca
 
 ---
 
-### WAX Deer Jungle Club(https://waxdeer.com)
+### WAX Deer Jungle Club (https://waxdeer.com)
 **List of SCs**: tok.waxdeers
+
 **Collection**: (https://wax.atomichub.io/explorer/collection/wax-mainnet/waxdeerjc)
 
 WAX DEER JUNGLE CLUB NFT project, where artistry meets innovation in a symphony of utility and community-led growth. Our project stands as a beacon in the NFT space, showcasing unique, one-of-a-kind NFTs, underpinned by a dedicated token that anchors our vibrant economy.
@@ -204,21 +207,25 @@ Promoting, engage people with WAX ecosystem on X
 
 * Followers: 3000
 
+![x_pixel](https://github.com/user-attachments/assets/43f964f8-2368-4ca0-a2e5-f9544bf29404)
+
 ---
 
 ### Pixel Journey Discord (https://discord.gg/kQM6QGnGaH) - Ecosystem
 
-Promoting, engaging people with WAX ecosystem and bulding community on Discord
+Promoting, engaging people with WAX ecosystem and building community on Discord
 
 **Metrics**
 
 * Members: 1463
 
+![photo_2025-01-22_18-46-44](https://github.com/user-attachments/assets/e45655df-c38e-40d6-b34b-f47273cdf532)
+
 ---
 
 ### WAX Deer Jungle Club Discord (https://discord.gg/QdEtczNJ) - Ecosystem
 
-Promoting, engaging people with WAX ecosystem and bulding community on Discord
+Promoting, engaging people with WAX ecosystem and building community on Discord
 
 **Metrics**
 
