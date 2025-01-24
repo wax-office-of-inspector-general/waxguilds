@@ -34,23 +34,21 @@ darkcountryz, darkcountrys, darknovastak, exportexport
 
 **Update**: 
 
-Season 1 was finished, sent prizes to top 25 participant worth ~ 3 000 USD total, and around 1500 USD worth in SDM. 
+1.Season 2 was started December 5th, 
 
-This is seasonal report, on how many exp points they gained (1st column), and how many games were played within 4 month of Season 1 by players, and how many wins they did(3rd column). 
+New season has new updates regardiong how points being calculated, also reduced duration is to 2 months instead of 4 months. Prizes going to be changed as well, 
 
-![image](https://github.com/user-attachments/assets/7389255f-7985-4859-b710-8a0b42c4271a)
-![image](https://github.com/user-attachments/assets/16e9c43c-73e5-4f06-b89c-76b3fc4f3f57)
+2. Dark Country, Mobile application released on Android https://play.google.com/store/apps/details?id=com.ImmortalGames.DarkCountry
+3. Number of bugs fixes (cards, some of Lands backend issues)
+4. Added a way to ban users for certain activities in game per user reports
 
+Period: October 15st, 2024 - December 13th 2024
 
-Re-launched  SDM/WAX, SDM/WUFFI WUFi farming at Alcros with APR 300%+ 
-
-Period: Septmber 1st, 2024 - October 15th 2024
-
-**Sales of NFTs, 720$ total over last 60 days
+**Sales of NFTs, 1000$ total over last 60 days
 UAW on chain: ~75 
-game DAU: 35, average time 2.5 hour ( same DAU as it was before) 
-384 (+6 new)  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes ,
-Over 148 000 of Dark Country NFTs staked in game at the moment (+ 2000 NFTs from previous period was staked in the game). 
+game DAU: 45, average time 2.5 hour ( same DAU as it was before) 
+386 (+2 new)  unique wallets staked in the game their assets: https://wax.bloks.io/account/darkcountryn?loadContract=true&tab=Tables&account=darkcountryn&scope=darkcountryn&limit=100&table=stakes ,
+Over 148 200 of Dark Country NFTs staked in game at the moment (+ 200 NFTs from previous period was staked in the game). 
 
 ---
 ### Collect.Social
@@ -101,21 +99,22 @@ Period: Septmber 1st, 2024 - October 15th 2024
 Period: Septmber 1st, 2024 - October 15th 2024
 
 ---
-### WAX.FUN (in development)
+### WAX.FUN (Released) 
 
 **URLs**: wax.fun
 
-**List of SCs**: not deployed in mainnet
+**List of SCs**: not deployed in mainnet: 
+main.waxfun, list.waxfun, alpha.waxfun, beta.waxfun, gamma.waxfun, theta.waxfun,  delta.waxfun 
 
 **Update**: 
-"This is memecoin creation platform similar to pumpfun/sunmeme and others. See designs below. " 
-![image](https://github.com/user-attachments/assets/95e262e7-6758-49c1-adf6-142fa736b540)
+ https://medium.com/@waxfun Introductional article is over here
+First update is rolled out within first 48 hours, more to come
 
-![Token info](https://github.com/user-attachments/assets/7f6fefae-41c2-4682-bebe-373dba13e7d5)
+**Metrics** 
 
-![Launch](https://github.com/user-attachments/assets/1654abb9-7d35-4369-a276-7b5447cb2bf9)
-
-Plans to release in 2-3 weeks (1st Nov-7th Nov)
+90 meme coins were created within first 48 hours of project usage
+Around 20 000$ trading volume within first 48 hours 
+50 members joins telegram channel and 80 folloeers in X, all organic
 
 ---
 ### Game development articles
@@ -123,21 +122,31 @@ Plans to release in 2-3 weeks (1st Nov-7th Nov)
 **URLs**: dapplica.io/blog 
 
 **Update**: 
-Articles were approved, and Labs proposal closed succesfully 
-Plan to submit final 2 articles into wax dev portal
+[Preparing an artciles ](https://dapplica.io/blog/game/part-21-writing-tests-for-wax-smart-contracts/) New article released
 **Metrics**
+
+### WAX Watcher Bot (NEW PRODUCT)
+
+**URLs**: [https:/t.me/atomicnotifybot](https://t.me/WaxWatcher_bot)
+
+ This is the WAX Wallet Monitoring Bot. Stay in control of your wallet with real-time updates and alerts. Select an option below to get started
+
+**Metrics**
+
+Period: Just released, first users are in 
 
 ---
 
 ### AtomicNotifyBot
 
 **URLs**: https:/t.me/atomicnotifybot
+Did a review of functionality as per report, checking all of the notifyining functions
 
 **Metrics**
 
-Period: Septmber 1st, 2024 - October 15th 2024
+Period: October 15th, 2024 - December 13th 2024
 
-stats on the bot: Users: 302(+1 new user) , Wallets: 182(no new wallets)
+stats on the bot: Users: 307(+5 new user) , Wallets: 192(+10 new wallets)
 
 ---
 

@@ -11,9 +11,7 @@
 | Guild Jurisdiction | Greenville, SC, USA |
 
 ### <ins>Noteworthy</ins>
-This period has been a tough period due to the fact the entire region got smashed by Hurricane Helene.  Power grid and primary communications provider (Spectrum) for the data center were knocked offline Friday AM Sept 27.  Backup generator and backup fiber connections kicked in and kept the datacenter up and running, however public API access could not failover as the backup circuits cannot handle the few 100mbit of API traffic. During the hurricane I also had a tree fall on my house and was without power for a week, so as long as the hamster wheel kept spinning, I had other dumpster fires to attend to :)  Power and primary communications at the datacenter were recovered by Sunday PM Sept 29 (although would have intermittent issues while they repaired the grid).
-
-Working to get our Hyperion clusters all updated to the latest 3.5.0 versions.  As we are building new servers for these versions, we are decomissioning our WAX Testnet Atomic API as there is no incentive to continue it's operations (no paying customers and no points for offering it :) ).
+All mainnet and testnet Hyperion servers have been updated to 3.5.0 and worked with Igor to identify and address issues with the new version
 
 ### <ins>API Services</ins>
 
@@ -123,13 +121,10 @@ Still attending weekly Antelope Node Operators call to learn latest Antelope dev
 **URLs**: https://ibc.eosusa.io
 
 **Update**: 
-So, as I'm sure you are by now aware, the IBC services between WAX and EOS stopped working once EOS activated their new instant finality consensus protocol. I spent hours reaching out and contacting all of the technical contacts for the Antelope-based chains to get their general stance on the Spring/IBC tech going forward and determining what might be needed to get IBC operational again (mostly work related to the proof server services).  All have expressed that the IF/IBC tech is not high on their priority list so no resources or funding would be available to complete the work needed.  Alcor has disabled the EOS/WAX bridging in their interfaces but there are still users attempting to bridge tokens and getting them stuck.  I'm working to determine what is needed to temporarily halt the contract deposits and continue working to see if the community itself wants to continue development/support of the software or if things will truly just be abandoned.
+We have completed the first phase of the work to unlock the IBC tokens stuck on EOS trying to bridge back to their native WAX, Telos, and UX chains.  The Alcor BP team modified the IBC contracts to prevent additional IBC transfers on EOS and those changes were proposed to the EOS top21 BPs for review last night.  The contract changes have been reviewed, approved by 15+ BPs, and successfully executed (within about 12 hours total).
+https://github.com/avral/ibcwraplockfix/commit/72c2f8c8a5631d81acfc868bca770327fead3c69
 
-**Metrics**
-Period: September 1st, 2024 - October 15th, 2024 (few days offline)
-
-Stats:
-- 50 reqs/day across all IBC nodes/services (2,200 total for period); primarily hits on the WAX & EOS IBC Proof servers
+Alcor has then presented an update to the WAX/EOS IBC contract that creates a new action to manually complete the bridging of the stuck tokens.  They have also been provided a JSON of the transactions that need to be executed once the contract has been updated (as the WAX team controls the keys to the IBC account now).  These were provided to the WAX team before Christmas but have not heard any updates back from the WAX team regarding the status (we've asked a few times).
 
 ---
 
