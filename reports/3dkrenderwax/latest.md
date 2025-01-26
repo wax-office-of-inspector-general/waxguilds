@@ -12,12 +12,15 @@
 
 ### <ins>Noteworthy</ins>
 
-We detected some missing transactions in several blocks indexed in Hyperion, so we performed maintenance and recovery tasks on December 14. The affected blocks were successfully restored.
+Our Hyperion service on mainnet showed 2 missed blocks. During the repair process, we encountered some issues while attempting to use the hyp-repair tool. These issues were caused by a port configuration problem that occurred because our Hyperion system had been updated from versions prior to the introduction of this repair tool. This is a known issue, so we have added an explanation and solutions to the Hyperion GitHub repository. You can find it here:
+
+[https://github.com/eosrio/hyperion-history-api/issues/143](https://github.com/eosrio/hyperion-history-api/issues/143)
+
+The missed blocks were successfully recovered.
 
 **Testnet**
 
-In Testnet we have upgraded our Hyperion service to version 3.5 so that it can join the Hub service "QRY Network". For the moment we will only be testing with version 3.5 in Testnet until we have guarantees of stability.
-![QRY Network](https://3dkrender.com/wp-content/uploads/2024/10/hyperion_testnet.png)
+On testnet, our Hyperion service experienced a severe incident that required a full reindexing, resulting in almost two days of downtime on January 24-25.
 
 ### <ins>API Services</ins>
 
