@@ -35,25 +35,29 @@ Others APIs: none at the moment
 
 **Update**
 
-- Moved Alcor and DefiBox out of the Exchange category. Made a new category "DEX" With 5 Decentralized exchange's available on WAX it makes sense to have DEX be its own category. Re ordered waxdapps resources to be ordered based on the categories with most user traffic to least.
+Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. Added 8 meme coins listing and moved Wuffi into the category. 
 
 *Added Listings*
+- (Meme Coin) RedOrDeadCoin, $RODC
+- (Meme Coin) The Rising Tide of Potential, $BLUWHL
+- (Meme Coin) The Buzzing Force of Innovation, $WOMBEE
+- (Meme Coin) FED - cut rates NOW, $FED
+- (Meme Coin) The Real Juan, $RJUAN
+- (Meme Coin) $ANON
+- (Meme Coin) $WIENR
+- (Meme Coin) THE $AIGOD TOKEN
 
-* A-DEX (DEX)
-* Neftyswap (DEX)
-* Taco Swap (DEX)
-* WAX On Edge (DEX)
 
 **Metrics**
 
-Period: October 16, 2024 - November 10th 2024
+Period: November 30, 2024 - December 8th 2024
 
-*Stats*
+<img width="567" alt="blokcrafters_oig_metrics" src="https://github.com/user-attachments/assets/2f654101-3740-4fe3-8e2a-bad6e8055b2f">
+<img width="575" alt="blokcrafters_oig_metrics1" src="https://github.com/user-attachments/assets/aff89312-32f0-4371-bc0a-76ad53b12a4a">
+<img width="574" alt="blokcrafters_oig_metrics2" src="https://github.com/user-attachments/assets/08b6f388-1178-4601-b181-3a3a1e978355">
 
 
-<img width="450" alt="10-11-24_waxdapps1" src="https://github.com/user-attachments/assets/4e108004-60a2-4e38-826b-38eced4b2246">
-<img width="500" alt="10-11-24_waxdapps2" src="https://github.com/user-attachments/assets/224d4bae-4b3f-456f-b08e-f105de4be5f6">
-<img width="400" alt="10-11-24_waxdapps3" src="https://github.com/user-attachments/assets/0d7b8c8b-7cdb-4fec-a339-ff2a36d8a5dd">
+
 
 
   
@@ -79,7 +83,7 @@ Period: October 16, 2024 - November 10th 2024
 
 **Metrics**
 
-Period: October 16th, 2024 - November 10th 2024
+Period: November 30th, 2024 - December 8th 2024
 
 *Stats*
 No stats to share for this reporting period

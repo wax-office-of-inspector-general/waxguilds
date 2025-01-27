@@ -12,14 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-Launched a new product: WAX Signals(https://t.me/waxsignals). Listed more tokens on swap & analytics. Provided Snapshots && AA dumps.
+Polishing and adding more features to WAX Signals product. Maintaining and fixing issues according to Hetzner maintenance.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [] | [x] | [x] | [x] | [x] |
-| 158862 req/week | - | 37611 req/week | 122709 req/week | 5040 req/week |  1729 req/week |
+| 126449 req/week | - | 43135 req/week | 339728 req/week | 4973 req/week |  1736 req/week |
 
 **Others APIs: **
 
@@ -30,12 +30,13 @@ Launched a new product: WAX Signals(https://t.me/waxsignals). Listed more tokens
 ### WAX Signals (https://t.me/waxsignals)
 **List of SCs**: swap.adex, swap.box, swap.taco, swap.nefty, swap.alcor, alcordexmain
 
-Real-time telegram alerts about DeFi activity on WAX Mainnet:
+Real-time telegram alerts about DeFi & Whales activity on WAX Mainnet:
 * swap
 * spot
 * listing
 * inflow
 * outflow
+* transfer
 
 ### A-DEX Swap (https://wax.a-dex.io/swap)
 **List of SCs**: swap.adex
@@ -48,12 +49,12 @@ Listed: TLM/WOMBAT/WAXUSDC
 
 **Metrics**
 
-* TVL: 716 WAX
-* Volume: 316 WAX (30 days)
-* UAW: 200 (30 days)
-* Transactions: 236 (30 days)
+* TVL: 690 WAX
+* Volume: 276 WAX (30 days)
+* UAW: 190 (30 days)
+* Transactions: 400 (30 days)
 
-* Visits: 330 (30 days)
+* Visits: 380 (30 days)
 * Page views: 630 (30 days)
 
 
@@ -68,8 +69,8 @@ DEX analytics with core metrics(TVL, Volume, UAW, Transaction, Fees, APY, Action
 
 **Metrics**
 
-* Visits: 80(30 days)
-* Page views: 210(30 days)
+* Visits: 30(30 days)
+* Page views: 90(30 days)
 
 ![wax a-dex io_analytics(iPhone 14 Pro Max) (1)](https://github.com/A-DEX/waxguilds/assets/24969602/f93e7993-bc44-4051-b6dc-ee4a678b274f)
 
@@ -101,7 +102,7 @@ An SDK for building applications on top of A-DEX.
 
 **Metrics**
 
-Downloads: ~80/month
+Downloads: ~100/month
 Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
 
 ---
@@ -137,7 +138,7 @@ We are created and maintaining Antelope Servers telegram group.
 
 **Metrics**
 
-* Members: 110
+* Members: 106
 
 ---
 
@@ -151,5 +152,9 @@ Source: https://snapshots-wax.a-dex.xyz
 
 ### <ins>Feedback to OIG</ins>
 
-N/A
+1. Same issue with missing communication with WAX Team, multiple emails were send, but still no reply for months.
+
+2. Our guild would like to support splitting initiative by TechOps and Products guilds, currently too much funds and time spent on not used infrastructure and nothing granted for products.
+
+3. We do not agree for granting zero points for WAX Signals product, members reached to 20 and show some interest. Also we are using Thalos for real time processing, but Telegram API rate limits are pretty low so we will not track all transactions. If nothing will change to grant something for products, even small amount(±300-500$), it will lead to discontinue and shut down the products.
 ----

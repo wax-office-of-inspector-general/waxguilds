@@ -30,8 +30,8 @@
 **List of SCs**: nft.hive, nfthivepacks, nfthivecpu4u, nfthivedrops, nfthivehoney, nfthivepacks, nfthivecraft, nfthivevault, clltncattool, verifystatus, twitchreward, wufclaimtool  
 
 **Update**: 
-* Improved Token Ingredients for Crafting
-* Lots of smaller UI and Bugfixes
+* Maintenance and Bug Fixes
+* Started integrating WAX API
 
 **Metrics**
 
@@ -40,23 +40,23 @@ Period: May 1st, 2024 - May 31st 2024
 Stats:
 
 * Market
-Volume: 2,367,934.93488023 WAX / $76,714.49
-Buyers: 1097
-Sellers: 1584
-Sales: 45015
+Volume: 805,220.60277964 WAX / $30,716.26
+Buyers: 653
+Sellers: 1010
+Sales: 28576
 
 ---
 * Drops
-Volume: 260,310.63315005 WAX / $7,825.01
-Buyers: 519
-Sellers: 60
-Sales: 8196
+Volume: 53,157.86421934 WAX / $1,795.52
+Buyers: 469
+Sellers: 58
+Sales: 6086
 
 ---
 * Crafting
-Recipes: 32
-Crafters: 278
-Actions: 2064
+Recipes: 47
+Crafters: 217
+Actions: 1365
 
 ### WAXMarketCap
 
@@ -65,7 +65,9 @@ Actions: 2064
 **List of SCs**: -
 
 **Update**:
-* Nothing
+* Retired old Analytics Server
+* Switched entirely to WAX API
+* See migrated endpoints (v3) at WAX API Documentation: https://hivebp.github.io/wax-api/
 
 ### RWAX
 
@@ -74,12 +76,19 @@ Actions: 2064
 **List of SCs**: rwax, token.rwax, waxtokenbase
 
 **Update**:
-* Design finished
-* Frontend Development started and almost complete
+* Token creation implemented
+* Token page added
+* Browse currently tokenized NFTs
+* Browse Market for tokenizable NFTs
+* Browse NFTs that can be tokenized in inventory
+* Still some tests and refining necessary before release
 
 ### WAX API
 
-**URLs**: https://github.com/hivebp/wax-api, https://wax-api.hivebp.io/api/schemas/alien.worlds, 
+**URLs**: 
+https://github.com/hivebp/wax-api
+https://hivebp.github.io/wax-api/
+https://wax-api.hivebp.io/api/schemas/alien.worlds, 
 https://wax-api.hivebp.io/api/assets?collection=maiden.funko&schema=series1.drop&attributes=rarity:Legendary,
 https://wax-api.hivebp.io/api/listings?order_by=price_asc
 
@@ -90,10 +99,12 @@ waxdaobacker
 
 **Update**:
 * Published API at https://github.com/hivebp/wax-api
-* Filler for irreverisble blocks functional, but DB schema and logic is still being changed as endpoints are developed
-* Schemas, Assets and Listings Endpoints released
-* DB Schema exported
-* Snapshot will be generated towards the end of development
+* Documentary added at: https://hivebp.github.io/wax-api/
+* See all added endpoints in the documentary above
+* Filler completed
+* Snapshot created and linked (see README)
+* APIs most common endpoints complete, now adding needed endpoints over time
+* Started RWAX support: https://wax-api.hivebp.io/api/rwax-tokens
 
 ### Telegram Bot
 
@@ -102,9 +113,7 @@ waxdaobacker
 **List of SCs**: -
 
 **Update**:
-* Not sure if it was already reported, but I notice we're in decay. We actually recently added a feature to receive 
-daily floor price changes of your inventory. It helps users to notice when the value of their inventory goes up or that
-there are items they're able to sell now.
+Nothing
 
 ### <ins>Marketing</ins>
 

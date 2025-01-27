@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report October 2024
+# Guild Report January 2025
 
 ### <ins>General</ins>
 |  |  |
@@ -30,19 +30,16 @@
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
 **Update**: 
-* Much higher TXs as school/semesters/back to work season begins
-* New client: Still under construction "Campeonato Bursátil"
-  ![logo](https://github.com/user-attachments/assets/f62070aa-ffc8-4219-8057-3972d538f999)
-
+* No new client
 
 **Metrics**
 
-Period: September 1, 2024 - October 15, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total WAX TXs | 9,087,242 |
-| New Clients | 1 |
+| Total WAX TXs | 4,931,765 |
+| New Clients | 0 |
 ---
 
 ### Product #2: Smart Asset Distribution Tool
@@ -50,18 +47,19 @@ Period: September 1, 2024 - October 15, 2024
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Ability to edit existing template/schema points settings.
-  ![Droptool#1](https://github.com/user-attachments/assets/ba572b47-6da2-47aa-b89e-8834321f2f10)
+ Added 2 new languages Mandarin and Arabic
+  ![droptool (1)](https://github.com/user-attachments/assets/4bc8163e-418a-4860-9234-b401af18291e)
+
 
 **Metrics**
 
-Period: September 1, 2024 - October 15, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| New Projects added | 2 |
-| Total distributions | 787 |
-| Total assets distributed | 2,501,577 |
+| New Projects added | 7 |
+| Total distributions | 665 |
+| Total assets distributed | 99,717 |
 ---
 
 ### Product #3: Gift NFT
@@ -69,128 +67,124 @@ Period: September 1, 2024 - October 15, 2024
 **URLs**: https://giftnft.io/
 
 **Update** 
-*  MAJOR site revamp - overall new theme, replaced old NFTs like Blockchain heroe
-![GiftNFT#1](https://github.com/user-attachments/assets/c7d93847-1d7b-439a-b491-cc2533f94b73)
-
-* Fixed a few bugs reported by Nikhil Sadalkar
+*  Add option to allow users to select WAX API endpoint if one of them is having issues.
+![giftnft1](https://github.com/user-attachments/assets/9cf4f171-83cb-4f73-9e52-90ac5591c0e8)
 
 
 **Metrics**
 
-Period: September 1, 2024 - October 15, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 7 |
+| Total Gifts sent | 11 |
 ---
 
 ### Product #4: Contest Giveaway Platform
 
-**URLs**: https://wax.contest.bountyblok.io / https://solana.contest.bountyblok.io/ 
+**URLs**: https://wax.contest.bountyblok.io
 
 **Update** 
-* New Medium task asking users to follow the user on Medium
-  ![#1](https://github.com/user-attachments/assets/2ef0940e-fecf-463b-85ef-2fa837219b9f)
+* Ability to hide tasks and only show 1 task at a time
+ ![contesttool-1](https://github.com/user-attachments/assets/8b7e1e05-ff7b-4bba-ade2-ba52cf122a8b)
 
-* New Medium task asking users to react to a post
-  ![#2](https://github.com/user-attachments/assets/647bdc4c-1706-4b28-8d4f-64992d0ddf8f)
+* Allow users to earn more entries as they buy more NFTs for hold nft tasks
 
-* Template names are now visible on the analytics screen for Burn NFT actions
-  ![#3](https://github.com/user-attachments/assets/e302fa20-3e0f-43ed-a948-0a77f3191d72)
+* Unique / secret code task similar to gleam
+ ![contesttool-3](https://github.com/user-attachments/assets/f806510e-a6de-49a7-8e87-1acae97b1f0d)
+
+
+* Clicking on walletname in the leaderboard should direct to their atomichub/hive/neftyblocks profile rather than waxblock
+
+* Ability to allow creators to edit # of entries earned for a specific action
+  ![contesttool-5a](https://github.com/user-attachments/assets/4c1f9e12-5f83-4cbf-8d77-f82316467df3)
+  ![contesttool-5b](https://github.com/user-attachments/assets/64b9a2c9-3428-42a2-9f19-6bc4340a2b0f)
+
+* Fixed a bug with "Contract Action" task which was preventing creators to select "Atleast" for min required qty
+
+* Allow premium dropbox urls for Upload Creative Action
+  ![contesttool-7](https://github.com/user-attachments/assets/90353f86-58ca-4b8d-90ca-d1e54dbd7c15)
+
   
-* Added a minimum required quantity field for hold NFT action. Only users who hold the minimum quantity will be able to complete the action.
-  ![#4](https://github.com/user-attachments/assets/9efac732-d420-4fd1-99d6-f256ac42b1f7)
-
-* Added the ability to set a minimum number of mandatory tasks that must be completed to unlock optional tasks.
-  ![#5](https://github.com/user-attachments/assets/07f25126-2686-4713-ac56-e932b518e1b1)
-
-* Added NFTHive to the list of available marketplaces for Hold NFT actions.
-  ![#6](https://github.com/user-attachments/assets/bfe76a3b-5279-4629-b357-93cdb0e3a0ba)
-
-* Privado ID proof of human integration to contest tool to fight bots. To complete a the verification users must scan their face and verify the generated proof.
-  More details on the medium blog post and on how others can integrate this on their WAX web app
-  ![#7](https://github.com/user-attachments/assets/8b035359-6468-4141-b951-ec50f56fb87d)
-
-* Various bugs fixes
+* Various UI tweaks and fixes
 
 **Metrics**
 
-Period: September 1, 2024 - October 15, 2024
+Period: November 23, 2024 - January 3, 2025
 
 |  |  |
 | --- | --- |
-| Total Contests | 50 |
-| Total Entries | 36,684 |
-| Total X Follows | 6,786 |
-| Total X Reposts | 1,355 |
-| Total X Likes | 1,320 |
-| Total new X Posts | 1,313 |
-| Total Discord Joins | 2,269 |
+| Total Contests | 99 |
+| Total Entries | 101,131 |
+| Total X Follows | 23,504 |
+| Total X Reposts | 6,637 |
+| Total X Likes | 7,079 |
+| Total new X Posts | 7,223 |
+| Total Discord Joins | 9,105 |
 ---
 
+### NEW Product #5: Official WAX Status 
+
+**URLs**: https://status.wax.io/
+
+**Update** 
+* We’re excited to announce the launch of the WAX Network Status Page: https://status.wax.io
+
+Similar to status pages for networks like Sui (status.sui.io) and Solana (status.solana.com), this page monitors major outages and provides updates for the WAX community and builders. It is not intended for OIG to monitor guilds but rather to keep the community informed about issues with:
+
+Block Production: >2/3 of guilds are missing rounds.
+Public APIs: >2/3 are down or delayed by >5 minutes.
+RNG Oracle: queue exceeds 300.
+Core Services: Explorers, marketplaces, WCW website and Wallet APIs.
+Mainnet+Testnet.
+
+The status page relies on several Python scripts and cron jobs and will evolve over time with more features. WAX team will be linking it to the wax.io page as well.
+
+Special thanks to: 1) sentnl for the missing rounds API. 2) Anders + Nick for their feedback and suggestions.
+
+The status page is official and the WAX team linked it on their home page
+![screenshot-www_wax_io-2025_01_04-10_14_36](https://github.com/user-attachments/assets/21118387-7df4-4071-90b9-e00074889c02)
+
+
+---
 ### NEW: Technical Articles 
 
 **URLs**: https://bountyblok.medium.com/
 
-1. How to Integrate Privado ID to WAX: Proof of Human Features for Web3 Apps
-
-https://bountyblok.medium.com/how-to-integrate-privado-id-to-wax-proof-of-human-features-for-web3-apps-4777cfc8c424
+* No new article
 
 ---
 ### Novopangea 
-* Working on tower defense game on steam with novo war skin
-* Many Novo War engagement streams example: https://x.com/i/broadcasts/1PlJQbdzpbWxE
-* Obtained Official WAX Gaming spotlight: https://x.com/Novopangeaio/status/1839386365181784138
-* Finishing statues to release on Upland
-  
+* Working with Mike to give the game to a capable team: Dapplica, WAX game studio, spielworks etc etc - will share more info soon
+
+ 
 ---
 
 ### Avalon
-* Currently on private beta on Steam !!!
-  ![Untitled_2](https://github.com/user-attachments/assets/1c4bc690-ac3f-454d-b34a-7969c2a8dda2)
-
-* Live 2 years, check out some player's POV screenshots: https://medium.com/@DanuGames/the-art-of-avalon-a-visual-journey-through-our-alpha-players-eyes-1e5ef5d7d7f1
+* Year in review: https://medium.com/@DanuGames/avalon-2024-a-year-of-milestones-and-innovation-in-game-development-0ccd40b79f77
+* Point 7) in article heavily relies on bountyblok tools and custom APIs for them !! "NFT Reward Distribution: We implemented an automatic quest-related NFT reward distribution system that integrates seamlessly between the UE4 engine and players’ wallets, bridging gaming achievements with tangible rewards."
 
 ---
 
 ### Polygon CDK/AggLayer L2
-* Ares+ release this October + upcoming meeting
-  ![image](https://github.com/user-attachments/assets/0d4f7c98-1769-4e39-929b-c6427ae1f222)
+* no new update
 
----
+### WAX Holidays Calendar
+* Worked with MAXY and their WAXHolidaysCalendar from Dec 1 - 31.
+* Tons of giveaways throughout december powered by bountyblok contests such as https://bblk.io/LEN7
+* Sponsored this event: https://x.com/queencristalla/status/1865081803574567411?t=dYsjQVVT0I_jO9X7_Sex5g&s=19
+* We got WHC Creator role on their discord https://discord.gg/maxylab-multichain-765740558445969408
+* Sponsor TX: https://waxblock.io/transaction/d66c18b8abd2b2711d472e90952ff4c623ab9bd3fc3975bd374375aa3920c81d
+* Advent calendar powered by bblk
+  
+  ![screenshot-docs_google_com-2025_01_04-10_38_38](https://github.com/user-attachments/assets/b1b1ee7e-0033-43c8-9793-1334a413fa27)
 
-### Privado Partnership
-* Privado ID (privado.id) is super bullish on WAX and its community and are fully aware of them.
-* We recently integrated their products on sybil: https://x.com/bountyblok/status/1833188619860812226
-* We can connect anyone on WAX with the privadoid team just let us know - they're open to collab
-* Collab announcement with WAX https://x.com/PrivadoID/status/1833189703886970933
 
- ![image](https://github.com/user-attachments/assets/9a99d2bf-56c0-4a46-82a2-c8ab8be7da46)
-
----
-
-### WUFFI Contribution 
-* Reported major "go back" issue affecting UX: https://drive.google.com/file/d/1KtqO_NBW5sbgGIFiQ3fDRXlbYkRdPKds/view?usp=drive_link
-* Wuffi pawntership 3/3 allocation: [https://wax.bloks.io/transaction/a1397d3a561a1c25d36c46d1a450f0da79b3e176713c7f1033580977e192a5a5](https://waxblock.io/transaction/a1397d3a561a1c25d36c46d1a450f0da79b3e176713c7f1033580977e192a5a5)
-
----
-
-### intraverse.io COLLAB
-* Working on a cross chain collab with LINEA end of this month
 
 --- 
 
 ### <ins>Marketing</ins>
-Initiative: NFTOPIA Collab
-* Contest via BBLK: https://x.com/ConsumerBreak/status/1841211004690071794 + https://x.com/ConsumerBreak/status/1843367133532566010?t=NAvYKcZEhDL-NpTEoaxP5g&s=19
-* bountyblok banner and booth purchases for upcoming NFTOPIA November 23-24:
-  
-https://waxblock.io/transaction/8f43fdb8d68be73f7a220e6982d0b9fdd0db9f9373cfe0f2e67c3286b1c78899
-https://waxblock.io/transaction/7d47a4e38116b59a94a9a6dd8e25caf44335b0ba5a2614527b0a5dce9232d323
-https://neftyblocks.com/collection/nftopiafrens/drops/226968
-https://neftyblocks.com/collection/nftopiafrens/drops/226967
-
-
+* Focused on WAX Holidays Calendar event during December
 
 ### <ins>Backups </ins>
 

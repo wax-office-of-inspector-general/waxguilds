@@ -11,15 +11,15 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-Our Canada DC disk array that was hosting our WAX Mainnet Hyperion ES Snapshots has been repaired and we 70% of the way through uploading the 30TB snapshot. Hyperion ES Snapshots are still being hosted in our Perth DC for now.
+No outages were experienced this last period.
 
-We had an upstream internet outage in Perth for 90mins on the 7th/8th October due to an environmental issue experienced by our provider. All services restored successfully after the issue was remediated.
-
-HeadsUp v0.1.6 was released.
+HeadsUp v0.1.7 was released.
 
 Be sure to check out the public showcase of HeadsUp to get a feel for the platforms capability here -> https://headsup.eosphere.io/
 
-We have also started the process of refreshing our servers in Sydney, currently waiting on hardware.
+We’ve had a few issues with our new AMD EPYC server in Sydney, mainly to do with the internet routing capability of our services provider. I expect us to have these resolved over the next few weeks when end of year change embargo’s are over.
+
+Perth servers have successfully had their RAM upgraded, this should give us some runway before we need to upgrade to new platforms.
 
 ### <ins>API Services</ins>
 
@@ -36,23 +36,24 @@ We have also started the process of refreshing our servers in Sydney, currently 
 
 **Update**: 
 
-The EOSphere Team have just released HeadsUp v1.6.0 ,this release includes a multitude of bug fixes and new features:
+The EOSphere Team have released HeadsUp v0.1.7.
 
-- Removed the old buggy metric History API Connects and replaced it with a metric for ‘Last Indexed Action’. **This is excellent to track whether your indexer is indexing actions in the indexed block.**
-- Fixed spelling of Address in Add Node window
-- Fixed deleting of a chain deletes associated alerts
-- Fixed an error showing that alerts had been active for 54 years
-- Can now change the type of a node after creating it, without needing to delete and recreate
-- Latency shows as N/A when node not connected
-- Reminders for node not connected fixed
-- Fixed an error causing ‘create node’ button to be clicked twice before creating node on some browsers
-- Fixed an error causing default monitoring and alerting settings not to be applied upon creation
-- Updated the silencing module to work for connects and latency alerts which take a URL parameter
-- Added node sort_order to each row on the chain page node tables
-- When creating a new node, the default value for sort_order reflects the next number up from the others in the table
-- Changed the vote rank alert to be ‘alert me when vote rank changes’, allowing users to disable vote rank notifications by turning this off
+This release introduces a few quality of life improvements and address a number a pesky bugs.
+
+- Time zone can now be adjusted in the dashboard
+- Active Alert time displays time since alert occurred
+- Fixed a few grammatical errors
+- Vote rank notifications can be disabled from alerting
+- First ingestor is preselected when creating a node to monitor
+- Producer Schedule Metric Added
+- Producer Signing Key Metric Added
+- Finalizer Registered and Active Key Metric Added
+- Dashboard top banner text can now be customised
+- Numerous bugs squashed
 
 Take a look at the public showcase -> https://headsup.eosphere.io/
+
+The next version v0.1.8 that will be released in the comingh weeks will add functionality for monitoring chains.json and bp.json services, improvements to the mobile view and addition of the soon to be released Hyperion v3.5 updated metric information.
 
 Please join our Telegram Group (https://t.me/headsup_monitoring_alerts) for the latest release information as well as github links and instructions .
 
@@ -67,11 +68,37 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we created a guide that covers how to configure and start receiving HeadsUp Alerts through Telegram using the Bot API.
+This month we completely updated our WAX Hyperion Full History Series bringing it up to date with the current Hyperion `v3.3.10–1` code including the current requirements and state of play on the WAX Mainnet and Testnet.
 
-**Configure HeadsUp Telegram Alerts**
+**Introduction to WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-1-d2936d3c58d4
 
-https://medium.com/eosphere/wax-technical-how-to-25-1cb831003433
+**Build WAX Hyperion Software Components**
+https://medium.com/eosphere/wax-technical-how-to-15-2-a042ea8bc4b4
+
+**Configure WAX Hyperion Software Components**
+https://medium.com/eosphere/wax-technical-how-to-15-3-b188c6aa9d12
+
+**Running WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-4-f735d4cbc197
+
+**Clustering Elasticsearch for WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-5-6ae01ea6bf62
+
+**Rectify Missing Blocks in WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-6-622ae2936771
+
+**WAX Hyperion Full History Indexer Scaling**
+https://medium.com/eosphere/wax-technical-how-to-15-7-ce11fbc97c40
+
+**WAX Hyperion Streaming with a WAX Load Balancer**
+https://medium.com/eosphere/wax-technical-how-to-15-8-396dd3b0484b
+
+**Repair WAX Hyperion Indexed Data**
+https://medium.com/eosphere/wax-technical-how-to-15-9-648857d7b535
+
+**Using Data Tiers with WAX Hyperion Full History**
+https://medium.com/eosphere/wax-technical-how-to-15-10-030540d30a23
 
 ---
 
@@ -81,7 +108,7 @@ https://medium.com/eosphere/wax-technical-how-to-25-1cb831003433
 
 **Update**: 
 
-We recently added an article on ZFS deduplication
+We recently added an article on automating the creation of nodeos snapshots
 
 ---
 
@@ -89,26 +116,26 @@ We recently added an article on ZFS deduplication
 
 Deeper statistics are available in our Regular Community Update.
 
-Period: September 26th 2024 - October 10th 2024 (2 Weeks)
+Period: December 17th 2024 - December 31st 2024 (2 Weeks)
 
 **Infrastructre Stats**:
-- 51.93% of Requests are Normal API, 48.07% are Hyperion API
-- 8 to 16 Million HTTP "200"`s served per day
-- 280 Million Requests this last two weeks
+- 94.97% of Requests are Normal API, 5.03% are Hyperion API
+- 6.5 to 8 Million HTTP "200"`s served per day
+- 114 Million Requests this last two weeks
 - We provide for around 1 to 2Mil WAX Mainnet Successful Push Actions per day.
-- 960k Requests served by our Atomic API per day
+- 2Mil Requests served by our Atomic API per day
 
 **Medium Stats**:
 
-![image](https://github.com/user-attachments/assets/97f2b4c5-e959-4d3a-b0ee-33799aac68a7)
+![image](https://github.com/user-attachments/assets/a0d85753-ff49-4de3-a643-5239c68b0625)
 
-![image](https://github.com/user-attachments/assets/a56d7bae-83ab-4dcc-acce-ed38fc8c4f22)
+![image](https://github.com/user-attachments/assets/3bcdad93-2a11-47a2-adca-5ed8d4767346)
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/user-attachments/assets/4a2139bd-a58f-4c6a-b285-5f7e8b54899a)
+![image](https://github.com/user-attachments/assets/78f4f04b-cad6-4e73-b211-0f01b5928815)
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
@@ -120,7 +147,7 @@ Initiative A: Regular Community Update
 
 We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
 
-Here is October -> https://medium.com/eosphere/eosphere-guild-october-24-update-4de552cf4179
+Here is December -> https://medium.com/eosphere/eosphere-guild-december-24-update-b6ad2769a582
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -133,6 +160,6 @@ URL: https://snapshots.eosphere.io/
 
 
 ### <ins>Feedback to OIG</ins>
-All good for now thanks.
+Feedback on the two week update windows for our perspective, we may use a shorter update time in the future however we prefer the 6 week sprints right now.
 
 ----
