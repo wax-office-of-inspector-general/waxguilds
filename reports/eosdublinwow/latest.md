@@ -11,7 +11,7 @@
 | Guild Jurisdiction | Ireland |
 
 ### <ins>Noteworthy</ins>
-This cycle we mainly focused on stabilising the Hyperion service, as we've seen a greater number of requests lately, causing some continuous failures due to volume. We are also actively working on a couple of new applications that could bring new activity to the chain. 
+We have seen some major traffic spikes on Hyperion, possibly due to bots, however we managed to keep the system stable and we're at >99% uptime overall. Focus was centered on maintaining good quality of service across all the systems.
 
 ### <ins>API Services</ins>
 
