@@ -87,30 +87,27 @@ This tournament has created excitement among players and helped foster competiti
 https://t.me/rplanetio/709827
 https://t.me/rplanetio/709828
 
+The tournament was successfully finalized this month following a bunch of giveway events
 
-Both events hopefully reflected on the WAX awareness side, since we had a really great volume gain from that due to increased demand of NFTs that are used in the gameplay.
-WAX positive volume uptick
+![image](https://gist.github.com/user-attachments/assets/e999da42-78ce-4050-be5a-4f5e310e887a)
 
-![image](https://gist.github.com/user-attachments/assets/0bd19b43-fbbd-4b04-807b-b3c3adcffc00)
-
-and we even came back to the atomic market tops for some time
-
-![image](https://gist.github.com/user-attachments/assets/89944a43-693d-44ce-93e7-77a20abd9780)
+![image](https://gist.github.com/user-attachments/assets/b7f112ca-ba3f-4068-aaae-bcf5f4674abe)
 
 
 **Metrics**
 
-Period: Oct 24th, 2024 - Nov 24th 2024
+Period: Jan 1, 2025 - Jan 30 2025
 
 Stats:
 
 activity volume
 
-![image](https://gist.github.com/user-attachments/assets/bcc761ad-d9ac-4946-bb24-8bf1cb697e86)
+![image](https://gist.github.com/user-attachments/assets/5e080729-5226-43c9-8e29-09f3713609d5)
+
 
 nft volume
 
-![image](https://gist.github.com/user-attachments/assets/c0e516d1-8461-4a3a-be07-701960db6ff6)
+![image](https://gist.github.com/user-attachments/assets/57ab59fc-59db-441c-b199-c23ce6a79aa6)
 
 ---
 
@@ -129,9 +126,9 @@ https://grandland.prospectors.io
 
 prospectors also gained some traction due to issues with the EOS world specifically related to the recent changes in EOS blockchain and subsequent migration of some portion of the users to the WAX worlds was initiated.
 
-![image](https://gist.github.com/user-attachments/assets/08c655ce-6a58-47b7-b537-ee6bf025976f)
+![image](https://gist.github.com/user-attachments/assets/727acd4a-aa10-487d-a688-d9b9f65e307d)
 
-Period: Oct 24th, 2024 - Nov 24th 2024
+Period: Jan 1, 2025 - Jan 30 2025
 
 Stats:
 
@@ -139,16 +136,15 @@ prospectors google analitycs
 
 play.prospectors.io (EOS)
 
-![image](https://gist.github.com/user-attachments/assets/bd560edb-3ba3-4042-85c0-fa7181014675)
+![image](https://gist.github.com/user-attachments/assets/c58a2e68-f247-4deb-a4a7-e85e4f48a9e6)
 
 wax.prospectors.io (WAX - Yukon server)
 
-![image](https://gist.github.com/user-attachments/assets/0eedfec4-3f4b-49a8-bde5-5d181c5e5da0)
+![image](https://gist.github.com/user-attachments/assets/948582e6-b291-46e6-bb1f-09e570fc7373)
 
 grandland.prospectors.io (WAX - Our main server)
 
-![image](https://gist.github.com/user-attachments/assets/34a897dd-d2f4-454f-a373-592e279843b8)
-
+![image](https://gist.github.com/user-attachments/assets/0c0dc216-ea49-4197-a843-6ea31fb70703)
 
 ---
 
@@ -159,9 +155,9 @@ grandland.prospectors.io (WAX - Our main server)
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-38 active pools with about 1977 active user stakes accross the platform.
+29 active pools with about 1469 active user stakes accross the platform.
 
-![image](https://gist.github.com/user-attachments/assets/97958cbf-d166-4f16-a05d-0c9e082d2f81)
+![image](https://gist.github.com/user-attachments/assets/f66549f3-74b0-4ca7-bf18-149c26cb985f)
 
 ---
 
