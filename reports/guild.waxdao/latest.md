@@ -13,7 +13,6 @@
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-Both of our mainnet ship nodes had issues on Jan 4, affected Hyperion, AA, and a couple custom indexers. Half of that was fixed within ~8 hours, the other one is about to be up to date in a few hours (total issue < 24h).
 
 ### <ins>API Services</ins>
 
@@ -60,13 +59,13 @@ Stats:
 
 **Update**: 
 
-- Just a minor contract update to allow deposits without backing NFTs. But given the deprecation of AA backing feature, it's likely that I'll be rewriting this contract and creating a better indexer/API.
+- Rewrote a good amount of the contract, but need to do some testing and rewrite some of the off-chain oracle before pushing to public networks.
 
 **Metrics**
 
 Period: All time
 
-Stats: 5,858 total NFTs backed
+Stats: 9,402 total NFTs backed
 
 
 ---
@@ -79,8 +78,7 @@ Stats: 5,858 total NFTs backed
 
 **Update**: 
 
-- Fixed a UI issue where certain token pages weren't behaving properly.
-- Updated the indexer to count liquidity pairs that include new tokens (lsWAX, LSW etc)
+- Rewrote synthetic assets contract to fix some bugs and optimize things. Pushed to mainnet. Also wrote a bunch of unit tests for it, and will be open sourcing/multisig'ing it soon once I have things a bit cleaner.
 
 **Metrics**
 
@@ -88,7 +86,7 @@ Stats: 5,858 total NFTs backed
 
 Period: All time
 
-Stats: 161 total token locks, 233 people have used our token creator, 48 synthetic tokens have been created, 60 total slow drip escrow agreements
+Stats: 230 total token locks, 252 people have used our token creator, 63 synthetic tokens have been created, 71 total slow drip escrow agreements
 
 
 ---
@@ -102,7 +100,9 @@ Stats: 161 total token locks, 233 people have used our token creator, 48 synthet
 
 **Update**: 
 
-- Couple of minor front end updates related to NSFW collections etc
+- Some front end maintenance, such as showing v2 farms under "my farms", which were previously difficult to locate for creators.
+
+- Added some [documentation](https://waxdao.gitbook.io/waxdao/products/nft-farms/v2-farms) for creators/users of v2 farms
 
 **Metrics**
 
@@ -110,7 +110,7 @@ Stats: 161 total token locks, 233 people have used our token creator, 48 synthet
 
 Period: All time
 
-Stats: 2,550 total nft drops, 2,142 total blends, 23,134 total drop claims, 42,261 total blend claims, 19,563 total pack openings
+Stats: 2,591 total nft drops, 2,351 total blends, 24,752 total drop claims, 49,069 total blend claims, 21,829 total pack openings
 
 
 ---
