@@ -11,19 +11,24 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We developed Foundry, a free tool that allows anybody to create a self managed WAX account for free while providing CPU and NET to accounts created using the tool. We also developed two new scripts to make it easy to airdrop/transfer in bulk tokens and NFTs. We also chatted with Ross from EOSphere regarding how we can improve our hyperion and other infrastructure.
-
+We continued work on upgrading our mainnet infrastructure to handle more requests and for mainnet block production while releasing Urdu translations for Anyo Academy's courses. This month we were mainly focused on working on some long term projects still in development. 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | -| 1.491M in 3d  | - | 6072 in 3d  |
+| - | - | -|  3.826M/wk | - | -  |
 
 
 ### <ins>Contributions</ins>
 
-(new)
+Metrics:
+
+**URLs**
+https://metrics.qaraqol.com/
+**Update**:
+We started tracking exchange inflow/outflows from major exchanges along with the top WAX sellers/buyers determined by withdraws/deposits.
+
 Foundry:
 
 **URLs**:
@@ -32,13 +37,10 @@ https://github.com/qaraqol/foundry
 
 **List of SCs**:
 qaraqlcreate
-
+foundry 
 **Update**:
-We created Foundry, a free tool that allows anybody to create a self managed WAX account for free. Accounts created using the tool also receive CPU & NET stake to allow new users to try out the blockchain before making a commitment to buy WAX and stake it to use the chain further. 
-Like most of our tools, Foundry is open-sourced in case any projects would like to offer free onboarding for users to WAX themselves and build on top of what we developed.
+n/a 
 
-
-(new)
 Disperse
 
 **URLs**:
@@ -46,8 +48,7 @@ https://github.com/qaraqol/disperse
 https://github.com/qaraqol/disperse-nft
 
 **Update**:
-Disperse is a versatile tool that makes bulk WAX token transfers (for purposes such as airdrops) easy by processing recipient details from CSV files, allowing users to customize parameters and execute batch transactions with ease. An NFT version is also available, enabling batch transfers of NFTs with the same easy experience.
-
+We continued to advertise our tool, with a tutorial on how to use the tool approved and added to the developer docs. 
 
 waxport:
 
@@ -55,22 +56,36 @@ waxport:
 https://waxport.qaraqol.com/
 https://github.com/qaraqol/waxport
 **Update** 
-During the past few weeks, Pinax's Token API that waxport is built off of has been facing repeated downtime and errors, significantly impacting the useability of our tool. We attempted to setup our own instance of the Token API, but the source code and libraries for the Pinax substream repo responsible for preparing the token API database is broken. We have been working on fixing these errors and hope the IGs can be understanding.
+With our Token API up and running, we upped the limits of how much data can be downloaded at a time to 200 pages at a time or almost over 10K transfers for free. 
 
-Qaraqol Metrics:
+(new) 
+Token API Support:
+
+**URLs**: 
+https://medium.com/@qaraqolblock/wax-token-api-setup-guide-91910c719d98  
+https://snapshots.qaraqol.com/token/
+
+**Update**:
+We wrote a tutorial on how to set up Pinax's WAX Token API by restoring from a ClickHouse database backup we began providing. Instead of taking weeks to index from Substreams as we have experienced firsthand, restoring from our database backup with all the blocks already indexed saves weeks of time and money.
+
+(new)
+Urdu Translations
 
 **URLs**:
-https://metrics.qaraqol.com/
-**List of SCs**:  N/A
+https://qaraqol.com/?p=108 - Block explorers
+https://qaraqol.com/?p=80 - Introduction
+https://qaraqol.com/?p=90 - How to buy NFTs
+https://qaraqol.com/?p=88 - How to create NFTs
+https://qaraqol.com/?p=86 - Resource management
+https://qaraqol.com/?p=84 - WAX Token
+https://qaraqol.com/?p=82 - WAX Governance
+https://qaraqol.com/?p=80 - Intro to WAX
+https://qaraqol.com/?p=102 - For project owners/node operators
+https://qaraqol.com/?p=104 - Creating an account
+https://qaraqol.com/?p=106 - Course summary 
 
 **Update**: 
-Facing issues with API provider as explained above, impacting data collection occasionally. 
-
-
----
-
-...
-...
+We released our Urdu translations for Anyo Academy's courses. While Urdu has double the amount of German speakers and the same amount of French speakers worldwide, there are no resources in Urdu regarding WAX. In the long term, we hope to bring crypto to the masses and have WAX be the chain of choice in South East Asia.  
 
 ---
 ### <ins>Backups </ins> 
