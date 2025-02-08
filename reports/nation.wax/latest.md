@@ -52,12 +52,7 @@ See our recent updates in the "notworthy" section above. Note to OIG: please adv
 
 **Metrics**
 
-Our WAX Firehose is averaging about 1 GiB per day with a peak of 1.5TB on August 22 and 498 GiB on August 25 on WAX:
-<img width="1461" alt="Screenshot 2024-08-30 at 5 26 40 PM" src="https://github.com/user-attachments/assets/928e9dc3-cbc4-4b4d-a429-4171be780a22">
-
-Our WAX Substreams are serving between 225 - 791 GiB per day on WAX:
-<img width="1465" alt="Screenshot 2024-08-30 at 5 22 50 PM" src="https://github.com/user-attachments/assets/24514f3a-63c3-4588-8957-d59a78a2e962">
-
+As these are new data services, the team is working on developing new dashboards to track usage metrics. We'll have metrics to provide on our next update.
 
 ### <ins>Contributions</ins>
 
@@ -73,10 +68,11 @@ Our WAX Substreams are serving between 225 - 791 GiB per day on WAX:
 
 **Metrics**
 
-Period: July 16 - August 30 2024
+Period: January 1 - February 7
 
-Stats: 194 users, 1m 13s average engagement time
-<img width="805" alt="Screenshot 2024-08-30 at 5 29 38 PM" src="https://github.com/user-attachments/assets/bd1de353-29c8-4462-ab45-7af8f5f2512f">
+Stats: 111 active users, 1m 34s average engagement time
+<img width="778" alt="Screenshot 2025-02-08 at 6 01 41 PM" src="https://github.com/user-attachments/assets/4eca0ab4-d125-416a-8232-94b9f77708ea" />
+
 
 ---
 
@@ -87,10 +83,11 @@ Stats: 194 users, 1m 13s average engagement time
 
 **Metrics**
 
-Period: July 16 - August 30 2024
+Period: January 1 - February 7
 
-Stats: 25 users, 19s average engagement time
-<img width="803" alt="Screenshot 2024-08-30 at 5 32 51 PM" src="https://github.com/user-attachments/assets/496b4222-0a7c-4055-9ff4-334403132e72">
+Stats: 60 active users, 11s average engagement time
+<img width="773" alt="Screenshot 2025-02-08 at 6 03 41 PM" src="https://github.com/user-attachments/assets/90671587-5bf6-4a7d-a6bb-8666316bf00d" />
+
 
 ---
 
@@ -101,9 +98,9 @@ Stats: 25 users, 19s average engagement time
 
 **Metrics**
 
-Period: April 16th - July 15 2024
+Period: January 1 - February 8
 
-Stats: No new suffixes listed, no names sold.
+Stats: [1 new name sold](https://eosauthority.com/transaction/ad22c5addeca894ddf0d684c50710eff440aef0fbb0e741ee7eaad71e633b967?network=wax).
 
 ---
 
@@ -121,7 +118,7 @@ Stats: No new suffixes listed, no names sold.
 **URLs**: https://github.com/AntelopeIO/leap/issues/created_by/matthewdarwin, https://github.com/AntelopeIO/leap/issues?q=is%3Aissue+author%3AYaroShkvorets
 
 **Update**: 
-No new issues created during this period.
+Nothing to report for this period.
 
 
 ### <ins>Marketing</ins>
@@ -137,4 +134,4 @@ URL: https://snapshots.eosnation.io/
 
 ### <ins>Feedback to OIG</ins>
 
-We would love to see Firehose & Substreams recognized as a history solution by the OIG. In previous evaluations we were not awarded points for having a history solution available on WAX Testnet, although our Firehose & Substreams endpoints are available there.
+Nothing for this report.
