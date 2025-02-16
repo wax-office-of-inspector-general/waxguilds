@@ -32,7 +32,7 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-**Update**: We did cleaned up all our links on WaxDapps. Some WAX projects have moved around - website is down but they're active on Telegram now or vice versa. We made sure all our links point to where projects are actually active, so users can find what they're looking for without hitting dead ends.
+**Update**: We cleaned up all our links on WaxDapps. Some WAX projects have moved around - website is down but they're active on Telegram now or vice versa. We made sure all our links point to where projects are actually active, so users can find what they're looking for without hitting dead ends.
 
 **Metrics**
 
@@ -67,7 +67,7 @@ Period: January 19th 2025 - February 16th 2025
    - Tracks contribution impact and identifies successful patterns.
 
 3. **Technical Summary**
-   - The system integrates a custom database with both GitHub submissions (latest.md) and OIG Notion reports(Tech-ops/Product-dev/Eco-dev/strategic-dev). The assistant's instruction prompt is designed to analyze (github)submissi ons alongside their evaluations(OIG report) to process the full view of guild activity and identify success patterns. The AI system is trained on the latest OIG guidelines, requirements, historical guild contributions, and their outcomes, along with submission formats and evaluation criteria. By processing both submission data and evaluation results, the assistant can answer questions about any WAX contributions, identify what makes contributions successful, guide guilds on improving their ecosystem impact, and suggest optimizations based on historical patterns of success.
+   - The system integrates a custom database with both GitHub submissions (latest.md) and OIG Notion reports(Tech-ops/Product-dev/Eco-dev/strategic-dev). The assistant's instruction prompt is designed to analyze (github)submissions alongside their evaluations(OIG report) to process the full view of guild activity and identify success patterns. The AI system is trained on the latest OIG guidelines, requirements, historical guild contributions, and their outcomes, along with submission formats and evaluation criteria. By processing both submission data and evaluation results, the assistant can answer questions about any WAX contributions, identify what makes contributions successful, guide guilds on improving their ecosystem impact, and suggest optimizations based on historical patterns of success.
 
 We are open to feedback or schedule a call to showcase the latest. 
 
