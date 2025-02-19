@@ -13,8 +13,10 @@
 ### <ins>Noteworthy</ins>
 
 * Pantheon Update
+* Nodesuite Update
 * FACINGS Studio Update
-* We didn't list it as a product, but we pushed what we believe are the final updates needed (notifications/telegram bot) to full satisfy missing features listed in the original WAX Labs proposal. It appears there is an issue with deployment process on WAX's end again and we will investigate it.
+* We deployed a fix for WAX Labs related to proposals not showing under "My Proposal" sections under the account profile or the full proposal list. It appears there is potentially another issue with WAX's netify as the change was not automatically deployed despite passing tests merging.
+
 * For awareness: 
     * DLT's IPFS Gateway can be accessed via https://ipfs.gateway.detroitledger.tech
     * DLT's Daily WAX Nodeos Snapshots are available at: https://snapshots.detroitledger.tech 
@@ -30,33 +32,39 @@
 **List of SCs**: mint.facings, open.facings, make.facings, earn.facings, atomicassets (FACINGS Creator/Collection Manager)
 
 **Update**: 
-* Continued tweaking and bug fixes related to the sales flow for purchasing packs
-* Signifcant work completed on the customer onboarding flow (making it streamlined for someone to sign up and pay to use FACINGS Studio)
-* Work to implement basic automated reported based on feedback from Pantheon.
-* We are still aiming to release the first MVP in Q1 of 2025.
+* Added an affiliate code feature to aid in helping with Pantheon and future sales.
+* Major UX overhaul / improvements to make the experience more acceptable for a productized MVP launch.
 
 ### Pantheon (Game)
 
-**URLs**: https://playpantheon.com, https://pantheon.detroitledger.tech (beta link)
+**URLs**: https://playpantheon.com
 
 **List of SCs**: pantheon, bck.pantheon, unw.pantheon, gme.pantheon
 
 **Update**:
 
-The team delivered a minor and major release + hotfix since our last update in November.
+The team delivered a minor and major release since our last update in early January.
 
-* 1.0.1 (Gameplay adjustments and bug fixes) - https://medium.com/@Pantheon_TCG/pantheon-v1-0-1-release-notes-515771be37fe
-* 1.1.0 + 1.1.1 (In-game walkthrough tutoiral) - https://medium.com/@Pantheon_TCG/pantheon-v1-1-1-release-notes-edd7bdd09133
-* Additional improvements implemented to boost account resources for users automatically included in 1.1.1.
+* 1.2.0 (Enhanced tutorial, stability, and changes to improve game flow) - https://medium.com/@Pantheon_TCG/pantheon-v1-2-0-release-notes-a021a116a8a8
+  * Additional tutorial steps and allows the user the do all the game actions as they would during a normal game vs clicking a next button.
+  * Stability enhancements for cards being stuck in the smart contract
+  * Game flow improvements for edge cases when players leave matches during play
+* 1.2.1 (Purgatory buyback price decrease) - https://medium.com/@Pantheon_TCG/pantheon-v1-2-1-release-notes-583b87e93e30
+  * Purgatory are the cards that are sacraficed and part of the game business model
+ 
+Additional security hot fixes were also deployed but not included in release notes.
+  
+The following marketing efforts took place.
 
-Pantheon participated in numerous marketing cross promotions in the past 2 months. The Discord server grew to 443 users and the X following grew to 254 users. The following cross promotions took place:
+* Continued CrewToons/NFLottery Giveaways / play events
+* Continued Bountyblok giveaways
+* R.A.I.D.D. Gaming giveaways
 
-* CrewToons/NFLottery Giveaways / play events
-* Pantheon Play-a-thon (In-person event)
-* WAX Holiday Calendar Giveaway
-* "Festival of Poseidon" Giveaway
-* NFTopia Metaverse Convention
-* Bountyblok giveaways
+### Nodesuite
 
-
+* Nodeos monitoring service template improvements/refactor
+  * Add dynamic cooldown for notifications/alerts
+  * Refactored signal handling notification (will notify on graceful termination)
+  * Updated whitelist triggering (will alert in the event unlinkable block only when frequency crosses threshold of recent occurrences)
+* Updated wax-leap / spring release packages
 
