@@ -11,17 +11,43 @@
 | Guild Jurisdiction | International |
 
 ### <ins>Noteworthy</ins>
-We have been continuing work on our metrics tool and updated waxport. We also created a new script to test the speeds of snapshot providers to save time deploying new nodes. 
+We developed Foundry, a free tool that allows anybody to create a self managed WAX account for free while providing CPU and NET to accounts created using the tool. We also developed two new scripts to make it easy to airdrop/transfer in bulk tokens and NFTs. We also chatted with Ross from EOSphere regarding how we can improve our hyperion and other infrastructure.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | - | - | - | - | - |
+| - | - | -| 1.491M in 3d  | - | 6072 in 3d  |
 
 
 ### <ins>Contributions</ins>
+
+(new)
+Foundry:
+
+**URLs**:
+https://foundry.qaraqol.com/
+https://github.com/qaraqol/foundry
+
+**List of SCs**:
+qaraqlcreate
+
+**Update**:
+We created Foundry, a free tool that allows anybody to create a self managed WAX account for free. Accounts created using the tool also receive CPU & NET stake to allow new users to try out the blockchain before making a commitment to buy WAX and stake it to use the chain further. 
+Like most of our tools, Foundry is open-sourced in case any projects would like to offer free onboarding for users to WAX themselves and build on top of what we developed.
+
+
+(new)
+Disperse
+
+**URLs**:
+https://github.com/qaraqol/disperse
+https://github.com/qaraqol/disperse-nft
+
+**Update**:
+Disperse is a versatile tool that makes bulk WAX token transfers (for purposes such as airdrops) easy by processing recipient details from CSV files, allowing users to customize parameters and execute batch transactions with ease. An NFT version is also available, enabling batch transfers of NFTs with the same easy experience.
+
 
 waxport:
 
@@ -29,7 +55,7 @@ waxport:
 https://waxport.qaraqol.com/
 https://github.com/qaraqol/waxport
 **Update** 
-After receiving feedback from the community and IGs, we updated waxport so users could download up to 30 pages of transfers of their chosing a time.
+During the past few weeks, Pinax's Token API that waxport is built off of has been facing repeated downtime and errors, significantly impacting the useability of our tool. We attempted to setup our own instance of the Token API, but the source code and libraries for the Pinax substream repo responsible for preparing the token API database is broken. We have been working on fixing these errors and hope the IGs can be understanding.
 
 Qaraqol Metrics:
 
@@ -38,31 +64,7 @@ https://metrics.qaraqol.com/
 **List of SCs**:  N/A
 
 **Update**: 
-Our main focus as a guild these past few weeks has been working on providing metrics/analytics for the WAX chain. We have fixed some of the issues with the Bridge Analytics/Powerup Fees/CPU Metrics and also expanded greatly upon the Inflation Metrics. 6 new metrics has been added in total
-focusing on chain inflation. We created a "Real Inflation" metric, tracking how much inflation is actually put into circulation from system inflation accounts in WAX and percent form. We also created a metric tracking what accounts earn the most from staking rewards plus some other useful metrics 
-regarding total wax in circulation. 
-
-(new)
-Snapshot Speed Test: 
-
-**URLs**
-https://github.com/qaraqol/wax-snapshots-speedtest
-
-**Update**: 
-We developed a script to automatically discover and test the download speeds of WAX snapshot providers. The script supports multiple snapshot file types, generates detailed speed reports with rankings, and intelligently finds and tests snapshot providers download speeds. In our tests, our tool could offer
-up to 20-30% faster download times, which really adds up and saves time when downloading a 4 terabyte blocks log for example. 
-
-
-IPFS WAX Script:
-
-URLs: https://github.com/qaraqol/ipfs-wax-script
-New: https://github.com/qaraqol/WaxMarketCap-IPFS-script
-
-
-List of SCs: n/a 
-
-Update: N/A
-
+Facing issues with API provider as explained above, impacting data collection occasionally. 
 
 
 ---
@@ -79,5 +81,5 @@ URL: (https://snapshots.qaraqol.com/)
 | [x] | [x] | [x] | [x] | [x] |
 
 ### <ins>Feedback to OIG</ins>
-In the new guidelines, please add so guilds must add their snapshot link to their producerjson. 
+
 ----

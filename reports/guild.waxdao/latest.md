@@ -13,7 +13,7 @@
 ### <ins>Noteworthy</ins>
 *[...Describe issues you faced last month and if any noteworthy update/upgrade of hardware/software happended.]*
 
-No issues to speak of.
+Both of our mainnet ship nodes had issues on Jan 4, affected Hyperion, AA, and a couple custom indexers. Half of that was fixed within ~8 hours, the other one is about to be up to date in a few hours (total issue < 24h).
 
 ### <ins>API Services</ins>
 
@@ -35,17 +35,19 @@ Others APIs: Roborovski, dfuse, ...
 
 **Update**: 
 
-A few minor UI improvements and contract updates.
+- Added a new feature to waxdaofarmer contract to improve UX when users do "claimall" actions.
+
+- Added [v2 farm info](https://waxdao.gitbook.io/waxdao/products/nft-farms/v2-farms) to WaxDAO documentation
 
 **Metrics**
 
 [report relevant metrics and metric period...]
 
-Period: 07/15/2024 - 08/30/2024
+Period: All time
 
 Stats:
 
-- 1,033 NFT farms, 176 token farms, 21 daos, 49 proposals, 1,070 vote actions in daos (all running totals)
+- 1,087 NFT farms, 184 token farms, 21 daos, 50 proposals, 1,076 vote actions in daos (all running totals)
 
 
 ---
@@ -140,22 +142,9 @@ n/a
 
 **Update**: 
 
-- Released on WAX Mainnet
-- Listed on [DefiLlama](https://defillama.com/protocol/waxfusion#information)
-- Listed on [DappRadar](https://dappradar.com/dapp/waxfusion)
-- Partnered with dozens of WAX projects to create Alcor farms and boost ecosystem liquidity
-- Partnered with Herb Bot and Crypto Alpha to integrate lsWAX into Telegram bots
-- Got lsWAX integrated as a payment option on Hive and Nefty
-- Multiple UI improvements
-- Pushed a smart contract update, and wrote another update but need to write more tests for it and propose a msig before it can be pushed to mainnet
-- Added/updated multiple sections of the documentation
-- Updated Thalos version and improved the indexer
-- Created an API with a simple `get_tvl` endpoint, started some tests with reading table deltas to create a more robust public API
-- Wrote a Medium article and had it published by the WAX team
-- Telegram group is very active and reached just under 300 members
-- Applied for CoinGecko listing, got turned down due to liquidity and social following, but will be reapplying as the numbers grow
-- lsWAX is already a [top 10 token](https://waxonedge.app/analytics) and hasn't even been out for a month
-- Around 500 WAX has already been permanently locked in our `pol.fusion` contract, which will always be there to generate rewards for users, but never withdrawn from the contract. It's essentially `eosio.null` but with more value-add.
+- Partnered with Alpha World and a couple smaller projects to incentivize liquidity for LSWAX/third_party_token
+
+- Reached 8.9 million WAX in TVL
 
 **Metrics**
 
@@ -171,7 +160,7 @@ n/a
 
 **Update**:
 
-- Added new information to multiple sections
+- Added a page to handbook about [renouncing contracts](https://waxdao.gitbook.io/wax-smart-contract-development-guide/tips-and-tricks/renouncing-contract-ownership)
 
 **Metrics**
 
@@ -190,9 +179,7 @@ Weekly live streams on my [YouTube Channel](https://www.youtube.com/@MikeDCrypto
 
 ### DefiLlama Initiative
 
-- [Added NFT Hive](https://defillama.com/protocol/nft-hive) to the list of WAX projects
-- Due to getting LSWAX listed on CoinGecko, I was able to add LSWAX TVL for Alcor, Taco and Nefty. This boosted the overall TVL of WAX Blockchain by roughly $100k, and moved us up to rank 153.
-- In talks with DefiLlama devs about providing them an API (possibly Alcor's, or a custom one) so that we can count the TVL of WAX tokens that aren't listed on CoinGecko. The difficulty of WAX projects getting listed on CoinGecko is currently resulting in a lot of TVL missing from DefiLlama metrics, since they only count TVL of tokens that they can fetch prices for from CoinGecko's API. If we can work with them on an alternative solution, many WAX tokens could be added to the DefiLlama adapters, which could significantly boost TVL and exposure.
+- Submitted Thrive On Mars and wax.fun to DefiLlama
 
 
 ### <ins>Backups </ins>

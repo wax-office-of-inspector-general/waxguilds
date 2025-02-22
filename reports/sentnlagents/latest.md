@@ -40,6 +40,8 @@ http://wax.sengine.co/api/nodes/atomic
 http://wax.sengine.co/api/nodes/p2p
 
 - We are in the process of creating a brand new Sengine (oig-portal) written from scratch in JS and nextjs
+- The new sengine has been deployed at http://test.sengine.co - we are awaiting feedback from the OIG before fully switching over.
+
 
 
 ### 🔗 NodePulse
@@ -115,7 +117,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for EOSDetroit, EOSUSA, EOSDAC
+We completed a security audit for Greeneosio, Blokcrafters
 
 ---
 ### 🔐 Smart Contract Audits	
@@ -145,6 +147,8 @@ At Sentnl we provide smart contract audits for EOSIO contracts on WAX.
 
 
 **Update**: 
+
+- Updated the code to node use NodPulse to obtain healthy hyperion nodes instead of relying on a fix list of nodes.
 
 ---
 ### 🧰 Various community tools	
@@ -213,9 +217,8 @@ Sengine uses the API to display the missed blocks for each guild.
 
 
 **Update**: 
-- We created a unreg tool that utilises this API to track for missed blocks.
-- OIAC also now uses our API for their empty blocks and missing blocks telegram channel.
-- We have updated missingblocks to some later libraries, including replacing axios with ky.
+- We have updated Fastify and WS libraries on missingblocks to latest stable versions. WS library had a DOS vulnerability that was fixed in the latest version.
+- [status.wax.io](https://status.wax.io) is now utilising our missing blocks API to display the missed blocks on the status page.
 
 ---
 
