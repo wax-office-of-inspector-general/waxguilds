@@ -32,7 +32,7 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-**Update**: We cleaned up all our links on WaxDapps. Some WAX projects have moved around - website is down but they're active on Telegram now or vice versa. We made sure all our links point to where projects are actually active, so users can find what they're looking for without hitting dead ends.
+**Update**: 
 
 **Metrics**
 
