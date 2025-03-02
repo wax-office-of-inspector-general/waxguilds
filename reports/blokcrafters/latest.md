@@ -39,12 +39,11 @@ Others APIs: none at the moment
 Period: January 19th 2025 - February 16th 2025
 
 
-<img width="450" alt="waxdapps_metrics" src="https://github.com/user-attachments/assets/2b080502-4f08-4c58-8c5a-aa865cb522c0" />
+<img width="450" alt="waxdapps_metrics_2-16_3-2" src="https://github.com/user-attachments/assets/e106e142-2e23-45d5-9354-bd6ec3965afd" />
 
-<img width="450" alt="waxdapps_metrics1" src="https://github.com/user-attachments/assets/92f54e8d-0065-46ea-8080-eeb1ea81bb56" />
+<img width="450" alt="waxdapps_metrics1_2-16_3-2" src="https://github.com/user-attachments/assets/4024a902-dbb9-4c54-ba41-4f3ef211f1b2" />
 
-<img width="450" alt="waxdapps_metrics2" src="https://github.com/user-attachments/assets/ae643479-6b6e-4f0a-8bf2-73bc679ac669" />
-
+<img width="450" alt="waxdapps_metrics2_2-16_3-2" src="https://github.com/user-attachments/assets/bd7e8d16-e401-4f4a-a428-e329fee91cda" />
 
 
   
