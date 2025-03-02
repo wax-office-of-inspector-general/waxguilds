@@ -36,7 +36,7 @@ Others APIs: none at the moment
 
 **Metrics**
 
-Period: January 19th 2025 - February 16th 2025
+Period: February 16th 2025 - March 2th 2025
 
 
 <img width="450" alt="waxdapps_metrics_2-16_3-2" src="https://github.com/user-attachments/assets/e106e142-2e23-45d5-9354-bd6ec3965afd" />
