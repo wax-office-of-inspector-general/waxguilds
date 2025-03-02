@@ -12,13 +12,17 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>January 2025 Update</ins>
+### <ins>February 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
-Since our last update we have made progress on two key initiatives: the deployment of a new IPFS hosting solution with advanced monitoring capabilities and the development of an automated Hyperion deployment framework to streamline scalability and flexibility. Both offerings are designed to enhance operational efficiency and support the broader WAX community.
+Since our last update we have made progress on two key initiatives: We've implemented significant IPFS enhancements to improve content availability, distribution, and system performance.
 
-During the evaluation period, blocks were missed, which has again impacted our technical evaluation score. We know the cause, and we are confident that it will not be recurring issue. We remain committed to maintaining high standards of service and will continue to monitor our infrastructure closely to avoid further disruptions.
+During the most recent technical evaluation, we encountered an issue with missing blocks due to a clock misalignment. This was promptly identified and has since been fully rectified.
+
+Our existing monitoring was focused on round performance rather than individual blocks, which meant the issue was not detected as early as it could have been. In response, we have enhanced our monitoring systems to track block production more granularly, ensuring faster detection and resolution of similar issues in the future.
+
+We remain committed to maintaining high reliability and performance standards within the WAX network.
 
 ### <ins>API Services</ins>
 
@@ -37,7 +41,22 @@ We are pleased to announce enhancements to our IPFS Deploy offering, with the ad
 This functionality enhances the versatility of our IPFS services, catering to a broader range of use cases, particularly for applications requiring optimised multimedia handling.
 
 As always, the updated codebase is available for review, and we welcome feedback from the community to further improve this offering.
-We have now switched our own IPFS deployment to https://github.com/oneinacillian/ipfs-deploy and successfully test the resizing of content through our IPFS hosted gateway on WAX: https://ipfs-gateway.oiac.io and will continue to monitor the stability
+We have now switched our own IPFS deployment to https://github.com/oneinacillian/ipfs-deploy and successfully test the resizing of content through our IPFS hosted gateway on WAX: https://ipfs-gateway.oiac.io and will continue to monitor the stability.
+
+IPFS Enhancements (February 2025)
+
+We have implemented several key improvements to enhance the reliability, performance, and scalability of our IPFS infrastructure:
+
+- **Content Availability Monitoring** – Added a replication endpoint to track content availability across the network.  
+- **Content Distribution & Redundancy** – Introduced a dedicated content distribution endpoint to improve replication and ensure redundancy across the IPFS network.  
+- **Protocol Upgrades** – Upgraded to Kubo v0.27.0, enhancing the routing system for better content discovery and distribution.  
+- **Performance Optimisations** – Updated to Node.js 20.x LTS, delivering significant performance gains and improved memory management.  
+- **Reproducible Builds** – Locked NPM dependencies to maintain consistency across different environments.  
+- **Provider Discovery Improvements** – Enhanced provider discovery mechanisms for more reliable content replication and tracking.  
+- **System Maintenance & Troubleshooting** – Improved logging and error handling to streamline system monitoring and issue resolution.  
+
+These upgrades reinforce our commitment to maintaining a robust and efficient infrastructure for the WAX ecosystem.
+
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
