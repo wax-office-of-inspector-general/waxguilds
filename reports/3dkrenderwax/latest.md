@@ -12,22 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-Our Hyperion service on mainnet showed 2 missed blocks. During the repair process, we encountered some issues while attempting to use the hyp-repair tool. These issues were caused by a port configuration problem that occurred because our Hyperion system had been updated from versions prior to the introduction of this repair tool. This is a known issue, so we have added an explanation and solutions to the Hyperion GitHub repository. You can find it here:
-
-[https://github.com/eosrio/hyperion-history-api/issues/143](https://github.com/eosrio/hyperion-history-api/issues/143)
-
-The missed blocks were successfully recovered.
-
-**Testnet**
-
-On testnet, our Hyperion service experienced a severe incident that required a full reindexing, resulting in almost two days of downtime on January 24-25.
+No updates
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API         | Light-API | IPFS        |
-| ----------------- | -------------- | ----------------- | -------------- | --------- | ----------- |
-| []                | [X]            | [x]               | [x]            | []        | [X]         |
-| -                 | 5.07M req/week | 246K req/week     | 593K req/week  |           | 934 req/week |
+| History (partial) | History (full) | History (testnet) | AA API        | Light-API | IPFS         |
+| ----------------- | -------------- | ----------------- | ------------- | --------- | ------------ |
+| []                | [X]            | [x]               | [x]           | []        | [X]          |
+| -                 | 5.07M req/week | 246K req/week     | 593K req/week |           | 934 req/week |
 
 ### <ins>Contributions</ins>
 
@@ -39,66 +31,56 @@ On testnet, our Hyperion service experienced a severe incident that required a f
 
 **Update**:
 
-We continue to participate in various events within the ecosystem while attracting new players. Our tournaments remain a popular feature, bringing together users who enjoy the game.
+These are some of the internal statistics of the game. We have noticed a strong increase in card recycling activities (burning NFTs). This causes an increase in the scarcity of game cards, which benefits our ecosystem.
 
-WAX Medium article
-- https://wax-io.medium.com/rada-quest-where-fantasy-and-art-collide-81a213bd6088
+Another positive fact is the constant influx of new players. Even though the numbers are small, they keep the game active.
 
-Dapprada Article “10 Dapps on WAX Every Community Member Should Try”
-- https://dappradar.com/blog/10-dapps-on-wax-every-community-member-should-try
+|                | Nov 24 | Dec 24 | Jan 25 |
+| -------------- | -----: | -----: | -----: |
+| New Players    |    199 |    158 |    298 |
+| Recicled Cards |  3,420 |  2,213 |  2,842 |
+| Arena Battles  | 58,506 | 83,464 | 44,585 |
+| Gems Plays     | 10,244 |  8,660 |  8,915 |
 
+> Note: Arena battles are heavily dependent on the seasonality of campaigns, so significant differences can be seen from one month to another.
 
-**WUFTOPIA**
+As we have warned on other occasions, over time we have reduced as much as possible the need for users to sign transactions, so statistics such as DappRadar should only be taken as a guide regarding the evolution of the game.
 
-Rada Quest joined WUFTOPIA as a partner of WUFFI. The event drew over 800 attendees and approximately 900 unique viewers on Twitch during the live broadcast.
+In the latest evaluations Rada Quest has been penalized with decay. We want to show our disagreement with this measure and we want to argue for it.
 
-- https://x.com/RadaQuestTCG/status/1860731486518771873
-- https://x.com/thenftopia/status/1860732324234588565
-- https://x.com/BlackFang_ART/status/1860734991740588427
+If we check the statistics of Rada Quest on DappRadar from 6 months ago, or 1 year ago, we can see that our position in the ranking was around 25th place. If we look at the current statistics, it is true that there is a drop in the supposed number of unique monthly players (indicative data due to what was mentioned above) but our game has improved its position placing itself around 15th place in the ranking of WAX games. This is not good news overall, since it is easily deduced that the WAX ​​ecosystem is suffering a lot, but it is positive news for us since it shows that our game, Rada Quest, is withstanding the bad streak of the WAX ​​ecosystem more solvently than other games. We consider that penalizing one of the few games that remain active and that is in the top 15 of the table is not a good incentive.
 
-**WAX Holiday Calendar**
+**DappRadar - February 2024 (included in Guild report)**
+![feb-24](https://3dkrender.com/wp-content/uploads/2024/02/dappradar.png)
 
-For the third consecutive year, Rada Quest participated in the WAX Holiday Calendar, collaborating with other incredible projects within the ecosystem.
-- https://x.com/RadaQuestTCG/status/1863588933226869074
-- https://x.com/maxytv/status/1867027383603138875
+**DappRadar - February 2025**
+![today](https://3dkrender.com/wp-content/uploads/2025/02/RQ_DappRadar.png)
 
-**Coliseum Campaign 16th**
+We would like to take this opportunity to remind you that this project is 100% self-funded. In addition, we continue to support the promotion of artists by including new cards with more illustrations by artists such as Catrynart or Triz Draw. These are some examples of the new cards:
 
-A special holiday edition of the Coliseum campaign featured exceptional prizes, offering a festive experience for the community.
-
-- https://x.com/RadaQuestTCG/status/1863936222412059111
-- https://x.com/RadaQuestTCG/status/1869026262116934104
-
-**Internal Metrics**
-
-November 24 2024 to January 3 2025
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2025/01/radastats_01.png)
-
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2025/01/radastats_02.png)
-
-X (Twitter) metrics:
-
-November 24 2024 to January 3 2025
-- 6.9K impressions and 6250 Followers. 
+| Catrinart | Catrynart | Triz Draw |Triz Draw |
+|:--:|:--:|:--:| :--:|
+| ![catrynart](https://ipfs.neftyblocks.io/ipfs/QmcXMQkiF5GGMFVFbmvE1pRYz6H9KX1bv4MwvqZmLFPHfm) | ![catrinart](https://ipfs.neftyblocks.io/ipfs/QmT8nVrdhfCeK4ZUmPN6VMUCfwddZ2xUAKPaAtF2rfzfBL) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmS2wDnyrqELpb7f1oRJVkgR2h868HoUmadrSo7nvqqpgC) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmehsKCw5HYqBFiKACns3TmZLgySGCyhAfNtvLZGev7vTc) |
 
 
-> *Note*: We do not include DappRadar metrics from now on as they are in the public domain.
+We would like to be able to provide more value to the WAX ​​gaming ecosystem, but budget limitations are significant and the lack of support from the OIG through decay penalties does not help either.
 
-**Development upadte**
+More updates on next reports.
+
+**Development update**
 
 We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
 ---
+
 ### Pug Tapper (Telegram Game)
 
 **URLs**: https://t.me/pugtapper_bot
 
-Collaborations were carried out to promote visibility for various projects in the WAX ecosystem, while maintaining our mission to expand the reach of our game to new users.
+Due to Telegram's new terms of use, which expressly prohibit any activity in applications linked to a blockchain other than TON, we are studying new options for PugTapper, since this affects us completely. For the moment, we have stopped delivering WAX NFTs as rewards.
 
-Ai Geometrics Collaboration
-- https://x.com/PugTapper/status/1869421450765180967
-
-**Twitter**: 617 followers (https://x.com/PugTapper)
+More info:
+- https://telegram.org/tos/bot-developers#7-blockchain-integration
 
 ### Client/Server WAX App Template
 
@@ -111,7 +93,6 @@ Open source Client/Server Template to accelerate the creation of applications in
 - We have updated the server side incorporating improvements in the data table reading services from Hyperion APIs.
 - The NextUI library has been updated to its new HeroUI model
 
-
 ### FundingWAX - Discord Bot
 
 **URLs**: https://test.fundingwax.com (testnet)
@@ -123,8 +104,8 @@ Open source Client/Server Template to accelerate the creation of applications in
 No updates. We are already working on integrating the bot client into the official Dungeon Keeper Studios website.
 
 More information:
-- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
 
+- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
 
 ### WAX Developer Portal (community project)
 
@@ -132,8 +113,10 @@ More information:
 
 We continue to contribute to the developer documentation portal with new Spanish translations, tutorials, and revisions of texts contributed by other contributors.
 
-We have improved the formatting of the original documents of the tutorial "How to make a farming game in WAX" and have added the translation into Spanish
-- https://github.com/wax-office-of-inspector-general/wax-developer/pull/187
+- About WAX Section- Spanish translation and content update.
+- WAX Hyperion HowTo - Spanish translation and content update.
+
+- https://github.com/wax-office-of-inspector-general/wax-developer/pull/194
 
 ---
 
@@ -144,6 +127,7 @@ We have improved the formatting of the original documents of the tutorial "How t
 **Marketing & Ecosystem Growth Summary**
 
 November 24 2024 to January 3 2025
+
 - Twitter: 5.1K impressions and 15389 Followers, New Follows 134, Media Activity 507
 - X Space: 3 spaces as co-host, 1 space as guest. Total 4 spaces and approximate sum of reproductions so far + Tuned in: 442
 - Twitch & X (Multistream). Approximate sum of reproductions so far + Tuned in: 346
@@ -155,6 +139,7 @@ Cristalla continued to host weekly X Spaces to spotlight projects and engage wit
 **Lives**
 
 Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
+
 - https://x.com/queencristalla/status/1863979771777941736
 - https://x.com/queencristalla/status/1869776283522978132
 
@@ -166,27 +151,30 @@ Cristalla received recognition on DAO Lab’s X account for her content creation
 
 **X SPACES**
 
-NFTOPIA Wednesday co-host 
+NFTOPIA Wednesday co-host
 
 Week 35 11-11-2024 Reproductions so far + Tuned in 56
+
 - https://x.com/thenftopia/status/1866920905219145806
 
 Week 36 11-17-2024 Reproductions so far + Tuned in 98
+
 - https://x.com/thenftopia/status/1869084496609382843
 
 Week 37 01-01-2025 Reproductions so far + Tuned in 111
-- https://x.com/thenftopia/status/1874531058894725469
 
+- https://x.com/thenftopia/status/1874531058894725469
 
 **Guest WAX Spaces**
 
 WAXWednesday Wax Holiday Calendar Tuned in 177
-- https://x.com/i/spaces/1mnxeAOVXOPxX/peek
 
+- https://x.com/i/spaces/1mnxeAOVXOPxX/peek
 
 **Articles**
 
 Understanding the WAX Office of Inspector General (OIG): Strengthening the Blockchain
+
 - https://medium.com/dungeon-keeper-studios/understanding-the-wax-office-of-inspector-general-oig-strengthening-the-blockchain-11e9d7cf4a83
 
 **Video**
@@ -194,6 +182,7 @@ Understanding the WAX Office of Inspector General (OIG): Strengthening the Block
 A new English-language YouTube channel has been launched, aiming to create diverse visual content. This initiative is designed to introduce new audiences to WAX and encourage them to join the community.
 
 WAX Blockchain Beginner’s Guide: CPU, NET, RAM, Marketplaces, Staking, and OIG
+
 - https://www.youtube.com/watch?v=2UOKWE_wVOI&t
 
 ### <ins>Feedback to OIG</ins>
