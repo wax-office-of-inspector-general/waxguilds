@@ -12,15 +12,13 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>February 2025 Update</ins>
+### <ins>March 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
-Since our last update we have made progress on two key initiatives: We've implemented significant IPFS enhancements to improve content availability, distribution, and system performance.
+Since our last update we have been working on setting up a significantly more powerful Hyperion instance as part of a full hardware refresh. This upgrade will enhance performance, scalability, and reliability, ensuring our infrastructure remains robust and capable of handling increased demand. Further updates will be provided as the new system is deployed.
 
-During the most recent technical evaluation, we encountered an issue with missing blocks due to a clock misalignment. This was promptly identified and has since been fully rectified.
-
-Our existing monitoring was focused on round performance rather than individual blocks, which meant the issue was not detected as early as it could have been. In response, we have enhanced our monitoring systems to track block production more granularly, ensuring faster detection and resolution of similar issues in the future.
+We previously encountered an issue with our Elastic Search backup due to a misalignment in snapshot timings. This resulted in a temporary disruption lasting approximately 24 hours before being fully rectified. Unfortunately, this was not reported to the OIG at the time, and we are addressing it now for transparency. The issue has been resolved, and backups have been functioning as expected since.
 
 We remain committed to maintaining high reliability and performance standards within the WAX network.
 
@@ -80,6 +78,18 @@ We intend to share this utility with other guilds imminently, as we believe it w
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
+
+March 2025 update - Improvements have been made to our Docker Compose auto-builds to enhance deployment efficiency and configurability based on specific environment needs. Key changes include:  
+
+- **Added configurable memory and CPU limits** for each service, managed via environment variables (e.g., `REDIS_MEMORY=2g`, `REDIS_CPUS=1`).  
+- **Applies to**: Redis, RabbitMQ, Hyperion, Node, Kibana, Prometheus, and Grafana.  
+- **Helps prevent resource contention and ensures stable performance.**  
+- **Introduced the `MONITORING_ENABLED` environment variable**:  
+  - When disabled, removes Prometheus, Grafana, and all exporters (Elasticsearch, Redis, RabbitMQ, Nodeos).  
+  - Useful for development environments or resource-constrained systems, reducing overhead when monitoring isn't needed.  
+
+These changes improve system stability, efficiency, and flexibility across different deployment environments.  
+
 We have made several updates and enhancements to the Auto-Build solution, improving its functionality, monitoring capabilities, and ease of use. Below is a summary of the changes:
 
 ## 1. Improved Navigation and Documentation
