@@ -12,16 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-1. On Jan 13 we've suffered from a major DDOS attach from various asian countries that mostly comprised from IPv6 addresses which temporarily deceived CF heuristics.
-We've fended off the attack eventually, but it created a 5 hour gap in some of our services uptime.
-2. On Jan 16 there was an issue with mainnet BP host which was randomly restarted and the BP was automatically migrated, though creating 3 missed rounds for us.
+No issues so far.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 9.5M req/week | 52.6k req/week | 1.11M req/week | 44.59k req/week |  80.01k req/week |
+| - | 8.67M req/week | 19.1k req/week | 740k req/week | 55.24k req/week |  89.04k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -40,74 +38,70 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
 
-The development of the R-Planet game is progressing steadily, with various tasks at different stages of completion. 
-The team is advancing, maintaining continuous collaboration to improve the gaming experience and meet user expectations.
-The following completed tasks highlight the ongoing development efforts within the project.
+
+Here is a types of tasks we are currently working on and implementing:
+**UI Enhancements:** Addressing user interface issues to improve navigation and user experience.
+**Bug Fixes:** Correcting typos and resolving other minor issues to ensure smooth gameplay.
+**Feature Development:** Introducing new features aimed at enhancing game balance and accessibility for newcomers. 
 
 Changelog:
 
-**New Features**
-1. New Game Lobby
-Home screen for Player's account provides better in-game functionality navigation. 
-All account functionality collected in one screen.
+__Quest System (Progression + Daily)__
 
-![image](https://gist.github.com/user-attachments/assets/b9db3ee7-0b60-4b63-9470-93cf87b29f03)
-![image](https://gist.github.com/user-attachments/assets/0d06427d-85c5-4a5c-9ec1-3d261fa46541)
+To enhance long-term engagement, we are introducing a structured quest system. Players will have both progression quests and daily challenges that reward consistent activity.
 
-2. Navigation system
-Map movement visualization. 
-Player related armies now visualized on the map.
+__Deeper Map Interactions__
 
-![image](https://gist.github.com/user-attachments/assets/9d099924-5317-4196-acb1-f3e793d931ff)
-![image](https://gist.github.com/user-attachments/assets/f946909c-d347-4b9c-8d12-917da254672c)
+The world of R-Planet is vast, and we are adding new points of interest on the map to enhance strategic and tactical gameplay. Players will be able to engage in special missions or face unexpected challenges, making exploration more rewarding.
 
-3. Tutorial
-First time user experience. Step by step forced tutorial about base game features.
+__Inventory System__
 
-![image](https://gist.github.com/user-attachments/assets/f72c77f3-d6d1-40f6-a210-648a7f3dae6f)
+Managing in-game assets effectively is key to success. We plan to redesign the inventory screen, making it easier to store, organize, and manage all owned and collected items and boosters in one place. Streamlining inventory management will help players to optimize their gameplay strategies and maintain better control over their assets.
 
-**Additional Improvements**
-1. Tutorial rebalance
-Balance changing in the server settings, to make more activities for the FTUE and speedup player's progression. This should increase player's engagement.
+__Hero Level-Up & Skill Upgrade__
 
-![image](https://gist.github.com/user-attachments/assets/ac493abc-b4fe-4295-a830-5551b01d0a05)
+We are reworking the experience system to make hero progression more dynamic and rewarding. More heroes will be introduced, each with a unique set of empowered properties that can be upgraded over time. Players will be able to customize their heroes through upgrades and new gear items, developing specialized strategies based on their hero’s powers.
 
-**Ecosystem Networking Engagement**
+__More Hero Items__
 
-***Overview***
+The hero equipment system is being expanded to introduce more gear items with varying levels of influence on the hero, the base to which the hero is attached, and their army. Players will have access to items of different rarities. This expansion aims to deepen character customization and strategy, giving players more control over their heroes’ strengths.
 
-There was done some portion of effort and some resources were used to get more traction from the user base side.
-This collaboration has helped us to attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio) which created prositive influx to the WAX ecosystem.
+__Rewarded Ads__
 
-***Two-Round Tournament***
+Players will have the opportunity to earn in-game boosters and benefits by watching ads. This feature will be optional and designed to provide additional resources without disrupting gameplay. The system will allow players to gain advantages without direct purchases, ensuring a balanced and accessible approach to in-game progression.
 
-The R-Planet Two-Round Tournament, with a ***$50,000 USD prize pool***, has been a highlight of our community engagement efforts. 
-The first round, featuring 3 servers, has been completed, and the second round will take place on one server on November 26th. 
-This tournament has created excitement among players and helped foster competition within the community.
-https://t.me/rplanetio/709827
-https://t.me/rplanetio/709828
+__Engagement Chest__
 
-The tournament was successfully finalized this month following a bunch of giveway events
+To reward long-term play, we are introducing an engagement chest system. The longer players stay active in the game, the more rewards they can receive. Scaling rewards will make extended play sessions more satisfying, reinforcing player engagement.
 
-![image](https://gist.github.com/user-attachments/assets/e999da42-78ce-4050-be5a-4f5e310e887a)
+**Spreading the word**
 
-![image](https://gist.github.com/user-attachments/assets/b7f112ca-ba3f-4068-aaae-bcf5f4674abe)
+Recently, we presented our roadmap for the first half of 2025, outlining upcoming features and improvements. This initiative aims to keep our community informed and involved in the development process.
 
+![image](https://gist.github.com/user-attachments/assets/9c3f245d-2286-459b-b562-f0ee3aa47958)
+
+The article detailing our roadmap for the first half of 2025 is available on our Medium page:
+[R-Planet 2025: Future Plans & Expansions](https://rplanet.medium.com/r-planet-2025-future-plans-expansions-cae201d7b900)
+In this article, we outline the upcoming features and improvements planned for the first half of 2025, aiming to keep our community informed and engaged in the development process.
+
+__Launch & User Acquisition Strategy__
+On March 31, the new Playground server will go live, allowing players to explore new features and mechanics.
+Following this, we will initiate user acquisition campaigns to drive engagement and onboard new players.
+Within 7-14 days after launch, a new gaming server with exciting prizes will be introduced, further incentivizing participation.
 
 **Metrics**
 
-Period: Jan 1, 2025 - Jan 30 2025
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
 
 activity volume
 
-![image](https://gist.github.com/user-attachments/assets/5e080729-5226-43c9-8e29-09f3713609d5)
-
+![image](https://gist.github.com/user-attachments/assets/33cceb1e-0147-403f-b3f3-113d9a0c941f)
 
 nft volume
 
-![image](https://gist.github.com/user-attachments/assets/57ab59fc-59db-441c-b199-c23ce6a79aa6)
+![image](https://gist.github.com/user-attachments/assets/ae3543a5-2526-4dc2-801d-0b66e140e302)
 
 ---
 
@@ -124,27 +118,25 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-prospectors also gained some traction due to issues with the EOS world specifically related to the recent changes in EOS blockchain and subsequent migration of some portion of the users to the WAX worlds was initiated.
-
-![image](https://gist.github.com/user-attachments/assets/727acd4a-aa10-487d-a688-d9b9f65e307d)
-
-Period: Jan 1, 2025 - Jan 30 2025
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
+
+Total unique users per month ~ 9k
 
 prospectors google analitycs
 
 play.prospectors.io (EOS)
 
-![image](https://gist.github.com/user-attachments/assets/c58a2e68-f247-4deb-a4a7-e85e4f48a9e6)
+![image](https://gist.github.com/user-attachments/assets/cf9e0821-64a9-4694-98c2-df113a2724e3)
 
 wax.prospectors.io (WAX - Yukon server)
 
-![image](https://gist.github.com/user-attachments/assets/948582e6-b291-46e6-bb1f-09e570fc7373)
+![image](https://gist.github.com/user-attachments/assets/8b04f9f4-ed26-432b-a620-0464074067ba)
 
 grandland.prospectors.io (WAX - Our main server)
 
-![image](https://gist.github.com/user-attachments/assets/0c0dc216-ea49-4197-a843-6ea31fb70703)
+![image](https://gist.github.com/user-attachments/assets/eebcc7ed-ff4d-4572-b6e1-34a7438fc5a4)
 
 ---
 
@@ -155,9 +147,9 @@ grandland.prospectors.io (WAX - Our main server)
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-29 active pools with about 1469 active user stakes accross the platform.
+33 active pools so far
 
-![image](https://gist.github.com/user-attachments/assets/f66549f3-74b0-4ca7-bf18-149c26cb985f)
+![image](https://gist.github.com/user-attachments/assets/065c88c4-4127-446a-8419-36eb9c5c3633)
 
 ---
 
