@@ -1,0 +1,71 @@
+### <ins>General</ins>
+
+|  |  |
+| --- | --- |
+| Website | https://qaraqol.com/ |
+| Contact | qaraqolblock@gmail.com |
+| bp.json (mainnet) | https://qaraqol.com/wax.json |
+| bp.json (testnet) | https://qaraqol.com/waxtest.json |
+| producer (mainnet) | qaraqolblock |
+| producer (testnet) | qaraqolblock |
+| Guild Jurisdiction | International |
+
+### <ins>Noteworthy</ins>
+We developed a new tool called waxport, which enables users to export their WAX blockchain transfer history into a CSV file. In addition to waxport, we have greatly expanded our metrics tool by integrating new metrics related to eosio.saving inflation, WAX Cloud Wallet bridge token inflows and outflows, and power-up fees. We began providing Elastic Search snapshots as well. 
+
+### <ins>API Services</ins>
+
+| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
+|--------|--------|--------|--------|--------|--------|
+| [x] | [x] | [x] | [x] | [x] | [x] |  [x] |
+| - | - | - | - | - | - |
+
+
+### <ins>Contributions</ins>
+
+(new)
+waxport:
+
+**URLs**
+https://waxport.qaraqol.com/
+https://github.com/qaraqol/waxport
+**Update** 
+We developed a tool to export WAX blockchain transfer history into a CSV file, aiming to make it simple to track, analyze, and manage transactions for accounting/tax purpose or personal records. Understanding some people have unique requirements, we open-sourced the code for anyone in the community to use and expand upon however they'd like or gain an understanding of how to develop similar tools. 
+
+Qaraqol Metrics:
+
+**URLs**:
+https://metrics.qaraqol.com/
+**List of SCs**:  N/A
+
+**Update**: We have recently enhanced our dashboard by beginning to track several new metrics to provide insights into the ecosystem. Specifically, we have begun tracking metrics related to eosio.saving inflation, allowing users to monitor inflation related to the eosio.saving account and understand its outflows. Additionally, we've implemented tracking for WAX Cloud Wallet bridge token inflows and outflows, allowing users to view and track data on the chain inflow/outflows. Furthermore, we've began tracking data related to power-up fees, allowing users to see how much fees are collected by powerup and who the largest spenders are. 
+
+IPFS WAX Script:
+
+URLs: https://github.com/qaraqol/ipfs-wax-script
+New: https://github.com/qaraqol/WaxMarketCap-IPFS-script
+
+
+List of SCs: n/a 
+
+Update: N/A
+
+
+
+---
+
+...
+...
+
+---
+### <ins>Backups </ins> 
+URL: (https://snapshots.qaraqol.com/)
+
+| Snapshot | Blocks Log | State History | Elastic Search | AA API |
+|--------|--------|--------|--------|--------|
+| [x] | [x] | [x] | [x ] | [x] |
+
+### <ins>Feedback to OIG</ins>
+N/A
+----
+

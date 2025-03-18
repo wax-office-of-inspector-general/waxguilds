@@ -12,13 +12,17 @@
 
 ### <ins>Noteworthy</ins>
 
+- We deployed a new baremetal block producer node to improve our benchmark scores. Over the last 30 days Aloha had the lowest median benchmark.   
+
+![image](https://github.com/user-attachments/assets/85b0159e-c481-46b5-8038-cd021b260180)
+
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [ ] | [ ] | [ ] | [ ] |  [ ] |
-| - | 58k / day | - | - | - |  - |
+| - | 88k / day | - | - | - |  - |
 
 
 ### <ins>Contributions</ins>
@@ -29,8 +33,7 @@
 
 **Updates**: 
 
-- We [launched a blog](https://droppp.io/bloggg/) and published an important update regarding upcoming changes to our marketplace wallet structure.   
-- Per the wallet changes mentioned above, we have been hard at work desgining and building the frontends and backends necessary to support these changes.   
+- New blog post: https://droppp.io/bloggg/2025-looking-ahead/ 
 
 Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
@@ -44,13 +47,15 @@ Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on cha
 
 Updates:
 
-- We created a [NYCC 2024 NFT sticker collection](https://wax.atomichub.io/explorer/collection/wax-mainnet/stckr.droppp) for NYCC 2024. We handed physical cards out at the convention that contained QR codes to redeem the stickers. These stickers can be applied to your Droppp profile avatar.   
-- On Oct 18, 2024 we announced the [Funkoween Series 2](https://droppp.io/drop/234/funkoween-series-2/) Digital Pop! drop.   
-- On Oct 23, 2024 we took a redemption snapshot for [The Disney Afternoon: Funko Digital Pop! Series 1](https://droppp.io/drop/204/the-disney-afternoon-series-1/) and opened the redemption at https://droppp.io/redemptions.
-- On Oct 30, 2024 we took a redemption snapshot for [Daria x Funko Series 1](https://droppp.io/drop/207/daria-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Oct 31, 2024 we released the [Funkoween Series 2](https://droppp.io/drop/234/funkoween-series-2/) Digital Pop! collection on Droppp. This release consisted of 16k Standard and 18k Premium packs and sold out.   
-- On Nov 1, 2024 we announced the [Beetlejuice x Funko Series 1](https://droppp.io/drop/237/beetlejuice-series-1/) Digital Pop! drop.   
-- On Nov 8, 2024 we announced the [Batman 85th Series 2 x Funko](https://droppp.io/drop/240/batman-85th-series-2/) Digital Pop! drop.   
+- On Jan 8, 2025 we took a redemption snapshot for [Cartoon Network x Funko Series 1](https://droppp.io/drop/222/cartoon-network-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Jan 10, 2025 we announced the [Adventure Time x Funko Series 2](https://droppp.io/drop/249/adventure-time-series-2/) Digital Pop! drop.   
+- On Jan 21, 2025 we released the [Adventure Time x Funko Series 2](https://droppp.io/drop/249/adventure-time-series-2/) Digital Pop! collection on Droppp. This release consisted of 15k Standard and 15k Premium.   
+- On Jan 22, 2025 we took a redemption snapshot for [Alien: Funko Digital Pop!™ Series 1](https://droppp.io/drop/225/alien-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Jan 24, 2025 we announced the [Freddy's Dark Valentine Series 1](https://droppp.io/drop/252/freddys-dark-valentine-series-1/) Digital Pop! drop.   
+- On Feb 4, 2025 we released the [Freddy's Dark Valentine Series 1](https://droppp.io/drop/252/freddys-dark-valentine-series-1/) Digital Pop! collection on Droppp. This release consisted of 10k Standard and 6k Premium packs.   
+- On Feb 5, 2025 we took a redemption snapshot for [G.I. JOE x Funko Series 1](https://droppp.io/drop/228/gi-joe-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Feb 12, 2025 we took a redemption snapshot for [Stranger Things x Funko Series 2](https://droppp.io/drop/231/stranger-things-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On Feb 14, 2025 we announced the [Toy Story: Funko Digital Pop! Series 1](https://droppp.io/drop/255/toy-story-series-1/) Digital Pop! drop.   
 
 -------------------------------------------------------------------------------------------
 
@@ -88,18 +93,19 @@ Updates:
 
 Social Media Engagement
 
-- https://www.instagram.com/reel/DCHfXVHpvZ2/ (92.5k views)
-- https://www.instagram.com/reel/DBRS6GgpUKH/ (85.6k views)
-- https://www.instagram.com/reel/DB1XBFGpkgv/ (82.6k views)
-- https://www.instagram.com/reel/DBhjE64ykX-/ (52.4k views)
-- https://x.com/Dropppio/status/1851650635554333150 (8.8k views)
+- https://www.instagram.com/reel/DEpwZbFvmo9/ (175k views)
+- https://www.instagram.com/reel/DGD1GtVvU7V/ (128k views)
+- https://www.instagram.com/reel/DE8bzwRysfC/ (121k views)
+- https://www.instagram.com/reel/DFNwp3sv43J/ (97.7k views)
+- https://www.instagram.com/reel/DFa7e8Lp_JW/ (17.7k views)
 
 Community Coverage
 
-- https://www.youtube.com/watch?v=eBloFycmLxc (25k views)
-- https://www.youtube.com/watch?v=9UrIeMW2XyA (15k views)
-- https://www.youtube.com/watch?v=khWVBscn2HA (1.4k views)
-- https://youtu.be/oetvVljl52s?si=nXrbR5KhZFdpJlZB (1.9k views)
+- https://youtu.be/ubexjXJ3QvU?si=z915mrBV0NYvg1DY (31k views)
+- https://youtu.be/DwIhPijAN1A?si=SsbQ12ZH1ZkYmd_j (30k views)
+- https://youtu.be/Kqi1MCjoKFk?si=cn4uWyRcXHiD14a4 (19k views)
+- https://youtu.be/IeVfVi7NNeQ?si=yQ_6FXU6WsyJtT_b (3.4k views)
+- https://youtu.be/aaVTm7qcoZY?si=mRf3eYb0CqUeJepq (3.1k views)
 
 Droppp Discord
 

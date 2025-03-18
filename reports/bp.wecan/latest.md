@@ -12,20 +12,16 @@
 
 ### <ins>Noteworthy</ins>
 
-We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
-The reason is being investigated:
-
-the reason was in poor condition of one of the switches in the failover history node which made it flap.
-node was migrated out of there.
-
-No other issues over the past 1.5 months.
+1. On Jan 13 we've suffered from a major DDOS attach from various asian countries that mostly comprised from IPv6 addresses which temporarily deceived CF heuristics.
+We've fended off the attack eventually, but it created a 5 hour gap in some of our services uptime.
+2. On Jan 16 there was an issue with mainnet BP host which was randomly restarted and the BP was automatically migrated, though creating 3 missed rounds for us.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 10.12M req/week | 664.15k req/week | 1.63M req/week | 37.88k req/week |  104.52k req/week |
+| - | 9.5M req/week | 52.6k req/week | 1.11M req/week | 44.59k req/week |  80.01k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -39,20 +35,79 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 **URLs:**
 * Website: https://rplanet.io;
            https://rplanet.app/;
-* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (5k downloads); 
+* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (10K+ downloads); 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
 
+The development of the R-Planet game is progressing steadily, with various tasks at different stages of completion. 
+The team is advancing, maintaining continuous collaboration to improve the gaming experience and meet user expectations.
+The following completed tasks highlight the ongoing development efforts within the project.
+
+Changelog:
+
+**New Features**
+1. New Game Lobby
+Home screen for Player's account provides better in-game functionality navigation. 
+All account functionality collected in one screen.
+
+![image](https://gist.github.com/user-attachments/assets/b9db3ee7-0b60-4b63-9470-93cf87b29f03)
+![image](https://gist.github.com/user-attachments/assets/0d06427d-85c5-4a5c-9ec1-3d261fa46541)
+
+2. Navigation system
+Map movement visualization. 
+Player related armies now visualized on the map.
+
+![image](https://gist.github.com/user-attachments/assets/9d099924-5317-4196-acb1-f3e793d931ff)
+![image](https://gist.github.com/user-attachments/assets/f946909c-d347-4b9c-8d12-917da254672c)
+
+3. Tutorial
+First time user experience. Step by step forced tutorial about base game features.
+
+![image](https://gist.github.com/user-attachments/assets/f72c77f3-d6d1-40f6-a210-648a7f3dae6f)
+
+**Additional Improvements**
+1. Tutorial rebalance
+Balance changing in the server settings, to make more activities for the FTUE and speedup player's progression. This should increase player's engagement.
+
+![image](https://gist.github.com/user-attachments/assets/ac493abc-b4fe-4295-a830-5551b01d0a05)
+
+**Ecosystem Networking Engagement**
+
+***Overview***
+
+There was done some portion of effort and some resources were used to get more traction from the user base side.
+This collaboration has helped us to attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio) which created prositive influx to the WAX ecosystem.
+
+***Two-Round Tournament***
+
+The R-Planet Two-Round Tournament, with a ***$50,000 USD prize pool***, has been a highlight of our community engagement efforts. 
+The first round, featuring 3 servers, has been completed, and the second round will take place on one server on November 26th. 
+This tournament has created excitement among players and helped foster competition within the community.
+https://t.me/rplanetio/709827
+https://t.me/rplanetio/709828
+
+The tournament was successfully finalized this month following a bunch of giveway events
+
+![image](https://gist.github.com/user-attachments/assets/e999da42-78ce-4050-be5a-4f5e310e887a)
+
+![image](https://gist.github.com/user-attachments/assets/b7f112ca-ba3f-4068-aaae-bcf5f4674abe)
+
+
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+Period: Jan 1, 2025 - Jan 30 2025
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/2dae3ed8-c941-418d-9298-5939663bc707)
+activity volume
 
-![image](https://gist.github.com/user-attachments/assets/1dcb1a06-7f8f-4e51-9b02-694864219cc5)
+![image](https://gist.github.com/user-attachments/assets/5e080729-5226-43c9-8e29-09f3713609d5)
+
+
+nft volume
+
+![image](https://gist.github.com/user-attachments/assets/57ab59fc-59db-441c-b199-c23ce6a79aa6)
 
 ---
 
@@ -69,13 +124,27 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+prospectors also gained some traction due to issues with the EOS world specifically related to the recent changes in EOS blockchain and subsequent migration of some portion of the users to the WAX worlds was initiated.
+
+![image](https://gist.github.com/user-attachments/assets/727acd4a-aa10-487d-a688-d9b9f65e307d)
+
+Period: Jan 1, 2025 - Jan 30 2025
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/d506348f-6b7a-432e-91b0-471c1d4c00ec)
+prospectors google analitycs
 
-![image](https://gist.github.com/user-attachments/assets/25f4ca15-4cb4-4b2b-b279-7a7b41afda75)
+play.prospectors.io (EOS)
+
+![image](https://gist.github.com/user-attachments/assets/c58a2e68-f247-4deb-a4a7-e85e4f48a9e6)
+
+wax.prospectors.io (WAX - Yukon server)
+
+![image](https://gist.github.com/user-attachments/assets/948582e6-b291-46e6-bb1f-09e570fc7373)
+
+grandland.prospectors.io (WAX - Our main server)
+
+![image](https://gist.github.com/user-attachments/assets/0c0dc216-ea49-4197-a843-6ea31fb70703)
 
 ---
 
@@ -86,10 +155,9 @@ Stats:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-40 active pools with about 2000+ active user stakes accross the platform.
+29 active pools with about 1469 active user stakes accross the platform.
 
-![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
-![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
+![image](https://gist.github.com/user-attachments/assets/f66549f3-74b0-4ca7-bf18-149c26cb985f)
 
 ---
 
