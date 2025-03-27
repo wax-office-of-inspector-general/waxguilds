@@ -35,9 +35,9 @@ Others APIs: Roborovski, dfuse, ...
 
 **Update**: 
 
-- Added a new feature to waxdaofarmer contract to improve UX when users do "claimall" actions.
+- Added some more info to [documentation](https://waxdao.gitbook.io/waxdao/products/wojak-nfts)
 
-- Added [v2 farm info](https://waxdao.gitbook.io/waxdao/products/nft-farms/v2-farms) to WaxDAO documentation
+- Made some front end and back end updates. Stats on the homepage are now being pulled from a custom API in real time instead of hardcoded stats from last year.
 
 **Metrics**
 
@@ -142,9 +142,7 @@ n/a
 
 **Update**: 
 
-- Partnered with Alpha World and a couple smaller projects to incentivize liquidity for LSWAX/third_party_token
-
-- Reached 8.9 million WAX in TVL
+- [Made a bunch of contract updates and wrote unit tests](https://github.com/mdcryptonfts/waxfusion/commits/main/). Update has been submitted to WAX Team and been approved, just waiting for the [multisig](https://waxblock.io/msig/guild.waxdao/qvkehm) to be signed
 
 **Metrics**
 
@@ -160,7 +158,7 @@ n/a
 
 **Update**:
 
-- Added a page to handbook about [renouncing contracts](https://waxdao.gitbook.io/wax-smart-contract-development-guide/tips-and-tricks/renouncing-contract-ownership)
+- Updated the handbook to add a page for [setting up multisig permission structures](https://waxdao.gitbook.io/wax-smart-contract-development-guide/tips-and-tricks/creating-permission-structures)
 
 **Metrics**
 
@@ -179,7 +177,7 @@ Weekly live streams on my [YouTube Channel](https://www.youtube.com/@MikeDCrypto
 
 ### DefiLlama Initiative
 
-- Submitted Thrive On Mars and wax.fun to DefiLlama
+- [Submitted R-Planet](https://github.com/DefiLlama/DefiLlama-Adapters/pull/13559) to DefiLlama
 
 
 ### <ins>Backups </ins>

@@ -32,52 +32,44 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-*Added Listings*
-- wax.fun (Meme Coin/Community)
-
+**Update**: 
 
 **Metrics**
 
-Period: January 5th, 2025 - January 19th 2025
+Period: February 16th 2025 - March 2th 2025
 
 
+<img width="450" alt="waxdapps_metrics_2-16_3-2" src="https://github.com/user-attachments/assets/e106e142-2e23-45d5-9354-bd6ec3965afd" />
 
-<img width="575" alt="IGReport3_01-05_19-25" src="https://github.com/user-attachments/assets/4f097527-bfdf-4d2b-a9bb-48141762fc97" />
+<img width="450" alt="waxdapps_metrics1_2-16_3-2" src="https://github.com/user-attachments/assets/4024a902-dbb9-4c54-ba41-4f3ef211f1b2" />
 
-<img width="575" alt="IGReport2_01-05_19-25" src="https://github.com/user-attachments/assets/1dd09c58-e715-4486-8055-198afd0bd4ae" />
-
-<img width="575" alt="IGReport1_01-05_19-25" src="https://github.com/user-attachments/assets/605592cc-171d-4a58-98dc-093907a6aacc" />
-
+<img width="450" alt="waxdapps_metrics2_2-16_3-2" src="https://github.com/user-attachments/assets/bd7e8d16-e401-4f4a-a428-e329fee91cda" />
 
 
   
 ### WaxAI
+**URLs**: https://waxai.io/
 
 ![waxai (1)](https://github.com/user-attachments/assets/7f719897-2bde-4acd-90fa-05fdbbe5ed60)
 
-  
-  
 
-**URls** https://waxai.io/
+**Update**: We've been doing a lot of thinking about WaxAI and how we can make it valuable for the WAX ecosystem. We're excited to share our pivot/direction change.
 
-  
-  
+1. **Previous WaxAI**
+   - AI assistant specialized in WAX blockchain documentation.
+   - Limited practical applications and usage (when it was initially released).
 
-### Project Update
+2. **New Direction**
+   - Strategic Advisor Assistant (SAA) for ecosystem analysis.
+   - Analyzes guild contributions and project outcomes.
+   - Provides data-driven recommendations for ecosystem growth.
+   - Tracks contribution impact and identifies successful patterns.
 
-  
+3. **Technical Summary**
+   - The system integrates a custom database with both GitHub submissions (latest.md) and OIG Notion reports(Tech-ops/Product-dev/Eco-dev/strategic-dev). The assistant's instruction prompt is designed to analyze (github)submissions alongside their evaluations(OIG report) to process the full view of guild activity and identify success patterns. The AI system is trained on the latest OIG guidelines, requirements, historical guild contributions, and their outcomes, along with submission formats and evaluation criteria. By processing both submission data and evaluation results, the assistant can answer questions about any WAX contributions, identify what makes contributions successful, guide guilds on improving their ecosystem impact, and suggest optimizations based on historical patterns of success.
 
-1. **UI/UX**: In the process of rebuilding the UI for a cleaner/smarter experience. Re-Imagining what type AI can be useful and impactful to the WAX community! 
+We are open to feedback or schedule a call to showcase the latest. 
 
-
-**Metrics**
-
-Period: November 30th, 2024 - December 8th 2024
-
-*Stats*
-No stats to share for this reporting period
-
-  
 
 ### <ins>Marketing</ins>
 
