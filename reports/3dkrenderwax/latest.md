@@ -31,56 +31,26 @@ No updates
 
 **Update**:
 
-These are some of the internal statistics of the game. We have noticed a strong increase in card recycling activities (burning NFTs). This causes an increase in the scarcity of game cards, which benefits our ecosystem.
+Zombiecoin PFP collaboration
 
-Another positive fact is the constant influx of new players. Even though the numbers are small, they keep the game active.
+We have an active collaboration with the WAX game Zombiecoin! It's a PFP where you can unlock a special Rada Quest outfit.
 
-|                | Nov 24 | Dec 24 | Jan 25 |
-| -------------- | -----: | -----: | -----: |
-| New Players    |    199 |    158 |    298 |
-| Recicled Cards |  3,420 |  2,213 |  2,842 |
-| Arena Battles  | 58,506 | 83,464 | 44,585 |
-| Gems Plays     | 10,244 |  8,660 |  8,915 |
+- https://x.com/RadaQuestTCG/status/1900594271612223775
 
-> Note: Arena battles are heavily dependent on the seasonality of campaigns, so significant differences can be seen from one month to another.
+### Coliseum Campaign 18
 
-As we have warned on other occasions, over time we have reduced as much as possible the need for users to sign transactions, so statistics such as DappRadar should only be taken as a guide regarding the evolution of the game.
+New cards with more illustrations by  Catrynart MarcosDK. 
 
-In the latest evaluations Rada Quest has been penalized with decay. We want to show our disagreement with this measure and we want to argue for it.
-
-If we check the statistics of Rada Quest on DappRadar from 6 months ago, or 1 year ago, we can see that our position in the ranking was around 25th place. If we look at the current statistics, it is true that there is a drop in the supposed number of unique monthly players (indicative data due to what was mentioned above) but our game has improved its position placing itself around 15th place in the ranking of WAX games. This is not good news overall, since it is easily deduced that the WAX ​​ecosystem is suffering a lot, but it is positive news for us since it shows that our game, Rada Quest, is withstanding the bad streak of the WAX ​​ecosystem more solvently than other games. We consider that penalizing one of the few games that remain active and that is in the top 15 of the table is not a good incentive.
-
-**DappRadar - February 2024 (included in Guild report)**
-![feb-24](https://3dkrender.com/wp-content/uploads/2024/02/dappradar.png)
-
-**DappRadar - February 2025**
-![today](https://3dkrender.com/wp-content/uploads/2025/02/RQ_DappRadar.png)
-
-We would like to take this opportunity to remind you that this project is 100% self-funded. In addition, we continue to support the promotion of artists by including new cards with more illustrations by artists such as Catrynart or Triz Draw. These are some examples of the new cards:
-
-| Catrinart | Catrynart | Triz Draw |Triz Draw |
+| Catrinart | Catrynart | MarcosDK |MarcosDK |
 |:--:|:--:|:--:| :--:|
-| ![catrynart](https://ipfs.neftyblocks.io/ipfs/QmcXMQkiF5GGMFVFbmvE1pRYz6H9KX1bv4MwvqZmLFPHfm) | ![catrinart](https://ipfs.neftyblocks.io/ipfs/QmT8nVrdhfCeK4ZUmPN6VMUCfwddZ2xUAKPaAtF2rfzfBL) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmS2wDnyrqELpb7f1oRJVkgR2h868HoUmadrSo7nvqqpgC) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmehsKCw5HYqBFiKACns3TmZLgySGCyhAfNtvLZGev7vTc) |
+| ![catrynart](https://ipfs.3dkrender.com/ipfs/QmcVttkiHwHRpTAoYYn9mPomZGYwLv3iF6s2iz8nHvrjGu) | ![catrinart](https://ipfs.3dkrender.com/ipfs/QmPYsrwwCUXyyLjiFYzxmtbUePpcFfZn3ssY4TpBbiY39p) | ![marcosdk](https://ipfs.3dkrender.com/ipfs/QmPYCaN6YYy6ZdV8Ffyya9KnaAbCPMQkhbpQLzqx7fVs2F) | ![marcosdk](https://ipfs.3dkrender.com/ipfs/QmPDABP79mSNRNLztnrFuxk5UkouC8b5fgZ6VZVy3HiCMg) |
 
-
-We would like to be able to provide more value to the WAX ​​gaming ecosystem, but budget limitations are significant and the lack of support from the OIG through decay penalties does not help either.
-
-More updates on next reports.
 
 **Development update**
 
 We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
 ---
-
-### Pug Tapper (Telegram Game)
-
-**URLs**: https://t.me/pugtapper_bot
-
-Due to Telegram's new terms of use, which expressly prohibit any activity in applications linked to a blockchain other than TON, we are studying new options for PugTapper, since this affects us completely. For the moment, we have stopped delivering WAX NFTs as rewards.
-
-More info:
-- https://telegram.org/tos/bot-developers#7-blockchain-integration
 
 ### Client/Server WAX App Template
 
@@ -90,33 +60,18 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 **Update**:
 
-- We have updated the server side incorporating improvements in the data table reading services from Hyperion APIs.
-- The NextUI library has been updated to its new HeroUI model
+- Add comprehensive security measures: Rate limiting, Helmet security headers, CORS protection, Request validation with Zod, Parameter pollution prevention
 
-### FundingWAX - Discord Bot
+- Improve documentation: Unify documentation structure, Add CONTRIBUTING.md, Update README with detailed setup instructions, add security documentation, add testing information
 
-**URLs**: https://test.fundingwax.com (testnet)
+- Enhance project architecture and implement caching system
 
-**List of SCs**: fundingwaxdk (testnet)
-
-**Update**:
-
-No updates. We are already working on integrating the bot client into the official Dungeon Keeper Studios website.
-
-More information:
-
-- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-We continue to contribute to the developer documentation portal with new Spanish translations, tutorials, and revisions of texts contributed by other contributors.
-
-- About WAX Section- Spanish translation and content update.
-- WAX Hyperion HowTo - Spanish translation and content update.
-
-- https://github.com/wax-office-of-inspector-general/wax-developer/pull/194
+No updates.
 
 ---
 
@@ -126,67 +81,132 @@ We continue to contribute to the developer documentation portal with new Spanish
 
 **Marketing & Ecosystem Growth Summary**
 
-November 24 2024 to January 3 2025
+January 4 2025 to March 24 2025
 
-- Twitter: 5.1K impressions and 15389 Followers, New Follows 134, Media Activity 507
-- X Space: 3 spaces as co-host, 1 space as guest. Total 4 spaces and approximate sum of reproductions so far + Tuned in: 442
-- Twitch & X (Multistream). Approximate sum of reproductions so far + Tuned in: 346
+![image](https://3dkrender.com/wp-content/uploads/2025/03/image001.png)
+
+-	Twitter: 49.1K impressions and 15672 Followers, New Follows 283, Media Activity 1.1k
+-	X Space:  11 spaces as co-host, 2 space as guest
+
+Total 13 spaces and approximate sum of reproductions so far + Tuned in: 1314
+
+- Twitch & X (Multistream)
+Approximate sum of reproductions so far + Tuned in: 215
 
 **Activity breakdown**
 
-Cristalla continued to host weekly X Spaces to spotlight projects and engage with the community. Weekly streams provided updates and new content, helping to inform the current audience and attract new users.
+Cristalla continued to host weekly X Spaces to spotlight projects and engage with the community. Weekly streams provided updates and new content, helping to inform the current audience and attract new users. Additionally, various articles on gamification have been written, focusing on educating content creators and streamers about everything WAX has to offer and how they can gamify their audiences. As March is the month of International Women’s Day, she has also been actively participating in various initiatives to highlight the contributions of women in the ecosystem.
 
 **Lives**
 
 Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
 
-- https://x.com/queencristalla/status/1863979771777941736
-- https://x.com/queencristalla/status/1869776283522978132
+- https://x.com/queencristalla/status/1879206004820255139
+- https://x.com/queencristalla/status/1882460073642824052
+- https://x.com/queencristalla/status/1884291361890783294
+- https://x.com/queencristalla/status/1887539049226711201
+- https://x.com/queencristalla/status/1894438340918645112
 
-**DAO Lab**
 
-Cristalla received recognition on DAO Lab’s X account for her content creation, representing the WAX Hub and showcasing her contributions to the ecosystem.
+![videos](https://3dkrender.com/wp-content/uploads/2025/03/image002.png)
 
-- https://x.com/TheDAOLabs/status/1874556921941790830
 
 **X SPACES**
 
-NFTOPIA Wednesday co-host
+NFTOPIA Wednesday co-host  
 
-Week 35 11-11-2024 Reproductions so far + Tuned in 56
-
-- https://x.com/thenftopia/status/1866920905219145806
-
-Week 36 11-17-2024 Reproductions so far + Tuned in 98
-
-- https://x.com/thenftopia/status/1869084496609382843
-
-Week 37 01-01-2025 Reproductions so far + Tuned in 111
-
-- https://x.com/thenftopia/status/1874531058894725469
+- Week 38 01-08-2025 Reproductions so far + Tuned in 85
+https://x.com/i/spaces/1rmxPogvwYMJN
+- Week 39 01-15-2025 Reproductions so far + Tuned in 90
+https://x.com/i/spaces/1vAxROvpBbvKl
+- Week 40 01-22-2025 Reproductions so far + Tuned in 80
+https://x.com/i/spaces/1OwGWNNvgZNKQ
+- Week 41 01-29-2025 Reproductions so far + Tuned in 103
+https://x.com/i/spaces/1zqKVYjRzWMxB
+- Week 42 02-05-2025 Reproductions so far + Tuned in 65
+https://x.com/i/spaces/1YqKDkNNQqvxV
+- Week 43 02-19-2025 Reproductions so far + Tuned in 67
+https://x.com/i/spaces/1jMJgkbaeQeJL
+- Week 44 02-26-2025 Reproductions so far + Tuned in 104
+https://x.com/i/spaces/1lPKqMaqLNwKb
+- Week 45 03-05-2025 Reproductions so far + Tuned in 105
+https://x.com/i/spaces/1zqKVjvAaNlKB
+- Week 46 03-12-2025 Reproductions so far + Tuned in 73
+https://x.com/i/spaces/1kvJpygevVZxE
+- Week 47 03-19-2025 Reproductions so far + Tuned in 57
+https://x.com/i/spaces/1OyJALRzXWqGb
 
 **Guest WAX Spaces**
 
-WAXWednesday Wax Holiday Calendar Tuned in 177
+- WAXWednesday WAX Hub Ambassador
+https://x.com/queencristalla/status/1882122784182260070
+- WAXWednesday Women in WAX Streaming Edition 176 Tuned
+https://x.com/WAX_io/status/1896976467994538256
 
-- https://x.com/i/spaces/1mnxeAOVXOPxX/peek
+**Co-Host WAX Spaces**
+
+- WAXWednesday Women in WAX Art, Innovation and Inspiration 159 Tuned
+https://x.com/WAX_io/status/1899867998649012499
+
 
 **Articles**
 
-Understanding the WAX Office of Inspector General (OIG): Strengthening the Blockchain
+Articles on gamification have been published and well received by the community. The goal is to provide a guide for content creators and streamers unfamiliar with WAX or those focused on Web2, helping them discover the advantages of gamifying their communities within our ecosystem. More articles will be published soon.
 
-- https://medium.com/dungeon-keeper-studios/understanding-the-wax-office-of-inspector-general-oig-strengthening-the-blockchain-11e9d7cf4a83
+Gamify Your Audience with WAX io: A Creator’s Guide
 
-**Video**
+- https://medium.com/dungeon-keeper-studios/gamify-your-audience-with-wax-io-a-creators-guide-b76733b89d8d
+- Post: https://x.com/queencristalla/status/1881400716738367813
 
-A new English-language YouTube channel has been launched, aiming to create diverse visual content. This initiative is designed to introduce new audiences to WAX and encourage them to join the community.
+Level Up Your Community Engagement: Gamify Your Audience with Unique NFT Collections on WAX io
 
-WAX Blockchain Beginner’s Guide: CPU, NET, RAM, Marketplaces, Staking, and OIG
+- https://medium.com/dungeon-keeper-studios/gamify-your-audience-with-wax-io-a-creators-guide-b76733b89d8d
+- Post: https://x.com/queencristalla/status/1891910065788993596
 
-- https://www.youtube.com/watch?v=2UOKWE_wVOI&t
+**Videos**
 
-### <ins>Feedback to OIG</ins>
+- Meme coins on WAX, Wax.fun
+https://x.com/queencristalla/status/1885054784966721679
 
-Almost all of our activities are published on our social networks, as can be seen in the report.
+- R WAX
+https://x.com/queencristalla/status/1897716328540348585
 
----
+- AW Eyeke Event
+https://x.com/queencristalla/status/1895539683536650285
+
+
+**WAX Stream Station**
+
+Our WAX Stream Station initiative now has an official team on Twitch, making it easier for users to discover streamers associated with the WAX community.
+https://x.com/WAXstream/status/1899986005668544713
+
+**Women’s Day**
+
+As March is the month of International Women’s Day, various community members have shared articles and posts about Cristalla and her contributions to the community and the ecosystem.
+Message from Cristalla: I must say, I feel truly honored to receive so many heartfelt posts about my work in the community.
+
+- https://medium.com/@akahilz/building-confidence-in-web3-by-queen-cristalla-wax-women-series-iwd-2025-2b10803d75c3
+- https://medium.com/@asemotaosamaa/women-of-wax-empowering-web3-through-art-gaming-and-community-db52c89b7d09
+- https://medium.com/@kaydee12000/art-innovation-sisterhood-women-shaping-wax-a51b2185bc8c
+
+Posts
+- https://x.com/Akahilz2/status/1898367846100385957
+- https://x.com/Asemcrypt_/status/1902463799552303247
+- https://x.com/Wunder786188/status/1898682880584298669
+- https://x.com/GoodnesEnyo/status/1902252918423597269
+- https://x.com/TheBlockInk_/status/1902013152423739432
+- https://x.com/cashminersFL/status/1901410428170989759
+- https://x.com/everyoung1991/status/1901126928821567908
+- https://x.com/DhatHomeBoy/status/1900596162366747022
+- https://x.com/Adesokan76/status/1900672076920270969
+- https://x.com/Asemcrypt_/status/1900304338678919493
+- https://x.com/JgadSagna/status/1900258999255150785
+- https://x.com/prof_michaelt/status/1900164491666473391
+- https://x.com/UsoroEmmanuel/status/1899500329177149633
+- https://x.com/Gideontimy/status/1903797548537503822
+- https://x.com/eunel_1/status/1903569404987646251
+- https://x.com/Ad_joks/status/1902776325905006901
+- https://x.com/jceminer/status/1902653004232167888
+- https://x.com/Anointe67681286/status/1902675196634439844
+- https://x.com/micdredge/status/1904267629143171458
+- https://x.com/adejugbe42544/status/1904938179519472127
