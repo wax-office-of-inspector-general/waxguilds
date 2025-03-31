@@ -12,38 +12,25 @@
 
 ### <ins>Contributions</ins>
 
-Release of NodeInspector.io - Node Status Monitoring
+Update of NodeInspector.io - Node Status Monitoring
 
+Key New Features:
 
-A real-time blockchain node monitoring system that replaces waxtracker.io (now defunct) with enhanced features.
+Real-time notifications via a Telegram bot when subscribed nodes change status.
 
+Existing Features:
 
-Key New Features :
-
-*Subscribe to specific node status notifications from your Guilds.
-
-*Receive email alerts when your subscribed nodes change status (UP/DOWN)
-
-
-Existing Features :
-
-*Comprehensive dashboard showing current node status
-
-*Historical uptime statistics
-
-*Node health and availability tracking
-
-https://nodeinspector.io
+Comprehensive dashboard showing current node status.
+Historical uptime statistics.
+Node health and availability tracking.
+Email/Telegram notifications.
 
 
 ### <ins>Backups </ins>
-
-
-Elastic Search backup is back online. Last backup as of December 10th.
 
 
 https://wax-backups.eosiomadrid.io
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [x] | [x] |
+| [x] | [x] | [x] | [] | [x] |
