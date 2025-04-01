@@ -12,10 +12,9 @@
 
 ### <ins>Noteworthy</ins>
 
-1. Listed A-DEX on DefiLlama
-2. Listed WDJC on DefiLlama
+1. Listed A-DEX on DefiLlama(https://github.com/DefiLlama/DefiLlama-Adapters/pull/13589#event-16369637472)
+2. Listed WDJC on DefiLlama(https://github.com/DefiLlama/DefiLlama-Adapters/pull/13807#event-16713420954)
 3. A-DEX Oracle launched
-
 
 ### <ins>API Services</ins>
 
@@ -34,6 +33,8 @@
 **List of SCs**: swap.adex, swap.box, swap.taco, swap.nefty, swap.alcor
 
 Oracle provide tokens price from major liquidity pools(AMM) sorted by highest liquidity by cron job every hour. Data available from A-DEX GraphQL API via REST or WebSocket.
+
+Docs: https://docs.a-dex.io/oracle
 
 **Update**
 
@@ -132,7 +133,9 @@ Pixel Journey is an innovative new crypto-education focused project starting off
 
 **Update**
 
-Updated website and documentation, improving accessibility and onboarding. Now featuring a revamped structure and additional resources to help new users navigate the ecosystem.
+* Updated website and documentation, improving accessibility and onboarding. Now featuring a revamped structure and additional resources to help new users navigate the ecosystem
+* $WPIXAL is now launched via RWAX.io (and we're showcasing/introducing the mechanics of that platform via our community now as we speak)
+* Nearly 10M $PXJ towards $WPIXAL DeFi (incentivizing DeFi for WAX, LSWAX, LSW, WUF, and our PXJ)
 
 **Metrics**
 
