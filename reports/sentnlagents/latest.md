@@ -41,6 +41,7 @@ http://wax.sengine.co/api/nodes/p2p
 
 - We are in the process of creating a brand new Sengine (oig-portal) written from scratch in JS and nextjs
 - The new sengine has been deployed at http://test.sengine.co - we are awaiting feedback from the OIG before fully switching over.
+- We updated the new frontend to allow guilds to be chosen directly from a guild page.
 
 
 
@@ -122,7 +123,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for EOSarabia and Ledgerwise.
+We completed a security audit for EOSrio and EOSphere.
 
 ---
 ### 🔐 Smart Contract Audits	
@@ -244,8 +245,7 @@ Sengine uses the API to display the missed blocks for each guild.
 
 
 **Update**: 
-- We have updated Fastify and WS libraries on missingblocks to latest stable versions. WS library had a DOS vulnerability that was fixed in the latest version.
-- [status.wax.io](https://status.wax.io) is now utilising our missing blocks API to display the missed blocks on the status page.
+- We have updated our Docker-compose setup to be more streamlined and easier to manage.
 
 ---
 
