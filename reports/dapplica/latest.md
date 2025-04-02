@@ -123,13 +123,22 @@ TVL 450,000 WAX
 
 ### WAX Watcher Bot (NEW PRODUCT)
 
+Period: February 15th, 2025 - Aprol 1st 2025
+
 **URLs**: [https:/t.me/atomicnotifybot](https://t.me/WaxWatcher_bot)
 
-Updated with fixes on balance check as there was a bug. Working on a account keys changing notifications
+![image](https://github.com/user-attachments/assets/62c3cb8a-b856-4d89-b7c9-35332c00e6b9)
+New Features added: 
+* CPU, NET staking/unstaking alert
+* Key changing alert.
+We consider those two are quite solid to have in terms of security for user's wallets, in case Active key is leaked you can get notified, same basically about Unstaking event if that happens not on user's behalf. 
+  
+* Balance alert fixed, bug with threshold. 
 
 **Metrics**
 
 Total users: 26. 
+Wallets that are tracking : 40
 
 ---
 
@@ -140,9 +149,9 @@ Did a review of functionality as per report, checking all of the notifyining fun
 
 **Metrics**
 
-Period: December 15th, 2024 - February 14th 2025
+Period: February 15th, 2025 - Aprol 1st 2025
 
-stats on the bot: Users: 308(+1 new user) , Wallets: 193(+1 new wallets)
+stats on the bot: Users: 308(+2 new users) , Wallets: 199(+6 new wallets)
 
 ---
 
