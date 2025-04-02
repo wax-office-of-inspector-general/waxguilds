@@ -12,16 +12,16 @@
 | Guild Jurisdiction | Netherlands |
 
 ### <ins>Noteworthy</ins>
-All listed services being hosted and maintained as usual, Updated usage statistics.
+All listed services being hosted and maintained as usual, updated usage statistics.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [X] | [x] | [x] | [x] | [] |  [] |
-| - | 8.8k req/hour | 85 req/hour | 26.3k req/hour | 60.0k req/hour | - |
+| - | 8.5k req/hour | 81 req/hour | 24.9k req/hour | 60.8k req/hour | - |
 
-Others APIs: WAX RPC (284k req/hour), WAX Testnet RPC (15k req/hour)
+Others APIs: WAX RPC (272k req/hour), WAX Testnet RPC (15k req/hour)
 
 
 ### <ins>Contributions</ins>
