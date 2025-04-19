@@ -86,7 +86,22 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 **URLs**: https://developer.wax.io/
 
-No updates.
+
+*   Translated eight documentation files pertaining to critical operational infrastructure (`operate/wax-infrastructure`) and developer tutorials (`build/tutorials`).
+*   Created the corresponding Spanish language files within the `/docs/es/` directory structure, ensuring adherence to the project's file organization.
+*   Ensured the translated content accurately reflects the meaning and technical details of the original English documentation.
+
+The following specific files were translated and added:
+*   `docs/es/build/tutorials/howto_airdrop.md`
+*   `docs/es/build/tutorials/howto_blockexplorer.md`
+*   `docs/es/operate/wax-infrastructure/wax-optimise-disk-utilisation-zfs-dedup.md`
+*   `docs/es/operate/wax-infrastructure/wax-route-specific-api-queries.md`
+*   `docs/es/operate/wax-infrastructure/wax-securely-peer-with-wireguard.md`
+*   `docs/es/operate/wax-infrastructure/wax-automate-snapshots.md`
+*   `docs/es/operate/wax-infrastructure/creating-a-wax-price-oracle-service-bash-python.md`
+*   `docs/es/operate/wax-infrastructure/monitor-and-unregister-wax-producer-with-systemd-while-you-sleep.md`
+
+Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/198
 
 ---
 
