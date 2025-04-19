@@ -12,7 +12,10 @@
 
 ### <ins>Noteworthy</ins>
 
-No updates
+We are in the process of changing our full Hyperion API to a partial API. We have encountered some issues with the behavior of Redis in Hyperion version 3.3.10, so we are continuing with the full version of Hyperion while we work on the partial version with Hyperion version 3.5.
+
+We have worked on solving some problems in our IPFS server that were causing some availability issues.
+
 
 ### <ins>API Services</ins>
 
@@ -50,6 +53,13 @@ New cards with more illustrations by  Catrynart MarcosDK.
 
 We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
+Updates in main Rada Quest game:
+
+- Patch 1.3.4: Technical patch with some game mechanics changes.
+  - (https://x.com/RadaQuestTCG/status/1910386469266743535)
+- Patch 1.3.5: Technical patch to improve the game.
+  - Discord announcement.
+
 ---
 
 ### Client/Server WAX App Template
@@ -66,6 +76,11 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 - Enhance project architecture and implement caching system
 
+- Change the UI framework from HeroUI to Material UI
+
+- We are starting to write some tutorials to help developers to understand the code and how to use it.
+  - First tutorial: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-376236e4bf39
+
 
 ### WAX Developer Portal (community project)
 
@@ -77,136 +92,63 @@ No updates.
 
 ### <ins>Marketing</ins>
 
-### Cristalla
+# 📊 Marketing & Ecosystem Growth Summary  
+**Period:** March 25, 2025 – April 17, 2025  
+**Lead:** Cristalla  
 
-**Marketing & Ecosystem Growth Summary**
+---
 
-January 4 2025 to March 24 2025
+## 📈 Social Media
 
-![image](https://3dkrender.com/wp-content/uploads/2025/03/image001.png)
+### Twitter (X)
+- **Impressions:** 4.6K  
+- **Current Followers:** 15,732  
+- **New Followers:** 60  
 
--	Twitter: 49.1K impressions and 15672 Followers, New Follows 283, Media Activity 1.1k
--	X Space:  11 spaces as co-host, 2 space as guest
+### X Spaces
+- **Total Co-Hosted Spaces:** 4  
+- **Estimated Total Listens:** 501  
 
-Total 13 spaces and approximate sum of reproductions so far + Tuned in: 1314
+### Twitch & X (Multistream)
+- **Estimated Views:** 221  
 
-- Twitch & X (Multistream)
-Approximate sum of reproductions so far + Tuned in: 215
+---
 
-**Activity breakdown**
+## 🗓 General Activity
 
-Cristalla continued to host weekly X Spaces to spotlight projects and engage with the community. Weekly streams provided updates and new content, helping to inform the current audience and attract new users. Additionally, various articles on gamification have been written, focusing on educating content creators and streamers about everything WAX has to offer and how they can gamify their audiences. As March is the month of International Women’s Day, she has also been actively participating in various initiatives to highlight the contributions of women in the ecosystem.
+Cristalla has continued to serve as the host of our weekly **WAX Drop X Space**, highlighting the latest news, special drops, and all things happening across the WAX ecosystem.  
 
-**Lives**
+Over the past few weeks, we have refined our outreach strategy to target a broader audience, resulting in a noticeable spike in engagement. We aim to maintain this growth trajectory as we approach **NFTOPIA 5**.
 
-Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
+---
 
-- https://x.com/queencristalla/status/1879206004820255139
-- https://x.com/queencristalla/status/1882460073642824052
-- https://x.com/queencristalla/status/1884291361890783294
-- https://x.com/queencristalla/status/1887539049226711201
-- https://x.com/queencristalla/status/1894438340918645112
+## 🎥 Live Streams
 
+Live streams have continued every **Tuesday and Thursday**, showcasing various WAX-based games.
 
-![videos](https://3dkrender.com/wp-content/uploads/2025/03/image002.png)
+🔗 [Example Stream](https://x.com/queencristalla/status/1907105930816196871)
 
+---
 
-**X SPACES**
+## 🗣 X Spaces – NFTOPIA Wednesdays
 
-NFTOPIA Wednesday co-host  
+Cristalla co-hosted the weekly "NFTOPIA Wednesday" sessions with the following performance:
 
-- Week 38 01-08-2025 Reproductions so far + Tuned in 85
-https://x.com/i/spaces/1rmxPogvwYMJN
-- Week 39 01-15-2025 Reproductions so far + Tuned in 90
-https://x.com/i/spaces/1vAxROvpBbvKl
-- Week 40 01-22-2025 Reproductions so far + Tuned in 80
-https://x.com/i/spaces/1OwGWNNvgZNKQ
-- Week 41 01-29-2025 Reproductions so far + Tuned in 103
-https://x.com/i/spaces/1zqKVYjRzWMxB
-- Week 42 02-05-2025 Reproductions so far + Tuned in 65
-https://x.com/i/spaces/1YqKDkNNQqvxV
-- Week 43 02-19-2025 Reproductions so far + Tuned in 67
-https://x.com/i/spaces/1jMJgkbaeQeJL
-- Week 44 02-26-2025 Reproductions so far + Tuned in 104
-https://x.com/i/spaces/1lPKqMaqLNwKb
-- Week 45 03-05-2025 Reproductions so far + Tuned in 105
-https://x.com/i/spaces/1zqKVjvAaNlKB
-- Week 46 03-12-2025 Reproductions so far + Tuned in 73
-https://x.com/i/spaces/1kvJpygevVZxE
-- Week 47 03-19-2025 Reproductions so far + Tuned in 57
-https://x.com/i/spaces/1OyJALRzXWqGb
-
-**Guest WAX Spaces**
-
-- WAXWednesday WAX Hub Ambassador
-https://x.com/queencristalla/status/1882122784182260070
-- WAXWednesday Women in WAX Streaming Edition 176 Tuned
-https://x.com/WAX_io/status/1896976467994538256
-
-**Co-Host WAX Spaces**
-
-- WAXWednesday Women in WAX Art, Innovation and Inspiration 159 Tuned
-https://x.com/WAX_io/status/1899867998649012499
+| Week | Date        | Views + Tuned In | Link                                        |
+|------|-------------|------------------|---------------------------------------------|
+| 48   | 03-26-2025  | 79               | [Listen Here](https://twitter.com/i/spaces/1jMJgkMaPnYJL) |
+| 49   | 03-26-2025  | 80               | [Listen Here](https://twitter.com/i/spaces/1MnxnwWrBroKO) |
+| 50   | 03-26-2025  | 245              | [Listen Here](https://x.com/i/spaces/1djxXVkRyvLGZ) |
+| 51   | 03-26-2025  | 97               | [Listen Here](https://x.com/i/spaces/1RDGlzkVlDzxL) |
 
 
-**Articles**
+![image_1](https://3dkrender.com/wp-content/uploads/2025/04/image002.png)  
 
-Articles on gamification have been published and well received by the community. The goal is to provide a guide for content creators and streamers unfamiliar with WAX or those focused on Web2, helping them discover the advantages of gamifying their communities within our ecosystem. More articles will be published soon.
+---
 
-Gamify Your Audience with WAX io: A Creator’s Guide
+## 🎉 NFTOPIA 5
 
-- https://medium.com/dungeon-keeper-studios/gamify-your-audience-with-wax-io-a-creators-guide-b76733b89d8d
-- Post: https://x.com/queencristalla/status/1881400716738367813
+🗓 **Confirmed Dates:** August 16–17, 2025  
+Cristalla is currently working with the team on **event planning and content development**. The main goal is to **connect with diverse Web3 projects** and attract new users to the WAX ecosystem through strategic outreach and collaboration.
 
-Level Up Your Community Engagement: Gamify Your Audience with Unique NFT Collections on WAX io
-
-- https://medium.com/dungeon-keeper-studios/gamify-your-audience-with-wax-io-a-creators-guide-b76733b89d8d
-- Post: https://x.com/queencristalla/status/1891910065788993596
-
-**Videos**
-
-- Meme coins on WAX, Wax.fun
-https://x.com/queencristalla/status/1885054784966721679
-
-- R WAX
-https://x.com/queencristalla/status/1897716328540348585
-
-- AW Eyeke Event
-https://x.com/queencristalla/status/1895539683536650285
-
-
-**WAX Stream Station**
-
-Our WAX Stream Station initiative now has an official team on Twitch, making it easier for users to discover streamers associated with the WAX community.
-https://x.com/WAXstream/status/1899986005668544713
-
-**Women’s Day**
-
-As March is the month of International Women’s Day, various community members have shared articles and posts about Cristalla and her contributions to the community and the ecosystem.
-Message from Cristalla: I must say, I feel truly honored to receive so many heartfelt posts about my work in the community.
-
-- https://medium.com/@akahilz/building-confidence-in-web3-by-queen-cristalla-wax-women-series-iwd-2025-2b10803d75c3
-- https://medium.com/@asemotaosamaa/women-of-wax-empowering-web3-through-art-gaming-and-community-db52c89b7d09
-- https://medium.com/@kaydee12000/art-innovation-sisterhood-women-shaping-wax-a51b2185bc8c
-
-Posts
-- https://x.com/Akahilz2/status/1898367846100385957
-- https://x.com/Asemcrypt_/status/1902463799552303247
-- https://x.com/Wunder786188/status/1898682880584298669
-- https://x.com/GoodnesEnyo/status/1902252918423597269
-- https://x.com/TheBlockInk_/status/1902013152423739432
-- https://x.com/cashminersFL/status/1901410428170989759
-- https://x.com/everyoung1991/status/1901126928821567908
-- https://x.com/DhatHomeBoy/status/1900596162366747022
-- https://x.com/Adesokan76/status/1900672076920270969
-- https://x.com/Asemcrypt_/status/1900304338678919493
-- https://x.com/JgadSagna/status/1900258999255150785
-- https://x.com/prof_michaelt/status/1900164491666473391
-- https://x.com/UsoroEmmanuel/status/1899500329177149633
-- https://x.com/Gideontimy/status/1903797548537503822
-- https://x.com/eunel_1/status/1903569404987646251
-- https://x.com/Ad_joks/status/1902776325905006901
-- https://x.com/jceminer/status/1902653004232167888
-- https://x.com/Anointe67681286/status/1902675196634439844
-- https://x.com/micdredge/status/1904267629143171458
-- https://x.com/adejugbe42544/status/1904938179519472127
+---
