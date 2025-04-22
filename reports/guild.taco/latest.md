@@ -30,7 +30,7 @@ Others APIs: ----
 
 ### Overall Stats for Taco Products
 
-***Period: November 13th - December 26th 2024***
+***Period: December 27th 2024 - March 3rd 2025***
 
 ---
 
@@ -56,8 +56,8 @@ AppStore: [https://apps.apple.com/it/app/taco-wax-utility-tools/id1569255815](ht
 
 |  | All Time | Current Time Span |
 | --- | --- | --- |
-| Downloads | 39.7k | 130 |
-| Screen View | 112.9M | 800k |
+| Downloads | 39.9k | 180 |
+| Screen View | 115.3M | 2.4M |
 
 ---
 
@@ -69,17 +69,17 @@ https://swap.tacocrypto.io/
 **List of SCs**: swap.taco
 
 **Update**: 
-- More than 150 new swap pairs were created
-- Adv banners were booked for more than 75% of the total capacity during this past month
-- We're currently working on QOL improvements to be released in Q1 2024
+- Taco Swap has now more than 4,500 swap pairs with more than 300 new swap pairs created
+- Adv banners were booked for more than 50% of the total capacity during this past month
+- Pairs with WUF and TLM are among the Top-5 pairs for depth
 
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Total Value Locked | 15.9M WAX |
-| Swap Pairs | 4,270+ |
+| Total Value Locked | 14.6M WAX |
+| Swap Pairs | 4,600+ |
 
 ---
 
@@ -95,17 +95,17 @@ https://swap.tacocrypto.io/nft
 **List of SCs**: swap.taco
 
 **Update**: 
-- There are currently 504 active MEALs and 51 active SALSA
-- Thirteen of the Top-15 MEAL consists of pairings with WAX or WUF token
-- More than 350 WAX in value are distributed every day through SALSA
-- More than 7000 WAX in value are distributed every day through MEAL
+- There are currently 508 active MEALs and 63 active SALSA
+- More than 400 WAX in value are distributed every day through SALSA
+- More than 6000 WAX in value are distributed every day through MEAL
+- 75 NFTs are currently distributed through the NFT Rewards tool
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Projects using Creators DeFi Tools | 155+ |
-| Daily Rewards distributed | 650+ |
+| Projects using Creators DeFi Tools | 160+ |
+| Daily Rewards distributed | 700+ |
 
 ---
 
@@ -130,20 +130,20 @@ combz.taco
 combzm.taco
 
 **Update**
-- New rewards were added to the Combz Total prize: 17,700 TACO are currently the prize pool of the game
+- New rewards were added to the Combz Total prize: 7200 TACO are currently the prize pool and 1800 will be distributed on March 3rd
 - The Combz Shop were added of new packs for the next month: players can buy packs in TACO tokens and 90% of the cost goes directly into the Season Prize
-- Brigade is still one of the top played games within the chain, with around 3.2k transactions every day and 10k+ NFT holders
-- More than 3000 WAX/day are distributed through Brigade
+- Brigade is still one of the top played games within the chain, with around 3k transactions every day and 10k+ NFT holders
+- More than 2500 WAX/day are distributed through Brigade
 
 **Metrics**
 
 |  |  |
 | --- | --- |
 | NFT Holders | 10,300 |
-| Minted NFTs | 707k+ |
-| NFT Market Cap | 59M+ WAX |
-| Market Volume (Last 60 days) | 300k WAX |
-| App Downloads | 7.2k+ |
+| Minted NFTs | 727k+ |
+| NFT Market Cap | 80M+ WAX |
+| Market Volume (Last 60 days) | 114k WAX |
+| App Downloads | 7.3k+ |
 
 ---
 
@@ -158,21 +158,10 @@ acr.taco
 acrpool.taco
 
 **Update**: 
-- Acryptia Season 7 will end at the beginning of 2025
-- More than 13,000 games were played
-- More than 1600 prizes have been distributed so far
-- 40 players completed the Season two weeks in advance
-- We distributed more than 3,000 WAX of extra rewards in the Season 7 Giveaway
-
-
-**Metrics**
-
-*Season 7*
-
-|  |  |
-| --- | --- |
-| Players | 900+ |
-| Games Played| 13,000+ |
+- Acryptia Event with Mission Control Thrive on Mars lasted two weeks, and was preceeded by an event in which players had to buy a Mission Control NFT to participate
+- 100 NFTs with a valure range that goes from 20 to 600 WAX were distributed for the Event
+- Taco Studios announced an allocation of prizes worth 1,000 USD in counter value for the next Acryptia Events
+- Soon Acryptia Season 8 will be announced
 
 ---
 
@@ -185,7 +174,7 @@ https://medium.com/@taco.wax/taco-discord-chat-bot-4de0d9b88c4f
 chat.taco
 
 **Update**: 
-The Shing Chat Bot allows players to collect token while chatting on Discord. Is a tool to enhance engagement within communities Already 22+ servers activated the SHING Chat Bot. Discord Chat Bot activation is free
+The Shing Chat Bot allows players to collect token while chatting on Discord. Is a tool to enhance engagement within communities Already 25 servers activated the SHING Chat Bot. Discord Chat Bot activation is free
 
 ---
 
@@ -193,17 +182,15 @@ The Shing Chat Bot allows players to collect token while chatting on Discord. Is
 
 **A) Onboarding on WAX through other chains**: We're continuing bringing our cross-chain public to WAX thanks to multiple cross chain events and giveaways.
 
-**B) New Alien Worlds collab**: We completed a cross-chain event with Alien Worlds. In order to qualify users must complete actions on the WAX chains, bringing people from Taiko to WAX. We're also working on a new collab for Q1 2025.
+**B) Support smaller projecrs giveaways**: We distributed NFTs for Mission Control, NIMA and RAIDD contests and giveaways to help driving interest towards smaller projects
 
 **C) Community Outreach**: Taco's community outreach consists of Twitch, Medium, Discord and Telegram channels, with new contents generated every day. We also joined an Alien Worlds community event on Twitch.
 
-**D) WAX Holidays Calendar**: We joined the WAX Holidays Calendar event distributing 5,000 WAX as rewards and giving free adv banners to promote the Event.
-
 **Discord**
 - link: https://discord.gg/tacocrypto
-- 12,500 members
-- 257 servers following
-- 16,900 messages sent
+- 12,250 members
+- 250 servers following
+- 15,500 messages sent
 
 **Twitter**
 - Link: https://twitter.com/tacostudios_io
