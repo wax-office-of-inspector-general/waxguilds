@@ -12,13 +12,13 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>March 2025 Update</ins>
+### <ins>April 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
-Since our last update we have been working on setting up a significantly more powerful Hyperion instance as part of a full hardware refresh. This upgrade will enhance performance, scalability, and reliability, ensuring our infrastructure remains robust and capable of handling increased demand. Further updates will be provided as the new system is deployed.
+During this period, OIAC missed 95 rounds on the testnet production schedule. The timing of the incident was unfortunate and contributed to a delayed resolution. Additionally, our failover unregistration tool did not trigger as expected, which further impacted recovery time. We are actively addressing this failure to ensure more reliable handling of similar scenarios in future.  
 
-We previously encountered an issue with our Elastic Search backup due to a misalignment in snapshot timings. This resulted in a temporary disruption lasting approximately 24 hours before being fully rectified. Unfortunately, this was not reported to the OIG at the time, and we are addressing it now for transparency. The issue has been resolved, and backups have been functioning as expected since.
+We also continue to see growing interest and use cases for our Docker auto-build offerings, particularly among guilds looking to carry out testing without access to full history solutions. These builds allow for rapid spin-up of functional environments and are proving to be a valuable tool for development and validation workflows.  
 
 We remain committed to maintaining high reliability and performance standards within the WAX network.
 
@@ -55,6 +55,32 @@ We have implemented several key improvements to enhance the reliability, perform
 
 These upgrades reinforce our commitment to maintaining a robust and efficient infrastructure for the WAX ecosystem.
 
+IPFS Enhancements (April 2025)
+
+Enhancements have been made to our media handling and IPFS deployment to improve robustness, performance, and support for a broader range of formats. Key improvements include:  
+
+- **Image processing enhancements**:  
+  - Added support for multiple formats: WebP, AVIF, JPEG, and PNG  
+  - Introduced quality control mechanisms  
+  - Implemented caching for improved performance  
+
+- **Video processing enhancements**:  
+  - Added support for MP4 and WebM formats  
+  - Introduced CRF-based quality control  
+  - Added encoding presets to balance speed and quality  
+  - Implemented streaming optimisations  
+
+- **Performance improvements**:  
+  - Added caching system  
+  - Optimised IPFS configuration  
+  - Improved Docker container setup  
+
+- **Monitoring and reliability**:  
+  - Added health check endpoint  
+  - Improved error handling  
+  - Implemented unique file naming to prevent conflicts  
+
+These changes significantly improve the capability and stability of our media processing pipeline within the IPFS deployment.  
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
@@ -185,4 +211,4 @@ None at this point
 
 ----
 
-Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. Our latest offerings—Hyperion full snapshots and the Validator Checker Utility—are designed to provide valuable tools for the community, further enhancing transparency and performance. We look forward to receiving feedback from the OIG and the wider community as we continue to refine our services.
+Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. 
