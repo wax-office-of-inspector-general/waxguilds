@@ -12,17 +12,15 @@
 
 ### <ins>Noteworthy</ins>
 
-- We deployed a new baremetal block producer node to improve our benchmark scores. Over the last 30 days Aloha had the lowest median benchmark.   
-
-![image](https://github.com/user-attachments/assets/85b0159e-c481-46b5-8038-cd021b260180)
+- We transitioned from a full to a partial Hyperion history cluster due to unsustainable costs.   
 
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [ ] | [x] | [ ] | [ ] | [ ] | [ ] |  [ ] |
-| - | 88k / day | - | - | - |  - |
+| [x] | [] | [] | [ ] | [ ] | [ ] |  [ ] |
+| 95k / day | - | - | - | - |  - |
 
 
 ### <ins>Contributions</ins>
@@ -33,7 +31,7 @@
 
 **Updates**: 
 
-- New blog post: https://droppp.io/bloggg/2025-looking-ahead/ 
+- On Mar 26, 2025 we launched [Droppp Arcade](https://droppp.io/arcade/), a competitive leaderboard system with prizes for the top 333. After only four days of being live over a million Funko NFTs have been burned for points.   
 
 Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
@@ -47,15 +45,16 @@ Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on cha
 
 Updates:
 
-- On Jan 8, 2025 we took a redemption snapshot for [Cartoon Network x Funko Series 1](https://droppp.io/drop/222/cartoon-network-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Jan 10, 2025 we announced the [Adventure Time x Funko Series 2](https://droppp.io/drop/249/adventure-time-series-2/) Digital Pop! drop.   
-- On Jan 21, 2025 we released the [Adventure Time x Funko Series 2](https://droppp.io/drop/249/adventure-time-series-2/) Digital Pop! collection on Droppp. This release consisted of 15k Standard and 15k Premium.   
-- On Jan 22, 2025 we took a redemption snapshot for [Alien: Funko Digital Pop!™ Series 1](https://droppp.io/drop/225/alien-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Jan 24, 2025 we announced the [Freddy's Dark Valentine Series 1](https://droppp.io/drop/252/freddys-dark-valentine-series-1/) Digital Pop! drop.   
-- On Feb 4, 2025 we released the [Freddy's Dark Valentine Series 1](https://droppp.io/drop/252/freddys-dark-valentine-series-1/) Digital Pop! collection on Droppp. This release consisted of 10k Standard and 6k Premium packs.   
-- On Feb 5, 2025 we took a redemption snapshot for [G.I. JOE x Funko Series 1](https://droppp.io/drop/228/gi-joe-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On Feb 12, 2025 we took a redemption snapshot for [Stranger Things x Funko Series 2](https://droppp.io/drop/231/stranger-things-series-2/) and opened the redemption at https://droppp.io/redemptions.   
-- On Feb 14, 2025 we announced the [Toy Story: Funko Digital Pop! Series 1](https://droppp.io/drop/255/toy-story-series-1/) Digital Pop! drop.   
+- On Feb 25, 2025 we released the [Toy Story: Funko Digital Pop! Series 1](https://droppp.io/drop/255/toy-story-series-1/) Digital Pop! collection on Droppp. This release consisted of 19.5k Standard and 16.5k Premium packs and sold out.   
+- On Feb 28, 2025 we took a redemption snapshot for [Funkoween Series 2](https://droppp.io/drop/234/funkoween-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On Mar 7, 2025 we announced the [Avatar Legends x Funko Series 2](https://droppp.io/drop/258/avatar-legends-series-2/) Digital Pop! drop.   
+- On Mar 12, 2025 we took a redemption snapshot for [Beetlejuice x Funko Series 1](https://droppp.io/drop/237/beetlejuice-series-1/) and opened the redemption at https://droppp.io/redemptions.   
+- On Mar 14, 2025 we announced the [DC Teen Titans Go!™ x Funko Series 2](https://droppp.io/drop/261/dc-teen-titans-go-series-2/) Digital Pop! drop.   
+- On Mar 18, 2025 we released the [Avatar Legends x Funko Series 2](https://droppp.io/drop/258/avatar-legends-series-2/) Digital Pop! collection on Droppp. This release consisted of 19k Standard and 17k Premium packs and sold out.   
+- On Mar 19, 2025 we took a redemption snapshot for [Batman 85th x Funko Series 2](https://droppp.io/drop/240/batman-85th-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On Mar 25, 2025 we released the [DC Teen Titans Go!™ x Funko Series 2](https://droppp.io/drop/261/dc-teen-titans-go-series-2/) Digital Pop! collection on Droppp. This release consisted of 16k Standard and 13k Premium packs.   
+- On Mar 26, 2025 we launched [Droppp Arcade](https://droppp.io/arcade/).
+- On Apr 1, 2025 we released the [Funko April Fools Series 3](https://droppp.io/drop/264/funko-april-fools-series-3/) Digital Pop! collection on Droppp. This release consisted of 10k Standard and 10k Premium packs and sold out.   
 
 -------------------------------------------------------------------------------------------
 
@@ -93,19 +92,19 @@ Updates:
 
 Social Media Engagement
 
-- https://www.instagram.com/reel/DEpwZbFvmo9/ (175k views)
-- https://www.instagram.com/reel/DGD1GtVvU7V/ (128k views)
-- https://www.instagram.com/reel/DE8bzwRysfC/ (121k views)
-- https://www.instagram.com/reel/DFNwp3sv43J/ (97.7k views)
-- https://www.instagram.com/reel/DFa7e8Lp_JW/ (17.7k views)
+-  https://www.instagram.com/reel/DGD1GtVvU7V/ (142k views)
+-  https://www.instagram.com/reel/DG56Gfapt88/ (119k views)
+-  https://www.instagram.com/reel/DHL05s5ppWR/ (112k views)
+-  https://x.com/Dropppio/status/1902019804309148022 (41k views)
+-  https://x.com/Dropppio/status/1904556395267268989 (39k views)
 
 Community Coverage
 
-- https://youtu.be/ubexjXJ3QvU?si=z915mrBV0NYvg1DY (31k views)
-- https://youtu.be/DwIhPijAN1A?si=SsbQ12ZH1ZkYmd_j (30k views)
-- https://youtu.be/Kqi1MCjoKFk?si=cn4uWyRcXHiD14a4 (19k views)
-- https://youtu.be/IeVfVi7NNeQ?si=yQ_6FXU6WsyJtT_b (3.4k views)
-- https://youtu.be/aaVTm7qcoZY?si=mRf3eYb0CqUeJepq (3.1k views)
+- https://youtu.be/tYz-URxuyGg?si=ocO9R3e0jQd7Mgbx (88k views)
+- https://youtu.be/2Af59liaBYg?si=zqSH0N9EtlJwPMTT (64k views)
+- https://youtu.be/tTlzMX0PiWk?si=WNfJgWKQ3jhJPA50 (15k views)
+- https://youtu.be/f1Fo0X_WkNY?si=jgbBqZvcx-PcjUVV (4.7k views)
+- https://youtu.be/PTbvI9cg_3w?si=utAZuVnc3wnAxtdv (3.1k views)
 
 Droppp Discord
 
