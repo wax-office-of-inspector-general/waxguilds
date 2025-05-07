@@ -20,4 +20,10 @@
 
 
 ### <ins>Noteworthy</ins>
-- Updated Hyperion testnet server, reindexed all blocks from 2025 to cover any missing transactions.
+- Hyperion testnet server issues resolved intermittent issues in May 2025 are resolved.
+
+
+### <ins>Feedback to OIG</ins>
+
+- Please check score for oracle is 0, however the oracle is publishing updates as expected https://eosauthority.com/account/eosauthority?network=wax (Please mention anything if it needs resolution from our side on the oracle)
+
