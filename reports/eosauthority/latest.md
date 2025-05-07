@@ -21,9 +21,10 @@
 
 ### <ins>Noteworthy</ins>
 - Hyperion testnet server issues resolved intermittent issues in May 2025 are resolved.
+- WAX Deplhi Oracle Script is updated to handle fallback for ETH/WAXP price
 
 
 ### <ins>Feedback to OIG</ins>
 
-- Please check score for oracle is 0, however the oracle is publishing updates as expected https://eosauthority.com/account/eosauthority?network=wax (Please mention anything if it needs resolution from our side on the oracle)
+- Oracle WAXPETH price is fixed now, please review the oracle points & points for the WAX Delphi oracle
 
