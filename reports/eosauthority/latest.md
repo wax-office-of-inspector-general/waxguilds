@@ -20,4 +20,11 @@
 
 
 ### <ins>Noteworthy</ins>
-- Updated Hyperion testnet server, reindexed all blocks from 2025 to cover any missing transactions.
+- Hyperion testnet server issues resolved intermittent issues in May 2025 are resolved.
+- WAX Deplhi Oracle Script is updated to handle fallback for ETH/WAXP price
+
+
+### <ins>Feedback to OIG</ins>
+
+- Oracle WAXPETH price is fixed now, please review the oracle points & points for the WAX Delphi oracle
+
