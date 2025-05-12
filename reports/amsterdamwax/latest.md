@@ -12,16 +12,16 @@
 | Guild Jurisdiction | Netherlands |
 
 ### <ins>Noteworthy</ins>
-Hyperion availability has been improved. Also, a faster server for block production is being prepared. Addtionally, we have a price oracle running now, taking prices from Coinbase and Binance
+All listed services being hosted and maintained as usual, updated usage statistics.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [X] | [x] | [x] | [x] | [] |  [] |
-| - | 7k req/hour | 95 req/hour | 30k req/hour | 100k req/hour | - |
+| - | 8.5k req/hour | 81 req/hour | 24.9k req/hour | 60.8k req/hour | - |
 
-Others APIs: WAX RPC (300k req/hour), WAX Testnet RPC (16k req/hour)
+Others APIs: WAX RPC (272k req/hour), WAX Testnet RPC (15k req/hour)
 
 
 ### <ins>Contributions</ins>

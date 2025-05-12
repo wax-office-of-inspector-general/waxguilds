@@ -11,15 +11,13 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-No outages were experienced this last period.
+We successfully completed our Internet Service Provider maintenance on the 25th of February. There was a 30 minute disruption to our WAX Hyperion Full History, block production and other API’s weren't effected.
 
-HeadsUp v0.1.7 was released.
+HeadsUp v0.1.9 was released.
 
 Be sure to check out the public showcase of HeadsUp to get a feel for the platforms capability here -> https://headsup.eosphere.io/
 
-We’ve had a few issues with our new AMD EPYC server in Sydney, mainly to do with the internet routing capability of our services provider. I expect us to have these resolved over the next few weeks when end of year change embargo’s are over.
-
-Perth servers have successfully had their RAM upgraded, this should give us some runway before we need to upgrade to new platforms.
+We recently noticed some variation in our Block Production Benchmarks. These variations went unnoticed after an upgrade from v4.0.4 to v5.0.3 however this has been remedied by adjusting system and WAX software configuration. We will produce a WAX Technical How To on CPU optimisations in the near future.
 
 ### <ins>API Services</ins>
 
@@ -36,24 +34,22 @@ Perth servers have successfully had their RAM upgraded, this should give us some
 
 **Update**: 
 
-The EOSphere Team have released HeadsUp v0.1.7.
+The EOSphere Team have released HeadsUp v0.1.9
 
-This release introduces a few quality of life improvements and address a number a pesky bugs.
+This release adds new features and includes fixes.
 
-- Time zone can now be adjusted in the dashboard
-- Active Alert time displays time since alert occurred
-- Fixed a few grammatical errors
-- Vote rank notifications can be disabled from alerting
-- First ingestor is preselected when creating a node to monitor
-- Producer Schedule Metric Added
-- Producer Signing Key Metric Added
-- Finalizer Registered and Active Key Metric Added
-- Dashboard top banner text can now be customised
-- Numerous bugs squashed
+Major changes:
+- Adds caching to improve load time of UI
+- New card on node page for displaying support APIs advertised
+- Node page metrics upgrade: metric values can be copied with one click, icons added to indicate the alerting status of each metric
+- Silenced alerts are now visible on home, chain, and node pages, as well as the alerts page, with a new look
+- Alerts and alert pages optimised for mobile screen sizes
+
+Fixes:
+- Displays correct node latency value on chain page
+- Addresses issue when metric conditions set to 0
 
 Take a look at the public showcase -> https://headsup.eosphere.io/
-
-The next version v0.1.8 that will be released in the comingh weeks will add functionality for monitoring chains.json and bp.json services, improvements to the mobile view and addition of the soon to be released Hyperion v3.5 updated metric information.
 
 Please join our Telegram Group (https://t.me/headsup_monitoring_alerts) for the latest release information as well as github links and instructions .
 
@@ -68,37 +64,15 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we completely updated our WAX Hyperion Full History Series bringing it up to date with the current Hyperion `v3.3.10–1` code including the current requirements and state of play on the WAX Mainnet and Testnet.
+This month we updated our guides for v1.3.24 and 2025 on how to build, configure, deploy and optimise a WAX Atomic Node. We actually built a new server ans successfully recovered from a postgres dump.
 
-**Introduction to WAX Hyperion Full History**
-https://medium.com/eosphere/wax-technical-how-to-15-1-d2936d3c58d4
+**How to Set Up a WAX Atomic API Node**
 
-**Build WAX Hyperion Software Components**
-https://medium.com/eosphere/wax-technical-how-to-15-2-a042ea8bc4b4
+https://medium.com/eosphere/wax-technical-how-to-9-f7d22bfa4e2b
 
-**Configure WAX Hyperion Software Components**
-https://medium.com/eosphere/wax-technical-how-to-15-3-b188c6aa9d12
+**How to Optimise & Restore a WAX Atomic API Node**
 
-**Running WAX Hyperion Full History**
-https://medium.com/eosphere/wax-technical-how-to-15-4-f735d4cbc197
-
-**Clustering Elasticsearch for WAX Hyperion Full History**
-https://medium.com/eosphere/wax-technical-how-to-15-5-6ae01ea6bf62
-
-**Rectify Missing Blocks in WAX Hyperion Full History**
-https://medium.com/eosphere/wax-technical-how-to-15-6-622ae2936771
-
-**WAX Hyperion Full History Indexer Scaling**
-https://medium.com/eosphere/wax-technical-how-to-15-7-ce11fbc97c40
-
-**WAX Hyperion Streaming with a WAX Load Balancer**
-https://medium.com/eosphere/wax-technical-how-to-15-8-396dd3b0484b
-
-**Repair WAX Hyperion Indexed Data**
-https://medium.com/eosphere/wax-technical-how-to-15-9-648857d7b535
-
-**Using Data Tiers with WAX Hyperion Full History**
-https://medium.com/eosphere/wax-technical-how-to-15-10-030540d30a23
+https://medium.com/eosphere/wax-technical-how-to-10-90c6445632ed
 
 ---
 
@@ -108,7 +82,7 @@ https://medium.com/eosphere/wax-technical-how-to-15-10-030540d30a23
 
 **Update**: 
 
-We recently added an article on automating the creation of nodeos snapshots
+We updated our Atomic API documentation for v1.3.24 and 2025
 
 ---
 
@@ -116,26 +90,27 @@ We recently added an article on automating the creation of nodeos snapshots
 
 Deeper statistics are available in our Regular Community Update.
 
-Period: December 17th 2024 - December 31st 2024 (2 Weeks)
+Period: March 13th 2025 - March 27th 2025 (2 Weeks)
 
 **Infrastructre Stats**:
-- 94.97% of Requests are Normal API, 5.03% are Hyperion API
-- 6.5 to 8 Million HTTP "200"`s served per day
-- 114 Million Requests this last two weeks
-- We provide for around 1 to 2Mil WAX Mainnet Successful Push Actions per day.
-- 2Mil Requests served by our Atomic API per day
+- 39.14% of Requests are Normal API, 57.79% are Hyperion API
+- 8 to 10 Million HTTP "200"`s served per day
+- 290 Million Requests this last two weeks
+- We provide for around 1 to 1.5Mil WAX Mainnet Successful Push Actions per day.
+- 1 to 2Mil Requests served by our Atomic API per day
 
 **Medium Stats**:
 
-![image](https://github.com/user-attachments/assets/a0d85753-ff49-4de3-a643-5239c68b0625)
+![image](https://github.com/user-attachments/assets/16e5550d-b488-44f9-9ea1-251ff498709d)
 
-![image](https://github.com/user-attachments/assets/3bcdad93-2a11-47a2-adca-5ed8d4767346)
+![image](https://github.com/user-attachments/assets/d7a6e7de-8e5d-4237-a960-e8010a0e4896)
+
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/user-attachments/assets/78f4f04b-cad6-4e73-b211-0f01b5928815)
+![image](https://github.com/user-attachments/assets/3c3f340b-9d48-49c3-81e7-72484849ac3e)
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
@@ -147,7 +122,7 @@ Initiative A: Regular Community Update
 
 We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
 
-Here is December -> https://medium.com/eosphere/eosphere-guild-december-24-update-b6ad2769a582
+Here is March -> https://medium.com/eosphere/eosphere-guild-march-25-update-1be0ae4436f3
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -160,6 +135,6 @@ URL: https://snapshots.eosphere.io/
 
 
 ### <ins>Feedback to OIG</ins>
-Feedback on the two week update windows for our perspective, we may use a shorter update time in the future however we prefer the 6 week sprints right now.
+Cautiously optimistic about Guild Rewards and the WAX Token Value starting in April. 
 
 ----

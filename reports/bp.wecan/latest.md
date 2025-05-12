@@ -12,16 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-Mostly reinforced our infra and consolidated a bunch of maintenance tasks in order to smoothly transition between hosting providers maintenances.
-
-We also quickly assisted with Alcor's situation related to the stuck funds on EOS when the IBCs went down.
+No issues so far.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 14.9M req/week | 82.91k req/week | 4.46M req/week | 45.69k req/week |  83.98k req/week |
+| - | 8.67M req/week | 19.1k req/week | 740k req/week | 55.24k req/week |  89.04k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -35,122 +33,75 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 **URLs:**
 * Website: https://rplanet.io;
            https://rplanet.app/;
-* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (5k downloads); 
+* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (10K+ downloads); 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
 
-The development of the R-Planet game is progressing steadily, with various tasks at different stages of completion. 
-The team is advancing, maintaining continuous collaboration to improve the gaming experience and meet user expectations.
-The following completed tasks highlight the ongoing development efforts within the project.
+
+Here is a types of tasks we are currently working on and implementing:
+**UI Enhancements:** Addressing user interface issues to improve navigation and user experience.
+**Bug Fixes:** Correcting typos and resolving other minor issues to ensure smooth gameplay.
+**Feature Development:** Introducing new features aimed at enhancing game balance and accessibility for newcomers. 
 
 Changelog:
 
-**New Features**
-1. Banning in Private Chat
-Players can now ban other users in private chat, giving them control over their chat interactions.
+__Quest System (Progression + Daily)__
 
-![image](https://gist.github.com/user-attachments/assets/c8d8ae89-8afa-4378-8743-d05a4aca90a0)
+To enhance long-term engagement, we are introducing a structured quest system. Players will have both progression quests and daily challenges that reward consistent activity.
 
-2. Resource Display in Search List
-Players can see resource quantities for each base in the “My” list during searches, streamlining the resource transfer process.
+__Deeper Map Interactions__
 
-![image](https://gist.github.com/user-attachments/assets/0c7e70bf-f3b5-49bf-8c71-6d623d85f1c9)
+The world of R-Planet is vast, and we are adding new points of interest on the map to enhance strategic and tactical gameplay. Players will be able to engage in special missions or face unexpected challenges, making exploration more rewarding.
 
-3. Spying on Players Under Protective Dome
-Players under a Protective Dome can now spy on others under protection, allowing for mission completion even while protected.
-4. Base Event Info Button for Other Players’ Bases
-A new button on the Base Info page allows viewing of combat, support, and spy activities on other players’ bases, with filters for easy navigation.
+__Inventory System__
 
-![image](https://gist.github.com/user-attachments/assets/22cada01-6d5c-4a28-8eef-17dd26e51c8c)
+Managing in-game assets effectively is key to success. We plan to redesign the inventory screen, making it easier to store, organize, and manage all owned and collected items and boosters in one place. Streamlining inventory management will help players to optimize their gameplay strategies and maintain better control over their assets.
 
-![image](https://gist.github.com/user-attachments/assets/c46c8441-0cf9-4b85-8ecf-c86a8723f200)
+__Hero Level-Up & Skill Upgrade__
 
-5. Alliance Invitations Enhancement
-Alliance leaders can now invite players directly from the player’s info page, alongside existing player requests to join.
-6. Alliance Invitations via Private Chat
-Admins or owners can send alliance invites through private chat.
-7. Viewing Captured Alien Bases
-Alliance members can observe layout and details of captured alien bases.
-8. “Finish Now” for Building Tasks
-If fewer than 5 minutes remain on a building task, players can use the “Finish Now” option for immediate completion without an asset.
+We are reworking the experience system to make hero progression more dynamic and rewarding. More heroes will be introduced, each with a unique set of empowered properties that can be upgraded over time. Players will be able to customize their heroes through upgrades and new gear items, developing specialized strategies based on their hero’s powers.
 
-![image](https://gist.github.com/user-attachments/assets/ba603259-700b-4ba1-899f-a4e160b79453)
+__More Hero Items__
 
-**Additional Improvements**
-1. Animated Activity Indicator
-An animated indicator has been added to show active processes on the general building view.
-2. Optimized Support Display in Combat Reports
-Combat reports are now organized with two tabs for Units and Support, improving navigation and display of captured resources.
+The hero equipment system is being expanded to introduce more gear items with varying levels of influence on the hero, the base to which the hero is attached, and their army. Players will have access to items of different rarities. This expansion aims to deepen character customization and strategy, giving players more control over their heroes’ strengths.
 
-![image](https://gist.github.com/user-attachments/assets/77fd8672-49a1-40c0-9358-fa553b96f950)
+__Rewarded Ads__
 
-3. Automatic Asset Detachment at Game End
-Assets now detach automatically when the game ends.
-4. Improved Messenger View
-The message input field now accommodates two rows for easier typing.
-5. Relocation Settings Update
-Relocation is restricted to the first 3 days after joining the game.
-6. Reduced Protective Dome Activation Time
-Activation time for the Protective Dome has been reduced to 3 hours, facilitating quicker base protection.
-7. Enhanced Hero Report
-When a hero dies during an adventure, the report is updated to show failure status, highlighted in red, with faded images.
-8. Server Participation Mark
-Servers with active participation are now marked with a unique icon.
-9. Initial Protection Removal for Rapidly Developing Bases
-Bases with 250 or more droids lose initial protection to encourage fair competition.
-10. Hide Arrived Supports on Map
-Supports that have arrived are no longer displayed on the map.
-11. Speed Selectors in Wiki
-Speed selectors added to the Wiki offer accurate data based on server speed.
-12. Frame Icon Navigation Filters
-Frame icons now navigate directly to relevant tasks with pre-applied filters.
-13. Task Sorting in Activity Tab
-Tasks are sorted by end time in the Activity tab, showing those nearing completion first.
-14. Asset Properties Display
-Assets now display properties with icons for easy identification.
-15. Grouped Asset Display
-Identical assets are grouped, displaying a count in the list view.
+Players will have the opportunity to earn in-game boosters and benefits by watching ads. This feature will be optional and designed to provide additional resources without disrupting gameplay. The system will allow players to gain advantages without direct purchases, ensuring a balanced and accessible approach to in-game progression.
 
-**Ecosystem Networking Engagement**
+__Engagement Chest__
 
-***Overview***
+To reward long-term play, we are introducing an engagement chest system. The longer players stay active in the game, the more rewards they can receive. Scaling rewards will make extended play sessions more satisfying, reinforcing player engagement.
 
-There was done some portion of effort and some resources were used to get more traction from the user base side.
-This collaboration has helped us to attract new players and expand our social media presence to 60,000+ followers (ref. https://t.me/rplanetio) which created prositive influx to the WAX ecosystem.
+**Spreading the word**
 
-***Two-Round Tournament***
+Recently, we presented our roadmap for the first half of 2025, outlining upcoming features and improvements. This initiative aims to keep our community informed and involved in the development process.
 
-The R-Planet Two-Round Tournament, with a ***$50,000 USD prize pool***, has been a highlight of our community engagement efforts. 
-The first round, featuring 3 servers, has been completed, and the second round will take place on one server on November 26th. 
-This tournament has created excitement among players and helped foster competition within the community.
-https://t.me/rplanetio/709827
-https://t.me/rplanetio/709828
+![image](https://gist.github.com/user-attachments/assets/9c3f245d-2286-459b-b562-f0ee3aa47958)
 
+The article detailing our roadmap for the first half of 2025 is available on our Medium page:
+[R-Planet 2025: Future Plans & Expansions](https://rplanet.medium.com/r-planet-2025-future-plans-expansions-cae201d7b900)
+In this article, we outline the upcoming features and improvements planned for the first half of 2025, aiming to keep our community informed and engaged in the development process.
 
-Both events hopefully reflected on the WAX awareness side, since we had a really great volume gain from that due to increased demand of NFTs that are used in the gameplay.
-WAX positive volume uptick
-
-![image](https://gist.github.com/user-attachments/assets/0bd19b43-fbbd-4b04-807b-b3c3adcffc00)
-
-and we even came back to the atomic market tops for some time
-
-![image](https://gist.github.com/user-attachments/assets/89944a43-693d-44ce-93e7-77a20abd9780)
-
+__Launch & User Acquisition Strategy__
+On March 31, the new Playground server will go live, allowing players to explore new features and mechanics.
+Following this, we will initiate user acquisition campaigns to drive engagement and onboard new players.
+Within 7-14 days after launch, a new gaming server with exciting prizes will be introduced, further incentivizing participation.
 
 **Metrics**
 
-Period: Oct 24th, 2024 - Nov 24th 2024
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
 
 activity volume
 
-![image](https://gist.github.com/user-attachments/assets/bcc761ad-d9ac-4946-bb24-8bf1cb697e86)
+![image](https://gist.github.com/user-attachments/assets/33cceb1e-0147-403f-b3f3-113d9a0c941f)
 
 nft volume
 
-![image](https://gist.github.com/user-attachments/assets/c0e516d1-8461-4a3a-be07-701960db6ff6)
+![image](https://gist.github.com/user-attachments/assets/ae3543a5-2526-4dc2-801d-0b66e140e302)
 
 ---
 
@@ -167,28 +118,25 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-prospectors also gained some traction due to issues with the EOS world specifically related to the recent changes in EOS blockchain and subsequent migration of some portion of the users to the WAX worlds was initiated.
-
-![image](https://gist.github.com/user-attachments/assets/08c655ce-6a58-47b7-b537-ee6bf025976f)
-
-Period: Oct 24th, 2024 - Nov 24th 2024
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
+
+Total unique users per month ~ 9k
 
 prospectors google analitycs
 
 play.prospectors.io (EOS)
 
-![image](https://gist.github.com/user-attachments/assets/bd560edb-3ba3-4042-85c0-fa7181014675)
+![image](https://gist.github.com/user-attachments/assets/cf9e0821-64a9-4694-98c2-df113a2724e3)
 
 wax.prospectors.io (WAX - Yukon server)
 
-![image](https://gist.github.com/user-attachments/assets/0eedfec4-3f4b-49a8-bde5-5d181c5e5da0)
+![image](https://gist.github.com/user-attachments/assets/8b04f9f4-ed26-432b-a620-0464074067ba)
 
 grandland.prospectors.io (WAX - Our main server)
 
-![image](https://gist.github.com/user-attachments/assets/34a897dd-d2f4-454f-a373-592e279843b8)
-
+![image](https://gist.github.com/user-attachments/assets/eebcc7ed-ff4d-4572-b6e1-34a7438fc5a4)
 
 ---
 
@@ -199,9 +147,9 @@ grandland.prospectors.io (WAX - Our main server)
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-38 active pools with about 1977 active user stakes accross the platform.
+33 active pools so far
 
-![image](https://gist.github.com/user-attachments/assets/97958cbf-d166-4f16-a05d-0c9e082d2f81)
+![image](https://gist.github.com/user-attachments/assets/065c88c4-4127-446a-8419-36eb9c5c3633)
 
 ---
 

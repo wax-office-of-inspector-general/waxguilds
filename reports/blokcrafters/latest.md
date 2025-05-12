@@ -32,63 +32,44 @@ Others APIs: none at the moment
 
 **URLs**: https://waxdapps.io/
 
-
-**Update**
-
-Added new category "Meme Coin" for waxdapps helpful resources, the meme coin communities on wax make up a large portion of wax community members. Added 8 meme coins listing and moved Wuffi into the category. 
-
-*Added Listings*
-- (Meme Coin) RedOrDeadCoin, $RODC
-- (Meme Coin) The Rising Tide of Potential, $BLUWHL
-- (Meme Coin) The Buzzing Force of Innovation, $WOMBEE
-- (Meme Coin) FED - cut rates NOW, $FED
-- (Meme Coin) The Real Juan, $RJUAN
-- (Meme Coin) $ANON
-- (Meme Coin) $WIENR
-- (Meme Coin) THE $AIGOD TOKEN
-
+**Update**: 
 
 **Metrics**
 
-Period: November 30, 2024 - December 8th 2024
-
-<img width="567" alt="blokcrafters_oig_metrics" src="https://github.com/user-attachments/assets/2f654101-3740-4fe3-8e2a-bad6e8055b2f">
-<img width="575" alt="blokcrafters_oig_metrics1" src="https://github.com/user-attachments/assets/aff89312-32f0-4371-bc0a-76ad53b12a4a">
-<img width="574" alt="blokcrafters_oig_metrics2" src="https://github.com/user-attachments/assets/08b6f388-1178-4601-b181-3a3a1e978355">
+Period: February 16th 2025 - March 2th 2025
 
 
+<img width="450" alt="waxdapps_metrics_2-16_3-2" src="https://github.com/user-attachments/assets/e106e142-2e23-45d5-9354-bd6ec3965afd" />
+
+<img width="450" alt="waxdapps_metrics1_2-16_3-2" src="https://github.com/user-attachments/assets/4024a902-dbb9-4c54-ba41-4f3ef211f1b2" />
+
+<img width="450" alt="waxdapps_metrics2_2-16_3-2" src="https://github.com/user-attachments/assets/bd7e8d16-e401-4f4a-a428-e329fee91cda" />
 
 
-
-  
   
 ### WaxAI
+**URLs**: https://waxai.io/
 
 ![waxai (1)](https://github.com/user-attachments/assets/7f719897-2bde-4acd-90fa-05fdbbe5ed60)
 
-  
-  
 
-**URls** https://waxai.io/
+**Update**: We've been doing a lot of thinking about WaxAI and how we can make it valuable for the WAX ecosystem. We're excited to share our pivot/direction change.
 
-  
-  
+1. **Previous WaxAI**
+   - AI assistant specialized in WAX blockchain documentation.
+   - Limited practical applications and usage (when it was initially released).
 
-### Project Update
+2. **New Direction**
+   - Strategic Advisor Assistant (SAA) for ecosystem analysis.
+   - Analyzes guild contributions and project outcomes.
+   - Provides data-driven recommendations for ecosystem growth.
+   - Tracks contribution impact and identifies successful patterns.
 
-  
+3. **Technical Summary**
+   - The system integrates a custom database with both GitHub submissions (latest.md) and OIG Notion reports(Tech-ops/Product-dev/Eco-dev/strategic-dev). The assistant's instruction prompt is designed to analyze (github)submissions alongside their evaluations(OIG report) to process the full view of guild activity and identify success patterns. The AI system is trained on the latest OIG guidelines, requirements, historical guild contributions, and their outcomes, along with submission formats and evaluation criteria. By processing both submission data and evaluation results, the assistant can answer questions about any WAX contributions, identify what makes contributions successful, guide guilds on improving their ecosystem impact, and suggest optimizations based on historical patterns of success.
 
-1. **UI/UX**: In the process of rebuilding the UI for a cleaner/smarter experience. Re-Imagining what type AI can be useful and impactful to the WAX community! 
+We are open to feedback or schedule a call to showcase the latest. 
 
-
-**Metrics**
-
-Period: November 30th, 2024 - December 8th 2024
-
-*Stats*
-No stats to share for this reporting period
-
-  
 
 ### <ins>Marketing</ins>
 

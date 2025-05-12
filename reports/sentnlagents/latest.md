@@ -41,6 +41,7 @@ http://wax.sengine.co/api/nodes/p2p
 
 - We are in the process of creating a brand new Sengine (oig-portal) written from scratch in JS and nextjs
 - The new sengine has been deployed at http://test.sengine.co - we are awaiting feedback from the OIG before fully switching over.
+- We updated the new frontend to allow guilds to be chosen directly from a guild page.
 
 
 
@@ -50,7 +51,6 @@ http://wax.sengine.co/api/nodes/p2p
 
 The product aims to solve the problem of connecting to a hyperion OR atomic API that is fully working at the time of the request, without having to hardcode multiple nodes.
 QRY Network created by EOSRIO have also decided to make this the primary JS library for their service. 
-
 
 
 **The product consists of the following:**
@@ -66,8 +66,14 @@ QRY Network created by EOSRIO have also decided to make this the primary JS libr
 •  The Cloudflare proxy runs a healthcheck on all API servers in the pool to ensure they can provide healthy nodes to the JS library.
 •  Failover: Incase the JS library cannot connect to an API service, it uses it's already maintained list of nodes OR default nodes hardcoded into library.
 
-**URLs**: https://github.com/Sentnl/nodepulse, https://github.com/Sentnl/nodepulse-backend
+**URLs**: https://github.com/Sentnl/nodepulse, https://github.com/Sentnl/nodepulse-backend, https://github.com/Sentnl/nodepulse-python
 
+
+Updates:
+
+- We have created a Python library - nodepulse-python to also work with the nodepulse-backend API.
+- We have updated the nodepulse-backend API to also provide a list of healthy light-api and IPFS nodes. 
+- We have updated both the JS and Python libraries to now support light-api and IPFS nodes.
 
 
 ---
@@ -117,7 +123,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for Greeneosio, Blokcrafters
+We completed a security audit for EOSrio and EOSphere.
 
 ---
 ### 🔐 Smart Contract Audits	
@@ -128,6 +134,30 @@ At Sentnl we provide smart contract audits for EOSIO contracts on WAX.
 
 
 ---
+### 🔗 WaxRaidBot   
+
+**Description:** WAXRaidbot is a powerful Telegram bot designed for the WAX blockchain community, offering both raid coordination and token buy tracking features for memecoins.
+
+
+#### Features
+
+*Raid Bot for Twitter*
+- Coordinate Twitter raids with automatic progress tracking
+- Real-time monitoring of likes, retweets, replies, and bookmarks
+- Automatic channel locking during raids
+- Customizable raid targets
+- Progress visualization with coloured GIFs
+
+*Buy Bot for memecoins*
+- Real-time tracking of token purchases on wax.fun and Alcor Exchange (once a meme coin moves to Alcor)
+- Customizable buy alerts
+- Minimum buy amount filtering
+- Dynamic emoji indicators based on purchase size
+- Direct links to trading pairs
+
+**URL:** https://waxraidbot.sentnl.io
+
+---
 ### 📝 AI Summary tool	
 
 **Description:** Trawls through the messages of certain  Telegram groups and creates daily summarizations. It also tries to filter the noise by calculating an importance score of messages based on sentiment and engagement.
@@ -136,6 +166,8 @@ At Sentnl we provide smart contract audits for EOSIO contracts on WAX.
 
 
 **Update**: 
+
+- We have updated the tool to use the new deepseek-r1 model for summarization.
 
 
 ---
@@ -166,10 +198,6 @@ At Sentnl we provide smart contract audits for EOSIO contracts on WAX.
 
 **URLS:**  https://github.com/eosrio/hyperion-history-api/scripts/fix_missing_blocks 
  
-**Description:** API service to allow Guilds to search for all latest security vulnerabilities related to their infrastructure
-
-**URLS:**  https://vuln.sentnl.io 
-
 **Description:** Connects to the OpenAI API and scans all c++ files in your GitHub repository for EOSIO Smart contract vulnerabilities
 
 **URLS:**  https://github.com/Sentnl/EOSIO-Vulnerability-Scanner 
@@ -217,8 +245,7 @@ Sengine uses the API to display the missed blocks for each guild.
 
 
 **Update**: 
-- We have updated Fastify and WS libraries on missingblocks to latest stable versions. WS library had a DOS vulnerability that was fixed in the latest version.
-- [status.wax.io](https://status.wax.io) is now utilising our missing blocks API to display the missed blocks on the status page.
+- We have updated our Docker-compose setup to be more streamlined and easier to manage.
 
 ---
 
