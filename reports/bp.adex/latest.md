@@ -129,22 +129,23 @@ Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
 
 Docs:(https://docs.pixeljourney.xyz)
 
-Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Polygon and Ethereum, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse.
+Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Ethereum, Polygon, Base, and BNB Chain already, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse. Explore crypto education, staking, and crafting as we bridge Web3 worlds through pixel-powered collectibles. Season 2 launches this summer!
 
 **Update**
 
-* Updated website and documentation, improving accessibility and onboarding. Now featuring a revamped structure and additional resources to help new users navigate the ecosystem
-* $WPIXAL is now launched via RWAX.io (and we're showcasing/introducing the mechanics of that platform via our community now as we speak)
-* Nearly 10M $PXJ towards $WPIXAL DeFi (incentivizing DeFi for WAX, LSWAX, LSW, WUF, and our PXJ)
+* New small dApp Developments started: PxTD (https://pxtd.pixeljourney.xyz) and PxTap (https://pxtap.pixeljourney.xyz/), tieing in on-chain ownership to provide in-game boosters. WIP, where we're testing/iterating on the first versions already.
+* Our Leaderboard page got a slight logic update, and styling makeover (https://lb.pixeljourney.xyz/)
+* New Pixel Journey Staking portal now available (https://stake.pixeljourney.xyz/), which offers a journey focused and enhanced UI/UX for staking to/managing our WaxDAO NFT Farms for the Pixel Journey.
+* Several new similar/small developments have further gotten started; Journey Quests (random daily quest riddles to incentivize/reward on-chain actions), PxMileStones (on-chain milestone tracking system to unite the Pixel Journey community - and more - through shared goals and progress), PixelDAO (as web platform, instead of running it through Discord bots), and JourneyMap (a linktree/sitemap type of landing page that will help with an overview, or ease of access, to our growing PxJourney ecosystems websites)
+* Additional ~80M $PXJ and ~60 WPIXAL has been allocated towards our DeFi for the coming ~180-360 days (incentivizing DeFi participation in particular for our PXJ and WPIXAL pools paired with WAX, LSWAX, LSW, WUF, TLM, and most other active ecosystem token economies)
 
 **Metrics**
 
-* Visits: ~700 (30 days)
-* Rewards via farms: ~900K PXJ/monthly; ~8M YEET/monthly; ~12 NFTs/daily
-* Rewards for holders via airdrops: ~3.1M PXJ/month
-* Rewards for NFT holders via WaxDAO Staking: ~900k PXJ/month; ~8M WUF/month;
+* Visits: ~1200 (30 days)
+* Rewards via farms: ~27M PXJ/monthly; ~6M YEET/monthly; ~10 NFTs/daily
+* Rewards for holders via airdrops: ~3M PXJ/month
+* Rewards for NFT holders via WaxDAO Staking: ~3.8M PXJ/month; ~20M WUF/month;
 * Rewards for discord community events: ~500 WAX/week
-* Rewards for end-of-year bountyblok: ~40K WAX(special prize pool)
 
 ---
 
