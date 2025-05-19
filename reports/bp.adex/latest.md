@@ -12,16 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-1. Listed A-DEX on DefiLlama(https://github.com/DefiLlama/DefiLlama-Adapters/pull/13589#event-16369637472)
-2. Listed WDJC on DefiLlama(https://github.com/DefiLlama/DefiLlama-Adapters/pull/13807#event-16713420954)
-3. A-DEX Oracle launched
+Keep maintaining infra and existing projects.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [] | [x] | [x] | [x] | [x] |
-| 224062 req/week | - | 41906 req/week | 672896 req/week | 7328 req/week |  3372 req/week |
+| 234186 req/week | - | 53003 req/week | 840138 req/week | 8582 req/week |  5217 req/week |
 
 **Others APIs: **
 
@@ -138,6 +136,7 @@ Pixel Journey is an innovative new crypto-education focused project starting off
 * New Pixel Journey Staking portal now available (https://stake.pixeljourney.xyz/), which offers a journey focused and enhanced UI/UX for staking to/managing our WaxDAO NFT Farms for the Pixel Journey.
 * Several new similar/small developments have further gotten started; Journey Quests (random daily quest riddles to incentivize/reward on-chain actions), PxMileStones (on-chain milestone tracking system to unite the Pixel Journey community - and more - through shared goals and progress), PixelDAO (as web platform, instead of running it through Discord bots), and JourneyMap (a linktree/sitemap type of landing page that will help with an overview, or ease of access, to our growing PxJourney ecosystems websites)
 * Additional ~80M $PXJ and ~60 WPIXAL has been allocated towards our DeFi for the coming ~180-360 days (incentivizing DeFi participation in particular for our PXJ and WPIXAL pools paired with WAX, LSWAX, LSW, WUF, TLM, and most other active ecosystem token economies)
+* Preparing Pixel Journey and WAX showcasing for the NFC Lisbon 2025 Conference happening June 4-6th. Designing merch, and promo content/contests
 
 **Metrics**
 
@@ -265,11 +264,11 @@ We are helping WAX projects to list on DefiLlama to increase WAX TVL and ecosyst
 
 | Chain DB Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |----------|------------|---------------|----------------|--------|
-| [x]      | [ ]        | [ ]           | [ ]            | [x]  |
+| [x]      | [x]        | [ ]           | [ ]            | [x]  |
 
 Source: https://snapshots-wax.a-dex.xyz
 
 ### <ins>Feedback to OIG</ins>
 
-During current market WAX Deer World NFT game is struggle with dev resources and funding, could you please evaluate WDJC promoting of WAX ecosystem and community engagement on social media etc?
+N/A
 ----
