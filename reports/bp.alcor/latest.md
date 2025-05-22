@@ -13,67 +13,33 @@
 ---
 
 ### Noteworthy
+-Snapshots for Chain DB and AA included.
+-Hyperion switched to partial history.
 
-No technical issues were reported during this period.
+## Hyperion
 
----
+We switched from Full History Hyperion to Partial Hyperion Service Ready.
 
-### Contributions
+Our partial Hyperion service has reached operational readiness:
 
-### Alcor Decentralized Exchange  
-**URLs**: https://alcor.exchange/ | https://docs.alcor.exchange/
+Retention Period: Up to 42 days of historical blockchain data.
 
-**Updates**:
-- Over 10 new commits to the SDK improving swap routes, swap logic, and farm distribution.  
-  See: https://github.com/alcorexchange/alcor-v2-sdk/commits/main/
-- Over 30 new or updated token entries supported. Alcor hosts the largest token registry on WAX.
-  See:https://github.com/alcorexchange/alcor-ui/commits/master/
-- Continued integration and support for token creators through self-listing pair creation tools.
----
+Indexed Data: Coverage starts from 42 days ago and updates continuously.
 
-### Alcor Yield Farming  
-**URL**: https://alcor.exchange/farm
-
-**Updates**:
-- Ongoing WAX/WAXUSDC farm distributing 4.5 billion WUF
-- Minor user interface enhancements
-
----
-
-### Alcor APIs (TWAP & Off-Chain)  
-**URLs**:
-- https://api.alcor.exchange/#introduction  
-- https://docs.alcor.exchange/alcor-swap/alcorswap-v2-price-oracles
-
-**Updates**:
-- System stable and performant
-
----
-
-### LSW — Liquid Staked WAX  
-**URL**: https://alcor.exchange/staking/
-
-**Updates**:
-- TVL  9M WAX
-- Exchange rate: 0.919 LSW per WAX (initial: 1:1)
-- Over 700 users actively staking
-- Partnership with Thrive on Mars for LSW CPU renting via Operator Program, figuring out ways to use the $MARTIA rewards without affecting their economy.
-
----
-
-### Inter Blockchain Communication (IBC)
-
-- EOS → WAX bridging disabled due to EOS Spring 1.0 upgrade
-- WAX → EOS bridging remains functional
-- Bridging UI removed to prevent user error
-**- Thanks to EOSUSA & WAX team, locked EOS successfully released**
-- USDT via EOS support will sunset this year; users encouraged to withdraw.
+Upcoming SLA: Finalized soon.
 
 ---
 
 ### Backups
 
-Not available
+New Snapshots Site
+
+Our new snapshots platform for Chain DB and AA is now live:
+
+URL: https://wax-snapshots.alcor.exchange
+
+Purpose: Offers convenient and reliable access to daily blockchain snapshots, helping developers and nodes synchronize quickly and efficiently.
+
 
 ---
 
