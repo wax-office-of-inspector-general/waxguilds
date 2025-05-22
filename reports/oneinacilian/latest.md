@@ -12,11 +12,15 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>April 2025 Update</ins>
-We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. With the upcoming changes to the **requirements for guilds**, we are closely following updates and adapting to ensure we continue adding value to the chain.  
+### <ins>May 2025 Update</ins>
+We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. We have proactively adapted to the latest OIG changes, enhancing our services and optimising infrastructure for even greater reliability and utility.
 
 ### <ins>Noteworthy</ins>
-Since our last update we have enhanced our **Hyperion solution** by introducing a **proxy deployment component** within Docker, streamlining reverse proxy integration and optimising resource allocation.
+Since our last update we have implemented a production-grade LightAPI and Chronicle stack, engineered for high-throughput WAX workloads with advanced WebSocket management, database tuning, and automatic recovery features.
+
+We have also upgraded our Seed Node Endpoint to align with the latest OIG requirements, ensuring improved peering reliability and network synchronisation. 
+
+We have enhanced our Docker stack with a built-in reverse proxy and automated SSL management using Certbot, streamlining secure deployments with zero-downtime renewals.
 
 We remain committed to maintaining high reliability and performance standards within the WAX network.
 
@@ -27,6 +31,36 @@ We remain committed to maintaining high reliability and performance standards wi
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
 | - | 3338101 | 345127 | 365477 | 47937 |  47493 |
 
+---
+
+### 🌱 Seed Node Endpoint Upgrade (May 2025)
+
+We have upgraded our **Seed Node Endpoint** to meet the latest OIG requirements. Key improvements include:
+
+- ✅ **Public availability**  
+- ✅ **SLR ≥ 50%**  
+- ✅ **Full `blocks.log` retained**  
+- ✅ **Configured with `max-clients = 100`**
+
+Monitoring and performance enhancements are actively ongoing to ensure continuous compliance with evolving OIG standards. These upgrades significantly improve **peering reliability** and **network synchronisation**, contributing to overall ecosystem stability.
+
+---
+
+### 🔐 Docker Stack Enhancements & Automated SSL Management (May 2025)
+
+We have optimised our **Docker stack** with a built-in **reverse proxy**, and implemented **automated SSL certificate management** using **Certbot-HAProxy integration**. This setup streamlines deployments, enhances security, and eliminates the need for manual SSL handling.
+
+Key Features:
+- ✅ **Certbot integration** with **HAProxy** for seamless HTTPS configuration
+- ✅ **Zero-downtime certificate renewals** using `SIGHUP` signalling
+- ✅ **Service-specific certificate control** via environment flags
+- ✅ **Automated HTTP-01 challenge handling** using shared Docker volumes
+- ✅ **Support for Let's Encrypt staging and production** environments
+- ✅ **Customisable renewal policies**
+
+This robust configuration ensures **continuous SSL/TLS security** and significantly **reduces operational complexity**, allowing for secure, automated provisioning across services.
+
+---
 
 ### <ins> IPFS Deployment Offering</ins>
 Since the last update, we have developed and deployed a new IPFS hosting solution with enhanced features. This deployment integrates Prometheus and Grafana for advanced monitoring and performance tracking, including pre-configured dashboards for seamless adoption. The solution is designed to simplify the management and scalability of IPFS services while maintaining flexibility through Docker Compose-based deployment.
@@ -163,11 +197,87 @@ No major update this period
 
 ### <ins>LightAPI Services</ins>
 
-**Update**:
-No major update this period
+**Update**: (May 2025)
+## 🚀 Enhanced LightAPI & Chronicle Configuration
 
-* Repository URL: https://light-api.oiac.io
-* Purpose: These services offer lightweight and efficient access to blockchain data, supporting various applications and integrations.
+We have deployed a **production-grade Dockerized LightAPI and Chronicle implementation** featuring advanced WebSocket connection handling and **MariaDB optimisations**, specifically engineered to meet the **high-throughput demands of the WAX blockchain**.
+
+The setup delivers **exceptional performance** through intelligent **resource allocation**, **custom-tuned database parameters**, and **enhanced monitoring**. Chronicle includes **automatic recovery and snapshot restoration capabilities (beta)**, enabling **reliable, uninterrupted data streaming**.
+
+---
+
+### 🔧 Key Enhancements
+
+#### WebSocket & API Improvements
+- Adaptive message batching for high throughput  
+- Configurable queue sizes and processing delays  
+- Heartbeat monitoring and intelligent reconnection  
+- WebSocket performance logging and statistics
+
+#### MariaDB Database Tuning
+- Buffer pool size optimised for 64GB (on 128GB systems)  
+- Enhanced I/O thread handling and temp table performance  
+- Disabled query cache for optimised query throughput  
+- Configurable memory limits and CPU allocation (8–16 cores)
+
+#### Resource Management
+- File descriptor limits increased for connection-heavy workloads  
+- Efficient memory and CPU management to support parallel processing
+
+#### Chronicle Enhancements
+- Automatic snapshot restoration (beta)  
+- Graceful shutdown and failure recovery  
+- Block filtering, queue optimisation, and reporting customisation  
+- Intelligent health monitoring and process control
+
+---
+
+### 🧱 Architecture Overview
+
+**LightAPI**
+- Multiple WebSocket servers (ports 5101–5105)  
+- Main API (port 5001) and DB write service (port 8100)  
+- Backed by MariaDB for high-speed storage
+
+**Chronicle**
+- Connects to WAX nodes to ingest blockchain data  
+- Filters and forwards data to LightAPI  
+- Supports snapshot restoration for fast sync
+
+---
+
+### 🧪 Monitoring & Performance
+
+- WebSocket and process health checks  
+- Memory usage and connection logs  
+- Automatic recovery on failure  
+- In-depth logging for diagnostics and tuning
+
+---
+
+### 🔐 Security & Maintenance
+
+- Read-only DB access for API clients  
+- Timeout and resource isolation  
+- Process supervision and resource usage logging  
+- Full support for Docker Compose deployments
+
+---
+
+### 🔄 Snapshot Restore (Beta)
+
+- Supports syncing from clean database and snapshot files  
+- Includes optimisations such as disabled doublewrite buffer, adjusted flush settings, and buffer pool tuning  
+- Known limitations: full restore still under active development
+
+---
+
+#### 📝 Usage
+
+```bash
+git clone https://github.com/oneinacillian/lightapi
+cd lightapi
+docker-compose up -d
 
 ---
 
