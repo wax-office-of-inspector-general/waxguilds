@@ -10,27 +10,17 @@
 | producer (testnet) | waxmadrid111 |
 | Guild Jurisdiction | Spain |
 
-### <ins>Contributions</ins>
+### <ins>Noteworthy</ins>
 
-Update of NodeInspector.io - Node Status Monitoring
+Guild is back online, registered on both Testnet and Mainnet, with services fully operational.
 
-Key New Features:
+### <ins>API Services</ins>
 
-Real-time notifications via a Telegram bot when subscribed nodes change status.
-
-Existing Features:
-
-Comprehensive dashboard showing current node status.
-Historical uptime statistics.
-Node health and availability tracking.
-Email/Telegram notifications.
+| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
+|--------|--------|--------|--------|--------|--------|
+| [X] | [] | [] | [x] | [x] | [] 
 
 
-### <ins>Backups </ins>
+### <ins>Feedback to OIG</ins>
 
-
-https://wax-backups.eosiomadrid.io
-
-| Snapshot | Blocks Log | State History | Elastic Search | AA API |
-|--------|--------|--------|--------|--------|
-| [x] | [x] | [x] | [] | [x] |
+None at this moment.
