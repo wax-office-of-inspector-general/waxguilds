@@ -10,43 +10,27 @@
 | producer (testnet) | waxmadrid111 |
 | Guild Jurisdiction | Spain |
 
-### <ins>Noteworthy</ins>
-
-All services remain operational.
-
-### <ins>API Services</ins>
-
-| History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
-|--------|--------|--------|--------|--------|--------|
-| [_] | [x] | [x] | [x] | [x] | [x] 
-| - | 1.47M req/week | 136.98K req/week | 325.43K req/week | 3.04K req/week |  8.31K req/week |
-
 ### <ins>Contributions</ins>
 
-Final release of a WAX blockchain explorer and wallet, accessible at 
+Update of NodeInspector.io - Node Status Monitoring
 
-https://wax.chainscout.io and https://wax-testnet.chainscout.io 
+Key New Features:
 
-Offers a comprehensive suite of features for users interacting with the WAX blockchain such as :
+Real-time notifications via a Telegram bot when subscribed nodes change status.
 
+Existing Features:
 
-**Explorer**
-
-Account Search, Transaction History, Resource Usage Tracking and Contract/Action Explorer and Interaction.
-
-**Wallet Features**
-
-
-Token Transfers, Resource Staking/Unstaking,  RAM Buying/Selling, Account Key Management.
+Comprehensive dashboard showing current node status.
+Historical uptime statistics.
+Node health and availability tracking.
+Email/Telegram notifications.
 
 
-**Governance**
-
-Block Producer Voting
+### <ins>Backups </ins>
 
 
-**Other info**
+https://wax-backups.eosiomadrid.io
 
-The platform's data exploration capabilities are powered by a dedicated, non-public Hyperion cluster, ensuring efficient and reliable access to blockchain data.
-
-This release aims to provide users with a robust and user-friendly interface for navigating and managing their activities on the WAX blockchain.
+| Snapshot | Blocks Log | State History | Elastic Search | AA API |
+|--------|--------|--------|--------|--------|
+| [x] | [x] | [x] | [] | [x] |

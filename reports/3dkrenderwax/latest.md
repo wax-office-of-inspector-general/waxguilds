@@ -12,19 +12,17 @@
 
 ### <ins>Noteworthy</ins>
 
-In order to improve the availability of our Hyperion query service, we have added a node to the Elasticsearch data cluster. Due to the large size of the current Mainnet database, nodes require time to synchronize replicas between them. Due to the overhead of shard rebalancing, Guilds monitors are intermittently showing timeout issues when accessing our Elasticsearch API. We hope that in the next few days all nodes in the cluster will have stabilized and these access issues will be resolved.
+We are in the process of changing our full Hyperion API to a partial API. We have encountered some issues with the behavior of Redis in Hyperion version 3.3.10, so we are continuing with the full version of Hyperion while we work on the partial version with Hyperion version 3.5.
 
-**Testnet**
+We have worked on solving some problems in our IPFS server that were causing some availability issues.
 
-In Testnet we have upgraded our Hyperion service to version 3.5 so that it can join the Hub service "QRY Network". For the moment we will only be testing with version 3.5 in Testnet until we have guarantees of stability.
-![QRY Network](https://3dkrender.com/wp-content/uploads/2024/10/hyperion_testnet.png)
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API         | Light-API | IPFS        |
-| ----------------- | -------------- | ----------------- | -------------- | --------- | ----------- |
-| []                | [X]            | [x]               | [x]            | []        | [X]         |
-| -                 | 2.66M req/week | 225K req/week     | 1.00M req/week |           | 2.02K req/week |
+| History (partial) | History (full) | History (testnet) | AA API        | Light-API | IPFS         |
+| ----------------- | -------------- | ----------------- | ------------- | --------- | ------------ |
+| []                | [X]            | [x]               | [x]           | []        | [X]          |
+| -                 | 5.07M req/week | 246K req/week     | 593K req/week |           | 934 req/week |
 
 ### <ins>Contributions</ins>
 
@@ -36,101 +34,33 @@ In Testnet we have upgraded our Hyperion service to version 3.5 so that it can j
 
 **Update**:
 
-We are excited to provide the community with an overview of Rada Quest, offering a deeper insight into what lies behind the game. Rada Quest is not just a trading card game (TCG); it’s a unique fusion of art and gameplay where players can not only enjoy the strategy of the game but also collect the artistic pieces that make it special.
+Zombiecoin PFP collaboration
 
-WAX game Highlight on Game Week
+We have an active collaboration with the WAX game Zombiecoin! It's a PFP where you can unlock a special Rada Quest outfit.
 
-- https://x.com/WAX_io/status/1835740493281415658
+- https://x.com/RadaQuestTCG/status/1900594271612223775
 
-Play to Earn Highlight
+### Coliseum Campaign 18
 
-- https://x.com/PlayToEarn/status/1841050170559262940
+New cards with more illustrations by  Catrynart MarcosDK. 
 
-
-Rada Lotto
-
-All of this is documented in our live sessions on X.
-
-Lotto 13 Reproductions so far + Tuned in 37
-- https://x.com/RadaQuestTCG/status/1830993786190606761
-
-Lotto 14 Reproductions so far + Tuned in 41
-- https://x.com/RadaQuestTCG/status/1836068703110406371
-
-Lotto 15 Reproductions so far + Tuned in 64
-- https://x.com/RadaQuestTCG/status/1841136663239553342
+| Catrinart | Catrynart | MarcosDK |MarcosDK |
+|:--:|:--:|:--:| :--:|
+| ![catrynart](https://ipfs.3dkrender.com/ipfs/QmcVttkiHwHRpTAoYYn9mPomZGYwLv3iF6s2iz8nHvrjGu) | ![catrinart](https://ipfs.3dkrender.com/ipfs/QmPYsrwwCUXyyLjiFYzxmtbUePpcFfZn3ssY4TpBbiY39p) | ![marcosdk](https://ipfs.3dkrender.com/ipfs/QmPYCaN6YYy6ZdV8Ffyya9KnaAbCPMQkhbpQLzqx7fVs2F) | ![marcosdk](https://ipfs.3dkrender.com/ipfs/QmPDABP79mSNRNLztnrFuxk5UkouC8b5fgZ6VZVy3HiCMg) |
 
 
-Intraverse September Fest 
+**Development update**
 
-- https://x.com/intraVerse_Game/status/1834196516111544768
+We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
-**WUFFI Partnership**
+Updates in main Rada Quest game:
 
-Our partnership with WUFFI remains strong as we continue to distribute WUF tokens through our game. The community has embraced this partnership with enthusiasm, leading to high participation across all related activities.
-
-**More Metrics**
-
-Even though we are noticing a general decline in the number of players across the entire WAX ​​ecosystem, Rada Quest continues to achieve acceptable engagement and player loyalty ratios, as can be seen in these graphs.
-
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/10/rada_engagement.png)
-
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/10/radaquest_stats.png)
-(source: https://dappradar.com/)
-
-30 days period. Data from DappRadar:
-
-- Rank 18 in the WAX games category
-- 273 UAW (Unique Active Wallets) 30 days average
-
-> *Note*: DappRadar metrics are not very representative as they are based on user interaction with our smart contracts and there are some operations, such as participating in the Gems minigame or the Coliseum, that do not require signing transactions. We have reduced transaction signing to reduce costs for players.
-
-![Rada Quest Metrics](https://3dkrender.com/wp-content/uploads/2024/10/radaquest_stats2.png)
-
-X (Twitter) metrics:
-
-![Twitter](https://3dkrender.com/wp-content/uploads/2024/10/image001.png)
+- Patch 1.3.4: Technical patch with some game mechanics changes.
+  - (https://x.com/RadaQuestTCG/status/1910386469266743535)
+- Patch 1.3.5: Technical patch to improve the game.
+  - Discord announcement.
 
 ---
-### Pug Tapper (Telegram Game)
-
-**URLs**: https://t.me/pugtapper_bot
-
-#### Ecosystem Integration Strategy
-
-In our interest to make Pug Tapper a bridge between multi-chain communities, we have incorporated the option for players to associate the ImmutabelX chain account from the main Dungeon Keeper Studios website.
-
-Note: We have completely redesigned the official Dungeon Keeper Studios website to improve the integration of our games and services: https://dungeonkeeperstudios.com
-
-This period, we have focused on introducing PugTapper to the TON ecosystem. The game was featured in the "Gaming Innovation" segment, hosted by the Mixie AI community, which brings together prominent influencers and ambassadors from the TON ecosystem. The event was simulcast via X Spaces, reaching over 4,200 listeners live and 24,000 through the broadcast for this event.
-We are continuing collaborations with other projects to drive further growth and visibility.
-
-Mixie AI  TON A TON Gaming Section
-
-- https://x.com/Mixieai/status/1834311136130596944
-
-- https://x.com/PugTapper/status/1834594311712768468
-
-- X Space 4,200 listeners
-- Broadcast 24,000 views
-
-![Pug Tapper Metrics](https://3dkrender.com/wp-content/uploads/2024/10/image005.png)
-
-Intraverse Collaboration
-
-- https://x.com/PugTapper/status/1833743595225923805
-
-**Strategic Collaborations**
-- **Rada Quest**: We continue to collaborate with Rada Quest. Some activities within the Rada Quest game grant Coins in Pug Tapper. Additionally, Rada Quest has offered Pug Tapper players the ability to purchase various NFTs in exchange for the Coins earned. These NFTs are used as special cards for the current Coliseum event in Rada Quest, so they are very useful.
-
-**Some Metrics**
-- **Total players**: 9.7k
-- **Daily active players**: ~200
-- **Telegram Channel**: 1.2k+ members
-
-![Pug Tapper Metrics](https://3dkrender.com/wp-content/uploads/2024/10/pugtapper_stats.png)
-
-- **Twitter**: 750+ followers (https://x.com/PugTapper)
 
 ### Client/Server WAX App Template
 
@@ -140,96 +70,100 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 **Update**:
 
-No updates in the last period.
+- Add comprehensive security measures: Rate limiting, Helmet security headers, CORS protection, Request validation with Zod, Parameter pollution prevention
 
-- 4 Stars
-- 3 Forks
+- Improve documentation: Unify documentation structure, Add CONTRIBUTING.md, Update README with detailed setup instructions, add security documentation, add testing information
 
-### FundingWAX - Discord Bot
+- Enhance project architecture and implement caching system
 
-**URLs**: https://test.fundingwax.com (testnet)
+- Change the UI framework from HeroUI to Material UI
 
-**List of SCs**: fundingwaxdk (testnet)
-
-**Update**:
-
-No updates. We are already working on integrating the bot client into the official Dungeon Keeper Studios website.
-
-More information:
-- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
+- We are starting to write some tutorials to help developers to understand the code and how to use it.
+  - First tutorial: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-376236e4bf39
 
 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-We continue to contribute to the developer documentation portal with new Spanish translations, tutorials, and revisions of texts contributed by other contributors.
 
-Our latest contribution has been the revision of the tutorials "How to make a game in WAX". We are currently working on its translation into Spanish.
-- https://github.com/wax-office-of-inspector-general/wax-developer/pull/184/commits/74439adc2ba4d2e48091baa774e8a7eb6c87d78b
+*   Translated eight documentation files pertaining to critical operational infrastructure (`operate/wax-infrastructure`) and developer tutorials (`build/tutorials`).
+*   Created the corresponding Spanish language files within the `/docs/es/` directory structure, ensuring adherence to the project's file organization.
+*   Ensured the translated content accurately reflects the meaning and technical details of the original English documentation.
+
+The following specific files were translated and added:
+*   `docs/es/build/tutorials/howto_airdrop.md`
+*   `docs/es/build/tutorials/howto_blockexplorer.md`
+*   `docs/es/operate/wax-infrastructure/wax-optimise-disk-utilisation-zfs-dedup.md`
+*   `docs/es/operate/wax-infrastructure/wax-route-specific-api-queries.md`
+*   `docs/es/operate/wax-infrastructure/wax-securely-peer-with-wireguard.md`
+*   `docs/es/operate/wax-infrastructure/wax-automate-snapshots.md`
+*   `docs/es/operate/wax-infrastructure/creating-a-wax-price-oracle-service-bash-python.md`
+*   `docs/es/operate/wax-infrastructure/monitor-and-unregister-wax-producer-with-systemd-while-you-sleep.md`
+
+Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/198
 
 ---
 
 ### <ins>Marketing</ins>
 
-### Cristalla
+# 📊 Marketing & Ecosystem Growth Summary  
+**Period:** March 25, 2025 – April 17, 2025  
+**Lead:** Cristalla  
 
-**Marketing & Ecosystem Growth Summary**
-August 29 2024 to October 13 2024
+---
 
--	Twitter: 20.8K impressions and 15212 Followers. Media Activity 652
--	X Space:  5 spaces as co-host, 1 space as guest. Total 6 spaces and approximate sum of reproductions so far + Tuned in: 636
--	Twitch & X (Multistream). Approximate sum of reproductions so far + Tuned in: 860
+## 📈 Social Media
 
-**Activity breakdown**
+### Twitter (X)
+- **Impressions:** 4.6K  
+- **Current Followers:** 15,732  
+- **New Followers:** 60  
 
-![Cristalla Metrics](https://3dkrender.com/wp-content/uploads/2024/10/image006.png)
+### X Spaces
+- **Total Co-Hosted Spaces:** 4  
+- **Estimated Total Listens:** 501  
 
-Cristalla has been actively promoting the ecosystem through weekly X Spaces and regular live streams. As part of the WAX Stream Station initiative, she helped organize the official streamers for the Intraverse September Fest event, ensuring strong community engagement and coverage across platforms.
+### Twitch & X (Multistream)
+- **Estimated Views:** 221  
 
-**Twitch**
+---
 
-Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
+## 🗓 General Activity
 
-- https://x.com/queencristalla/status/1836074220201062481
-- https://x.com/queencristalla/status/1841142799791456542
-- https://x.com/queencristalla/status/1843683534889791777
-- https://x.com/queencristalla/status/1833543602426753513
+Cristalla has continued to serve as the host of our weekly **WAX Drop X Space**, highlighting the latest news, special drops, and all things happening across the WAX ecosystem.  
 
+Over the past few weeks, we have refined our outreach strategy to target a broader audience, resulting in a noticeable spike in engagement. We aim to maintain this growth trajectory as we approach **NFTOPIA 5**.
 
-**X SPACES**
+---
 
-NFTOPIA Wednesday co-host 
+## 🎥 Live Streams
 
-Week 25 4-09-2024 Reproductions so far + Tuned in 121
-- https://x.com/thenftopia/status/1831391723697659959
+Live streams have continued every **Tuesday and Thursday**, showcasing various WAX-based games.
 
-Week 26 18-09-2024 Reproductions so far + Tuned in 120
-- https://x.com/thenftopia/status/1834813963298861449
+🔗 [Example Stream](https://x.com/queencristalla/status/1907105930816196871)
 
-Week 27 25-09-2024 Reproductions so far + Tuned in 78
-- https://x.com/thenftopia/status/1839002321642004860
+---
 
-Week 28 02-09-2024 Reproductions so far + Tuned in 89
-- https://x.com/thenftopia/status/1840619047530238156
+## 🗣 X Spaces – NFTOPIA Wednesdays
 
-Week 29 09-09-2024 Reproductions so far + Tuned in 76
-- https://x.com/thenftopia/status/1842805895149084707
+Cristalla co-hosted the weekly "NFTOPIA Wednesday" sessions with the following performance:
 
-WAX Wednesday Co-host Women of WAX
-09-09-2024 Reproductions so far + Tuned in 152
-- https://x.com/WAX_io/status/1843365740885217450
-
-WAX Stream Station
-
-- https://x.com/intraVerse_Game/status/1830617213620871552
+| Week | Date        | Views + Tuned In | Link                                        |
+|------|-------------|------------------|---------------------------------------------|
+| 48   | 03-26-2025  | 79               | [Listen Here](https://twitter.com/i/spaces/1jMJgkMaPnYJL) |
+| 49   | 03-26-2025  | 80               | [Listen Here](https://twitter.com/i/spaces/1MnxnwWrBroKO) |
+| 50   | 03-26-2025  | 245              | [Listen Here](https://x.com/i/spaces/1djxXVkRyvLGZ) |
+| 51   | 03-26-2025  | 97               | [Listen Here](https://x.com/i/spaces/1RDGlzkVlDzxL) |
 
 
-### <ins>Feedback to OIG</ins>
+![image_1](https://3dkrender.com/wp-content/uploads/2025/04/image002.png)  
 
-We have shared this report on our social networks:
+---
 
-- https://3dkrender.com/3dk-render-wax-guild-september-2024-report/
-- https://x.com/MarcoS3DK/status/1846134852078252107
+## 🎉 NFTOPIA 5
+
+🗓 **Confirmed Dates:** August 16–17, 2025  
+Cristalla is currently working with the team on **event planning and content development**. The main goal is to **connect with diverse Web3 projects** and attract new users to the WAX ecosystem through strategic outreach and collaboration.
 
 ---

@@ -21,8 +21,7 @@ no issues
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]  | [x] | [x] | [x] | [x] | [x] |  [x] |
-| 3454101 | 315414 | 99135 | 114953 in 3 days | 1499546 req |  1448 req in 6 days |
-
+| 2317840 | 492741 | 87402 | 143896 in 3 days | 1590387 req |  1143 req in 6 days |
 
 
 ### <ins>Contributions</ins>
@@ -37,40 +36,17 @@ no issues
 **update**:
 
 During the last report period:
-— We've replenished monthly bounties twice during the last report period, with a monthly supply of 250K KBUCKS and informed players about that in Telegram, Twitter (X), Facebook and Discord: on September 1st, 2024 (https://t.me/kolobok_io/83, https://x.com/kolobok_io/status/1830616456121418104) and October 1st (https://t.me/kolobok_io/84, https://x.com/kolobok_io/status/1841176851638858112)
+— We've changed strategy for monthly bounties, to keep users engaged. We made additional development for this purpose.
 — We've maintained existing frontend and backend of version 1.x and 2.x (K2)
-— We’ve moderated spam messages in Kolobok social channels
+- We had about 10 communications with users in our communication channels, supporting them, answering questions, promoting WAX etc..
 
 **Metrics**
-
-Period: August 30th, 2024 — October 13th, 2024
-Stats:
-Stats from Google Analytics:
-1K users, 735 new users, 5m 36s average engagement time:
-https://i.gyazo.com/5e530355664b6b8ac1c9751aec13b760.png
-https://i.gyazo.com/5097997ef613f4d1b0ae5398c2c237be.png
-https://i.gyazo.com/b0075c796c7d49e02a4840ca57665a12.png
-https://i.gyazo.com/86c0a1636ca27a4dbc7b61a88fbe61ea.png
-https://i.gyazo.com/efe06997a2c1b951b076c74d8bab24b3.png
-https://i.gyazo.com/23aff686dc80f5cd88760d7005536eb2.png
-https://i.gyazo.com/6dec7d0985e20a3fbef7ad8bb7bbba9d.png
-
-Stats from Matomo:
-3,437 visits , 6,840 pageviews, 5,061 unique pageviews:
-https://i.gyazo.com/e8256fed8e32adfffcd0e52ed7a0522b.png
-Locations:
-https://i.gyazo.com/e851b848cc8154c356fa66eca4e9310c.png
-
+Period: January 25th, 2025 — March 25th, 2025
 Stats from DappRadar:
-— 24h: ~20 UAW
-(https://i.gyazo.com/c4ee8a6868482e5091d12ff59d16f0fa.png) 
-— 30d: ~90 UAW
-(https://i.gyazo.com/c2f688fd8f802cdc752f451f25c22710.png) 
-— Sales: 71
-— Traders: 26
-(https://i.gyazo.com/61957f732bbd362dbf1d77feb4ef0464.png) 
-— Kolobok Adventures ranked: 38th in "WAX - Games" according to Unique Active Wallets (UAW) for last 30 days (https://i.gyazo.com/adc07b5fbd2aba19a1e6a7c472d73fdb.png) and 16th in "WAX - Collectibles"
-(https://i.gyazo.com/2ff9909956dd8e5026a9ae6c33847233.png)  
+https://dappradar.com/dapp/kolobok-adventures-k2 
+— 24h: ~19 UAW
+— 30d: ~79 UAW
+— Transactions per day: ~300
 
 
 ### 2) VR Project status: in production / development
@@ -80,22 +56,17 @@ Stats from DappRadar:
 **List of SCs**: vrvrvrvrvrvr, vrvrvrvrbank
 
 **update**: 
-
-During the last report period:
-— KROWN Community mentioned their KROWN hall on September 12th (https://t.me/c/1155767101/91568) and October 10th (https://t.me/c/1155767101/91572)
-— We've maintained existing frontend and backend)
+During this report period:
+— We've maintained existing frontend and backend
+- We've fixed 2 issues
+- We communicated with few users of the product
+- We had a brainstorming session about potential usage and improvements of the project.
 
 **Metrics**
-
-Period: August 30th, 2024 — October 13th, 2024
+Period: January 25th, 2025 — March 25th, 2025
 
 Stats:
-Stats from Google Analytics:
-41 users, 30s average engagement time:
-https://i.gyazo.com/7f755ec09aef7414ab759514c1a853bc.png 
-https://i.gyazo.com/a58c71b578cffae23e018474e1d69492.png
-https://i.gyazo.com/1b82621291da69b21736cec9a0ebf92b.png
-https://i.gyazo.com/48f0a24ff6c79a4250ef557c9441f4b5.png
+~50 users
 
 
 ### 3) SimpleMarket.io - NFT marketplace for SimpleAssets, and also NFT creator tool.
@@ -104,15 +75,15 @@ https://i.gyazo.com/48f0a24ff6c79a4250ef557c9441f4b5.png
 
 **List of SCs**:  simplemarket
  
-**update**:  no update 
-  
-regular activites : Continue maintenance, service and support for users and infrastructure
+**update**: 
+ 
+regular activites : Continue maintenance, service and support for users and infrastructure. We had to reconfigere and restart our servers, so there were a job for our DevOps team.
 
 **metrics**
-Period:  August 30th, 2024 — October 15th, 2024 
-unique active wallets (last 30 days):  17     https://dappradar.com/dapp/simplemarket?range-ds=30d
+Period: January 25th, 2025 — March 25th, 2025
+unique active wallets (last 30 days):  15     https://dappradar.com/dapp/simplemarket?range-ds=30d
 
-Contribution to the WAX Defi Fund: (approx) 400 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
+Contribution to the WAX Defi Fund: (approx) 300 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
 
 
 
@@ -135,21 +106,38 @@ A multi-sig tool for users to create msig TX's without any technical knowledge.
 
 **update**  
 During the last report period:
-— We made an active development, testing, deployment of new software versions
-- We've updated mobile adaptation of the layout of the MSIG page, some other UI improvements 
+- Made a lot of updates and development and several releases, here are details:
+1) Fixed the number of requested approvals on the MSIG info page (small fix, just was the wrong variable used)
+2) Added the ability to collapse the Actions block
+3) Expired MSIGs now show the expiration date in red
+4) Started adding filters/sorting to the approvals list -- added possibility to show timestamps for approvals and labels for active BPs
+5) Implemented periodic re-fetching of MSIG data to show updates without reloading. It would be useful, especially for screen sharing during approvals.
+6) Now Actions are open by default.
+7) filters/sorting were polished visually + added related google translates
+8) changed time from 5 to 3 seconds, polished the "+N" animation with magic particles (same as in the logo)
+added changing of the page title, user will see more usefull titles in browser history.
+9) improved adaptation of the creation wizard steps and the confirmation step now look as read-only and the list of auths shown without scrollbar
+10) added more reserve api endpoints to the config
 — We've maintained existing frontend and backend 
 
+**Metrics**
+Period: January 25th, 2025 — March 25th, 2025
+Stats:
+Users: ~40
 
-### 6) Antelope Software testing on Jungle
-**URLs**: https://jungletestnet.io/ , https://jungletestnet.io/bug-bounty-2024-spring-savanna/ , https://t.me/+p4tPVxToknc1MGVh , https://monitor.spring-beta2.jungletestnet.io/ 
+### 6) WAXY Claim bot
+**URLs**: https://waxy.io/
 
-Short intro/explanation: 
-Since Q2 2024, the new Antelope Software was tested on specialized Jungle instances/copies that were setup and maintained by CryptoLions team. We have been working closely with the development team, perform test scenarios and collaborating with several dedicated Block Producers to test Antelope Software, that potentially can revolutionize the WAX blockchain in the future. 
+**List of SCs**: waxyclaimbot
 
 **update**
+During the last report period:
+— We've maintained existing frontend and backend 
 
-We have continued working alongside EOS Network Foundation (ENF) engineers in this direction. Also maintaining hardware, etc.
-
+Metrics
+Period: January 25th, 2025 — March 25th, 2025
+Stats:
+Users: ~25
 ---
 
 

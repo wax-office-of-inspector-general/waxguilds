@@ -12,20 +12,14 @@
 
 ### <ins>Noteworthy</ins>
 
-We had an incident with internal testnet network which caused downtime for history nodes so it took a couple of hours to recover the testnet hyperion indexer for some reason.
-The reason is being investigated:
-
-the reason was in poor condition of one of the switches in the failover history node which made it flap.
-node was migrated out of there.
-
-No other issues over the past 1.5 months.
+No issues so far.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 10.12M req/week | 664.15k req/week | 1.63M req/week | 37.88k req/week |  104.52k req/week |
+| - | 8.67M req/week | 19.1k req/week | 740k req/week | 55.24k req/week |  89.04k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -39,20 +33,75 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 **URLs:**
 * Website: https://rplanet.io;
            https://rplanet.app/;
-* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (5k downloads); 
+* App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (10K+ downloads); 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
 **List of SCs**: rplanet, a.rplanet, (tbd)
 
+
+Here is a types of tasks we are currently working on and implementing:
+**UI Enhancements:** Addressing user interface issues to improve navigation and user experience.
+**Bug Fixes:** Correcting typos and resolving other minor issues to ensure smooth gameplay.
+**Feature Development:** Introducing new features aimed at enhancing game balance and accessibility for newcomers. 
+
+Changelog:
+
+__Quest System (Progression + Daily)__
+
+To enhance long-term engagement, we are introducing a structured quest system. Players will have both progression quests and daily challenges that reward consistent activity.
+
+__Deeper Map Interactions__
+
+The world of R-Planet is vast, and we are adding new points of interest on the map to enhance strategic and tactical gameplay. Players will be able to engage in special missions or face unexpected challenges, making exploration more rewarding.
+
+__Inventory System__
+
+Managing in-game assets effectively is key to success. We plan to redesign the inventory screen, making it easier to store, organize, and manage all owned and collected items and boosters in one place. Streamlining inventory management will help players to optimize their gameplay strategies and maintain better control over their assets.
+
+__Hero Level-Up & Skill Upgrade__
+
+We are reworking the experience system to make hero progression more dynamic and rewarding. More heroes will be introduced, each with a unique set of empowered properties that can be upgraded over time. Players will be able to customize their heroes through upgrades and new gear items, developing specialized strategies based on their hero’s powers.
+
+__More Hero Items__
+
+The hero equipment system is being expanded to introduce more gear items with varying levels of influence on the hero, the base to which the hero is attached, and their army. Players will have access to items of different rarities. This expansion aims to deepen character customization and strategy, giving players more control over their heroes’ strengths.
+
+__Rewarded Ads__
+
+Players will have the opportunity to earn in-game boosters and benefits by watching ads. This feature will be optional and designed to provide additional resources without disrupting gameplay. The system will allow players to gain advantages without direct purchases, ensuring a balanced and accessible approach to in-game progression.
+
+__Engagement Chest__
+
+To reward long-term play, we are introducing an engagement chest system. The longer players stay active in the game, the more rewards they can receive. Scaling rewards will make extended play sessions more satisfying, reinforcing player engagement.
+
+**Spreading the word**
+
+Recently, we presented our roadmap for the first half of 2025, outlining upcoming features and improvements. This initiative aims to keep our community informed and involved in the development process.
+
+![image](https://gist.github.com/user-attachments/assets/9c3f245d-2286-459b-b562-f0ee3aa47958)
+
+The article detailing our roadmap for the first half of 2025 is available on our Medium page:
+[R-Planet 2025: Future Plans & Expansions](https://rplanet.medium.com/r-planet-2025-future-plans-expansions-cae201d7b900)
+In this article, we outline the upcoming features and improvements planned for the first half of 2025, aiming to keep our community informed and engaged in the development process.
+
+__Launch & User Acquisition Strategy__
+On March 31, the new Playground server will go live, allowing players to explore new features and mechanics.
+Following this, we will initiate user acquisition campaigns to drive engagement and onboard new players.
+Within 7-14 days after launch, a new gaming server with exciting prizes will be introduced, further incentivizing participation.
+
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/2dae3ed8-c941-418d-9298-5939663bc707)
+activity volume
 
-![image](https://gist.github.com/user-attachments/assets/1dcb1a06-7f8f-4e51-9b02-694864219cc5)
+![image](https://gist.github.com/user-attachments/assets/33cceb1e-0147-403f-b3f3-113d9a0c941f)
+
+nft volume
+
+![image](https://gist.github.com/user-attachments/assets/ae3543a5-2526-4dc2-801d-0b66e140e302)
 
 ---
 
@@ -69,13 +118,25 @@ https://grandland.prospectors.io
 
 **Metrics**
 
-Period: Sep 15th, 2024 - Oct 15th 2024
+Period: Feb 15, 2025 - Mar 14 2025
 
 Stats:
 
-![image](https://gist.github.com/user-attachments/assets/d506348f-6b7a-432e-91b0-471c1d4c00ec)
+Total unique users per month ~ 9k
 
-![image](https://gist.github.com/user-attachments/assets/25f4ca15-4cb4-4b2b-b279-7a7b41afda75)
+prospectors google analitycs
+
+play.prospectors.io (EOS)
+
+![image](https://gist.github.com/user-attachments/assets/cf9e0821-64a9-4694-98c2-df113a2724e3)
+
+wax.prospectors.io (WAX - Yukon server)
+
+![image](https://gist.github.com/user-attachments/assets/8b04f9f4-ed26-432b-a620-0464074067ba)
+
+grandland.prospectors.io (WAX - Our main server)
+
+![image](https://gist.github.com/user-attachments/assets/eebcc7ed-ff4d-4572-b6e1-34a7438fc5a4)
 
 ---
 
@@ -86,10 +147,9 @@ Stats:
 * Website: https://pepperstake.online/;
 https://testnet.pepperstake.online/
 
-40 active pools with about 2000+ active user stakes accross the platform.
+33 active pools so far
 
-![image](https://gist.github.com/user-attachments/assets/7ab9f953-56e5-4797-a4c0-69831d195ba6)
-![image](https://gist.github.com/user-attachments/assets/7e2f6895-cb14-491a-985c-e656359dc0e9)
+![image](https://gist.github.com/user-attachments/assets/065c88c4-4127-446a-8419-36eb9c5c3633)
 
 ---
 

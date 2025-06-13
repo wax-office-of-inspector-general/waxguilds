@@ -12,20 +12,46 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>October 2024 Update</ins>
-We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
+### <ins>April 2025 Update</ins>
+We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. With the upcoming changes to the **requirements for guilds**, we are closely following updates and adapting to ensure we continue adding value to the chain.  
 
 ### <ins>Noteworthy</ins>
-Since our last update we have introduced Hyperion full snapshots to support synchronisation and backup needs, as well as a Validator Checker Utility to assist in tracking key OIG portals for downtime or disruptions. Additionally, we have addressed recent challenges in block production to maintain the stability and integrity of our services.
+Since our last update we have enhanced our **Hyperion solution** by introducing a **proxy deployment component** within Docker, streamlining reverse proxy integration and optimising resource allocation.
 
-During the evaluation period, 81 blocks were missed, which impacted our recent technical evaluation score. After investigating the issue, it was identified and promptly rectified to ensure it does not recur. We remain committed to maintaining high standards of service and will continue to monitor our infrastructure closely to avoid further disruptions.
+We remain committed to maintaining high reliability and performance standards within the WAX network.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 3610553 | 269885 | 387068 | 48094 |  46993 |
+| - | 3338101 | 345127 | 365477 | 47937 |  47493 |
+
+
+### <ins> IPFS Deployment Offering</ins>
+Since the last update, we have developed and deployed a new IPFS hosting solution with enhanced features. This deployment integrates Prometheus and Grafana for advanced monitoring and performance tracking, including pre-configured dashboards for seamless adoption. The solution is designed to simplify the management and scalability of IPFS services while maintaining flexibility through Docker Compose-based deployment.
+
+Update on IPFS Deploy
+We are pleased to announce enhancements to our IPFS Deploy offering, with the addition of image and video resizing capabilities. These new features have been seamlessly integrated into the original codebase, allowing users to efficiently resize images and videos directly within the deployment environment.
+
+This functionality enhances the versatility of our IPFS services, catering to a broader range of use cases, particularly for applications requiring optimised multimedia handling.
+
+As always, the updated codebase is available for review, and we welcome feedback from the community to further improve this offering.
+We have now switched our own IPFS deployment to https://github.com/oneinacillian/ipfs-deploy and successfully test the resizing of content through our IPFS hosted gateway on WAX: https://ipfs-gateway.oiac.io and will continue to monitor the stability.
+
+IPFS Enhancements (February 2025)
+
+We have implemented several key improvements to enhance the reliability, performance, and scalability of our IPFS infrastructure:
+
+- **Content Availability Monitoring** – Added a replication endpoint to track content availability across the network.  
+- **Content Distribution & Redundancy** – Introduced a dedicated content distribution endpoint to improve replication and ensure redundancy across the IPFS network.  
+- **Protocol Upgrades** – Upgraded to Kubo v0.27.0, enhancing the routing system for better content discovery and distribution.  
+- **Performance Optimisations** – Updated to Node.js 20.x LTS, delivering significant performance gains and improved memory management.  
+- **Reproducible Builds** – Locked NPM dependencies to maintain consistency across different environments.  
+- **Provider Discovery Improvements** – Enhanced provider discovery mechanisms for more reliable content replication and tracking.  
+- **System Maintenance & Troubleshooting** – Improved logging and error handling to streamline system monitoring and issue resolution.  
+
+These upgrades reinforce our commitment to maintaining a robust and efficient infrastructure for the WAX ecosystem.
 
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
@@ -50,12 +76,59 @@ We intend to share this utility with other guilds imminently, as we believe it w
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
-We have made several improvements to our Docker project, including:
 
- * Control Hyperion versions as a variable to allow seamless testing and switching between different versions.
- * Control Elasticsearch memory parameters through variable settings for optimal performance.
- * Test and validate the latest Hyperion release (3.3.10-1) within the stack, confirmed by successful indexer jobs and API health checks.
- * Customise nodeos deployments with dynamic modifications to adapt to different startup environments, ensuring greater flexibility in version control. 
+April 2025 update - We have extended the **Hyperion solution** by introducing a **proxy deployment component**, which is automatically generated by a Python utility. This prepares the environment based on the `.env` configuration settings.  
+
+### Key Enhancements:  
+- **Integrated Reverse Proxy** – The requirement for an external reverse proxy is now embedded within the Docker stack.  
+- **Flexible Deployment** – Allows running a reverse proxy inside the Docker solution, even on hosts that already have a reverse proxy, via **custom port binding (configurable in `.env`)**.  
+- **Resource Optimisation** – The component includes configurable resource allocation to **limit usage and prevent contention**.  
+
+### Next Steps:  
+We plan to **integrate a Certbot component** to automatically generate and rotate SSL certificates based on the **production aliases specified in `.env`**.  
+
+https://github.com/oneinacillian/docker_compose_autobuilds/blob/main/README.md
+
+March 2025 update - Improvements have been made to our Docker Compose auto-builds to enhance deployment efficiency and configurability based on specific environment needs. Key changes include:  
+
+- **Added configurable memory and CPU limits** for each service, managed via environment variables (e.g., `REDIS_MEMORY=2g`, `REDIS_CPUS=1`).  
+- **Applies to**: Redis, RabbitMQ, Hyperion, Node, Kibana, Prometheus, and Grafana.  
+- **Helps prevent resource contention and ensures stable performance.**  
+- **Introduced the `MONITORING_ENABLED` environment variable**:  
+  - When disabled, removes Prometheus, Grafana, and all exporters (Elasticsearch, Redis, RabbitMQ, Nodeos).  
+  - Useful for development environments or resource-constrained systems, reducing overhead when monitoring isn't needed.  
+
+These changes improve system stability, efficiency, and flexibility across different deployment environments.  
+
+We have made several updates and enhancements to the Auto-Build solution, improving its functionality, monitoring capabilities, and ease of use. Below is a summary of the changes:
+
+## 1. Improved Navigation and Documentation
+- Updated the README for easier navigation, including detailed descriptions of changes and implementations.
+
+## 2. Nodeos Monitoring
+- Built a custom exporter for chain data (nodeos).
+- Created a managed dashboard to monitor chain information.
+
+## 3. Hyperion Monitoring
+- Added exporters for RabbitMQ, Redis, and Elasticsearch.
+- Integrated Prometheus and Grafana services into the compose process during Python script execution.
+- Developed managed dashboards for Redis, RabbitMQ, and Elasticsearch.
+
+## 4. Atomic Monitoring
+- Added exporters for PostgreSQL and Redis.
+- Developed managed dashboards for PostgreSQL and Redis.
+
+## 5. Elasticsearch Management
+- Expanded the Python script to dynamically manage Elasticsearch exporter configurations in Prometheus.
+- Extended `.env` to manage Elasticsearch heap dump and GC log parameters.
+- Introduced health checks for Elasticsearch instances.
+- Automated Elasticsearch configuration management.
+
+---
+
+These enhancements aim to provide a more robust and user-friendly Auto-Build solution, supporting efficient deployment, monitoring, and management of services.
+
+For further details, please visit the repository here: [Docker Compose Autobuilds.](https://github.com/oneinacillian/docker_compose_autobuilds)
 
 ---
 

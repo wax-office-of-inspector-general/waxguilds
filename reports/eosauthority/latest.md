@@ -19,11 +19,5 @@
 | - | 18.2m/week | 245k/week | 3.8m/week | 196k/week | 12k/week |
 
 
-### <ins>Contributions</ins>
-WAX Authority bot
-
-**URLs**: https://t.me/waxauthoritybot
-
-- Fix ocassional msig issue with delay in hyperion or history for alerts. Other alerts have no issues and just made another update to msigs alone since msig alerts are not auth by the account
-
-
+### <ins>Noteworthy</ins>
+- Updated Hyperion testnet server, reindexed all blocks from 2025 to cover any missing transactions.
