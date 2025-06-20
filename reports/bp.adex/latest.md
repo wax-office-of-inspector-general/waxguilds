@@ -19,7 +19,7 @@ Keep maintaining infra and existing projects.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [] | [x] | [x] | [x] | [x] |
-| 234186 req/week | - | 53003 req/week | 840138 req/week | 8582 req/week |  5217 req/week |
+| 214039 req/week | - | 56858 req/week | 228196 req/week | 3994 req/week |  1608 req/week |
 
 **Others APIs: **
 
@@ -264,7 +264,7 @@ We are helping WAX projects to list on DefiLlama to increase WAX TVL and ecosyst
 
 | Chain DB Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |----------|------------|---------------|----------------|--------|
-| [x]      | [x]        | [ ]           | [ ]            | [x]  |
+| [x]      | []        | [ ]           | [ ]            | [x]  |
 
 Source: https://snapshots-wax.a-dex.xyz
 
