@@ -13,8 +13,17 @@
 
 ### <ins>Noteworthy</ins>
 
-- This month we installed IPFS and Light-api services. 
+- We updated our P2P node to using full block log.
 
+
+
+### <ins>Concerns</ins>
+
+As a WAX block producer actively contributing to the ecosystem, we are increasingly concerned about the timeliness of funding through WaxLabs. Many guilds, including ours, have been investing upfront to deliver valuable products and initiatives. However, the current review and approval process for deliverables appears significantly delayed.
+
+For instance, we submitted our first deliverable for an approved project 30 days ago and are still awaiting a review. In our case, development work has already been completed and paid for internally, but we are now left waiting on overdue payment from our client — WaxLabs — which is creating financial strain.
+
+With several guilds likely to submit funding requests at once, we are concerned that the current system is not equipped to handle this volume efficiently. Without a more timely and transparent review and payment process, it will become increasingly difficult for contributors to commit resources to the ecosystem.
 
 ### <ins>API Services</ins>
 
@@ -41,6 +50,7 @@ http://wax.sengine.co/api/nodes/p2p
 
 - We are in the process of creating a brand new Sengine (oig-portal) written from scratch in JS and nextjs
 - The new sengine has been deployed at http://test.sengine.co - we are awaiting feedback from the OIG before fully switching over.
+- We updated the new frontend to allow guilds to be chosen directly from a guild page.
 
 
 
@@ -122,7 +132,7 @@ https://medium.com/sentnl/the-importance-of-guild-security-afb96fa2c63e
 
 **Update**: 
 
-We completed a security audit for EOSarabia and Ledgerwise.
+We completed a security audit for EOSrio and EOSphere.
 
 ---
 ### 🔐 Smart Contract Audits	
@@ -244,8 +254,7 @@ Sengine uses the API to display the missed blocks for each guild.
 
 
 **Update**: 
-- We have updated Fastify and WS libraries on missingblocks to latest stable versions. WS library had a DOS vulnerability that was fixed in the latest version.
-- [status.wax.io](https://status.wax.io) is now utilising our missing blocks API to display the missed blocks on the status page.
+- We have updated our Docker-compose setup to be more streamlined and easier to manage.
 
 ---
 

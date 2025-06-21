@@ -11,13 +11,7 @@
 | Guild Jurisdiction | Australia (AU) |
 
 ### <ins>Noteworthy</ins>
-No outages were experienced this last period. However we have been notified of scheduled Internet Service Provider maintenance on the 25th of February.
-
-HeadsUp v0.1.8 was released.
-
-Be sure to check out the public showcase of HeadsUp to get a feel for the platforms capability here -> https://headsup.eosphere.io/
-
-Our new Sydney AMD EPYC server has had all issues resolved and is now in full production. I expect to be moving our Atomic Assets API to Sydney shortly.
+As we move to winter in Australia, we appear to be saving on energy expenses as the aircon units are mostly idle.
 
 ### <ins>API Services</ins>
 
@@ -34,27 +28,13 @@ Our new Sydney AMD EPYC server has had all issues resolved and is now in full pr
 
 **Update**: 
 
-The EOSphere Team have released HeadsUp v0.1.8
+The EOSphere Team have released HeadsUp v0.2.0 this month.
 
-This release addresses community feedback changes and new features.
+This release is a clean up of the code base and includes front end caching performance changes.
 
-Major changes:
+Over 8000 lines of code have been removed and the code framework is now structured in a more modular way. This means better operational efficiency and simpler feature additions.
 
-- New capability to monitor BP.json files for chains which can be enabled on the chain settings
-- Receive alerts for errors related to chains.json and bp.json files
-- Adds chips on chain page to indicate BP.json status
-- Fixes producer and producer schedule metrics using updated Leap format.
-- Improves mobile formatting
-- Allows node queries that incorporate extended URL routing
-- Different bell icons now indicate if alerts are enabled or not, and whether an alert is silenced
-
-Minor changes:
-
-- Added scrollbar to add chain popup and other long popups
-- Logo’s updated
-- Clicking on a metric value will now copy it to clipboard
-- Alerts bell icon will show as red if there is an active alert on that metric
-- UI visual fixes and improvements
+This next month we will be fixing a few bugs in relation to email notifications, the banner and favicon not always showing and will investigate adding the CPU mechanics contract.
 
 Take a look at the public showcase -> https://headsup.eosphere.io/
 
@@ -71,11 +51,11 @@ If you are technically curious or interested in running services on the WAX netw
 
 These guides are being added to the WAX Developer GitHub.
 
-This month we added a Guide on how to configure and deploy Antelope Firewall. Antelope Firewall created by Animus Labs Ltd has a host of features that make it simple to load balance and implement policies to restrict specific types of nodeos requests.
+This months guide walks through the process of Provider Registration and Connecting to the QRY HUB.
 
-**Configure and Deploy Antelope Firewall**
+**Register and Connect your Provider to QRY HUB**
 
-https://medium.com/eosphere/wax-technical-how-to-27-667008824f47
+https://medium.com/eosphere/wax-technical-how-to-29-04ef5026331f
 
 ---
 
@@ -85,7 +65,7 @@ https://medium.com/eosphere/wax-technical-how-to-27-667008824f47
 
 **Update**: 
 
-We recently updated all Hyperion guides reflecting the latest release and network requirements
+This month we added a guide on implementing TCP BBR congestion control
 
 ---
 
@@ -93,38 +73,33 @@ We recently updated all Hyperion guides reflecting the latest release and networ
 
 Deeper statistics are available in our Regular Community Update.
 
-Period: January 28th 2025 - February 11th 2025 (2 Weeks)
+Period: 7th June 2025 - 21st June 2025 (2 Weeks)
 
 **Infrastructre Stats**:
-- 39.24% of Requests are Normal API, 60.76% are Hyperion API
-- 12 to 19 Million HTTP "200"`s served per day
-- 332 Million Requests this last two weeks
+- 87.16% of Requests are Normal API, 9.04% are Atomic API, 3.81% are Hyperion API
+- 8 to 12 Million HTTP "200"`s served per day
+- Over 150 Million Requests this last two weeks
 - We provide for around 1 to 1.5Mil WAX Mainnet Successful Push Actions per day.
-- 2Mil Requests served by our Atomic API per day
+- About 1Mil Requests served by our Atomic API per day
 
 **Medium Stats**:
 
-![image](https://github.com/user-attachments/assets/e68e4aac-aff3-4d22-984b-914a885a8292)
+![image](https://github.com/user-attachments/assets/beac8345-2280-42a9-bd67-36d4273051e5)
 
-![image](https://github.com/user-attachments/assets/f15e5c9b-115e-403d-b204-24dbca2156c5)
+![image](https://github.com/user-attachments/assets/ea728e2c-8f20-41c0-9f15-48434227fa28)
+
 
 **Public Facing Dashboard**
 
 We provide transparency of our service availability through our **WAX Public Facing Service Dashboard** https://wax.status.eosphere.io/
 
-![image](https://github.com/user-attachments/assets/9319fb60-b8a3-45cc-a077-3ad698a47a57)
+![image](https://github.com/user-attachments/assets/ca3e5526-7de2-44e1-b8d3-34634b4a7834)
 
 This rolling 2 hour view is built out of constructed queries from multiple global regions (California, Montreal, Frankfurt, Singapore, Sydney) and will provide a quick and realistic view on our WAX public services status.
 
 ---
 
 ### <ins>Marketing</ins>
-
-Initiative A: Regular Community Update
-
-We publish our Monthly community update regularly in the EOSphere Blog and advertise across our applicable socials.
-
-Here is February -> https://medium.com/eosphere/eosphere-guild-february-25-update-e26183d43663
 
 TELEGRAM | MEDIUM | YOUTUBE | FACEBOOK | TWITTER | INSTAGRAM
 
@@ -137,6 +112,13 @@ URL: https://snapshots.eosphere.io/
 
 
 ### <ins>Feedback to OIG</ins>
-All good right now 
+We are stioll waiting on guidence in regards to WAX Labs submission/funding for infrastructre and contributions.
+
+In particular for us:
+- Hyperion | Full | Partial | Backups
+- Atomic | Backups
+- HeadsUp Monitoring and Alerts
+- WAX Technical How To Guides
+- WAX Developer Documentation
 
 ----

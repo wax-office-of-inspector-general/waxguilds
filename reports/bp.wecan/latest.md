@@ -36,72 +36,55 @@ WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 * App: https://play.google.com/store/apps/details?id=dev.wecan.rplanet (10K+ downloads); 
        https://apps.apple.com/es/app/r-planet/id1625678981;
 
-**List of SCs**: rplanet, a.rplanet, (tbd)
+**List of SCs**: rplanet, a.rplanet
 
 
-Here is a types of tasks we are currently working on and implementing:
-**UI Enhancements:** Addressing user interface issues to improve navigation and user experience.
-**Bug Fixes:** Correcting typos and resolving other minor issues to ensure smooth gameplay.
-**Feature Development:** Introducing new features aimed at enhancing game balance and accessibility for newcomers. 
+HThe latest version of R-Planet has been successfully released, delivering a wide range of improvements aimed at enhancing game balance and accessibility. 
+All planned features have been implemented and are now live on the platform.
 
-Changelog:
+The latest R-Planet release brings a series of impactful improvements aimed at enhancing the overall gameplay experience:
 
-__Quest System (Progression + Daily)__
+**__Tutorial__**
+We’ve built a guided, step-by-step introduction to the game.
+The tutorial is designed to ease new players into the world, helping them grasp the core mechanics gradually. 
+Thanks to interactive hints and prompts, catching up with seasoned players will feel more natural and less overwhelming.
 
-To enhance long-term engagement, we are introducing a structured quest system. Players will have both progression quests and daily challenges that reward consistent activity.
+**__Visualized Navigation System__**
+We’ve overhauled the navigation experience to bring players strategies to life on the battlefield. 
+Players can now visually monitor movements like attacks and reinforcements directly on the game map. 
+This update offers a clearer perspective on base interactions, with a more user-friendly interface, highlighted zones of interest, and clickable elements to support smarter tactical decisions.
 
-__Deeper Map Interactions__
+**__Game Rebalance__**
+To make early gameplay more dynamic and rewarding, we’ve fine-tuned the server settings. 
+These changes aim to enhance player momentum from the beginning and ensure that rewards are fairly distributed. 
+With smoother pacing and more engaging objectives, players will experience a better-balanced journey through the R-Planet universe.
 
-The world of R-Planet is vast, and we are adding new points of interest on the map to enhance strategic and tactical gameplay. Players will be able to engage in special missions or face unexpected challenges, making exploration more rewarding.
+**__Quest System__**
+We’ve introduced a reimagined Quest System to fuel long-term excitement. 
+This feature offers players a mix of milestone-based progression quests and rotating daily tasks, all packed with valuable incentives. 
+Also, Minor bugs and typos have been fixed to ensure more stable and uninterrupted gameplay. 
 
-__Inventory System__
-
-Managing in-game assets effectively is key to success. We plan to redesign the inventory screen, making it easier to store, organize, and manage all owned and collected items and boosters in one place. Streamlining inventory management will help players to optimize their gameplay strategies and maintain better control over their assets.
-
-__Hero Level-Up & Skill Upgrade__
-
-We are reworking the experience system to make hero progression more dynamic and rewarding. More heroes will be introduced, each with a unique set of empowered properties that can be upgraded over time. Players will be able to customize their heroes through upgrades and new gear items, developing specialized strategies based on their hero’s powers.
-
-__More Hero Items__
-
-The hero equipment system is being expanded to introduce more gear items with varying levels of influence on the hero, the base to which the hero is attached, and their army. Players will have access to items of different rarities. This expansion aims to deepen character customization and strategy, giving players more control over their heroes’ strengths.
-
-__Rewarded Ads__
-
-Players will have the opportunity to earn in-game boosters and benefits by watching ads. This feature will be optional and designed to provide additional resources without disrupting gameplay. The system will allow players to gain advantages without direct purchases, ensuring a balanced and accessible approach to in-game progression.
-
-__Engagement Chest__
-
-To reward long-term play, we are introducing an engagement chest system. The longer players stay active in the game, the more rewards they can receive. Scaling rewards will make extended play sessions more satisfying, reinforcing player engagement.
-
-**Spreading the word**
-
-Recently, we presented our roadmap for the first half of 2025, outlining upcoming features and improvements. This initiative aims to keep our community informed and involved in the development process.
-
-![image](https://gist.github.com/user-attachments/assets/9c3f245d-2286-459b-b562-f0ee3aa47958)
-
-The article detailing our roadmap for the first half of 2025 is available on our Medium page:
-[R-Planet 2025: Future Plans & Expansions](https://rplanet.medium.com/r-planet-2025-future-plans-expansions-cae201d7b900)
-In this article, we outline the upcoming features and improvements planned for the first half of 2025, aiming to keep our community informed and engaged in the development process.
+**__Community Engagement__**
+The R-Planet Playground server officially launched on April 12, marking the beginning of a brand-new season.
 
 __Launch & User Acquisition Strategy__
-On March 31, the new Playground server will go live, allowing players to explore new features and mechanics.
-Following this, we will initiate user acquisition campaigns to drive engagement and onboard new players.
-Within 7-14 days after launch, a new gaming server with exciting prizes will be introduced, further incentivizing participation.
+Following the rollout of the new features, we’ve kicked off a new user acquisition phase to drive growth and engagement. 
+The Playground server allows players to explore and test the latest mechanics, laying the groundwork for continued development and feature expansion.
+
 
 **Metrics**
 
-Period: Feb 15, 2025 - Mar 14 2025
+Period: Apr 15, 2025 - May 15 2025
 
 Stats:
 
 activity volume
 
-![image](https://gist.github.com/user-attachments/assets/33cceb1e-0147-403f-b3f3-113d9a0c941f)
+![image](https://gist.github.com/user-attachments/assets/1a0ec43b-af92-48ca-9abe-0ab69529d170)
 
 nft volume
 
-![image](https://gist.github.com/user-attachments/assets/ae3543a5-2526-4dc2-801d-0b66e140e302)
+![image](https://gist.github.com/user-attachments/assets/ac473bfa-b3e2-4365-9b0a-b0c5a5b67da4)
 
 ---
 
