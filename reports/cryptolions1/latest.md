@@ -118,6 +118,7 @@ unique active wallets (last 30 days):  10     https://dappradar.com/dapp/simplem
 
 Contribution to the WAX Defi Fund: (approx) 100 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
 
+Contribution to the WAX Defi Fund: (approx) 300 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
 
 
 ### 4) SimpleAssets NFT standard  - 
@@ -197,6 +198,6 @@ URL: https://wax-backup.cryptolions.io/
 
 ### <ins>Feedback to OIG</ins>
 
-no feedback today
+Sorry missed to download this report in January. Downloading now with delay.
 
 ----
