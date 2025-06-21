@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report May 2025
+# Guild Report June 2025
 
 ### <ins>General</ins>
 |  |  |
@@ -15,10 +15,7 @@
 
 ### <ins>Noteworthy</ins>
 
-* Decommissioned  Hyperion Testnet, and also removed it from test.json
-* Removed IFPS from wax.json but keeping it running for now since some are using it
-* p2p.wax.bountyblok.io is now full blocks log
-* also working on 2nd p2p peer with full blocks next few days
+* new API product to bridge geckoterminal with WAX API - details below
 
 ### <ins>API Services</ins>
 
@@ -34,19 +31,16 @@
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
 **Update**: 
-* New client (private testing): ABN-AMRO (https://www.abnamroprivatebanking.be/en/index.html )
-* They have access to private testing on https://www.stocktrak.com/members/register?sessionid=XXXXX but we cannot disclose the sessionid right now but shared screenshot
- ![WhatsApp Image 2025-05-22 at 1 15 12 PM](https://github.com/user-attachments/assets/1b527464-993b-48e6-ba72-3d5564ded481)
-
+* nothing new
 
 **Metrics**
 
-Period: April 1 - May 21, 2025
+Period: May 22 - June 21, 2025
 
 |  |  |
 | --- | --- |
-| Total WAX TXs | 12,513,388 |
-| New Clients | 1 |
+| Total WAX TXs | 1,850,476 |
+| New Clients | 0 |
 ---
 
 ### Product #2: Smart Asset Distribution Tool
@@ -54,19 +48,17 @@ Period: April 1 - May 21, 2025
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Ability to filter account holders by last transfer date
- ![Screenshot (1)](https://github.com/user-attachments/assets/eb7a696c-b5a7-427c-8073-f890d94e6d78)
-* Minor bug fixes 
+* Several bug fixes
 
 **Metrics**
 
-Period: April 1 - May 21, 2025
+Period: May 22 - June 21, 2025
 
 |  |  |
 | --- | --- |
 | New Projects added | 4 |
-| Total distributions | 472 |
-| Total assets distributed | 97,118 |
+| Total distributions | 265 |
+| Total assets distributed | 42,362 |
 ---
 
 ### Product #3: Gift NFT
@@ -74,16 +66,15 @@ Period: April 1 - May 21, 2025
 **URLs**: https://giftnft.io/
 
 **Update** 
-* Added NFT preview showing additional details of each NFT
- <img width="1169" alt="Screenshot 2025-05-22 091647" src="https://github.com/user-attachments/assets/8adc9aed-c90e-4394-b3d6-65d820ca7bf4" />
+* Evaluating if we are going to sunset Giftnft this September, or pivot - TBD August/September
 
 **Metrics**
 
-Period: April 1 - May 21, 2025
+Period: May 22 - June 21, 2025
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 31 |
+| Total Gifts sent | 12 |
 ---
 
 ### Product #4: Contest Giveaway Platform
@@ -91,33 +82,24 @@ Period: April 1 - May 21, 2025
 **URLs**: https://wax.contest.bountyblok.io
 
 **Update** 
-* MAJOR update: completely replaced AWS centralized to Walrus Storage by Mysten Labs https://docs.wal.app/ https://www.walrus.xyz/
-* Walrus a decentralized storage and data availability protocol designed specifically for large binary files, or "blobs".
-* This change is exlusive to WAX - we now upload images and competition meta data (contest name, description, start date, ...) as blobs and publish them to a walrus publisher node.
-* As you can see below this just shows how the image is loaded from a Walrus Aggreator
- <img width="1099" alt="Screenshot 2025-05-22 081642" src="https://github.com/user-attachments/assets/7d4072fe-9e36-423c-a29a-a3daabd2a94f" />
-
-* The url of above: https://walrus-aggregator.natsai.xyz/v1/blobs/I5E63ZVE7cz2JYC4yBL_jx6ds_WMTc7I_5cLMRnDEzU
-* This is the raw blob, but since this is a content type image you can rename the downloaded file to .jpg so that you can "view it"
-* Specific docs url we use to publish blobs: https://docs.wal.app/usage/web-api.html
-* curl example to upload image file ```curl --location --request PUT 'https://publisher.walrus-testnet.walrus.space/v1/blobs' --form '=@"/C:/Users/saddam/Desktop/Original.png"'```
-* To upload text or json string ```curl --location --request PUT 'https://publisher.walrus-testnet.walrus.space/v1/blobs' -d "some string"```
-  
-* A few bug fixes
+* MAJOR update Part 1 or 2: We're in the process of upgrading the Contest Tool from Angular 14 to Angular 20 to enhance performance and overall efficiency. As part of this effort, we're also updating Angular Material to its latest version to improve the UI/UX and provide a more intuitive user experience. All dependent Web3 libraries, including WharfKit, are being upgraded as well, contributing to greater application stability and compatibility. This upgrade involved resolving numerous breaking changes due to the version jump. Aiming to be done by end of July.
+* Fixed a bug where updating contest image will fail to update the contest.
+* Creators can now use array parameters when setting up Contract Actions tasks. 
+![contesttool-1](https://github.com/user-attachments/assets/52486afa-3045-4ad9-ba32-55608f7d66f0)
 
 **Metrics**
 
-Period: April 1 - May 21, 2025
+Period: May 22 - June 21, 2025
 
 |  |  |
 | --- | --- |
-| Total Contests | 23 |
-| Total Entries | 10,500 |
-| Total X Follows | 1,952 |
-| Total X Reposts | 593 |
-| Total X Likes | 445 |
-| Total new X Posts | 285 |
-| Total Discord Joins | 1,509 |
+| Total Contests | 22 |
+| Total Entries | 2,424 |
+| Total X Follows | 449 |
+| Total X Reposts | 222 |
+| Total X Likes | 390 |
+| Total new X Posts | 19 |
+| Total Discord Joins | 445 |
 ---
 
 ### Product #5: Official WAX Status 
@@ -125,35 +107,34 @@ Period: April 1 - May 21, 2025
 **URLs**: https://status.wax.io/
 
 **Update** 
-* Improved accuracy of RNG Oracle via Atlassian's API 
- ![Screenshot 2025-05-22 1 39 37 PM](https://github.com/user-attachments/assets/1d3427ef-b5e8-49d6-a922-a9607cb54362)
+* Had to fix 2 other issues with BPs and the RNG oracle
+* Code refactoring / grouped things for better long term maintenance 
 
-* On-going tweaks and bug fixes
 ---
 
-### New: Mysten Labs + WAX
-* Approaching this strategically, for now we integrated their tools and completely replaced AWS S3
-* https://x.com/bountyblok/status/1915408224422862934
-* Also wrote a guide https://x.com/NatsaiOU/status/1910334008514245117
-
 ### Avalon
-* Updated docs and guides: https://danu-games.gitbook.io/avalon-the-game-light-paper
-* New home page launch (with Dimitri as the blockchain advisor :D) https://www.avalonthegame.com/
- ![Screenshot 2025-05-22 2 26 17 PM](https://github.com/user-attachments/assets/0d51a4b4-7a33-4b9e-8c0b-6247095c17b0)
-* Kickstarter coming up this Summer
-* We contracted with Xsolla as a payment processor for in game items and game packs: https://avalon-the-game-357f.xsolla.site/
-* Officially approved by XBOX
-* Single player version comping for PS5 and XBOX
+* Official partnership with Xsolla !
+* https://x.com/DanuGames/status/1935033890814714319
+* Xsolla: Global video game commerce company empowering developers and publishers with innovative tools to launch, monetize, and scale games worldwide.
   
 ---
 
-### NEW: WAX + Coingecko
-* Working with coingecko + WAX team, and obtained list of requirements how to list WAXP on their DEX geckoterminal
+### NEW: WAX + Coingecko API product
+* We deployed the geckoterminal API for the coingecko team
+* Docs: https://github.com/bountyblok/gecko-wax-adapter-docs/blob/main/guide.md
+* Some examples below of the API that geckoterminal needs during integration:
+* https://gecko-api.wax.io/latest-block
+* https://gecko-api.wax.io/pair?id=swap.alcor:6237
+* https://gecko-api.wax.io/asset?id=basedcoinzzz:BASED
+* https://gecko-api.wax.io/events?fromBlock=373901885&toBlock=373901885
+* WAX team are fully aware
+* Latest in our chat with the dev team just ironing out some changes: ![image](https://github.com/user-attachments/assets/811533cb-c8f2-496c-a93f-6cb30fe1b570)
+
   
 --- 
 
 ### <ins>Marketing</ins>
-* Involved with NFTOPia this summer as usual
+* Not much this month, NFTOpia is in August
   
 ---
 
