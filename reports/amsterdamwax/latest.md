@@ -165,6 +165,6 @@ Also, Chronicle data snapshots (latest from 2023-12-06)
 
 ### <ins>Feedback to OIG</ins>
 
-None
+Yannick left EOS Amsterdam after 6,5 years of excellent service. CEO Rhett Oudkerk Pool will take over the reporting
 
 ----
