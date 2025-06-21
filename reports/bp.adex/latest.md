@@ -131,20 +131,24 @@ Pixel Journey is an innovative new crypto-education focused project starting off
 
 **Update**
 
-* New small dApp Developments started: PxTD (https://pxtd.pixeljourney.xyz) and PxTap (https://pxtap.pixeljourney.xyz/), tieing in on-chain ownership to provide in-game boosters. WIP, where we're testing/iterating on the first versions already.
-* Our Leaderboard page got a slight logic update, and styling makeover (https://lb.pixeljourney.xyz/)
-* New Pixel Journey Staking portal now available (https://stake.pixeljourney.xyz/), which offers a journey focused and enhanced UI/UX for staking to/managing our WaxDAO NFT Farms for the Pixel Journey.
-* Several new similar/small developments have further gotten started; Journey Quests (random daily quest riddles to incentivize/reward on-chain actions), PxMileStones (on-chain milestone tracking system to unite the Pixel Journey community - and more - through shared goals and progress), PixelDAO (as web platform, instead of running it through Discord bots), and JourneyMap (a linktree/sitemap type of landing page that will help with an overview, or ease of access, to our growing PxJourney ecosystems websites)
-* Additional ~80M $PXJ and ~60 WPIXAL has been allocated towards our DeFi for the coming ~180-360 days (incentivizing DeFi participation in particular for our PXJ and WPIXAL pools paired with WAX, LSWAX, LSW, WUF, TLM, and most other active ecosystem token economies)
-* Preparing Pixel Journey and WAX showcasing for the NFC Lisbon 2025 Conference happening June 4-6th. Designing merch, and promo content/contests
+* The first week of the month we visited NFC Summit in Lisbon, where we distributed 250 Pixel Journey (+ NFTOPIA) business card invitations to our Journey, promoted the Wax Ecosystem featuring our merch, onboarded some new users, and distributed a bunch of merch away (that Tommy had sent me for the occasion).
+* The following week(s) we've been catching up with new friends/potential future project partners from there, where we've found a couple of projects that could be compatible (with our current schedule, then possibly early next year, if all goes well)
+* We've acquired a list of ~2000 event participating wallets (base wallets), that we're still considering what to finally do with, however; It's being considered airdropping them a random Primary Pixel Ingredient each (worth ~50cents each, with value tied to our Pixal PFPs, WPIXAL and PXJ .. so potentially $1000 worth of NFTs), which bridged there includes our links for everything, and might incentivize more to step further into new PXJourneys to begin.
+* We crossed a new Community Milestone of +150M PXJ having been locked into our Pixel Ingredient crafts (over 100k WAX worth), and have now already continued to +165M locked up. With a new aim to cross 200M PXJ by our 2nd Anniversary (July 18th)
+* Preparations for releasing PxTap (https://pxtap.pixeljourney.xyz/, tieing in on-chain ownership to provide in-game boosters) here for our 2nd Anniversary (July 18th).
+* Other preparations for our 2nd anniversary; Bountyblok, Website update(s, in particularly spicing up Pixal trait airdrops), Medium celebrations, new chapters of the journey to take part in (on Wax).
+* Our Leaderboard page got a further logic update, and new live Token Distribution stats/graphics for our PXJ, WPIXAL and KING tokens (https://lb.pixeljourney.xyz/)
+* We've initiated a new addition to our monthly Pixal PFP holder airdrops; now also extraordinarily airdropping our top (currently ~25) lb.pixeljourney.xyz contenders every month with additional rewards (based on their amount of PXJ locked up in ingredients). The first round of this last month, distributed 5 WPIXAL (~1000-1200 Wax worth) between top participants on that front.
+* Preparation, Community brainstorm/feedback and discussions about 10+ possible Pixel Journey WaxLabs grants (for the upcoming year). This far just within our Discords project discussion channels (requiring a Pixal PFP to participate in the debates).
+* Additional ~10M $PXJ and ~50 WPIXAL has been allocated towards our DeFi for the coming ~360 days (incentivizing DeFi participation in particular for our PXJ and WPIXAL pools paired with WAX, LSWAX, LSW, WUF, TLM, and most other active ecosystem token economies).
 
 **Metrics**
 
-* Visits: ~1200 (30 days)
-* Rewards via farms: ~27M PXJ/monthly; ~6M YEET/monthly; ~10 NFTs/daily
+* Visits: ~1500 (30 days)
+* Rewards via farms: ~26M PXJ/monthly; ~6M YEET/monthly; ~10 NFTs/daily
 * Rewards for holders via airdrops: ~3M PXJ/month
-* Rewards for NFT holders via WaxDAO Staking: ~3.8M PXJ/month; ~20M WUF/month;
-* Rewards for discord community events: ~500 WAX/week
+* Rewards for NFT holders via WaxDAO Staking: ~17.7M PXJ/month; ~85M WUF/month
+* Rewards for discord community events: ~1000 WAX/month
 
 ---
 
