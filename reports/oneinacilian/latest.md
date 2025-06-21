@@ -12,6 +12,7 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
+
 ### <ins>May 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. We have proactively adapted to the latest OIG changes, enhancing our services and optimising infrastructure for even greater reliability and utility.
 
@@ -87,6 +88,32 @@ We have implemented several key improvements to enhance the reliability, perform
 
 These upgrades reinforce our commitment to maintaining a robust and efficient infrastructure for the WAX ecosystem.
 
+IPFS Enhancements (April 2025)
+
+Enhancements have been made to our media handling and IPFS deployment to improve robustness, performance, and support for a broader range of formats. Key improvements include:  
+
+- **Image processing enhancements**:  
+  - Added support for multiple formats: WebP, AVIF, JPEG, and PNG  
+  - Introduced quality control mechanisms  
+  - Implemented caching for improved performance  
+
+- **Video processing enhancements**:  
+  - Added support for MP4 and WebM formats  
+  - Introduced CRF-based quality control  
+  - Added encoding presets to balance speed and quality  
+  - Implemented streaming optimisations  
+
+- **Performance improvements**:  
+  - Added caching system  
+  - Optimised IPFS configuration  
+  - Improved Docker container setup  
+
+- **Monitoring and reliability**:  
+  - Added health check endpoint  
+  - Improved error handling  
+  - Implemented unique file naming to prevent conflicts  
+
+These changes significantly improve the capability and stability of our media processing pipeline within the IPFS deployment.  
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
@@ -305,4 +332,4 @@ None at this point
 
 ----
 
-Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. Our latest offerings—Hyperion full snapshots and the Validator Checker Utility—are designed to provide valuable tools for the community, further enhancing transparency and performance. We look forward to receiving feedback from the OIG and the wider community as we continue to refine our services.
+Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. 
