@@ -12,24 +12,31 @@
 
 ### <ins>Noteworthy</ins>
 
-1. Pixel Journey and WAX Deer Jungle Club joined our guild, anouncement in progress.
-2. Ongoing upgrading WAX Testnet infrastructure.
-3. Ongoing fixes of ES curator deleted part of Hyperion Mainnet data.
-4. Requests to our public APIs increased x2.
-5. TVL, Volume, UAW, Tx increased x10.
+Keep maintaining infra and existing projects.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [] | [x] | [x] | [x] | [x] |
-| 274139 req/week | - | 36577 req/week | 733642 req/week | 7761 req/week |  4423 req/week |
+| 214039 req/week | - | 56858 req/week | 228196 req/week | 3994 req/week |  1608 req/week |
 
 **Others APIs: **
 
-* A-DEX GRAPHQL API: https://wax.a-dex.io/v1/graphql
+* A-DEX GraphQL API: https://wax.a-dex.io/v1/graphql
 
 ### <ins>Contributions</ins>
+
+### A-DEX Oracle (https://cloud.hasura.io/public/graphiql?endpoint=https://wax.a-dex.io/v1/graphql)
+**List of SCs**: swap.adex, swap.box, swap.taco, swap.nefty, swap.alcor
+
+Oracle provide tokens price from major liquidity pools(AMM) sorted by highest liquidity by cron job every hour. Data available from A-DEX GraphQL API via REST or WebSocket.
+
+Docs: https://docs.a-dex.io/oracle
+
+**Update**
+
+Tracked token prices: 1375+
 
 ### WAX Signals (https://t.me/waxsignals)
 **List of SCs**: swap.adex, swap.box, swap.taco, swap.nefty, swap.alcor, alcordexmain
@@ -120,20 +127,24 @@ Source: https://www.npmjs.com/package/@a-dex/a-dex-sdk/v/latest
 
 Docs:(https://docs.pixeljourney.xyz)
 
-Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Polygon and Ethereum, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse.
+Pixel Journey is an innovative new crypto-education focused project starting off from Wax.io, NFT-bridged to both Ethereum, Polygon, Base, and BNB Chain already, soon our goal is to explore all that the Web3 and crypto space has to offer. Together, we'll work towards Pixels binding together endless worlds in our shared metaverse. Explore crypto education, staking, and crafting as we bridge Web3 worlds through pixel-powered collectibles. Season 2 launches this summer!
 
 **Update**
 
-Launched $KING campaigns on wax.fun, ~70K WAX invested. Reached ~50K $ market cap.
+* New small dApp Developments started: PxTD (https://pxtd.pixeljourney.xyz) and PxTap (https://pxtap.pixeljourney.xyz/), tieing in on-chain ownership to provide in-game boosters. WIP, where we're testing/iterating on the first versions already.
+* Our Leaderboard page got a slight logic update, and styling makeover (https://lb.pixeljourney.xyz/)
+* New Pixel Journey Staking portal now available (https://stake.pixeljourney.xyz/), which offers a journey focused and enhanced UI/UX for staking to/managing our WaxDAO NFT Farms for the Pixel Journey.
+* Several new similar/small developments have further gotten started; Journey Quests (random daily quest riddles to incentivize/reward on-chain actions), PxMileStones (on-chain milestone tracking system to unite the Pixel Journey community - and more - through shared goals and progress), PixelDAO (as web platform, instead of running it through Discord bots), and JourneyMap (a linktree/sitemap type of landing page that will help with an overview, or ease of access, to our growing PxJourney ecosystems websites)
+* Additional ~80M $PXJ and ~60 WPIXAL has been allocated towards our DeFi for the coming ~180-360 days (incentivizing DeFi participation in particular for our PXJ and WPIXAL pools paired with WAX, LSWAX, LSW, WUF, TLM, and most other active ecosystem token economies)
+* Preparing Pixel Journey and WAX showcasing for the NFC Lisbon 2025 Conference happening June 4-6th. Designing merch, and promo content/contests
 
 **Metrics**
 
-* Visits: ~700 (30 days)
-* Rewards via farms: ~900K PXJ/monthly; ~8M YEET/monthly; ~12 NFTs/daily
-* Rewards for holders via airdrops: ~3.1M PXJ/month
-* Rewards for NFT holders via WaxDAO Staking: ~900k PXJ/month; ~8M WUF/month;
+* Visits: ~1200 (30 days)
+* Rewards via farms: ~27M PXJ/monthly; ~6M YEET/monthly; ~10 NFTs/daily
+* Rewards for holders via airdrops: ~3M PXJ/month
+* Rewards for NFT holders via WaxDAO Staking: ~3.8M PXJ/month; ~20M WUF/month;
 * Rewards for discord community events: ~500 WAX/week
-* Rewards for end-of-year bountyblok: ~40K WAX(special prize pool)
 
 ---
 
@@ -205,7 +216,8 @@ We are created and maintaining Antelope Servers telegram group.
 
 Promoting, engage people with WAX ecosystem on X
 
-* Followers: 3000
+* Followers: 7500
+* Engagement: ~20%
 
 ![x_pixel](https://github.com/user-attachments/assets/43f964f8-2368-4ca0-a2e5-f9544bf29404)
 
@@ -215,9 +227,13 @@ Promoting, engage people with WAX ecosystem on X
 
 Promoting, engaging people with WAX ecosystem and building community on Discord
 
+**Update**
+
+Now enhanced with our Pixel AI-Assistant Journey Guide, trained on Pixel Journey and broader WAX ecosystem knowledge to assist users.
+
 **Metrics**
 
-* Members: 1463
+* Members: 1500+
 
 ![photo_2025-01-22_18-46-44](https://github.com/user-attachments/assets/e45655df-c38e-40d6-b34b-f47273cdf532)
 
@@ -229,7 +245,18 @@ Promoting, engaging people with WAX ecosystem and building community on Discord
 
 **Metrics**
 
-* Members: 795
+* Members: 825
+
+---
+
+### DefiLlama Initiative - Ecosystem
+
+We are helping WAX projects to list on DefiLlama to increase WAX TVL and ecosystem observability.
+
+**Update**
+
+* [Listed A-DEX](https://github.com/DefiLlama/DefiLlama-Adapters/pull/13589#event-16369637472)
+* [Listed WDJC](https://github.com/DefiLlama/DefiLlama-Adapters/pull/13807#event-16713420954)
 
 ---
 
@@ -237,7 +264,7 @@ Promoting, engaging people with WAX ecosystem and building community on Discord
 
 | Chain DB Snapshot | Blocks Log | State History | Elastic Search | AA API |
 |----------|------------|---------------|----------------|--------|
-| [x]      | [ ]        | [ ]           | [ ]            | [x]  |
+| [x]      | []        | [ ]           | [ ]            | [x]  |
 
 Source: https://snapshots-wax.a-dex.xyz
 

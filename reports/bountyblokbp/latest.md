@@ -1,6 +1,6 @@
 <img src="https://bountyblok.io/assets/bb-logo-white.4c1ae6c4.svg" alt="bblk" width="600"/>
 
-# Guild Report February 2025
+# Guild Report May 2025
 
 ### <ins>General</ins>
 |  |  |
@@ -15,11 +15,16 @@
 
 ### <ins>Noteworthy</ins>
 
+* Decommissioned  Hyperion Testnet, and also removed it from test.json
+* Removed IFPS from wax.json but keeping it running for now since some are using it
+* p2p.wax.bountyblok.io is now full blocks log
+* also working on 2nd p2p peer with full blocks next few days
+
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
-| [] | [ ] | [x] | [] | [] | [x] 
+| [] | [ ] | [] | [] | [] | [] 
 | - | - | - | - | - | - |
 
 ### <ins>Contributions</ins>
@@ -29,15 +34,18 @@
 **URLs**: api.bountyblok.io / bountyblok.io/enterprise-web3-api
 
 **Update**: 
-* New client: https://wallst101.com/
+* New client (private testing): ABN-AMRO (https://www.abnamroprivatebanking.be/en/index.html )
+* They have access to private testing on https://www.stocktrak.com/members/register?sessionid=XXXXX but we cannot disclose the sessionid right now but shared screenshot
+ ![WhatsApp Image 2025-05-22 at 1 15 12 PM](https://github.com/user-attachments/assets/1b527464-993b-48e6-ba72-3d5564ded481)
+
 
 **Metrics**
 
-Period: January 4 - February 11, 2025
+Period: April 1 - May 21, 2025
 
 |  |  |
 | --- | --- |
-| Total WAX TXs | 9,061,826 |
+| Total WAX TXs | 12,513,388 |
 | New Clients | 1 |
 ---
 
@@ -46,22 +54,19 @@ Period: January 4 - February 11, 2025
 **URLs**: https://wax.drop.bountyblok.io/
 
 **Update** 
-* Allow creators to setup leaderboards by collection
-![Droptool-1a](https://github.com/user-attachments/assets/d5b00bab-334e-4295-8723-44b6c0ee101b)
-![Droptool-1b](https://github.com/user-attachments/assets/3139d0cd-4f48-4e8f-8dd2-a70112b62d2d)
- 
-* Fixed a bug with "Add Filter" button being not visible when selecting template from search modal
-
+* Ability to filter account holders by last transfer date
+ ![Screenshot (1)](https://github.com/user-attachments/assets/eb7a696c-b5a7-427c-8073-f890d94e6d78)
+* Minor bug fixes 
 
 **Metrics**
 
-Period: January 4 - February 11, 2025
+Period: April 1 - May 21, 2025
 
 |  |  |
 | --- | --- |
-| New Projects added | 2 |
-| Total distributions | 561 |
-| Total assets distributed | 763,783 |
+| New Projects added | 4 |
+| Total distributions | 472 |
+| Total assets distributed | 97,118 |
 ---
 
 ### Product #3: Gift NFT
@@ -69,17 +74,16 @@ Period: January 4 - February 11, 2025
 **URLs**: https://giftnft.io/
 
 **Update** 
-* Added 2 new languages Mandarin and Arabic
-![GiftNft (1)](https://github.com/user-attachments/assets/77168328-8b68-410d-a757-b49cbad44516)
-
+* Added NFT preview showing additional details of each NFT
+ <img width="1169" alt="Screenshot 2025-05-22 091647" src="https://github.com/user-attachments/assets/8adc9aed-c90e-4394-b3d6-65d820ca7bf4" />
 
 **Metrics**
 
-Period: January 4 - February 11, 2025
+Period: April 1 - May 21, 2025
 
 |  |  |
 | --- | --- |
-| Total Gifts sent | 7 |
+| Total Gifts sent | 31 |
 ---
 
 ### Product #4: Contest Giveaway Platform
@@ -87,37 +91,33 @@ Period: January 4 - February 11, 2025
 **URLs**: https://wax.contest.bountyblok.io
 
 **Update** 
-* Allow multiple codes for unique code tasks
-![ContestTool-1 (1)](https://github.com/user-attachments/assets/777a32fe-d13f-442b-8c5e-ff74d357f431)
+* MAJOR update: completely replaced AWS centralized to Walrus Storage by Mysten Labs https://docs.wal.app/ https://www.walrus.xyz/
+* Walrus a decentralized storage and data availability protocol designed specifically for large binary files, or "blobs".
+* This change is exlusive to WAX - we now upload images and competition meta data (contest name, description, start date, ...) as blobs and publish them to a walrus publisher node.
+* As you can see below this just shows how the image is loaded from a Walrus Aggreator
+ <img width="1099" alt="Screenshot 2025-05-22 081642" src="https://github.com/user-attachments/assets/7d4072fe-9e36-423c-a29a-a3daabd2a94f" />
 
-* Add google login allowing users to connect with their google account.
-![ContestTool-2a](https://github.com/user-attachments/assets/30a76357-1e4e-42c8-b9ba-4541fe248d97)
-![ContestTool-2b](https://github.com/user-attachments/assets/8a4d361b-178e-4de1-b131-c3e8d19d8a64)
-
-* Add 2 new languages Mandarin and Arabic
-![ContestTool-3 (1)](https://github.com/user-attachments/assets/9f1b2399-07ec-4f31-8eed-65382def01e3)
-
- 
-* New action watch video on youtube
-![ContestTool-4a](https://github.com/user-attachments/assets/ccd04d46-820f-4bf2-9580-097f15515679)
-![ContestTool-4b](https://github.com/user-attachments/assets/849fe8d9-70ed-49a5-ba2f-0239ba034561)
-
-* Fixed a UI glitch for "Hold NFT" actions, we now show a checkmark icon indicating the completion of task while also allowing users to earn further entries
-* Various UI tweaks and fixes
+* The url of above: https://walrus-aggregator.natsai.xyz/v1/blobs/I5E63ZVE7cz2JYC4yBL_jx6ds_WMTc7I_5cLMRnDEzU
+* This is the raw blob, but since this is a content type image you can rename the downloaded file to .jpg so that you can "view it"
+* Specific docs url we use to publish blobs: https://docs.wal.app/usage/web-api.html
+* curl example to upload image file ```curl --location --request PUT 'https://publisher.walrus-testnet.walrus.space/v1/blobs' --form '=@"/C:/Users/saddam/Desktop/Original.png"'```
+* To upload text or json string ```curl --location --request PUT 'https://publisher.walrus-testnet.walrus.space/v1/blobs' -d "some string"```
+  
+* A few bug fixes
 
 **Metrics**
 
-Period: January 4 - February 11, 2025
+Period: April 1 - May 21, 2025
 
 |  |  |
 | --- | --- |
-| Total Contests | 31 |
-| Total Entries | 19,926 |
-| Total X Follows | 2,723 |
-| Total X Reposts | 1,761 |
-| Total X Likes | 1,163 |
-| Total new X Posts | 1,622 |
-| Total Discord Joins | 3,131 |
+| Total Contests | 23 |
+| Total Entries | 10,500 |
+| Total X Follows | 1,952 |
+| Total X Reposts | 593 |
+| Total X Likes | 445 |
+| Total new X Posts | 285 |
+| Total Discord Joins | 1,509 |
 ---
 
 ### Product #5: Official WAX Status 
@@ -125,37 +125,36 @@ Period: January 4 - February 11, 2025
 **URLs**: https://status.wax.io/
 
 **Update** 
-* Made some enhancements that were quite sensitive on the oracle rng and some of the public APIs
+* Improved accuracy of RNG Oracle via Atlassian's API 
+ ![Screenshot 2025-05-22 1 39 37 PM](https://github.com/user-attachments/assets/1d3427ef-b5e8-49d6-a922-a9607cb54362)
+
+* On-going tweaks and bug fixes
 ---
 
-### Community Articles 
-
-**URLs**: https://bountyblok.medium.com/
-* Marty recommended topics to discuss/share opinon etc on Gaming/Defi
-
-* https://x.com/bountyblok/status/1886362204967981208
-* https://bountyblok.medium.com/the-rise-of-defi-tradfi-and-ai-by-2025-why-wax-blockchain-could-be-a-game-changer-6669595cbf7f
-* https://x.com/bountyblok/status/1888952872760451317
-* https://bountyblok.medium.com/bridging-the-gap-how-traditional-game-studios-can-go-web3-with-wax-in-10-easy-steps-d2970546af33
----
-
-### Novopangea 
-* The Martian from Chad labs official took over Novopangea game, Mike still retains IP
-* Game is back online https://x.com/Novopangeaio/status/1882019983817101784?t=bfFys6J3z5QDhG3HLATo1A&s=19
----
+### New: Mysten Labs + WAX
+* Approaching this strategically, for now we integrated their tools and completely replaced AWS S3
+* https://x.com/bountyblok/status/1915408224422862934
+* Also wrote a guide https://x.com/NatsaiOU/status/1910334008514245117
 
 ### Avalon
-* Held AMA last Saturday https://x.com/DanuGames/status/1887542886016700597
-* Avalon Alpha v3 Public Tech server is live: https://x.com/DanuGames/status/1888704565073043649
+* Updated docs and guides: https://danu-games.gitbook.io/avalon-the-game-light-paper
+* New home page launch (with Dimitri as the blockchain advisor :D) https://www.avalonthegame.com/
+ ![Screenshot 2025-05-22 2 26 17 PM](https://github.com/user-attachments/assets/0d51a4b4-7a33-4b9e-8c0b-6247095c17b0)
+* Kickstarter coming up this Summer
+* We contracted with Xsolla as a payment processor for in game items and game packs: https://avalon-the-game-357f.xsolla.site/
+* Officially approved by XBOX
+* Single player version comping for PS5 and XBOX
+  
 ---
 
-### WAX on CMC
-* Working with Marty and CoinMarketCap to adjust the wallet metrics for WAX. They only show the EVM chain, not the L1 native.
+### NEW: WAX + Coingecko
+* Working with coingecko + WAX team, and obtained list of requirements how to list WAXP on their DEX geckoterminal
+  
 --- 
 
 ### <ins>Marketing</ins>
-* Very engaging contest running right now between twitchytides and NFL Draft Profiles:  https://wax.contest.bountyblok.io/contest/9d5ead37-2976-4296-95aa-aa4c9f8ed919
-* WAX content creation / articles posted above
+* Involved with NFTOPia this summer as usual
+  
 ---
 
 ### <ins>Backups </ins>

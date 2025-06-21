@@ -12,13 +12,16 @@
 | producer (testnet) | oneinacilian |
 | Guild Jurisdiction | London |
 
-### <ins>March 2025 Update</ins>
-We are pleased to provide an update on the latest developments and contributions from Oneinacilian to the WAX blockchain ecosystem. 
+
+### <ins>May 2025 Update</ins>
+We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. We have proactively adapted to the latest OIG changes, enhancing our services and optimising infrastructure for even greater reliability and utility.
 
 ### <ins>Noteworthy</ins>
-Since our last update we have been working on setting up a significantly more powerful Hyperion instance as part of a full hardware refresh. This upgrade will enhance performance, scalability, and reliability, ensuring our infrastructure remains robust and capable of handling increased demand. Further updates will be provided as the new system is deployed.
+Since our last update we have implemented a production-grade LightAPI and Chronicle stack, engineered for high-throughput WAX workloads with advanced WebSocket management, database tuning, and automatic recovery features.
 
-We previously encountered an issue with our Elastic Search backup due to a misalignment in snapshot timings. This resulted in a temporary disruption lasting approximately 24 hours before being fully rectified. Unfortunately, this was not reported to the OIG at the time, and we are addressing it now for transparency. The issue has been resolved, and backups have been functioning as expected since.
+We have also upgraded our Seed Node Endpoint to align with the latest OIG requirements, ensuring improved peering reliability and network synchronisation. 
+
+We have enhanced our Docker stack with a built-in reverse proxy and automated SSL management using Certbot, streamlining secure deployments with zero-downtime renewals.
 
 We remain committed to maintaining high reliability and performance standards within the WAX network.
 
@@ -29,6 +32,36 @@ We remain committed to maintaining high reliability and performance standards wi
 | [] | [x] | [x] | [x] | [x] | [x] |  [x] |
 | - | 3338101 | 345127 | 365477 | 47937 |  47493 |
 
+---
+
+### 🌱 Seed Node Endpoint Upgrade (May 2025)
+
+We have upgraded our **Seed Node Endpoint** to meet the latest OIG requirements. Key improvements include:
+
+- ✅ **Public availability**  
+- ✅ **SLR ≥ 50%**  
+- ✅ **Full `blocks.log` retained**  
+- ✅ **Configured with `max-clients = 100`**
+
+Monitoring and performance enhancements are actively ongoing to ensure continuous compliance with evolving OIG standards. These upgrades significantly improve **peering reliability** and **network synchronisation**, contributing to overall ecosystem stability.
+
+---
+
+### 🔐 Docker Stack Enhancements & Automated SSL Management (May 2025)
+
+We have optimised our **Docker stack** with a built-in **reverse proxy**, and implemented **automated SSL certificate management** using **Certbot-HAProxy integration**. This setup streamlines deployments, enhances security, and eliminates the need for manual SSL handling.
+
+Key Features:
+- ✅ **Certbot integration** with **HAProxy** for seamless HTTPS configuration
+- ✅ **Zero-downtime certificate renewals** using `SIGHUP` signalling
+- ✅ **Service-specific certificate control** via environment flags
+- ✅ **Automated HTTP-01 challenge handling** using shared Docker volumes
+- ✅ **Support for Let's Encrypt staging and production** environments
+- ✅ **Customisable renewal policies**
+
+This robust configuration ensures **continuous SSL/TLS security** and significantly **reduces operational complexity**, allowing for secure, automated provisioning across services.
+
+---
 
 ### <ins> IPFS Deployment Offering</ins>
 Since the last update, we have developed and deployed a new IPFS hosting solution with enhanced features. This deployment integrates Prometheus and Grafana for advanced monitoring and performance tracking, including pre-configured dashboards for seamless adoption. The solution is designed to simplify the management and scalability of IPFS services while maintaining flexibility through Docker Compose-based deployment.
@@ -55,6 +88,32 @@ We have implemented several key improvements to enhance the reliability, perform
 
 These upgrades reinforce our commitment to maintaining a robust and efficient infrastructure for the WAX ecosystem.
 
+IPFS Enhancements (April 2025)
+
+Enhancements have been made to our media handling and IPFS deployment to improve robustness, performance, and support for a broader range of formats. Key improvements include:  
+
+- **Image processing enhancements**:  
+  - Added support for multiple formats: WebP, AVIF, JPEG, and PNG  
+  - Introduced quality control mechanisms  
+  - Implemented caching for improved performance  
+
+- **Video processing enhancements**:  
+  - Added support for MP4 and WebM formats  
+  - Introduced CRF-based quality control  
+  - Added encoding presets to balance speed and quality  
+  - Implemented streaming optimisations  
+
+- **Performance improvements**:  
+  - Added caching system  
+  - Optimised IPFS configuration  
+  - Improved Docker container setup  
+
+- **Monitoring and reliability**:  
+  - Added health check endpoint  
+  - Improved error handling  
+  - Implemented unique file naming to prevent conflicts  
+
+These changes significantly improve the capability and stability of our media processing pipeline within the IPFS deployment.  
 
 ### <ins>New Service Offering: Hyperion Full Snapshots</ins>
 We are now hosting Hyperion full snapshots via the following domain:
@@ -78,6 +137,18 @@ We intend to share this utility with other guilds imminently, as we believe it w
 https://github.com/oneinacillian/docker_compose_autobuilds  
 
 **Update**: 
+
+April 2025 update - We have extended the **Hyperion solution** by introducing a **proxy deployment component**, which is automatically generated by a Python utility. This prepares the environment based on the `.env` configuration settings.  
+
+### Key Enhancements:  
+- **Integrated Reverse Proxy** – The requirement for an external reverse proxy is now embedded within the Docker stack.  
+- **Flexible Deployment** – Allows running a reverse proxy inside the Docker solution, even on hosts that already have a reverse proxy, via **custom port binding (configurable in `.env`)**.  
+- **Resource Optimisation** – The component includes configurable resource allocation to **limit usage and prevent contention**.  
+
+### Next Steps:  
+We plan to **integrate a Certbot component** to automatically generate and rotate SSL certificates based on the **production aliases specified in `.env`**.  
+
+https://github.com/oneinacillian/docker_compose_autobuilds/blob/main/README.md
 
 March 2025 update - Improvements have been made to our Docker Compose auto-builds to enhance deployment efficiency and configurability based on specific environment needs. Key changes include:  
 
@@ -153,11 +224,87 @@ No major update this period
 
 ### <ins>LightAPI Services</ins>
 
-**Update**:
-No major update this period
+**Update**: (May 2025)
+## 🚀 Enhanced LightAPI & Chronicle Configuration
 
-* Repository URL: https://light-api.oiac.io
-* Purpose: These services offer lightweight and efficient access to blockchain data, supporting various applications and integrations.
+We have deployed a **production-grade Dockerized LightAPI and Chronicle implementation** featuring advanced WebSocket connection handling and **MariaDB optimisations**, specifically engineered to meet the **high-throughput demands of the WAX blockchain**.
+
+The setup delivers **exceptional performance** through intelligent **resource allocation**, **custom-tuned database parameters**, and **enhanced monitoring**. Chronicle includes **automatic recovery and snapshot restoration capabilities (beta)**, enabling **reliable, uninterrupted data streaming**.
+
+---
+
+### 🔧 Key Enhancements
+
+#### WebSocket & API Improvements
+- Adaptive message batching for high throughput  
+- Configurable queue sizes and processing delays  
+- Heartbeat monitoring and intelligent reconnection  
+- WebSocket performance logging and statistics
+
+#### MariaDB Database Tuning
+- Buffer pool size optimised for 64GB (on 128GB systems)  
+- Enhanced I/O thread handling and temp table performance  
+- Disabled query cache for optimised query throughput  
+- Configurable memory limits and CPU allocation (8–16 cores)
+
+#### Resource Management
+- File descriptor limits increased for connection-heavy workloads  
+- Efficient memory and CPU management to support parallel processing
+
+#### Chronicle Enhancements
+- Automatic snapshot restoration (beta)  
+- Graceful shutdown and failure recovery  
+- Block filtering, queue optimisation, and reporting customisation  
+- Intelligent health monitoring and process control
+
+---
+
+### 🧱 Architecture Overview
+
+**LightAPI**
+- Multiple WebSocket servers (ports 5101–5105)  
+- Main API (port 5001) and DB write service (port 8100)  
+- Backed by MariaDB for high-speed storage
+
+**Chronicle**
+- Connects to WAX nodes to ingest blockchain data  
+- Filters and forwards data to LightAPI  
+- Supports snapshot restoration for fast sync
+
+---
+
+### 🧪 Monitoring & Performance
+
+- WebSocket and process health checks  
+- Memory usage and connection logs  
+- Automatic recovery on failure  
+- In-depth logging for diagnostics and tuning
+
+---
+
+### 🔐 Security & Maintenance
+
+- Read-only DB access for API clients  
+- Timeout and resource isolation  
+- Process supervision and resource usage logging  
+- Full support for Docker Compose deployments
+
+---
+
+### 🔄 Snapshot Restore (Beta)
+
+- Supports syncing from clean database and snapshot files  
+- Includes optimisations such as disabled doublewrite buffer, adjusted flush settings, and buffer pool tuning  
+- Known limitations: full restore still under active development
+
+---
+
+#### 📝 Usage
+
+```bash
+git clone https://github.com/oneinacillian/lightapi
+cd lightapi
+docker-compose up -d
 
 ---
 
@@ -185,4 +332,4 @@ None at this point
 
 ----
 
-Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. Our latest offerings—Hyperion full snapshots and the Validator Checker Utility—are designed to provide valuable tools for the community, further enhancing transparency and performance. We look forward to receiving feedback from the OIG and the wider community as we continue to refine our services.
+Thank you for considering our update. Oneinacillian remains committed to supporting the WAX blockchain through reliable infrastructure and innovative solutions. 

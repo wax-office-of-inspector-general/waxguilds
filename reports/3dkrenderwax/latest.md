@@ -12,14 +12,25 @@
 
 ### <ins>Noteworthy</ins>
 
-No updates
+We have completed the change from full to partial Hyperion API.
+
+Throughout May 20th, we began detecting abnormal increases in latency on our mainnet producer nodes, so we began performing upgrade and maintenance tasks. These tasks were completed successfully without any lost rounds. The results have been very positive, with a considerable reduction in latency.
+
+In accordance with updates to the assessment requirements, we have removed our IPFS node from the infrastructure information.
+
+We're working on improving the performance of our P2P nodes to meet the new qualification requirements. While the linked public node has always had a complete block history, it seems to be having trouble sharing it.
+
+We're maintaining our Hyperion API (full) and Atomic API testnet infrastructure. Both services were down for a few hours during maintenance.
 
 ### <ins>API Services</ins>
 
-| History (partial) | History (full) | History (testnet) | AA API        | Light-API | IPFS         |
-| ----------------- | -------------- | ----------------- | ------------- | --------- | ------------ |
-| []                | [X]            | [x]               | [x]           | []        | [X]          |
-| -                 | 5.07M req/week | 246K req/week     | 593K req/week |           | 934 req/week |
+| History (partial)        | History (full) | History (testnet)        | AA API        | Light-API |
+| ------------------------ | -------------- | ------------------------ | ------------- | --------- |
+| [X]                      | []             | [x]                      | [x]           | []        |
+| See stats in links below |                | See stats in links below | 593K req/week |           |
+
+Mainnet API usage: https://apiwax.3dkrender.com/v2/stats/get_api_usage
+Testnet API usage: https://tapiwax.3dkrender.com/v2/stats/get_api_usage
 
 ### <ins>Contributions</ins>
 
@@ -31,56 +42,24 @@ No updates
 
 **Update**:
 
-These are some of the internal statistics of the game. We have noticed a strong increase in card recycling activities (burning NFTs). This causes an increase in the scarcity of game cards, which benefits our ecosystem.
+**Intraverse Kart Racers Gaming Tournament – Season III**
 
-Another positive fact is the constant influx of new players. Even though the numbers are small, they keep the game active.
+Rada Quest will participate in Intraverse Kart Racers Season III, where our avatar Arianna will be featured as a playable character. Players will be able to choose her and compete in the races. Marketing for the event will begin at the end of May.
 
-|                | Nov 24 | Dec 24 | Jan 25 |
-| -------------- | -----: | -----: | -----: |
-| New Players    |    199 |    158 |    298 |
-| Recicled Cards |  3,420 |  2,213 |  2,842 |
-| Arena Battles  | 58,506 | 83,464 | 44,585 |
-| Gems Plays     | 10,244 |  8,660 |  8,915 |
+This is a multi-chain tournament, with projects from various ecosystems participating, including new communities from SwellChain, ApeChain, and Taiko.
 
-> Note: Arena battles are heavily dependent on the seasonality of campaigns, so significant differences can be seen from one month to another.
+- [Intraverse Kart Racers Season III](https://x.com/intraVerse_Game/status/1920868175857565751)
 
-As we have warned on other occasions, over time we have reduced as much as possible the need for users to sign transactions, so statistics such as DappRadar should only be taken as a guide regarding the evolution of the game.
+**WAX ambassador Coliseum Campaign (WAX Hub)**
 
-In the latest evaluations Rada Quest has been penalized with decay. We want to show our disagreement with this measure and we want to argue for it.
-
-If we check the statistics of Rada Quest on DappRadar from 6 months ago, or 1 year ago, we can see that our position in the ranking was around 25th place. If we look at the current statistics, it is true that there is a drop in the supposed number of unique monthly players (indicative data due to what was mentioned above) but our game has improved its position placing itself around 15th place in the ranking of WAX games. This is not good news overall, since it is easily deduced that the WAX ​​ecosystem is suffering a lot, but it is positive news for us since it shows that our game, Rada Quest, is withstanding the bad streak of the WAX ​​ecosystem more solvently than other games. We consider that penalizing one of the few games that remain active and that is in the top 15 of the table is not a good incentive.
-
-**DappRadar - February 2024 (included in Guild report)**
-![feb-24](https://3dkrender.com/wp-content/uploads/2024/02/dappradar.png)
-
-**DappRadar - February 2025**
-![today](https://3dkrender.com/wp-content/uploads/2025/02/RQ_DappRadar.png)
-
-We would like to take this opportunity to remind you that this project is 100% self-funded. In addition, we continue to support the promotion of artists by including new cards with more illustrations by artists such as Catrynart or Triz Draw. These are some examples of the new cards:
-
-| Catrinart | Catrynart | Triz Draw |Triz Draw |
-|:--:|:--:|:--:| :--:|
-| ![catrynart](https://ipfs.neftyblocks.io/ipfs/QmcXMQkiF5GGMFVFbmvE1pRYz6H9KX1bv4MwvqZmLFPHfm) | ![catrinart](https://ipfs.neftyblocks.io/ipfs/QmT8nVrdhfCeK4ZUmPN6VMUCfwddZ2xUAKPaAtF2rfzfBL) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmS2wDnyrqELpb7f1oRJVkgR2h868HoUmadrSo7nvqqpgC) | ![trizdraw](https://ipfs.neftyblocks.io/ipfs/QmehsKCw5HYqBFiKACns3TmZLgySGCyhAfNtvLZGev7vTc) |
-
-
-We would like to be able to provide more value to the WAX ​​gaming ecosystem, but budget limitations are significant and the lack of support from the OIG through decay penalties does not help either.
-
-More updates on next reports.
+We will launch a promotional campaign through the WAX Ambassador Hub to promote Coliseum Edition 19. The campaign will begin in late May and run through June 25, aligning with the end of the tournament. The initiative is designed to drive visibility and encourage community engagement around our game.
 
 **Development update**
 
 We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
 
+
 ---
-
-### Pug Tapper (Telegram Game)
-
-**URLs**: https://t.me/pugtapper_bot
-
-Due to Telegram's new terms of use, which expressly prohibit any activity in applications linked to a blockchain other than TON, we are studying new options for PugTapper, since this affects us completely. For the moment, we have stopped delivering WAX NFTs as rewards.
-
-More info:
-- https://telegram.org/tos/bot-developers#7-blockchain-integration
 
 ### Client/Server WAX App Template
 
@@ -90,103 +69,75 @@ Open source Client/Server Template to accelerate the creation of applications in
 
 **Update**:
 
-- We have updated the server side incorporating improvements in the data table reading services from Hyperion APIs.
-- The NextUI library has been updated to its new HeroUI model
-
-### FundingWAX - Discord Bot
-
-**URLs**: https://test.fundingwax.com (testnet)
-
-**List of SCs**: fundingwaxdk (testnet)
-
-**Update**:
-
-No updates. We are already working on integrating the bot client into the official Dungeon Keeper Studios website.
-
-More information:
-
-- https://medium.com/@dunkeepstudios/unified-player-account-your-gateway-to-a-connected-gaming-ecosystem-e78fa22ee4c2
+- We are starting to write some tutorials to help developers to understand the code and how to use it.
+  - Chapter 1: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-376236e4bf39
+  - Chapter 2: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-ii-522f672bc7e2
+  - Chapter 3: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-iii-3e08dae524e0
 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-We continue to contribute to the developer documentation portal with new Spanish translations, tutorials, and revisions of texts contributed by other contributors.
+In this contribution, I focused exclusively on translating the React Native SDK documentation from English to Spanish for the WAX Developer project. The goal was to provide Spanish-speaking developers with clear, accurate, and complete resources for integrating WAX with React Native applications.
 
-- About WAX Section- Spanish translation and content update.
-- WAX Hyperion HowTo - Spanish translation and content update.
+### Key Contributions
 
-- https://github.com/wax-office-of-inspector-general/wax-developer/pull/194
+- **Full Translation of React Native SDK Documentation:**  
+  Faithfully translated all documentation files related to the React Native SDK, ensuring the Spanish versions match the originals in structure, technical content, code examples, and internal/external links.
+
+- **Files Translated:**
+  - `index.md` (Overview and features)
+  - `dapp-backend.md` (Backend requirements, example code, configuration, and API key process)
+  - `repository.md` (Repository structure and example app)
+  - `sample-dapp.md` (Reference to example app)
+  - `sdk.md` (SDK usage and integration)
+
+- **Consistency and Quality:**  
+  Maintained technical accuracy, consistent terminology, and formatting throughout the translated documents to ensure usability and professionalism.
+
+Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/202
 
 ---
 
 ### <ins>Marketing</ins>
 
-### Cristalla
+# 📊 Marketing & Ecosystem Growth Summary
 
-**Marketing & Ecosystem Growth Summary**
+**April 17 2027 to May 21 2025**
 
-November 24 2024 to January 3 2025
+•	Twitter: 5K impressions and 15794 Followers, New Follows 62
+•	X Space:  4 spaces as co-host, 1 space as guest. Total 5 spaces and approximate sum of reproductions so far + Tuned in: 616
 
-- Twitter: 5.1K impressions and 15389 Followers, New Follows 134, Media Activity 507
-- X Space: 3 spaces as co-host, 1 space as guest. Total 4 spaces and approximate sum of reproductions so far + Tuned in: 442
-- Twitch & X (Multistream). Approximate sum of reproductions so far + Tuned in: 346
 
 **Activity breakdown**
 
-Cristalla continued to host weekly X Spaces to spotlight projects and engage with the community. Weekly streams provided updates and new content, helping to inform the current audience and attract new users.
+During this period, Cristalla continued planning for the upcoming NFTOPIA event while maintaining her regular community engagement efforts. As co-host of the WAX Drop X Space, she has helped run a weekly showcase every Wednesday at 6 PM UTC. This initiative, active since February 7, 2024, has already passed 55 episodes and streams across X (formerly Twitter), Twitch, and the metaverse.
 
-**Lives**
+The space highlights key news, giveaways, NFT drops, and community updates, offering developers, artists, streamers, and collectors a platform to present their projects and connect with others in the WAX ecosystem.
 
-Live streams continued every Tuesday and Thursday, featuring different WAX games. During this period.
-
-- https://x.com/queencristalla/status/1863979771777941736
-- https://x.com/queencristalla/status/1869776283522978132
-
-**DAO Lab**
-
-Cristalla received recognition on DAO Lab’s X account for her content creation, representing the WAX Hub and showcasing her contributions to the ecosystem.
-
-- https://x.com/TheDAOLabs/status/1874556921941790830
+Additionally, Cristalla published a new article titled “WAX Drop X Space by NFTopia: Where Creators Connect”, promoting the space and explaining how it helps amplify voices in the community and encourages collaboration across the ecosystem.
 
 **X SPACES**
 
-NFTOPIA Wednesday co-host
+**NFTOPIA Wednesday co-host**
 
-Week 35 11-11-2024 Reproductions so far + Tuned in 56
-
-- https://x.com/thenftopia/status/1866920905219145806
-
-Week 36 11-17-2024 Reproductions so far + Tuned in 98
-
-- https://x.com/thenftopia/status/1869084496609382843
-
-Week 37 01-01-2025 Reproductions so far + Tuned in 111
-
-- https://x.com/thenftopia/status/1874531058894725469
+- Week 52 04-23-2025 Reproductions so far + Tuned in 100 Length 2:01:40
+  https://x.com/i/spaces/1lPKqMqlgAPKb/
+- Week 53 04-30-2024 Reproductions so far + Tuned in 91 Length 1:43:32
+  https://x.com/i/spaces/1dRJZYRXbaMGB/
+- Week 54 05-07-2025 Reproductions so far + Tuned in 91 Length 3:30:03
+  https://x.com/i/spaces/1MYxNwYkRopKw/ 
+- Week 55 05-14-2025 Reproductions so far + Tuned in 124 Length 2:37:57
+  https://x.com/i/spaces/1lDGLzjdYBmxm/ 
 
 **Guest WAX Spaces**
 
-WAXWednesday Wax Holiday Calendar Tuned in 177
+- WAX Wednesday | Women of WAX Tuned in 210 Length 52:09
+  https://x.com/WAX_io/status/1919852403186126895 
 
-- https://x.com/i/spaces/1mnxeAOVXOPxX/peek
 
 **Articles**
 
-Understanding the WAX Office of Inspector General (OIG): Strengthening the Blockchain
+- WAX Drop X Space by NFTopia: Where Creators Connect
 
-- https://medium.com/dungeon-keeper-studios/understanding-the-wax-office-of-inspector-general-oig-strengthening-the-blockchain-11e9d7cf4a83
-
-**Video**
-
-A new English-language YouTube channel has been launched, aiming to create diverse visual content. This initiative is designed to introduce new audiences to WAX and encourage them to join the community.
-
-WAX Blockchain Beginner’s Guide: CPU, NET, RAM, Marketplaces, Staking, and OIG
-
-- https://www.youtube.com/watch?v=2UOKWE_wVOI&t
-
-### <ins>Feedback to OIG</ins>
-
-Almost all of our activities are published on our social networks, as can be seen in the report.
-
----
+https://medium.com/dungeon-keeper-studios/wax-drop-x-space-by-nftopia-where-creators-connect-703da90db9ad
