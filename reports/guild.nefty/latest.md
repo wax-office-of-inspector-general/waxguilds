@@ -21,7 +21,7 @@
 | History (partial) | History (full) | History (testnet) | AA API         | Light-API       | IPFS            | Chain API       |
 |-------------------|----------------|-------------------|----------------|-----------------|-----------------|-----------------|
 | [ ]               | [ ]            | [x]               | [x]            | [x]             | [x]             | [x]             |
-| -                 | -              | 96.03k req/week   | 3.92M req/week | 111.3k req/week | 15 req/week     | 31.33M req/week |
+| -                 | -              | 97.08k req/week   | 4.29M req/week | 98.77k req/week | 93 req/week     | 39.67M req/week |
 
 ### <ins>Contributions</ins>
 
@@ -33,27 +33,26 @@
 
 **Update**
 
-* Released third Success Story for BreadCritter
-* Released fourth Success Story for Dagga
+* Released third Success Story for Vulnerability Agents
 
 
 **Metrics**  
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
-* Primary market volume: 2.3M WAXP  
-* Secondary market volume: 2.5M WAXP  
+* Primary market volume: 2.15M WAXP  
+* Secondary market volume: 1.76M WAXP  
 
 
 **Stats**
 
-* Views: 182k  
-* Users: 5k  
-* Avg Engagement Time: 8m 50s
-* Blends performed: 34.1k
-* Drop claims: 12.7K
-* Packs opened: 30.5k
-* Upgrades performed: 3.8k
+* Views: 273k  
+* Users: 6.7k  
+* Avg Engagement Time: 9m 48s
+* Blends performed: 85k
+* Drop claims: 21K
+* Packs opened: 54k
+* Upgrades performed: 5.7k
 
 ---
 
@@ -70,91 +69,80 @@ Period: _Jan 11, 2025 to Apr 02, 2025_
 
 
 
-* We have facilitated 14.54K drop claims that use custom WAX-based tokens native to 3rd party projects: 
+* We have facilitated 9.5K drop claims that use custom WAX-based tokens native to 3rd party projects: 
 
 |   **Token**   |   **Claims**  |
 |---------------|---------------|
-|   HOWL        |   	2790    |
-|   WOMBAT      |   	2219    |
-|   AGAR        |   	1414    |
-|   YETI        |   	932     |
-|   WUF         |   	630     |
-|   RODC        |   	592     |
-|   WOMBEE      |   	585     |
-|   GHOST       |   	579     |
-|   SQJ         |   	574     |
-|   FIREMAN     |   	504     |
-|   WHATIF      |   	502     |
-|   LVAPE       |   	381     |
-|   PXRS        |   	359     |
-|   WAXUSDC     |   	295     |
-|   CMX         |   	197     |
-|   RAIDD       |   	193     |
-|   DUST        |   	181     |
-|   SOUL        |   	175     |
-|   NEFTY       |   	155     |
-|   GUILD       |   	136     |
-|   PXF         |   	118     |
-|   HOURS       |   	101     |
-|   GOD         |   	100     |
-|   DHC         |   	87      |
-|   PXJ         |   	79      |
-|   BLUWHL      |   	79      |
-|   AQUA        |   	62      |
-|   BINX        |   	56      |
-|   WAXART      |   	43      |
-|   QUAX        |   	40      |
-|   KEK         |   	30      |
-|   BRIX        |   	29      |
-|   CHSR        |   	26      |
-|   NOA         |   	25      |
-|   XYTE        |   	24      |
-|   TLM         |   	23      |
-|   HDC         |   	21      |
-|   BEANS       |   	20      |
-|   WOA         |   	19      |
-|   TACO        |   	16      |
-|   CHIPS       |   	16      |
-|   CREWC       |   	15      |
-|   SKUNKY      |   	12      |
-|   CHRONA      |   	10      |
-|   BLU         |   	9       |
-|   SHING       |   	9       |
-|   NOVO        |   	9       |
-|   LIFTIUM     |   	9       |
-|   SSN         |   	8       |
-|   ECR         |   	7       |
-|   HCC         |   	7       |
-|   CROWN       |   	6       |
-|   CHAOS       |   	6       |
-|   XPS         |   	5       |
-|   KENN        |   	4       |
-|   NIMA        |   	3       |
-|   UPMAX       |   	3       |
-|   WXBOOTY     |   	2       |
-|   SCHWAX      |   	2       |
-|   ROOK        |   	2       |
-|   DTX         |   	2       |
-|   NKFE        |   	1       |
-|   CREEPZ      |   	1       |
-|   CHAD        |   	1       |
-|   TOCIUM      |   	1       |
+| WOMBAT        |	2285          |
+| AGAR          |	1583          |
+| AAR           |	882           |
+| YETI          |	819           |
+| OWLZ          |	532           |
+| GUILD         |	423           |
+| SKUNKY        |	286           |
+| LVAPE         |	266           |
+| FIREMAN       |	261           |
+| CARZ          |	224           |
+| WUF           |	219           |
+| WHATIF        |	210           |
+| DINO          |	202           |
+| CHIPS         |	198           |
+| WAXUSDC       |	185           |
+| BLUE          |	122           |
+| SQJ           |	105           |
+| PXJ           |	86            |
+| NEFTY         |	61            |
+| CREWC         |	58            |
+| QUAX          |	40            |
+| DHC           |	40            |
+| ECR           |	36            |
+| BINX          |	35            |
+| HOURS         |	33            |
+| NIMA          |	27            |
+| SOUL          |	27            |
+| XYTE          |	26            |
+| GOD           |	24            |
+| CMX           |	21            |
+| NOVO          |	19            |
+| PXF           |	18            |
+| TLM           |	16            |
+| WOA           |	15            |
+| DUST          |	14            |
+| KEK           |	13            |
+| BLW           |	10            |
+| RODC          |	10            |
+| BEANS         |	6             |
+| FORGE         |	6             |
+| ANTLERS       |	5             |
+| USDT          |	5             |
+| WOMBEE        |	5             |
+| BLUWHL        |	5             |
+| HOWL          |	5             |
+| CHSR          |	4             |
+| TACO          |	3             |
+| SHING         |	3             |
+| BRIX          |	3             |
+| CHRONA        |	2             |
+| CHAOS         |	2             |
+| KENN          |	2             |
+| CROWN         |	1             |
+| GHOST         |	1             |
 
 
 **Metrics**  
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
-* Drops created: 947
-* Blends created: 407
-* Packs created: 68
-* Upgrades created: 70
+* Drops created: 1.5k
+* Blends created: 685
+* Packs created: 132
+* Upgrades created: 175
 
 **Stats**
 
-* Views: 29k
-* Users: 652
-* Avg Engagement Time: 21m 40s
+* Views: 51.4k
+* Users: 868
+* Avg Engagement Time: 23m 20s
 
 ---
 
@@ -170,18 +158,18 @@ Period: _Jan 11, 2025 to Apr 02, 2025_
 
 **Metrics**
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
 * New implementations: 1
-* Total number of implementations: 123
-* Transactions: $1.27k
+* Total number of implementations: 124
+* Transactions: $747
 
 ---
 
 ### Neftyblocks CLI
 **URLs**: [https://github.com/neftyblocks/neftyblocks-cli](https://github.com/neftyblocks/neftyblocks-cli)
 
-* Added functionality to create Upgrades
+* No updates to report.
 
 ---
 
@@ -197,9 +185,9 @@ Period: _Jan 11, 2025 to Apr 02, 2025_
 
 **Metrics**  
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
-* Total visits: 1.2k
+* Total visits: 1.38k
 
 ---
 
@@ -223,18 +211,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 **Update**:
 
 
-* Fix bug on charts not being created for new alcor pool
-* Ban token accounts because contract have been removed: tokenanimal1 deadcitytokn mammothtoken
-* Improve swap stability, double check amount_in of route is equal to input amount in swap field
-* Update color of error messages for better readability
-* Add WaxFusion supports
-* Update exchange filter on swap page into a small menu to display more exchange
-* Update pair token logo display, display both logo inside the pair
-* Add WaxFusion LSW instant redeem and staking in smart order routing
-* Add check, if api is unsynced by more than 2 minutes it will set itself not ready so frontend doesn't select it
-* SmartContract (swap.we)
-  * Add routing for WaxFusion LSW instant redeem and staking
-  * Small code improvement
+* No updates to report
 
 
 ---
@@ -245,7 +222,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-* Number of subscribers: 193
+* Number of subscribers: 191
 
 ---
 
@@ -257,9 +234,9 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
-* Number of TAG crafts: 454
+* Number of TAG crafts: 1263
 
 ---
 
@@ -277,7 +254,7 @@ Period: _Jan 11, 2025 to Apr 02, 2025_
 
 **URLs**: [https://github.com/neftyblocks/wax-price-oracle](https://github.com/neftyblocks/wax-price-oracle)
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
 
 **Update**:
 
@@ -287,11 +264,11 @@ Period: _Jan 11, 2025 to Apr 02, 2025_
 
 ### <ins>Marketing</ins>
 
-Period: _Jan 11, 2025 to Apr 02, 2025_
+Period: _Apr 03, 2025 to May 21, 2025_
  
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 78.5K impressions and 26.4K Followers, engagement rate 8.2%.
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 66.9K impressions and 26.2K Followers, engagement rate 8.8%.
 * [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 241 monthly visitors, 369 monthly messages.  
-* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 75 views and 39 reads during February and March.
+* [NeftyBlocks Medium](https://neftyblocks.medium.com/): 75 views and 39 reads during April and May.
 
 
 ### <ins>Backups </ins>
