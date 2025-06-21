@@ -12,7 +12,11 @@
 
 ### <ins>Noteworthy</ins>
 
-Keep maintaining infra and existing projects.
+* NFC Summit (Lisbon)
+* Upcoming Launch – PxTap (July 18)
+* Pixel Journey updates
+* Decommission Hyperion WAX Testnet
+* Removed blocks.log backup
 
 ### <ins>API Services</ins>
 
