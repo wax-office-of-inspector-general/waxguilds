@@ -107,6 +107,7 @@ https://i.gyazo.com/57453bfed24640866bd28803b9c2a1f5.png
 
 **List of SCs**:  simplemarket
  
+
 **update**: 
  
 regular activites : Continue maintenance, service and support for the project and infrastructure. We keep uour chats and channels, communicate with users. We improved server for the project.
@@ -170,7 +171,6 @@ Stats:
 Stats from Matomo:
 37 visits:
 https://i.gyazo.com/da1107d48c00802bc056a89d5ae7a635.png 
-
 
 ### 7) APizza - new project, already available for users, but also is improved and develpoped further
 **URLs**: https://apizzadev.cryptolions.io/
