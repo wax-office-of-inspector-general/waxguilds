@@ -29,8 +29,7 @@
 **URLs**: https://droppp.io
 
 **Updates**: 
-- There are 27 days remaining of Droppp Arcade season 1 and so far 2,083,295 NFTs have been burned.
-- We have been hosting weekly Droppp Arcade mini-contests with packs and prototypes as prizes.   
+- [Droppp Arcade season 1](https://droppp.io/arcade/leaderboard/?season=1) concluded on June 17th, 2025 with a total of 3,309,318 NFTs burned.   
 
 Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on chain), and we only do this for users who either pay (USD) for an account or for a pack during a drop, so we believe that most if not all are real accounts (vs bots).
 
@@ -44,9 +43,11 @@ Stats: - Droppp has created over 206k WAX “*.dp” accounts (verifiable on cha
 
 Updates:
 
-- On Apr 16, 2025 we took a redemption snapshot for [The Festival of Fun Series 1](https://droppp.io/drop/246/festival-of-fun-series-1/) and opened the redemption at https://droppp.io/redemptions.   
-- On May 5, 2025 we announced the [Dungeons & Dragons x Funko Series 2](https://droppp.io/drop/267/dungeons-and-dragons-series-2/) Digital Pop! drop.   
-- On May 13, 2025 we released the [Dungeons & Dragons x Funko Series 2](https://droppp.io/drop/267/dungeons-and-dragons-series-2/) Digital Pop! collection on Droppp. This release consisted of 17k Standard and 15k Premium packs.   
+- On May 21, 2025 we took a redemption snapshot for [Adventure Time x Funko Series 2](https://droppp.io/drop/249/adventure-time-series-2/) and opened the redemption at https://droppp.io/redemptions.   
+- On May 23, 2025 we announced the [Funko Presents Funime and Cosplay Series 2](https://droppp.io/drop/270/funime-and-cosplay-series-2/) Digital Pop! drop.   
+- On Jun 3, 2025 we released the [Funko Presents Funime and Cosplay Series 2](https://droppp.io/drop/270/funime-and-cosplay-series-2/) Digital Pop! collection on Droppp. This release consisted of 12k Standard and 15k Premium packs.
+- On Jun 4, 2025 we took a redemption snapshot for [Freddy's Dark Valentine Series 1](https://droppp.io/drop/252/freddys-dark-valentine-series-1/) and opened the redemption at https://droppp.io/redemptions.
+- On Jun 13, 2025 we announced the [West Coast Avengers: Funko Digital Pop! Series 1](https://droppp.io/drop/273/west-coast-avengers-series-1/) Digital Pop! drop.   
 
 -------------------------------------------------------------------------------------------
 
@@ -84,17 +85,18 @@ Updates:
 
 Social Media Engagement
 
-- https://x.com/Dropppio/status/1912198833859371029  (7.2k views)
-- https://x.com/Dropppio/status/1912528928406925799  (8.5k views)
-- https://x.com/Dropppio/status/1912536632882000223  (7.2k views)
-- https://x.com/Dropppio/status/1914789376061809086  (1.7k views)
-- https://x.com/Dropppio/status/1915465848648872111  (5.6k views)
+- https://x.com/Dropppio/status/1929923549189550310  (23.4k views)
+- https://x.com/Dropppio/status/1933547603268153600  (9.7k views)
+- https://x.com/Dropppio/status/1928228690972004818  (7k views)
+- https://x.com/Dropppio/status/1929949850059280646  (4.1k views)
+- https://x.com/Dropppio/status/1930008283332665708  (2.9k views)
 
 Community Coverage
 
-- https://www.youtube.com/watch?v=1tLDjjEPqfc (14k views)
-- https://www.youtube.com/watch?v=_s3XUbuRc9M (1.9k views)
-- https://www.youtube.com/watch?v=3IN3jqKyk2c (1.3k views)
+- https://youtu.be/a4fEe4O3tk4?si=HlkwKIlAt30jR8Pq (14k views)
+- https://youtu.be/kRXoLFn8FHs?si=KddpIe8XDTcLgzJ5 (10k views)
+- https://youtu.be/aLbt0PC-LCA?si=0CRD0ElI3tyjH0FU (2.7k views)
+- https://youtu.be/BSlUsQ8hAIY?si=4dPnx5KiBGKIjpGN (1.7k views)
 
 Droppp Discord
 
