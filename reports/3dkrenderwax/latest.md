@@ -12,54 +12,19 @@
 
 ### <ins>Noteworthy</ins>
 
-We have completed the change from full to partial Hyperion API.
-
-Throughout May 20th, we began detecting abnormal increases in latency on our mainnet producer nodes, so we began performing upgrade and maintenance tasks. These tasks were completed successfully without any lost rounds. The results have been very positive, with a considerable reduction in latency.
-
-In accordance with updates to the assessment requirements, we have removed our IPFS node from the infrastructure information.
-
-We're working on improving the performance of our P2P nodes to meet the new qualification requirements. While the linked public node has always had a complete block history, it seems to be having trouble sharing it.
-
-We're maintaining our Hyperion API (full) and Atomic API testnet infrastructure. Both services were down for a few hours during maintenance.
+We're maintaining our Hyperion API (full) and Atomic API testnet infrastructure.
 
 ### <ins>API Services</ins>
 
-| History (partial)        | History (full) | History (testnet)        | AA API        | Light-API |
-| ------------------------ | -------------- | ------------------------ | ------------- | --------- |
-| [X]                      | []             | [x]                      | [x]           | []        |
-| See stats in links below |                | See stats in links below | 593K req/week |           |
+| History (partial)        | History (full) | History (testnet)        | AA API         | Light-API |
+| ------------------------ | -------------- | ------------------------ | -------------- | --------- |
+| [X]                      | []             | [x]                      | [x]            | []        |
+| See stats in links below |                | See stats in links below | 1.74M req/week |           |
 
 Mainnet API usage: https://apiwax.3dkrender.com/v2/stats/get_api_usage
 Testnet API usage: https://tapiwax.3dkrender.com/v2/stats/get_api_usage
 
 ### <ins>Contributions</ins>
-
-### Rada Quest (Trading Card Game)
-
-**URLs**: https://radaquest.net, https://game.radaquest.net
-
-**List of SCs**: radaquesttcg, radaunpacker, radarentmain, tarukofficer
-
-**Update**:
-
-**Intraverse Kart Racers Gaming Tournament – Season III**
-
-Rada Quest will participate in Intraverse Kart Racers Season III, where our avatar Arianna will be featured as a playable character. Players will be able to choose her and compete in the races. Marketing for the event will begin at the end of May.
-
-This is a multi-chain tournament, with projects from various ecosystems participating, including new communities from SwellChain, ApeChain, and Taiko.
-
-- [Intraverse Kart Racers Season III](https://x.com/intraVerse_Game/status/1920868175857565751)
-
-**WAX ambassador Coliseum Campaign (WAX Hub)**
-
-We will launch a promotional campaign through the WAX Ambassador Hub to promote Coliseum Edition 19. The campaign will begin in late May and run through June 25, aligning with the end of the tournament. The initiative is designed to drive visibility and encourage community engagement around our game.
-
-**Development update**
-
-We are continuing to develop a new version of our game to facilitate access for both off-chain players and mobile devices.
-
-
----
 
 ### Client/Server WAX App Template
 
@@ -73,29 +38,52 @@ Open source Client/Server Template to accelerate the creation of applications in
   - Chapter 1: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-376236e4bf39
   - Chapter 2: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-ii-522f672bc7e2
   - Chapter 3: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-iii-3e08dae524e0
-
+  - Chapter 4: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-iv-b9a22ae3b4dc
+  - Chapter 5: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-v-b458e7dae1df
+  - 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-In this contribution, I focused exclusively on translating the React Native SDK documentation from English to Spanish for the WAX Developer project. The goal was to provide Spanish-speaking developers with clear, accurate, and complete resources for integrating WAX with React Native applications.
+## Translation of Tools Section to Spanish
 
-### Key Contributions
+This PR adds comprehensive Spanish translations for the Tools section of the WAX Developer documentation, making these essential development resources accessible to Spanish-speaking developers.
 
-- **Full Translation of React Native SDK Documentation:**  
-  Faithfully translated all documentation files related to the React Native SDK, ensuring the Spanish versions match the originals in structure, technical content, code examples, and internal/external links.
+### Files Translated
 
-- **Files Translated:**
-  - `index.md` (Overview and features)
-  - `dapp-backend.md` (Backend requirements, example code, configuration, and API key process)
-  - `repository.md` (Repository structure and example app)
-  - `sample-dapp.md` (Reference to example app)
-  - `sdk.md` (SDK usage and integration)
+- **Operating Systems Support** (`docs/es/build/tools/os.md`)
+  - Complete translation of supported OS requirements and Windows development options
+  - Updated internal links to point to Spanish documentation paths
 
-- **Consistency and Quality:**  
-  Maintained technical accuracy, consistent terminology, and formatting throughout the translated documents to ensure usability and professionalism.
+- **Blockchain Tools** (`docs/es/build/tools/blockchain_tools.md`)
+  - Translation of keosd, nodeos, and cleos tool descriptions
+  - Maintained technical accuracy while improving accessibility for Spanish speakers
 
-Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/202
+- **WAX-CDT Options** (`docs/es/build/tools/cdt_options.md`)
+  - Comprehensive translation of all CDT command descriptions and parameters
+  - Translated command descriptions while preserving CLI syntax and technical parameters
+  - Covered cdt-abidiff, cdt-cpp, cdt-init, and cdt-ld tools with detailed option explanations
+
+- **Ricardian Contracts** (`docs/es/build/tools/ricardian_contract.md`)
+  - Translation of Ricardian contract concepts and implementation guide
+  - Maintained legal and technical precision in contract terminology
+  - Updated code examples and internal documentation links
+
+- **Ricardian Clauses** (`docs/es/build/tools/ricardian_clause.md`)
+  - Complete translation including complex legal contract example
+  - Translated all legal clause titles and content while maintaining juridical accuracy
+  - Preserved HTML structure and technical implementation details
+
+### Translation Approach
+
+- **Technical Fidelity**: All command names, file extensions, and CLI parameters remain in English as part of the development interface
+- **Linguistic Accuracy**: Technical concepts translated with precision to maintain clarity for Spanish-speaking developers
+- **Link Maintenance**: Internal documentation links updated to reference Spanish versions (`/es/` paths)
+- **Code Preservation**: All code examples, HTML structures, and technical syntax preserved exactly
+
+This translation work significantly improves accessibility for the Spanish-speaking WAX developer community while maintaining the technical integrity of the original documentation.
+
+Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/202 (updated)
 
 ---
 
@@ -103,41 +91,53 @@ Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/2
 
 # 📊 Marketing & Ecosystem Growth Summary
 
-**April 17 2027 to May 21 2025**
+**May 22 2025 to Jun 20 2025**
 
-•	Twitter: 5K impressions and 15794 Followers, New Follows 62
-•	X Space:  4 spaces as co-host, 1 space as guest. Total 5 spaces and approximate sum of reproductions so far + Tuned in: 616
+- Twitter: 6K impressions and 15935 Followers, New Follows 141, Engagement rate 10.3%
+  
+- X Space: 
+  - 5 spaces as co-host, 1 space as guest
+  - Total 6 spaces and approximate sum of reproductions so far + Tuned in: 763
+  - Total time on X spaces this period: 17:09:35 Hours
+- Lives:
+  - 1 live as guest Viewers 963
 
 
 **Activity breakdown**
 
-During this period, Cristalla continued planning for the upcoming NFTOPIA event while maintaining her regular community engagement efforts. As co-host of the WAX Drop X Space, she has helped run a weekly showcase every Wednesday at 6 PM UTC. This initiative, active since February 7, 2024, has already passed 55 episodes and streams across X (formerly Twitter), Twitch, and the metaverse.
+During this period, Cristalla has actively participated in various live sessions across the Web3 space, expanding the reach of WAX through ecosystem-wide events. She continues to support the planning and coordination of NFTOPIA, while building connections to extend WAX’s presence into new networks. The official Immutable (IMX) X account followed her on X (@queencristalla), further extending the reach and visibility of her WAX-related content to broader audiences.
+Notably, she has taken part in live sessions with the Intraverse team for their latest cross-chain event, which featured Layer 2 chains such as Taiko. 
 
-The space highlights key news, giveaways, NFT drops, and community updates, offering developers, artists, streamers, and collectors a platform to present their projects and connect with others in the WAX ecosystem.
-
-Additionally, Cristalla published a new article titled “WAX Drop X Space by NFTopia: Where Creators Connect”, promoting the space and explaining how it helps amplify voices in the community and encourages collaboration across the ecosystem.
+Cristalla also continues her regular role as co-host of the weekly WAX Drop X Space by NFTopia, held every Wednesday. In the most recent edition, the space ran for a record 3 hours and 41 minutes, thanks to strong community participation and guest speakers who shared updates on their projects. The extended duration and engagement reflect the community’s trust and enthusiasm for a platform where they can showcase their work. Each session also features a special guest, with a focus on inviting participants from other chains and even Web2 platforms, supporting onboarding efforts across ecosystems.
 
 **X SPACES**
 
-**NFTOPIA Wednesday co-host**
+- NFTOPIA Wednesday co-host 
 
-- Week 52 04-23-2025 Reproductions so far + Tuned in 100 Length 2:01:40
-  https://x.com/i/spaces/1lPKqMqlgAPKb/
-- Week 53 04-30-2024 Reproductions so far + Tuned in 91 Length 1:43:32
-  https://x.com/i/spaces/1dRJZYRXbaMGB/
-- Week 54 05-07-2025 Reproductions so far + Tuned in 91 Length 3:30:03
-  https://x.com/i/spaces/1MYxNwYkRopKw/ 
-- Week 55 05-14-2025 Reproductions so far + Tuned in 124 Length 2:37:57
-  https://x.com/i/spaces/1lDGLzjdYBmxm/ 
+- Week 56 05-21-2025 Tuned in 76 Length 2:57:00
+  - https://twitter.com/i/spaces/1ZkKzYOlDQaxv
 
-**Guest WAX Spaces**
+- Week 57 05-28-2025 Tuned in 102 Length 00:59:00
+  - https://x.com/i/spaces/1rmxPymoBnMKN
 
-- WAX Wednesday | Women of WAX Tuned in 210 Length 52:09
-  https://x.com/WAX_io/status/1919852403186126895 
+- Week 57 05-28-2025 Tuned in 71 Length 2:57:00 part2
+  - https://x.com/i/spaces/1dRJZYRXbaMGB/
 
+- Week 58 06-4-2025 Tuned in 50 Length 02:41:10
+  - https://x.com/i/spaces/1mnGegXdvALxX
 
-**Articles**
+- Week 59 05-14-2025 Tuned in 118 Length 3:41:54
+  - https://x.com/i/spaces/1lDGLzjdYBmxm/ 
 
-- WAX Drop X Space by NFTopia: Where Creators Connect
+**Guest Intraverse X Space and LIVE**
 
-https://medium.com/dungeon-keeper-studios/wax-drop-x-space-by-nftopia-where-creators-connect-703da90db9ad
+Intraverse is a cross-chain ecosystem builder that unites Web3 communities through gamified competitions and shared experiences across L1 and L2 chains. The latest event featured over 70 Web3 communities competing in a kart racing challenge. Cristalla was invited to participate in the social segments of the event as a representative of Rada Quest/WAX. She also took the opportunity to promote the upcoming NFTOPIA event to a diverse, multi-chain audience.
+
+- Drift Pass | Mint Party Tuned in 251 Length 2:00:00
+  - https://x.com/intraVerse_Game/status/1927704249145627014
+
+**Live Show**
+Drift Pass | Mint Party Viewers 963 
+https://x.com/intraVerse_Game/status/1930309257414766989
+
+![live show](https://3dkrender.com/wp-content/uploads/2025/06/image001.png)
