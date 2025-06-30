@@ -18,9 +18,9 @@ Nothing to share lately, just the usual updates.
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x] | [ ] | [x] | [x] | [x] | [x] |  [x] |
-| ~2.3M req | - | ~70k req | ~16.8M | ~11.7M req | ~280k req |
+| ~1.8M req | - | ~196k req | ~38M req | ~14M req | ~577k req |
 
-As an additional info, our rpc served ~160M requests in the last 28 days.
+As an additional info, our rpc served ~144M requests in the last 28 days.
 
 All the tracked requests in the table are intended in the last 28 days for every single service provided.
 
@@ -30,7 +30,7 @@ Others APIs: ----
 
 ### Overall Stats for Taco Products
 
-***Period: April 28th 2024 - May 25th 2025***
+***Period: April 28th 2024 - June 30th 2025***
 
 ---
 
@@ -53,8 +53,8 @@ AppStore: [https://apps.apple.com/it/app/taco-wax-utility-tools/id1569255815](ht
 
 |  | All Time | Current Time Span |
 | --- | --- | --- |
-| Downloads | 40.16k | 110 |
-| Screen View | 117.6M | 900k |
+| Downloads | 40.28k | 120 |
+| Screen View | 118.6M | 1M |
 
 ---
 
@@ -66,16 +66,17 @@ https://swap.tacocrypto.io/
 **List of SCs**: swap.taco
 
 **Update**: 
-- Taco Swap has now 5,700 swap pairs, best on WAX
+- Taco Swap has now 5,827 swap pairs, 100+ compared to the previous update
 - New MEALs hotfix
+- New tokens logo mass uploaded
 
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Total Value Locked | 14.3M WAX |
-| Swap Pairs | 5,700+ |
+| Total Value Locked | 15M WAX |
+| Swap Pairs | 5,800+ |
 
 ---
 
@@ -91,17 +92,17 @@ https://swap.tacocrypto.io/nft
 **List of SCs**: swap.taco
 
 **Update**: 
-- There are currently 1328 active MEALs and 73 active SALSA, an all time record for both systems
-- More than 450 WAX in value are distributed every day through SALSA
+- There are currently 1440 active MEALs and 81 active SALSA, another all time record for both systems
+- More than 500 WAX in value are distributed every day through SALSA
 - More than 8500 WAX in value are distributed every day through MEAL
-- 132 NFTs are currently distributed through the NFT Rewards tool every day, another all time record
+- 97 NFTs are currently distributed through the NFT Rewards tool every day
 
 **Metrics**
 
 |  |  |
 | --- | --- |
-| Projects using Creators DeFi Tools | 170+ |
-| Daily Rewards distributed | 1300+ |
+| Projects using Creators DeFi Tools | 180+ |
+| Daily Rewards distributed | 1400+ |
 
 ---
 
@@ -126,7 +127,7 @@ combz.taco
 combzm.taco
 
 **Update**
-- New Quests were created for the Combz Season on May 26th
+- New Quests were created for the Combz Season during the last 30 days
 - Brigade is still one of the top played games within the chain, with around 2.8k transactions every day and 10k+ NFT holders
 - More than 2000 WAX/day are distributed through Brigade
 
@@ -137,7 +138,7 @@ combzm.taco
 | NFT Holders | 10,300 |
 | Minted NFTs | 751k+ |
 | NFT Market Cap | 81M+ WAX |
-| Market Volume (Last 60 days) | 213k WAX |
+| Market Volume (Last 60 days) | 196k WAX |
 | App Downloads | 7.5k+ |
 
 ---
@@ -168,7 +169,7 @@ https://medium.com/@taco.wax/taco-discord-chat-bot-4de0d9b88c4f
 chat.taco
 
 **Update**: 
-- Three more servers related to the WAX chain installed the WAX Chat Bot
+- Two more servers related to the WAX chain installed the WAX Chat Bot
 
 ---
 
