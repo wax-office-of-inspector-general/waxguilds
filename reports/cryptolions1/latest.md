@@ -21,8 +21,10 @@ no issues
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]  | [x] | [x] | [x] | [x] | [x] |  [x] |
-| 2317840 | 492741 | 87402 | 143896 in 3 days | 1590387 req |  1143 req in 6 days |
+| 2027330 | 462642 | 4926 | 88587 in 3 days | 3681410 req |  39973 req in 6 days |
 
+Note: additional stat: 
+/v1/chain/   - 79846564
 
 ### <ins>Contributions</ins>
 
@@ -36,17 +38,41 @@ no issues
 **update**:
 
 During the last report period:
-— We've changed strategy for monthly bounties, to keep users engaged. We made additional development for this purpose.
-— We've maintained existing frontend and backend of version 1.x and 2.x (K2)
-- We had about 10 communications with users in our communication channels, supporting them, answering questions, promoting WAX etc..
+— We've verified new strategy for monthly bounties, works OK, users are engaged.
+— We've maintained existing frontend and backend of both version of our game, 1.x and 2.x (K2)
+- We had about 5 communications with users in our communication channels, supporting them, answering questions, promoting WAX etc..
 
 **Metrics**
-Period: January 25th, 2025 — March 25th, 2025
+Metrics
+Period: April 16, 2025 — May 19, 2025
+Stats:
+Stats from Google Analytics:
+763 users,511 new users, 2m 57s average engagement time:
+https://i.gyazo.com/83d72445b8ceb669271de67376d83c8e.png
+https://i.gyazo.com/1156865eb8db208b8bc0bc7db54f1c7e.png
+https://i.gyazo.com/ff11f93d0ffc029bc6a36faa46bcfaad.png
+https://i.gyazo.com/5159e4985f7c6f9838a4ea0d72313fda.png 
+https://i.gyazo.com/20eb698efb11f9f83ccf4b2e1a08f246.png
+https://i.gyazo.com/999f9fefa27b2d49f4fa9945f1e825a6.png
+https://i.gyazo.com/ce6025d7dcaee83de95f1c3424035065.png
+https://i.gyazo.com/55b961129fceba674b4a40e23bc64373.png
+
+
+Stats from Matomo:
+1547 visits , 3390 pageviews, 2576 unique pageviews: https://i.gyazo.com/6d37d2c98d96981b3fbcdff4196b6a63.png
+Locations:
+https://i.gyazo.com/c6e9947d6e8a24bec36e2edd91f24517.png  
+
 Stats from DappRadar:
 https://dappradar.com/dapp/kolobok-adventures-k2 
-— 24h: ~19 UAW
-— 30d: ~79 UAW
-— Transactions per day: ~300
+— 24h: ~15 UAW
+— 7d: ~30 UAW
+https://i.gyazo.com/614557ffdeff993cdf9d211544ae329e.png 
+— 30d: ~62 UAW
+https://i.gyazo.com/006983f33665203f51896fdcbdffc387.png 
+
+— Kolobok Adventures ranked: 33th in "WAX - Games" according to Unique Active Wallets (UAW) for last 30 days ( https://i.gyazo.com/c1201875a562efbce71462dea961727d.png ) and 17th in "WAX - Collectibles"
+( https://i.gyazo.com/a48dbc650784cf1aa3cfd2b098af0c9e.png ) 
 
 
 ### 2) VR Project status: in production / development
@@ -58,15 +84,21 @@ https://dappradar.com/dapp/kolobok-adventures-k2
 **update**: 
 During this report period:
 — We've maintained existing frontend and backend
-- We've fixed 2 issues
-- We communicated with few users of the product
-- We had a brainstorming session about potential usage and improvements of the project.
+- We've fixed 1 issue
+- We communicated with several users of the product
+- We had communication with few community members about usage of the project, there are some interest and potential future projects based on this project.
 
 **Metrics**
-Period: January 25th, 2025 — March 25th, 2025
-
+Metrics
+Period: April 16, 2025 — May 19, 2025
 Stats:
-~50 users
+Stats from Google Analytics:
+57 users, 47 new users
+https://i.gyazo.com/fd3714121056ddeee2d062c242d59bcb.png
+https://i.gyazo.com/3fdfeb0f7fc94509e165803058df66f2.png
+https://i.gyazo.com/b6f13fa50e3eea0cfc6e11d08e059efe.png 
+https://i.gyazo.com/e1b1454743e06ceeea94d115a2a9b95c.png
+https://i.gyazo.com/57453bfed24640866bd28803b9c2a1f5.png
 
 
 ### 3) SimpleMarket.io - NFT marketplace for SimpleAssets, and also NFT creator tool.
@@ -75,16 +107,18 @@ Stats:
 
 **List of SCs**:  simplemarket
  
+
 **update**: 
  
-regular activites : Continue maintenance, service and support for users and infrastructure. We had to reconfigere and restart our servers, so there were a job for our DevOps team.
+regular activites : Continue maintenance, service and support for the project and infrastructure. We keep uour chats and channels, communicate with users. We improved server for the project.
 
 **metrics**
-Period: January 25th, 2025 — March 25th, 2025
-unique active wallets (last 30 days):  15     https://dappradar.com/dapp/simplemarket?range-ds=30d
+Period: April 16, 2025 — May 19, 2025
+unique active wallets (last 30 days):  10     https://dappradar.com/dapp/simplemarket?range-ds=30d
+
+Contribution to the WAX Defi Fund: (approx) 100 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
 
 Contribution to the WAX Defi Fund: (approx) 300 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
-
 
 
 ### 4) SimpleAssets NFT standard  - 
@@ -93,7 +127,7 @@ Contribution to the WAX Defi Fund: (approx) 300 TX  (from simplemarket account) 
 
 **List of SCs**  simpleassets
 
-update : no new update 
+update : keep supporting and maintaining the project, infra, docs, community, chats etc.
 
 
 
@@ -106,24 +140,22 @@ A multi-sig tool for users to create msig TX's without any technical knowledge.
 
 **update**  
 During the last report period:
-- Made a lot of updates and development and several releases, here are details:
-1) Fixed the number of requested approvals on the MSIG info page (small fix, just was the wrong variable used)
-2) Added the ability to collapse the Actions block
-3) Expired MSIGs now show the expiration date in red
-4) Started adding filters/sorting to the approvals list -- added possibility to show timestamps for approvals and labels for active BPs
-5) Implemented periodic re-fetching of MSIG data to show updates without reloading. It would be useful, especially for screen sharing during approvals.
-6) Now Actions are open by default.
-7) filters/sorting were polished visually + added related google translates
-8) changed time from 5 to 3 seconds, polished the "+N" animation with magic particles (same as in the logo)
-added changing of the page title, user will see more usefull titles in browser history.
-9) improved adaptation of the creation wizard steps and the confirmation step now look as read-only and the list of auths shown without scrollbar
-10) added more reserve api endpoints to the config
+- We continue improving of "instant snapshot" of msig.app msigs URLs, so they look more informative when pasted in telegram chats, which is complicated task technically.
+- Made a several updates and fixes
+- we fixed some issues with this new feature "Expired MSIGs now show the expiration date in red"
 — We've maintained existing frontend and backend 
 
 **Metrics**
-Period: January 25th, 2025 — March 25th, 2025
+Metrics
+Period: April 16, 2025 — May 19, 2025
 Stats:
-Users: ~40
+Stats from Matomo:
+23 visits of WAX (/wax  and /waxTest) of 220 visits in total
+https://i.gyazo.com/1929db1fe496b52879152889aab7814b.png 
+https://i.gyazo.com/f937f55350670bfc13cb9111c1e9c885.png
+https://i.gyazo.com/3d8b92a206c4c984458ea19f49bada8f.png 
+(not all visits are may be visible in Matomo or Google Analytics )
+
 
 ### 6) WAXY Claim bot
 **URLs**: https://waxy.io/
@@ -135,9 +167,22 @@ During the last report period:
 — We've maintained existing frontend and backend 
 
 Metrics
-Period: January 25th, 2025 — March 25th, 2025
+Period: April 16, 2025 — May 19, 2025
 Stats:
-Users: ~25
+Stats from Matomo:
+37 visits:
+https://i.gyazo.com/da1107d48c00802bc056a89d5ae7a635.png 
+
+### 7) APizza - new project, already available for users, but also is improved and develpoped further
+**URLs**: https://apizzadev.cryptolions.io/
+
+**List of SCs**: no
+
+**update**
+We created this project during this month, it has WAX API.
+It is already available. We will add WAX testnet API soon also.
+Users can use for free and users can also pay.
+This project can be also potentially used to facilitate future Hyperion and other API providers for WAX (e.g. if we have 10 providers, this servide can do loadbalancing and statistics and potentially auto-payments for providers based on stat.)
 ---
 
 
@@ -153,6 +198,6 @@ URL: https://wax-backup.cryptolions.io/
 
 ### <ins>Feedback to OIG</ins>
 
-no feedback today
+Sorry missed to download this report in January. Downloading now with delay.
 
 ----
