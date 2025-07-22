@@ -19,7 +19,7 @@ We're maintaining our Hyperion API (full) and Atomic API testnet infrastructure.
 | History (partial)        | History (full) | History (testnet)        | AA API         | Light-API |
 | ------------------------ | -------------- | ------------------------ | -------------- | --------- |
 | [X]                      | []             | [x]                      | [x]            | []        |
-| See stats in links below |                | See stats in links below | 1.74M req/week |           |
+| See stats in links below |                | See stats in links below | 2.82M req/week |           |
 
 Mainnet API usage: https://apiwax.3dkrender.com/v2/stats/get_api_usage
 Testnet API usage: https://tapiwax.3dkrender.com/v2/stats/get_api_usage
@@ -40,104 +40,92 @@ Open source Client/Server Template to accelerate the creation of applications in
   - Chapter 3: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-iii-3e08dae524e0
   - Chapter 4: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-iv-b9a22ae3b4dc
   - Chapter 5: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-v-b458e7dae1df
+  ADD:
+  - Chapter 6: https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-vi-932c6bc06b04
+  - Chapter 7 (last): https://medium.com/@dunkeepstudios/wax-blockchain-application-development-client-server-with-react-and-node-js-vii-e8322767ff0f
   - 
 ### WAX Developer Portal (community project)
 
 **URLs**: https://developer.wax.io/
 
-## Translation of Tools Section to Spanish
+## Translation of Unity SDK Documentation to Spanish
 
-This PR adds comprehensive Spanish translations for the Tools section of the WAX Developer documentation, making these essential development resources accessible to Spanish-speaking developers.
+This PR adds Spanish translations for the Unity SDK section of the WAX Developer documentation, making it more accessible to Spanish-speaking developers.
 
 ### Files Translated
 
-- **Operating Systems Support** (`docs/es/build/tools/os.md`)
-  - Complete translation of supported OS requirements and Windows development options
-  - Updated internal links to point to Spanish documentation paths
+- **SDK Overview** (`docs/es/build/cloud-wallet/sdks/unity/index.md`)
+  - Complete translation of SDK features, installation instructions, and usage examples
+  - Maintained technical accuracy of code samples and configuration details
 
-- **Blockchain Tools** (`docs/es/build/tools/blockchain_tools.md`)
-  - Translation of keosd, nodeos, and cleos tool descriptions
-  - Maintained technical accuracy while improving accessibility for Spanish speakers
+- **Backend Requirements** (`docs/es/build/cloud-wallet/sdks/unity/dapp-backend.md`)
+  - Translation of backend implementation guide and API requirements
+  - Preserved code examples and technical parameters
+  - Translated configuration details and error handling
 
-- **WAX-CDT Options** (`docs/es/build/tools/cdt_options.md`)
-  - Comprehensive translation of all CDT command descriptions and parameters
-  - Translated command descriptions while preserving CLI syntax and technical parameters
-  - Covered cdt-abidiff, cdt-cpp, cdt-init, and cdt-ld tools with detailed option explanations
+- **Repository Structure** (`docs/es/build/cloud-wallet/sdks/unity/repository.md`)
+  - Translation of repository organization and component descriptions
+  - Maintained directory structure and technical terminology
 
-- **Ricardian Contracts** (`docs/es/build/tools/ricardian_contract.md`)
-  - Translation of Ricardian contract concepts and implementation guide
-  - Maintained legal and technical precision in contract terminology
-  - Updated code examples and internal documentation links
+- **Sample dApp** (`docs/es/build/cloud-wallet/sdks/unity/sample-dapp.md`)
+  - Translation of demo implementation guide and functionality examples
+  - Preserved demo screenshots and implementation details
 
-- **Ricardian Clauses** (`docs/es/build/tools/ricardian_clause.md`)
-  - Complete translation including complex legal contract example
-  - Translated all legal clause titles and content while maintaining juridical accuracy
-  - Preserved HTML structure and technical implementation details
+- **SDK Implementation Guide** (`docs/es/build/cloud-wallet/sdks/unity/sdk.md`)
+  - Comprehensive translation of implementation details, security considerations, and platform-specific setup
+  - Maintained code examples, method signatures, and technical parameters
+  - Translated error messages and debugging information
 
 ### Translation Approach
 
-- **Technical Fidelity**: All command names, file extensions, and CLI parameters remain in English as part of the development interface
-- **Linguistic Accuracy**: Technical concepts translated with precision to maintain clarity for Spanish-speaking developers
-- **Link Maintenance**: Internal documentation links updated to reference Spanish versions (`/es/` paths)
-- **Code Preservation**: All code examples, HTML structures, and technical syntax preserved exactly
+- Preserved all technical terms, method names, and code syntax
+- Maintained consistent terminology across all SDK documentation
+- Updated internal documentation links to reference Spanish versions
+- Ensured code examples remain functional while translating comments and error messages
 
-This translation work significantly improves accessibility for the Spanish-speaking WAX developer community while maintaining the technical integrity of the original documentation.
+This translation work significantly improves accessibility for Spanish-speaking Unity developers working with the WAX Cloud Wallet SDK.
 
-Associated Pull Request: https://github.com/worldwide-asset-exchange/docs/pull/202 (updated)
+Associated Pull Request (add): https://github.com/worldwide-asset-exchange/docs/pull/202 (updated)
 
 ---
 
-### <ins>Marketing</ins>
+### <ins>Marketing & Ecosystem Growth Summary</ins>
+**Period:** June 21 2025 - July 21 2025
 
-# 📊 Marketing & Ecosystem Growth Summary
+#### Social Media Performance
+| Platform | Metric | Value |
+|----------|--------|-------|
+| Twitter | Impressions | 14.7K |
+| Twitter | Followers | 16,139 |
+| Twitter | New Follows | 204 |
+| Twitter | Engagement Rate | 7% |
 
-**May 22 2025 to Jun 20 2025**
+#### X Spaces Activity
+Total Spaces as Co-host: 4  
+Total Reproductions + Tuned in: 637  
+Total Time on X Spaces: 11:23:55 Hours
 
-- Twitter: 6K impressions and 15935 Followers, New Follows 141, Engagement rate 10.3%
-  
-- X Space: 
-  - 5 spaces as co-host, 1 space as guest
-  - Total 6 spaces and approximate sum of reproductions so far + Tuned in: 763
-  - Total time on X spaces this period: 17:09:35 Hours
-- Lives:
-  - 1 live as guest Viewers 963
+#### Activity Breakdown
+During this period, Cristalla has continued hosting the weekly X Space every Wednesday, sharing the latest news and updates from across the WAX ecosystem with the community. The format also includes a rotating guest spotlight, where each week a relevant Web3 project is invited to expand our presence and foster cross-community visibility across different chains.
 
+In addition, she continues to actively contribute to the planning and coordination of NFTOPIA, including networking, logistics, outreach, and promotion for the upcoming event.
 
-**Activity breakdown**
+One of the month's most notable guests was Hungry Degens, a project with a strong and engaged community on chains like Base and ApeChain.
 
-During this period, Cristalla has actively participated in various live sessions across the Web3 space, expanding the reach of WAX through ecosystem-wide events. She continues to support the planning and coordination of NFTOPIA, while building connections to extend WAX’s presence into new networks. The official Immutable (IMX) X account followed her on X (@queencristalla), further extending the reach and visibility of her WAX-related content to broader audiences.
-Notably, she has taken part in live sessions with the Intraverse team for their latest cross-chain event, which featured Layer 2 chains such as Taiko. 
+![Hungry Degens](https://3dkrender.com/wp-content/uploads/2025/07/image001.png)
+ 
+On the content side, visibility was also given to ScurvyBot, a powerful tool that enables streamers to gamify audience engagement using WAX as the core blockchain.
 
-Cristalla also continues her regular role as co-host of the weekly WAX Drop X Space by NFTopia, held every Wednesday. In the most recent edition, the space ran for a record 3 hours and 41 minutes, thanks to strong community participation and guest speakers who shared updates on their projects. The extended duration and engagement reflect the community’s trust and enthusiasm for a platform where they can showcase their work. Each session also features a special guest, with a focus on inviting participants from other chains and even Web2 platforms, supporting onboarding efforts across ecosystems.
+#### X Spaces Details
+##### NFTOPIA Wednesday Co-host Sessions
 
-**X SPACES**
+| Week | Date | Tuned In | Length | Link |
+|------|------|----------|---------|------|
+| 60 | 06-25-2025 | 111 | 3:16:51 | [Listen](https://x.com/i/spaces/1yoKMozeQrOJQ) |
+| 61 | 07-02-2025 | 218 | 2:30:18 | [Listen](https://x.com/i/spaces/1djxXVoweavGZ) |
+| 62 | 07-09-2025 | 209 | 2:52:56 | [Listen](https://x.com/i/spaces/1yNGaLWdzLjKj) & [Listen](https://x.com/i/spaces/1ZkJzYejjzvGv) |
+| 63 | 07-16-2025 | 99 | 2:43:50 | [Listen](https://x.com/i/spaces/1zqKVjBENzZKB) |
 
-- NFTOPIA Wednesday co-host 
+#### Published Articles
+- [Reward Your Viewers and Build a Real Community with ScurvyBot #watchtoearn](https://medium.com/dungeon-keeper-studios/reward-your-viewers-and-build-a-real-community-with-scurvybot-watchtoearn-ab26911c3b9a)
 
-- Week 56 05-21-2025 Tuned in 76 Length 2:57:00
-  - https://twitter.com/i/spaces/1ZkKzYOlDQaxv
-
-- Week 57 05-28-2025 Tuned in 102 Length 00:59:00
-  - https://x.com/i/spaces/1rmxPymoBnMKN
-
-- Week 57 05-28-2025 Tuned in 71 Length 2:57:00 part2
-  - https://x.com/i/spaces/1dRJZYRXbaMGB/
-
-- Week 58 06-4-2025 Tuned in 50 Length 02:41:10
-  - https://x.com/i/spaces/1mnGegXdvALxX
-
-- Week 59 05-14-2025 Tuned in 118 Length 3:41:54
-  - https://x.com/i/spaces/1lDGLzjdYBmxm/ 
-
-**Guest Intraverse X Space and LIVE**
-
-Intraverse is a cross-chain ecosystem builder that unites Web3 communities through gamified competitions and shared experiences across L1 and L2 chains. The latest event featured over 70 Web3 communities competing in a kart racing challenge. Cristalla was invited to participate in the social segments of the event as a representative of Rada Quest/WAX. She also took the opportunity to promote the upcoming NFTOPIA event to a diverse, multi-chain audience.
-
-- Drift Pass | Mint Party Tuned in 251 Length 2:00:00
-  - https://x.com/intraVerse_Game/status/1927704249145627014
-
-**Live Show**
-Drift Pass | Mint Party Viewers 963 
-https://x.com/intraVerse_Game/status/1930309257414766989
-
-![live show](https://3dkrender.com/wp-content/uploads/2025/06/image001.png)
