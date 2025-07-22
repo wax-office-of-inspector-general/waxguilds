@@ -13,17 +13,8 @@
 
 ### <ins>Noteworthy</ins>
 
-- We updated our P2P node to using full block log.
+- Made some changes to sengine to ensure it has better failure on those guilsd where connectiosn take a very long time, to ensure timely starting of the next phase of tests
 
-
-
-### <ins>Concerns</ins>
-
-As a WAX block producer actively contributing to the ecosystem, we are increasingly concerned about the timeliness of funding through WaxLabs. Many guilds, including ours, have been investing upfront to deliver valuable products and initiatives. However, the current review and approval process for deliverables appears significantly delayed.
-
-For instance, we submitted our first deliverable for an approved project 30 days ago and are still awaiting a review. In our case, development work has already been completed and paid for internally, but we are now left waiting on overdue payment from our client — WaxLabs — which is creating financial strain.
-
-With several guilds likely to submit funding requests at once, we are concerned that the current system is not equipped to handle this volume efficiently. Without a more timely and transparent review and payment process, it will become increasingly difficult for contributors to commit resources to the ecosystem.
 
 ### <ins>API Services</ins>
 
