@@ -13,7 +13,7 @@
 
 ### <ins>Noteworthy</ins>
 
-- Made some changes to sengine to ensure it has better failure on those guilsd where connectiosn take a very long time, to ensure timely starting of the next phase of tests
+- Minor updates on sengine to re-include guilds that were previsously removed.
 
 
 ### <ins>API Services</ins>
