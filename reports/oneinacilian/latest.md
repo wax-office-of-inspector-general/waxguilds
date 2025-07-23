@@ -13,18 +13,42 @@
 | Guild Jurisdiction | London |
 
 
-### <ins>June 2025 Update</ins>
+### <ins>July 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
 
-This month we have completed a significant enhancement to our Hyperion deployment by transitioning RabbitMQ from a single-node instance to a highly available, multi-node cluster. The new architecture consists of a 3-node RabbitMQ cluster with HAProxy load balancing, eliminating the messaging layer as a single point of failure. The entire cluster and load balancer configuration is now fully automated via our environment generation scripts, ensuring the setup is repeatable, scalable, and correct. This upgrade delivers improved fault tolerance, uptime, and resilience to the Hyperion block sync and indexing process, providing a stronger foundation for our Hyperion data services.
+## July 2025 Update
 
-In parallel, we have continued to optimise our production LightAPI and Chronicle stack with ongoing tuning of WebSocket throughput, database indexing, and automated fault recovery.
+This month we’re proud to announce the release of the **OIAC Hyperion K8s Suite** — a fully automated, production-grade Kubernetes deployment framework for WAX infrastructure.
 
-Our Seed Node Endpoint remains under active monitoring and refinement to maintain high peering reliability and fast synchronisation performance, aligned with evolving OIG requirements.
+🔗 Repository: [https://github.com/oneinacillian/hyperion-k8s](https://github.com/oneinacillian/hyperion-k8s)
 
-Finally, we continue to make incremental improvements to our Docker-based stack, maintaining seamless automated SSL renewals and refining reverse proxy handling to further enhance service resilience and connection stability.
+The suite introduces a modular Kubernetes-based deployment architecture, allowing single-command provisioning of Elasticsearch, Redis, RabbitMQ, Kibana, and Hyperion — all orchestrated with GitOps via ArgoCD. Optional tooling includes Rancher and Harbor for secure image and cluster management.
+
+### Key Features
+
+- **Production-Ready Orchestration**: Built on K3s (lightweight Kubernetes), providing self-healing, rolling updates, health checks, and native scaling.
+- **Idempotent Automation**: Each component deploys with a single script (`deploy.sh`), ensuring consistent, repeatable, and upgradeable infrastructure.
+- **GitOps & Secure Image Management**: Seamless integration with ArgoCD and Harbor, with TLS and Ingress support out of the box.
+- **Modular & Maintainable**: Each service is managed independently, improving observability, resilience, and developer velocity.
+- **Local Development Support**: Docker Compose setups are included for local testing and development parity.
+
+This marks a significant upgrade from traditional Docker Compose setups and reflects our long-term commitment to operational excellence and cloud-native best practices.
+
+We believe this is the first publicly available Kubernetes deployment of Hyperion infrastructure in the WAX ecosystem.
+
+### 🔹 OIG Note
+
+We respectfully request full points under the **Docker Build Projects** category for this contribution. The OIAC Hyperion K8s Suite:
+- Is fully open source and publicly maintained
+- Is actively used in our infrastructure
+- Provides modular, production-ready tooling
+- Is designed for reuse by other guilds
+- Represents meaningful technical advancement in deployment methodology
+
+Ongoing work includes Helm/Kustomize support, further component expansion, and security hardening. We welcome feedback and collaboration from the wider WAX guild community.
+
 
 ### <ins>API Services</ins>
 
