@@ -15,16 +15,13 @@
 no issues 
 
 
-
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [x]  | [x] | [x] | [x] | [x] | [x] |  [x] |
-| 519690 | 1502944 | 3090 | 3277729 in 3 days | 3910410 req |  38173 req in 6 days |
+| 1131546 | 14915122 | 13296 in 1 day | 276797 in 3 days | 650012 req |  48439 req in 5 days |
 
-Note: additional stat: 
-/v1/chain/   - 88848188
 
 ### <ins>Contributions</ins>
 
@@ -37,39 +34,39 @@ Note: additional stat:
 
 **update**:
 During this report period:
-— We've maintained existing frontend and backend of version 1.x and 2.x (K2)
-— Prepared illustration and rules for next Bounty program
-- We had about 4 communications with users in our communication channels, supporting them, answering questions, promoting WAX etc..
+— We've maintained existing frontend and backend of version 1.x (https://wax.kolobok.io/koloboks)  and 2.x (K2, https://play.kolobok.io/ )
+— Made fix in the code
+- We had several communications with users in our communication channels, supporting them, answering questions, promoting WAX etc..
 
 **Metrics**
-Period: May 20, 2025 — June 19, 2025
+Period: July 21, 2025 — Aug 19, 2025 
 Stats:
 Stats from Google Analytics:
-472 users, 361 new users, 4m 57s average engagement time:
-https://i.gyazo.com/53f1961415512491c63a872d6e4fa72a.png 
-https://i.gyazo.com/09c81bea5ee85a8fa33b14e5b44e3923.png
-https://i.gyazo.com/3695c630b1f9d43675ee3d8e178ddebc.png
-https://i.gyazo.com/84f1562888a1eb7dda105a6a20895159.png
-https://i.gyazo.com/660e36eef83413a74d3d3dba5942352e.png
-https://i.gyazo.com/81ef8af9e9f1eb0e975e432f4fd4ae06.png
-https://i.gyazo.com/3849553bbdb69927a36a57f67f135807.png 
-https://i.gyazo.com/488b67bba7662b2f189772d33251fe14.png
+385 users, 311 new users, 3m 55s average engagement time:
+https://i.gyazo.com/439eccdcbf53ec0da8212484ae3b4a4c.png
+https://i.gyazo.com/629824ec27937eaccfa08d93a07a2450.png
+https://i.gyazo.com/6725b28d3c5440fbb3c67f306492e4df.png
+https://i.gyazo.com/81d3d83d1ec16732d58a79c98b8bc5e8.png
+https://i.gyazo.com/9df5d6f72ade10711388b148a0b96452.png
+https://i.gyazo.com/9faf2bdf4f6a13f3837e50a7f233f44e.png
+https://i.gyazo.com/f085fc57f8553d27662c780504a4129a.png
+https://i.gyazo.com/85ccb2dace76c2b9315fe53636c6f383.png
 
 Stats from Matomo:
-1232 visits , 2339 pageviews, 1842 unique pageviews: https://i.gyazo.com/eb5a3713609aedc3e10b64560a8dca83.png 
+1075 visits , 1979 pageviews, 1571 unique pageviews: https://i.gyazo.com/c8dafe628c1418fbb0b2856d89df4e10.png
 Locations:
-https://i.gyazo.com/af144bf6ea859427b78469341113dd6d.png 
+https://i.gyazo.com/a90e2862fe265b55ab936019d4957126.png 
 
 Stats from DappRadar:
 https://dappradar.com/dapp/kolobok-adventures-k2 
-— 24h: ~12 UAW
-— 7d: ~24 UAW
-https://i.gyazo.com/75fc9becbeb4c1d4e9b34835c7d6972d.png 
-— 30d: ~42 UAW
-https://i.gyazo.com/376ed3dfe5f99c11bde4b516849c8f27.png 
+— 24h: ~10 UAW
+— 7d: ~19 UAW
+https://i.gyazo.com/ef14c7b9c6ff93909bfd9b7a6513288a.png 
+— 30d: ~35 UAW
+https://i.gyazo.com/1e9ee97f4430e95761eba313959dee9d.png 
 
-— Kolobok Adventures ranked: 39th in "WAX - Games" according to Unique Active Wallets (UAW) for last 30 days ( https://i.gyazo.com/34e5c5f208846efe03e593a482914839.png ) and 20th in "WAX - Collectibles"
-( https://i.gyazo.com/b2e56721c0766dc9382b32fe42037565.png ) 
+— Kolobok Adventures ranked: 38th in "WAX - Games" according to Unique Active Wallets (UAW) for last 30 days ( https://i.gyazo.com/e42187a4acde18dd0d0cbdefd14a4aa6.png  ) and 20th in "WAX - Collectibles"
+( https://i.gyazo.com/b77151cd7d216ae9b2e2974dacb39353.png ) 
 
 
 
@@ -82,21 +79,25 @@ https://i.gyazo.com/376ed3dfe5f99c11bde4b516849c8f27.png
 **update**: 
 During this report period:
 — We've maintained existing frontend and backend
-- We've fixed 2 issues
-- We communicated with 2 users of the product
-- We asked NFTOPIA co-founder their feedback on the PresentHall, there are some interest and potential future projects based on this project.
+- We gathered feedback from users.
+- We've fixed several issues.
+- We investigated HotJar video of users interactions with our UI and found improvements
 
 **Metrics**
-Period: May 20, 2025 — June 19, 2025
+Period: July 21, 2025 — Aug 19, 2025 
 Stats:
 Stats from Google Analytics:
-9 users, 9 new users
-https://i.gyazo.com/d846488b35fd5868ed8d140c5af9d441.png 
-https://i.gyazo.com/352b3dd8ece993203b62c38ba7146e49.png
-https://i.gyazo.com/3fb5d12eb04bbde9ad4fd2ab611aa611.png
-https://i.gyazo.com/7930c35f0030ded138738699a3300534.png
-https://i.gyazo.com/90d15236929030470739d75021d3e40c.png 
-https://i.gyazo.com/e1eb4e6cd76e44d4aa259b8a3dc48ecc.png
+104 users, 100 new users
+https://i.gyazo.com/2344f4ae59b1b1abb07e8e227e75ec2f.png
+https://i.gyazo.com/033b000e4dee916e6e88286266c7dfbb.png
+https://i.gyazo.com/865a8e75da478fa98eb67edbb4f801b3.png
+https://i.gyazo.com/ba266e43476753e308eaf4bad56b9d2d.png
+https://i.gyazo.com/956d9d342c32b68ca08aa900d7f12479.png
+https://i.gyazo.com/64e72a6debe7c44f6071c92289ade51b.png
+
+Stats from Matomo:
+https://i.gyazo.com/3cebbdf8293eab25a3b5b1c790743e06.png
+https://i.gyazo.com/5a922c1edda34d343c705ac44e7d00a1.png
 
 
 
@@ -109,21 +110,21 @@ https://i.gyazo.com/e1eb4e6cd76e44d4aa259b8a3dc48ecc.png
 
 **update**: 
 During this report period:
+We made recalculation of the infra cost for the project, because it is spread through many servers, preparing for cost-optimisation.
 Continue maintenance, service and support for the project and infrastructure. 
 We keep our chats and other social channels, communicate with users. 
-We start buying new server for the project.
 
 **metrics**
-Period: May 20, 2025 — June 19, 2025
+Period: July 21, 2025 — Aug 19, 2025 
 Stats:
 Stats from Matomo:
-514 visits, 1,016 pageviews, 947 unique pageviews 
-https://i.gyazo.com/3db910d9aff1c802f992fdeb58273d9b.png 
-https://i.gyazo.com/4f7e72b984155c64a3ce94717466508c.png 
+620 visits, 1683 pageviews, 1624 unique pageviews 
+https://i.gyazo.com/c438f670b6f4cccc5b7688c009534b6a.png 
+https://i.gyazo.com/259a5b10d9ba7f1d1f72e1107539af90.png 
 
-unique active wallets (last 30 days):  9     https://dappradar.com/dapp/simplemarket?range-ds=30d
+Unique active wallets (last 30 days):  6     https://dappradar.com/dapp/simplemarket?range-ds=30d
 
-Contribution to the WAX Defi Fund: (approx) 40 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
+Contribution to the WAX Defi Fund: (approx) 50 TX  (from simplemarket account) https://wax.bloks.io/account/netfeeac.wax
 
 
 
@@ -147,20 +148,21 @@ A multi-sig tool for users to create msig TX's without any technical knowledge.
 **List of SCs**   using system SC's
 
 **update**  
-During this report period:
-- Made a several fixes
-- we tested this new feature "Expired MSIGs now show the expiration date in red"
+During the last report period:
 — We've maintained existing frontend and backend 
-— We was working on improving UI, added SSR for better SEO and sharing in social media and messengers (including for WAX and WAX Testnet: https://dev.msig.app/wax , https://dev.msig.app/waxTest )
+— We deployed the resolving the issues with the creation MSIG for 
+“treasury.oig:addbalance” https://msig.app/wax/kaefer.oig/notionbill2 (array handling and validation) and informed Kaefer OIG
+— We moved “Save as JSON” button to the more visible place and polished a bit UI of the creation MSIG Wizard to improve adaptive layout
 
 **Metrics**
-Period: May 20, 2025 — June 19, 2025
+Period: July 21, 2025 — Aug 19, 2025 
 Stats:
 Stats from Matomo:
-11 visits of WAX (/wax  and /waxTest) of 169 visits in total
-https://i.gyazo.com/4ec3887c568f29d5e5a8c82d738b53ba.png 
-https://i.gyazo.com/3628a8a18782ec6c9f18ce02469473e5.png 
-(not all visits are may be visible in Matomo or Google Analytics )
+Out of 142 total visits, there were 7 visits, 46 pageviews and 25 unique pageviews of the WAX pages (/wax and /waxTest).
+(Note: Not all visits may be visible in Matomo)
+https://i.gyazo.com/31fca112814c69c430efe6f2a958b648.png 
+https://i.gyazo.com/891176dfa6d1039049a03603bd91036e.png
+https://i.gyazo.com/0e01ae1129c30d0566c83c9b26145c13.png 
 
 
 
@@ -174,27 +176,27 @@ During this report period:
 — We've maintained existing frontend and backend 
 
 Metrics
-Period: May 20, 2025 — June 19, 2025
+Period: July 21, 2025 — Aug 19, 2025 
 Stats:
 Stats from Matomo:
-15 visits:
-https://i.gyazo.com/b81dc270f2fcb9c5dcebd69bbba08f15.png 
+18 visits:
+https://i.gyazo.com/52f33675804838ad9f7cb208dfe78a17.png 
 
 
 
 ### 7) APizza - new project, already available for users, but also is improved and develpoped further
-**URLs**: https://apizza.hot/ https://apizzadev.cryptolions.io/
+**URLs**: https://apizza.hot/ 
 
 **List of SCs**: no
 
 **update**
 During this report period:
-We released this project.
-We bought new domain. 
-We moved to new domain.
-We bought new server.
+We made 5 releases (updates) of project.
+We already have 2 active users and 10+ registrations.
+We added about 10 new features. 
+We added test infra and test domains to be able to test updates better.
 We added few new APIs there.
-We communicated with 15 userd in Linkedin, we got feedback and interest from them.
+We reached to 150 potential users in Linkedin, we got feedback and interest from 15 of them.
 
 Note: This project can be also potentially used to facilitate future Hyperion and other API providers for WAX (e.g. if we have 10 providers, this servide can do loadbalancing and statistics and potentially auto-payments for providers based on stat.)
 ---
