@@ -13,16 +13,24 @@
 | Guild Jurisdiction | London |
 
 
-### <ins>July 2025 Update</ins>
+### <ins>August 2025 Update</ins>
 We are pleased to provide an update on the latest developments and contributions from **One In A Cillian** to the WAX blockchain ecosystem. 
 
 ### <ins>Noteworthy</ins>
+
+### Atomic Deploy for Kubernetes
+
+For our August update, OIAC has released **Atomic Deploy for Kubernetes**, available here: [https://github.com/oneinacillian/docker_compose_autobuilds](https://github.com/oneinacillian/docker_compose_autobuilds).
+
+This tool automates the conversion of `docker-compose.yml` files into Kubernetes-ready deployments, providing a simple but powerful path from Compose-based setups to scalable, production-grade environments. The system is designed to be highly **customisable**, giving operators the flexibility to adjust deployments to their own infrastructure requirements while still ensuring consistency, repeatability, and ease of upgrades.
+
+This builds on our July release of the **OIAC Hyperion K8s Suite**, with both projects now consolidated into the same repository for ease of access and collaboration. Taken together, these initiatives provide a modular and extensible approach for running Hyperion, Atomic Assets, and related services in Kubernetes, lowering barriers to adoption and enabling more resilient, enterprise-grade deployments across the WAX ecosystem.
 
 ## July 2025 Update
 
 This month we’re proud to announce the release of the **OIAC Hyperion K8s Suite** — a fully automated, production-grade Kubernetes deployment framework for WAX infrastructure.
 
-🔗 Repository: [https://github.com/oneinacillian/hyperion-k8s](https://github.com/oneinacillian/hyperion-k8s)
+🔗 Repository: [https://github.com/oneinacillian/docker_compose_autobuilds](https://github.com/oneinacillian/docker_compose_autobuilds).
 
 The suite introduces a modular Kubernetes-based deployment architecture, allowing single-command provisioning of Elasticsearch, Redis, RabbitMQ, Kibana, and Hyperion — all orchestrated with GitOps via ArgoCD. Optional tooling includes Rancher and Harbor for secure image and cluster management.
 
