@@ -12,7 +12,8 @@
 
 ### <ins>Noteworthy</ins>
 
-* No updates to mention.  
+* Transitioning to a new servers structure to operate more efficiently while continuing to ensure stability, security, and scalability.
+* Updated IPFS to latest version (v0.36.0)
 
  
 
@@ -21,7 +22,7 @@
 | History (partial) | History (full) | AA API          | Light-API        | IPFS            | Chain API       |
 |-------------------|----------------|-----------------|------------------|-----------------|-----------------|
 | [ ]               | [ ]            | [x]             | [x]              | [x]             | [x]             |
-| -                 | -              | 12.34M req/week | 100.85k req/week | 64 req/week     | 62.64M req/week |
+| -                 | -              | 27.2M req/week  | 34.23k req/week  | 471 req/week    | 78.97M req/week |
 
 ### <ins>Contributions</ins>
 
@@ -33,26 +34,26 @@
 
 **Update**
 
-* No updates to report.
-
+* Added and updated support for mycloudwallet
+ 
 
 **Metrics**  
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
-* Primary market volume: 3.25M WAXP  
-* Secondary market volume: 737K WAXP  
+* Primary market volume: 1.5M WAXP  
+* Secondary market volume: 787K WAXP  
 
 
 **Stats**
 
-* Views: 114k  
-* Users: 3.8k  
-* Avg Engagement Time: 6m 57s
-* Blends performed: 49k
-* Drop claims: 10K
-* Packs opened: 36k
-* Upgrades performed: 2.6k
+* Views: 119k  
+* Users: 4.2k  
+* Avg Engagement Time: 6m 55s
+* Blends performed: 43.5k
+* Drop claims: 11.6K
+* Packs opened: 29.3k
+* Upgrades performed: 1.5k
 
 ---
 
@@ -68,75 +69,72 @@ Period: _May 22, 2025 to Jun 21, 2025_
 
 
 
-* We have facilitated 3.4K drop claims that use custom WAX-based tokens native to 3rd party projects: 
+* We have facilitated 12.4K drop claims that use custom WAX-based tokens native to 3rd party projects: 
 
 |   **Token**   |   **Claims**  |
 |---------------|---------------|
-|   WOMBAT      |	561         |
-|   SKUNKY      |	545         |
-|   AAR         |	345         |
-|   PLAI        |	283         |
-|   OWLZ        |	246         |
-|   BLW         |	222         |
-|   LVAPE       |	188         |
-|   HAZE        |	138         |
-|   HOWL        |	98          |
-|   SQJ         |	82          |
-|   NEFTY       |	82          |
-|   KEK         |	76          |
-|   CARZ        |	72          |
-|   WUF         |	70          |
-|   CHIPS       |	44          |
-|   BINX        |	39          |
-|   FIREMAN     |	38          |
-|   ECR         |	27          |
-|   RODC        |	25          |
-|   NOVO        |	24          |
-|   WHATIF      |	22          |
-|   BLUWHL      |	20          |
-|   DUST        |	18          |
-|   DREAM       |	17          |
-|   DINO        |	14          |
-|   CREWC       |	14          |
-|   WOMBEE      |	12          |
-|   NBMCON      |	11          |
-|   GUILD       |	9           |
-|   DTX         |	9           |
-|   PXJ         |	7           |
-|   DHC         |	7           |
-|   AQUA        |	6           |
-|   TACO        |	6           |
-|   HOURS       |	6           |
-|   WOA         |	4           |
-|   BRIX        |	4           |
-|   QUAX        |	4           |
-|   STEAK       |	4           |
-|   TLM         |	4           |
-|   CHAOS       |	3           |
-|   PXF         |	3           |
-|   NIMA        |	3           |
-|   SHING       |	2           |
-|   USDT        |	2           |
+|   RUST        |	5522        |
+|   LVAPE       |	2315        |
+|   THC         |	1200        |
+|   CHIPS       |	1080        |
+|   SKUNKY      |	472         |
+|   TSDM        |	451         |
+|   ECR         |	240         |
+|   AGAR        |	200         |
+|   TIMBER      |	142         |
+|   OWLZ        |	133         |
+|   NEFTY       |	127         |
+|   CARZ        |	77          |
+|   WOMBAT      |	54          |
+|   WUF         |	47          |
+|   LUX         |	34          |
+|   RUM         |	28          |
+|   PXJ         |	28          |
+|   DUST        |	27          |
+|   NOVO        |	22          |
+|   FIREMAN     |	19          |
+|   STEAK       |	18          |
+|   BANANAS     |	18          |
+|   HAZE        |	17          |
+|   LANDIA      |	16          |
+|   SQJ         |	16          |
+|   DHC         |	14          |
+|   QUAX        |	13          |
+|   BINX        |	13          |
+|   NIMA        |	11          |
+|   BRIX        |	9           |
+|   FORGE       |	8           |
+|   TACO        |	7           |
+|   WHATIF      |	5           |
+|   AAR         |	5           |
+|   PXF         |	4           |
+|   WOA         |	3           |
+|   WXBOOTY     |	2           |
 |   UPMAX       |	1           |
-|   CREEPZ      |	1           |
+|   HOWL        |	1           |
+|   GOD         |	1           |
+|   NKFE        |	1           |
+|   KEK         |	1           |
+|   RODC        |	1           |
+|   CREWC       |	1           |
 |   WAXART      |	1           |
-|   SOUL        |	1           |
-|   MORTALS     |	1           |
+
+
 
 **Metrics**  
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
-* Drops created: 550
-* Blends created: 329
-* Packs created: 47
-* Upgrades created: 72
+* Drops created: 365
+* Blends created: 362
+* Packs created: 50
+* Upgrades created: 23
 
 **Stats**
 
-* Views: 20k
-* Users: 449
-* Avg Engagement Time: 19m 05s
+* Views: 19.5k
+* Users: 466
+* Avg Engagement Time: 18m 40s
 
 ---
 
@@ -152,11 +150,11 @@ Period: _May 22, 2025 to Jun 21, 2025_
 
 **Metrics**
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
-* New implementations: 0
-* Total number of implementations: 124
-* Transactions: $295.38
+* New implementations: 3
+* Total number of implementations: 128
+* Transactions: $3.8k
 
 ---
 
@@ -179,9 +177,9 @@ Period: _May 22, 2025 to Jun 21, 2025_
 
 **Metrics**  
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
-* Total visits: 1.12k
+* Total visits: 1.56k
 
 ---
 
@@ -205,7 +203,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 **Update**:
 
 
-* No updates to report
+* Fix pair token logo z-index
 
 
 ---
@@ -216,7 +214,7 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-* Number of subscribers: 191
+* Number of subscribers: 185
 
 ---
 
@@ -228,9 +226,9 @@ Developed strategic partnership with [WaxOnEdge](https://waxonedge.app/) to star
 
 **Metrics**
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
-* Number of TAG crafts: 1282
+* Number of TAG crafts: 0
 
 ---
 
@@ -248,7 +246,7 @@ Period: _May 22, 2025 to Jun 21, 2025_
 
 **URLs**: [https://github.com/neftyblocks/wax-price-oracle](https://github.com/neftyblocks/wax-price-oracle)
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
 
 **Update**:
 
@@ -258,10 +256,10 @@ Period: _May 22, 2025 to Jun 21, 2025_
 
 ### <ins>Marketing</ins>
 
-Period: _May 22, 2025 to Jun 21, 2025_
+Period: _Jul 25, 2025 to Aug 24, 2025_
  
-* [NeftyBlocks X](https://x.com/neftyblocks): we registered 51.1K impressions and 26.4K Followers, engagement rate 9.1%.
-* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 225 monthly visitors, 471 monthly messages.  
+* [NeftyBlocks X](https://x.com/neftyblocks): we registered 51.1K impressions and 26.3K Followers.
+* [NeftyBlocks Discord](https://discord.gg/d3Y25QVKH8): 4k total members, 200 monthly visitors, 357 monthly messages.  
 * [NeftyBlocks Medium](https://neftyblocks.medium.com/): No updates to report.
 
 
