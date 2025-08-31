@@ -12,14 +12,16 @@
 
 ### <ins>Noteworthy</ins>
 
-No issues so far.
+We've recovered from an outage of seed and oracle that cropped up during the middle of July.
+The outage was due to no available engineering capacity.
+All public infra is back to normal since the end of July.
 
 ### <ins>API Services</ins>
 
 | History (partial) | History (full) | History (testnet) | AA API | Light-API  | IPFS |
 |--------|--------|--------|--------|--------|--------|
 | [ ] | [x] | [x] | [x] | [x] | [x] |  [x] |
-| - | 8.67M req/week | 19.1k req/week | 740k req/week | 55.24k req/week |  89.04k req/week |
+| - | 1.67M req/week | 29.18k req/week | 4.7M req/week | 41.15k req/week |  76.86k req/week |
 
 WeCan status page: [https://status.wecan.dev/](https://status.wecan.dev/)
 
@@ -159,6 +161,7 @@ https://hub.docker.com/r/wecandev/eosio-lightapi-chronicle
 ---
 
 ### <ins>Backups </ins>
+Keeping all backups up to date.
 URL: [https://backup.wecan.dev/](https://backup.wecan.dev/)
 
 | Snapshot | Blocks Log | State History | Elastic Search | AA API | Light-API |
